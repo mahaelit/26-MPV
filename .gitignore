@@ -1,0 +1,37 @@
+# =============================================================
+#  .gitignore – LaTeX-Projekt (XeLaTeX + Biber)
+# =============================================================
+
+# ---------- LaTeX-Hilfsdateien ----------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex-*.gz
+*.toc
+*.xdv
+*.bbl-SAVE-ERROR
+*_ExcelToLaTeX.err
+missfont.log
+
+# ---------- Erzeugte PDFs ----------
+# PDFs gehören nicht ins Repo – sie werden bei jedem Build neu erzeugt.
+# Falls ihr eine "Release"-Version teilen wollt, nutzt Git-Tags oder
+# kopiert das PDF manuell an einen anderen Ort.
+*.pdf
+
+# ---------- Editor / OS ----------
+.vscode/
+*.swp
+*~
+Thumbs.db
+.DS_Store

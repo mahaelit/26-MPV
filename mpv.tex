@@ -1,0 +1,1248 @@
+\documentclass[ngerman, a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Aptos}[
+  Path           = ./aptos-font/,
+  Extension      = .ttf,
+  UprightFont    = aptos,
+  BoldFont       = aptos-bold,
+  ItalicFont     = aptos-italic,
+  BoldItalicFont = aptos-black-italic
+]
+\usepackage{babel}
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage[top=2.5cm, right=2.5cm, bottom=2.5cm, left=2.5cm]{geometry}
+\usepackage{calc}
+\usepackage{graphicx}
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[official]{eurosym}
+\usepackage{lastpage}
+\usepackage{etoolbox}
+
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber, sortcites=true, sorting=nyt]{biblatex}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\addbibresource{Quellen.bib}
+
+% hallo schätzi
+% ------------- Abbildungen mit Tikz erstellen
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,shapes,calc}
+
+
+% ------------- Zeilenabstand
+\usepackage{setspace}
+\onehalfspacing
+
+% ------------- Keine Einrückung, dafür Absatzabstand
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip plus 2pt minus 1pt}
+
+% ------------- Kopfzeile
+\usepackage[automark]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearmainofpairofpagestyles
+\ihead{}
+%\ihead[\rightmark]{\pagemark}
+\chead{}
+%\chead{}{}
+\ohead{\pagemark}
+%\ohead[\pagemark]{\rightmark}
+
+% ------------- Rahmenbox für Hinweise
+\usepackage{tcolorbox}
+
+\usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  pdfborderstyle={/S/U/W 0},
+  citebordercolor=1 1 0.8,
+  linkbordercolor=1 1 0.8,
+  urlbordercolor=1 1 0.8
+}
+
+% ----- APA-7-Anpassungen für TeX Live 2024 -----
+\DefineBibliographyStrings{ngerman}{
+  nodate    = {o\adddot\,J\adddot},
+  retrieved = {Zugriff unter},
+}
+
+%-------------- Ende allgemeine Angaben -----------------------------
+\begin{document}
+
+%-------------- Beginn Titelseite -----------------------------------
+\hypersetup{pageanchor=false}
+\thispagestyle{empty}
+
+\includegraphics[height=2cm]{PH_Luzern_Logo.png}
+
+
+\vspace{1cm}
+\begin{center}
+Masterstudiengang Schulische Heilpädagogik \\
+
+\vspace{3cm}
+{\huge Konzept zur Masterarbeit} \\
+
+\vspace{2cm}
+{\fontsize{25}{23}\selectfont
+\textit{Empowerment-Raum}\\
+Ein körper- und achtsamkeitsbasiertes
+Angebot in der
+Primarschule\par}
+
+\vspace{2cm}
+Betreuungsperson: Alafia Zavery \\
+\end{center}
+
+\vspace{3cm}
+\begin{flushright}
+Vorgelegt von: \\
+Inti Merolli \\
+
+\vspace{1cm}
+Abgabe: \\
+Luzern, 17. März 2026
+\end{flushright}
+%-------------- Ende Titelseite -------------------------------------
+
+%-------------- Inhaltsverzeichnis
+\newpage
+\hypersetup{pageanchor=true}
+\pagenumbering{Roman}
+\renewcommand{\thepage}{\Roman{page}}
+\tableofcontents{}
+
+%-------------- Abbildungsverzeichnis
+%\newpage
+%\cleardoublepage\phantomsection
+%\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+%\listoffigures
+
+
+%-------------- Tabellenverzeichnis
+%\newpage
+%\cleardoublepage\phantomsection
+%\addcontentsline{toc}{section}{Tabellenverzeichnis}
+%\listoftables
+
+
+%-------------- Abkürzungsverzeichnis
+\newpage
+\cleardoublepage\phantomsection
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\section*{Abkürzungsverzeichnis}
+
+\begin{tabular}{@{}ll@{}}
+DBR   & Design-Based Research \\
+DVS   & Dienststelle Volksschulbildung \\
+LP    & Lehrperson(en) \\
+SHP   & Schulische Heilpädagogin / Schulischer Heilpädagoge \\
+SE    & Schulentwicklung \\
+SL    & Schulleitung \\
+UE    & Unterrichtsentwicklung \\
+\end{tabular}
+
+
+%-------------- Symbolverzeichnis
+%\newpage
+%\cleardoublepage\phantomsection
+%\addcontentsline{toc}{section}{Symbolverzeichnis}
+%\section*{Symbolverzeichnis}
+
+
+
+\newpage
+\pagenumbering{arabic}
+\renewcommand{\thepage}{\arabic{page}}
+
+
+% ===================================================================
+%  1  EINLEITUNG
+% ===================================================================
+\section{Einleitung inkl.\ Begründung der Zielsetzung und Fragestellung}
+
+\begin{tcolorbox}[
+  colback=gray!8,
+  colframe=gray!40,
+  title=Hinweis zu Entwicklungsarbeiten,
+  fonttitle=\bfseries\small
+]
+Damit Entwicklungen in den Schulen nachhaltig implementiert
+werden können, ist es unumgänglich den Entwicklungsprozess
+im Rahmen des Konzepts sorgfältig zu planen und aufzugleisen.
+Entsprechend sind, ergänzend zum Masterarbeitsprozess, spezifische
+Fragen zu überlegen und zu beantworten.
+Die Fragen sind den Kapiteln zugeordnet
+und werden mit SE/UE eingeleitet.
+\end{tcolorbox}
+
+\medskip
+
+\textit{Worum geht es in der Arbeit?
+Welche theoretischen, berufspraktischen,
+empirischen und/oder \\sozial-gesellschaftlichen Problemstellungen
+bilden den Ausgangspunkt der Arbeit?
+Worin liegt die Bedeutung (Relevanz) des gewählten Themas?}
+
+\medskip
+
+Ebikon ist eine wachsende Agglomerationsgemeinde am Rand
+der Stadt Luzern.
+Rund 1\,600 Kinder und Jugendliche besuchen die Volksschule
+\parencite{SchuleEbikon_Organisation} und
+die Schülerschaft ist sozioökonomisch breit durchmischt.
+Im Schulalltag zeigt sich, wie auch auf kantonaler Ebene, ein zunehmender
+Bedarf an schulischen Antworten auf herausforderndes Verhalten
+und an Strukturen, die Kinder in ihrer sozio-emotionalen
+Entwicklung unterstützen
+\parencite[vgl.][]{DVS_Zahlenspiegel2025}.
+
+Der Kanton Luzern hat diesen Bedarf mit dem
+Entwicklungsvorhaben \textit{<<Schulen für alle>>}
+(2023--2035) aufgegriffen \parencite{DVS_SchulenFuerAlle}.
+Im Baustein \textit{<<System Schule stärken>>} werden
+Schulen aufgefordert, Monitoring- und Förderprozesse
+einzurichten und bei Bedarf Time-In-Angebote als
+ergänzende Lernorte zur Förderung der sozio-emotionalen
+Entwicklung aufzubauen  \parencite{DVS_HerausforderndesVerhalten}.
+Die Primarschule Ebikon Ost arbeitet im Rahmen dieses
+Vorhabens bereits mit dem Baustein
+\textit{<<Mindset Verhalten>>} und wurde von der DVS als
+\textit{<<Schule mit besonderem Profil>>} ausgezeichnet \parencite{EbikonOst_Profil}.
+
+Vor diesem Hintergrund kann der im August 2025 
+eingerichtete Empowerment-Raum an der
+Primarschule Ebikon Ost im Schulhaus Höfli gedacht werden:
+ein körper-, bewegungs- und achtsamkeitsbasiertes Angebot,
+das von der Verfasserin als angehende Schulische Heilpädagogin und
+ausgebildete Yogalehrerin mit einer klassenübergreifenden 
+Kleingruppe von maximal acht Kindern
+der 5.\ und 6.~Klasse wöchentlich durchgeführt wird. Das Angebot
+verbindet ein Repertoire an Yogapraxis, Achtsamkeitsübungen, 
+kreative Ausdrucks- und Bewegungsformen sowie Reflexion.
+Erste Praxiserfahrungen deuten darauf hin, dass ein
+solches Setting Kindern eine bedeutsame Möglichkeit
+bieten kann, innere Sicherheit, Selbstwirksamkeit und Teilhabe
+im schulischen Kontext zu stärken.
+
+Aufgrund der positiven Resonanz seitens der Kinder,
+der Schulleitung sowie der Lehrpersonen und Heilpädagog:innen besteht
+der Wunsch, das Angebot auch für jüngere Kinder zu öffnen
+und beispielsweise als altersdurchmischtes Setting für die Mittelstufe
+(3.--6.~Klasse) weiterzuentwickeln.
+Die Masterarbeit befasst sich mit dieser
+Weiterentwicklung. Das bestehende Angebot soll entsprechend theorie-
+und bedarfsorientiert fundiert, im Hinblick auf die
+Entwicklungsbedürfnisse jüngerer Kinder präzisiert und
+als schulische Unterstützungsstruktur weiterentwickelt, 
+umgesetzt und reflektiert werden.
+
+Der Begriff \textit{Empowerment-Raum} wird in der Masterarbeit
+als Eigenname für das spezifische Angebot verwendet.
+Er bezeichnet ein zeitlich und räumlich festgelegtes Setting
+innerhalb der Schule, in dem Kinder über körper-,
+bewegungs- und achtsamkeitsbasierte Zugänge, Erfahrungen von 
+Ausdruck, Teilhabe und Selbst\-wirk\-sam\-keit machen 
+und Strategien der Selbstregulation aufbauen und erproben können.
+Theoretisch verortet sich das Angebot an der Schnittstelle
+von Empowerment als pädagogischer Haltung,
+Selbstregulation als Zielkompetenz und körperbasierter
+Pädagogik als methodischem Zugang.
+Was den Empowerment-Raum als schulisches
+Unterstützungsangebot auszeichnet, ist die systematische
+Integration yogischer und achtsamkeitsbasierter Elemente
+als Zugang zur Regulationsförderung im Kollektiv. Dieser methodische
+Kern wird in der vorliegenden Arbeit theoretisch vertieft
+und bildet eine wichtige Grundlage für die 
+Entwicklung einer allfälligen Wegleitung.
+
+\textbf{Relevanz:}
+Die Arbeit adressiert eine Lücke, die gleichzeitig
+praktisch, theoretisch, empirisch und gesellschaftlich
+begründet ist: An Primarschulen fehlen systematisch
+dokumentierte, theoriegeleitete Konzepte für
+niederschwellige Unterstützungsangebote, die Kinder
+in ihrer Selbstregulation stärken ohne eine Diagnose
+vorauszusetzen. Lehrpersonen berichten von zunehmendem
+Bedarf an solchen Strukturen, therapeutische Angebote
+sind im Schulalltag häufig schwer zugänglich und die
+Förderung personaler Kompetenzen ist angesichts wachsender
+Heterogenität eine drängende schulische Aufgabe
+\parencite[vgl.][]{Leopoldina2024}.
+
+
+\medskip
+\textit{Was ist das Ziel der Arbeit?
+Was soll mit der Arbeit gezeigt werden?
+Auf welche (möglichst konkrete und präzis formulierte)
+Fragestellung soll die Arbeit eine Antwort liefern?}
+
+\medskip
+
+Ziel der Arbeit ist die theorie- und bedarfsbasierte
+Weiterentwicklung des bestehenden Empowerment-\linebreak[0]Raums
+für die Mittelstufe (3.--6.~Klasse) sowie die
+Pilotierung und Prozessevaluation seiner schulischen
+Umsetzbarkeit -- nicht jedoch der experimentelle
+Nachweis von Wirksamkeit auf die Selbstregulation
+der Kinder oder die therapeutische Behandlung
+einzelner Kinder.
+Angestrebt wird ein Gesamtkonzept, das die
+didaktische Struktur des Angebots, die Zugangslogik
+und Empfehlungspraxis, die Rollen und
+Zuständigkeiten der beteiligten Fachpersonen, die
+Kommunikationswege an Lehrpersonen, Schulleitung
+und Eltern sowie den Evaluationsprozess und die
+Grundlagen für die schulische Verankerung umfasst.
+
+Die leitende Fragestellung lautet: 
+
+\textbf{Inwiefern lässt sich der bestehende Empowerment-Raum für die Mittelstufe so
+weiterentwickeln, dass er als niederschwellige Unterstützungsstruktur
+an der Primarschule Ebikon verankert werden kann?}
+
+Dieser übergeordneten Frage sind drei Unterfragen
+zugeordnet:
+
+\begin{enumerate}[nosep]
+  \item Welche Bedürfnisse, Erwartungen und
+    Rahmenbedingungen benennen die beteiligten
+    Akteur:innen?
+  \item Welche theoriegeleiteten
+    Gestaltungsprinzipien lassen sich für die
+    Entwicklung des Angebots ableiten?
+  \item Wie wird die pilotierte Fassung des Angebots
+    von Kindern und Lehrpersonen hinsichtlich
+    Akzeptanz, Passung und Machbarkeit eingeschätzt?
+\end{enumerate}
+
+\medskip
+\textit{SE/UE: Welche Strukturen und Prozesse werden
+durch das Projekt verändert?
+Welche Akteure werden in die Entwicklung involviert?
+Welche Rolle nimmst du ein?}
+
+\medskip
+
+Das Projekt verändert das bestehende Angebot in drei
+Hinsichten. Es wird auf die Mittelstufe (3.--6.~Klasse)
+ausgeweitet, theoretisch fundiert und so dokumentiert,
+dass es unabhängig von der Person der Verfasserin
+weitergeführt werden kann.
+
+In die Entwicklung sind Akteur:innen auf drei Ebenen
+involviert. Die Schulleitung fungiert als
+Auftraggeberin und trägt die Entscheidung über
+Weiterführung und Ressourcen; sie bildet damit den
+institutionellen Rahmen, innerhalb dessen das Angebot
+überhaupt Bestand haben kann.
+Die Klassenlehrpersonen und SHP der 3.--6.~Klasse
+sind als Kooperationspartner:innen in die
+Bedarfsanalyse, die pädagogische Empfehlung von
+Kindern und das Feedback zur Pilotphase eingebunden --
+sie kennen die Kinder und den Schulalltag am
+unmittelbarsten und sind deshalb unverzichtbare
+Gesprächspartner:innen für die Konzeptentwicklung.
+Die teilnehmenden Kinder schliesslich stehen im
+Zentrum des Angebots; sie werden nicht nur als
+Adressat:innen, sondern über kindgerechte
+Feedbackformate auch als Stimmen in der Evaluation
+ernst genommen.
+Als Schnittstellenpersonen sind ergänzend die
+Schulsozialarbeit, die Leitung der Schulinsel sowie
+der Schulpsychologische und Psychomotorik Dienst
+beteiligt, die bei Bedarf in die Zuweisung und
+Begleitung einbezogen werden.
+
+Die Verfasserin nimmt eine Doppelrolle ein:
+Sie agiert als Initiatorin und Entwicklerin des
+Gesamtkonzepts und zugleich als durchführende Fachperson
+(SHP und Yogalehrerin).
+Diese Personalunion wird in Abschnitt~\ref{sec:methode} diskutiert.
+
+\medskip
+\textit{Bei SE-Projekten: Welchen Auftrag hast du
+von der Schulleitung erhalten und wie ist deine
+Rolle definiert?}
+
+\medskip
+
+Die Schulleitung hat die Verfasserin beauftragt, das
+bestehende Empowerment-Angebot auf die 3./4.~Primarstufe
+auszuweiten und als Teil der schulischen Förderung im
+Bereich der personalen Kompetenzen zu professionalisieren.
+Dieses Vorhaben ist eingebettet in den kantonalen Baustein
+\textit{<<Mindset Verhalten>>}, mit dem die Primarschule
+Ebikon Ost bereits arbeitet.
+Die Schulleitung stellt die dafür notwendigen Ressourcen
+(Raum, Zeitgefässe, Stundenplankoordination) zur Verfügung.
+
+% ===================================================================
+%  2  THEORETISCHER HINTERGRUND
+% ===================================================================
+\section{Theoretischer Hintergrund}
+
+\textit{Auf welche theoretischen Grundlagen und welchen
+empirischen Forschungsstand wird die Arbeit gestützt?
+Welche Erkenntnisse zur gewählten Problem-/Fragestellung
+sind bereits bekannt?}
+
+\medskip
+
+Der theoretische Rahmen dieser Arbeit verbindet vier
+Perspektiven, die gemeinsam das pädagogische Handeln
+im Empowerment-Raum begründen:
+(1)~Empowerment als pädagogische Haltung,
+(2)~körper- und achtsamkeitsbasierte Ansätze als
+methodischer Zugang,
+(3)~Selbstregulation als übergeordnete Zielkompetenz und
+(4)~niederschwellige Unterstützungsstrukturen und
+Schulentwicklung als Rahmen für die strukturelle
+Verankerung.
+Diese vier Perspektiven folgen der Logik:
+Welche Haltung liegt dem Angebot zugrunde?
+Mit welchen Methoden wird gearbeitet?
+Was soll bei den Kindern gefördert werden?
+Und wie wird das Angebot schulisch verankert?
+Im Folgenden werden diese Perspektiven dargestellt
+und am Ende zu Gestaltungsprinzipien verdichtet.
+
+
+% ----- 2.1  Empowerment -----
+\subsection{Empowerment als pädagogische Haltung}
+
+Empowerment bezeichnet in der Sozialen Arbeit Prozesse,
+in denen Menschen Kontrolle über ihre Lebensumstände
+gewinnen \parencite{Herriger2020}.
+\textcite{ZimmermanMA2000} unterscheidet individuelles,
+organisationales und gemeinschaftliches Empowerment.
+Für den schulischen Kontext ist primär das psychologische
+Empowerment relevant, das vier Komponenten umfasst:
+Bedeutsamkeit (\textit{meaning}),
+Kompetenz (\textit{competence}),
+Selbst\-bestimmung (\textit{self-determination}) und
+Einfluss (\textit{impact}).
+
+Auf die Primarschule bezogen, bedeutet Empowerment,
+Kindern Gelegenheiten zu bieten, in denen sie ihre
+Handlungen als bedeutsam erleben, Kompetenzen aufbauen,
+Wahlmöglichkeiten haben und Wirksamkeit erfahren.
+Der Empowerment-Raum bildet diese vier Prinzipien
+strukturell ab: Kinder wählen zwischen Übungsvarianten,
+gestalten Rituale mit, erleben Kompetenz durch
+wiederholtes Üben und erfahren die Wirkung ihres
+Handelns in der Reflexion.
+Mit dem Stigma-Konzept von \textcite{Goffman1963} und dem
+Index für Inklusion \parencite{BoothAinscow2017}
+lässt sich der Empowerment-Raum als pädagogischer Ort
+begründen, an dem Kinder sich jenseits sozialer Zuschreibungen
+als wirksam, anerkannt und zugehörig erleben können.
+
+Empowerment wird in dieser Arbeit daher nicht nur als
+strukturelles Prinzip, sondern auch als eine
+\textit{relationale Haltung} verstanden, die auf Anerkennung,
+Mitgestaltung, Sicherheit und responsiver Begleitung beruht.
+Die humanistische Psychologie, insbesondere der
+personzentrierte Ansatz von \textcite{Rogers2019},
+liefert hierfür die theoretische Grundlage.
+Rogers beschreibt drei Kernbedingungen für eine
+wachstumsfördernde Beziehung: bedingungslose
+Wertschätzung (\textit{unconditional positive regard}),
+Empathie und Kongruenz (Echtheit).
+Wenn diese Bedingungen in einer pädagogischen Beziehung
+gegeben sind, wird die dem Menschen innewohnende
+Aktualisierungstendenz -- das Streben nach Wachstum,
+Entfaltung und Selbstbestimmung -- begünstigt
+\parencite[vgl.][]{Rogers2019}.
+
+Für den Empowerment-Raum bedeutet das konkret:
+Die durchführende Fachperson begegnet den Kindern nicht
+primär als instruierende Lehrkraft, sondern als verlässliche
+Bezugsperson, die Sicherheit, Annahme und Raum für
+eigene Erfahrungen schafft.
+Diese Haltung verbindet sich mit den Prinzipien
+traumasensibler Pädagogik -- Sicherheit, Wahlfreiheit,
+Vorhersehbarkeit, Beziehung
+\parencite{Baer2020, Haerle2021} -- und bildet
+das Fundament, auf dem die methodischen Zugänge
+(Abschnitt~2.2) und die Zielkompetenz Selbstregulation
+(Abschnitt~2.3) aufbauen.
+
+Der Begriff \textit{Empowerment-Raum} verbindet diese
+Haltung mit dem konkreten Setting eines Raumes, in dem
+Stärkung möglich wird.
+
+
+% ----- 2.2  Körperorientierte Ansätze -----
+\subsection{Körper- und achtsamkeitsbasierte Zugänge}
+
+Kinder drücken sich nicht nur über Sprache und Kognition,
+sondern in hohem Mass über Körper, Bewegung und
+unmittelbare Erfahrung aus. Körper- und
+achtsamkeitsbasierte Methoden eröffnen daher
+Beteiligungs- und Erfahrungsmöglichkeiten, die über
+rein kognitive oder sprachliche Formate nicht in
+gleichem Mass entstehen
+\parencite[vgl.][]{VogelFrischknecht2019}.
+
+Achtsamkeit (\textit{mindfulness}) -- die absichtsvolle,
+nicht-wertende Aufmerksamkeit auf den gegenwärtigen
+Moment -- wird im schulischen Kontext zunehmend zur
+Förderung emotionaler Bewusstheit, Stressreduktion und
+sozialer Kompetenz eingesetzt; der Lehrplan~21 führt
+entsprechende überfachliche Kompetenzen explizit auf
+\parencite[vgl.][]{BKDLU2016}.
+\textcite{VogelTschopp2026} verorten Achtsamkeit im
+heilpädagogischen Förderschwerpunkt emotional-soziale
+Entwicklung und beschreiben sie als Zugang, der Kindern
+hilft, emotionale Zustände wahrzunehmen, zu benennen
+und zu regulieren -- ein Prozess, der sich mit der
+Förderung von Selbstwirksamkeit, Resilienz und
+Partizipation verbindet
+\parencite[vgl.][]{GruberVogel2020}.
+In der Schweiz hat sich mit dem \textit{MoMento}-Programm
+ein achtsamkeitsbasiertes Klassentraining etabliert, das
+stufenspezifische Lehrmittel für alle drei Zyklen der
+Volksschule umfasst \parencite{MoMentoSwiss2024};
+erste empirische Hinweise zur Wirkung auf
+Emotionserkennung und Emotionsregulation im
+Deutschschweizer Kontext liefert die Pilotstudie von
+\textcite{TschoppVogel2022} an der PH~Luzern.
+Der Empowerment-Raum unterscheidet sich von solchen
+Klassenprogrammen grundlegend: Er ist ein
+heilpädagogisch geleitetes, klassenübergreifendes
+Kleingruppensetting, in dem Achtsamkeitselemente nicht
+als standardisiertes Curriculum, sondern flexibel und
+unter Mitgestaltung der Kinder eingesetzt werden.
+
+Yoga verdichtet diesen Ansatz, indem es körperliche
+Praxis (Asanas), Atemarbeit (Pranayama) und Achtsamkeit
+zu einem integrativen Zugang verbindet.
+Im Empowerment-Raum geschieht dies nicht als spirituelle,
+sondern als säkulare, regulationsfördernde Methode;
+als Orientierung für die Materialentwicklung dient die
+traumasensible Adaption von \textcite{Haerle2021},
+die aufzeigt, wie yogische Elemente kindgerecht und
+beziehungssensibel gestaltet werden können.
+Über Bewegung und Körperwahrnehmung werden emotionale
+Zustände zugänglich und regulierbar; Atemübungen bieten
+eine unmittelbar verfügbare Technik der
+Selbstberuhigung; achtsame Fokussierung stärkt die
+Fähigkeit, im gegenwärtigen Moment anzukommen; und
+das gemeinsame Üben schafft eine Erfahrung von
+Ko-Regulation und sozialer Zugehörigkeit.
+Stresspsychologisch lassen sich diese Wirkprinzipien
+mit der Entspannungsreaktion begründen: Körperbasierte
+Verfahren aktivieren parasympathische Prozesse, die
+Muskeltonus, Atemfrequenz und emotionale Erregung
+herabsetzen und dadurch Aufmerksamkeit, soziale
+Offenheit und Selbststeuerung begünstigen
+\parencite[vgl.][]{Ohm2025}.
+
+Mehrere systematische Reviews belegen kleine bis moderate
+Effekte schulbasierter Yoga- und
+Achtsamkeitsinterventionen auf Selbstregulation,
+Stressreduktion und sozial-emotionale Kompetenzen
+\parencite{FerreiraVorkapic2015,
+  SerwackiCookCottone2012, HagenNayar2014},
+wobei die Studienqualität erheblich variiert.
+Yoga- und achtsamkeitsbasierte Elemente werden im
+Empowerment-Raum deshalb nicht als eigenständiges
+Interventionsprogramm, sondern als methodischer Kern
+innerhalb eines breiteren, selbstregulationsförderlichen
+Settings eingesetzt.
+
+\subsection{Selbstregulation als Zielkompetenz}
+
+Selbstregulation bezeichnet die Fähigkeit, eigene
+Gedanken, Emotionen und Handlungen bewusst
+auszurichten \parencite{Perels2020}.
+Die Leopoldina-Stellungnahme fasst
+Selbstregulationskompetenzen als kognitive, emotionale,
+motivationale und soziale Fähigkeiten, die es erlauben,
+persönliche Ziele zu verfolgen und flexibel auf
+Veränderungen zu reagieren
+\parencite[S.~8]{Leopoldina2024}.
+Selbstregulation betrifft damit nicht allein
+schulisches Lernen, sondern ebenso den Umgang mit
+emotionalen Herausforderungen im Alltag.
+
+Die Arbeit orientiert sich am Prozessmodell von
+\textcite{LandmannSchmitz2007}, das Selbstregulation
+als zyklischen Ablauf aus präaktionaler Phase
+(Zielsetzung, Planung), aktionaler Phase
+(Handlungsausführung, Monitoring) und postaktionaler
+Phase (Reflexion, Bewertung) beschreibt.
+Dieses Modell fundiert die Struktur der Einheiten
+im Empowerment-Raum: Ankommen, Üben, Reflektieren.
+
+Selbstwirksamkeit -- die Überzeugung, Herausforderungen
+mit eigenen Fähigkeiten bewältigen zu können
+\parencite{Bandura1997} -- bildet die motivationale
+Komponente dieses Prozesses: Wer sich als wirksam
+erlebt, lässt sich eher auf Regulationsstrategien
+ein; gelingende Regulation stärkt wiederum die
+Selbstwirksamkeit
+\parencite[vgl.][S.~12]{Leopoldina2024}.
+Der Empowerment-Raum zielt darauf, diese reziproke
+Dynamik durch wiederholte Erfolgserlebnisse erfahrbar
+zu machen.
+
+Im Primarschulalter befinden sich
+Selbstregulationsfähigkeiten in einer besonders
+gestaltbaren Entwicklungsphase
+\parencite[vgl.][]{Leopoldina2024}.
+Die exekutiven Funktionen -- Inhibition,
+Arbeitsgedächtnis und kognitive Flexibilität --
+bilden die neuropsychologische Grundlage und sind
+durch gezielte Förderung beeinflussbar
+\parencite{DiamondLee2011, Kubesch2016}.
+Gerade die Mittelstufe bietet damit ein
+entwicklungspsychologisch günstiges Zeitfenster
+für körper- und achtsamkeitsbasierte Zugänge zur
+Regulationsförderung -- ein Befund, der sich mit
+der kantonal geforderten frühzeitigen Unterstützung
+der sozio-emotionalen Entwicklung deckt.
+
+
+% ----- 2.4  Schulentwicklung -----
+\subsection{Niederschwellige Unterstützungsstrukturen
+  und Schulentwicklung}
+
+Der Empowerment-Raum positioniert sich zwischen dem
+Regelunterricht und spezialisierten therapeutischen
+Angeboten: präventiv ausgerichtet, grundsätzlich allen
+Kindern offenstehend und ohne Diagnosevorbehalt
+zugänglich.
+Diese Positionierung entspricht dem kantonalen Konzept
+der Time-In-Angebote -- alternative, den
+Regelklassenunterricht ergänzende Lernorte zur
+Förderung der sozio-emotionalen Entwicklung --, wie
+sie im Baustein \textit{<<System Schule stärken>>}
+der Luzerner Initiative \textit{<<Schulen für alle>>}
+vorgesehen sind
+\parencite{DVS_HerausforderndesVerhalten}.
+Innerhalb der Schule Ebikon Ost ergänzt der
+Empowerment-Raum die bestehende Schulinsel, die
+stärker auf akute Entlastung ausgerichtet ist, um
+einen regelmässigen, methodisch fundierten Zugang
+zur Stärkung der Selbstregulation.
+
+Damit ein solches Angebot über eine einzelne Initiative
+hinaus Bestand hat, muss es strukturell im System
+Schule verankert werden.
+Forschung zu Schulentwicklung benennt als zentrale
+Gelingensbedingungen nachhaltiger Implementation die
+Unterstützung durch die Schulleitung, die Einbindung
+des Kollegiums, klare Zuständigkeiten, ausreichende
+Ressourcen sowie eine systematische Dokumentation und
+Evaluation \parencite[vgl.][]{Rolff2023}.
+Diese Bedingungen fliessen als Kriterien in die
+Bedarfsanalyse und die Prozessevaluation der
+vorliegenden Arbeit ein und begründen zugleich das
+Ziel, das Angebot so zu konzipieren, dass es
+unabhängig von der Person der Verfasserin im Rahmen
+der schulischen Förderstruktur weitergeführt werden
+kann.
+
+
+% ----- 2.5  Synthese -----
+\subsection{Synthese: Gestaltungsprinzipien
+  für den Empowerment-Raum}
+
+Aus den vier Perspektiven -- Haltung, Methode,
+Zielkompetenz, Struktur -- lassen sich
+Gestaltungsprinzipien ableiten, die das Konzept und
+die Durchführung des Empowerment-Raums strukturieren.
+Sie bilden zugleich den deduktiven Rahmen für die
+Bedarfsanalyse (Kapitel~4) und die Prozessevaluation
+(Kapitel~6): In der Pilotierung wird geprüft, welche
+Prinzipien sich im Schulalltag als tragfähig erweisen
+und wo Anpassungsbedarf besteht.
+
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{%
+  >{\raggedright\arraybackslash}p{0.25\textwidth}
+  >{\raggedright\arraybackslash}p{0.25\textwidth}
+  >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Theoretische Grundlage}
+  & \textbf{Gestaltungsprinzip}
+  & \textbf{Umsetzung im Empowerment-Raum} \\
+\midrule
+Personzentrierte Haltung (Rogers)
+  & Bedingungslose Wertschätzung
+  & Anerkennung der Stärken und Ressourcen
+    jedes Kindes unabhängig von Verhalten
+    oder Leistung \\
+    \hline
+\addlinespace
+Empowerment (Zimmerman)
+  & Wahlfreiheit und Partizipation
+  & Kinder wählen zwischen Übungsvarianten
+    und gestalten Rituale mit \\
+    \hline
+\addlinespace
+Traumasensible Pädagogik
+  & Sicherheit, Vorhersehbarkeit
+    und Freiwilligkeit
+  & Konstanter Raum, verlässliche Bezugsperson,
+    feste Abläufe; Kinder entscheiden, in
+    welcher Form sie teilnehmen \\
+    \hline
+\addlinespace
+Körper-/Achtsamkeits\-basierte Zugänge
+  & Körper -- Atem -- Achtsamkeit
+  & Integration von Asanas, Atemübungen
+    und Stillephasen \\
+    \hline
+\addlinespace
+Prozessmodell der Selbstregulation
+  & Zyklische Struktur
+  & Jede Einheit folgt dem Ablauf:
+    Ankommen -- Üben -- Reflektieren \\
+    \hline
+\addlinespace
+Selbstwirksamkeit (Bandura)
+  & Erfolgserlebnisse ermöglichen
+  & Übungen so gestalten, dass alle
+    Kinder Wirksamkeit erleben können \\
+    \hline
+\addlinespace
+Inklusion / Time-In
+  & Niederschwelligkeit
+  & Offenes Angebot ohne Diagnosevorbehalt \\
+  \hline
+\addlinespace
+Schulentwicklung (Rolff)
+  & Strukturelle Verankerung und
+    Personenunabhängigkeit
+  & Feste Zeiten, Abstimmung mit Stundenplan,
+    dokumentiertes Konzept und klare Rollen \\
+\bottomrule
+\end{tabularx}
+\caption{Gestaltungsprinzipien für den Empowerment-Raum}
+\label{tab:gestaltungsprinzipien}
+\end{table}
+
+\section{(Methodisches) Vorgehen}
+\label{sec:methode}
+
+\textit{Wie ist das Vorgehen, um zu einer Antwort
+auf die Fragestellung zu kommen?
+Mit welchen Methoden (z.\,B.\ Entwicklungsprojekt,
+Literaturanalyse, empirische Forschungsmethoden) wird
+die Forschungsfrage bearbeitet und warum sind die
+gewählten Methoden für das Vorhaben angemessen?}
+
+\medskip
+
+Die Arbeit ist als entwicklungsorientierte
+Masterarbeit angelegt \parencite[vgl.][]{Aeppli2023}
+und orientiert sich am Ansatz
+des Design-Based Research (DBR). DBR eignet sich für
+schulische Entwicklungsarbeiten, weil er iterative
+Zyklen von Entwurf, Erprobung und Anpassung vorsieht
+und neben einem konkreten Produkt auch übertragbare
+Gestaltungsprinzipien hervorbringt
+\parencite{McKenneyReeves2019, Euler2014}.
+Im Rahmen dieser Masterarbeit wird ein
+DBR-Hauptdurchlauf realisiert, der auf einer bestehenden
+Praxisphase aufbaut.
+
+
+
+
+% ----- Erhebungsinstrumente -----
+\textbf{Erhebungsinstrumente:}
+In Phase~0 werden die Durchführungsprotokolle und
+Beobachtungsnotizen aus dem bestehenden Angebot einer
+Dokumentenanalyse unterzogen, um die Ausgangslage zu
+rekonstruieren.
+In Phase~I bilden halbstandardisierte Einzelgespräche
+mit Schulleitung und Lehrpersonen (Dauer ca.\
+30--40~Minuten) das zentrale Erhebungsinstrument.
+Der Leitfaden orientiert sich an den Themenfeldern
+Bedarf, Erwartungen, Rahmenbedingungen und Kooperation;
+die Gespräche werden mit Einverständnis der Gesprächspartner:innen
+aufgezeichnet und inhaltlich-semantisch transkribiert
+\parencite[vgl.][]{Helfferich2011}.
+Über beide Phasen hinweg führt die Verfasserin ein
+prozessbegleitendes Forschungstagebuch, in dem sie nach
+jeder Einheit Beobachtungen, Entscheidungen und
+Reflexionen protokolliert; es dient gleichzeitig der
+Datengenerierung und der systematischen Reflexion der
+Doppelrolle (vgl.\ unten).
+In Phase~II treten zwei weitere Instrumente hinzu:
+Nach ausgewählten Einheiten werden kindgerechte
+Kurzfeedbacks erhoben, beispielsweise über Smiley-Skalen,
+Stimmungsbarometer oder offene Impulsfragen wie
+<<Was hat mir heute geholfen?>>, wobei die
+Formate für die 3./4.\ und die 5./6.~Klasse leicht
+differenziert werden.
+Gegen Ende der Pilotphase erhalten die
+Klassenlehrpersonen einen strukturierten Feedbackbogen
+mit geschlossenen Einschätzungsfragen (Likert-Skala)
+und offenen Ergänzungsfeldern zu Akzeptanz, Passung
+und wahrgenommenen Veränderungen im Unterrichtsalltag.
+
+
+% ----- Auswertung -----
+\textbf{Auswertungsmethoden:}
+Die qualitativen Daten (Gespräche,
+Forschungstagebuch, offene Feedbackantworten) werden
+mittels qualitativer
+Inhaltsanalyse \parencite{KuckatzRaediker2022}
+ausgewertet. Das Kategoriensystem wird deduktiv aus
+den Gestaltungsprinzipien
+(Tabelle~\ref{tab:gestaltungsprinzipien}) abgeleitet
+und induktiv aus den Daten ergänzt. Die
+geschlossenen Einschätzungsfragen der Feedbackbögen
+werden deskriptiv ausgewertet (z.B. Häufigkeiten,
+Tendenzen) und diskutiert.
+
+
+% ----- Erfolgskriterien -----
+\textbf{Erfolgskriterien:}
+Die Prozessevaluation orientiert sich an Kriterien,
+die vor Beginn der Pilotphase festgelegt werden.
+Diese betreffen die realistische Verankerbarkeit im
+Stundenplan, die Klärung von Rollen und
+Zuständigkeiten, das Funktionieren der
+Gruppenzusammensetzung, die
+Akzeptanz und regelmässige Teilnahme seitens der
+Kinder, die Nachvollziehbarkeit der Methoden und
+Abläufe, die Klarheit der Kommunikationswege aus
+Sicht der Lehrpersonen sowie die Einschätzung der
+Schulleitung hinsichtlich einer Verankerung des
+Angebots.
+
+
+% ----- Gütekriterien -----
+\textbf{Gütekriterien:}
+Die Arbeit orientiert sich an den Gütekriterien
+qualitativer Forschung nach \textcite{Steinke2000}.
+Dazu gehören die vollständige Dokumentation aller
+Schritte und Entscheidungen (Transparenz), die
+Nachvollziehbarkeit für Aussenstehende, die
+Kombination verschiedener Datenquellen und
+Perspektiven (Triangulation) sowie die Rückspiegelung
+zentraler Ergebnisse an die beteiligten Akteur:innen
+(kommunikative Validierung).
+Dass die erhobenen Daten immer im Kontext ihrer
+Erhebungssituation stehen, wird dabei nicht als
+Schwäche, sondern als Merkmal qualitativer Forschung
+verstanden und in der Auswertung berücksichtigt
+\parencite[vgl.][]{Helfferich2022}.
+
+
+% ----- Ethik -----
+\textbf{Ethik und Datenschutz:}
+Die Datenerhebung erfolgt unter Beachtung des
+revidierten Schweizerischen Datenschutzgesetzes
+(revDSG, in Kraft seit 1.~September 2023).
+Die Gespräche mit Lehrpersonen und Schulleitung
+finden im Rahmen des professionellen Austauschs
+innerhalb des Schulentwicklungsprojekts statt;
+für Audioaufnahmen wird das Einverständnis der
+Gesprächspartner:innen eingeholt.
+Die Erziehungsberechtigten der teilnehmenden Kinder
+sind über das Angebot informiert und einverstanden.
+Reflexions- und Feedbackformate sind fester
+Bestandteil des Empowerment-Raums und beruhen auf
+Freiwilligkeit. Alle Daten werden pseudonymisiert;
+Audioaufnahmen werden nach der Transkription
+gelöscht.
+
+% ----- Doppelrolle -----
+\textbf{Reflexion der Doppelrolle:}
+Die Verfasserin ist zugleich Entwicklerin des
+Gesamtkonzepts, durchführende Fachperson und
+Forschende. Diese Personalunion ist im DBR-Kontext
+typisch, birgt aber Risiken wie Bestätigungstendenz
+und soziale Erwünschtheit. Die Doppelrolle wird im
+Methodenkapitel der Masterarbeit transparent
+offengelegt und durch das Forschungstagebuch
+systematisch reflektiert. 
+
+\medskip
+\textit{SE/UE: Im Konzept ist auch zu erläutern,
+wie das Entwicklungsprojekt (z.\,B.\ Unterrichtseinheit)
+hergeleitet wird, wie das Projekt durchgeführt und
+evaluiert wird (hierzu gehört auch die Beschreibung
+und Begründung der hierfür gewählten empirischen
+Methoden) und wie es nach Abschluss an der Schule
+verankert wird.}
+
+\medskip
+
+Die Herleitung, Durchführung und Evaluation des
+Entwicklungsprojekts sind in den vorangehenden
+Abschnitten dargestellt (Gestaltungsprinzipien:
+Tabelle~\ref{tab:gestaltungsprinzipien};
+Erhebung und Auswertung: S.~\pageref{sec:methode}\,ff.;
+Erfolgskriterien: ebd.). Die Verankerung nach
+Abschluss der Arbeit ist in der Zeitplanung
+(Tabelle~\ref{tab:zeitplanung}) aufgeführt.
+
+
+\section{Gliederung der Arbeit}
+
+\textit{Bei der Gliederung handelt es sich um einen
+ersten Entwurf des Inhaltsverzeichnisses.}
+
+\textit{SE/UE: Die Gliederung der Arbeit orientiert sich
+an der Struktur einer Entwicklungsarbeit.}
+
+\medskip
+\textbf{Vorläufiger Entwurf:}
+
+Abstract
+
+Vorwort und Danksagung 
+
+Inhaltsverzeichnis
+
+
+
+\begin{enumerate}[leftmargin=2em]
+
+\item \textbf{Einleitung}
+    \begin{enumerate}[label=1.\arabic*, nosep,
+      leftmargin=2em]
+      \item Der Empowerment-Raum: Entstehung
+        und bisherige Erfahrungen
+      \item Schulischer Kontext und
+        kantonaler Rahmen
+      \item Problemstellung und Relevanz
+      \item Zielsetzung, Abgrenzung und Fragestellung
+      \item Aufbau der Arbeit
+    \end{enumerate}
+
+\item \textbf{Theoretischer Rahmen}
+    \begin{enumerate}[label=2.\arabic*, nosep,
+      leftmargin=2em]
+      \item Bildungspolitischer Rahmen:
+        Lehrplan~21, Inklusion und
+        <<Schulen für alle>>
+      \item Empowerment als pädagogische Haltung
+      \item Körper- und achtsamkeitsbasierte Zugänge
+        \begin{enumerate}[label=2.3.\arabic*, nosep,
+          leftmargin=2em]
+          \item Wirkprinzipien: Körper, Atem,
+            Achtsamkeit
+          \item Yoga als Methode der
+            Regulationsförderung
+          \item Traumasensible Adaption
+        \end{enumerate}
+      \item Selbstregulation als Zielkompetenz
+        \begin{enumerate}[label=2.4.\arabic*, nosep,
+          leftmargin=2em]
+          \item Begriffsklärung und Prozessmodell
+          \item Selbstwirksamkeit und
+            Entwicklungsperspektive
+        \end{enumerate}
+      \item Schulentwicklung und strukturelle
+        Verankerung
+      \item Synthese: Gestaltungsprinzipien
+        für den Empowerment-Raum
+    \end{enumerate}
+
+\item \textbf{Methodisches Vorgehen}
+    \begin{enumerate}[label=3.\arabic*, nosep,
+      leftmargin=2em]
+      \item Design-Based Research:
+        Forschungslogik und Zyklen
+      \item Erhebung und Erfolgskriterien
+      \item Auswertungsmethoden
+      \item Gütekriterien, Ethik und Rollenreflexion
+    \end{enumerate}
+
+\item \textbf{Phase~I: Bedarfsanalyse
+    und Konzeptrevision}
+    \begin{enumerate}[label=4.\arabic*, nosep,
+      leftmargin=2em]
+      \item Durchführung und Auswertung der Gespräche
+      \item Ergebnisse: Bedarfe, Erwartungen
+        und Rahmenbedingungen
+      \item Folgerungen für die Konzeptanpassung
+    \end{enumerate}
+
+  \item \textbf{Konzept und Struktur
+    des Empowerment-Raums}
+    \begin{enumerate}[label=5.\arabic*, nosep,
+      leftmargin=2em]
+      \item Didaktische Struktur
+        (Aufbau, Ablauf, Kernelemente, Rituale)
+      \item Anpassungen für die Altersmischung
+        (3.--6.~Klasse)
+      \item Zugangslogik, Rollen und
+        Kommunikationswege
+    \end{enumerate}
+
+  \item \textbf{Phase~II: Pilotierung
+    und Prozessevaluation}
+    \begin{enumerate}[label=6.\arabic*, nosep,
+      leftmargin=2em]
+      \item Durchführung der Pilotphase
+      \item Ergebnisse der Prozessevaluation
+      \item Überarbeitung des Konzepts (Iteration)
+    \end{enumerate}
+
+  \item \textbf{Diskussion}
+    \begin{enumerate}[label=7.\arabic*, nosep,
+      leftmargin=2em]
+      \item Zusammenfassung der Ergebnisse
+      \item Beantwortung der Fragestellung
+      \item Reflexion des Entwicklungsprozesses
+      \item Gelingensbedingungen und Stolpersteine
+      \item Limitationen und weiterführende Fragen
+    \end{enumerate}
+
+  \item \textbf{Fazit und Ausblick}
+    \begin{enumerate}[label=8.\arabic*, nosep,
+      leftmargin=2em]
+      \item Ertrag für die Schulpraxis
+      \item Übertragbare Gestaltungsprinzipien
+      \item Empfehlungen für die Verstetigung
+    \end{enumerate}
+
+\end{enumerate}
+
+\medskip
+Literaturverzeichnis \\
+Abbildungsverzeichnis\\
+Tabellenverzeichnis\\
+Abkürzungsverzeichnis\\
+Anhang A: Konzept Empowerment-Raum \\
+Anhang B: Gesprächsleitfaden \\
+Anhang C: Feedbackinstrumente \\
+Anhang D: Elterninformation
+
+% ===================================================================
+%  5  ZEITPLANUNG
+% ===================================================================
+\section{Zeitplanung}
+
+\textit{Hier wird das Zeitmanagement für das
+Masterarbeitsprojekt wiedergegeben.}
+\medskip
+\textit{SE/UE: Wie ist der zeitliche Verlauf des Entwicklungsprojekts? 
+Wie ist der zeitliche Verlauf der Masterarbeit? Wie hängen diese beiden 
+Verläufe zusammen (Überschneidungen, gegenseitige Abhängigkeiten etc.)? 
+Wie flexibel sind die beiden Verläufe? Wann sind welche Prozesse der 
+Organisationsentwicklung im Vordergrund (z.B. Wann muss ich informieren?
+ Wann was vorbereitend organisieren?...) (vgl. auch Auftrag Zeitstrahl). 
+ \\ Empfehlung: Mache innerhalb eines Zeitplan beide Verläufe sichtbar, 
+ allenfalls mit unterschiedlichen Farben 
+ (Termine, Arbeiten Masterarbeitsprozess und SE/UE-Prozess, …). }
+
+\medskip
+
+
+Der Masterarbeitsprozess (Schreiben/Forschen) läuft
+parallel zum Schulentwicklungsprozess
+(Planen/\\Durchführen); Tabelle~\ref{tab:zeitplanung}
+bildet beide Stränge mit ihren kritischen
+Schnittstellen ab.
+Die Gespräche der Bedarfsanalyse (Phase~I) werden
+bewusst vor den Sommerferien abgeschlossen
+(März--Mai~2026), damit die Auswertung und
+Konzeptrevision über die Sommermonate erfolgen
+können und die Pilotphase (Phase~II) mit dem neuen
+Schuljahr im August~2026 starten kann.
+Die Feldphase ist in den regulären Schuljahresablauf
+2026/27 integriert; die Finalisierung der
+Masterarbeit ist auf April~2027 ausgerichtet.
+
+Zentrale Abhängigkeit: Die Elterninformation muss
+\textit{vor} dem Schuljahresbeginn im August~2026
+erfolgen, damit Kinder ab Schuljahresstart in das
+Angebot aufgenommen werden können.
+
+Die strukturelle Verankerung wird prozessbegleitend
+vorbereitet: durch die Rückmeldung an die beteiligten
+Akteur:innen (Dezember~2026/Januar~2027) und das
+Übergabegespräch mit der Schulleitung
+(Februar~2027), in dem über Zuständigkeit, Ressourcen
+und Weiterführung ab Schuljahr 2027/28 entschieden
+wird.
+
+\begin{table}[htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\textwidth}{
+  @{}l
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X
+  @{}}
+\toprule
+\textbf{Zeitraum}
+  & \textbf{Masterarbeitsprozess (MA)}
+  & \textbf{Schulentwicklungsprozess (SE)}
+  & \textbf{Kritische Schnittstellen} \\
+\midrule
+
+\multicolumn{4}{@{}l}{\textit{%
+  Phase~0 -- Bestehende Praxis}} \\
+\addlinespace
+
+Aug 2025 -- Feb 2026 &
+  Literaturrecherche;
+  Konzeptentwurf;
+  Dokumentation der bisherigen
+  Durchführung (Phase~0) &
+  Laufende Durchführung des
+  Empowerment-Raums mit 8~Kindern
+  (5./6.~Kl., 1\texttimes{}/Woche);
+  Genehmigung der SL einholen &
+  \textit{Abgeschlossen:}
+  Konzeptabgabe März~2026 \\
+
+\addlinespace
+\hline
+\multicolumn{4}{@{}l}{\textit{%
+  Phase~I -- Bedarfsanalyse und Konzeptrevision}} \\
+\addlinespace
+
+Mär -- Mai 2026 &
+  Gesprächsleitfaden finalisieren;
+  Durchführung \& Transkription
+  der Gespräche (4~Personen) &
+  Information an LP/SHP der
+  3./4.~Klasse über das Vorhaben;
+  laufende Durchführung des
+   Angebots &
+  Gespräche vor Schuljahresende
+  abschliessen;
+  \textbf{Betreuungstreffen~1}
+  (nach Konzeptabgabe) \\
+\addlinespace
+
+Jun -- Aug 2026 &
+  Auswertung Gespräche
+  (qualitative Inhaltsanalyse);
+  Ableitung von Anpassungsbedarfen;
+  Schreiben Kap.~4;
+  Finalisierung Kap.~2 \& 3 &
+  Sommerferien: Überarbeitung des Angebots
+  und Adaption für
+  jüngere Kinder;
+  Stundenplankoordination mit SL &
+  Puffer für Iteration
+  zwischen Auswertung und
+  Konzeptrevision \\
+
+\addlinespace
+\hline
+\multicolumn{4}{@{}l}{\textit{%
+  Phase~II -- Pilotierung und Prozessevaluation}} \\
+\addlinespace
+
+Aug -- Sep 2026 &
+  Dokumentationskonzept für
+  Pilotphase erstellen;
+  Schreiben Kap.~5
+  (Konzept und Struktur) &
+  Schuljahresbeginn
+  Pilotphase: Durchführung
+  Empowerment-Raum mit
+  altersgemischter Gruppe
+  (ca.\ 8~Kinder,
+  1--2\texttimes{}/Woche) &
+
+  Kolloquium 1 oder Fachberatung 2  \\
+\addlinespace
+
+Okt -- Nov 2026 &
+  Prozessbegleitende Dokumentation
+  (Forschungstagebuch);
+  laufende Kurzfeedbacks
+  der Kinder &
+  Durchführung Empowerment-Angebot
+   &
+  Laufende Mikro-Iterationen
+  dokumentieren;
+  \textbf{Betreuungstreffen~2} \\
+\addlinespace
+
+Dez 2026 -- Jan 2027 &
+  Feedbackerhebung;
+  Auswertung;
+  Schreiben Kap.~6 &
+  Abschluss Pilotphase;
+  Rückmeldung an Akteur:innen &
+  \textbf{Schreibfeedback 1 und Betreuungstreffen 3:}
+  Austausch mit Akteur:innen \\
+
+\addlinespace
+\hline
+\multicolumn{4}{@{}l}{\textit{%
+  Abschluss und Verankerung}} \\
+\addlinespace
+
+Feb 2027 &
+  Schreiben Kap.~7 \& 8;
+  Überarbeitung Gesamttext &
+  Übergabegespräch mit SL:
+  Verstetigung klären
+  (Zuständigkeit, Ressourcen,
+  Weiterführung ab Schuljahr
+  2027/28) &
+  \textbf{Meilenstein:}
+  Entscheid SL über Weiterführung;
+  \textbf{Betreuungstreffen~4}
+  (vor Schlussredaktion) \\
+\addlinespace
+
+Mär 2027 &
+  Gegenlesen;
+  Überarbeitung nach Rückmeldung
+  Betreuungsperson &
+  -- &
+  Puffer für Korrekturrunde \\
+\addlinespace
+
+Apr 2027 &
+  Endredaktion, Formatierung,
+  Abgabe &
+  -- &
+  \textbf{Abgabetermin MA} \\
+
+\bottomrule
+\end{tabularx}
+\caption{Zeitplanung: Masterarbeitsprozess
+  und Schulentwicklungsprozess}
+\label{tab:zeitplanung}
+\end{table}
+
+
+
+
+
+%-------------- Literaturverzeichnis
+\newpage
+\addcontentsline{toc}{section}{Literatur}
+\printbibliography[title=Literaturverzeichnis]
+
+
+%-------------- Anhang
+%\newpage
+%\appendix
+%\section{Anhang 1}
+%Anhang 1
+
+
+\end{document}
