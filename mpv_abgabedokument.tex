@@ -47,14 +47,8 @@
 \pagestyle{scrheadings}
 \clearmainofpairofpagestyles
 \ihead{}
-%\ihead[\rightmark]{\pagemark}
 \chead{}
-%\chead{}{}
 \ohead{\pagemark}
-%\ohead[\pagemark]{\rightmark}
-
-% ------------- Rahmenbox für Hinweise
-\usepackage{tcolorbox}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -62,7 +56,9 @@
   pdfborderstyle={/S/U/W 0},
   citebordercolor=1 1 0.8,
   linkbordercolor=1 1 0.8,
-  urlbordercolor=1 1 0.8
+  urlbordercolor=1 1 0.8,
+  pdfauthor={Inti Merolli},
+  pdftitle={Masterprüfung Vertiefung – Verdeckte Potenziale bei Schüler:innen mit Migrationserfahrung}
 }
 
 % ----- APA-7-Anpassungen für TeX Live 2024 -----
@@ -110,34 +106,18 @@ Prüfungstermin: \\
 \end{flushright}
 %-------------- Ende Titelseite -------------------------------------
 
-%-------------- Inhaltsverzeichnis
+
+%-------------- Abkürzungsverzeichnis
 \newpage
 \hypersetup{pageanchor=true}
 \pagenumbering{Roman}
 \renewcommand{\thepage}{\Roman{page}}
-\tableofcontents{}
-
-%-------------- Abbildungsverzeichnis
-%\newpage
-%\cleardoublepage\phantomsection
-%\addcontentsline{toc}{section}{Abbildungsverzeichnis}
-%\listoffigures
-
-
-%-------------- Tabellenverzeichnis
-%\newpage
-%\cleardoublepage\phantomsection
-%\addcontentsline{toc}{section}{Tabellenverzeichnis}
-%\listoftables
-
-
-%-------------- Abkürzungsverzeichnis
-\newpage
 \cleardoublepage\phantomsection
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \section*{Abkürzungsverzeichnis}
 
 \begin{tabular}{@{}ll@{}}
+2e    & Twice Exceptionality (doppelte Ausnahme) \\
 BFS   & Bundesamt für Statistik \\
 BW    & Bildungs- und Sozialwissenschaften \\
 DaZ   & Deutsch als Zweitsprache \\
@@ -163,20 +143,11 @@ ZB    & Zusammenarbeit \& Beratung \\
 \end{tabular}
 
 
-%-------------- Symbolverzeichnis
-%\newpage
-%\cleardoublepage\phantomsection
-%\addcontentsline{toc}{section}{Symbolverzeichnis}
-%\section*{Symbolverzeichnis}
-
-
-
 \newpage
 \pagenumbering{arabic}
 \renewcommand{\thepage}{\arabic{page}}
 
 % ════════════════════════════════════════════════════════
-\setcounter{section}{-1}
 \section{Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse}
 \label{sec:einleitung}
 % ════════════════════════════════════════════════════════
@@ -247,683 +218,85 @@ Die vorliegende Vertiefungsarbeit untersucht am Fall von S. exemplarisch, wie ve
 Potenziale bei Schüler:innen mit Migrationserfahrung erkannt, sichtbar gemacht und
 gefördert werden können. Die fünf leitenden Fragestellungen gliedern sich in drei
 fachwissenschaftliche (FW) und zwei bildungs- und sozialwissenschaftliche (BW) Zugänge:
- 
+
+Der Fall S. dient im Folgenden als exemplarische Fallvignette: Er konkretisiert
+die allgemeinere Frage, wie verdeckte Potenziale bei neu zugewanderten,
+mehrsprachigen Schüler:innen erkannt, sichtbar gemacht und gefördert werden
+können.
+
 \begin{enumerate}
-  \item[\textbf{FW\,1}] Wie können verdeckte Begabungen bei Schüler:innen mit
-    Migrationshintergrund und geringen Deutschkenntnissen multiperspektivisch erfasst werden?
-  \item[\textbf{FW\,2}] Welche sensumotorischen Grundlagen sind für den
-    Schriftspracherwerb von S. massgeblich und wie können seine motorischen
-    Schreibschwierigkeiten ressourcenorientiert gefördert werden?
-  \item[\textbf{FW\,3}] Wie beeinflussen Ausgrenzungs- und Migrationserfahrungen die
-    Begabungsentwicklung von S. und welche Ressourcen können gezielt zur Förderung
-    sozialer Teilhabe genutzt werden?
-  \item[\textbf{BW\,4}] Inwiefern kann ein offenes Begabungsförderungsprojekt wie SOLUX
-    Potenziale bei Schüler:innen mit Migrationserfahrungen sichtbar machen, die im
-    Regelunterricht oft systematisch übersehen werden?
-  \item[\textbf{BW\,5}] Wie gestalte ich als SHP die Beratung und Zusammenarbeit so, dass
-    defizitorientierte Wahrnehmungen von Schüler:innen mit verdeckten Begabungen
-    gemeinsam reflektiert und ressourcenorientiert erweitert werden?
+  \item[\textbf{FW\,1 (KS/DG)}] Wie können verdeckte Begabungen bei neu
+    zugewanderten, mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen
+    multiperspektivisch und sprachsensibel erfasst werden?
+  \item[\textbf{FW\,2 (MW/KS)}] Welche sensumotorischen und schriftsprachlichen
+    Faktoren können dazu beitragen, dass kognitive Potenziale verdeckt bleiben,
+    und wie lassen sie sich ressourcenorientiert fördern?
+  \item[\textbf{FW\,3 (PB)}] Wie beeinflussen Ausgrenzungs-, Belastungs- und
+    Migrationserfahrungen die Begabungsentwicklung und soziale Teilhabe, und
+    welche Beziehungsgestaltungen wirken förderlich?
+  \item[\textbf{BW\,4 (DG/PV)}] Inwiefern können offene, enrichment-orientierte
+    Begabungsförderungssettings wie SOLUX Potenziale sichtbar machen, die im
+    Regelunterricht systematisch übersehen werden?
+  \item[\textbf{BW\,5 (ZB/PV)}] Wie gestalte ich als SHP Beratung und
+    Zusammenarbeit im multiprofessionellen Team so, dass defizitorientierte
+    Wahrnehmungen bei neu zugewanderten Schüler:innen mit verdeckten Potenzialen
+    reflektiert und ressourcenorientiert erweitert werden?
 \end{enumerate}
- 
+
+Die fünf Fragestellungen folgen einer Progression: von der multiperspektivischen
+Erkennung verdeckter Potenziale (FW\,1) über die sensumotorischen und
+schriftsprachlichen Barrieren, die diese Potenziale verdecken (FW\,2), und die
+relationalen und emotionalen Bedingungen der Begabungsentwicklung (FW\,3) bis
+zu den strukturellen Voraussetzungen inklusiver Begabungsförderung (BW\,4) und
+dem professionellen Handeln der SHP im multiprofessionellen Team (BW\,5).
+
 \newpage
- 
+
 % ════════════════════════════════════════════════════════
-\section{Frage 1 (FW): Multiperspektivische Erfassung verdeckter Begabungen}
+\section{Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen}
 \label{sec:frage1}
 % ════════════════════════════════════════════════════════
  
 \begin{quote}\itshape
-Wie können verdeckte Begabungen bei Schüler:innen mit Migrationshintergrund und
-geringen Deutschkenntnissen multiperspektivisch erfasst werden?
+Wie können verdeckte Begabungen bei neu zugewanderten, mehrsprachigen
+Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch und
+sprachsensibel erfasst werden?
 \end{quote}
- 
 
-Diese Fragestellung bildet den erkenntnistheoretischen Kern der Vertiefungsarbeit. Sie
-fragt danach, warum Begabungen bei Kindern mit Migrationsgeschichte systematisch
-übersehen werden und welche diagnostischen Zugänge geeignet sind, verdeckte Potenziale
-sichtbar zu machen.
- 
-Der theoretische Rahmen stützt sich auf einen dynamischen, mehrdimensionalen
-Begabungsbegriff. Das Drei-Ringe-Modell nach Renzulli versteht Begabung als
-Zusammenwirken von überdurchschnittlicher Fähigkeit, Kreativität und Aufgabenverpflichtung;
-Gardners Theorie der Multiplen Intelligenzen erweitert den Blick auf sprachlich
-nicht zugängliche Domänen wie die logisch-mathematische, räumliche oder
-körperlich-kinästhetische Intelligenz
-\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}.
-Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung
-zwischen kognitiven Prädiktoren, nicht-kognitiven Persönlichkeitsmerkmalen und
-Umweltfaktoren, womit Begabung grundsätzlich als Potenzial zu verstehen ist, das sich
-unter günstigen Bedingungen in Leistung transformieren kann
-\parencite{fischer2020begabungsfoerderung}.
- 
-Für Kinder mit Migrationserfahrung sind sprachlastige Testverfahren wie der WISC nur
-bedingt aussagekräftig. Maehler et al. betonen die Notwendigkeit sprach- und kulturfairer
-Diagnostik \parencite{maehler2018diagnostik}. Stamm verweist auf \enquote{begabte Minoritäten}
-als blinden Fleck der Begabtenförderung: Kinder aus Migrationskontexten werden aufgrund
-sprachlicher Hürden, sozioökonomischer Benachteiligung und stereotyper Zuschreibungen
-signifikant seltener als begabt identifiziert
-\parencite{stamm2021fehlenderblick,stamm2014handbuch}.
-Keller-Koller zeigt, dass gerade die Kombination von Migrationshintergrund und
-schulischem Underachievement dazu führt, dass Potenziale verdeckt bleiben, weil
-Fachpersonen Defizite priorisieren \parencite{kellerkoller2021hellekoepfe,kellerkoller2009begabte}.
- 
-Die multiperspektivische Erfassung erfordert daher: (a) nonverbale und handlungsorientierte
-Testanteile, (b) systematische Verhaltensbeobachtung in offenen Settings,
-(c) die Einbeziehung ausserschulischer Bezugspersonen, (d) die Berücksichtigung von
-Erstsprachkompetenzen sowie (e) dynamische, prozessorientierte Diagnostik, die Potenzial
-auch unter ungünstigen Bedingungen sichtbar werden lässt
-\parencite{ipege2009professionelle,reutlinger2015hochbegabung,uslucan2012begabung}.
-Am Fall S. zeigt sich exemplarisch, wie eine schulpsychologische Testung auf Englisch
-statt Albanisch überdurchschnittliches Potenzial bestätigte, während er im regulären
-Unterrichtsalltag primär über Defizite wahrgenommen wurde.
- 
-Das Konzept der \textit{twice exceptionality} dient als Deutungsrahmen, nicht als Diagnose:
-Bei S. überlagern sich hohes kognitives Potenzial, schriftsprachliche Schwierigkeiten und
-möglicherweise belastende Vorerfahrungen. Dies erfordert eine diagnostische Haltung,
-die Stärken und Barrieren gleichzeitig in den Blick nimmt
-\parencite{preckel2013hochbegabung,lehwald2017motivation}.
-
-
-\subsection{Begabung als dynamisches Potenzial}
-
-Die Frage, ob und wie eine Begabung erkannt werden kann, setzt eine Klärung dessen
-voraus, was unter Begabung überhaupt zu verstehen ist. Die Begabungsforschung hat sich
-in den vergangenen Jahrzehnten von einem statischen, IQ-fixierten Verständnis gelöst und
-betont heute die Wechselwirkung von Anlage und Umwelt. Bereits William Stern hielt
-1916 fest, dass Begabungen Möglichkeiten zur Leistung seien, nicht Leistung selbst.
-Diese Unterscheidung von Potenzial und Performanz durchzieht die gesamte aktuelle
-Diskussion (vgl. \textcite{preckel2013hochbegabung}; \textcite{trautmann2016einfuehrung}).
-E.~\textcite{stern2025intelligenz} bestätigt diese Perspektive aus aktueller
-kognitionspsychologischer Forschung: Intelligenz kann sich im Schulalter noch
-substanziell verändern, was die Fixierung auf einen einmalig erhobenen IQ-Wert als
-diagnostische Grundlage zusätzlich in Frage stellt.
-
-Renzullis Drei-Ringe-Modell fasst Begabung als Schnittmenge dreier Faktoren:
-überdurchschnittliche Fähigkeiten, Kreativität und Aufgabenverpflichtung
-(\textit{task commitment}). Dieses Modell ist für die vorliegende Fragestellung bedeutsam,
-weil es Begabung nicht auf kognitive Leistung reduziert, sondern motivationale und
-kreative Komponenten einschliesst, die sich gerade in offenen Settings wie SOLUX zeigen
-können, während sie im leistungsnormierten Regelunterricht unsichtbar bleiben
-\parencite{muelleroppliger2021handbuch}.
-
-Gardners Theorie der Multiplen Intelligenzen erweitert den Blick zusätzlich auf Domänen,
-die sprachlich nicht oder nur teilweise zugänglich sind: die logisch-mathematische,
-räumliche, musikalische, körperlich-kinästhetische, interpersonale und intrapersonale
-Intelligenz. Für Kinder wie S., deren sprachliche Kompetenzen in der Unterrichtssprache
-noch am Anfang stehen, eröffnet dieser breite Begabungsbegriff die Möglichkeit, Potenziale
-jenseits sprachlicher Performanz wahrzunehmen. S.' auffällige Leistungen im Schach
-verweisen auf ausgeprägte logisch-mathematische und räumliche Fähigkeiten, die im
-sprachlastigen Unterrichtsalltag verborgen blieben \parencite{trautmann2016einfuehrung}.
-
-Das Münchner Hochbegabungsmodell nach Heller und Perleth systematisiert die
-Bedingungsfaktoren von Begabung in drei Dimensionen: kognitive Prädiktoren
-(intellektuelle Fähigkeiten, Kreativität, soziale Kompetenz), nicht-kognitive
-Persönlichkeitsmerkmale (Leistungsmotivation, Stressbewältigung, Arbeitsverhalten) und
-Umweltmerkmale (Instruktionsqualität, Schulklima, familiäre Unterstützung). Die
-Transformation von Potenzial in Leistung hängt wesentlich von der Ausprägung und dem
-Zusammenspiel dieser Faktoren ab. Negativ ausgeprägte Umweltmerkmale oder
-nicht-kognitive Faktoren können dazu führen, dass hohes Potenzial in Minderleistung
-mündet, ein Phänomen, das in der Literatur als \textit{Underachievement} beschrieben wird
-\parencite{preckel2013hochbegabung,fischer2020begabungsfoerderung}.
-
-Die Initiative \textit{Leistung macht Schule} (LemaS) formuliert auf dieser
-Grundlage eine prozessbezogene Begriffsklärung, die für die vorliegende
-Fragestellung zentral ist: Begabung wird als entwicklungsfähiges Potenzial
-verstanden, das einer prozessorientierten Diagnostik bedarf. Eine einmalige
-Statusdiagnostik per Intelligenztest genügt dieser Definition ausdrücklich
-nicht \parencite{lemas2023begriffsklaerung}.
-
-\subsection{Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben}
-
-\textcite{stamm2021fehlenderblick} identifiziert \enquote{begabte Minoritäten} als systematischen blinden Fleck der
-Begabtenförderung. Kinder aus Migrationskontexten, aus sozioökonomisch benachteiligten
-Familien und aus bildungsfernen Milieus sind in Förderprogrammen für Begabte signifikant
-unterrepräsentiert. Dies liegt nicht daran, dass diese Kinder weniger Potenzial aufwiesen,
-sondern daran, dass die Instrumente und Verfahren der Begabungserkennung auf eine
-bestimmte Klientel zugeschnitten sind: sprachlich kompetent, schulisch angepasst,
-sozial unauffällig. Wer diesen Kriterien nicht
-entspricht, wird mit hoher Wahrscheinlichkeit nicht als begabt identifiziert.
-
-Drei Mechanismen tragen zu dieser systematischen Verdeckung bei. Erstens sind
-schulische Selektions- und Zuweisungsverfahren sprachgebunden: Übertrittstests,
-Leistungsbeurteilungen und Empfehlungen von Lehrpersonen setzen eine
-Ausdrucksfähigkeit in der Unterrichtssprache voraus, über die Kinder am Beginn des
-Zweitspracherwerbs nicht verfügen. \textcite{kellerkoller2021hellekoepfe} zeigt, dass Kinder mit
-Migrationshintergrund trotz deutlich sichtbarer Ressourcen bis in die Mittelstufe hinein
-nie mit Begabtenförderung in Berührung kommen, weil ihre Stärken in Domänen liegen,
-die schulisch nicht als leistungsrelevant anerkannt werden
-(vgl. auch \textcite{kellerkoller2009begabte}; \textcite{kellerkoller2011erkennen}).
-
-Zweitens wirken defizitorientierte Zuschreibungen als Filter: Kinder, die weinen,
-sich zurückziehen, Aufgaben verweigern oder auffälliges Verhalten zeigen, werden
-als förderbedürftig, nicht als begabt wahrgenommen. Bei S. beschrieb die abgebende
-Lehrperson ihn als \enquote{eher auffällig, sehr weinerlich und etwas störend}; eine
-Beschreibung, die kognitive Ressourcen vollständig ausblendet. \textcite{reutlinger2015hochbegabung}
-betonen, dass gerade bei Kindern mit Migrationshintergrund
-Verhaltensauffälligkeiten und sprachliche Unsicherheiten die Wahrnehmung dominieren
-und den Blick auf Stärken verstellen.
-
-Drittens besteht die Gefahr institutioneller Diskriminierung. \textcite{kappus2010migration} referiert Studien,
-die darauf hinweisen, dass Kinder mit ausländisch klingenden Nachnamen in einzelnen
-Deutschschweizer Kantonen deutlich häufiger Zuweisungsempfehlungen für
-sonderpädagogische Settings erhielten als Kinder mit einheimischen Namen, bei
-vergleichbaren Fähigkeiten. Diese selektive Wahrnehmung betrifft nicht nur die
-Zuweisung zu niederschwelligen Schultypen, sondern auch den umgekehrten Weg: die
-Nicht-Zuweisung zu anspruchsvolleren Angeboten.
-
-Stamm fasst diese Befunde in der Beobachtung zusammen, dass \enquote{Begabungsreserven}
-gerade dort ungenutzt bleiben, wo soziale Herkunft, Migrationsgeschichte und fehlende
-familiäre Bildungsressourcen zusammenwirken. Die MIRAGE-Studie belegt, dass
-erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät
-oder gar nicht schulisch erkannt worden \parencite{stamm2014mirage,stamm2014handbuch}.
-
-\subsection{Grenzen sprachlastiger Diagnostik}
-
-Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children)
-erheben den Anspruch, kognitive Fähigkeiten unabhängig von Schulleistung zu erfassen.
-In der Praxis zeigt sich jedoch, dass sie für Kinder mit geringen Kenntnissen der
-Testsprache nur eingeschränkt valide sind. \textcite{maehler2018diagnostik} widmen
-diesem Problem ein eigenes Handbuch und arbeiten heraus, dass bei Migrant:innen
-drei Fehlerquellen systematisch auftreten: sprachliche Verständnisschwierigkeiten bei
-verbal mediierten Aufgaben, kulturell unterschiedliche Testvertrautheit und
-migrationsspezifische Stressoren, die die Testleistung beeinträchtigen.
-
-Am Fall S. zeigt sich diese Problematik: Die schulpsychologische Abklärung
-konnte nicht auf Albanisch mit Dolmetscher durchgeführt werden, weil S. bei
-Anwesenheit des Dolmetschers sprachliche Hemmungen zeigte. Die Testung erfolgte
-stattdessen auf Englisch, einer Sprache, die S. sich autodidaktisch über das Fernsehen
-angeeignet hatte. Trotz dieser suboptimalen Bedingungen wurde ein
-überdurchschnittliches Potenzial bestätigt. Dieses Ergebnis ist einerseits ermutigend,
-verweist andererseits aber auf die Fragilität des diagnostischen Prozesses: Hätte die
-Testung auf Deutsch stattgefunden, wäre das Potenzial mit hoher Wahrscheinlichkeit
-nicht sichtbar geworden.
-
-\textcite{maehler2018diagnostik} empfehlen deshalb, bei der Diagnostik mit Migrant:innen konsequent
-zwischen sprachgebundenen und sprachfreien Testanteilen zu differenzieren und die
-Ergebnisse im Kontext der individuellen Sprachbiographie zu interpretieren. Ein einzelner
-IQ-Wert ist kein hinreichendes Kriterium für die Begabungsdiagnostik; er ist bestenfalls
-ein Mosaikstein in einem multiperspektivischen Gesamtbild.
-
-\subsection{Multiperspektivische und dynamische Erfassung}
-
-Wenn standardisierte Tests allein nicht ausreichen, stellt sich die Frage, welche
-alternativen oder ergänzenden Zugänge geeignet sind, verdeckte Potenziale sichtbar zu
-machen. Die internationale Fachliteratur zur professionellen Begabtenförderung (iPEGE)
-formuliert dazu Qualitätsstandards, die über punktuelle Testung hinausgehen
-\parencite{ipege2009professionelle}. Im Kern lassen sich fünf Strategien benennen.
-
-Erstens erfordert die Erfassung \textit{nonverbale und handlungsorientierte Verfahren}, die
-kognitive Fähigkeiten unabhängig von sprachlicher Performanz abbilden. Dazu gehören
-Matrizentests, figurale Analogien und Aufgaben zur räumlichen Vorstellung, aber auch
-die systematische Beobachtung von Problemlösestrategien in offenen Lernsituationen.
-Im Fall S. war es die Beobachtung seines Schachspiels, die kognitive Ressourcen sichtbar
-machte, nicht ein Testverfahren.
-
-Zweitens bedarf es einer \textit{systematischen Verhaltensbeobachtung in verschiedenen
-Settings}. Das Münchner Hochbegabungsmodell verweist darauf, dass Begabung sich
-kontextabhängig zeigt: Ein Kind kann in einem Setting als unauffällig oder
-verhaltensauffällig gelten und in einem anderen als hochkompetent. Bei S. bestand genau
-diese Diskrepanz zwischen dem regulären Unterricht und dem SOLUX-Projekt.
-\textcite{trautmann2016einfuehrung} betont, dass Beobachtung als diagnostisches Instrument nur dann valide
-ist, wenn sie kriteriengestützt erfolgt und verschiedene Kontexte systematisch
-berücksichtigt.
-
-Drittens ist die \textit{Einbeziehung ausserschulischer Bezugspersonen} unerlässlich.
-Eltern verfügen über Wissen zu den Fähigkeiten und Interessen ihrer Kinder, das
-schulischen Fachpersonen nicht zugänglich ist. Im Fall S. war das Elterngespräch zunächst
-nur über eine Bekannte der Familie möglich; ein professionell begleitetes Gespräch mit
-Dolmetscherin fand erst auf Initiative der SHP statt. \textcite{uslucan2012begabung} betont, dass
-migrationsspezifische Bildungsaspirationen nicht mit Desinteresse verwechselt werden
-dürfen: Viele Eltern mit Migrationsgeschichte haben hohe Erwartungen an die Bildung
-ihrer Kinder, können diese aber im institutionellen Kontext nicht wirksam einbringen.
-
-Viertens muss die Diagnostik \textit{Erstsprachkompetenzen berücksichtigen}. Ein Kind,
-das in der Unterrichtssprache auf A1-Niveau kommuniziert, kann in seiner Erstsprache
-über differenzierte kognitive und sprachliche Fähigkeiten verfügen. Bei S. fällt auf,
-dass er sich für Englisch statt Albanisch entschied, eine Wahl, die auf ein komplexes
-Sprachprofil verweist und möglicherweise auch auf schwierige Erfahrungen in der
-Herkunftssprache. \textcite{reutlinger2015hochbegabung} empfehlen, bei der Begabungsdiagnostik mit
-mehrsprachigen Kindern konsequent alle verfügbaren Sprachen einzubeziehen und
-Testungen wenn möglich in der stärksten Sprache durchzuführen.
-
-Fünftens schliesslich plädiert die Forschung für eine \textit{dynamische,
-prozessorientierte Diagnostik}. Im Unterschied zur statischen Statusdiagnostik,
-die den aktuellen Leistungsstand misst, erfasst dynamische Diagnostik das Lernpotenzial:
-Wie schnell lernt ein Kind hinzu, wenn es gezielte Unterstützung erhält? Wie reagiert es
-auf Hinweise, wie flexibel passt es Strategien an? \textcite{preckel2013hochbegabung} argumentieren,
-dass gerade bei Kindern, deren aktuelle Leistung ihr Potenzial nicht widerspiegelt,
-dynamische Verfahren diagnostisch überlegen sind.
-
-\subsection{Twice Exceptionality als Deutungsrahmen}
-
-Das Konzept der \textit{twice exceptionality} (\textit{2e}) beschreibt Kinder, bei denen
-hohe kognitive Fähigkeiten mit Lern-, Entwicklungs- oder Verhaltensbesonderheiten
-koexistieren. Klassische Beispiele sind hochbegabte Kinder mit Legasthenie, ADHS
-oder Autismus-Spektrum-Störungen. \textcite{preckel2013hochbegabung} weisen darauf hin, dass
-bei \textit{2e}-Kindern häufig weder die Begabung noch die Schwierigkeit erkannt wird,
-weil sich beide Aspekte gegenseitig maskieren: Die Begabung kompensiert teilweise die
-Schwierigkeit, die Schwierigkeit verdeckt die Begabung.
-
-Bei S. dient dieses Konzept nicht als Diagnose, sondern als heuristische Denkfolie. Es
-erlaubt, die Gleichzeitigkeit von überdurchschnittlichem kognitivem Potenzial,
-schriftsprachlichen Schwierigkeiten, graphomotorischen Hürden und möglichen
-belastenden Vorerfahrungen konzeptionell zu fassen, ohne vorschnell in eine Kategorie
-zu drängen. Die heilpädagogische Konsequenz ist eine diagnostische Haltung der
-\textit{gleichzeitigen Aufmerksamkeit}: Stärken und Barrieren werden nicht sequentiell
-(\enquote{zuerst die Defizite beheben, dann die Begabung fördern}), sondern parallel in den
-Blick genommen. \textcite{lehwald2017motivation} beschreibt, dass Motivation bei begabten Kindern dann
-einbricht, wenn die Lernumgebung keine Passung zu ihren Interessen und Fähigkeiten
-bietet; eine einseitig defizitorientierte Förderung kann diesen Motivationsverlust
-verstärken.
-
-\subsection{Konsequenzen für die heilpädagogische Praxis}
-
-Für die Erfassung verdeckter Begabungen bei Schüler:innen mit Migrationserfahrung und
-geringen Deutschkenntnissen ergeben sich aus der dargestellten Forschungslage drei
-handlungsleitende Prinzipien.
-
-Das erste Prinzip ist die \textit{diagnostische Mehrperspektivität}: Kein einzelnes
-Verfahren und keine einzelne Beobachtungsperspektive genügt, um Potenziale valide
-einzuschätzen. Die Kombination aus nonverbaler Testung, kriteriengestützter
-Verhaltensbeobachtung in verschiedenen Settings, Elterngesprächen und der
-Berücksichtigung erstsprachlicher Kompetenzen ergibt ein Mosaik, das der Komplexität
-der Situation gerecht wird.
-
-Das zweite Prinzip ist die \textit{Kontextvariation}: Begabung zeigt sich
-kontextabhängig. Wenn der reguläre Unterricht ausschliesslich sprachgebundene
-Leistungsnachweise fordert, bleiben Potenziale in anderen Domänen unsichtbar.
-Offene, interessenbasierte Settings wie SOLUX fungieren als diagnostische Fenster: Sie
-machen Stärken sichtbar, die im Regelunterricht nicht zum Vorschein kommen.
-
-Das dritte Prinzip ist die \textit{Reflexion eigener Wahrnehmungsmuster}: Die
-Forschung zeigt, dass Lehrpersonen und Fachpersonen ihre Einschätzungen von Kindern
-systematisch an sprachlicher Kompetenz, Anpassungsverhalten und sozioökonomischem
-Hintergrund ausrichten. Eine professionelle Begabungsdiagnostik erfordert die
-Bereitschaft, diese Muster zu hinterfragen, und institutionelle Strukturen, die eine
-solche Reflexion ermöglichen.
- 
 \subsection{Kernliteratur zu Frage 1}
  
 \begin{description}
   \item[\cite{stamm2021fehlenderblick}] Der fehlende Blick auf begabte Minoritäten. In: Handbuch Begabung. (ca.~15\,S.)
   \item[\cite{kellerkoller2021hellekoepfe}] Helle Köpfe mit Migrationshintergrund. (ca.~20\,S.)
-  \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--4, 9--11. (ca.~90\,S.)
-  \item[\cite{preckel2013hochbegabung}] Hochbegabung. Kap.~1--3 (Erkennen). (ca.~50\,S.)
+  \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,S.)
+  \item[\cite{preckel2013hochbegabung}] Hochbegabung. Kap.~1--2 (Erkennen, Verstehen). (ca.~40\,S.)
   \item[\cite{muelleroppliger2021handbuch}] Handbuch Begabung. Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.)
-  \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--3. (ca.~50\,S.)
+  \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.)
   \item[\cite{reutlinger2015hochbegabung}] Hochbegabung und Migrationshintergrund. (ca.~15\,S.)
   \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.)
+  \item[\cite{webb2020doppeldiagnosen}] Doppeldiagnosen und Fehldiagnosen bei
+    Hochbegabung. Kap.~1--2, 10. (ca.~25\,S.)
 \end{description}
  
-\textit{Geschätzter Umfang Frage~1: ca.~300\,Seiten.}
- 
+\textit{Geschätzter Umfang Frage~1: ca.~295\,Seiten.}
 
- 
+
 % ════════════════════════════════════════════════════════
-
-\subsection{Kritische Reflexion: Umgang mit divergierenden Testbefunden}
-
-\begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
-\itshape
-Angenommen, die schulpsychologische Testung hätte bei S. kein überdurchschnittliches
-Potenzial bestätigt, sondern ein durchschnittliches Ergebnis geliefert. Wie würden Sie
-als SHP mit diesem Befund umgehen, und welche diagnostischen Schritte würden Sie
-dennoch einleiten?
-\end{tcolorbox}
-
-Diese Frage zielt auf den Kern der diagnostischen Haltung: Reicht ein einzelner
-Testbefund aus, um die Frage nach verdeckten Potenzialen abschliessend zu beantworten?
-Die Antwort muss zeigen, dass die in Frage~1 dargestellte multiperspektivische
-Diagnostik gerade dann zum Tragen kommt, wenn standardisierte Verfahren an ihre
-Grenzen stossen.
-
-Ein durchschnittliches Testergebnis bei S. wäre zunächst kein Widerspruch zur
-Hypothese eines hohen Potenzials. Maehler et al. arbeiten heraus, dass bei
-Migrant:innen systematische Fehlerquellen die Validität von Intelligenztests
-einschränken: sprachliche Verständnisschwierigkeiten, kulturell unterschiedliche
-Testvertrautheit und migrationsspezifische Stressoren können dazu führen, dass ein
-Test nicht die kognitive Kapazität misst, sondern den Grad der sprachlichen und
-emotionalen Entfremdung in der Testsituation. Bei S. sind alle drei Fehlerquellen
-wirksam: Er wurde in einer Sprache getestet, die er sich autodidaktisch angeeignet
-hat (Englisch), nachdem eine Testung in seiner Muttersprache an Hemmungen scheiterte.
-Ein durchschnittliches Ergebnis unter diesen Bedingungen wäre als Unterschätzung zu
-interpretieren, nicht als valide Abbildung seines Potenzials
-\parencite{maehler2018diagnostik}.
-
-Die LemaS-Begriffsklärung formuliert den Grundsatz, dass Begabung als
-entwicklungsfähiges Potenzial einer prozessorientierten Diagnostik bedarf und eine
-einmalige Statusdiagnostik nicht genügt \parencite{lemas2023begriffsklaerung}. In
-der konkreten Situation von S. würde dies bedeuten, den Testbefund als einen
-Mosaikstein zu behandeln und ihn mit den Beobachtungsdaten aus anderen Kontexten
-zu konfrontieren. Die Diskrepanz zwischen einem durchschnittlichen Testwert und der
-beobachtbaren Exzellenz im Schachspiel (schnelle Mustererkennung, eigenständige
-Strategieentwicklung, nachvollziehbare Erklärung von Zügen) wäre diagnostisch
-hochbedeutsam: Sie verwiese darauf, dass der Test das Potenzial nicht adäquat
-erfasst hat.
-
-Konkret würde ich als SHP drei Schritte einleiten. Erstens eine
-\textit{kriteriengestützte Dokumentation der Beobachtungen aus SOLUX}. Die
-Verhaltensmerkmale, die S. im Schachprojekt zeigt, lassen sich den Indikatoren
-gängiger Begabungschecklisten zuordnen: hohe Konzentrationsfähigkeit bei
-selbstgewählten Aufgaben, schnelles Erfassen komplexer Muster, Fähigkeit zur
-Strategieentwicklung und zur Erklärung eigener Denkwege, intrinsische Motivation
-und Durchhaltevermögen. Diese Beobachtungen sind diagnostisch mindestens so
-aussagekräftig wie ein Testwert, wenn sie systematisch und kriteriengestützt
-erhoben werden \parencite{trautmann2016einfuehrung,ipege2009professionelle}.
-
-Zweitens würde ich eine \textit{Retestung zu einem späteren Zeitpunkt} anregen,
-idealerweise wenn S. sich im schulischen Umfeld sicherer fühlt und sein
-Zweitspracherwerb weiter fortgeschritten ist. Preckel und Baudson betonen, dass
-bei Kindern mit vermuteter Twice Exceptionality eine einzelne Testung häufig
-nicht ausreicht und wiederholte Erhebungen unter verbesserten Bedingungen
-angezeigt sind \parencite{preckel2013hochbegabung}. Ergänzend kämen nonverbale
-Verfahren in Betracht, die stärker auf figurale und räumliche Fähigkeiten
-abzielen und weniger sprachgebunden sind als der WISC.
-
-Drittens würde ich die \textit{Förderung nicht an den Testbefund koppeln}, sondern
-an die beobachteten Stärken. Das Schoolwide Enrichment Model operiert explizit mit
-dem Grundsatz, dass die Förderung der Identifikation vorausgeht, nicht umgekehrt.
-Renzullis Drehtürmodell sieht vor, dass Kinder, die in Enrichment-Settings
-auffällige Motivation und Fachkompetenz zeigen, erweiterte Fördermöglichkeiten
-erhalten, unabhängig davon, ob ein formaler Testbefund vorliegt
-\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung}. S.'
-Teilnahme an SOLUX und die dort sichtbar gewordenen Stärken wären ausreichende
-Grundlage, um vertiefte Förderangebote einzuleiten.
-
-Gegenüber dem multiprofessionellen Team und den Fachstellen, die zum Abwarten
-geraten haben, würde ich diese Haltung mit zwei Argumenten vertreten. Das erste
-Argument ist empirisch: Stamm belegt, dass bei Kindern mit Migrationshintergrund
-Potenziale systematisch unterschätzt werden und dass die Instrumente der
-Begabungserkennung auf eine bestimmte Klientel zugeschnitten sind. Ein
-durchschnittliches Testergebnis bei einem Kind, das unter massiv erschwerten
-Bedingungen getestet wurde, sagt weniger über seine kognitive Kapazität als über
-die Grenzen des Verfahrens \parencite{stamm2021fehlenderblick}. Das zweite Argument
-ist pädagogisch: Lehwald zeigt, dass Motivation bei begabten Kindern einbricht,
-wenn die Lernumgebung keine Passung bietet. Auf einen durchschnittlichen Testwert
-hin die Begabungsförderung einzustellen hiesse, genau jene Demotivation zu
-erzeugen, die das Kind dann endgültig in die Unsichtbarkeit drängt
-\parencite{lehwald2017motivation}.
-
-Die heilpädagogische Konsequenz ist klar: Der Testbefund begrenzt den
-diagnostischen Prozess nicht, sondern erweitert ihn. Er wird zum Anlass, die
-Frage nach dem Potenzial mit anderen Mitteln weiterzuverfolgen, statt sie
-vorschnell zu schliessen. Die Haltung der \textit{gleichzeitigen Aufmerksamkeit}
-(vgl. Abschnitt~1.5) gilt gerade dann, wenn formale Instrumente keine eindeutige
-Antwort liefern.
-
-\newpage
-\section{Frage 2 (FW): Sensumotorische Grundlagen, Schriftspracherwerb und ressourcenorientierte Förderung über Schach}
+\section{Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren
+  und ressourcenorientierte Förderung}
 \label{sec:frage2}
 % ════════════════════════════════════════════════════════
  
 \begin{quote}\itshape
-Welche sensumotorischen Grundlagen sind für den Schriftspracherwerb von S. massgeblich
-und wie können seine motorischen Schreibschwierigkeiten ressourcenorientiert gefördert werden?
+Welche sensumotorischen und schriftsprachlichen Faktoren können dazu beitragen,
+dass kognitive Potenziale verdeckt bleiben, und wie lassen sie sich
+ressourcenorientiert fördern?
 \end{quote}
- 
-
-Diese Fragestellung verbindet die Bereiche Motorik und Wahrnehmung (MW) sowie
-Kognition und Sprache (KS) mit der Begabungsförderung. Sie fragt nach der
-Entwicklungslogik, die Schach als Ressource für Schreiben, Lesen, Sprache und
-Beteiligung wirksam werden lässt.
- 
-Der Schriftspracherwerb ist ein komplexer Prozess, der visuo-motorische Koordination,
-phonologische Bewusstheit, Automatisierung graphomotorischer Abläufe und
-Arbeitsgedächtnisressourcen gleichzeitig beansprucht. Bei S. zeigen sich deutliche
-graphomotorische Unsicherheiten: inkonsistente Buchstabenformen, erhöhter Stiftdruck,
-wiederholtes Absetzen. Diese Befunde deuten auf nicht automatisierte sensumotorische
-Grundlagen hin, die das Schreiben zu einer kognitiv hochbelastenden Tätigkeit machen
-und damit Ressourcen für inhaltliches Denken blockieren
-\parencite{rosebrock2010grundlagen,gold2018lesenkannmanlernen}.
- 
-Die Leseflüssigkeit von 17 Wörtern pro Minute liegt weit unter altersgemässen Werten.
-Rosebrock und Nix beschreiben ein Mehrebenenmodell des Lesens, in dem Wort- und
-Satzidentifikation automatisiert sein müssen, damit Ressourcen für Textverständnis
-verfügbar werden \parencite{rosebrock2010grundlagen}. \textcite{gold2018lesenkannmanlernen} betont die Bedeutung
-systematischer Leseförderung, die an der Wortleseebene ansetzt, bevor
-Verständnisstrategien greifen können.
- 
-Der ressourcenorientierte Zugang über Schach eröffnet einen alternativen Förderweg:
-Schachnotation bietet eine regelbasierte, strukturierte Schriftform (e2-e4, Sf3), die
-Buchstaben und Zahlen in einem bedeutungsvollen, motivierenden Kontext verankert.
-Die Notation erfordert visuell-räumliche Koordination, fördert die Automatisierung
-einzelner Grapheme und verbindet Schreibhandlung mit kognitivem Interesse.
-\textcite{lehwald2017motivation} beschreibt, wie intrinsische Motivation als Treiber für kognitive Anstrengung
-und Durchhaltevermögen wirkt. Im Enrichment-Paradigma
-(Renzulli) wird das individuelle Interessensgebiet zum Ausgangspunkt für
-Kompetenzentwicklung: S. kann als \enquote{Experte} auftreten, bevor seine schriftsprachlichen
-Kompetenzen dafür ausreichen würden
-\parencite{fischer2020begabungsfoerderung,muelleroppliger2021handbuch}.
- 
-Entscheidend ist, dass S. erst in einem Setting emotionaler Sicherheit (SOLUX) zu
-sprechen und sich zu zeigen begann. Dieser Befund verweist auf die enge Verschränkung
-von Emotion, Motorik und Kognition: Verkrampfung und Schreibblockade sind nicht nur
-motorische, sondern auch emotionale Phänomene. Die Förderung muss daher an der
-Ressource ansetzen, nicht am Defizit, und Sicherheit vor Anforderung stellen.
-
-
-\subsection{Schriftspracherwerb als sensumotorisch-kognitiver Prozess}
-
-Schreiben ist keine isolierte motorische Fertigkeit, sondern ein vielschichtiger Vorgang,
-der sensorische Wahrnehmung, motorische Ausführung und kognitive Verarbeitung
-gleichzeitig beansprucht. Rosebrock und Nix beschreiben für das Lesen ein
-Mehrebenenmodell, das in analoger Weise auch für das Schreiben produktiv gemacht werden
-kann: Auf der untersten Ebene stehen basale Prozesse der Buchstaben- und Worterkennung
-beziehungsweise -produktion, die automatisiert ablaufen müssen, damit auf höheren Ebenen
-Ressourcen für Satzbildung, Textplanung und inhaltliches Denken verfügbar werden
-\parencite{rosebrock2010grundlagen}. \textcite{sturm2016graphomotorik} betont, dass graphomotorische Prozesse beim
-Schreibenlernen eine eigenständige Entwicklungsaufgabe darstellen: Die Herausbildung
-stabiler, flüssiger Bewegungsmuster für einzelne Grapheme erfordert intensive Übung
-und gelingt nur unter Bedingungen, die ausreichend Verarbeitungskapazität freilassen.
-Solange die Graphemproduktion nicht automatisiert ist,
-bindet sie Arbeitsgedächtniskapazität, die dann für semantische und syntaktische Prozesse
-fehlt.
-
-Für den Schriftspracherwerb sind dabei drei sensumotorische Teilprozesse massgeblich.
-Der erste betrifft die \textit{visuomotorische Koordination}: die Fähigkeit, visuell
-wahrgenommene Buchstabenformen in gezielte Handbewegungen zu übersetzen. Der zweite
-Teilprozess ist die \textit{kinästhetische Rückmeldung}: das Spüren der eigenen
-Schreibbewegung, das eine laufende Anpassung von Stiftdruck, Bewegungsrichtung und
-Bewegungsamplitude ermöglicht. Der dritte Teilprozess umfasst die
-\textit{Automatisierung motorischer Programme}: die Herausbildung stabiler
-Bewegungsmuster für einzelne Grapheme, die ohne bewusste Steuerung abrufbar sind und
-so eine flüssige Schrift ermöglichen.
-
-Gold ergänzt diese motorische Perspektive um eine kognitiv-linguistische Dimension:
-Schriftspracherwerb gelingt nur, wenn basale Dekodier- und Kodierfähigkeiten so weit
-gefestigt sind, dass sie Verarbeitungskapazität für höhere Prozesse freisetzen. Kinder,
-bei denen diese basalen Fähigkeiten noch nicht automatisiert sind, geraten in eine
-Überforderungssituation, sobald gleichzeitig motorische, orthographische und inhaltliche
-Anforderungen gestellt werden \parencite{gold2018lesenkannmanlernen}.
-
-\subsection{Graphomotorische Befunde bei S.}
-
-Bei S. zeigen sich die beschriebenen Teilprozesse als durchgehend fragil. Seine
-Buchstabenformen sind inkonsistent: Derselbe Buchstabe wird in unterschiedlicher Grösse,
-Neigung und Formgebung realisiert, was auf fehlende motorische Programme hindeutet. Der
-deutlich erhöhte Stiftdruck und das wiederholte Absetzen mitten in einer Schreibbewegung
-verweisen auf eine unzureichende kinästhetische Regulation. S. scheint den Stift mit einer
-tonischen Anspannung zu führen, die flüssige Bewegungsabläufe blockiert und zugleich
-Ermüdung und Verkrampfung beschleunigt.
-
-Auffällig ist, dass diese Schwierigkeiten sprachübergreifend auftreten: Auch auf Englisch,
-einer Sprache, die S. aktiv nutzt und in der er sich vergleichsweise sicher fühlt,
-gelingt das Schreiben nicht altersentsprechend. Dieser Befund spricht dafür, dass die
-graphomotorischen Hürden nicht primär mit dem Zweitspracherwerb zusammenhängen,
-sondern auf eine eigenständige sensumotorische Problematik verweisen, die möglicherweise
-bereits im Herkunftsland bestand. Die Information, dass S. dort die Klasse hätte
-wiederholen oder wechseln müssen, stützt diese Hypothese.
-
-Die Konsequenz dieser nicht automatisierten Grundlagen ist gravierend: Jede
-Schreibsituation wird für S. zu einer kognitiv hochbelastenden Tätigkeit. Was für
-Altersgenossen eine Routinehandlung darstellt, erfordert bei ihm volle
-Aufmerksamkeitsressourcen für die motorische Ausführung allein. Für inhaltliche
-Überlegungen, Wortsuche oder Planung bleibt kaum Kapazität übrig. In der
-SOLUX-Dokumentationsphase äussert sich dies in einem abrupten Abbruch der positiven
-Dynamik: Sobald Stichworte oder Forscherfragen schriftlich festgehalten werden sollen,
-stoppt S. seine Arbeit, beginnt Schreibbewegungen und bricht sie wieder ab, begleitet
-von selbstregulatorischen Lauten.
-
-\subsection{Leseflüssigkeit als komplementäres Entwicklungsfeld}
-
-Die Leseflüssigkeit von S. liegt bei 17 Wörtern pro Minute. Zum Vergleich: Altersgemässe
-Werte für die fünfte Klasse liegen in der Forschung bei rund 120 bis 150 Wörtern pro
-Minute für stilles Lesen. \textcite{rosebrock2010grundlagen} definieren Leseflüssigkeit als die Fähigkeit,
-Texte mit angemessener Geschwindigkeit, Genauigkeit und Prosodie zu lesen. Sie
-unterscheiden drei hierarchieniedrige Teilfähigkeiten: Dekodiergenauigkeit,
-Automatisierung der Worterkennung und prosodisches Lesen. Bei S. ist bereits die
-erste Stufe, die genaue Dekodierung, nicht gesichert.
-
-\textcite{gold2018lesenkannmanlernen} betont, dass Leseförderung bei Kindern mit gravierenden
-Dekodierungsschwierigkeiten konsequent auf der Wortebene ansetzen muss. Strategien
-des Textverstehens, die in der didaktischen Praxis häufig im Vordergrund stehen,
-greifen erst, wenn die hierarchieniedrigen Prozesse so weit automatisiert sind, dass
-kognitive Ressourcen für Verständnisprozesse frei werden. Bei S. bedeutet dies, dass
-eine direkte Leseförderung auf der Ebene der Buchstaben-Laut-Zuordnung und des
-Sichtwortschatzes beginnen muss, bevor Textverständnis systematisch aufgebaut werden
-kann.
-
-Zugleich verweist Gold auf den Zusammenhang von Lesemotivation und Leseentwicklung:
-Kinder, die Lesen als Misserfolg erleben, vermeiden Leseaktivitäten, was den
-Automatisierungsrückstand vergrössert. Dieser Matthäus-Effekt ist bei S.
-besonders ausgeprägt: Seine geringe Leseflüssigkeit betrifft beide verfügbaren
-Schriftsprachen (Deutsch und Englisch) und schliesst damit eine rein
-spracherwerbsbedingte Erklärung aus. Die Förderung muss diesen Kreislauf
-durchbrechen, indem sie Leseanlässe schafft, die motivational attraktiv und zugleich
-auf dem aktuellen Kompetenzniveau des Kindes angesiedelt sind.
-
-\subsection{Motivation als Brücke zwischen Interesse und Kompetenzentwicklung}
-
-\textcite{lehwald2017motivation} analysiert das Zusammenspiel von Motivation und Begabung und zeigt, dass
-kognitive Anstrengungsbereitschaft nicht als Persönlichkeitseigenschaft zu verstehen ist,
-sondern als kontextabhängige Reaktion auf Passung oder Nicht-Passung zwischen
-Lernumgebung und individuellen Interessen. Begabte Kinder sind nicht per se motiviert;
-sie sind motiviert, wenn die Lernumgebung ihrem Fähigkeitsniveau und ihren Interessen
-entspricht. Bei fehlender Passung reagieren sie mit Rückzug, Verweigerung oder
-Underachievement, also mit genau jenen Verhaltensweisen, die bei S. im regulären
-Unterricht beschrieben werden.
-
-Lehwald unterscheidet drei Formen von Lernmotivation, die für begabte Kinder besonders
-relevant sind: die \textit{Erkenntnismotivation} (das Bedürfnis, Zusammenhänge zu
-durchdringen), die \textit{Leistungsmotivation} (das Bedürfnis, sich an anspruchsvollen
-Aufgaben zu bewähren) und die \textit{soziale Anschlussmotivation} (das Bedürfnis,
-Kompetenzen vor anderen zu zeigen und Anerkennung zu erfahren). Bei S. zeigt sich im
-Schachspiel ein Zusammenspiel aller drei Formen: Er analysiert Muster und entwickelt
-Strategien (Erkenntnismotivation), er sucht den Wettbewerb und kann gewinnen
-(Leistungsmotivation), und er zieht erstmals positive Aufmerksamkeit von Peers auf sich,
-die mit ihm spielen wollen (soziale Anschlussmotivation).
-
-Diese motivationale Verdichtung im Schachkontext eröffnet die Möglichkeit, Schrift-
-und Sprachförderung nicht \textit{am Defizit}, sondern \textit{an der Ressource} anzusetzen.
-\textcite{fischer2020begabungsfoerderung} betonen im Kontext der Begabungsförderung, dass Enrichment-Ansätze
-gerade deshalb wirksam sind, weil sie das individuelle Interessensgebiet als Vehikel
-für den Erwerb übergeordneter Kompetenzen nutzen: Lernstrategien, Arbeitstechniken
-und Kommunikationsfähigkeiten werden nicht isoliert trainiert, sondern im Kontext
-eines authentischen, selbstgewählten Projekts erworben.
-
-\subsection{Schach als Fördermedium für Schrift, Sprache und Beteiligung}
-
-Die Verbindung von Schachinteresse und Schriftsprachförderung bei S. entfaltet sich
-auf mehreren Ebenen. Auf der \textit{graphomotorischen Ebene} bietet die Schachnotation
-einen niederschwelligen Schreibanlass. Die algebraische Notation (e2--e4, Sf3, 0-0)
-verwendet ein begrenztes Inventar von Buchstaben (a--h, S, L, T, D, K) und Zahlen
-(1--8). Dieses reduzierte Zeichensystem ermöglicht gezielte Übung einzelner Grapheme
-in einem Kontext, der für S. bedeutungsvoll ist. Im Unterschied zu dekontextualisierten
-Schreibübungen, die S. mit Rückzug beantwortet, hat die Notation eine unmittelbare
-Funktion: Sie hält Partien fest, ermöglicht deren Nachspiel und dient der Vorbereitung
-auf das Peer-Angebot.
-
-Auf der \textit{sprachlichen Ebene} eröffnet das Schachprojekt Gesprächsanlässe, die
-S. motivieren, sich trotz geringer Deutschkenntnisse verbal zu beteiligen. Das
-Erklären von Zügen, das Formulieren von Regeln für den Schachkurs und das
-Verhandeln mit Peers über Spielsituationen sind kommunikative Handlungen, die an
-sein Expertenwissen anknüpfen. In Kleingruppensettings (IDaZ) zeigt sich S. dabei
-entspannt und motiviert, sein Wortschatz erweitert sich ausgehend von der
-Schachterminologie in angrenzende Bereiche.
-
-Auf der \textit{kognitiv-metakognitiven Ebene} verlangt Schach Fähigkeiten, die
-direkt auf den Schriftspracherwerb übertragbar sind: sequentielles Denken
-(Zugfolgen planen), visuell-räumliche Orientierung (Positionen auf dem Brett
-erfassen), Regelanwendung (Zugregeln einhalten) und vorausschauende Planung
-(Konsequenzen antizipieren). \textcite{muelleroppliger2021handbuch} betonen, dass
-Begabungsförderung dann wirksam ist, wenn sie an den
-\enquote{Stärken des Denkens} ansetzt und von dort aus Transferprozesse
-in andere Domänen ermöglicht.
-
-Eine wichtige Abgrenzung ist dabei zu treffen: Die kognitionspsychologische
-Forschung zeigt, dass Schachtraining keinen nachweisbaren Ferntransfer
-auf allgemeine kognitive Fähigkeiten, Mathematikleistung oder
-Lesekompetenz erzeugt. Die vorliegende Förderplanung beansprucht
-einen solchen Transfer nicht. Die Wirkung der Schachnotation bei S.
-beruht auf zwei eng umschriebenen Mechanismen: erstens auf der
-\textit{motivational-affektiven Brückenfunktion} (Schach als
-Interessensgebiet senkt die Vermeidungsschwelle gegenüber
-Schreibhandlungen) und zweitens auf der \textit{Reduktion der
-Arbeitsgedächtnisbelastung} (das geschlossene Notationssystem entlastet
-die kognitiven Ressourcen zugunsten der graphomotorischen Automatisierung).
-Beides sind Nahtransfer-Effekte innerhalb derselben Anforderungssituation,
-keine Ferntransfer-Hypothesen.
-
-Auf der \textit{sozialen Ebene} schliesslich verändert das Schachprojekt S.' Position
-in der Klasse. Sein Ziel, mit dem eigenen Schachbrett einen Kurs für Mitschüler:innen
-anzubieten, macht ihn vom Aussenseiter zum Experten. Diese Rollenverschiebung hat
-direkte Konsequenzen für seine sprachliche Beteiligung: Wer als kompetent anerkannt
-wird, traut sich eher, sprachliche Fehler zu riskieren.
-
-\subsection{Verkrampfung als emotionaler Marker}
-
-Die Beobachtung, dass S. in der Dokumentationsphase nicht nur motorisch, sondern
-auch emotional blockiert, verweist auf eine Dimension, die über sensumotorische
-Erklärungen hinausgeht. Die Verkrampfung beim Schreiben, der erhöhte Stiftdruck,
-das wiederholte Ansetzen und Abbrechen, begleitet von selbstregulatorischen Lauten:
-All dies sind Zeichen einer tonischen Anspannung, die nicht allein auf fehlende
-Übung zurückzuführen ist, sondern auf eine emotionale Besetzung der Schreibhandlung.
-
-\textcite{lehwald2017motivation} beschreibt, dass begabte Kinder, die wiederholt Misserfolg in einem Bereich
-erleben, eine \textit{antizipatorische Vermeidung} entwickeln: Sie vermeiden die Tätigkeit
-nicht, weil sie sie nicht können, sondern weil die Erwartung des Scheiterns affektiv
-unerträglich ist. Bei S., der möglicherweise bereits im Herkunftsland schulische
-Misserfolgserfahrungen gemacht hat, verbindet sich die motorische Schwierigkeit mit
-einer emotionalen Vorgeschichte. Die Folge ist ein Teufelskreis: Die Vermeidung
-verhindert die Übung, die mangelnde Übung verhindert die Automatisierung, die
-fehlende Automatisierung bestätigt die Misserfolgserwartung.
-
-Die Förderung muss diesen Kreislauf an zwei Stellen durchbrechen. Erstens auf der
-motorischen Ebene durch gezielte, kleinschrittige Automatisierungsübungen, die an
-der aktuellen Kompetenz ansetzen und Erfolgserlebnisse ermöglichen (Schachnotation
-als motivierender Kontext). Zweitens auf der emotionalen Ebene durch ein Setting, das
-Sicherheit bietet und Schreibanforderungen so dosiert, dass sie bewältigbar sind. Im
-SOLUX-Projekt zeigte sich, dass S. dann zu schreiben begann, wenn der Schreibanlass
-aus seinem Projekt heraus entstand und nicht als externe Anforderung an ihn
-herangetragen wurde.
-
-\subsection{Konsequenzen für die Förderplanung}
-
-Die Analyse zeigt, dass S.' Schreibschwierigkeiten nicht monokausual zu erklären sind.
-Sensumotorische Defizite (fehlende Automatisierung, unzureichende kinästhetische
-Regulation), kognitive Überlastung (simultane Anforderungen übersteigen die
-Arbeitsgedächtniskapazität) und emotionale Blockaden (Misserfolgsantizipation,
-Verkrampfung) wirken zusammen und verstärken sich gegenseitig.
-
-Eine ressourcenorientierte Förderplanung muss daher drei Prinzipien folgen. Das erste
-Prinzip ist der \textit{Zugang über die Stärke}: Schriftsprachförderung wird nicht als
-isoliertes Defizittraining angelegt, sondern an S.' Schachexpertise angebunden. Die
-Schachnotation, die Beschriftung eigener Schachfiguren, die schriftliche Planung des
-Peer-Angebots dienen als authentische Schreibanlässe, die Motivation und Kompetenzerleben
-sichern. Das zweite Prinzip ist die \textit{Entkopplung von Anforderungsebenen}: Motorische
-Übungen (Graphemautomatisierung), sprachliche Übungen (Wortschatzerweiterung) und
-inhaltliche Arbeit (Projektdokumentation) werden nicht gleichzeitig gefordert, sondern
-sequentiell angeboten, um die Arbeitsgedächtnisbelastung zu reduzieren. Das dritte
-Prinzip ist die \textit{systematische Leseförderung auf Wortebene}: Parallel zur
-schreibmotorischen Förderung muss die Leseflüssigkeit aufgebaut werden, beginnend
-mit Sichtworttraining und Lautleseübungen in kurzen, regelmässigen Einheiten, die
-schrittweise in den SOLUX-Kontext integriert werden können
-\parencite{rosebrock2010grundlagen,gold2018lesenkannmanlernen}.
 
 \subsection{Kernliteratur zu Frage 2}
  
 \begin{description}
-  \item[\cite{rosebrock2010grundlagen}] Grundlagen der Lesedidaktik. (ca.~80\,S.)
+  \item[\cite{rosebrock2010grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.)
   \item[\cite{gold2018lesenkannmanlernen}] Lesen kann man lernen. Kap.~1--4. (ca.~70\,S.)
   \item[\cite{sturm2016graphomotorik}] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.)
   \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~2--4. (ca.~60\,S.)
@@ -932,388 +305,20 @@ schrittweise in den SOLUX-Kontext integriert werden können
 \end{description}
  
 \textit{Geschätzter Umfang Frage~2: ca.~240\,Seiten.}
- 
 
- 
+
 % ════════════════════════════════════════════════════════
-
-\subsection{Kritische Reflexion: Kontextgebundene Schreibmotivation}
-
-\begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
-\itshape
-S. verweigert im regulären Unterricht das Schreiben konsequent, auch bei
-1:1-Begleitung. Im SOLUX-Projekt beginnt er jedoch, Schachzüge zu notieren.
-Wie erklären Sie diesen Unterschied aus fachlicher Sicht, und wie würden Sie
-daraus eine konkrete Fördersequenz für die nächsten Wochen ableiten?
-\end{tcolorbox}
-
-Diese Frage prüft die Fähigkeit, theoretisches Wissen über sensumotorische
-Grundlagen, kognitive Belastung und Motivation in eine konkrete, begründete
-Förderplanung zu übersetzen. Sie verlangt, den beobachteten Kontrast nicht als
-Willensphänomen, sondern als Zusammenspiel von Anforderungsstruktur, Motivation
-und Arbeitsgedächtnisbelastung zu erklären.
-
-Der Unterschied zwischen den beiden Situationen lässt sich auf drei Ebenen
-analysieren. Auf der \textit{kognitiven Ebene} unterscheiden sich die
-Anforderungsprofile grundlegend. Im regulären Unterricht muss S. gleichzeitig
-mehrere Prozesse bewältigen: den Inhalt einer Aufgabenstellung entschlüsseln
-(in einer Sprache, die er kaum beherrscht), eine Antwort formulieren
-(Wortfindung, Satzbildung) und diese motorisch umsetzen (Graphemproduktion).
-Gold beschreibt, dass Kinder mit nicht automatisierten basalen Fähigkeiten in
-eine Überforderungssituation geraten, sobald motorische, orthographische und
-inhaltliche Anforderungen simultan gestellt werden. Das Arbeitsgedächtnis ist
-in dieser Konstellation vollständig ausgelastet; für die eigentliche kognitive
-Leistung bleibt keine Kapazität \parencite{gold2018lesenkannmanlernen}.
-
-Bei der Schachnotation hingegen entfallen zwei der drei Belastungsquellen. Der
-Inhalt (der Zug) ist S. kognitiv vollständig präsent, er muss ihn nicht erst
-in einer Fremdsprache erschliessen. Die Notation selbst ist ein geschlossenes
-System aus wenigen Buchstaben und Zahlen (a--h, 1--8, S, L, T, D, K), das keine
-Wortfindung, keine Satzbildung und keine orthographischen Entscheidungen
-erfordert. Die gesamte freigesetzte Arbeitsgedächtniskapazität steht für die
-motorische Ausführung zur Verfügung. Sturm betont, dass graphomotorische
-Automatisierung nur unter Bedingungen gelingt, die ausreichend
-Verarbeitungskapazität für die motorische Übung freilassen. Die Schachnotation
-schafft genau diese Bedingung \parencite{sturm2016graphomotorik}.
-
-Auf der \textit{motivationalen Ebene} wirkt der Unterschied zwischen extrinsischer
-Anforderung und intrinsischem Interesse. Lehwald unterscheidet Erkenntnismotivation,
-Leistungsmotivation und soziale Anschlussmotivation. Im regulären Unterricht ist
-keine dieser drei Formen aktiviert: Die Aufgabenstellung ist für S. inhaltlich
-unzugänglich, das Leistungsniveau unerreichbar, und die soziale Situation (Verweis
-aus dem Unterricht, Strafarbeit) erzeugt Beschämung statt Zugehörigkeit. Bei der
-Schachnotation sind alle drei Formen gleichzeitig wirksam: S. will seine Partien
-festhalten, um sie nachspielen und im Peer-Kurs verwenden zu können
-(Erkenntnismotivation), er dokumentiert Partien, die er gewonnen hat
-(Leistungsmotivation), und die Notation dient der Vorbereitung eines Angebots
-für Mitschüler:innen (soziale Anschlussmotivation)
-\parencite{lehwald2017motivation}.
-
-Auf der \textit{emotionalen Ebene} schliesslich unterscheiden sich die Situationen
-in ihrer affektiven Grundtönung. Die Verweigerung im regulären Unterricht ist,
-wie in Frage~2 dargelegt, als antizipatorische Vermeidung zu deuten: S. erwartet
-das Scheitern und vermeidet die Situation, bevor das Scheitern eintritt. Die
-tonische Verkrampfung, der erhöhte Stiftdruck und die selbstregulatorischen Laute
-sind körperliche Marker dieser negativen Affektlage. Im SOLUX-Setting ist die
-affektive Grundtönung positiv: S. agiert in einer Expertenrolle, erfährt
-Anerkennung und hat die Erfahrung gemacht, dass sein Können hier gesehen wird.
-Unter diesen Bedingungen ist die Schreibhandlung nicht mehr affektiv besetzt,
-sondern funktional: Sie dient einem Zweck, den S. selbst als sinnvoll erlebt.
-
-Aus dieser Analyse leite ich eine \textit{konkrete Fördersequenz} für die nächsten
-sechs bis acht Wochen ab, die drei parallele Stränge verbindet.
-
-Der \textit{erste Strang} betrifft die graphomotorische Automatisierung im
-Schachkontext. S. notiert ab sofort jede Partie, die er im SOLUX-Projekt oder
-in der Pause spielt. Die Notation wird schrittweise erweitert: zunächst nur
-Koordinaten (e4, d5), dann Figurenbezeichnungen (Sf3, Lc4), schliesslich
-Sonderzeichen (x für Schlagen, + für Schach, 0-0 für Rochade). Jede Erweiterung
-bringt neue Grapheme ins Repertoire, ohne den motivationalen Rahmen zu verlassen.
-Die Wiederholung der immer gleichen Buchstaben- und Zahlenformen in einem
-bedeutungsvollen Kontext zielt direkt auf die Automatisierung motorischer
-Programme, die Sturm als Kernaufgabe des graphomotorischen Lernens beschreibt
-\parencite{sturm2016graphomotorik}.
-
-Der \textit{zweite Strang} betrifft die Leseförderung auf Wortebene. Rosebrock und
-Nix betonen, dass Leseflüssigkeit über systematisches Training der
-hierarchieniedrigen Prozesse aufgebaut werden muss
-\parencite{rosebrock2010grundlagen}. Für S. eignen sich kurze, tägliche
-Lautleseübungen (5--10 Minuten), die an sein Interessensgebiet angebunden werden:
-Schachbegriffe auf Deutsch (König, Dame, Turm, Springer, Läufer, Bauer),
-einfache Spielanleitungen, Regelkarten für den Peer-Kurs. Gold betont, dass
-Leseanlässe motivational attraktiv und auf dem aktuellen Kompetenzniveau
-angesiedelt sein müssen, um den Matthäus-Effekt zu durchbrechen
-\parencite{gold2018lesenkannmanlernen}. Der Schachkontext liefert diese Passung.
-
-Der \textit{dritte Strang} betrifft die schrittweise Erweiterung der
-Schreibanlässe über die Notation hinaus. Sobald S. die Notation flüssig beherrscht,
-werden die Schreibanforderungen behutsam ausgedehnt: kurze Kommentare zu
-Zügen (\enquote{guter Zug}, \enquote{Fehler}), Beschriftung der selbst gestalteten
-Schachfiguren, Einladungskarte für den Peer-Kurs, einfache Regelbeschreibungen.
-Entscheidend ist, dass jede Erweiterung aus dem Projekt heraus motiviert ist
-und nicht als externe Anforderung an S. herangetragen wird. Fischer et al.
-betonen, dass Enrichment-Ansätze gerade deshalb wirksam sind, weil sie das
-individuelle Interessensgebiet als Vehikel für den Erwerb übergeordneter
-Kompetenzen nutzen \parencite{fischer2020begabungsfoerderung}.
-
-Die drei Stränge werden \textit{sequentiell, nicht simultan} angeboten. In einer
-Fördereinheit wird entweder an der Notation gearbeitet (motorischer Fokus)
-oder gelesen (Dekodierfokus) oder inhaltlich am Projekt gearbeitet
-(Dokumentation). Diese Entkopplung der Anforderungsebenen reduziert die
-Arbeitsgedächtnisbelastung und ermöglicht Erfolgserlebnisse auf jeder
-einzelnen Ebene. Die Dosierung richtet sich nach S.' affektiver Verfassung:
-Zeigt er Anzeichen von Verkrampfung oder Rückzug, wird die Anforderung
-reduziert oder auf eine andere Ebene gewechselt. Das Prinzip
-\textit{Sicherheit vor Anforderung} gilt durchgehend.
-
-Gegenüber dem multiprofessionellen Team dokumentiere ich die Fortschritte
-auf allen drei Ebenen und mache sie in Fallbesprechungen sichtbar. Die
-Dokumentation zeigt, dass S. unter geeigneten Bedingungen schreibt, liest
-und sich sprachlich beteiligt. Sie widerlegt damit die Zuschreibung einer
-grundsätzlichen Verweigerung und liefert Argumente dafür, die Prinzipien
-der Fördersequenz (Interessenbindung, Anforderungsentkopplung,
-Sprachentlastung) schrittweise auch in den regulären Unterricht zu übertragen.
-
-\newpage
-\section{Frage 3 (FW): Ausgrenzungs- und Migrationserfahrungen, emotionale Sicherheit und Begabungsentwicklung}
+\section{Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen,
+  Beziehungsgestaltung und Begabungsentwicklung}
 \label{sec:frage3}
 % ════════════════════════════════════════════════════════
  
 \begin{quote}\itshape
-Wie beeinflussen Ausgrenzungs- und Migrationserfahrungen die Begabungsentwicklung
-von S. und welche Ressourcen können gezielt zur Förderung sozialer Teilhabe genutzt werden?
+Wie beeinflussen Ausgrenzungs-, Belastungs- und Migrationserfahrungen die
+Begabungsentwicklung und soziale Teilhabe, und welche Beziehungsgestaltungen
+wirken förderlich?
 \end{quote}
- 
 
-Diese Fragestellung fokussiert auf Person und Beziehung (PB). Sie untersucht, warum
-Potenziale nicht nur wegen sprachlicher Barrieren, sondern auch wegen
-Beziehungserfahrungen, Schutzmechanismen und emotionaler Unsicherheit verdeckt bleiben.
- 
-Bei S. zeigt sich ein deutlicher Kontrast: Im Schachprojekt erlebt er eine Expertenrolle,
-Motivation und erste soziale Öffnung; im regulären Unterricht bleibt er unsichtbar oder
-wird als störend wahrgenommen und aus dem Unterricht verwiesen. Diese Diskrepanz
-verweist auf die enge Verbindung zwischen emotionaler Sicherheit und der Sichtbarkeit
-von Begabung.
- 
-\textcite{grossrieder2010anerkennung} beschreibt Anerkennung als pädagogisches Grundprinzip, das über Lob
-hinausgeht: Anerkennung zweiter Ordnung meint eine Grundhaltung, in der Unterschiedlichkeit
-nicht defizitär gelesen, sondern respektiert wird.
-Wo Anerkennung fehlt, ziehen sich Kinder zurück: sie maskieren ihre Fähigkeiten,
-regulieren Emotionen durch Rückzug und vermeiden Situationen, in denen sie scheitern
-könnten. Bei S. äussert sich dies in Weinen, Verkrampfung und Verweigerung, die von
-Fachpersonen als Leistungsverweigerung gedeutet werden, statt als Schutzreaktion.
- 
-\textcite{kuhl2019diversitaet} betonen die Bedeutung der pädagogischen Beziehung für die
-Begabungsentfaltung: Begabung entwickelt sich nicht im luftleeren Raum, sondern in
-Beziehungskontexten, die Sicherheit, Anerkennung und Zugehörigkeit ermöglichen. Das Konzept der \textit{twice exceptionality} dient
-hier als Deutungsrahmen für die Überlagerung von kognitivem Potenzial, emotionaler
-Belastung und sozialer Isolation, ohne eine Diagnose zu stellen.
- 
-Die Migrationserfahrung selbst ist ein Belastungsfaktor: der Verlust sozialer Netzwerke,
-mögliche traumatisierende Erfahrungen im Herkunftsland, die sprachliche Isolation in der
-neuen Umgebung und die fehlende schulische Anschlussfähigkeit wirken kumulativ auf die
-Begabungsentwicklung \parencite{behrensen2019inklusive,stamm2012migranten}.
-Die spezifische Benachteiligung von S. ergibt sich dabei nicht aus der Summe
-einzelner Faktoren, sondern aus deren Verschränkung: Migrationsgeschichte,
-sprachliche Isolation, graphomotorische Hürden und fehlende schulische
-Anerkennung wirken nicht additiv, sondern verstärken sich gegenseitig
-und erzeugen eine spezifische Form der Unsichtbarkeit, die keiner dieser
-Faktoren allein hervorbringen würde.
-\textcite{kappus2010migration} zeigt, dass institutionelle Diskriminierung nicht nur in offener Benachteiligung
-besteht, sondern in der alltäglichen Praxis der Defizitzuschreibung: Kinder mit
-Migrationshintergrund erhalten deutlich häufiger Zuweisungen zu sonderpädagogischen
-Settings als Kinder mit einheimischen Namen, selbst bei vergleichbaren Fähigkeiten.
- 
-Die Ressource Schach wirkt in diesem Kontext als Beziehungsöffner: S. wird erstmals
-von Peers als kompetent wahrgenommen, er tritt in Interaktion und erfährt Zugehörigkeit.
-Booth und Ainscow beschreiben im Index für Inklusion, dass Teilhabe nicht allein durch
-Anwesenheit, sondern durch die Erfahrung von Akzeptanz, Mitgestaltung und
-Wertschätzung entsteht \parencite{booth2019index}.
-
-\subsection{Begabungsentwicklung als Beziehungsgeschehen}
-
-Die in Frage~1 dargelegten Begabungsmodelle beschreiben Umweltfaktoren als
-konstitutiv für die Transformation von Potenzial in Leistung. \textcite{kuhl2019diversitaet}
-schärfen diesen Gedanken in einer entscheidenden Hinsicht: Sie argumentieren, dass
-die pädagogische Beziehung nicht bloss ein förderlicher Kontextfaktor ist, sondern
-eine notwendige Bedingung für Begabungsentfaltung. Begabung entwickelt sich in
-Beziehungen oder sie entwickelt sich nicht \parencite{kuhl2019diversitaet}.
-
-Kuhl stützt diese These auf die Persönlichkeits-System-Interaktionen-Theorie (PSI),
-die zwischen verschiedenen psychischen Funktionssystemen unterscheidet. Für die
-Begabungsentwicklung sind zwei Systeme besonders relevant: das Intentionsgedächtnis,
-das Absichten und Pläne aufrechterhält, und das Extensionsgedächtnis, das integrierte
-Selbstrepräsentationen, implizites Erfahrungswissen und emotionale Bewertungen
-verknüpft. Der Zugang zum Extensionsgedächtnis, in dem kreative Problemlösungen,
-intuitive Mustererkennung und komplexe Urteilsprozesse verankert sind, wird durch
-positiven Affekt gebahnt und durch negativen Affekt blockiert. Ein Kind, das sich
-unsicher, beschämt oder ausgeschlossen fühlt, verliert den Zugang zu genau jenen
-kognitiven Ressourcen, die seine Begabung ausmachen
-\parencite{kuhl2019diversitaet}.
-
-Für S. hat dieser Zusammenhang unmittelbare Konsequenzen. Im regulären Unterricht,
-wo er wiederholt aus dem Raum verwiesen wird, wo seine Laute als störend empfunden
-werden und wo sprachliche Anforderungen ihn überfordern, dominiert negativer Affekt.
-Unter diesen Bedingungen ist der Zugang zu seinen kognitiven Stärken, dem
-strategischen Denken, der Mustererkennung, der räumlichen Vorstellungskraft,
-neuropsychologisch erschwert. Im Schachprojekt kehrt sich die affektive Lage um:
-S. erlebt Kompetenz, Zugehörigkeit und Anerkennung. Die veränderte Körperhaltung,
-die die Fallbeschreibung festhält, \enquote{aufgerichteter, präsenter, motivierter},
-ist ein sichtbarer Ausdruck dieser affektiven Zustandsveränderung.
-
-\subsection{Anerkennung als pädagogische Grundkategorie}
-
-\textcite{grossrieder2010anerkennung} entfaltet den Begriff der Anerkennung in einer Differenzierung, die für
-die Analyse von S.' Situation aufschlussreich ist. Grossrieder unterscheidet Anerkennung
-erster und zweiter Ordnung. Anerkennung erster Ordnung ist direkt beobachtbar: Lob,
-Zuwendung, positive Verstärker. Sie orientiert sich an einem vorgegebenen Konzept
-richtigen Verhaltens und transportiert implizit Anpassungsforderungen. Kinder, die den
-enthaltenen Normen entsprechen, wird Anerkennung zuteil; Kinder, die davon abweichen,
-wird sie verweigert.
-
-Anerkennung zweiter Ordnung hingegen bezeichnet eine Grundhaltung, die den anderen als
-Person respektiert, mit eigenen Wünschen, Bedürfnissen und Auffassungen, unabhängig
-von Leistung oder Nutzen. Sie ist nicht direkt beobachtbar, sondern zeigt sich in der
-Art, wie Interaktionen gestaltet, Lernumgebungen arrangiert und Unterschiede behandelt
-werden. Grossrieder betont, dass Anerkennung zweiter Ordnung ein
-Interaktionsgeschehen voraussetzt, in dem die Beteiligten sich in ihrer Besonderheit
-zeigen können, ohne unter die Wünsche, Bilder oder Handlungserwartungen des
-Gegenübers subsumiert zu werden.
-
-Für S. fehlt im regulären Unterricht genau diese Grundlage. Er wird über seine
-Abweichungen von der Norm wahrgenommen: unzureichende Sprachkenntnisse,
-auffällige Laute, fehlende Arbeitsprodukte. Die Reaktionen der Fachpersonen,
-Verweis aus dem Unterricht, Strafarbeiten, Zuschreibung von Verweigerung,
-entsprechen einer Logik, in der Anerkennung an Anpassung geknüpft ist. Die
-Verhaltensweisen von S. werden nicht als Ausdruck einer komplexen Situation gelesen,
-sondern als Normverletzung sanktioniert.
-
-Grossrieder verweist auf Forschungsergebnisse zum Schulklima, wonach ein von
-Akzeptanz und positiver Erwartungshaltung geprägtes Klima einen positiven Zusammenhang
-mit Leistung und Selbstkonzept aufweist. Umgekehrt zeigen Schüler:innen in Klassen mit
-negativem Klima signifikant niedrigeres Selbstwertgefühl, geringere Erfolgszuversicht
-und ein höheres Mass an Hilflosigkeit. Bei S. verdichten sich diese Befunde zu einem
-spezifischen Muster: In einem anerkennenden Setting (SOLUX) zeigt er Potenzial; in
-einem Setting, das seine Abweichungen sanktioniert (regulärer Unterricht), zieht er
-sich zurück. Die Sichtbarkeit seiner Begabung ist kein Merkmal seiner Person, sondern
-eine Funktion des Kontextes.
-
-\subsection{Migration als kumulative Belastung}
-
-\textcite{behrensen2019inklusive} analysiert die Bildungssituation von Kindern mit Fluchtmigration und
-identifiziert eine Reihe von Faktoren, die Begabungsentwicklung beeinträchtigen können,
-ohne dass ein einzelner Faktor für sich genommen determinierend wirkt. Entscheidend
-ist die Kumulation: Verlust sozialer Netzwerke, Unterbrechung der Bildungsbiographie,
-sprachliche Isolation, unsicherer Aufenthaltsstatus, belastende Erfahrungen im
-Herkunftsland oder auf der Flucht, prekäre Wohnsituationen und eingeschränkte
-elterliche Unterstützungsmöglichkeiten addieren sich zu einer Gesamtbelastung, die
-den Zugang zu den eigenen Ressourcen massiv erschwert.
-
-Behrensen argumentiert, dass inklusive Begabungsförderung gerade für diese Kinder
-eine Antwort auf Bildungsherausforderungen darstellt, weil sie den Fokus von
-Defizitausgleich auf Ressourcenaktivierung verschiebt. Statt ausschliesslich zu fragen,
-welche Kompetenzen dem Kind fehlen, fragt inklusive Begabungsförderung, welche
-Kompetenzen das Kind mitbringt und wie diese sichtbar gemacht und weiterentwickelt
-werden können. Dieser Perspektivenwechsel ist keine kosmetische Massnahme, sondern
-hat diagnostische und pädagogische Konsequenzen: Er verändert, was wahrgenommen wird,
-und damit auch, welche Fördermassnahmen ergriffen werden.
-
-Bei S. lässt sich die kumulative Belastung an mehreren Stellen ablesen. Er ist seit
-Januar 2025 in der Schweiz, spricht kein Deutsch und nutzt primär ein autodidaktisch
-erworbenes Englisch, das seine Eltern nicht teilen. Im Herkunftsland hatte er keine
-Freunde und sollte die Klasse wiederholen. Es besteht der Eindruck, dass die Familie
-belastende Erfahrungen gemacht hat. Ein Elterngespräch war zunächst nur über eine
-Bekannte möglich. Keiner dieser Einzelfaktoren erklärt für sich genommen das
-Verdecktbleiben seiner Begabung. Zusammengenommen beschreiben sie jedoch eine Situation,
-in der die Voraussetzungen für eine gelingende Begabungsentwicklung,
-Beziehungssicherheit, sprachliche Teilhabe, schulische Anerkennung,
-nicht gegeben sind.
-
-Stamm ergänzt diese Perspektive durch empirische Befunde aus der Schweiz. Die
-MIRAGE-Studie zeigt, dass Migrant:innen, die trotz widriger Ausgangsbedingungen
-beruflich erfolgreich geworden sind, in ihrer Bildungsbiographie häufig von
-Schlüsselpersonen berichten, die ihre Potenziale erkannt und gefördert haben. Umgekehrt
-berichten viele, dass ihre Stärken im schulischen Kontext nicht wahrgenommen
-oder aktiv entwertet wurden. Stamm folgert, dass Begabungsreserven in der
-Migrationsbevölkerung systematisch ungenutzt bleiben, nicht weil die Potenziale
-fehlten, sondern weil die Institutionen sie nicht erkennen
-\parencite{stamm2014mirage}.
-
-\subsection{Teilhabe als Voraussetzung für Sichtbarkeit}
-
-Booth und Ainscow entwickeln im Index für Inklusion einen Teilhabebegriff, der über
-physische Anwesenheit hinausgeht. Inklusion bedeutet, dass alle Kinder und Jugendlichen
-an der Gemeinschaft partizipieren, anerkannt werden und Lernangebote erhalten, die
-ihren Bedürfnissen und Fähigkeiten entsprechen. Drei Dimensionen strukturieren den
-Index: inklusive Kulturen schaffen (Dimension A), inklusive Strukturen etablieren
-(Dimension B) und inklusive Praktiken entwickeln (Dimension C)
-\parencite{booth2019index}.
-
-Für die Situation von S. ist Dimension A besonders aufschlussreich. Sie fragt danach,
-ob eine Schulgemeinschaft Werte vertritt, die alle Mitglieder einschliessen, und ob
-Beziehungen von Respekt und Zusammenarbeit geprägt sind. Booth und Ainscow
-formulieren Indikatoren, die sich direkt auf S.' Situation beziehen lassen: Werden alle
-Schüler:innen als gleichwertige Mitglieder der Gemeinschaft betrachtet? Werden hohe
-Erwartungen an alle gestellt? Werden Unterschiede als Ressource behandelt? In S.' Fall
-zeigt sich, dass diese Indikatoren im regulären Unterricht nicht erfüllt sind: Er wird
-als Sonderfall behandelt, seine Unterschiede werden als Störung gewertet, und die
-Erwartungen an ihn beschränken sich darauf, dass er \enquote{nichts mache} oder
-\enquote{verweigere}.
-
-Dimension B betrifft die organisatorischen Strukturen, die Teilhabe ermöglichen oder
-behindern. Im Fall S. ist bemerkenswert, dass die Schule zwar über verschiedene
-Unterstützungsangebote verfügt (SHP, IDaZ, DaZ), diese aber primär
-defizitorientiert eingesetzt werden: Sie dienen der Kompensation von Rückständen,
-nicht der Aktivierung von Stärken. Das SOLUX-Projekt stellt in dieser Hinsicht
-eine strukturelle Ausnahme dar, weil es notenfrei, interessenbasiert und
-sprachentlastet angelegt ist und damit Teilhabebedingungen schafft, die der
-Regelunterricht nicht bietet.
-
-\subsection{Rückzug und Maskierung als Schutzmechanismen}
-
-Die Verhaltensweisen, die S. im regulären Unterricht zeigt, Weinen, Rückzug, Erstarren,
-Verweigerung, lassen sich unter Rückgriff auf die bisher dargestellten theoretischen
-Perspektiven als Schutzmechanismen deuten, nicht als Charaktereigenschaften oder
-willentliche Leistungsverweigerung.
-
-Aus der Perspektive der PSI-Theorie (Kuhl) blockiert negativer Affekt den Zugang zum
-Extensionsgedächtnis. Das Kind fällt in einen Modus reduzierter Handlungsfähigkeit
-zurück, in dem weder kreative Problemlösung noch soziale Öffnung möglich ist. Aus der
-Perspektive der Anerkennungstheorie (Grossrieder) fehlt die Grundlage, sich als Person
-mit eigenen Stärken zu zeigen, weil die Umgebung primär Defizite spiegelt. Aus der
-Perspektive der kumulativen Belastung (Behrensen) übersteigt die Gesamtanforderung,
-neue Sprache, neue Schule, neue Peers, fehlende familiäre Brücken, die
-Bewältigungsressourcen des Kindes.
-
-\textcite{lehwald2017motivation} beschreibt für begabte Kinder, dass Maskierung eine verbreitete Strategie
-darstellt: Kinder, die erleben, dass ihre Fähigkeiten nicht anerkannt werden oder dass
-Leistung zu Ausgrenzung führt (etwa weil Peers sie meiden), verbergen ihre Stärken
-bewusst oder unbewusst. Bei S. kommt eine spezifische Variante hinzu: Er maskiert nicht
-aktiv seine Stärken, sondern seine Stärken werden durch die Struktur des Unterrichts
-unsichtbar gemacht. In einem sprachgebundenen, leistungsnormierten Setting kann er
-schlicht nicht zeigen, was er kann. Die Maskierung ist keine individuelle Strategie,
-sondern ein institutioneller Effekt.
-
-Dass S. im SOLUX-Projekt eine Öffnung zeigt, widerlegt die Zuschreibung einer
-grundsätzlichen Verweigerungshaltung. Die Öffnung verläuft dabei in einer
-charakteristischen Sequenz: zuerst körperlich (veränderte Haltung), dann kognitiv
-(Zeigen von Strategien im Schachspiel), dann sozial (Akzeptieren und Suchen von
-Spielpartner:innen), erst zuletzt sprachlich (Erklären von Zügen, Formulieren von
-Regeln). Diese Sequenz folgt einer Logik der Sicherheit: S. öffnet sich
-in dem Mass, in dem er Anerkennung erfährt, und er erfährt Anerkennung in dem Mass,
-in dem das Setting seine Stärken sichtbar werden lässt.
-
-\subsection{Konsequenzen für die heilpädagogische Begleitung}
-
-Aus den dargestellten Zusammenhängen ergeben sich drei Orientierungspunkte für die
-Förderung sozialer Teilhabe und emotionaler Sicherheit bei S.
-
-Der erste Orientierungspunkt ist die \textit{Beziehung vor Anforderung}. Die
-Schutzmechanismen von S. lösen sich nicht durch erhöhten Druck oder durch Sanktionen,
-sondern durch tragfähige Beziehungen, die Sicherheit vermitteln. Konkret bedeutet
-dies, dass die SHP als verlässliche Bezugsperson agiert, die S.' Verhaltensweisen
-nicht als Verweigerung deutet, sondern als Kommunikation über seine Befindlichkeit
-liest. Die Beziehung zur SHP und innerhalb des SOLUX-Settings bildet den Rahmen,
-in dem weitere Schritte möglich werden.
-
-Der zweite Orientierungspunkt ist die \textit{gezielte Gestaltung von
-Anerkennungsgelegenheiten}. Das Schachprojekt zeigt, dass S.' soziale Öffnung an
-die Erfahrung geknüpft ist, als kompetent wahrgenommen zu werden. Solche
-Gelegenheiten müssen nicht dem Zufall überlassen, sondern können gezielt arrangiert
-werden: Peer-Tutoring-Situationen, in denen S. sein Wissen weitergeben kann,
-Kleingruppensettings, in denen sprachliche Anforderungen reduziert und nonverbale
-Beiträge anerkannt werden, sowie die Dokumentation und Sichtbarmachung seiner
-Projektergebnisse gegenüber dem Kollegium.
-
-Der dritte Orientierungspunkt ist die \textit{Einbettung in inklusive Strukturen}.
-\textcite{booth2019index} betonen, dass individuelle Massnahmen für einzelne Kinder nur dann
-nachhaltig wirken, wenn sie in eine Schulkultur eingebettet sind, die Teilhabe für
-alle als Leitwert versteht. Im Fall S. bedeutet dies, dass die positive Dynamik des
-SOLUX-Projekts nicht als Einzelphänomen stehen bleiben darf, sondern als Impuls für
-die Gestaltung des regulären Unterrichts genutzt werden muss: durch barrierebewusste
-Aufgabenformate, durch eine bewusste Sprache über Stärken im Kollegium und durch die
-konsequente Berücksichtigung nonverbaler Zugänge in der Leistungsbeurteilung.
- 
 \subsection{Kernliteratur zu Frage 3}
  
 \begin{description}
@@ -1324,404 +329,25 @@ konsequente Berücksichtigung nonverbaler Zugänge in der Leistungsbeurteilung.
   \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~5--6 (Emotion). (ca.~30\,S.)
   \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. In: Buholzer \& Kummer Wyss. (ca.~15\,S.)
   \item[\cite{stamm2012migranten}] Migranten mit Potenzial. (ca.~15\,S.)
+  \item[\cite{webb2020doppeldiagnosen}] Doppeldiagnosen und Fehldiagnosen bei
+    Hochbegabung. Kap.~1--2 (Maskierung, Fehldiagnosen). (bereits bei Fr.~1 gezählt)
 \end{description}
  
 \textit{Geschätzter Umfang Frage~3: ca.~160\,Seiten.
 (Überschneidungen mit Frage~1 bei Stamm, Preckel; nicht doppelt gezählt.)}
- 
 
- 
+
 % ════════════════════════════════════════════════════════
-
-
-\subsection{Kritische Reflexion: Verweisungspraxis und Alternativen}
-
-\begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
-\itshape
-S. wird von einzelnen Fachpersonen wiederholt aus dem Unterricht verwiesen und
-muss draussen Strafarbeiten erledigen. Wie beurteilen Sie diese Praxis aus
-heilpädagogischer Perspektive, und welche konkreten Alternativen würden Sie
-im Rahmen eines Standortgesprächs vorschlagen?
-\end{tcolorbox}
-
-Diese Frage zielt auf die Fähigkeit, eine konkrete, problematische Unterrichtspraxis
-theoretisch einzuordnen und daraus handlungsleitende Alternativen abzuleiten. Sie
-verlangt, den Zusammenhang zwischen Sanktionspraxis, emotionaler Sicherheit und
-der Sichtbarkeit von Potenzialen am Fall zu explizieren.
-
-Die Praxis, S. wegen vermeintlicher Verweigerung aus dem Unterricht zu verweisen,
-lässt sich aus drei theoretischen Perspektiven beurteilen, die in Frage~3 entwickelt
-wurden, und erweist sich aus jeder dieser Perspektiven als kontraproduktiv.
-
-Aus der Perspektive der PSI-Theorie nach Kuhl und Hofmann verstärkt der Verweis
-genau jenen negativen Affekt, der den Zugang zu S.' kognitiven Ressourcen blockiert.
-Der Verweis signalisiert dem Kind: Du gehörst nicht dazu, dein Verhalten ist
-inakzeptabel, du störst. Diese Botschaft erzeugt Beschämung, die das
-Extensionsgedächtnis verschliesst. Das Kind, das ohnehin unter negativem Affekt
-leidet, weil es die sprachlichen Anforderungen nicht bewältigen kann und sozial
-isoliert ist, wird durch die Sanktion in einen noch tieferen Rückzug getrieben.
-Die Erwartung der Fachperson, dass der Verweis zu einer Verhaltensänderung führt,
-verkennt den neuropsychologischen Mechanismus: S. verweigert nicht willentlich,
-sondern sein System ist unter Stress herabreguliert. Ein Kind in diesem Zustand
-kann auf Druck nicht mit erhöhter Kooperation reagieren, sondern nur mit
-verstärktem Rückzug oder mit Erstarrung \parencite{kuhl2019diversitaet}.
-
-Aus der Perspektive der Anerkennungstheorie nach Grossrieder stellt der Verweis
-eine besonders wirksame Form der Anerkennung erster Ordnung in ihrer negativen
-Ausprägung dar: Anerkennung wird an Anpassung geknüpft und bei Abweichung
-entzogen. S. erfährt, dass er nur dann als Teil der Gemeinschaft gilt, wenn er
-den Erwartungen der Fachperson entspricht. Da er diese Erwartungen aufgrund
-seiner sprachlichen, motorischen und emotionalen Situation nicht erfüllen kann,
-wird der Entzug von Anerkennung zum Dauerzustand. Grossrieder verweist auf
-Forschungsergebnisse, wonach ein negatives Klassenklima mit signifikant
-niedrigerem Selbstwertgefühl und erhöhter Hilflosigkeit bei den Betroffenen
-einhergeht. Der Verweis verschärft also genau jene psychische Lage, die das
-Verdecktbleiben von S.' Potenzialen bedingt
-\parencite{grossrieder2010anerkennung}.
-
-Aus der Perspektive des Index für Inklusion nach Booth und Ainscow widerspricht
-der Verweis dem Grundsatz, dass Teilhabe nicht allein physische Anwesenheit
-bedeutet, sondern die Erfahrung von Akzeptanz und Mitgestaltung. Ein Kind, das
-den Raum verlassen muss, wird buchstäblich von der Gemeinschaft ausgeschlossen.
-Der Indikator in Dimension A, ob alle Schüler:innen als gleichwertige Mitglieder
-der Gemeinschaft betrachtet werden, ist hier eindeutig verletzt. Booth und Ainscow
-fordern, dass Barrieren für Lernen und Teilhabe in den Strukturen und Praktiken
-der Schule identifiziert werden, nicht im Verhalten einzelner Kinder. Der Verweis
-lokalisiert das Problem im Kind; eine inklusive Perspektive fragt, was an der
-Unterrichtssituation verändert werden muss, damit das Kind teilhaben kann
-\parencite{booth2019index}.
-
-Hinzu kommt eine spezifische Dimension, die den Fall S. von anderen
-Disziplinarsituationen unterscheidet: S. wird verwiesen, obwohl er sich
-\enquote{kaum der Lautsprache bedient}. Er stört den Unterricht nicht aktiv,
-er ist nicht laut, nicht aggressiv, nicht oppositionell. Er macht lediglich
-\enquote{nichts} oder \enquote{verweigert Aufgaben}. Das heisst: Die Sanktion
-reagiert nicht auf eine Regelverletzung, sondern auf das Fehlen einer erwarteten
-Leistung. Behrensen beschreibt, dass bei Kindern mit Migrations- und
-Fluchterfahrung die kumulative Belastung die Bewältigungsressourcen übersteigen
-kann. Was als Verweigerung erscheint, ist in vielen Fällen das Ergebnis einer
-Überforderung, die das Kind nicht verbalisieren kann, weil ihm die Sprache
-dafür fehlt \parencite{behrensen2019inklusive}.
-
-Für ein Standortgespräch würde ich drei konkrete Alternativen vorschlagen, die
-jeweils auf einen der diagnostizierten Mechanismen zielen.
-
-Die \textit{erste Alternative} betrifft die Veränderung der Aufgabenstruktur.
-Wenn S. Aufgaben verweigert, die ausschliesslich sprachgebunden sind, liegt
-das Problem nicht in seiner Kooperationsbereitschaft, sondern in der fehlenden
-Passung zwischen Aufgabenanforderung und seinen aktuellen Möglichkeiten. Im
-Sinne des Universal Design for Learning (UDL) schlage ich vor, für S. alternative
-Ausdrucksformen anzubieten: zeichnerische Darstellungen, visuelle Zuordnungen,
-handlungsorientierte Aufgaben, Arbeit mit Bildmaterial. Im Fach Mathematik, wo
-S. laut Fallbeschreibung \enquote{ausserordentlich auffällt}, sind solche Zugänge
-ohne grossen Aufwand möglich. Die Fachperson müsste nicht den gesamten Unterricht
-umstellen, sondern für S. einen parallelen Zugang bereitstellen, der seine
-Stärken anspricht.
-
-Die \textit{zweite Alternative} betrifft den Umgang mit Rückzugsmomenten. Statt
-S. bei Überforderung aus dem Raum zu verweisen, schlage ich vor, ihm innerhalb
-des Klassenzimmers einen Rückzugsort einzurichten: einen definierten Platz,
-an dem er sich regulieren kann, ohne die Gemeinschaft zu verlassen. Dieser Ort
-kann mit einem nonverbalen Signal zugänglich sein (eine Karte, die S. auf den
-Tisch legt, wenn er eine Pause braucht). Damit wird seine Selbstregulation
-unterstützt statt sanktioniert. Die Botschaft verschiebt sich: von
-\enquote{Du störst, geh raus} zu \enquote{Du darfst eine Pause nehmen
-und bleibst dabei Teil der Klasse}.
-
-Die \textit{dritte Alternative} betrifft die Nutzung der im SOLUX-Projekt
-sichtbar gewordenen Stärken im regulären Unterricht. Wenn S. im Schachprojekt
-Kompetenz und soziale Öffnung zeigt, stellt sich die Frage, wie diese
-Erfahrung in den Alltag transferiert werden kann. Konkret schlage ich vor,
-S. im Mathematikunterricht gezielt als Ressource einzusetzen: als Helfer bei
-Knobelaufgaben, als Partner in Strategiespielen, als Experte für logische
-Muster. Lehwald zeigt, dass Motivation dann stabil bleibt, wenn die
-Lernumgebung eine Passung zu den Interessen und Fähigkeiten des Kindes bietet
-\parencite{lehwald2017motivation}. Wenn S. im regulären Unterricht zumindest
-punktuell als kompetent erlebt wird, verändert sich die Wahrnehmung der
-Fachpersonen und der Peers, was wiederum die emotionale Sicherheit stärkt.
-
-Im Standortgespräch würde ich diese Alternativen nicht als Kritik an der
-bisherigen Praxis präsentieren, sondern als Hypothese: \enquote{Wir haben im
-SOLUX-Projekt beobachtet, dass S. unter bestimmten Bedingungen ganz andere
-Verhaltensweisen zeigt. Was wäre, wenn wir einzelne dieser Bedingungen auch
-im regulären Unterricht herstellen?} Diese Formulierung richtet den Blick
-auf die Bedingungen, nicht auf die Fehler der Fachpersonen, und eröffnet einen
-gemeinsamen Reflexionsraum. Die SHP agiert damit im Sinne der reflexiven
-Partnerschaftlichkeit, die in Frage~5 als zentrale Beratungshaltung
-beschrieben wird.
-
-Entscheidend ist, dass die Verweisungspraxis nicht nur als individuelles
-Fehlverhalten einzelner Fachpersonen zu verstehen ist, sondern als Ausdruck
-einer Schulkultur, die Abweichung sanktioniert. Kappus zeigt, dass
-institutionelle Diskriminierung sich in alltäglichen Praktiken manifestiert,
-die für sich genommen nachvollziehbar erscheinen, in der Summe aber bestimmte
-Kindergruppen systematisch benachteiligen \parencite{kappus2010migration}. Der
-Verweis eines Kindes, das aufgrund seiner Migrationsgeschichte und seiner
-sensumotorischen Schwierigkeiten nicht leisten kann, was erwartet wird, ist
-eine solche Praxis. Sie zu verändern erfordert nicht nur individuelle
-Beratung, sondern eine Auseinandersetzung auf der Ebene der Schulkultur,
-wie sie Booth und Ainscow in Dimension A des Index für Inklusion beschreiben:
-die Frage, ob die Gemeinschaft so gestaltet ist, dass alle ihre Mitglieder
-sich zugehörig fühlen können \parencite{booth2019index}.
-
-
-\section{Frage 4 (BW): SOLUX als inklusives Begabungsförderungsprojekt}
+\section{Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX}
 \label{sec:frage4}
 % ════════════════════════════════════════════════════════
  
 \begin{quote}\itshape
-Inwiefern kann ein offenes Begabungsförderungsprojekt wie SOLUX Potenziale bei
-Schüler:innen mit Migrationserfahrungen sichtbar machen, die im Regelunterricht
-oft systematisch übersehen werden?
+Inwiefern können offene, enrichment-orientierte Begabungsförderungssettings
+wie SOLUX Potenziale sichtbar machen, die im Regelunterricht systematisch
+übersehen werden?
 \end{quote}
- 
 
-Diese bildungswissenschaftliche Fragestellung verknüpft Diversität und Gesellschaft (DG)
-mit Professionsverständnis (PV). Sie untersucht, welche strukturellen Merkmale eines
-offenen, enrichment-orientierten Begabungsförderungsprojekts dazu beitragen, dass
-Potenziale sichtbar werden, die im sprachlastigen, leistungsnormierten Regelunterricht
-verborgen bleiben.
- 
-Das Schoolwide Enrichment Model (SEM) nach Renzulli bildet den zentralen
-Referenzrahmen. Es unterscheidet drei Enrichment-Typen: Typ~I (explorative
-Schnupperangebote), Typ~II (Vermittlung von Grundfertigkeiten des selbstgesteuerten
-Lernens) und Typ~III (eigenständige Projekte in einem Interessensgebiet). SOLUX
-entspricht in wesentlichen Zügen einer Kombination aus Typ~I und Typ~III und verankert
-die Orientierung an Gardners Multiplen Intelligenzen als Zugangsstruktur
-\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung,trautmann2016einfuehrung}.
- 
-Buholzer und Kummer Wyss zeigen, dass Schule und Unterricht in der Schweiz weiterhin
-stark an Homogenität und an einem gedachten Durchschnittsschüler orientiert sind.
-Heterogenität wird von Lehrpersonen häufig als Erschwernis wahrgenommen; eine
-Pädagogik der Vielfalt, die Unterschiedlichkeit als Ausgangspunkt für die Gestaltung
-von Lernangeboten versteht, ist in der Schulpraxis erst teilweise angekommen
-\parencite{buholzer2010allegleich}. Der Regelunterricht mit seinen sprachlichen
-Anforderungen, seiner Selektionslogik und seiner Orientierung an messbarer Leistung
-produziert für Kinder wie S. systematische Unsichtbarkeit: Wo Beteiligung an Schriftsprache
-geknüpft ist, kann sich kognitives Potenzial nicht zeigen.
- 
-SOLUX setzt dem ein Gegenmodell entgegen: notenfrei, interessenorientiert,
-sprachentlastet und mit nonverbalen Zugängen. \textcite{weigand2021separativ} beschreiben inklusive
-Begabungsförderung als Ansatz, der nicht nur eine ausgewählte Gruppe Hochbegabter
-adressiert, sondern alle Lernenden in ihren Stärken anzusprechen versucht.
-\textcite{sedmak2021bildungsgerechtigkeit} rahmen Begabungsförderung als
-Gerechtigkeitsfrage: Wenn Zugang zu Förderangeboten von sprachlichen und
-sozioökonomischen Voraussetzungen abhängt, reproduziert Begabtenförderung
-Ungleichheit statt sie abzubauen.
- 
-Am Fall S. wird konkret sichtbar, dass SOLUX Potenziale sichtbar macht, die der
-Regelunterricht nicht freilegt: logisch-mathematische Intelligenz, strategisches Denken,
-Expertenwissen, soziale Kompetenz im Peer-Angebot. Die Frage, ob S. für ein
-Gymnasialübertrittsverfahren oder separative Begabtenförderung in Betracht kommt,
-kann erst gestellt werden, wenn solche Potenziale überhaupt wahrgenommen werden.
-
-
-\subsection{Homogenitätslogik und systematische Unsichtbarkeit}
-
-\textcite{buholzer2010allegleich} zeichnen in ihrer Analyse des Umgangs mit Heterogenität
-in Schule und Unterricht ein ernüchterndes Bild. Das obligatorische Bildungssystem in
-der Schweiz, Deutschland und Österreich ist in seiner Grundstruktur auf die Schaffung
-homogener Gruppen ausgerichtet: Jahrgangsklassen, Versetzungsordnungen,
-Fachleistungsdifferenzierung und die gegliederte Sekundarstufe folgen der Annahme,
-dass Lernen am besten gelingt, wenn alle Schüler:innen über ähnliche Voraussetzungen
-verfügen und auf dasselbe Ziel hinarbeiten. Lehrpersonen werden durch diese
-Systemstruktur geradezu dazu angehalten, Vielfalt zu reduzieren und Homogenität
-anzustreben.
-
-Die empirische Befundlage bestätigt, dass diese strukturelle Orientierung sich in den
-mentalen Modellen der Lehrkräfte niederschlägt. In der TIMSS-Studie gaben 55\,\%
-der befragten Lehrkräfte die Leistungsheterogenität ihrer Schüler:innen als grösstes
-Berufserschwernis an. Studien mit Lehramtsstudierenden zeigen eine wenig differenzierte
-Sicht auf Vielfalt: Polarisierungen wie \enquote{normale Kinder und Migrantenkinder} oder
-\enquote{leistungsstarke und leistungsschwache Kinder} dominieren die Wahrnehmung.
-Gegenüber migrationsbedingter Heterogenität äussern angehende Lehrpersonen Zweifel,
-ob sie Kinder mit sprachlichen Defiziten angemessen fördern können. Die Pädagogik
-der Vielfalt, die Heterogenität ausdrücklich als Ausgangspunkt für die Gestaltung
-des Lernangebots versteht, ist in der Schulpraxis erst teilweise angekommen.
-
-Für Kinder wie S. erzeugt diese Homogenitätslogik systematische Unsichtbarkeit.
-Der Regelunterricht operiert mit drei Voraussetzungen, die S. nicht erfüllt: sprachliche
-Ausdrucksfähigkeit in Deutsch als Zugangsmedium zu allen Fächern, schriftliche
-Leistungsnachweise als dominante Form der Kompetenzdemonstration und soziale
-Anpassung als Bedingung für positive Wahrnehmung durch Lehrpersonen. Wo diese drei
-Voraussetzungen die Wahrnehmung strukturieren, wird S. zwangsläufig über seine Defizite
-definiert. Seine kognitiven Stärken, die in Frage~1 als überdurchschnittlich bestätigt
-wurden, haben im sprachlastigen Unterrichtsformat keinen Entfaltungsraum.
-
-\subsection{Enrichment als Gegenmodell: Das Schoolwide Enrichment Model}
-
-Das Schoolwide Enrichment Model (SEM) nach Renzulli und Reis stellt der
-selektionsorientierten Begabtenförderung ein partizipatives Modell gegenüber, das
-Begabungsförderung als Aufgabe der gesamten Schule versteht. Fischer beschreibt die
-drei Enrichment-Typen des SEM im Kontext des deutschsprachigen Raums
-\parencite{fischer2020begabungsfoerderung}.
-
-Typ-I-Enrichment umfasst explorative Angebote, die allen Kindern ermöglichen, über
-Schnupperaktivitäten Zugang zu verschiedenen Themenbereichen und individuellen
-Interessen zu finden. Diese Phase dient der Interessenserkundung und ist bewusst
-niederschwellig angelegt. Typ-II-Enrichment vermittelt projektbezogene Grundfertigkeiten:
-Informationsverarbeitung, Methodenkompetenz und Strategien des selbstgesteuerten Lernens.
-Typ-III-Enrichment schliesslich ermöglicht eigenständige Projektarbeit in einem
-individuellen Interessensgebiet, in der Kinder allein oder in kleinen Gruppen als
-Forschende tätig werden und Expertenwissen aufbauen
-\parencite{muelleroppliger2021handbuch}.
-
-Entscheidend am SEM ist der Grundgedanke, dass nicht zuerst identifiziert und dann
-gefördert wird, sondern dass die Förderung selbst zur Identifikation beiträgt.
-Renzulli spricht vom \textit{Drehtürmodell}: Kinder, die in der Enrichment-Phase
-auffällige Motivation, Kreativität oder Fachkompetenz zeigen, erhalten erweiterte
-Möglichkeiten für vertieftes Arbeiten. Die Identifikation erfolgt somit nicht durch
-einen vorgeschalteten Test, sondern durch Beobachtung im Fördersetting.
-
-\textcite{fischer2020begabungsfoerderung} dokumentiert die Wirksamkeit dieses Ansatzes am Beispiel des
-Forder-Förder-Projekts, das an der Universität Münster entwickelt wurde. Die
-Evaluationsergebnisse zeigen signifikante Verbesserungen bei den
-Projektteilnehmenden: in Schulleistungen (insbesondere im Fach Deutsch), im
-Leseverständnis (3./4. Klasse), in Stressbewältigung und Arbeitsverhalten
-(5./6. Klasse) sowie in Selbstständigkeit und Selbstvertrauen. Diese Effekte
-erwiesen sich in einer Nachbefragung sechs Monate nach Projektende als stabil,
-was die Nachhaltigkeit enrichment-orientierter Begabungsförderung belegt.
-
-\subsection{SOLUX: Strukturmerkmale und Wirklogik}
-
-Das Pilotprojekt SOLUX, das an sieben 5. und 6. Klassen eingeführt wird, weist
-strukturelle Parallelen zum SEM auf, setzt aber eigene Akzente. Es verbindet
-Typ-I-Enrichment (Interessenserkundung über einen adaptierten Fragebogen) mit
-Typ-III-Enrichment (freie Projektarbeit an einem selbstgewählten Thema) und orientiert
-sich an Gardners Multiplen Intelligenzen als Zugangsstruktur. Die Orientierung an
-multiplen Intelligenzen ist dabei nicht nur ein didaktisches Arrangement, sondern ein
-diagnostisches Prinzip: Sie eröffnet Zugänge zu Potenzialen, die im sprachdominierten
-Regelunterricht nicht zum Vorschein kommen.
-
-Vier Strukturmerkmale unterscheiden SOLUX vom Regelunterricht und erklären seine
-Wirkung im Fall S. Das erste Merkmal ist die \textit{Notenfreiheit}. SOLUX operiert
-ohne summative Leistungsbeurteilung. Diese Entscheidung beseitigt den
-Selektionsdruck, der im regulären Unterricht die Wahrnehmung von Kindern strukturiert.
-Wo keine Noten vergeben werden, entfällt die Dichotomie von Leistung und Versagen;
-Beiträge werden nach Engagement, Originalität und Prozessqualität gewürdigt.
-\textcite{buholzer2010allegleich} betonen, dass alternative Beurteilungsformen, die Prozesse
-und Produkte analysieren statt Rangfolgen erstellen, einen produktiven Umgang mit
-Heterogenität ermöglichen.
-
-Das zweite Merkmal ist die \textit{Interessenorientierung}. Kinder wählen ihr
-Projektthema selbst, ausgehend von einem Fragebogen, der verschiedene
-Intelligenzbereiche adressiert. Bei S. wurde dieser Fragebogen barrierebewusst
-angepasst: Da er kaum lesen konnte, wurden die Inhalte vorgelesen; S. wählte
-Englisch statt Albanisch als Zugangsprache. Trotz dieser Anpassung fiel es ihm
-zunächst schwer zu benennen, was ihn interessiert; viele Dinge kannte er nicht.
-Im logisch-mathematischen Bereich reagierte er jedoch markant anders und zeigte
-deutliches Interesse an Mathematik und Schach. Die Interessenorientierung wirkt
-hier als diagnostisches Fenster: Sie macht sichtbar, wo die Ressourcen liegen.
-
-Das dritte Merkmal ist die \textit{Sprachentlastung}. SOLUX erfordert im Kern keine
-elaborierte Schriftsprache. Die Projektarbeit kann zeichnerisch, handwerklich,
-spielerisch oder performativ umgesetzt werden. Für Kinder am Beginn des
-Zweitspracherwerbs bedeutet dies, dass sie mit ihren Stärken einsteigen können,
-statt an sprachlichen Einstiegshürden zu scheitern. S. gestaltete eigene
-Schachfiguren und plante ein Peer-Angebot: Tätigkeiten, die keine Schriftkompetenz
-voraussetzen, aber kognitive Komplexität und planerische Fähigkeiten erfordern.
-
-SOLUX folgt hierbei implizit den Prinzipien des Universal Design for Learning
-(UDL), indem es multiple Zugänge zur Repräsentation und zum Ausdruck von Wissen
-ermöglicht. Die Orientierung an verschiedenen Intelligenzbereichen und die
-Wahlfreiheit bei den Ausdrucksformen entsprechen dem UDL-Grundsatz, dass
-Lernbarrieren nicht im Kind, sondern im Curriculum liegen.
-
-Das vierte Merkmal ist die \textit{Expertenrolle}. Im SEM wie in SOLUX werden Kinder
-nicht als Empfänger:innen von Instruktion positioniert, sondern als Expert:innen
-für ihr Interessensgebiet. S.' Ziel, einen Schachkurs für Mitschüler:innen
-anzubieten, kehrt die übliche Rollenzuteilung um: Das Kind, das im Regelunterricht
-als förderbedürftig gilt, tritt im Projekt als Wissensvermittler auf. Diese
-Rollenverschiebung hat Konsequenzen, die über das Projekt hinausreichen: Sie
-verändert, wie Peers und Lehrpersonen das Kind wahrnehmen.
-
-\subsection{Inklusive Begabungsförderung als Gerechtigkeitsperspektive}
-
-\textcite{weigand2021separativ} ordnen die Debatte um Begabungsförderung in eine bildungspolitische
-Grundfrage ein: Soll Begabtenförderung separativ (in Sonderklassen, Pull-out-Programmen,
-Spezialschulen) oder integrativ (im Regelunterricht, für alle zugänglich) organisiert
-werden? Sie argumentieren, dass inklusive Begabungsförderung beide Zugänge nicht als
-Gegensatz versteht, sondern als Komplementäre: Schulische Enrichment-Angebote für alle
-Kinder bilden die Basis; darauf aufbauend können gezielte Vertiefungsangebote für
-Kinder mit besonders hohem Potenzial ergänzt werden.
-
-Für Kinder mit Migrationshintergrund ist diese Unterscheidung von praktischer
-Relevanz. Separative Begabtenförderung setzt eine vorgängige Identifikation voraus,
-die, wie in Frage~1 dargelegt, durch sprachlastige Verfahren und defizitorientierte
-Zuschreibungen systematisch verzerrt ist. Kinder, die nicht identifiziert werden,
-erhalten keinen Zugang. Inklusive Begabungsförderung kehrt diese Logik um: Der
-Zugang steht allen offen, und die Identifikation erfolgt im Prozess. SOLUX folgt
-genau diesem Prinzip.
-
-\textcite{sedmak2021bildungsgerechtigkeit} vertiefen die Gerechtigkeitsperspektive. Sie argumentieren, dass
-Begabungsförderung, die faktisch nur jenen Kindern zugutekommt, deren Eltern über
-die kulturellen Codes verfügen, um Förderangebote zu erkennen und einzufordern, keine
-Begabungsförderung ist, sondern Privilegienreproduktion. Bildungsgerechtigkeit
-erfordert, dass die Schule aktiv nach Potenzialen sucht, statt darauf zu warten,
-dass sie sich in den institutionell vorgesehenen Formen manifestieren.
-
-\textcite{muelleroppliger2021plurale} rahmt diese Forderung in den Kontext von Inklusion und pluraler
-Gesellschaft: Wenn Schule den Anspruch erhebt, alle Kinder in ihren Möglichkeiten
-zu fördern, muss Begabungsförderung als integraler Bestandteil inklusiver
-Schulentwicklung verstanden werden, nicht als Zusatzangebot für eine selektierte
-Elite.
-
-\subsection{Begabungsförderung als Schulentwicklungsimpuls}
-
-\textcite{unger2010begabungsfoerderung} untersucht, unter welchen Bedingungen Begabungsförderung an Regelschulen
-gelingt, und identifiziert strukturelle Gelingensbedingungen: Unterstützung durch
-die Schulleitung, Verankerung im Schulprogramm, Kooperation im Kollegium und
-eine Kultur der Ressourcenorientierung. Wo Begabungsförderung als isoliertes
-Projekt einzelner Lehrpersonen betrieben wird, bleibt ihre Wirkung auf das Setting
-begrenzt. Wo sie als Schulentwicklungsimpuls verstanden wird, kann sie die
-Unterrichtskultur insgesamt verändern.
-
-\textcite{booth2019index} formulieren in Dimension C des Index für Inklusion (Inklusive
-Praktiken entwickeln) Indikatoren, die sich als Qualitätskriterien für
-Begabungsförderungsprojekte lesen lassen: Wird der Unterricht so geplant, dass er
-das Lernen aller unterstützt? Werden Unterschiede zwischen den Lernenden als
-Ressource genutzt? Werden Barrieren für Lernen und Teilhabe identifiziert und
-abgebaut? Diese Indikatoren beschreiben nicht nur guten inklusiven Unterricht,
-sondern zugleich die Voraussetzungen dafür, dass verdeckte Potenziale sichtbar
-werden können.
-
-Am Fall S. zeigt sich, dass SOLUX als Projekt diese Kriterien erfüllt, der Transfer
-in den regulären Unterricht jedoch noch aussteht. Die Herausforderung besteht darin,
-die Erkenntnisse aus SOLUX, dass S. über überdurchschnittliche kognitive Ressourcen
-verfügt, dass er unter geeigneten Bedingungen soziale Kompetenz und Lernmotivation
-zeigt, in den Alltag der Schule zu übersetzen. Dies berührt die Frage nach
-Beratung und Zusammenarbeit, die in Frage~5 vertieft wird.
-
-\subsection{Konsequenzen für die Praxis inklusiver Begabungsförderung}
-
-Die Analyse zeigt, dass SOLUX Potenziale nicht \textit{erzeugt}, sondern
-\textit{sichtbar macht}, die im Regelunterricht strukturell verdeckt bleiben. Die
-Sichtbarmachung folgt einer spezifischen Logik: Notenfreiheit reduziert den
-Selektionsdruck, Interessenorientierung aktiviert domänenspezifische Stärken,
-Sprachentlastung beseitigt die zentrale Zugangsbarriere, und die Expertenrolle
-verändert die soziale Positionierung des Kindes.
-
-Daraus ergeben sich drei Konsequenzen. Erstens muss inklusive Begabungsförderung
-als \textit{diagnostische Gelegenheit} verstanden werden. Offene, enrichment-orientierte
-Settings sind nicht nur Förder-, sondern auch Erkennungsinstrumente: Sie schaffen
-Bedingungen, unter denen Potenziale hervortreten, die standardisierte Verfahren
-allein nicht erfassen.
-
-Zweitens stellt sich die \textit{Übertrittsfrage} mit neuer Dringlichkeit. Wenn
-Begabungen erst in Enrichment-Settings sichtbar werden, müssen diese Beobachtungen
-in Selektionsentscheide einfliessen. S.' Potenzial wirft die Frage auf, ob er für
-anspruchsvollere Bildungswege in Betracht gezogen werden sollte; eine Frage, die vor
-dem SOLUX-Projekt niemand gestellt hat. Die systematische Dokumentation von
-Beobachtungen aus Enrichment-Settings und deren Einbezug in Übertrittsverfahren ist
-eine institutionelle Aufgabe, die über den Einzelfall hinausweist.
-
-Drittens muss der \textit{Transfer in den Regelunterricht} aktiv gestaltet werden.
-Die Gefahr besteht, dass SOLUX als Insel der Anerkennung fungiert, während der
-reguläre Unterricht unverändert bleibt. Schulentwicklung im Sinne von Booth und
-Ainscow erfordert, dass die Prinzipien, die in SOLUX wirksam sind, barrierebewusste
-Zugänge, Interessenorientierung, alternative Beurteilungsformen, schrittweise
-in die Alltagspraxis der Schule überführt werden.
- 
 \subsection{Kernliteratur zu Frage 4}
  
 \begin{description}
@@ -1732,460 +358,26 @@ in die Alltagspraxis der Schule überführt werden.
   \item[\cite{fischer2020begabungsfoerderung}] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit -- für alle! (ca.~30\,S.)
   \item[\cite{booth2019index}] Index für Inklusion. Dimension C (Inklusive Praktiken). (ca.~30\,S.)
   \item[\cite{unger2010begabungsfoerderung}] Begabungs- und Begabtenförderung unter den Bedingungen der NMS. (ca.~20\,S.)
+  \item[\cite{brunner2021hochbegabung}] Hochbegabung (k)ein Problem?
+    Kap. Identifikation, Fördermodelle im Schweizer Kontext. (ca.~25\,S.)
 \end{description}
  
-\textit{Geschätzter Umfang Frage~4: ca.~180\,Seiten.
+\textit{Geschätzter Umfang Frage~4: ca.~205\,Seiten.
 (Überschneidungen mit Frage~1 bei Müller-Oppliger, Fischer; nicht doppelt gezählt.)}
- 
 
- 
+
 % ════════════════════════════════════════════════════════
-
-
-\subsection{Kritische Reflexion: Nachhaltigkeit und Transfer}
-
-\begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
-\itshape
-Das SOLUX-Projekt ist zeitlich begrenzt und findet in einem geschützten Rahmen statt.
-Wie stellen Sie sicher, dass die dort sichtbar gewordenen Potenziale von S. nicht
-wieder unsichtbar werden, sobald das Projekt endet? Welche strukturellen Massnahmen
-würden Sie für den Übergang in den regulären Unterricht und im Hinblick auf den
-bevorstehenden Übertritt vorschlagen?
-\end{tcolorbox}
-
-Diese Frage adressiert die grösste Verwundbarkeit des in Frage~4 dargestellten
-Förderansatzes: die Nachhaltigkeit. Wenn SOLUX als zeitlich begrenztes Projekt
-Potenziale sichtbar macht, die der Regelunterricht strukturell verdeckt, besteht die
-Gefahr, dass nach Projektende der alte Zustand wiederkehrt. Die Frage verlangt,
-den Transfer von einem geschützten Setting in den Schulalltag theoretisch zu begründen
-und institutionell zu verankern.
-
-Die Gefahr des Rückfalls lässt sich mit Booth und Ainscow präzise beschreiben.
-Der Index für Inklusion unterscheidet drei Dimensionen: inklusive Kulturen schaffen
-(A), inklusive Strukturen etablieren (B) und inklusive Praktiken entwickeln (C).
-SOLUX erfüllt als Projekt primär Dimension C: Es stellt eine inklusive Praktik
-dar, die unter günstigen Bedingungen wirksam ist. Solange diese Praktik jedoch
-nicht in die Kultur (A) und die Strukturen (B) der Schule eingebettet ist, bleibt
-sie eine Insel. Booth und Ainscow betonen, dass nachhaltige Veränderung nur gelingt,
-wenn alle drei Dimensionen zusammenwirken \parencite{booth2019index}.
-
-Konkret bedeutet dies, dass die Erkenntnisse aus SOLUX auf drei Ebenen gesichert
-werden müssen: der Ebene des Kindes (Förderplanung und Übertritt), der Ebene des
-Teams (Wissenstransfer und veränderte Wahrnehmung) und der Ebene der Schule
-(strukturelle Verankerung).
-
-Auf der \textit{Ebene des Kindes} steht die Frage im Zentrum, wie die im
-SOLUX-Projekt gewonnenen diagnostischen Erkenntnisse in die formale
-Förderplanung und in Selektionsentscheide einfliessen. S. steht in der
-5. Klasse vor dem Übertritt in die Sekundarstufe. Die Fallbeschreibung zeigt,
-dass vor dem SOLUX-Projekt niemand die Frage gestellt hat, ob S. für
-anspruchsvollere Bildungswege in Betracht kommt. Das überdurchschnittliche
-kognitive Potenzial, das sowohl durch die schulpsychologische Testung als
-auch durch die Beobachtungen im Schachprojekt bestätigt wurde, muss zwingend
-in die Übertrittsberatung einfliessen.
-
-Sedmak und Kapferer argumentieren, dass Bildungsgerechtigkeit erfordert, aktiv
-nach Potenzialen zu suchen, statt darauf zu warten, dass sie sich in den
-institutionell vorgesehenen Formen manifestieren
-\parencite{sedmak2021bildungsgerechtigkeit}. Für S. bedeutet dies, dass seine
-mathematischen Auffälligkeiten und seine strategischen Fähigkeiten als
-Argumente für einen anspruchsvolleren Schultyp gewichtet werden müssen, auch
-wenn seine Deutschkenntnisse und seine Schriftsprachkompetenz zum Zeitpunkt
-des Übertritts noch nicht altersgemäss sind. Die SHP kann in der
-Übertrittsberatung dokumentiert darlegen, dass die sprachlichen Defizite
-entwicklungsbedingt und vorübergehend sind (Zweitspracherwerb seit Januar 2025),
-während das kognitive Potenzial stabil und überdurchschnittlich ist.
-
-Leikhof belegt, dass Jugendliche mit Migrationshintergrund bei
-Übertrittsverfahren systematisch benachteiligt werden, weil Lehrpersonen
-das Unterstützungspotenzial des Elternhauses unterschätzen und deshalb
-niedrigere Schultypen empfehlen, selbst bei vergleichbaren kognitiven
-Voraussetzungen \parencite{leikhof2021jugendliche}. Im Fall S. ist dieses
-Risiko besonders ausgeprägt: Seine Eltern sprechen weder Deutsch noch Englisch,
-das Schulsystem ist ihnen fremd, und die bisherige schulische Wahrnehmung
-war defizitdominiert. Ohne eine aktive Intervention der SHP wird S. mit hoher
-Wahrscheinlichkeit für einen Schultyp mit Grundansprüchen empfohlen, was
-sein Potenzial langfristig begrenzt.
-
-Konkret schlage ich vor, für die Übertrittsdokumentation ein
-\textit{Kompetenzportfolio} anzulegen, das neben den schulischen
-Leistungsnachweisen systematisch die Beobachtungen aus dem SOLUX-Projekt
-enthält: Fotografien der selbst gestalteten Schachfiguren, Dokumentation
-der Schachnotation als Schriftprodukt, Beschreibungen der Strategien, die
-S. im Spiel entwickelt hat, und die Planung des Peer-Kurses. Dieses Portfolio
-macht Kompetenzen sichtbar, die in Zeugnissen und Noten keinen Ausdruck finden.
-
-Auf der \textit{Ebene des Teams} muss sichergestellt werden, dass die im
-SOLUX-Projekt gewonnene veränderte Wahrnehmung von S. nicht an einzelnen
-Personen hängt, sondern im kollektiven Wissen des Kollegiums verankert wird.
-Buholzer und Kummer Wyss betonen, dass kooperatives Unterrichten ein gemeinsames
-Nachdenken über Kinder voraussetzt \parencite{buholzer2010allegleich}. Der
-Transfer gelingt durch drei Formate.
-
-Erstens durch eine \textit{strukturierte Fallpräsentation} im Kollegium, in
-der die SHP den Kontrast zwischen S.' Verhalten im Regelunterricht und im
-SOLUX-Projekt dokumentiert vorstellt. Die produktive Frage lautet nicht:
-\enquote{Warum verweigert S.?}, sondern: \enquote{Was ist an SOLUX anders, dass
-S. dort Potenziale zeigt?} Diese Rahmung lenkt den Blick von der Person auf
-die Bedingungen und macht die Erkenntnisse für andere Kinder in ähnlichen
-Situationen anschlussfähig.
-
-Zweitens durch die \textit{Einladung zur Hospitation} während des laufenden
-SOLUX-Projekts. Die Klassenlehrperson und weitere Fachpersonen erleben S. in
-seiner Expertenrolle unmittelbar. Wie in Frage~5 dargelegt, bricht die
-visuelle Erfahrung eines kompetent agierenden Kindes festgefahrene
-Deutungsmuster wirksamer auf als jede verbale Beschreibung.
-
-Drittens durch die \textit{Formulierung konkreter Transferempfehlungen}:
-Welche Prinzipien aus SOLUX lassen sich im regulären Unterricht umsetzen?
-Die vier Strukturmerkmale, die in Frage~4 herausgearbeitet wurden
-(Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle),
-sind nicht an das Projektformat gebunden. Im Mathematikunterricht kann S.
-anspruchsvolle Knobelaufgaben bearbeiten und als Helfer eingesetzt werden
-(Expertenrolle). In Sachunterrichtssequenzen können nonverbale
-Dokumentationsformen zugelassen werden (Sprachentlastung). Bei
-Projektarbeiten kann S.' Interessensgebiet als Ausgangspunkt dienen
-(Interessenorientierung). Keiner dieser Schritte erfordert eine
-Strukturreform; jeder ist innerhalb der bestehenden Rahmenbedingungen
-realisierbar.
-
-Auf der \textit{Ebene der Schule} stellt sich die Frage, wie das
-Pilotprojekt SOLUX über den Einzelfall hinaus als Schulentwicklungsimpuls
-genutzt werden kann. Unger identifiziert als Gelingensbedingungen für
-Begabungsförderung an Regelschulen die Unterstützung durch die Schulleitung,
-die Verankerung im Schulprogramm und eine Kultur der Ressourcenorientierung
-\parencite{unger2010begabungsfoerderung}. SOLUX wird derzeit an sieben
-Klassen durchgeführt; die systematische Auswertung der Erfahrungen könnte
-in ein schulinternes Konzept für inklusive Begabungsförderung münden, das
-über das Pilotprojekt hinaus Bestand hat.
-
-Weigand und Kaiser betonen, dass inklusive Begabungsförderung nicht als
-Zusatzangebot für einzelne identifizierte Kinder, sondern als integraler
-Bestandteil der Schulentwicklung verstanden werden muss
-\parencite{weigand2021separativ}. Für die Schule von S. bedeutet dies,
-dass die Frage, wie Potenziale bei Kindern mit Migrationserfahrung erkannt
-werden, nicht dem Zufall oder dem Engagement einzelner Lehrpersonen
-überlassen bleibt. Sie muss institutionell beantwortet werden: durch
-verbindliche Beobachtungsinstrumente, durch regelmässige Enrichment-Fenster
-im Stundenplan und durch eine Übertrittsberatung, die Beobachtungen aus
-offenen Settings systematisch berücksichtigt.
-
-Müller-Oppliger rahmt diesen Anspruch bildungspolitisch: Wenn Schule alle
-Kinder in ihren Möglichkeiten fördern will, muss Begabungsförderung als
-gesamtschulische Aufgabe implementiert werden, nicht als Projekt einzelner
-Fachpersonen \parencite{muelleroppliger2021plurale}. Das Luzerner
-IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten
-den institutionellen Rahmen, in dem diese Forderung realisiert werden kann
-\parencite{dvs2025bbf}. Die Aufgabe der SHP besteht darin, diesen Rahmen
-am konkreten Fall zu füllen und die Erfahrungen aus SOLUX als Argument für
-eine nachhaltige Verankerung inklusiver Begabungsförderung in die
-Schulentwicklung einzubringen.
-
-Die entscheidende Pointe lautet: Die Potenziale von S. werden nicht
-\enquote{wieder unsichtbar}, wenn das Projekt endet, sofern drei Bedingungen
-erfüllt sind. Erstens sind die diagnostischen Erkenntnisse dokumentiert und
-in formale Prozesse (Förderplanung, Übertrittsberatung) überführt. Zweitens
-ist das Wissen über S.' Stärken im Team geteilt und nicht an eine einzelne
-Person gebunden. Drittens sind die Prinzipien, die in SOLUX wirksam waren,
-als übertragbare didaktische Gestaltungsgrundsätze formuliert und mindestens
-punktuell in den regulären Unterricht integriert. SOLUX ist dann nicht das
-Ende der Sichtbarkeit, sondern ihr Anfang.
-
-\newpage
-\section{Frage 5 (BW): Beratung und Zusammenarbeit aus SHP-Perspektive}
+\section{Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive}
 \label{sec:frage5}
 % ════════════════════════════════════════════════════════
  
 \begin{quote}\itshape
-Wie gestalte ich als SHP die Beratung und Zusammenarbeit so, dass defizitorientierte
-Wahrnehmungen von Schüler:innen mit verdeckten Begabungen gemeinsam reflektiert
-und ressourcenorientiert erweitert werden?
+Wie gestalte ich als SHP Beratung und Zusammenarbeit im multiprofessionellen
+Team so, dass defizitorientierte Wahrnehmungen bei neu zugewanderten
+Schüler:innen mit verdeckten Potenzialen reflektiert und ressourcenorientiert
+erweitert werden?
 \end{quote}
- 
 
-Diese Fragestellung verbindet Zusammenarbeit und Beratung (ZB) mit
-Professionsverständnis (PV) und Diversität und Gesellschaft (DG). Sie fragt danach,
-wie schulische Heilpädagog:innen im multiprofessionellen Team konkret handeln können,
-damit Kinder mit verdeckten Potenzialen nicht weiter übersehen werden.
- 
-Die Ausgangslage am Fall S. zeigt ein typisches Muster: Fachpersonen nehmen S. primär
-über Sprachdefizite, Verhaltensauffälligkeiten und Rückzug wahr. Mehrere Fachstellen
-raten zum Abwarten, da sich S. noch am Anfang des Zweitspracherwerbs befinde. Die
-Klassenlehrperson, selbst als Quereinsteigerin in einem neuen Bildungssystem, hat
-wenig Erfahrung mit Begabungserkennung bei mehrsprachigen Kindern. Einzelne
-Fachpersonen verweisen S. aus dem Unterricht wegen vermeintlicher Verweigerung.
- 
-Die SHP-Rolle erfordert in dieser Konstellation eine Beratungshaltung, die nicht
-belehrend, sondern reflexiv vorgeht. Burow beschreibt im Rahmen der Positiven
-Pädagogik, wie ein Fokuswechsel von Defiziten zu Stärken gelingt: nicht durch
-Appelle, sondern durch die gemeinsame Erfahrung, dass Kinder in geeigneten Settings
-Kompetenzen zeigen, die im Alltag unsichtbar waren
-\parencite{burow2020future,burow2021positive}.
- 
-Das Konzept der kooperativen Unterrichtsentwicklung (Buholzer \& Kummer Wyss)
-betont, dass Zusammenarbeit auf der Schul- und Unterrichtsebene eine Voraussetzung
-für den produktiven Umgang mit Heterogenität ist. Kooperation gelingt, wenn
-Lehrpersonen sich als Lernende verstehen und Beobachtungen aus verschiedenen
-Perspektiven zusammenführen \parencite{buholzer2010allegleich}. Konkret heisst das:
-Dokumentation der Beobachtungen aus SOLUX, Einladung zum Mit-Beobachten,
-Video-Feedback, gemeinsame Fallbesprechungen und ressourcenorientierte Förderplanung.
- 
-Die Frage der Übertrittsberatung verdient besondere Aufmerksamkeit: Wenn Potenziale
-erst in einem Enrichment-Setting sichtbar werden, stellt sich die Frage, wie diese
-Erkenntnisse in Selektionsentscheide einfliessen. \textcite{leikhof2021jugendliche} zeigt, dass Jugendliche mit
-Migrationshintergrund in der Begabungsförderung systematisch unterrepräsentiert sind
-und dass dies auch an den Erwartungen und Wahrnehmungsmuster der Lehrpersonen
-liegt. \textcite{macha2019gender} betont die Notwendigkeit gender- und
-diversitätssensibler Professionalisierung in der Begabungsförderung.
- 
-Kappus' Analyse der institutionellen Diskriminierung schliesst den Kreis: Die
-SHP-Aufgabe besteht nicht nur darin, einzelne Kinder zu fördern, sondern auch
-institutionelle Praktiken sichtbar zu machen, die Potenziale systematisch verdecken.
-Kosorok Labhart et al. zeigen, wie die Zusammenarbeit mit Eltern mit
-Migrationshintergrund gelingen kann, wenn sie als Expert:innen ihrer Kinder
-anerkannt werden \parencite{kosoroklabhart2021voneltern}.
-
-\subsection{Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit}
-
-Die vorangegangenen Fragestellungen haben gezeigt, dass das Verdecktbleiben von
-Begabungen bei Kindern mit Migrationserfahrung kein individuelles, sondern ein
-systemisches Phänomen ist. Sprachlastige Diagnostik, homogenitätsorientierter
-Unterricht, fehlende Anerkennungsstrukturen und institutionelle Zuschreibungsmuster
-wirken zusammen. Die Frage, die sich daraus für die schulische Heilpädagogik stellt,
-ist eine Handlungsfrage: Wie kann die SHP innerhalb dieses Systems so agieren, dass
-die Wahrnehmung von Kindern wie S. sich verschiebt, von der Defizitperspektive zur
-Ressourcenperspektive, und zwar nicht nur bei ihr selbst, sondern im gesamten
-pädagogischen Team?
-
-Am Fall S. lässt sich die Ausgangslage präzise beschreiben. Die beteiligten
-Fachpersonen operieren mit drei impliziten Annahmen: Erstens, S. befindet sich am
-Anfang des Zweitspracherwerbs, deshalb sei Abwarten angezeigt. Zweitens, sein
-Rückzugsverhalten, sein Weinen und seine Verweigerung seien Ausdruck von
-Überforderung oder mangelnder Kooperation. Drittens, Begabungsförderung sei für
-ein Kind mit diesem Profil kein Thema. Jede dieser Annahmen ist isoliert betrachtet
-nachvollziehbar. Zusammengenommen bilden sie ein Deutungsmuster, das S.' Potenziale
-systematisch ausblendet und die Handlungsoptionen auf Defizitausgleich verengt.
-
-\textcite{leikhof2021jugendliche} dokumentiert in ihrer Dissertation, dass diese Konstellation keinen
-Einzelfall darstellt. Ihre Bestandsaufnahme zur Situation von Jugendlichen mit
-Migrationshintergrund in der Begabungsförderung zeigt, dass die Unterrepräsentation
-dieser Gruppe nicht primär auf fehlende Potenziale zurückzuführen ist, sondern auf
-drei miteinander verschränkte Barrieren: die Erwartungshaltung der Lehrpersonen,
-die Selektionsmechanismen der Institution und die fehlende Passung zwischen
-Förderzugängen und Lebenswelten der Kinder. Lehrpersonen neigen dazu, bei Kindern
-mit Migrationshintergrund niedrigere Leistungserwartungen zu haben, selbst wenn
-objektive Leistungsindikatoren dem widersprechen. Diese Erwartungseffekte
-(Pygmalion-Effekt) sind empirisch robust belegt und wirken sich auf
-Zuweisungsentscheide, Förderempfehlungen und alltägliche Interaktionsmuster aus.
-
-\subsection{Positive Pädagogik: Vom Defizitblick zum Stärkenfokus}
-
-\textcite{burow2021positive} entwickelt mit der Positiven Pädagogik einen Ansatz, der den
-Perspektivenwechsel von der Defizit- zur Ressourcenorientierung nicht als moralischen
-Appell formuliert, sondern als systematische Veränderung der pädagogischen Praxis.
-Burow stützt sich dabei auf die Positive Psychologie (Seligman, Csikszentmihalyi) und
-überträgt deren Kerngedanken auf Schule und Unterricht: Nicht die Behebung von
-Schwächen, sondern die Identifikation und Entfaltung individueller Stärken soll den
-Ausgangspunkt pädagogischen Handelns bilden.
-
-Burow benennt sieben Wege zu Lernfreude und Schulglück, von denen drei für die
-Beratungstätigkeit der SHP besonders relevant sind. Der erste Weg betrifft die
-\textit{Stärkenorientierung}: Jedes Kind verfügt über Stärken, die es zu entdecken
-und zu fördern gilt. Dies klingt trivial, hat aber eine methodische Pointe: Die
-Stärken müssen aktiv gesucht werden, sie zeigen sich nicht von selbst in einer
-Lernumgebung, die auf Normerfüllung ausgerichtet ist. Im Fall S. waren es die
-Beobachtungen im SOLUX-Projekt, die seine Stärken sichtbar machten, nicht der
-reguläre Unterrichtsalltag. Der zweite Weg betrifft die \textit{Wertschätzung}:
-Burow argumentiert, dass Wertschätzung nicht als pädagogische Technik verstanden
-werden darf, sondern als Grundhaltung, die sich in der gesamten Interaktionskultur
-niederschlägt. Der dritte Weg betrifft die \textit{Potenzialentfaltung}: Schule soll
-nicht auf Defizitausgleich reduziert werden, sondern Räume schaffen, in denen
-Kinder ihre Möglichkeiten erfahren und erweitern können
-\parencite{burow2021positive}.
-
-In \textit{Future Fridays} konkretisiert Burow diesen Ansatz für die Schulentwicklung.
-Er plädiert für eine Lernkultur, die Eigenverantwortung, Projektarbeit und
-Zukunftskompetenzen ins Zentrum stellt und sich von der Fixierung auf standardisierte
-Leistungsmessung löst. Für die SHP-Beratung ist dieser Gedanke insofern relevant,
-als er einen Rahmen bietet, in dem das SOLUX-Projekt nicht als Ausnahme, sondern
-als Modell für eine veränderte Unterrichtskultur legitimiert werden kann. Die
-Beratung gewinnt an Überzeugungskraft, wenn sie nicht nur auf Einzelfallbeobachtungen
-verweist, sondern diese in einen bildungstheoretisch fundierten Entwicklungshorizont
-einbettet \parencite{burow2020future}.
-
-\subsection{Kooperation im multiprofessionellen Team}
-
-Die Frage, wie defizitorientierte Wahrnehmungen verändert werden können, führt zur
-Frage der Zusammenarbeit im pädagogischen Team. Buholzer und Kummer Wyss betonen,
-dass ein erfolgreicher Umgang mit Heterogenität eine funktionierende Kooperation
-auf der Schul- und Unterrichtsebene voraussetzt. Kooperatives Unterrichten bedeutet
-nicht bloss arbeitsteilige Organisation, sondern ein gemeinsames Nachdenken über
-Kinder, über Lernprozesse und über die eigenen Wahrnehmungsmuster
-\parencite{buholzer2010allegleich}.
-
-Für die SHP stellt sich dabei eine spezifische Rollenfrage. Im Fall S. vereint sie
-mehrere Funktionen: schulische Heilpädagogin, DaZ-Lehrperson und Mentorin der
-Klassenlehrperson. Diese Funktionskumulation birgt Risiken (Rollenüberlastung,
-Abhängigkeit), eröffnet aber auch eine seltene Möglichkeit: Die SHP beobachtet S. in
-verschiedenen Kontexten (Regelunterricht, DaZ, SOLUX) und verfügt damit über ein
-multiperspektivisches Bild, das anderen Fachpersonen nicht zugänglich ist. Die
-Beratungsaufgabe besteht darin, dieses Wissen so in die Zusammenarbeit einzubringen,
-dass es die Wahrnehmung des Teams erweitert, ohne belehrend zu wirken.
-
-Die Funktionskumulation birgt neben den genannten Chancen ein methodisches
-Risiko: Als Initiatorin des SOLUX-Projekts und als Bezugsperson von S.
-unterliege ich einer erhöhten Gefahr der Beobachterverzerrung. Die
-Bereitschaft, Potenziale zu sehen, die andere nicht sehen, kann in eine
-selektive Wahrnehmung kippen, die Bestätigung sucht statt Befunde prüft.
-Drei Massnahmen wirken diesem Risiko entgegen. Erstens stütze ich meine
-Beobachtungen auf kriteriengestützte Dokumentation, die an etablierten
-Indikatoren der Begabungserkennung orientiert ist
-\parencite{trautmann2016einfuehrung,ipege2009professionelle}. Zweitens
-schaffe ich durch Hospitationseinladungen Gelegenheiten für
-Fremdbeobachtung: Die Klassenlehrperson und weitere Fachpersonen
-erleben S. im SOLUX-Setting und bilden sich ein eigenes Urteil. Drittens
-dienen die Artefakte aus S.' Projektarbeit (Schachnotationen, gestaltete
-Figuren, Planung des Peer-Angebots) als intersubjektiv zugängliche Belege,
-die in Fallbesprechungen vorgelegt und gemeinsam interpretiert werden
-können. Die Kombination aus kriteriengestützter Selbstbeobachtung,
-Fremdbeobachtung und Artefaktanalyse entspricht dem Prinzip der
-methodischen Triangulation und stärkt die Belastbarkeit der diagnostischen
-Einschätzung.
-
-\textcite{buholzer2010allegleich} beschreiben Diagnostik als Prozess, der im regulären
-Unterricht verankert sein muss und mit Förderprozessen verbunden werden soll.
-Eine pädagogische Diagnostik, die nicht nur den aktuellen Leistungsstand erfasst,
-sondern Verschiedenheit und Gleichheit erkennbar macht, erfordert kriteriengestützte
-Beobachtung in verschiedenen Settings und den systematischen Austausch im Team.
-Für die Zusammenarbeit im Fall S. leiten sich daraus konkrete Formate ab:
-gemeinsame Fallbesprechungen, in denen Beobachtungen aus unterschiedlichen
-Kontexten zusammengeführt werden; Einladungen an Kolleg:innen, S. im SOLUX-Setting
-zu beobachten; Dokumentation seiner Projektarbeit als Grundlage für Fördergespräche;
-und die konsequente Ergänzung jeder Defizitbeschreibung durch eine Ressourcenbeschreibung.
-
-\subsection{Die Beratung der Klassenlehrperson}
-
-Die Klassenlehrperson befindet sich in einer besonderen Situation: Sie ist als
-ehemalige Gymnasiallehrerin für Chemie neu in der Schweiz, unterrichtet erstmals
-auf der Primarstufe und lernt das Bildungssystem kennen. Die Beratung durch die SHP
-muss diese Ausgangslage berücksichtigen. Es geht nicht darum, der Lehrperson ein
-Defizit vorzuhalten (mangelnde Erfahrung mit Begabungserkennung bei mehrsprachigen
-Kindern), sondern darum, gemeinsam ein differenzierteres Bild von S. zu entwickeln.
-
-\textcite{macha2019gender} beschreibt die Anforderungen an eine diversitätssensible Professionalisierung
-in der Begabungsförderung. Sie betont, dass die Erkennung von Begabungen bei Kindern
-aus marginalisierten Gruppen spezifische Kompetenzen erfordert: die Fähigkeit, eigene
-Stereotype zu reflektieren, Wissen über kulturell unterschiedliche Ausdrucksformen
-von Kompetenz und die Bereitschaft, diagnostische Urteile zu revidieren, wenn neue
-Informationen vorliegen. Diese Kompetenzen sind nicht als Defizit einzelner
-Lehrpersonen zu verstehen, sondern als Professionalisierungsauftrag, der das
-gesamte System betrifft.
-
-Für die konkrete Beratungssituation bedeutet dies, dass die SHP die
-Klassenlehrperson nicht mit einer fertigen Einschätzung konfrontiert
-(\enquote{S. ist begabt, Sie sehen das falsch}), sondern einen Prozess des
-gemeinsamen Beobachtens und Reflektierens initiiert. Ein wirkungsvolles Format
-ist die gezielte Kontrastbeobachtung: Die SHP dokumentiert S.' Verhalten und
-Leistungen im SOLUX-Projekt (Strategieentwicklung im Schach, Planung des
-Peer-Angebots, soziale Öffnung) und stellt diese Beobachtungen neben die
-Beschreibungen aus dem regulären Unterricht (Rückzug, Verweigerung, Weinen). Die
-Diskrepanz zwischen beiden Kontexten wirft eine produktive Frage auf: Was ist
-an SOLUX anders, dass S. dort Potenziale zeigt, die im Alltag unsichtbar bleiben?
-Diese Frage richtet den Blick nicht auf das Kind, sondern auf die Bedingungen,
-und öffnet damit den Raum für eine gemeinsame Analyse.
-
-\subsection{Zusammenarbeit mit Eltern und externen Fachstellen}
-
-Kosorok Labhart, Luginbühl und Schöllhorn widmen sich der Frage, wie Schulen
-von Eltern mit Migrationshintergrund lernen können, und kehren damit eine gängige
-Perspektive um. Statt Eltern als Adressat:innen schulischer Erwartungen zu
-positionieren, die über ihre Defizite (fehlende Sprachkenntnisse, fehlende
-Kenntnis des Schulsystems) definiert werden, plädieren die Autorinnen dafür, Eltern
-als Expert:innen für ihre Kinder anzuerkennen und ihr Wissen aktiv einzuholen
-\parencite{kosoroklabhart2021voneltern}.
-
-Im Fall S. ist die Zusammenarbeit mit den Eltern besonders anspruchsvoll. Die Eltern
-sprechen kein Englisch und kein Deutsch; ein Elterngespräch war zunächst nur über
-eine Bekannte möglich. Erst auf Initiative der SHP fand ein professionell
-begleitetes Gespräch mit Dolmetscherin statt, das ressourcenorientiert angelegt war.
-Kosorok Labhart et al. betonen, dass professionelles Dolmetschen und
-kulturvermittelnde Begleitung keine Zusatzleistungen sind, sondern Grundvoraussetzungen
-für eine gelingende Zusammenarbeit. Wenn Eltern die Kompetenzen ihrer Kinder
-beschreiben, die sie im familiären oder herkunftssprachlichen Kontext beobachten,
-ergänzt dies die schulische Diagnostik um eine Perspektive, die Fachpersonen aus
-eigener Beobachtung nicht gewinnen können.
-
-Die Zusammenarbeit mit externen Fachstellen (SPD, Logopädie, PMT, KJPD)
-erfordert von der SHP eine koordinierende Rolle. Im Fall S. rieten die
-Fachstellen mehrheitlich zum Abwarten. Aus heilpädagogischer Sicht war diese
-Empfehlung unzureichend, weil sie die mathematischen Auffälligkeiten und die
-weitere Entwicklungsperspektive nicht berücksichtigte. Die SHP initiierte
-dennoch eine schulpsychologische Abklärung und eine Einschätzung durch den KJPD.
-Dieses Handeln gegen den Mainstream erfordert fachliche Sicherheit und
-Argumentationsfähigkeit. \textcite{leikhof2021jugendliche} zeigt, dass die proaktive Identifikation von
-Begabungen bei Kindern mit Migrationshintergrund häufig an einzelnen
-Schlüsselpersonen hängt, die bereit sind, gegen etablierte Deutungsmuster zu
-handeln. Die Professionalisierung des Systems darf sich jedoch nicht auf solche
-Einzelpersonen verlassen, sondern muss die systematische Berücksichtigung
-von Begabungspotenzialen in die institutionellen Abläufe einbauen
-\parencite{leikhof2021jugendliche}.
-
-\subsection{Institutionelle Reflexion: Von der Einzelfallberatung zur Schulentwicklung}
-
-Die bisherigen Überlegungen bewegen sich auf der Ebene der Einzelfallarbeit: Wie
-kann die SHP im konkreten Fall S. Wahrnehmungen verändern und Kooperationen
-gestalten? Kappus' Analyse der institutionellen Diskriminierung verweist jedoch
-auf eine darüber hinausgehende Aufgabe. Wenn Kinder mit ausländisch klingenden
-Nachnamen systematisch andere Zuweisungsempfehlungen erhalten als Kinder mit
-einheimischen Namen, wenn Migrationshintergrund statistisch mit niedrigeren
-Bildungslaufbahnen korreliert und wenn Begabungsförderung faktisch
-überproportional Kinder aus bildungsnahen Familien erreicht, dann reicht
-Einzelfallberatung nicht aus. Dann muss die SHP auch institutionelle Praktiken
-thematisieren \parencite{kappus2010migration}.
-
-Konkret bedeutet dies, dass die Erfahrungen aus dem Fall S. über den Einzelfall
-hinaus genutzt werden. Die SHP kann in Teamgesprächen, Weiterbildungen oder
-Schulentwicklungsprozessen die Frage aufwerfen, wie die Schule systematisch
-sicherstellt, dass Begabungen auch bei Kindern erkannt werden, die dem
-erwarteten Profil nicht entsprechen. Sie kann dokumentieren, welche Bedingungen
-im SOLUX-Projekt dazu geführt haben, dass Potenziale sichtbar wurden, und
-daraus Empfehlungen für die Gestaltung des regulären Unterrichts ableiten.
-Und sie kann die Frage stellen, ob die bestehenden Zuweisungs- und
-Übertrittsverfahren Kinder mit Migrationshintergrund angemessen berücksichtigen.
-
-\textcite{macha2019gender} fasst diesen Anspruch als doppelte Professionalisierungsaufgabe: Zum einen
-müssen Fachpersonen in der Begabungsförderung individuelle Kompetenzen der
-diversitätssensiblen Diagnostik und Förderung aufbauen. Zum anderen müssen
-institutionelle Strukturen so verändert werden, dass sie den Zugang zu
-Begabungsförderung nicht an Voraussetzungen knüpfen, die bestimmte
-Gruppen systematisch benachteiligen.
-
-\subsection{Konsequenzen für das SHP-Professionsverständnis}
-
-Die Analyse der Beratungs- und Kooperationsaufgaben im Fall S. verdichtet sich
-zu einem Professionsverständnis, das über die klassische Rolle der SHP als
-Förderlehrperson hinausgeht. Die SHP agiert in diesem Fall auf vier Ebenen
-gleichzeitig: als Diagnostikerin (multiperspektivische Erfassung von S.'
-Potenzial), als Förderperson (ressourcenorientierte Arbeit im SOLUX-Projekt und
-in der Einzelförderung), als Beraterin (Unterstützung der Klassenlehrperson und
-des multiprofessionellen Teams) und als Impulsgeberin für Schulentwicklung
-(Thematisierung institutioneller Mechanismen, die Potenziale verdecken).
-
-Drei Haltungen tragen dieses erweiterte Professionsverständnis. Die erste
-Haltung ist \textit{fachliche Unabhängigkeit}: Die SHP muss in der Lage sein,
-gegen den Konsens der Fachstellen zu argumentieren, wenn dieser aus ihrer Sicht
-fachlich unzureichend ist. Im Fall S. bedeutete dies, die Empfehlung zum
-Abwarten nicht zu akzeptieren und eine differenzierte Abklärung zu initiieren.
-Die zweite Haltung ist \textit{reflexive Partnerschaftlichkeit}: Die Beratung
-der Klassenlehrperson und des Teams gelingt nicht durch Belehrung, sondern
-durch gemeinsames Beobachten, Fragen und Nachdenken. Die SHP bringt ihr Wissen
-ein, ohne die Kompetenz der Kolleg:innen zu entwerten. Die dritte Haltung ist
-\textit{institutionelle Wachsamkeit}: Die SHP beobachtet nicht nur einzelne
-Kinder, sondern auch die Strukturen und Praktiken, die deren Entwicklung
-ermöglichen oder behindern, und bringt diese Beobachtungen in
-Schulentwicklungsprozesse ein.
-
- 
 \subsection{Kernliteratur zu Frage 5}
  
 \begin{description}
@@ -2196,185 +388,12 @@ Schulentwicklungsprozesse ein.
   \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.)
   \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.)
   \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei Fr.~3 gezählt)
+  \item[\cite{brunner2021hochbegabung}] Hochbegabung (k)ein Problem?
+    Kap. Schweizer Förderkontext. (bereits bei Fr.~4 gezählt)
 \end{description}
  
 \textit{Geschätzter Umfang Frage~5: ca.~213\,Seiten.
 (Überschneidungen mit Fragen~1, 3 und 4 bei Buholzer, Kappus; nicht doppelt gezählt.)}
- 
-
- 
-% ════════════════════════════════════════════════════════
-
-
-\subsection{Kritische Reflexion: Professionelles Handeln bei Dissens}
-
-\begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
-\itshape
-Die Fachstellen (SPD, Logopädie, PMT) haben zum Abwarten geraten, weil sich S.
-noch am Anfang des Zweitspracherwerbs befinde. Sie als SHP haben dennoch eine
-schulpsychologische Abklärung und eine Einschätzung durch den KJPD initiiert.
-Wie begründen Sie dieses Handeln gegen den Konsens des multiprofessionellen
-Teams, und wie gestalten Sie die weitere Zusammenarbeit, ohne die
-Kooperationsbeziehungen zu beschädigen?
-\end{tcolorbox}
-
-Diese Frage trifft den Nerv des in Frage~5 entwickelten Professionsverständnisses.
-Sie prüft, ob die Kandidatin die Spannung zwischen fachlicher Unabhängigkeit und
-kooperativer Partnerschaftlichkeit nicht nur theoretisch benennen, sondern am
-konkreten Fall auflösen kann. Die Antwort muss zeigen, dass das Handeln gegen
-den Konsens kein Akt der Insubordination war, sondern eine begründete
-professionelle Entscheidung, die sich auf spezifisches Fachwissen und auf
-Beobachtungsdaten stützt, die den anderen Fachstellen nicht zugänglich waren.
-
-Die Empfehlung zum Abwarten fusst auf einer Annahme, die für sich genommen
-plausibel ist: Ein Kind, das erst seit wenigen Monaten in der Schweiz lebt und
-Deutsch auf A1-Niveau spricht, befindet sich in einer frühen Phase des
-Zweitspracherwerbs. In dieser Phase sind sprachliche Schwierigkeiten,
-Rückzugsverhalten und eingeschränkte Leistungsfähigkeit erwartbar und
-entwicklungsbedingt. Die Logik des Abwartens lautet: Sobald die Sprachkompetenz
-wächst, werden sich auch die anderen Schwierigkeiten auflösen. Eine vorzeitige
-Diagnostik riskiere, entwicklungsbedingte Phänomene als Störungen zu
-pathologisieren.
-
-Aus heilpädagogischer Sicht greift diese Argumentation im Fall S. aus drei
-Gründen zu kurz. Erstens übersieht sie die \textit{Domänenspezifik der
-Auffälligkeiten}. Wenn S.' Schwierigkeiten ausschliesslich spracherwerbsbedingt
-wären, müssten sie sich auf sprachgebundene Anforderungen beschränken. Das
-ist nicht der Fall: Die graphomotorischen Schwierigkeiten (inkonsistente
-Buchstabenformen, erhöhter Stiftdruck, fehlende Automatisierung) treten
-sprachübergreifend auf, auch auf Englisch, einer Sprache, die S. aktiv nutzt.
-Sturm betont, dass graphomotorische Prozesse eine eigenständige
-Entwicklungsaufgabe darstellen, die nicht mit dem Zweitspracherwerb
-zusammenfällt \parencite{sturm2016graphomotorik}. Die Leseflüssigkeit von 17
-Wörtern pro Minute liegt in beiden verfügbaren Schriftsprachen weit unter
-altersgemässen Werten. Diese Befunde deuten auf eine sensumotorische
-Problematik hin, die sich durch Abwarten nicht von selbst löst.
-
-Zweitens übersieht die Abwartestrategie die \textit{mathematischen
-Auffälligkeiten}, die in der entgegengesetzten Richtung weisen. S. fällt
-im Fach Mathematik \enquote{ausserordentlich auf}, und im Schachspiel zeigt
-er kognitive Exzellenz. Diese Stärken sind sprachunabhängig und verweisen
-auf ein überdurchschnittliches kognitives Profil, das diagnostisch nicht
-ignoriert werden darf. Preckel und Baudson beschreiben für Kinder mit
-Twice-Exceptionality-Profilen, dass häufig weder die Begabung noch die
-Schwierigkeit erkannt wird, weil sich beide gegenseitig maskieren. Wer
-ausschliesslich auf die sprachlichen Defizite blickt, verpasst das
-kognitive Potenzial; wer nur die mathematischen Stärken sähe, übersähe
-die graphomotorischen Hürden. Eine differenzierte Diagnostik muss beides
-gleichzeitig erfassen \parencite{preckel2013hochbegabung}.
-
-Drittens birgt das Abwarten ein konkretes \textit{Risiko für die
-Bildungsbiographie}. Stamm dokumentiert, dass Begabungsreserven bei Kindern
-mit Migrationshintergrund systematisch ungenutzt bleiben, und die
-MIRAGE-Studie zeigt, dass erfolgreiche Migrant:innen retrospektiv häufig
-berichten, ihre Potenziale seien erst spät oder gar nicht erkannt worden
-\parencite{stamm2014mirage}. S. steht in der 5. Klasse; der Übertritt in
-die Sekundarstufe rückt näher. Jeder Monat, in dem sein Potenzial
-undokumentiert bleibt, verringert die Wahrscheinlichkeit, dass es in
-Selektionsentscheide einfliesst. Leikhof zeigt, dass die Unterrepräsentation
-von Jugendlichen mit Migrationshintergrund in der Begabungsförderung auch
-daran liegt, dass Abklärungen zu spät oder gar nicht eingeleitet werden
-\parencite{leikhof2021jugendliche}. Die Empfehlung zum Abwarten ist in
-dieser Konstellation nicht neutral; sie hat Konsequenzen für S.' Bildungsweg.
-
-Mit diesen drei Argumenten habe ich die schulpsychologische Abklärung im
-Team begründet. Die Begründung war nicht als Vorwurf formuliert, sondern
-als \textit{ergänzende Perspektive}: Die Fachstellen haben auf der Basis
-ihrer Beobachtungen im Regelunterricht eine nachvollziehbare Einschätzung
-abgegeben. Ich verfüge als SHP, DaZ-Lehrperson und SOLUX-Leiterin über
-zusätzliche Beobachtungsdaten aus anderen Kontexten, die ein differenzierteres
-Bild ergeben. Im Standortgespräch habe ich die Diskrepanz zwischen den
-Settings dokumentiert vorgestellt und die Frage formuliert:
-\enquote{Was bedeutet es, wenn ein Kind im Regelunterricht als überfordert
-gilt, im Mathematikunterricht ausserordentlich auffällt und im Schachprojekt
-strategische Exzellenz zeigt? Können wir mit einem Abwarten ausschliessen,
-dass wir etwas Wesentliches übersehen?}
-
-Diese Formulierung operiert mit dem, was Burow als Grundprinzip der Positiven
-Pädagogik beschreibt: nicht durch Appelle oder Belehrung, sondern durch die
-gemeinsame Konfrontation mit konkreten Beobachtungen einen Perspektivenwechsel
-einleiten \parencite{burow2021positive}. Die Frage stellt die Expertise der
-Fachstellen nicht in Frage; sie erweitert die Datenbasis, auf der die
-gemeinsame Entscheidung getroffen wird.
-
-Die weitere Zusammenarbeit nach der eingeleiteten Abklärung gestalte ich
-entlang von drei Prinzipien, die der Kooperationsbeziehung Rechnung tragen.
-
-Das erste Prinzip ist die \textit{Transparenz der Ergebnisse}. Sobald die
-Resultate der schulpsychologischen Testung und der KJPD-Einschätzung vorliegen,
-teile ich sie vollständig mit allen beteiligten Fachpersonen. Die Bestätigung
-eines überdurchschnittlichen Potenzials validiert nicht meine Position gegen
-die anderen, sondern bereichert das gemeinsame Bild von S. um eine Dimension,
-die bisher fehlte. Im Standortgespräch rahme ich das Ergebnis nicht als
-\enquote{Ich hatte recht}, sondern als \enquote{Wir haben jetzt ein
-vollständigeres Bild, das neue Handlungsoptionen eröffnet}. Buholzer und
-Kummer Wyss betonen, dass kooperatives Unterrichten ein gemeinsames
-Nachdenken über Kinder voraussetzt, nicht einen Wettbewerb um die
-richtige Diagnose \parencite{buholzer2010allegleich}.
-
-Das zweite Prinzip ist die \textit{gemeinsame Förderplanung}. Die
-Konsequenzen aus dem differenzierten diagnostischen Bild werden nicht von
-der SHP allein gezogen, sondern im Team erarbeitet. Welche Anpassungen
-im regulären Unterricht sind möglich? Welche Rolle kann die Logopädie
-spielen, wenn nicht nur sprachliche Defizite, sondern auch kognitive
-Stärken berücksichtigt werden? Wie kann die PMT die graphomotorische
-Förderung unterstützen, wenn sie weiss, dass S. über Schach einen
-motivationalen Zugang hat? Die Förderplanung wird zum gemeinsamen Projekt,
-in dem jede Fachstelle ihre Expertise einbringt. Macha beschreibt
-diversitätssensible Professionalisierung als Aufgabe des gesamten Systems,
-nicht einzelner Fachpersonen \parencite{macha2019gender}.
-
-Das dritte Prinzip ist die \textit{Einbindung der Eltern als Wissensträger}.
-Kosorok Labhart, Schöllhorn und Luginbühl betonen, dass professionelles
-Dolmetschen und kulturvermittelnde Begleitung Grundvoraussetzungen für eine
-gelingende Zusammenarbeit mit Eltern mit Migrationshintergrund sind
-\parencite{kosoroklabhart2021voneltern}. Im Fall S. hat erst das
-ressourcenorientiert angelegte Elterngespräch mit Dolmetscherin Informationen
-zutage gefördert, die dem Team bisher nicht zugänglich waren: die schwierige
-schulische Situation im Herkunftsland, das Fehlen von Freundschaften, die
-belastenden Erfahrungen der Familie. Diese Informationen verändern die
-Deutung von S.' Verhalten grundlegend. Ein Kind, das im Herkunftsland die
-Klasse hätte wiederholen müssen und keine Freunde hatte, bringt eine
-schulische Vorgeschichte mit, die sein Rückzugsverhalten in der neuen Schule
-in ein anderes Licht rückt. Wenn die Eltern zugleich berichten, dass S. zu
-Hause stundenlang Schach spielt und Strategien analysiert, ergänzt dies das
-Bild um eine häusliche Stärke, die im schulischen Kontext bisher unsichtbar
-war. Die Eltern werden so von Adressat:innen schulischer Erwartungen zu
-\textit{Informationsquellen für die Diagnostik}.
-
-Die Situation wirft schliesslich eine grundsätzliche Frage zum
-\textit{institutionellen Umgang mit professionellen Meinungsverschiedenheiten}
-auf. Kappus zeigt, dass institutionelle Diskriminierung sich in Routinen
-manifestiert, die für sich genommen nachvollziehbar erscheinen
-\parencite{kappus2010migration}. Die Empfehlung zum Abwarten bei einem
-neu zugewanderten Kind ist eine solche Routine. Sie ist in vielen Fällen
-angemessen. In Fällen wie jenem von S., wo sprachunabhängige Auffälligkeiten
-in beide Richtungen (Stärken und Schwächen) weisen, wird sie zur Falle.
-Die SHP hat die professionelle Pflicht, diese Routine zu hinterfragen, wenn
-ihre Beobachtungsdaten dagegensprechen.
-
-Burow formuliert in \textit{Future Fridays} die Forderung nach einer
-Schulkultur, die Eigenverantwortung und die Bereitschaft zum produktiven
-Dissens fördert, statt Konformität zu belohnen \parencite{burow2020future}.
-Für das multiprofessionelle Team bedeutet dies, dass eine Meinungsverschiedenheit
-zwischen SHP und Fachstellen nicht als Störung der Kooperation zu werten ist,
-sondern als Ausdruck einer multiperspektivischen Diagnostik, in der
-unterschiedliche Beobachtungszugänge zu unterschiedlichen Einschätzungen
-führen können. Die Aufgabe besteht darin, diese Unterschiede nicht zu
-unterdrücken, sondern produktiv zu nutzen: als Anlass für eine differenziertere
-Analyse, als Impuls für eine erweiterte Datenbasis und als Argument für eine
-Förderplanung, die der Komplexität des Falles gerecht wird.
-
-Die Haltung, die dieses Handeln trägt, lässt sich mit der in Frage~5
-entwickelten Trias zusammenfassen. \textit{Fachliche Unabhängigkeit} befähigt
-die SHP, gegen den Konsens zu argumentieren, wenn ihre Beobachtungsdaten dies
-erfordern. \textit{Reflexive Partnerschaftlichkeit} stellt sicher, dass dieses
-Argumentieren nicht als Angriff auf die Kompetenz der Kolleg:innen wirkt,
-sondern als Erweiterung der gemeinsamen Wissensbasis. Und
-\textit{institutionelle Wachsamkeit} richtet den Blick über den Einzelfall
-hinaus auf die Frage, ob die Routine des Abwartens bei neu zugewanderten
-Kindern systematisch dazu beiträgt, dass Potenziale unerkannt bleiben, und
-ob sie im Schulentwicklungsprozess thematisiert werden muss.
 
 
 \section*{Seitenbudget: Übersicht}
@@ -2384,15 +403,15 @@ ob sie im Schulentwicklungsprozess thematisiert werden muss.
 \hline
 \textbf{Frage} & \textbf{ca. Seiten} & \textbf{Schwerpunkt} \\
 \hline
-Frage 1 (FW: Erkennen) & 300 & Begabungstheorie, Diagnostik, Migration \\
+Frage 1 (FW, KS/DG: Erkennen) & 295 & Begabungstheorie, Diagnostik, 2e, Migration \\
 \hline
-Frage 2 (FW: Fördern) & 240 & Schriftsprache, Motorik, Motivation, Schach \\
+Frage 2 (FW, MW/KS: Barrieren) & 240 & Schriftsprache, Motorik, Motivation \\
 \hline
-Frage 3 (FW: Person/Beziehung) & 160 & Anerkennung, Emotion, Teilhabe \\
+Frage 3 (FW, PB: Beziehung) & 160 & Anerkennung, Emotion, Teilhabe \\
 \hline
-Frage 4 (BW: SOLUX) & 180 & Enrichment, Inklusion, Bildungsgerechtigkeit \\
+Frage 4 (BW, DG/PV: Förderung) & 205 & Enrichment, Inklusion, Bildungsgerechtigkeit \\
 \hline
-Frage 5 (BW: SHP-Handeln) & 213 & Beratung, Kooperation, Profession \\
+Frage 5 (BW, ZB/PV: Profession) & 213 & Beratung, Kooperation, Profession \\
 \hline
 \textbf{Summe (ohne Doppelzählungen)} & \textbf{ca.~700} & \\
 \hline
