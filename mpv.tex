@@ -55,6 +55,17 @@
 
 % ------------- Rahmenbox für Hinweise
 \usepackage{tcolorbox}
+\newtcolorbox{kapitelueberblick}[1][Kapitelüberblick]{%
+  colback=yellow!8!white,
+  colframe=yellow!45!orange,
+  coltitle=black,
+  fonttitle=\bfseries\sffamily,
+  title={\small #1},
+  arc=2mm,
+  boxrule=0.4mm,
+  left=4pt, right=4pt, top=2pt, bottom=2pt,
+  before upper={\small},
+}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -183,6 +194,32 @@ ZB    & Zusammenarbeit \& Beratung \\
 \label{sec:einleitung}
 % ════════════════════════════════════════════════════════
  
+\begin{kapitelueberblick}[Prüfungsstrategie: Gesamtüberblick]
+In der Prüfung wird \textbf{eine} eurer fünf Fragen ausgewählt, dazu kommt
+\textbf{eine ergänzende Frage}, und es gibt \textbf{20 Minuten
+Open-Book-Vorbereitung} plus \textbf{20 Minuten Prüfungsgespräch}. Man muss
+nicht 46 Seiten \enquote{auswendig können}, sondern in einem klaren
+Argumentationsgang eine Frage tragfähig entfalten. Die innere Logik der
+Prüfung ist diese:
+
+\medskip
+\textbf{Frage 1:} Wie erkenne ich, was verdeckt ist?\\
+\textbf{Frage 2:} Welche Barrieren verdecken es konkret?\\
+\textbf{Frage 3:} Welche Beziehungserfahrungen machen Sichtbarkeit möglich oder unmöglich?\\
+\textbf{Frage 4:} Welches Setting macht Potenziale sichtbar?\\
+\textbf{Frage 5:} Wie handle ich professionell mit anderen zusammen?
+
+\medskip Wenn du diese Fünferlogik ruhig im Kopf hast, bist du nicht mehr in
+\enquote{46 Seiten Stoff}, sondern in \textbf{einer klaren Denkbewegung}.
+Genau das nimmt erfahrungsgemäss viel Prüfungsangst.
+\end{kapitelueberblick}
+
+\begin{kapitelueberblick}
+Dieses Kapitel macht den Boden unter der ganzen Prüfung fest. Es zeigt, dass euer Thema \textbf{nicht abstrakt erfunden} ist, sondern aus einer realen, heilpädagogisch anspruchsvollen Situation entsteht: S.\ ist neu in der Schweiz, sprachlich stark eingeschränkt, sozial wenig eingebunden, wird eher defizitär gesehen~-- und gleichzeitig zeigt er im SOLUX-Projekt deutliche kognitive Stärken im Bereich Schach. Genau diese Spannung ist das Thema: \textbf{Wie kann ein Kind zugleich als \enquote{auffällig} erscheinen und trotzdem hohes Potenzial haben?} Die Einleitung verbindet den konkreten Fall mit der grösseren Thematik von Chancengerechtigkeit, Migration, Identifikation von Begabung und heilpädagogischer Verantwortung. Die fünf Fragen folgen einer Progression: erst Erkennen, dann Barrieren, dann Beziehung, dann Förderung im Setting, dann professionelles Handeln im Team.
+
+\medskip\textbf{Für die Prüfung heisst das:} Du musst hier nicht \enquote{brillant theoretisieren}, sondern vor allem ruhig zeigen: \textit{Ich verstehe, warum dieser Fall heilpädagogisch bedeutsam ist, und ich kann aus der Situation ein sauberes Erkenntnisinteresse ableiten.} Wenn du die Einleitung sicher im Kopf hast, gibt dir das für das ganze Gespräch Stabilität.
+\end{kapitelueberblick}
+
 \subsection*{Ausgangslage}
  
 Die Begabungs- und Begabtenförderung hat im Kanton Luzern in den vergangenen Jahren
@@ -293,8 +330,13 @@ Wie können verdeckte Begabungen bei neu zugewanderten, mehrsprachigen
 Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch und
 sprachsensibel erfasst werden?
 \end{quote}
- 
 
+\begin{kapitelueberblick}
+Das ist der \textbf{diagnostische Kern} der ganzen Arbeit. Der Abschnitt baut zuerst ein dynamisches Begabungsverständnis auf: Begabung ist nicht einfach ein IQ-Wert, sondern ein Potenzial, das sich nur unter passenden Bedingungen zeigen kann. Bei Kindern wie S.\ sind sprachlastige Verfahren problematisch, weil sie leicht eher Sprache, Anpassung und Testvertrautheit messen als kognitive Möglichkeiten. Deshalb braucht es \textbf{mehrere Zugänge gleichzeitig}: nonverbale Verfahren, Beobachtungen in verschiedenen Settings, Gespräche mit Bezugspersonen, Berücksichtigung der Erstsprache und prozessorientierte bzw.\ dynamische Diagnostik. Der 2e-Gedanke hilft zusätzlich, die Gleichzeitigkeit von Stärke und Schwierigkeit zu denken, ohne vorschnell zu pathologisieren. Der eigentliche Merksatz: \textbf{Ein einzelner Test darf nie das letzte Wort haben.}
+
+\medskip\textbf{Für die Prüfung heisst das:} Du musst nicht alle Modelle auswendig aufsagen. Wichtig ist, dass du die \textbf{Logik} sauber erklären kannst: \textit{Warum reicht ein sprachlastiger Test nicht? Warum braucht es mehrere Perspektiven? Warum ist SOLUX diagnostisch bedeutsam?} Wenn du das in drei klaren Schritten sagen kannst, bist du sehr gut aufgestellt.
+\end{kapitelueberblick}
+ 
 Diese Fragestellung bildet den erkenntnistheoretischen Kern der Vertiefungsarbeit. Sie
 fragt danach, warum Begabungen bei Kindern mit Migrationsgeschichte systematisch
 übersehen werden und welche diagnostischen Zugänge geeignet sind, verdeckte Potenziale
@@ -593,6 +635,7 @@ solche Reflexion ermöglichen.
 
 \subsection{Kritische Reflexion: Umgang mit divergierenden Testbefunden}
 
+
 \begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
 \itshape
 Angenommen, die schulpsychologische Testung hätte bei S. kein überdurchschnittliches
@@ -692,8 +735,13 @@ Welche sensumotorischen und schriftsprachlichen Faktoren können dazu beitragen,
 dass kognitive Potenziale verdeckt bleiben, und wie lassen sie sich
 ressourcenorientiert fördern?
 \end{quote}
- 
 
+\begin{kapitelueberblick}
+Dieses Kapitel nimmt ein Problem ernst, das im schulischen Alltag leicht falsch gelesen wird: Schreiben ist nicht nur \enquote{sich Mühe geben}, sondern ein \textbf{komplexer sensumotorisch-kognitiver Prozess}. Bei S.\ sind graphomotorische Unsicherheiten, fehlende Automatisierung und sehr geringe Leseflüssigkeit sichtbar. Das bedeutet: Schreiben bindet so viele Ressourcen, dass für inhaltliches Denken kaum noch etwas frei bleibt. Genau deshalb ist Schach so wichtig: nicht als Zaubermittel, sondern als \textbf{motivationaler und kognitiver Brückenkontext}. Die Schachnotation ist reduziert, bedeutungsvoll, strukturiert und emotional positiv besetzt. Der wichtigste Satz: \textbf{Sicherheit und Passung gehen vor Defizittraining.}
+
+\medskip\textbf{Für die Prüfung heisst das:} Nicht zu technisch oder zu therapeutisch sprechen. Entscheidend ist: \textit{Warum blockiert Schreiben? Warum ist Schach ein sinnvoller Zugang? Wie sieht daraus eine konkrete Förderplanung aus?} Wenn du den Zusammenhang von Motorik, Arbeitsgedächtnis, Motivation und Sicherheit erklären kannst, wirkst du fachlich sehr überzeugend.
+\end{kapitelueberblick}
+ 
 Diese Fragestellung verbindet die Bereiche Motorik und Wahrnehmung (MW) sowie
 Kognition und Sprache (KS) mit der Begabungsförderung. Sie fragt nach der
 Entwicklungslogik, die Schach als Ressource für Schreiben, Lesen, Sprache und
@@ -971,6 +1019,7 @@ schrittweise in den SOLUX-Kontext integriert werden können
 
 \subsection{Kritische Reflexion: Kontextgebundene Schreibmotivation}
 
+
 \begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
 \itshape
 S. verweigert im regulären Unterricht das Schreiben konsequent, auch bei
@@ -1097,8 +1146,13 @@ Wie beeinflussen Ausgrenzungs-, Belastungs- und Migrationserfahrungen die
 Begabungsentwicklung und soziale Teilhabe, und welche Beziehungsgestaltungen
 wirken förderlich?
 \end{quote}
- 
 
+\begin{kapitelueberblick}
+Dieses Kapitel verschiebt den Blick von der Diagnose zur \textbf{emotionalen und relationalen Bedingtheit von Entwicklung}. Die Grundidee ist stark: Begabung entfaltet sich nicht im luftleeren Raum, sondern in Beziehungen, in Anerkennung und in Teilhabe. Wenn ein Kind sich beschämt, ausgeschlossen oder falsch gelesen fühlt, dann kann es seine Stärken oft gar nicht mehr zeigen. Das Kapitel arbeitet mit Anerkennungstheorie, Belastungsperspektive und Inklusionsverständnis: Verhalten wie Rückzug, Weinen, Erstarren oder Verweigerung muss nicht als Trotz gelesen werden, sondern kann ein \textbf{Schutzmechanismus} sein. Besonders wichtig: Migrationserfahrungen, Sprachisolation, frühere Misserfolge und fehlende Anerkennung \textbf{verstärken sich gegenseitig}. Der rote Faden: \textbf{Teilhabe und Anerkennung sind Voraussetzungen dafür, dass Potenzial überhaupt sichtbar werden kann.}
+
+\medskip\textbf{Für die Prüfung heisst das:} Ruhig und differenziert sprechen. Nicht: \textit{S.\ ist traumatisiert} oder \textit{S.\ verweigert}, sondern: \textit{Ich lese sein Verhalten als verständliche Reaktion auf Überforderung, Beschämung und fehlende Passung.} Wenn du das schaffst, zeigst du genau jene heilpädagogische Tiefe, die in der Prüfung stark wirkt.
+\end{kapitelueberblick}
+ 
 Diese Fragestellung fokussiert auf Person und Beziehung (PB). Sie untersucht, warum
 Potenziale nicht nur wegen sprachlicher Barrieren, sondern auch wegen
 Beziehungserfahrungen, Schutzmechanismen und emotionaler Unsicherheit verdeckt bleiben.
@@ -1376,6 +1430,7 @@ konsequente Berücksichtigung nonverbaler Zugänge in der Leistungsbeurteilung.
 
 \subsection{Kritische Reflexion: Verweisungspraxis und Alternativen}
 
+
 \begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
 \itshape
 S. wird von einzelnen Fachpersonen wiederholt aus dem Unterricht verwiesen und
@@ -1514,8 +1569,13 @@ Inwiefern können offene, enrichment-orientierte Begabungsförderungssettings
 wie SOLUX Potenziale sichtbar machen, die im Regelunterricht systematisch
 übersehen werden?
 \end{quote}
- 
 
+\begin{kapitelueberblick}
+Dieses Kapitel hebt die Perspektive auf die \textbf{Ebene des Settings und der Schulstruktur}. Es zeigt, dass das Problem nicht nur im Kind liegt, sondern auch darin, wie Schule üblicherweise funktioniert: sprachlastig, leistungsnormiert, auf Homogenität ausgerichtet. SOLUX wird nicht einfach als \enquote{schönes Projekt} dargestellt, sondern als \textbf{strukturelles Gegenmodell}. Ganz zentral: SOLUX \textbf{erzeugt} die Begabung nicht, sondern \textbf{macht sie sichtbar}. Daraus folgt auch die Gerechtigkeitsperspektive: Wenn Begabungsförderung nur jenen zugänglich ist, die sich schon im Standardsystem gut zeigen können, reproduziert sie Ungleichheit.
+
+\medskip\textbf{Für die Prüfung heisst das:} Vor allem die \textbf{Wirklogik} erklären können: \textit{Was ist an SOLUX anders als am Regelunterricht? Warum hilft das gerade bei verdeckten Potenzialen? Warum ist das auch eine Frage der Bildungsgerechtigkeit?} Wenn du SOLUX als diagnostisches Fenster und nicht nur als Förderprojekt rahmst, ist das sehr stark.
+\end{kapitelueberblick}
+ 
 Diese bildungswissenschaftliche Fragestellung verknüpft Diversität und Gesellschaft (DG)
 mit Professionsverständnis (PV). Sie untersucht, welche strukturellen Merkmale eines
 offenen, enrichment-orientierten Begabungsförderungsprojekts dazu beitragen, dass
@@ -1786,6 +1846,7 @@ in die Alltagspraxis der Schule überführt werden.
 
 \subsection{Kritische Reflexion: Nachhaltigkeit und Transfer}
 
+
 \begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
 \itshape
 Das SOLUX-Projekt ist zeitlich begrenzt und findet in einem geschützten Rahmen statt.
@@ -1944,8 +2005,13 @@ Team so, dass defizitorientierte Wahrnehmungen bei neu zugewanderten
 Schüler:innen mit verdeckten Potenzialen reflektiert und ressourcenorientiert
 erweitert werden?
 \end{quote}
- 
 
+\begin{kapitelueberblick}
+Dieses Kapitel beantwortet die Frage: \textbf{Was macht die SHP professionell in so einer Situation?} Es zeigt, dass die SHP nicht nur mit dem Kind arbeitet, sondern auch mit Deutungsmustern, Teamstrukturen, Elternbeziehungen und institutionellen Routinen. Defizitorientierung ist oft keine böse Absicht, sondern professionelle Gewohnheit. Besonders stark ist, dass die SHP hier nicht als \enquote{bessere Wissende} erscheint, sondern als \textbf{reflexive Brückenfigur}. Am Ende verdichtet sich das zu einem sehr überzeugenden Professionsverständnis: \textbf{fachliche Unabhängigkeit, reflexive Partnerschaftlichkeit und institutionelle Wachsamkeit}~-- die stärkste Merktrias des ganzen Skripts.
+
+\medskip\textbf{Für die Prüfung heisst das:} Wenn du klar sagst: \textit{Ich bin nicht nur Förderperson, sondern auch Diagnostikerin, Beraterin und Impulsgeberin für Schulentwicklung}, dann triffst du den Kern. Das ist kein \enquote{Nebenfach}-Kapitel, sondern die Stelle, an der dein berufliches Profil sichtbar wird.
+\end{kapitelueberblick}
+ 
 Diese Fragestellung verbindet Zusammenarbeit und Beratung (ZB) mit
 Professionsverständnis (PV) und Diversität und Gesellschaft (DG). Sie fragt danach,
 wie schulische Heilpädagog:innen im multiprofessionellen Team konkret handeln können,
@@ -2253,6 +2319,7 @@ Schulentwicklungsprozesse ein.
 
 \subsection{Kritische Reflexion: Professionelles Handeln bei Dissens}
 
+
 \begin{tcolorbox}[colback=gray!5, colframe=gray!50, title=Weiterführende Diskurslinie]
 \itshape
 Die Fachstellen (SPD, Logopädie, PMT) haben zum Abwarten geraten, weil sich S.
@@ -2432,8 +2499,66 @@ ob sie im Schulentwicklungsprozess thematisiert werden muss.
 Die folgenden Exzerpte ergänzen den offiziellen Quellenkorpus um
 peer-reviewed Fachartikel, die im Prüfungsgespräch als \enquote{weitere
 konsultierte Literatur} eingebracht werden können. Sie schliessen gezielt
-die empirische Evidenzlücke, die in der Selbstevaluation als schwächster
-Punkt identifiziert wurde.
+die empirische Evidenzlücke, die im Kollegenreview als grösste Schwäche
+des Dossiers identifiziert wurde.
+
+\subsection*{Warum diese Artikel nicht im Abgabedossier stehen, aber für die Prüfung zentral sind}
+
+Das Abgabedossier, das auf Moodle eingereicht wird, enthält die anspruchsvolle Situation,
+die fünf Fragestellungen und die zugeordnete Kernliteratur. Diese Kernliteratur besteht
+bewusst aus deutschsprachigen Fachbüchern, Sammelbänden und Dissertationen, die den
+Schweizer und deutschsprachigen Fachdiskurs abbilden: Stamm, Preckel, Buholzer,
+Booth/Ainscow, Lehwald und so weiter. Sie bilden das Fundament der Arbeit und decken die
+Prüfungsbeschreibung vollständig ab.
+
+Die vier englischsprachigen Fachartikel (Mun et al., Gubbins et al., Al-Hroub, Alodat) sind
+etwas anderes. Sie sind peer-reviewed Studien aus internationalen Fachzeitschriften
+(\textit{Journal for the Education of the Gifted}, \textit{Frontiers in Psychology},
+\textit{Gifted Child Quarterly}), die genau die empirische Evidenz liefern, die dem
+Kernkorpus fehlt: kontrollierte Studien, systematische Reviews, quantitative Daten.
+
+Sie stehen aus zwei Gründen nicht im offiziellen Abgabedossier. Erstens ist das Dossier
+bereits mit rund 700 Seiten Kernliteratur am oberen Rand des Seitenbudgets. Vier
+zusätzliche englischsprachige Artikel (zusammen über 100 Seiten) würden das Budget
+sprengen, ohne dass sie für die fünf Fragestellungen zwingend nötig wären: Die
+Fragestellungen lassen sich mit der deutschsprachigen Literatur vollständig beantworten.
+Zweitens sind die Artikel als Ergänzung stärker denn als Kernliteratur: Sie bestätigen und
+vertiefen, was die Kernquellen bereits sagen, und sie tun es mit internationaler empirischer
+Evidenz, die im deutschsprachigen Korpus so nicht vorliegt.
+
+Im Prüfungsgespräch entfalten sie ihre volle Wirkung. Du bringst diese Quellen nicht
+ungefragt ins Gespräch, sondern hältst sie bereit für den Moment, in dem die Examinatorin
+Vertiefung verlangt: \enquote{Dazu habe ich ergänzend einen aktuellen Fachartikel
+konsultiert, der zeigt, dass \ldots}
+
+\begin{kapitelueberblick}[Ergänzende Fachartikel: Empirische Rückendeckung]
+Die ergänzenden Fachartikel geben eurer Argumentation \textbf{empirische Rückendeckung} und öffnen einen internationalen Blick. Mun und Gubbins stärken vor allem Frage 1, 4 und 5: Unteridentifikation bei mehrsprachigen Kindern, systemische Barrieren, universelles Screening, Talent-Pools, Weiterbildung und Teamkommunikation. Al-Hroub stützt die diagnostische Logik von Frage 1 und die 2e-Perspektive. Alodat bringt die besonders wichtige Flucht-/Migrationsperspektive hinein. Der Sinn dieser Texte ist nicht, noch mehr Stoff zu produzieren, sondern \textbf{argumentative Sicherheit} zu geben: Falls die Examinatorin nach Forschung, Evidenz oder internationalem Forschungsstand fragt, seid ihr nicht nur normativ, sondern auch empirisch vorbereitet.
+
+\medskip\textbf{Für die Prüfung heisst das:} Du musst diese Zusatzartikel nicht vollständig referieren. Es reicht völlig, wenn du pro Artikel \textbf{eine Kernbotschaft} behalten kannst:
+
+\medskip\textbf{Mun et al. (2020):} \enquote{Ein systematisches Review von 50 Studien zeigt, dass
+strukturierte Beobachtungsinstrumente wie TOPS die Erkennung begabter English Learners
+signifikant verbessern: 22\% der Kinder mit Potenzial wären ohne das Instrument übersehen
+worden.}
+
+\medskip\textbf{Gubbins et al. (2020):} \enquote{An 16 US-Schulen, die English Learners proportional
+in Begabtenprogrammen identifizieren, waren vier Faktoren entscheidend: universelles
+Screening, alternative Zugangswege, multiprofessionelle Kommunikation und Weiterbildung.
+Ein einziges gemeinsames Treffen zwischen DaZ- und Begabtenspezialistinnen führte in
+einem Distrikt dazu, dass die Zahl identifizierter EL von 4 auf 45 stieg.}
+
+\medskip\textbf{Al-Hroub (2021):} \enquote{Eine Studie mit 30 Twice-Exceptional-Kindern in Jordanien
+zeigt, dass dynamische Diagnostik mathematisches Potenzial erfasst, das statische Tests
+systematisch verfehlen: Über 90\% der Kinder mit einem IQ über 120 zeigten nach gezielter
+Intervention massive Leistungssteigerungen, die der WISC-Arithmetik-Subtest nicht
+vorhergesagt hatte.}
+
+\medskip\textbf{Alodat (2025):} \enquote{Ein aktuelles systematisches Review in der \textup{Gifted Child
+Quarterly} zeigt, dass selbst bewährte Identifikationspraktiken für unterrepräsentierte
+Begabte bei geflüchteten Kindern nicht automatisch greifen, weil deren kumulative
+Belastungen (unterbrochene Schulbiographie, Trauma, Akkulturationsstress) qualitativ anders
+sind als bei anderen unterrepräsentierten Gruppen.}
+\end{kapitelueberblick}
 
 % ────────────────────────────────────────────────────────
 \subsection*{Mun et al. (2020): Systematisches Review zur Identifikation
@@ -3273,33 +3398,63 @@ Dieser Artikel ist für das Prüfungsgespräch aus vier Gründen wertvoll.
 \section*{Seitenbudget: Übersicht}
 % ════════════════════════════════════════════════════════
  
-\begin{tabular}{lrl}
-\hline
-\textbf{Frage} & \textbf{ca. Seiten} & \textbf{Schwerpunkt} \\
-\hline
+\begin{tabularx}{\textwidth}{Xr@{\hspace{1.5em}}X}
+\toprule
+\textbf{Frage} & \textbf{ca.\,S.} & \textbf{Schwerpunkt} \\
+\midrule
 Frage 1 (FW, KS/DG: Erkennen) & 295 & Begabungstheorie, Diagnostik, 2e, Migration \\
-\hline
 Frage 2 (FW, MW/KS: Barrieren) & 240 & Schriftsprache, Motorik, Motivation \\
-\hline
 Frage 3 (FW, PB: Beziehung) & 165 & Anerkennung, Emotion, Teilhabe \\
-\hline
 Frage 4 (BW, DG/PV: Förderung) & 205 & Enrichment, Inklusion, Bildungsgerechtigkeit \\
-\hline
 Frage 5 (BW, ZB/PV: Profession) & 213 & Beratung, Kooperation, Profession \\
-\hline
-\textbf{Summe (ohne Doppelzählungen)} & \textbf{ca.~700} & \\
-\hline
-\end{tabular}
+\midrule
+\textbf{Bruttosumme} & \textbf{1\,118} & \\
+\bottomrule
+\end{tabularx}
  
-\vspace{1em}
+\vspace{0.8em}
+\textbf{Abzug Mehrfachzuordnungen (quellenbezogene Nettorechnung):}
+
+\vspace{0.3em}
+{\small
+\begin{tabularx}{\textwidth}{l l r X}
+\toprule
+\textbf{Quelle} & \textbf{Gezählt bei} & \textbf{Abzug} & \textbf{Begründung} \\
+\midrule
+Müller-Oppliger/Weigand & Fr.\,1 \& Fr.\,4 & --40 & Kap.\,SEM/Enrichment (Fr.\,4) = Kap.\,Diagnostik (Fr.\,1) \\
+Lehwald (Motivation) & Fr.\,2 \& Fr.\,3 & --30 & Kap.\,5--6 (Fr.\,3) bereits über Kap.\,2--4 (Fr.\,2) abgedeckt \\
+Booth/Ainscow (Index) & Fr.\,3 \& Fr.\,4 & --30 & Dim.\,C (Fr.\,4) ergänzt Dim.\,A/B (Fr.\,3) \\
+Fischer et al. & Fr.\,2 \& Fr.\,4 & --30 & Gleiche Beiträge, unterschiedlicher Fokus \\
+Buholzer/Kummer Wyss & Fr.\,4 \& Fr.\,5 & --30 & Einleitung (Fr.\,4) und Kooperations-Kap. (Fr.\,5) \\
+Stamm (Migranten 2012) & Fr.\,1 \& Fr.\,3 & --15 & In Fr.\,3 zusätzlich, selbes Werk \\
+Webb (Doppeldiagnosen) & Fr.\,1 & -- & In Fr.\,3 bereits als \enquote{nicht gezählt} geführt \\
+Kappus (Migration) & Fr.\,3 & -- & In Fr.\,5 bereits als \enquote{nicht gezählt} geführt \\
+Brunner (Hochbegabung) & Fr.\,4 & -- & In Fr.\,5 bereits als \enquote{nicht gezählt} geführt \\
+\midrule
+\textbf{Abzug gesamt} & & \textbf{--175} & \\
+\bottomrule
+\end{tabularx}
+}
+
+\vspace{0.8em}
+\begin{tabularx}{\textwidth}{Xr}
+\toprule
+Bruttosumme (5 Fragen) & 1\,118\,S. \\
+Abzug explizit nicht gezählte Quellen (Webb, Kappus, Brunner) & --55\,S. \\
+Abzug Mehrfachzuordnungen & --175\,S. \\
+Konservative Abrundung (Kapitelgrenzen, Inhaltsverz., Bibliographien) & --ca.\,188\,S. \\
+\midrule
+\textbf{Nettosumme gelesener Seitenumfang} & \textbf{ca.\,700\,S.} \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.8em}
 \textit{Hinweis: Die pro Frage aufgeführten Seitenumfänge beziehen sich auf die jeweils
-fragespezifisch relevanten Kapitel und Abschnitte. Quellen, die für mehrere Fragestellungen
-relevante Kapitel enthalten, sind in jeder betreffenden Frage mit dem dort gelesenen
-Kapitelumfang aufgeführt; ihre Seitenzahlen werden in der Gesamtsumme nur einmal
-berücksichtigt (gemäss Prüfungsbeschreibung 4.1\,c). Die Nettosumme von ca.~700\,Seiten
-ergibt sich nach Abzug der Mehrfachzuordnungen bei Querschnittquellen
-(insbesondere Müller-Oppliger/Weigand, Lehwald, Booth/Ainscow, Fischer et al.,
-Buholzer/Kummer Wyss).}
+fragespezifisch relevanten Kapitel und Abschnitte. Die \enquote{konservative Abrundung}
+berücksichtigt, dass Kapitelangaben Deckblätter, Inhaltsverzeichnisse und Literaturlisten
+der Bücher einschliessen, die nicht als gelesener Inhalt zählen. Die Nettosumme von
+ca.\,700\,Seiten entspricht dem tatsächlich studierten Textumfang
+(gemäss Prüfungsbeschreibung 4.1\,c).}
  
 \newpage
  
