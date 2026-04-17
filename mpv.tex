@@ -67,6 +67,36 @@
   before upper={\small},
 }
 
+% ------------- To-do-Box: Flieder-Violett (bis 1. Mai)
+\definecolor{fliederviolett}{RGB}{183,132,183}
+\definecolor{fliederbg}{RGB}{245,235,245}
+\newtcolorbox{todomai}[1][To-do bis 1.\,Mai 2026 (Abgabe Prüfungsunterlagen)]{%
+  colback=fliederbg,
+  colframe=fliederviolett,
+  coltitle=black,
+  fonttitle=\bfseries\sffamily,
+  title={\small #1},
+  arc=2mm,
+  boxrule=0.5mm,
+  left=4pt, right=4pt, top=2pt, bottom=2pt,
+  before upper={\small},
+}
+
+% ------------- To-do-Box: Preussisch-Blau (bis 11. Juni)
+\definecolor{preussischblau}{RGB}{0,49,83}
+\definecolor{preussischbg}{RGB}{230,236,242}
+\newtcolorbox{todojuni}[1][To-do bis 11.\,Juni 2026 (Prüfungstag)]{%
+  colback=preussischbg,
+  colframe=preussischblau,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily,
+  title={\small #1},
+  arc=2mm,
+  boxrule=0.5mm,
+  left=4pt, right=4pt, top=2pt, bottom=2pt,
+  before upper={\small},
+}
+
 \usepackage{hyperref}
 \hypersetup{
   hidelinks,
@@ -193,7 +223,75 @@ ZB    & Zusammenarbeit \& Beratung \\
 \addcontentsline{toc}{section}{Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse}
 \label{sec:einleitung}
 % ════════════════════════════════════════════════════════
- 
+
+\begin{todomai}
+\textbf{Vier Schritte vor der Abgabe der Prüfungsunterlagen auf Moodle (Frist 1.\,Mai 2026).}
+Diese vier Punkte betreffen ausschliesslich das Abgabedossier (das schlanke Dokument mit Situation, fünf Fragen und Quellenliste), nicht dieses Lerndokument.
+
+\medskip
+\textbf{1. Bibliographie verifizieren (ca.\ 2\,Stunden in der Bibliothek oder am Buchregal).}
+Folgende Einträge in \texttt{Quellen.bib} enthalten noch \texttt{VERIFY}- oder \texttt{TODO}-Marker:
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \item \texttt{kellerkoller2021hellekoepfe}: Seitenbereich aus Huser (2021) eintragen statt \texttt{XXX--XXX}
+  \item \texttt{stamm2021fehlenderblick}: 576--587 oder 576--588? Buch in der Hand prüfen
+  \item \texttt{kuhl2019diversitaet}: 35--57 oder 35--59?
+  \item \texttt{macha2019gender}: 160--172 oder 160--173?
+  \item \texttt{brunner2021hochbegabung}: 3.\,Auflage 2021 belegbar oder muss auf 1.\,Auflage 2005 (Klett und Balmer, Zug) korrigiert werden?
+\end{itemize}
+Solange ein \texttt{XXX--XXX} oder ein nicht verifiziertes Seitenfeld in der finalen PDF steht, ist die Quellenangabe formal nicht \enquote{korrekt und vollständig} (Beurteilungskriterium PB Abschnitt 5).
+
+\medskip
+\textbf{2. Seitenbudget-Tabelle entschärfen.}
+Die Position \enquote{Konservative Abrundung -- ca.~188\,S.} sieht nach Buchhaltungstrick aus. Zwei saubere Varianten:
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \item \textit{Variante A} (sicherer): Bruttosumme realistisch auf ca.~650\,Seiten reduzieren, sodass kein Pauschalabzug nötig ist. Damit liegst du komfortabel im Korridor 500--700 ohne Erklärungsbedarf.
+  \item \textit{Variante B} (transparenter): Pauschalabzug ersetzen durch werkbezogene Spalte \enquote{Netto-Lesetext} pro Buch (ohne Front Matter, Inhaltsverzeichnis, Literaturliste der einzelnen Werke). Endsumme bleibt gleich, ist aber argumentativ verteidigbar.
+\end{itemize}
+
+\medskip
+\textbf{3. Abgabedokument vs.\ Lerndokument trennen.}
+Auf Moodle wird \textbf{nur} das schlanke Abgabedossier hochgeladen. Dieses Lerndokument mit seinen gelben Kapitelüberblick-Boxen, den \enquote{Kritische Reflexion}-Diskurslinien und den vier ergänzenden Fachartikeln ist ein internes Vorbereitungsdokument und gehört \textit{nicht} zur Abgabe.
+
+\medskip
+\textbf{4. Quellen-Stichprobe.}
+Letzter Durchlauf: Werden alle Einträge der \texttt{Quellen.bib} im Abgabedossier per \verb|\cite{...}| tatsächlich aufgerufen? Eine Quelle, die nur in der Liste erscheint, aber nirgends zitiert wird, fällt in der Examinator:innen-Lektüre auf.
+\end{todomai}
+
+\begin{todojuni}
+\textbf{Drei Schritte zwischen 1.\,Mai und Prüfungstag (11.\,Juni 2026).}
+Hier geht es nicht mehr um das Dossier, sondern um die mündliche Prüfung selbst.
+
+\medskip
+\textbf{1. Fünf Visualisierungen vorbereiten -- eine pro Frage.}
+Die Prüfungsbeschreibung verlangt \enquote{pro Fragestellung eine geeignete und prägnante Visualisierung der Antworten in Form z.\,B.\ eines Plakats oder Karten für eine Strukturlegung}. Die Visualisierung wird vorbereitet und am Prüfungstag in den 20\,Minuten Open-Book-Zeit auf die ausgewählte plus ergänzende Frage angepasst oder ergänzt. Vorschlag pro Frage:
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \item \textbf{Frage 1:} Diagnostisches Mosaik (nonverbale Tests + Beobachtung + Eltern + Erstsprache + dynamische Diagnostik $\rightarrow$ multiperspektivisches Bild)
+  \item \textbf{Frage 2:} Schrift-Schach-Brücke (Arbeitsgedächtnis-Modell: Regelunterricht vs.\ Schachnotation, mit drei parallelen Förder-Strängen)
+  \item \textbf{Frage 3:} Anerkennungs-Trichter (PSI-Theorie + Anerkennung 1./2.\,Ordnung + kumulative Belastung $\rightarrow$ Sichtbarkeit/Unsichtbarkeit)
+  \item \textbf{Frage 4:} SOLUX als diagnostisches Fenster (vier Strukturmerkmale: Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle)
+  \item \textbf{Frage 5:} SHP-Trias (Fachliche Unabhängigkeit + Reflexive Partnerschaftlichkeit + Institutionelle Wachsamkeit) plus \enquote{Web of Communication} aus Gubbins et al.
+\end{itemize}
+
+\medskip
+\textbf{2. Kurzpräsentation auf ca.\ 10\,Minuten komprimieren.}
+Das Prüfungsgespräch dauert insgesamt 20\,Minuten. Davon entfallen \textbf{eintretend ca.\ 10\,Minuten} auf die Kurzpräsentation, die sowohl die ausgewählte Fragestellung aus den Prüfungsunterlagen (unterstützt durch die prägnante Visualisierung) als auch die von der Examinatorin formulierte ergänzende Fragestellung abdeckt. Die anschliessenden ca.\ 10\,Minuten sind Fragen und Diskussion durch die Examinierenden. Wie sich die 10\,Minuten Kurzpräsentation zwischen ausgewählter und ergänzender Frage aufteilen, ist nicht vorgegeben und wird in den 20\,Minuten Open-Book-Vorbereitung am Prüfungstag entschieden.
+
+Übe jede der fünf Hauptfragen einmal mündlich auf ca.\ 6--7\,Minuten Kerndarstellung (Fall, Theorie, Synthese) gegen die Uhr, sodass du am Prüfungstag den Spielraum hast, je nach ergänzender Frage zu kürzen oder zu erweitern. Die fünf \enquote{Kritische Reflexion: Weiterführende Diskurslinie}-Abschnitte in diesem Lerndokument sind die inhaltliche Vorbereitung auf wahrscheinliche ergänzende Fragestellungen -- sie sind schriftlich brillant, aber im Prüfungsgespräch musst du daraus situativ 2--4\,Minuten kompakte mündliche Antwort formen können.
+
+\medskip
+\textbf{3. Karteikarte für die ergänzenden Fachartikel anlegen.}
+Die vier englischsprachigen Studien (Mun et al., Gubbins et al., Al-Hroub, Alodat) sind \textit{nicht} Teil der Abgabeliteratur. Du bringst sie nur ein, wenn die Examinatorin nach internationalem Forschungsstand oder empirischer Evidenz fragt. Formulierung: \enquote{Dazu habe ich ergänzend einen aktuellen Fachartikel konsultiert\ldots} Drei Pointen, die du sicher abrufen können musst:
+\begin{itemize}\setlength{\itemsep}{0pt}
+  \item \textbf{TOPS-Studie} (Harradine et al.\ 2013, in Mun et al.): 22\,\% der Kinder mit Potenzial wären ohne strukturiertes Beobachtungsinstrument übersehen worden.
+  \item \textbf{Dynamische NNAT-Studie} (Lidz/Macrine 2001, in Mun et al.): Identifikationsrate stieg von unter 1\,\% auf 5\,\% der Schulpopulation.
+  \item \textbf{Gubbins et al.}: Ein einziges gemeinsames Treffen zwischen DaZ- und Begabten-Spezialist:innen führte zu einem Anstieg von 4 auf 45 identifizierten EL in einem Distrikt.
+\end{itemize}
+
+\medskip
+\textbf{Optional (vierter Schritt, falls Zeit):}
+Einleitungs-Schema als sechste Visualisierung -- fünf Pfeile der Progression \enquote{Erkennen $\rightarrow$ Barrieren $\rightarrow$ Beziehung $\rightarrow$ Setting $\rightarrow$ Profession}. Verstärkt im Gespräch sofort die Kohärenz deiner Argumentation.
+\end{todojuni}
+
 \begin{kapitelueberblick}[Prüfungsstrategie: Gesamtüberblick]
 In der Prüfung wird \textbf{eine} eurer fünf Fragen ausgewählt, dazu kommt
 \textbf{eine ergänzende Frage}, und es gibt \textbf{20 Minuten
@@ -2203,6 +2301,15 @@ an SOLUX anders, dass S. dort Potenziale zeigt, die im Alltag unsichtbar bleiben
 Diese Frage richtet den Blick nicht auf das Kind, sondern auf die Bedingungen,
 und öffnet damit den Raum für eine gemeinsame Analyse.
 
+Wichtig ist dabei, dass diese Beratungshaltung selbst eine Form der
+Anerkennung zweiter Ordnung im Sinne Grossrieders ist: Die
+Klassenlehrperson wird nicht über ein vermeintliches Wissensdefizit
+adressiert, sondern als Kollegin, die unter erschwerten
+Ausgangsbedingungen (Quereinstieg, neues Bildungssystem, neue Schulstufe)
+eine professionelle Aufgabe übernimmt. Die Anerkennung, die wir für S.\
+einfordern, beginnt damit, dass wir sie auch im Umgang mit Kolleg:innen
+praktizieren \parencite{grossrieder2010anerkennung}.
+
 \subsection{Zusammenarbeit mit Eltern und externen Fachstellen}
 
 Kosorok Labhart, Luginbühl und Schöllhorn widmen sich der Frage, wie Schulen
@@ -2710,7 +2817,17 @@ systemisches Problem, das auf drei Ebenen wirkt: auf der Ebene der
 Nomination (implizite Überzeugungen und kulturelle Verzerrungen der
 Lehrpersonen), auf der Ebene der Diagnostik (sprachlastige Tests als
 Zugangsbarriere) und auf der Ebene der Förderung (fehlende Passung
-zwischen Programmangeboten und Lebenswelten der Kinder). Die Autoren
+zwischen Programmangeboten und Lebenswelten der Kinder).
+
+Die Autoren formulieren dabei eine wichtige Selbstkritik des
+Forschungsstands: Die methodische Qualität der 50 untersuchten Studien
+variiert erheblich; viele theoretische Beiträge enthalten reichhaltige
+Empfehlungen, aber kaum empirische Evaluation. Die Forderung nach
+hochwertigen, gross angelegten empirischen Studien zu wirksamen
+Identifikations- und Förderpraktiken ist deshalb nicht rhetorisch,
+sondern erkenntnisleitend.
+
+Die Autoren
 fordern empirisch fundierte, systemische Veränderungen: universelles
 Screening statt lehrerbasierter Nomination, multiple Datenquellen statt
 Einzeltests, stärkenbasierte statt defizitorientierte Diagnostik und
@@ -2741,6 +2858,15 @@ Punkte:
     Identifikationspraxis messbar mehr unterrepräsentierte Kinder
     erreichen. Das ist ein starkes Argument für die in Frage~5
     geforderte Verbindung von Einzelfallarbeit und Schulentwicklung.
+  \item Mun et al.\ formulieren explizit, dass \textbf{Programmevaluation
+    ein essentieller Bestandteil jedes Identifikationssystems} sein muss,
+    um den Wert alternativer Verfahren zu rechtfertigen. Das ist ein
+    starkes Anschlussargument für Frage~5: Die SHP-Aufgabe endet nicht bei
+    der Einzelfallförderung, sondern umfasst die systematische Evaluation,
+    ob die Praxis tatsächlich mehr Kinder mit verdecktem Potenzial
+    erreicht. Im Fall S.\ wäre das die Frage, ob die Erfahrungen aus SOLUX
+    dokumentiert und im Schulentwicklungsprozess für die Etablierung eines
+    IBBF-Konzepts genutzt werden.
 \end{enumerate}
 
 
