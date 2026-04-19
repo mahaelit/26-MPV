@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -35,6 +34,31 @@ _Dieser BibKey wird **10**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Le
 10. **[L:2496]** repräsentation von Jugendlichen mit Migrationshintergrund in der Begabungsförderung auch daran liegt, dass Abklärungen zu spät oder gar nicht eingeleitet werden **`\parencite{leikhof2021jugendliche}`** . Die Empfehlung zum Abwarten ist in dieser Konstellation nicht neutral; sie hat Konsequenzen für S.' Bildungsweg. Mit diesen drei Argumenten habe ich die schul
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 7
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 9
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

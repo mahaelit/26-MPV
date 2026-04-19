@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -19,6 +18,45 @@ _Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 2. **[L:2077]** Kinder in ihren Möglichkeiten fördern will, muss Begabungsförderung als gesamtschulische Aufgabe implementiert werden, nicht als Projekt einzelner Fachpersonen **`\parencite{muelleroppliger2021plurale}`** . Das Luzerner IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten den institutionellen Rahmen, in dem diese Forderung realisiert werden
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil1_Verortung_Transkripte_HandbuchBegabung.json`
+
+- **Buch:** Handbuch Begabung (2021)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil2_verortung_transkripte.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 2
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

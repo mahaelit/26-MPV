@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -23,6 +22,31 @@ _Dieser BibKey wird **4**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 4. **[L:2415]** tätssensible Begabungsförderung. (ca.~13\,S.) \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei Fr.~3 gezählt) \item[ **`\cite{brunner2021hochbegabung}`** ] Hochbegabung (k)ein Problem? Kap. Schweizer Förderkontext. (bereits bei Fr.~4 gezählt) \end{description} \textit{Geschätzter Umfang Frage~5: ca.~213\,Seiten.
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

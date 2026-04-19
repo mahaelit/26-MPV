@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -21,6 +20,24 @@ _Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 3. **[L:3486]** erücksichtigen. Drittens: Die Forschung muss über die Dokumentation von Barrieren hinausgehen und aktiv neue Identifikationsmodelle konstruieren und evaluieren. **`\textcite{alodat2025equitable}`** betont, dass Begabung sich bei geflüchteten Kindern häufig in nichttraditionellen Formen zeigt: Resilienz, emotionale Intelligenz, kreatives Problemlösen, Anpas
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 2
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

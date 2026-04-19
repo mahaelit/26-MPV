@@ -297,15 +297,35 @@ def _parse_pages(spec: str | None, total: int) -> list[int]:
     return sorted(p for p in out if 1 <= p <= total)
 
 
-def _find_source_pdf(bibkey: str) -> Path:
+def _find_source_pdf(bibkey: str, override: str | None = None) -> Path:
     """Findet die Quelldatei unter Literatur/<bibkey>/.
 
-    Prioritaet: source.pdf > source.epub > erste *.pdf > erste *.epub.
+    Bei *override* wird exakt diese Datei verwendet (relativ oder absolut).
+
+    Prioritaets-Reihenfolge (ohne Override):
+        1. source_foxit.pdf   - manuell mit Foxit re-gedruckt, i. d. R. qualitativ besser
+        2. source_ocr.pdf     - nachtraeglich per OCR erstellt
+        3. source.pdf         - Original
+        4. source.epub        - EPUB-Fallback
+        5. irgendeine *.pdf / *.epub im Ordner
+
+    Damit wird ein neu beschafftes Foxit- oder OCR-PDF automatisch verwendet,
+    ohne dass `source.pdf` ueberschrieben werden muss.
     """
     folder = LITERATUR / bibkey
     if not folder.is_dir():
         raise SystemExit(f"[Fehler] Ordner nicht gefunden: {folder}")
-    for name in ("source.pdf", "source.epub"):
+
+    if override:
+        candidate = Path(override)
+        if not candidate.is_absolute():
+            candidate = folder / candidate
+        if not candidate.is_file():
+            raise SystemExit(f"[Fehler] --source-Datei nicht gefunden: {candidate}")
+        return candidate
+
+    preferred = ("source_foxit.pdf", "source_ocr.pdf", "source.pdf", "source.epub")
+    for name in preferred:
         p = folder / name
         if p.is_file():
             return p
@@ -433,12 +453,17 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Kontextzeichen pro Seite fuer --search (Default: 80).")
     p.add_argument("--out", type=Path,
                    help="Dump in Datei schreiben statt stdout.")
+    p.add_argument("--source",
+                   help="Pfad zur Quelldatei (absolut oder relativ zu "
+                        "Literatur/<bibkey>/), ueberschreibt die "
+                        "Priorisierung source_foxit.pdf > source_ocr.pdf > "
+                        "source.pdf > source.epub.")
     return p
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    src  = _find_source_pdf(args.bibkey)
+    src  = _find_source_pdf(args.bibkey, args.source)
     engines = _select_engines(src, args.engine)
 
     if args.list:

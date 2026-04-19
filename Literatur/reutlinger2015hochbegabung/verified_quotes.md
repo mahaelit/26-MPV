@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -25,6 +24,31 @@ _Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 5. **[L:722]** . Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.) \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.) \item[ **`\cite{reutlinger2015hochbegabung}`** ] Hochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \it
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

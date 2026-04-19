@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -37,6 +36,38 @@ _Dieser BibKey wird **11**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Le
 11. **[L:1971]** er Schule eingebettet ist, bleibt sie eine Insel. Booth und Ainscow betonen, dass nachhaltige Veränderung nur gelingt, wenn alle drei Dimensionen zusammenwirken **`\parencite{booth2019index}`** . Konkret bedeutet dies, dass die Erkenntnisse aus SOLUX auf drei Ebenen gesichert werden müssen: der Ebene des Kindes (Förderplanung und Übertritt), der Ebene
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil2_verortung_transkripte.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 12
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 10
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

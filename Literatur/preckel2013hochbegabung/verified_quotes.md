@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -41,6 +40,38 @@ _Dieser BibKey wird **13**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Le
 13. **[L:3179]** B. mathematische Aufgaben mit gestufter Unterstützung) würde sein Potenzial vermutlich noch deutlicher zeigen. Die Forderung nach prozessorientierter Diagnostik **`\parencite{lemas2023begriffsklaerung,preckel2013hochbegabung}`** wird hier experimentell belegt. \subsubsection*{Wahrnehmungsprofil: Auditive Schwächen dominieren} Die 2E-Kinder liessen sich in vier Subgruppen einteilen: 40\%
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil2_verortung_transkripte.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 8
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 10
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Verifikations-Zusammenfassung
 

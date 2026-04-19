@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -25,6 +24,31 @@ _Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 5. **[L:2550]** professionelles Dolmetschen und kulturvermittelnde Begleitung Grundvoraussetzungen für eine gelingende Zusammenarbeit mit Eltern mit Migrationshintergrund sind **`\parencite{kosoroklabhart2021voneltern}`** . Im Fall S. hat erst das ressourcenorientiert angelegte Elterngespräch mit Dolmetscherin Informationen zutage gefördert, die dem Team bisher nicht zugänglich w
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

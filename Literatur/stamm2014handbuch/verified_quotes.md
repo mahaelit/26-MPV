@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -19,6 +18,31 @@ _Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 2. **[L:575]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite{stamm2014mirage,stamm2014handbuch}`** . \subsection{Grenzen sprachlastiger Diagnostik} Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children) erheben den Anspruch,
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

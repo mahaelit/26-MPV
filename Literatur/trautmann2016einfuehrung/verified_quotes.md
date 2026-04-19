@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -33,6 +32,38 @@ _Dieser BibKey wird **9**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 9. **[L:2250]** siko entgegen. Erstens stütze ich meine Beobachtungen auf kriteriengestützte Dokumentation, die an etablierten Indikatoren der Begabungserkennung orientiert ist **`\parencite{trautmann2016einfuehrung,ipege2009professionelle}`** . Zweitens schaffe ich durch Hospitationseinladungen Gelegenheiten für Fremdbeobachtung: Die Klassenlehrperson und weitere Fachpersonen erleben S. im SOLUX-Sett
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil2_verortung_transkripte.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 7
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 9
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

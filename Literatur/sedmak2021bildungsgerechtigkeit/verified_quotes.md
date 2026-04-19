@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -25,6 +24,45 @@ _Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 5. **[L:1991]** Bildungsgerechtigkeit erfordert, aktiv nach Potenzialen zu suchen, statt darauf zu warten, dass sie sich in den institutionell vorgesehenen Formen manifestieren **`\parencite{sedmak2021bildungsgerechtigkeit}`** . Für S. bedeutet dies, dass seine mathematischen Auffälligkeiten und seine strategischen Fähigkeiten als Argumente für einen anspruchsvolleren Schultyp gewicht
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil1_Verortung_Transkripte_HandbuchBegabung.json`
+
+- **Buch:** Handbuch Begabung (2021)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil2_verortung_transkripte.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

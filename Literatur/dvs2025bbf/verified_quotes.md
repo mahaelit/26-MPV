@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -23,6 +22,31 @@ _Dieser BibKey wird **4**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 4. **[L:3402]** sverfahren ganz fehlen -- eine Situation, die in abgeschwächter Form auch an S.' Schule besteht, wo Begabungsförderung \enquote{insgesamt geringe Priorität} hat **`\parencite{dvs2025bbf}`** . \subsubsection*{Thema 3: Identifikationsherausforderungen} Drei Ebenen von Herausforderungen werden identifiziert. Erstens \textit{Genauigkeitsprobleme} durch
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 1
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

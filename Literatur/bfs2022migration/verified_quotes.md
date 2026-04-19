@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -19,6 +18,24 @@ _Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 2. **[L:330]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 2
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

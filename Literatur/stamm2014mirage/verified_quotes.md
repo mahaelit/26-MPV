@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -21,6 +20,31 @@ _Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 3. **[L:2490]** eiben, und die MIRAGE-Studie zeigt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht erkannt worden **`\parencite{stamm2014mirage}`** . S. steht in der 5. Klasse; der Übertritt in die Sekundarstufe rückt näher. Jeder Monat, in dem sein Potenzial undokumentiert bleibt, verringert die Wahrschein
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 3
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

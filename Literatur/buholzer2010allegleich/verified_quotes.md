@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -41,6 +40,31 @@ _Dieser BibKey wird **13**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Le
 13. **[L:2979]** ihre Bedürfnisse zur Priorität. \textit{Bezug zu Frage~5:} Das \enquote{Web of Communication} ist das empirische Pendant zur kooperativen Unterrichtsentwicklung **`\parencite{buholzer2010allegleich}`** und zur reflexiven Partnerschaftlichkeit im Lernskript. Die Rolle der SHP als Brücke zwischen DaZ, Regelunterricht und SOLUX entspricht genau der koordinierende
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 11
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 11
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

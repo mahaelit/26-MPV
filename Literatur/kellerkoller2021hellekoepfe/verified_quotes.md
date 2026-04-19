@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -27,6 +26,31 @@ _Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 6. **[L:717]** tur zu Frage 1} \begin{description} \item[\cite{stamm2021fehlenderblick}] Der fehlende Blick auf begabte Minoritäten. In: Handbuch Begabung. (ca.~15\,S.) \item[ **`\cite{kellerkoller2021hellekoepfe}`** ] Helle Köpfe mit Migrationshintergrund. (ca.~20\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 6
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

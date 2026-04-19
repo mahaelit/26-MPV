@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -23,6 +22,31 @@ _Dieser BibKey wird **4**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 4. **[L:2058]** gen für Begabungsförderung an Regelschulen die Unterstützung durch die Schulleitung, die Verankerung im Schulprogramm und eine Kultur der Ressourcenorientierung **`\parencite{unger2010begabungsfoerderung}`** . SOLUX wird derzeit an sieben Klassen durchgeführt; die systematische Auswertung der Erfahrungen könnte in ein schulinternes Konzept für inklusive Begabungsför
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 4
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

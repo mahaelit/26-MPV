@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -29,6 +28,31 @@ _Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 7. **[L:3279]** rt. Das stützt das 2E-Konzept, das im Lernskript als Deutungsrahmen für S. dient (vgl. Abschnitt~\ref{subsec:2e}), und zwar nicht nur als theoretische Heuristik **`\parencite{webb2020doppeldiagnosen}`** , sondern mit quantitativen Daten. \item Die Studie demonstriert die \textbf{Notwendigkeit eines multidimensionalen Assessments}, das verschiedene Instrumente k
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 6
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 

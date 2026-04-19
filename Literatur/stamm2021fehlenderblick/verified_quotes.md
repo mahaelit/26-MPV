@@ -7,7 +7,6 @@
 
 ---
 
-
 <!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
 
 ## Zu verifizierende Behauptungen (aus TeX)
@@ -29,6 +28,31 @@ _Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 7. **[L:811]** rgebnis bei einem Kind, das unter massiv erschwerten Bedingungen getestet wurde, sagt weniger über seine kognitive Kapazität als über die Grenzen des Verfahrens **`\parencite{stamm2021fehlenderblick}`** . Das zweite Argument ist pädagogisch: Lehwald zeigt, dass Motivation bei begabten Kindern einbricht, wenn die Lernumgebung keine Passung bietet. Auf einen durc
 
 <!-- CLAIMS-END -->
+
+<!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
+
+## Transkript-Verortungen
+
+Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
+
+### Verortung als Einzel-Zitatstelle
+
+#### `Teil5_verortung_lerndokument.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 5
+
+#### `Teil8_lerndokument_struktur.json`
+
+- **Buch:** — (—)
+- **Kapitel:** —
+- **Seiten:** —
+- **Anzahl Zitatstellen:** 7
+
+<!-- TRANSKRIPTE-END -->
+
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
