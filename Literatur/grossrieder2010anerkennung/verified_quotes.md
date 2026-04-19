@@ -7,6 +7,27 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:325]** wicklung und soziale Teilhabe, und welche Beziehungsgestaltungen wirken förderlich? \end{quote} \subsection{Kernliteratur zu Frage 3} \begin{description} \item[ **`\cite{grossrieder2010anerkennung}`** ] Gleiches und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\
+
+2. **[L:1264]** rgenommen und aus dem Unterricht verwiesen. Diese Diskrepanz verweist auf die enge Verbindung zwischen emotionaler Sicherheit und der Sichtbarkeit von Begabung. **`\textcite{grossrieder2010anerkennung}`** beschreibt Anerkennung als pädagogisches Grundprinzip, das über Lob hinausgeht: Anerkennung zweiter Ordnung meint eine Grundhaltung, in der Unterschiedlichkeit
+
+3. **[L:1332]** erichteter, präsenter, motivierter}, ist ein sichtbarer Ausdruck dieser affektiven Zustandsveränderung. \subsection{Anerkennung als pädagogische Grundkategorie} **`\textcite{grossrieder2010anerkennung}`** entfaltet den Begriff der Anerkennung in einer Differenzierung, die für die Analyse von S.' Situation aufschlussreich ist. Grossrieder unterscheidet Anerkennung
+
+4. **[L:1510]** ium und durch die konsequente Berücksichtigung nonverbaler Zugänge in der Leistungsbeurteilung. \subsection{Kernliteratur zu Frage 3} \begin{description} \item[ **`\cite{grossrieder2010anerkennung}`** ] Gleiches und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\
+
+5. **[L:1573]** höhter Hilflosigkeit bei den Betroffenen einhergeht. Der Verweis verschärft also genau jene psychische Lage, die das Verdecktbleiben von S.' Potenzialen bedingt **`\parencite{grossrieder2010anerkennung}`** . Aus der Perspektive des Index für Inklusion nach Booth und Ainscow widerspricht der Verweis dem Grundsatz, dass Teilhabe nicht allein physische Anwesenheit be
+
+6. **[L:2311]** fe) eine professionelle Aufgabe übernimmt. Die Anerkennung, die wir für S.\ einfordern, beginnt damit, dass wir sie auch im Umgang mit Kolleg:innen praktizieren **`\parencite{grossrieder2010anerkennung}`** . \subsection{Zusammenarbeit mit Eltern und externen Fachstellen} Kosorok Labhart, Luginbühl und Schöllhorn widmen sich der Frage, wie Schulen von Eltern mit Mi
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

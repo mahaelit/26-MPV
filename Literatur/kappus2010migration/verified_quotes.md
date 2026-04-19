@@ -7,6 +7,37 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **11**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:204]** e Vorerfahrungen teilweise verdeckt bleibt. Damit besteht die Gefahr einer Under-Identifikation, defizitärer Zuschreibungen und institutioneller Diskriminierung **`\parencite{kappus2010migration,stamm2012migranten}`** . Aus der biopsychosozialen Perspektive der ICF wirken die normativen Sprachanforderungen des Regelunterrichts als Umweltbarrieren (Kontextfaktoren), die S.' Pa
+
+2. **[A:330]** Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~5--6 (Emotion). (ca.~30\,S.) \item[ **`\cite{kappus2010migration}`** ] Umgang mit migrationsbedingter Heterogenität. In: Buholzer \& Kummer Wyss. (ca.~15\,S.) \item[\cite{stamm2012migranten}] Migranten mit Potenzial. (ca.~15\,S.)
+
+3. **[A:390]** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[ **`\cite{kappus2010migration}`** ] Umgang mit migrationsbedingter Heterogenität. (bereits bei Fr.~3 gezählt) \item[\cite{brunner2021hochbegabung}] Hochbegabung (k)ein Problem? Kap. Schweizer Fö
+
+4. **[L:370]** e Vorerfahrungen teilweise verdeckt bleibt. Damit besteht die Gefahr einer Under-Identifikation, defizitärer Zuschreibungen und institutioneller Diskriminierung **`\parencite{kappus2010migration,stamm2012migranten}`** . Aus der biopsychosozialen Perspektive der ICF wirken die normativen Sprachanforderungen des Regelunterrichts als Umweltbarrieren (Kontextfaktoren), die S.' Pa
+
+5. **[L:563]** en und sprachliche Unsicherheiten die Wahrnehmung dominieren und den Blick auf Stärken verstellen. Drittens besteht die Gefahr institutioneller Diskriminierung. **`\textcite{kappus2010migration}`** referiert Studien, die darauf hinweisen, dass Kinder mit ausländisch klingenden Nachnamen in einzelnen Deutschschweizer Kantonen deutlich häufiger Zuweisungsemp
+
+6. **[L:1288]** nicht additiv, sondern verstärken sich gegenseitig und erzeugen eine spezifische Form der Unsichtbarkeit, die keiner dieser Faktoren allein hervorbringen würde. **`\textcite{kappus2010migration}`** zeigt, dass institutionelle Diskriminierung nicht nur in offener Benachteiligung besteht, sondern in der alltäglichen Praxis der Defizitzuschreibung: Kinder mit
+
+7. **[L:1515]** Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~5--6 (Emotion). (ca.~30\,S.) \item[ **`\cite{kappus2010migration}`** ] Umgang mit migrationsbedingter Heterogenität. In: Buholzer \& Kummer Wyss. (ca.~15\,S.) \item[\cite{stamm2012migranten}] Migranten mit Potenzial. (ca.~15\,S.)
+
+8. **[L:1651]** in alltäglichen Praktiken manifestiert, die für sich genommen nachvollziehbar erscheinen, in der Summe aber bestimmte Kindergruppen systematisch benachteiligen **`\parencite{kappus2010migration}`** . Der Verweis eines Kindes, das aufgrund seiner Migrationsgeschichte und seiner sensumotorischen Schwierigkeiten nicht leisten kann, was erwartet wird, ist eine
+
+9. **[L:2360]** roportional Kinder aus bildungsnahen Familien erreicht, dann reicht Einzelfallberatung nicht aus. Dann muss die SHP auch institutionelle Praktiken thematisieren **`\parencite{kappus2010migration}`** . Konkret bedeutet dies, dass die Erfahrungen aus dem Fall S. über den Einzelfall hinaus genutzt werden. Die SHP kann in Teamgesprächen, Weiterbildungen oder Sc
+
+10. **[L:2414]** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[ **`\cite{kappus2010migration}`** ] Umgang mit migrationsbedingter Heterogenität. (bereits bei Fr.~3 gezählt) \item[\cite{brunner2021hochbegabung}] Hochbegabung (k)ein Problem? Kap. Schweizer Fö
+
+11. **[L:2568]** inungsverschiedenheiten} auf. Kappus zeigt, dass institutionelle Diskriminierung sich in Routinen manifestiert, die für sich genommen nachvollziehbar erscheinen **`\parencite{kappus2010migration}`** . Die Empfehlung zum Abwarten bei einem neu zugewanderten Kind ist eine solche Routine. Sie ist in vielen Fällen angemessen. In Fällen wie jenem von S., wo spra
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

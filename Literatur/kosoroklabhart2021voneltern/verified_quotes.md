@@ -7,6 +7,25 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:388]** n, Diagnostik. (ca.~30\,S.) \item[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[
+
+2. **[L:2153]** osorok Labhart et al. zeigen, wie die Zusammenarbeit mit Eltern mit Migrationshintergrund gelingen kann, wenn sie als Expert:innen ihrer Kinder anerkannt werden **`\parencite{kosoroklabhart2021voneltern}`** . \subsection{Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit} Die vorangegangenen Fragestellungen haben gezeigt, dass das Verdecktbleiben v
+
+3. **[L:2321]** enntnis des Schulsystems) definiert werden, plädieren die Autorinnen dafür, Eltern als Expert:innen für ihre Kinder anzuerkennen und ihr Wissen aktiv einzuholen **`\parencite{kosoroklabhart2021voneltern}`** . Im Fall S. ist die Zusammenarbeit mit den Eltern besonders anspruchsvoll. Die Eltern sprechen kein Englisch und kein Deutsch; ein Elterngespräch war zunächst
+
+4. **[L:2412]** n, Diagnostik. (ca.~30\,S.) \item[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[
+
+5. **[L:2550]** professionelles Dolmetschen und kulturvermittelnde Begleitung Grundvoraussetzungen für eine gelingende Zusammenarbeit mit Eltern mit Migrationshintergrund sind **`\parencite{kosoroklabhart2021voneltern}`** . Im Fall S. hat erst das ressourcenorientiert angelegte Elterngespräch mit Dolmetscherin Informationen zutage gefördert, die dem Team bisher nicht zugänglich w
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

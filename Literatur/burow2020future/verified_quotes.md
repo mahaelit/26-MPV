@@ -7,6 +7,25 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:385]** ernliteratur zu Frage 5} \begin{description} \item[\cite{burow2021positive}] Positive Pädagogik. Kap. Stärkenorientierung, Schulentwicklung. (ca.~50\,S.) \item[ **`\cite{burow2020future}`** ] Future Fridays. Kap. zu Lernkultur und Zukunftskompetenzen. (ca.~30\,S.) \item[\cite{buholzer2010allegleich}] Alle gleich -- alle unterschiedlich. Kap. Kooper
+
+2. **[L:2130]** rken gelingt: nicht durch Appelle, sondern durch die gemeinsame Erfahrung, dass Kinder in geeigneten Settings Kompetenzen zeigen, die im Alltag unsichtbar waren **`\parencite{burow2020future,burow2021positive}`** . Das Konzept der kooperativen Unterrichtsentwicklung (Buholzer \& Kummer Wyss) betont, dass Zusammenarbeit auf der Schul- und Unterrichtsebene eine Voraussetzu
+
+3. **[L:2221]** Überzeugungskraft, wenn sie nicht nur auf Einzelfallbeobachtungen verweist, sondern diese in einen bildungstheoretisch fundierten Entwicklungshorizont einbettet **`\parencite{burow2020future}`** . \subsection{Kooperation im multiprofessionellen Team} Die Frage, wie defizitorientierte Wahrnehmungen verändert werden können, führt zur Frage der Zusammenarb
+
+4. **[L:2409]** ernliteratur zu Frage 5} \begin{description} \item[\cite{burow2021positive}] Positive Pädagogik. Kap. Stärkenorientierung, Schulentwicklung. (ca.~50\,S.) \item[ **`\cite{burow2020future}`** ] Future Fridays. Kap. zu Lernkultur und Zukunftskompetenzen. (ca.~30\,S.) \item[\cite{buholzer2010allegleich}] Alle gleich -- alle unterschiedlich. Kap. Kooper
+
+5. **[L:2577]** Future Fridays} die Forderung nach einer Schulkultur, die Eigenverantwortung und die Bereitschaft zum produktiven Dissens fördert, statt Konformität zu belohnen **`\parencite{burow2020future}`** . Für das multiprofessionelle Team bedeutet dies, dass eine Meinungsverschiedenheit zwischen SHP und Fachstellen nicht als Störung der Kooperation zu werten ist
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

@@ -7,6 +7,27 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:169]** eiben nicht selten verdeckt, insbesondere dann, wenn sprachliche Unsicherheiten, belastende Lebensumstände oder auffälliges Verhalten die Wahrnehmung dominieren **`\parencite{kellerkoller2021hellekoepfe,leikhof2021jugendliche}`** . Die kantonale Dienststelle Volksschulbildung stellt zwar Umsetzungshilfen für die integrative Begabungs- und Begabtenförderung (IBBF) bereit, die Identifikati
+
+2. **[A:270]** tur zu Frage 1} \begin{description} \item[\cite{stamm2021fehlenderblick}] Der fehlende Blick auf begabte Minoritäten. In: Handbuch Begabung. (ca.~15\,S.) \item[ **`\cite{kellerkoller2021hellekoepfe}`** ] Helle Köpfe mit Migrationshintergrund. (ca.~20\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,
+
+3. **[L:335]** eiben nicht selten verdeckt, insbesondere dann, wenn sprachliche Unsicherheiten, belastende Lebensumstände oder auffälliges Verhalten die Wahrnehmung dominieren **`\parencite{kellerkoller2021hellekoepfe,leikhof2021jugendliche}`** . Die kantonale Dienststelle Volksschulbildung stellt zwar Umsetzungshilfen für die integrative Begabungs- und Begabtenförderung (IBBF) bereit, die Identifikati
+
+4. **[L:465]** die Kombination von Migrationshintergrund und schulischem Underachievement dazu führt, dass Potenziale verdeckt bleiben, weil Fachpersonen Defizite priorisieren **`\parencite{kellerkoller2021hellekoepfe,kellerkoller2009begabte}`** . Die multiperspektivische Erfassung erfordert daher: (a) nonverbale und handlungsorientierte Testanteile, (b) systematische Verhaltensbeobachtung in offenen Se
+
+5. **[L:548]** Empfehlungen von Lehrpersonen setzen eine Ausdrucksfähigkeit in der Unterrichtssprache voraus, über die Kinder am Beginn des Zweitspracherwerbs nicht verfügen. **`\textcite{kellerkoller2021hellekoepfe}`** zeigt, dass Kinder mit Migrationshintergrund trotz deutlich sichtbarer Ressourcen bis in die Mittelstufe hinein nie mit Begabtenförderung in Berührung kommen, w
+
+6. **[L:717]** tur zu Frage 1} \begin{description} \item[\cite{stamm2021fehlenderblick}] Der fehlende Blick auf begabte Minoritäten. In: Handbuch Begabung. (ca.~15\,S.) \item[ **`\cite{kellerkoller2021hellekoepfe}`** ] Helle Köpfe mit Migrationshintergrund. (ca.~20\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

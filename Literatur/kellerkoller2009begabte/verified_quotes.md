@@ -7,6 +7,19 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:465]** die Kombination von Migrationshintergrund und schulischem Underachievement dazu führt, dass Potenziale verdeckt bleiben, weil Fachpersonen Defizite priorisieren **`\parencite{kellerkoller2021hellekoepfe,kellerkoller2009begabte}`** . Die multiperspektivische Erfassung erfordert daher: (a) nonverbale und handlungsorientierte Testanteile, (b) systematische Verhaltensbeobachtung in offenen Se
+
+2. **[L:552]** hinein nie mit Begabtenförderung in Berührung kommen, weil ihre Stärken in Domänen liegen, die schulisch nicht als leistungsrelevant anerkannt werden (vgl. auch **`\textcite{kellerkoller2009begabte}`** ; \textcite{kellerkoller2011erkennen}). Zweitens wirken defizitorientierte Zuschreibungen als Filter: Kinder, die weinen, sich zurückziehen, Aufgaben verweigern
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

@@ -7,6 +7,25 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:275]** . Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.) \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.) \item[ **`\cite{reutlinger2015hochbegabung}`** ] Hochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \it
+
+2. **[L:472]** sichtigung von Erstsprachkompetenzen sowie (e) dynamische, prozessorientierte Diagnostik, die Potenzial auch unter ungünstigen Bedingungen sichtbar werden lässt **`\parencite{ipege2009professionelle,reutlinger2015hochbegabung,uslucan2012begabung}`** . Am Fall S. zeigt sich exemplarisch, wie eine schulpsychologische Testung auf Englisch statt Albanisch überdurchschnittliches Potenzial bestätigte, während er
+
+3. **[L:558]** ie abgebende Lehrperson ihn als \enquote{eher auffällig, sehr weinerlich und etwas störend}; eine Beschreibung, die kognitive Ressourcen vollständig ausblendet. **`\textcite{reutlinger2015hochbegabung}`** betonen, dass gerade bei Kindern mit Migrationshintergrund Verhaltensauffälligkeiten und sprachliche Unsicherheiten die Wahrnehmung dominieren und den Blick auf
+
+4. **[L:642]** ch statt Albanisch entschied, eine Wahl, die auf ein komplexes Sprachprofil verweist und möglicherweise auch auf schwierige Erfahrungen in der Herkunftssprache. **`\textcite{reutlinger2015hochbegabung}`** empfehlen, bei der Begabungsdiagnostik mit mehrsprachigen Kindern konsequent alle verfügbaren Sprachen einzubeziehen und Testungen wenn möglich in der stärksten
+
+5. **[L:722]** . Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.) \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.) \item[ **`\cite{reutlinger2015hochbegabung}`** ] Hochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \it
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

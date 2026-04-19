@@ -7,6 +7,27 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:301]** grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.) \item[\cite{gold2018lesenkannmanlernen}] Lesen kann man lernen. Kap.~1--4. (ca.~70\,S.) \item[ **`\cite{sturm2016graphomotorik}`** ] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~2--4. (ca.~60\,S.) \item[\
+
+2. **[L:892]** ablaufen müssen, damit auf höheren Ebenen Ressourcen für Satzbildung, Textplanung und inhaltliches Denken verfügbar werden \parencite{rosebrock2010grundlagen}. **`\textcite{sturm2016graphomotorik}`** betont, dass graphomotorische Prozesse beim Schreibenlernen eine eigenständige Entwicklungsaufgabe darstellen: Die Herausbildung stabiler, flüssiger Bewegungsmu
+
+3. **[L:1106]** grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.) \item[\cite{gold2018lesenkannmanlernen}] Lesen kann man lernen. Kap.~1--4. (ca.~70\,S.) \item[ **`\cite{sturm2016graphomotorik}`** ] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~2--4. (ca.~60\,S.) \item[\
+
+4. **[L:1156]** rung nur unter Bedingungen gelingt, die ausreichend Verarbeitungskapazität für die motorische Übung freilassen. Die Schachnotation schafft genau diese Bedingung **`\parencite{sturm2016graphomotorik}`** . Auf der \textit{motivationalen Ebene} wirkt der Unterschied zwischen extrinsischer Anforderung und intrinsischem Interesse. Lehwald unterscheidet Erkenntnismo
+
+5. **[L:1194]** in einem bedeutungsvollen Kontext zielt direkt auf die Automatisierung motorischer Programme, die Sturm als Kernaufgabe des graphomotorischen Lernens beschreibt **`\parencite{sturm2016graphomotorik}`** . Der \textit{zweite Strang} betrifft die Leseförderung auf Wortebene. Rosebrock und Nix betonen, dass Leseflüssigkeit über systematisches Training der hierarch
+
+6. **[L:2467]** . aktiv nutzt. Sturm betont, dass graphomotorische Prozesse eine eigenständige Entwicklungsaufgabe darstellen, die nicht mit dem Zweitspracherwerb zusammenfällt **`\parencite{sturm2016graphomotorik}`** . Die Leseflüssigkeit von 17 Wörtern pro Minute liegt in beiden verfügbaren Schriftsprachen weit unter altersgemässen Werten. Diese Befunde deuten auf eine sens
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

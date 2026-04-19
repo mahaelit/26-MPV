@@ -7,6 +7,19 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:1861]** htigkeit erfordert, dass die Schule aktiv nach Potenzialen sucht, statt darauf zu warten, dass sie sich in den institutionell vorgesehenen Formen manifestieren. **`\textcite{muelleroppliger2021plurale}`** rahmt diese Forderung in den Kontext von Inklusion und pluraler Gesellschaft: Wenn Schule den Anspruch erhebt, alle Kinder in ihren Möglichkeiten zu fördern, mu
+
+2. **[L:2077]** Kinder in ihren Möglichkeiten fördern will, muss Begabungsförderung als gesamtschulische Aufgabe implementiert werden, nicht als Projekt einzelner Fachpersonen **`\parencite{muelleroppliger2021plurale}`** . Das Luzerner IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten den institutionellen Rahmen, in dem diese Forderung realisiert werden
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

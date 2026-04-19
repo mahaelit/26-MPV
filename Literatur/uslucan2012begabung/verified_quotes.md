@@ -7,6 +7,19 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:472]** sichtigung von Erstsprachkompetenzen sowie (e) dynamische, prozessorientierte Diagnostik, die Potenzial auch unter ungünstigen Bedingungen sichtbar werden lässt **`\parencite{ipege2009professionelle,reutlinger2015hochbegabung,uslucan2012begabung}`** . Am Fall S. zeigt sich exemplarisch, wie eine schulpsychologische Testung auf Englisch statt Albanisch überdurchschnittliches Potenzial bestätigte, während er
+
+2. **[L:632]** rngespräch zunächst nur über eine Bekannte der Familie möglich; ein professionell begleitetes Gespräch mit Dolmetscherin fand erst auf Initiative der SHP statt. **`\textcite{uslucan2012begabung}`** betont, dass migrationsspezifische Bildungsaspirationen nicht mit Desinteresse verwechselt werden dürfen: Viele Eltern mit Migrationsgeschichte haben hohe Erwar
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

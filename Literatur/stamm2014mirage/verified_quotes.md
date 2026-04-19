@@ -7,6 +7,21 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:575]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite{stamm2014mirage,stamm2014handbuch}`** . \subsection{Grenzen sprachlastiger Diagnostik} Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children) erheben den Anspruch,
+
+2. **[L:1406]** abungsreserven in der Migrationsbevölkerung systematisch ungenutzt bleiben, nicht weil die Potenziale fehlten, sondern weil die Institutionen sie nicht erkennen **`\parencite{stamm2014mirage}`** . \subsection{Teilhabe als Voraussetzung für Sichtbarkeit} Booth und Ainscow entwickeln im Index für Inklusion einen Teilhabebegriff, der über physische Anwesen
+
+3. **[L:2490]** eiben, und die MIRAGE-Studie zeigt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht erkannt worden **`\parencite{stamm2014mirage}`** . S. steht in der 5. Klasse; der Übertritt in die Sekundarstufe rückt näher. Jeder Monat, in dem sein Potenzial undokumentiert bleibt, verringert die Wahrschein
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

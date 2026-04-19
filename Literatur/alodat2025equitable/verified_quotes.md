@@ -7,6 +7,21 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:3319]** nische Minderheiten) auf geflüchtete Kinder übertragbar sind. Codierung: 2054 Primärcodes, verdichtet auf 72 Hauptcodes und 215 Subcodes, ergibt fünf Kernthemen **`\parencite{alodat2025equitable}`** . \textbf{Ausgangslage.} Weltweit sind über 122 Millionen Menschen gewaltsam vertrieben (UNHCR, 2024). Unter den Millionen betroffener Kinder befinden sich viel
+
+2. **[L:3471]** tudie schliesst: Das Fehlen kulturell responsiver und kontextspezifischer Instrumente für geflüchtete Kinder verhindert die akkurate Erkennung ihrer Fähigkeiten **`\parencite{alodat2025equitable}`** . \subsubsection*{Zentrale Schlussfolgerungen} Die Studie formuliert drei Kernaussagen. Erstens: Bestehende bewährte Praktiken für unterrepräsentierte Begabte (
+
+3. **[L:3486]** erücksichtigen. Drittens: Die Forschung muss über die Dokumentation von Barrieren hinausgehen und aktiv neue Identifikationsmodelle konstruieren und evaluieren. **`\textcite{alodat2025equitable}`** betont, dass Begabung sich bei geflüchteten Kindern häufig in nichttraditionellen Formen zeigt: Resilienz, emotionale Intelligenz, kreatives Problemlösen, Anpas
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

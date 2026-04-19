@@ -7,6 +7,29 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:389]** nd in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei F
+
+2. **[L:2145]** shintergrund in der Begabungsförderung systematisch unterrepräsentiert sind und dass dies auch an den Erwartungen und Wahrnehmungsmuster der Lehrpersonen liegt. **`\textcite{macha2019gender}`** betont die Notwendigkeit gender- und diversitätssensibler Professionalisierung in der Begabungsförderung. Kappus' Analyse der institutionellen Diskriminierung s
+
+3. **[L:2282]** t vorzuhalten (mangelnde Erfahrung mit Begabungserkennung bei mehrsprachigen Kindern), sondern darum, gemeinsam ein differenzierteres Bild von S. zu entwickeln. **`\textcite{macha2019gender}`** beschreibt die Anforderungen an eine diversitätssensible Professionalisierung in der Begabungsförderung. Sie betont, dass die Erkennung von Begabungen bei Kinde
+
+4. **[L:2372]** ts ableiten. Und sie kann die Frage stellen, ob die bestehenden Zuweisungs- und Übertrittsverfahren Kinder mit Migrationshintergrund angemessen berücksichtigen. **`\textcite{macha2019gender}`** fasst diesen Anspruch als doppelte Professionalisierungsaufgabe: Zum einen müssen Fachpersonen in der Begabungsförderung individuelle Kompetenzen der diversität
+
+5. **[L:2413]** nd in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei F
+
+6. **[L:2544]** de Fachstelle ihre Expertise einbringt. Macha beschreibt diversitätssensible Professionalisierung als Aufgabe des gesamten Systems, nicht einzelner Fachpersonen **`\parencite{macha2019gender}`** . Das dritte Prinzip ist die \textit{Einbindung der Eltern als Wissensträger}. Kosorok Labhart, Schöllhorn und Luginbühl betonen, dass professionelles Dolmetsch
+
+7. **[L:3012]** ng nach einer doppelten Professionalisierungsaufgabe (individuelle Kompetenz + Strukturveränderung) und liefert konkretes Datenmaterial für das Prüfungsgespräch **`\parencite{macha2019gender}`** . \subsubsection*{Herausforderungen trotz erfolgreicher Praxis} Die Studie identifiziert vier persistierende Herausforderungen, auch an Schulen mit proportional
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

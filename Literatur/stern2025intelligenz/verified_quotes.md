@@ -7,6 +7,17 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **1**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:493]** dung von Potenzial und Performanz durchzieht die gesamte aktuelle Diskussion (vgl. \textcite{preckel2013hochbegabung}; \textcite{trautmann2016einfuehrung}). E.~ **`\textcite{stern2025intelligenz}`** bestätigt diese Perspektive aus aktueller kognitionspsychologischer Forschung: Intelligenz kann sich im Schulalter noch substanziell verändern, was die Fixierun
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)

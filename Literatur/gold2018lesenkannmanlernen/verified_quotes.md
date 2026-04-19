@@ -7,6 +7,33 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **9**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:300]** ote} \subsection{Kernliteratur zu Frage 2} \begin{description} \item[\cite{rosebrock2010grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.) \item[ **`\cite{gold2018lesenkannmanlernen}`** ] Lesen kann man lernen. Kap.~1--4. (ca.~70\,S.) \item[\cite{sturm2016graphomotorik}] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite
+
+2. **[L:855]** rte sensumotorische Grundlagen hin, die das Schreiben zu einer kognitiv hochbelastenden Tätigkeit machen und damit Ressourcen für inhaltliches Denken blockieren **`\parencite{rosebrock2010grundlagen,gold2018lesenkannmanlernen}`** . Die Leseflüssigkeit von 17 Wörtern pro Minute liegt weit unter altersgemässen Werten. Rosebrock und Nix beschreiben ein Mehrebenenmodell des Lesens, in dem Wo
+
+3. **[L:860]** esens, in dem Wort- und Satzidentifikation automatisiert sein müssen, damit Ressourcen für Textverständnis verfügbar werden \parencite{rosebrock2010grundlagen}. **`\textcite{gold2018lesenkannmanlernen}`** betont die Bedeutung systematischer Leseförderung, die an der Wortleseebene ansetzt, bevor Verständnisstrategien greifen können. Der ressourcenorientierte Zugan
+
+4. **[L:915]** nicht automatisiert sind, geraten in eine Überforderungssituation, sobald gleichzeitig motorische, orthographische und inhaltliche Anforderungen gestellt werden **`\parencite{gold2018lesenkannmanlernen}`** . \subsection{Graphomotorische Befunde bei S.} Bei S. zeigen sich die beschriebenen Teilprozesse als durchgehend fragil. Seine Buchstabenformen sind inkonsisten
+
+5. **[L:955]** ten: Dekodiergenauigkeit, Automatisierung der Worterkennung und prosodisches Lesen. Bei S. ist bereits die erste Stufe, die genaue Dekodierung, nicht gesichert. **`\textcite{gold2018lesenkannmanlernen}`** betont, dass Leseförderung bei Kindern mit gravierenden Dekodierungsschwierigkeiten konsequent auf der Wortebene ansetzen muss. Strategien des Textverstehens, d
+
+6. **[L:1099]** t werden, beginnend mit Sichtworttraining und Lautleseübungen in kurzen, regelmässigen Einheiten, die schrittweise in den SOLUX-Kontext integriert werden können **`\parencite{rosebrock2010grundlagen,gold2018lesenkannmanlernen}`** . \subsection{Kernliteratur zu Frage 2} \begin{description} \item[\cite{rosebrock2010grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.) \item[\ci
+
+7. **[L:1105]** en}. \subsection{Kernliteratur zu Frage 2} \begin{description} \item[\cite{rosebrock2010grundlagen}] Grundlagen der Lesedidaktik. Kap.~1--4. (ca.~60\,S.) \item[ **`\cite{gold2018lesenkannmanlernen}`** ] Lesen kann man lernen. Kap.~1--4. (ca.~70\,S.) \item[\cite{sturm2016graphomotorik}] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite
+
+8. **[L:1145]** multan gestellt werden. Das Arbeitsgedächtnis ist in dieser Konstellation vollständig ausgelastet; für die eigentliche kognitive Leistung bleibt keine Kapazität **`\parencite{gold2018lesenkannmanlernen}`** . Bei der Schachnotation hingegen entfallen zwei der drei Belastungsquellen. Der Inhalt (der Zug) ist S. kognitiv vollständig präsent, er muss ihn nicht erst in
+
+9. **[L:1205]** Kurs. Gold betont, dass Leseanlässe motivational attraktiv und auf dem aktuellen Kompetenzniveau angesiedelt sein müssen, um den Matthäus-Effekt zu durchbrechen **`\parencite{gold2018lesenkannmanlernen}`** . Der Schachkontext liefert diese Passung. Der \textit{dritte Strang} betrifft die schrittweise Erweiterung der Schreibanlässe über die Notation hinaus. Sobald
+
+<!-- CLAIMS-END -->
+
 ## Zitate (gegen die Quelle gegengeprueft)
 
 ### Zitat 1 (S. XX)
