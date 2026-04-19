@@ -1,7 +1,7 @@
 # Verifizierte Zitate – maehler2018diagnostik
 
 **Quelle:** Maehler, Débora B.; Shajek, Alexandra; Brinkmann, Heinz Ulrich (2018). Diagnostik bei Migrantinnen und Migranten: Ein Handbuch.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Maehler%20Diagnostik%20bei%20Migrantinnen%20und%20Migranten%3A%20Ein%20Handbuch%202018&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Maehler,%20D%C3%A9bora%20B.;%20Shajek,%20Alexandra;%20Brinkmann,%20Heinz%20Ulrich%20Diagnostik%20bei%20Migrantinnen%20und%20Migranten%3A%20Ein%20Handbuch&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

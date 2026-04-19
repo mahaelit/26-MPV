@@ -1,7 +1,7 @@
 # Verifizierte Zitate – bfs2022migration
 
 **Quelle:** Bundesamt für Statistik BFS (2022). Migration und Integration: Migrationsbewegungen und Bevölkerung mit Migrationshintergrund.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Bundesamt%20f%C3%BCr%20Statistik%20BFS%20Migration%20und%20Integration%3A%20Migrationsbewegungen%20und%20Bev%C3%B6lkerung%20mit%20Migrationshintergrund%202022&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Bundesamt%20f%C3%BCr%20Statistik%20BFS%20Migration%20und%20Integration%3A%20Migrationsbewegungen%20und%20Bev%C3%B6lkerung%20mit%20Migrationshintergrund&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

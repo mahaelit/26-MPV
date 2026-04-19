@@ -1,7 +1,7 @@
 # Verifizierte Zitate – weigand2021separativ
 
 **Quelle:** Weigand, Gabriele; Kaiser, Michaela (2021). Separativ oder integrativ? Inklusive Begabungs- und Begabtenförderung. In: Handbuch Begabung.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Weigand%20Separativ%20oder%20integrativ%3F%20Inklusive%20Begabungs-%20und%20Begabtenf%C3%B6rderung%202021&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,M%C3%BCller-Oppliger,%20Victor;%20Weigand,%20Gabriele%20Handbuch%20Begabung&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

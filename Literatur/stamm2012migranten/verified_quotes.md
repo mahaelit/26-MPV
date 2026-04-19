@@ -1,7 +1,7 @@
 # Verifizierte Zitate – stamm2012migranten
 
 **Quelle:** Stamm, Margrit (2012). Migranten mit Potenzial: Begabungsreserven in der Berufsbildung ausschöpfen.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Stamm%20Migranten%20mit%20Potenzial%3A%20Begabungsreserven%20in%20der%20Berufsbildung%20aussch%C3%B6pfen%202012&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Stamm,%20Margrit%20Migranten%20mit%20Potenzial%3A%20Begabungsreserven%20in%20der%20Berufsbildung%20aussch%C3%B6pfen&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

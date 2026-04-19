@@ -1,7 +1,7 @@
 # Verifizierte Zitate – stamm2014handbuch
 
 **Quelle:** Stamm, Margrit (2014). Handbuch Talententwicklung: Theorien, Methoden und Praxis in Psychologie und Pädagogik.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Stamm%20Handbuch%20Talententwicklung%3A%20Theorien%2C%20Methoden%20und%20Praxis%20in%20Psychologie%202014&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Stamm,%20Margrit%20Handbuch%20Talententwicklung%3A%20Theorien,%20Methoden%20und%20Praxis%20in%20Psychologie%20und%20P%C3%A4dagogik&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

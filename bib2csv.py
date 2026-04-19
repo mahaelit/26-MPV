@@ -349,28 +349,35 @@ BESCHAFFUNG_OPTIONS = [
 ]
 
 
-def _first_author_surname(entry: dict) -> str:
-    raw = entry.get("author") or entry.get("editor") or ""
-    if not raw:
-        return ""
-    first = raw.split(" and ")[0].strip()
-    surname = first.split(",")[0].strip()
-    return re.sub(r"[{}\\]", "", surname).strip()
+def _swisscovery_query_parts(entry: dict) -> tuple:
+    """Gibt (Namen, Titel) fuer die Swisscovery-Suche zurueck.
 
+    Swisscovery katalogisiert Buecher / Zeitschriften, aber keine
+    einzelnen Buchkapitel. Deshalb:
 
-def _title_keywords(entry: dict, max_words: int = 8) -> str:
-    title = entry.get("title", "") or ""
-    cleaned = re.sub(r"[{}\\]+", "", title)
-    words = cleaned.split()
-    return " ".join(words[:max_words]).strip()
+    - @incollection  ->  Suche nach dem ELTERN-Buch:
+                         Herausgeber + booktitle
+    - alles andere   ->  Autor/Herausgeber + title des Eintrags selbst
+    """
+    entry_type = (entry.get("entry_type") or "").lower()
+    if entry_type == "incollection":
+        names_raw = entry.get("editor") or entry.get("author") or ""
+        title_raw = entry.get("booktitle") or entry.get("title") or ""
+    else:
+        names_raw = entry.get("author") or entry.get("editor") or ""
+        title_raw = entry.get("title") or ""
+    names = format_names(names_raw)
+    title = sanitize(title_raw)
+    return names, title
 
 
 def build_search_url(entry: dict) -> str:
     """Generiert eine Verifikations-URL:
 
-    - bei DOI  ->  https://doi.org/<doi>
-    - bei @online mit URL  ->  Wayback-Machine-Snapshot-Uebersicht
-    - sonst  ->  Swisscovery-Netzwerk-Suche (SLSP) mit Autor+Titel+Jahr
+    - DOI vorhanden        ->  https://doi.org/<doi>
+    - @online mit URL      ->  Wayback-Machine-Snapshot-Uebersicht
+    - @incollection        ->  Swisscovery (Herausgeber + Buchtitel)
+    - @book/@thesis/...    ->  Swisscovery (Autor/Herausgeber + Titel)
     """
     entry_type = (entry.get("entry_type") or "").lower()
     doi        = sanitize(entry.get("doi", ""))
@@ -382,18 +389,20 @@ def build_search_url(entry: dict) -> str:
     if entry_type == "online" and url:
         return f"https://web.archive.org/web/*/{url}"
 
-    surname = _first_author_surname(entry)
-    title   = _title_keywords(entry, max_words=8)
-    year    = sanitize(entry.get("year", ""))
-    query   = " ".join(p for p in (surname, title, year) if p).strip()
-    encoded = quote(query)
+    names, title = _swisscovery_query_parts(entry)
+    query = " ".join(p for p in (names, title) if p).strip()
+
+    # Kommas und Semikolons bleiben unkodiert (wie im Swisscovery-UI);
+    # Leerzeichen werden zu %20, Umlaute zu %XX.
+    encoded = quote(query, safe=",;")
+
     return (
         "https://swisscovery.slsp.ch/discovery/search"
         f"?query=any,contains,{encoded}"
         "&tab=41SLSP_NETWORK"
-        "&search_scope=MyInst_and_CI"
-        "&vid=41SLSP_NETWORK:VU2_UNION"
-        "&lang=de"
+        "&search_scope=DN_and_CI"
+        "&vid=41SLSP_NETWORK:VU1_UNION"
+        "&offset=0"
     )
 
 
@@ -520,8 +529,24 @@ def read_manual_data(xlsx_path: Path) -> tuple:
     return manual_cols, values
 
 
-def _merge_cell(existing: str, default: str) -> str:
-    """Zellen-Merge: bestehender Wert hat Vorrang, ansonsten Auto-Default."""
+# Tracking-Spalten, deren Wert immer aus der aktuellen .bib-Datei neu
+# erzeugt wird -- bestehende Zelle wird ueberschrieben. Das ist richtig
+# fuer abgeleitete Klick-Starter (z. B. Suche_URL), wo der Nutzer keinen
+# stabilen Wert einpflegt. Manuell gepflegte Spalten (Swisscovery_URL,
+# Status, etc.) sind NICHT enthalten -- die bleiben erhalten.
+ALWAYS_REFRESH = {"Suche_URL"}
+
+
+def _merge_cell(col_name: str, existing, default: str) -> str:
+    """Zellen-Merge.
+
+    - Ist *col_name* in ALWAYS_REFRESH und existiert ein Default, gewinnt
+      der Default (die Spalte wird regeneriert).
+    - Sonst: bestehender Wert gewinnt, Auto-Default dient als Fallback
+      fuer leere Zellen.
+    """
+    if col_name in ALWAYS_REFRESH and default:
+        return default
     if existing not in (None, ""):
         return existing
     return default or ""
@@ -548,7 +573,7 @@ def write_csv(rows: list, csv_path: Path,
             key      = row.get("BibKey", "")
             manual   = merged_values.get(key, {})
             defaults = tracking_defaults.get(key, {})
-            merged   = {c: _merge_cell(manual.get(c, ""), defaults.get(c, ""))
+            merged   = {c: _merge_cell(c, manual.get(c, ""), defaults.get(c, ""))
                         for c in manual_cols}
             writer.writerow({**row, **merged})
 
@@ -643,7 +668,7 @@ def write_xlsx(rows: list, xlsx_path: Path,
         for col_name, c_idx in manual_col_indexes.items():
             existing = manual.get(col_name, "")
             default  = defaults.get(col_name, "")
-            value    = _merge_cell(existing, default)
+            value    = _merge_cell(col_name, existing, default)
             cell = ws.cell(row=r_idx, column=c_idx, value=value or None)
             cell.alignment = top_wrap
             cell.fill      = manual_fill
@@ -714,7 +739,7 @@ def write_xlsx(rows: list, xlsx_path: Path,
                 key      = r.get("BibKey", "")
                 existing = manual_values.get(key, {}).get(col_name, "")
                 default  = tracking_defaults.get(key, {}).get(col_name, "")
-                values.append(str(_merge_cell(existing, default) or ""))
+                values.append(str(_merge_cell(col_name, existing, default) or ""))
             content_w = max((len(v) for v in values), default=0)
         header_w = len(col_name)
         cap      = max_widths.get(col_name, 35)
@@ -851,17 +876,67 @@ _VERIFIED_QUOTES_TEMPLATE = """# Verifizierte Zitate – {bibkey}
 """
 
 
+def _render_verified_quotes(entry: dict) -> str:
+    """Baut den vollstaendigen Inhalt einer verified_quotes.md-Vorlage."""
+    key    = entry.get("key", "")
+    author = format_names(entry.get("author", "") or entry.get("editor", "")) or "(Autor unbekannt)"
+    year   = sanitize(entry.get("year", ""))
+    title  = sanitize(entry.get("title", ""))
+    venue  = ""
+    bt     = sanitize(entry.get("booktitle", ""))
+    jn     = sanitize(entry.get("journal", ""))
+    if bt:
+        venue = f" In: {bt}."
+    elif jn:
+        venue = f" {jn}."
+    ident = sanitize(entry.get("doi", ""))
+    ident = f"doi:{ident}" if ident else "–"
+    return _VERIFIED_QUOTES_TEMPLATE.format(
+        bibkey     = key,
+        author     = author,
+        year       = f" ({year})" if year else "",
+        title      = title or "(kein Titel)",
+        venue      = venue,
+        search_url = build_search_url(entry),
+        ident      = ident,
+    )
+
+
+_MD_HEADER_SEP_RE = re.compile(r"\n\s*---\s*\n")
+
+
+def _refresh_md_header(existing: str, expected: str) -> str | None:
+    """Ersetzt den Metadaten-Header (bis zum ersten '---'-Trenner) mit dem
+    frisch generierten Header und laesst den Rest (User-Notizen) intakt.
+
+    Gibt None zurueck, wenn das Format nicht erkannt wird.
+    """
+    me = _MD_HEADER_SEP_RE.search(existing)
+    mx = _MD_HEADER_SEP_RE.search(expected)
+    if not (me and mx):
+        return None
+    new_header = expected[:mx.end()]
+    old_body   = existing[me.end():]
+    return new_header + old_body
+
+
 def scaffold_literatur_folders(entries: list, base_dir: Path) -> tuple:
     """Legt fuer jede Quelle einen Ordner `Literatur/<BibKey>/` an und
-    schreibt eine Vorlage `verified_quotes.md` hinein (idempotent).
+    schreibt eine Vorlage `verified_quotes.md` hinein.
 
-    Rueckgabe: (neue_ordner, neue_vorlagen)
+    - Neue Ordner/Vorlagen werden angelegt.
+    - Bestehende verified_quotes.md-Dateien bekommen nur den Metadaten-
+      **Header** (bis zum ersten `---`-Trenner) aufgefrischt; Zitate und
+      Notizen darunter bleiben unveraendert.
+
+    Rueckgabe: (neue_ordner, neue_vorlagen, aufgefrischte_header)
     """
     lit_root = base_dir / "Literatur"
     lit_root.mkdir(exist_ok=True)
 
-    new_dirs  = 0
-    new_files = 0
+    new_dirs      = 0
+    new_files     = 0
+    refreshed_hdr = 0
     for e in entries:
         key = e.get("key", "")
         if not key:
@@ -871,34 +946,19 @@ def scaffold_literatur_folders(entries: list, base_dir: Path) -> tuple:
             folder.mkdir(parents=True, exist_ok=True)
             new_dirs += 1
 
-        md_path = folder / "verified_quotes.md"
+        md_path  = folder / "verified_quotes.md"
+        expected = _render_verified_quotes(e)
+
         if not md_path.exists():
-            author = format_names(e.get("author", "") or e.get("editor", "")) or "(Autor unbekannt)"
-            year   = sanitize(e.get("year", ""))
-            title  = sanitize(e.get("title", ""))
-            venue  = ""
-            bt     = sanitize(e.get("booktitle", ""))
-            jn     = sanitize(e.get("journal", ""))
-            if bt:
-                venue = f" In: {bt}."
-            elif jn:
-                venue = f" {jn}."
-            ident = sanitize(e.get("doi", ""))
-            ident = f"doi:{ident}" if ident else "–"
-            md_path.write_text(
-                _VERIFIED_QUOTES_TEMPLATE.format(
-                    bibkey     = key,
-                    author     = author,
-                    year       = f" ({year})" if year else "",
-                    title      = title or "(kein Titel)",
-                    venue      = venue,
-                    search_url = build_search_url(e),
-                    ident      = ident,
-                ),
-                encoding="utf-8",
-            )
+            md_path.write_text(expected, encoding="utf-8")
             new_files += 1
-    return new_dirs, new_files
+        else:
+            existing = md_path.read_text(encoding="utf-8")
+            refreshed = _refresh_md_header(existing, expected)
+            if refreshed is not None and refreshed != existing:
+                md_path.write_text(refreshed, encoding="utf-8")
+                refreshed_hdr += 1
+    return new_dirs, new_files, refreshed_hdr
 
 
 # ------------------------------- Haupt-Einstieg ------------------------------
@@ -949,13 +1009,20 @@ def main(argv) -> int:
               file=sys.stderr)
         return 2
 
-    # Ordnerstruktur 'Literatur/<BibKey>/' mit verified_quotes.md anlegen.
-    new_dirs, new_files = scaffold_literatur_folders(entries, here)
-    if new_dirs or new_files:
-        print(f"[OK] Literaturordner: +{new_dirs} Verzeichnisse, "
-              f"+{new_files} Quote-Vorlagen angelegt.")
+    # Ordnerstruktur 'Literatur/<BibKey>/' mit verified_quotes.md anlegen
+    # bzw. Header bestehender Dateien aktualisieren.
+    new_dirs, new_files, refreshed = scaffold_literatur_folders(entries, here)
+    parts = []
+    if new_dirs:
+        parts.append(f"+{new_dirs} Verzeichnisse")
+    if new_files:
+        parts.append(f"+{new_files} Quote-Vorlagen")
+    if refreshed:
+        parts.append(f"{refreshed} Header aktualisiert")
+    if parts:
+        print("[OK] Literaturordner: " + ", ".join(parts) + ".")
     else:
-        print("[OK] Literaturordner/Quote-Vorlagen bereits vorhanden (nichts geaendert).")
+        print("[OK] Literaturordner/Quote-Vorlagen unveraendert.")
     return 0
 
 

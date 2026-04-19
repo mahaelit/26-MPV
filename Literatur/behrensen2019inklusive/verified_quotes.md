@@ -1,7 +1,7 @@
 # Verifizierte Zitate – behrensen2019inklusive
 
 **Quelle:** Behrensen, Birgit (2019). Inklusive Begabungsförderung – eine Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration. In: Begabungsförderung und Professionalisierung: Befunde, Perspektiven, Herausforderungen.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Behrensen%20Inklusive%20Begabungsf%C3%B6rderung%20--%20eine%20Antwort%20auf%20Bildungsherausforderungen%20in%202019&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Reintjes,%20Christian;%20Kunze,%20Ingrid;%20Ossowski,%20Ekkehard%20Begabungsf%C3%B6rderung%20und%20Professionalisierung%3A%20Befunde,%20Perspektiven,%20Herausforderungen&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

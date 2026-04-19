@@ -1,7 +1,7 @@
 # Verifizierte Zitate – trautmann2016einfuehrung
 
 **Quelle:** Trautmann, Thomas (2016). Einführung in die Hochbegabtenpädagogik.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Trautmann%20Einf%C3%BChrung%20in%20die%20Hochbegabtenp%C3%A4dagogik%202016&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Trautmann,%20Thomas%20Einf%C3%BChrung%20in%20die%20Hochbegabtenp%C3%A4dagogik&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

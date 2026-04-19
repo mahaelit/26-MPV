@@ -1,7 +1,7 @@
 # Verifizierte Zitate – lehwald2017motivation
 
 **Quelle:** Lehwald, Gerhard (2017). Motivation trifft Begabung: Begabte Kinder und Jugendliche verstehen und gezielt fördern.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Lehwald%20Motivation%20trifft%20Begabung%3A%20Begabte%20Kinder%20und%20Jugendliche%20verstehen%202017&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Lehwald,%20Gerhard%20Motivation%20trifft%20Begabung%3A%20Begabte%20Kinder%20und%20Jugendliche%20verstehen%20und%20gezielt%20f%C3%B6rdern&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

@@ -1,7 +1,7 @@
 # Verifizierte Zitate – gold2018lesenkannmanlernen
 
 **Quelle:** Gold, Andreas (2018). Lesen kann man lernen: Wie man die Lesekompetenz fördern kann.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Gold%20Lesen%20kann%20man%20lernen%3A%20Wie%20man%20die%20Lesekompetenz%202018&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Gold,%20Andreas%20Lesen%20kann%20man%20lernen%3A%20Wie%20man%20die%20Lesekompetenz%20f%C3%B6rdern%20kann&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

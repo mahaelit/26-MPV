@@ -1,7 +1,7 @@
 # Verifizierte Zitate – muelleroppliger2021plurale
 
 **Quelle:** Müller-Oppliger, Victor (2021). Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In: Handbuch Begabung.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,M%C3%BCller-Oppliger%20Plurale%20Gesellschaft%2C%20Inklusion%20und%20Bildungsgerechtigkeit%202021&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,M%C3%BCller-Oppliger,%20Victor;%20Weigand,%20Gabriele%20Handbuch%20Begabung&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

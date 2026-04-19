@@ -1,7 +1,7 @@
 # Verifizierte Zitate – booth2019index
 
 **Quelle:** Booth, Tony; Ainscow, Mel (2019). Index für Inklusion: Ein Leitfaden für Schulentwicklung.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Booth%20Index%20f%C3%BCr%20Inklusion%3A%20Ein%20Leitfaden%20f%C3%BCr%20Schulentwicklung%202019&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Booth,%20Tony;%20Ainscow,%20Mel%20Index%20f%C3%BCr%20Inklusion%3A%20Ein%20Leitfaden%20f%C3%BCr%20Schulentwicklung&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

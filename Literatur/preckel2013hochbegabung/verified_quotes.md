@@ -1,7 +1,7 @@
 # Verifizierte Zitate – preckel2013hochbegabung
 
 **Quelle:** Preckel, Franzis; Baudson, Tanja Gabriele (2013). Hochbegabung: Erkennen, Verstehen, Fördern.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Preckel%20Hochbegabung%3A%20Erkennen%2C%20Verstehen%2C%20F%C3%B6rdern%202013&tab=41SLSP_NETWORK&search_scope=MyInst_and_CI&vid=41SLSP_NETWORK:VU2_UNION&lang=de
+**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Preckel,%20Franzis;%20Baudson,%20Tanja%20Gabriele%20Hochbegabung%3A%20Erkennen,%20Verstehen,%20F%C3%B6rdern&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 
