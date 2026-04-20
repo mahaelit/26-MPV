@@ -7,6 +7,13 @@
 
 ---
 
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
 
 <!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
 
@@ -14,14 +21,42 @@
 
 Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
 
-### Verortung als Einzel-Zitatstelle
+### Haupt-Kapitel aus Multi-Chapter-Transkript
 
 #### `Teil1_Verortung_Transkripte_HandbuchBegabung.json`
 
 - **Buch:** Handbuch Begabung (2021)
-- **Kapitel:** —
-- **Seiten:** —
-- **Anzahl Zitatstellen:** 3
+- **Kapitel:** Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie
+- **Autor:innen:** Stadelmann
+- **Seiten:** 133--147
+- **Pruefungsfragen-Relevanz:** **primary**: FW1, FW2; **priority**: critical; **secondary**: BW4
+
+**Integration-Hints** (19 gesamt, Anzeige gekappt):
+
+- **[FW1]** Anker: Begabung als dynamisches Potenzial — cite_add — (Grund: Stadelmann liefert den naturwissenschaftlichen Unterbau fuer die bisher primaer paedagogisch begruendete dynamische Begabungsauffassung (Preckel, LemaS, Fischer). Epigenetik und Hirnplastizitaet sind die harten Argumente dafuer, dass Potenzial nicht vorgegeben ist.)  
+  _(chapters[].proposed_usage[0])_
+- **[FW2]** Anker: Schriftspracherwerb als sensumotorisch-kognitiver Prozess — cite_add — (Grund: Stadelmann begruendet, warum Automatisierung und Wiederholung in sensiblen Phasen neurobiologisch notwendig sind. Das stuetzt die Foerderplanung mit Schachnotation direkt.)  
+  _(chapters[].proposed_usage[1])_
+- **[FW2]** Anker: Konsequenzen fuer die Foerderplanung — cite_add — (Grund: Das 'use it or lose it'-Prinzip und die Kontextabhaengigkeit von Genexpression legitimieren das Prinzip 'Sicherheit vor Anforderung' neurobiologisch.)  
+  _(chapters[].proposed_usage[2])_
+- [Empfehlung] UNBEDINGT integrieren. Dieses Kapitel schliesst genau die Evidenzluecke, die der Kollegenreview in Frage 1 und Frage 2 markiert hat. Ein bis zwei Abschnitte neu in Frage 1 (dynamisches Potenzial, neurobiologische Grundlage) plus 1 bis 2 Saetze in Frage 2 (Graphomotorik und Hirnplastizitaet). Das hebt die Foerderplanung fuer S. von 'paedagogisch plausibel' auf 'neurobiologisch begru...  
+  _(chapters[].recommendation_for_inti)_
+- [Zitat muendl.] Kinder sind nicht die Sklaven ihrer Gene.  
+  _(chapters[].memorable_quotes[0])_
+- [Zitat muendl.] Gene brauchen Umweltsignale, um zu wirken.  
+  _(chapters[].memorable_quotes[1])_
+- [Zitat muendl.] Das Gehirn ist das Resultat seiner Benutzung.  
+  _(chapters[].memorable_quotes[2])_
+- [Zitat muendl.] Lernen macht intelligent, nicht umgekehrt.  
+  _(chapters[].memorable_quotes[3])_
+- [Kernidee] Gene wirken nicht selbstaktiv: Genexpression wird durch Umweltsignale ausgeloest.  
+  _(chapters[].key_ideas[0])_
+- [Kernidee] Epigenetik: Lebenserfahrungen hinterlassen Spuren, die Genaktivitaet ein- oder ausschalten (ohne DNA-Sequenz zu veraendern).  
+  _(chapters[].key_ideas[1])_
+- [Kernidee] Kein Begabungsgen, kein Intelligenzgen: kognitive Eigenschaften sind zu komplex fuer monogenetische Erklaerung.  
+  _(chapters[].key_ideas[2])_
+- [Kernidee] Hirnplastizitaet lebenslang: Synapsen werden gebildet und abgebaut, Gehirn ist 'Resultat seiner Benutzung'.  
+  _(chapters[].key_ideas[3])_
 
 <!-- TRANSKRIPTE-END -->
 

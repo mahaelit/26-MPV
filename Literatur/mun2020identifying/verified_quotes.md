@@ -13,7 +13,11 @@
 
 _Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**19 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[L:2689]** pment Collection. Einschlusskriterien: peer-reviewed, englischsprachig, K--12-Kontext USA, Bezug zu Identifikation oder Förderung begabter English Learners (EL) **`\parencite{mun2020identifying}`** . \subsubsection*{Nomination: Implizite Überzeugungen als Selektionsfilter} Lehrpersonen nominieren Kinder für Begabtenprogramme nach Kriterien, die kulturell u
+
+   → Beleg-Vorschlag [1] (score 0.12): [`003_302_journal_for_the_education_of_the_gifted_43_4.pdf`](excerpts/003_302_journal_for_the_education_of_the_gifted_43_4.pdf) S. 5-6 · 302 Journal for the Education of the Gifted 43(4)
 
 2. **[L:2835]** quellen statt Einzeltests, stärkenbasierte statt defizitorientierte Diagnostik und Programmevaluation als verbindlichen Bestandteil jedes Identifikationsmodells **`\parencite{mun2020identifying}`** . \subsubsection*{Relevanz für das Prüfungsgespräch} Dieser Artikel ist die stärkste verfügbare Ergänzung zum offiziellen Quellenkorpus, weil er als peer-review
 

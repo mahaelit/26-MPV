@@ -13,13 +13,23 @@
 
 _Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**10 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[A:327]** und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung und Fluchtmigration. (ca.~12\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite
+
+   → Beleg-Vorschlag [1] (score 0.27): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
+   → Beleg-Vorschlag [2] (score 0.27): [`010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf`](excerpts/010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf) S. 11-13 · 4 Inklusive Begabungsförderung als Gebot der Stunde:
 
 2. **[L:1281]** n im Herkunftsland, die sprachliche Isolation in der neuen Umgebung und die fehlende schulische Anschlussfähigkeit wirken kumulativ auf die Begabungsentwicklung **`\parencite{behrensen2019inklusive,stamm2012migranten}`** . Die spezifische Benachteiligung von S. ergibt sich dabei nicht aus der Summe einzelner Faktoren, sondern aus deren Verschränkung: Migrationsgeschichte, sprach
 
 3. **[L:1369]** ch zurück. Die Sichtbarkeit seiner Begabung ist kein Merkmal seiner Person, sondern eine Funktion des Kontextes. \subsection{Migration als kumulative Belastung} **`\textcite{behrensen2019inklusive}`** analysiert die Bildungssituation von Kindern mit Fluchtmigration und identifiziert eine Reihe von Faktoren, die Begabungsentwicklung beeinträchtigen können, ohn
 
+   → Beleg-Vorschlag [1] (score 0.10): [`001_1_einleitung_entwicklung_der_idee_inklusiver.pdf`](excerpts/001_1_einleitung_entwicklung_der_idee_inklusiver.pdf) S. 1-2 · 1 Einleitung: Entwicklung der Idee inklusiver
+
 4. **[L:1512]** und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung und Fluchtmigration. (ca.~12\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite
+
+   → Beleg-Vorschlag [1] (score 0.27): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
+   → Beleg-Vorschlag [2] (score 0.27): [`010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf`](excerpts/010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf) S. 11-13 · 4 Inklusive Begabungsförderung als Gebot der Stunde:
 
 5. **[L:1597]** . Was als Verweigerung erscheint, ist in vielen Fällen das Ergebnis einer Überforderung, die das Kind nicht verbalisieren kann, weil ihm die Sprache dafür fehlt **`\parencite{behrensen2019inklusive}`** . Für ein Standortgespräch würde ich drei konkrete Alternativen vorschlagen, die jeweils auf einen der diagnostizierten Mechanismen zielen. Die \textit{erste Al
 

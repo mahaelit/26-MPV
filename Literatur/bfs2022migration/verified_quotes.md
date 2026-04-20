@@ -13,9 +13,17 @@
 
 _Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**73 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[A:164]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
 
+   → Beleg-Vorschlag [1] (score 0.10): [`037_g25_altersspezifische_geburtenziffern_2021.pdf`](excerpts/037_g25_altersspezifische_geburtenziffern_2021.pdf) S. 27-27 · G25	Altersspezifische Geburtenziffern, 2021
+   → Beleg-Vorschlag [2] (score 0.10): [`038_g26_zusammengefasste_geburtenziffer_2021.pdf`](excerpts/038_g26_zusammengefasste_geburtenziffer_2021.pdf) S. 27-27 · G26	Zusammengefasste Geburtenziffer, 2021
+
 2. **[L:330]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
+
+   → Beleg-Vorschlag [1] (score 0.10): [`037_g25_altersspezifische_geburtenziffern_2021.pdf`](excerpts/037_g25_altersspezifische_geburtenziffern_2021.pdf) S. 27-27 · G25	Altersspezifische Geburtenziffern, 2021
+   → Beleg-Vorschlag [2] (score 0.10): [`038_g26_zusammengefasste_geburtenziffer_2021.pdf`](excerpts/038_g26_zusammengefasste_geburtenziffer_2021.pdf) S. 27-27 · G26	Zusammengefasste Geburtenziffer, 2021
 
 <!-- CLAIMS-END -->
 

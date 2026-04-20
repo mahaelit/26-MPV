@@ -1,0 +1,5 @@
+parent_key: reintjes2019begabungsfoerderung
+split_file: 079_hildegard_macha_gender_und_diversitaetssensible_be.pdf
+split_pages: 162-174
+chapter_pages: 160-172
+chapter_title: Gender und diversitätssensible {Begabungsförderung} und {Professionalisierung}

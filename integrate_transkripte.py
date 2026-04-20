@@ -57,6 +57,7 @@ HEADER_SEP_RE = re.compile(r"\n\s*---\s*\n")
 # ----- Helpers ----------------------------------------------------------
 ROLE_LABEL = {
     "existing_main":     "Haupt-Transkript dieser Quelle",
+    "chapter_main":      "Haupt-Kapitel aus Multi-Chapter-Transkript",
     "proposed_new_main": "Transkript begruendet diesen (neuen) BibKey",
     "mentioned_existing":"Verortung als Einzel-Zitatstelle",
     "mentioned_new":     "Verortung (Transkript schlaegt neuen BibKey vor)",
@@ -97,7 +98,7 @@ def _render_block(bibkey: str, entries: list[dict]) -> str:
     lines.append("")
 
     # Gruppieren nach role - Haupttreffer zuerst
-    role_order = ["existing_main", "proposed_new_main",
+    role_order = ["existing_main", "chapter_main", "proposed_new_main",
                   "mentioned_existing", "mentioned_new"]
     grouped: dict[str, list[dict]] = {r: [] for r in role_order}
     for e in entries:
@@ -166,7 +167,10 @@ def _inject(text: str, block: str) -> tuple[str, str]:
     {'created','updated','unchanged'}.
     """
     if BLOCK_RE.search(text):
-        new = BLOCK_RE.sub(block, text, count=1)
+        # Callable statt String-Replacement, damit Backslash-Sequenzen
+        # (z. B. `\textcite{trautmann2021haltung}` in Integration-Hints) nicht
+        # als re-Template-Backreferences interpretiert werden.
+        new = BLOCK_RE.sub(lambda _m: block, text, count=1)
         status = "unchanged" if new == text else "updated"
         return new, status
 

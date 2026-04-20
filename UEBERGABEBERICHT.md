@@ -1,6 +1,6 @@
 # Uebergabebericht: Literaturverifikation MPV-Masterpruefung
 
-Stand: **2025-04-19** (Ende der Session)
+Stand: **2026-04-19** (Ende der Session vom 2026-04-19/20)
 Autor dieses Berichts: Cascade (LLM-Assistent)
 Empfaenger: Naechste Session (Mensch oder LLM-Agent)
 
@@ -58,6 +58,7 @@ c:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung One
 ├── Quellen.csv                  CSV-Variante (Excel-kompatibel, sep=; UTF-8-BOM)
 ├── TRANSKRIPTE_UEBERSICHT.md    Aggregierter Bericht zu den 10 Transkript-JSONs
 ├── UEBERGABEBERICHT.md          DIESER BERICHT
+├── REWRITES.md                  SSOT TeX-Umzitierungen (collect_rewrites.py)
 ├── mpv.tex                      Lerndokument (L-Label, 232 Zitationen)
 ├── mpv_abgabedokument.tex       Abgabedossier (A-Label, 46 Zitationen)
 ├── bib2csv.py                   BibLaTeX -> XLSX + Ordner + Templates
@@ -66,8 +67,12 @@ c:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung One
 ├── pdf_extract.py               Poppler/pypdf/EPUB-Extraktion + Fuzzy-Suche
 ├── analyze_transkripte.py       10 JSONs -> TRANSKRIPTE_UEBERSICHT.md + Index
 ├── integrate_transkripte.py     Index -> Transkript-Block pro verified_quotes.md
-├── _tmp_analyze.py              Temp-Script (nicht wichtig, kann geloescht werden)
+├── collect_rewrites.py          Rewrite-Bloecke aus verified_quotes.md -> REWRITES.md
+├── apply_rewrites.py            Rewrites in TeX anwenden (Dry-Run / --apply / Status-Flip)
+├── build_index.py               BibKey-Statusuebersicht -> Literatur/_INDEX.md
+├── _archiv_phase0/              Archivierte Phase-0-Skripte (nicht aktiv genutzt)
 ├── Literatur/
+│   ├── _INDEX.md                Auto-erzeugte Status-Uebersicht aller 59 BibKeys
 │   ├── _transkripte_index.json  Maschinenlesbares Mapping BibKey -> Transkripte
 │   └── <bibkey>/                  Ein Ordner pro BibKey (aktuell 59)
 │       ├── source.pdf              Original (falls beschafft)
@@ -116,8 +121,8 @@ Alle Scripts sind in Python 3.13 geschrieben, Stand-Alone, **idempotent** (mehrf
 
 - **Zweck:** Parst `mpv.tex` + `mpv_abgabedokument.tex` (strippt `\verb|...|` + `%`-Kommentare offset-preserving), sammelt alle `\cite/\parencite/\textcite/\autocite/...`-Kommandos mit Zeilennummer + Kontext (+/- 220 Zeichen). Schreibt pro BibKey einen Block zwischen `<!-- CLAIMS-START -->` und `<!-- CLAIMS-END -->` in `Literatur/<key>/verified_quotes.md`.
 - **Aufruf:** `python cite_context.py`
-- **Stand bei letztem Lauf:** 278 Cite-Stellen auf 45 BibKeys.
-- **NOCH OFFEN nach Session-Ende:** Nach dem Anlegen der 14 neuen BibKeys in Quellen.bib muss `cite_context.py` erneut laufen, damit auch die 14 neuen `verified_quotes.md` einen Claims-Block bekommen ("Aktuell nicht im TeX zitiert." — das ist das gewuenschte Verhalten, weil die mpv.tex noch nicht umzitiert ist).
+- **Stand bei letztem Lauf:** 278 Cite-Stellen auf 45 BibKeys (aktive); 14 weitere BibKeys haben einen "Aktuell nicht im TeX zitiert"-Block (Stub-Eintraege fuer die 2021er-`@incollection`-Eintraege, die nach Umzitierungen aktiv werden).
+- **Bugfix April 2026:** `re.sub`-Replacement-String interpretierte `\parencite` als Backreference und brach mit `re.PatternError` ab. Fix in `cite_context.py:270` (Callable-Replacement statt String-Template). Selbe Bugklasse praeventiv in `integrate_transkripte.py:172` behoben.
 
 ### 3.4 `pdf_extract.py`
 
@@ -142,34 +147,89 @@ Alle Scripts sind in Python 3.13 geschrieben, Stand-Alone, **idempotent** (mehrf
 
 - **Zweck:** Liest die 10 Transkript-JSONs in `MPV/Literatur/Transkripte/einordnung/`, extrahiert heterogene Metadaten (jedes JSON hat eigenen Aufbau) und erzeugt:
   - **`TRANSKRIPTE_UEBERSICHT.md`** — menschenlesbarer Report mit Tabellen, BibKey-Vorschlaegen, Issues
-  - **`Literatur/_transkripte_index.json`** — maschinenlesbarer Index: BibKey -> Liste von Befunden mit Integration-Hints
+  - **`Literatur/_transkripte_index.json`** — maschinenlesbarer Index: BibKey -> Liste von Befunden mit Integration-Hints (Schema-Version `1.1` mit Envelope `bibkey_to_transkripte`)
 - **Aufruf:** `python analyze_transkripte.py`
 - **Stand bei letztem Lauf:** 10 JSONs, 59 BibKeys referenziert (alle in Quellen.bib).
-- **Bekannte Schwaeche:** Sammel-JSONs wie Teil1/Teil3 haben ein `chapters[]`-Array mit reichen pro-Chapter-Metadaten (key_ideas, instruments_mentioned, tex_placements). Mein Analyzer zieht diese pro-Chapter-Metadaten noch NICHT heraus — er behandelt das ganze JSON als einen Befund. Folge: der Transkript-Block in 13 Handbuch-Einzelbeitraegen ist duenn (nur Zitatstellen-Anzahl). TODO: siehe Abschnitt 8.
+- **T3-Erweiterung April 2026:** Pro-Chapter-Extraktion fuer `chapters[]`-Arrays (Teil1/Teil3) implementiert. Neue Funktionen `_chapter_bibkey`, `_collect_chapter_relevance`, `_collect_chapter_hints`, `_extract_chapter_befund` in `analyze_transkripte.py`. `analyze_file()` liefert jetzt `list[TranskriptBefund]` (Haupt-Befund + 1 pro Chapter). Ergebnis: 9 Teil1-Chapter + 5 Teil3-Chapter mit reichen Hints (key_ideas, memorable_quotes_for_oral_exam, tex_placements, recommendation_for_inti). 14 Handbuch-`@incollection`-Eintraege haben jetzt substantielle Transkript-Bloecke.
 
 ### 3.6 `integrate_transkripte.py`
 
 - **Zweck:** Pro BibKey im `_transkripte_index.json` einen `## Transkript-Verortungen`-Block zwischen `<!-- TRANSKRIPTE-START -->` und `<!-- TRANSKRIPTE-END -->` in `Literatur/<key>/verified_quotes.md` einfuegen. Platziert sich nach `<!-- CLAIMS-END -->` oder — falls fehlend — nach dem Header-Trenner (`---`). Idempotent: Re-Run ersetzt nur den Block.
 - **Aufruf:** `python integrate_transkripte.py`
 - **Stand bei letztem Lauf:** 59 BibKeys, alle 59 `verified_quotes.md` haben Block.
+- **Erweiterung April 2026:** Neuer Rollentyp `chapter_main` fuer Kapitel-Befunde aus Multi-Chapter-Transkripten (Teil1/Teil3). Diese werden separat unter "Verortung als Kapitel-Hauptbeleg" gerendert mit Aisha-/Lea-Vignetten und Integration-Vorschlaegen.
+
+### 3.7 `collect_rewrites.py`
+
+- **Zweck:** Aggregiert alle YAML-Bloecke zwischen `<!-- REWRITES-START -->` und `<!-- REWRITES-END -->` aus den 59 `verified_quotes.md` und schreibt eine zentrale `REWRITES.md` (SSOT fuer TeX-Umzitierungen). Gruppiert nach `tex_file`, sortiert nach `line`, mit Status-Breakdown pro Dossier.
+- **Aufruf:** `python collect_rewrites.py`
+- **Voraussetzung:** PyYAML (`pip install pyyaml`). Bereits installiert (`yaml.__version__ == '6.0.3'`).
+- **YAML-Schema pro Eintrag:** `tex_file`, `line`, `action` (`replace_key`/`remove_key`/`add_key`/`modify`), `old`, `new`, `reason`, `status` (`pending`/`applied`/`rejected`).
+- **Stand bei letztem Lauf:** 6 Rewrites, alle `pending`. 5 aus `preckel2013hochbegabung`, 1 aus `fischer2020begabungsfoerderung`.
+- **Konvention:** Rewrite-Blocks gehoeren in das Dossier des *ersetzten* (alten) BibKeys, nicht des neuen.
+
+### 3.8 `apply_rewrites.py`
+
+- **Zweck:** Wendet die `pending`-Rewrites aus den Dossiers tatsaechlich auf `mpv.tex` / `mpv_abgabedokument.tex` an. Importiert `collect_rewrites.collect_all` (gleiche SSOT).
+- **Default = Dry-Run:** `python apply_rewrites.py` zeigt nur an, was passieren *wuerde*, schreibt nichts.
+- **Sicherheits-Checks vor jedem Apply:** TeX-Datei existiert, Zeile `<line>` enthaelt `<old>` *eindeutig* (genau 1 Vorkommen), Status ist `pending`. Bei Mismatch -> SKIP mit klarer Fehlermeldung, kein blindes Ueberschreiben.
+- **Filter:** `--bibkey <key>`, `--line <N>` zur Eingrenzung (z. B. einzelne Stelle testweise applyen).
+- **Apply:** `--apply` schreibt tatsaechlich; `--yes` ueberspringt den interaktiven Prompt fuer Batch-Laeufe.
+- **Status-Flip:** Nach erfolgreicher Anwendung wird im Dossier des `source_dossier` der YAML-Wert `status: pending` -> `status: applied` umgestellt (formaterhaltend, ueber das `(tex_file, line)`-Tupel eindeutig).
+- **Idempotent:** Re-Run sieht `status: applied` und ueberspringt; nur `pending` wird verarbeitet.
+- **Aufruf-Beispiele:**
+  ```powershell
+  python apply_rewrites.py                                                   # Dry-Run alle
+  python apply_rewrites.py --bibkey preckel2013hochbegabung                  # Dry-Run gefiltert
+  python apply_rewrites.py --bibkey preckel2013hochbegabung --line 650 --apply  # 1 Stelle apply
+  python apply_rewrites.py --apply --yes                                     # Bulk apply
+  ```
+- **Nach jedem Apply:** `python collect_rewrites.py && python build_index.py` neu laufen lassen, damit `REWRITES.md` und `_INDEX.md` den neuen Status reflektieren.
+
+### 3.9 `build_index.py`
+
+- **Zweck:** Aggregiert pro BibKey: Bib-Metadaten (Autor/Jahr/Titel), Status-Header aus `verified_quotes.md`, Cite-Count aus CLAIMS-Block, Transkript-Anzahl, Volltext-Status (PDF/EPUB-Groesse), Rewrite-Counts (importiert `collect_rewrites.collect_all`). Schreibt `Literatur/_INDEX.md` mit Status-Verteilung, Detailtabelle, Highlights (vollstaendig verifiziert / mit pending Rewrites / kritische Luecken).
+- **Aufruf:** `python build_index.py`
+- **Bib-Parser:** Header-basiert via `BIB_HEADER_RE` (robust gegen `}` in Body-Werten und EOF-ohne-Newline).
+- **Stand bei letztem Lauf:** 59 BibKeys / 59 Dossiers / 59 Transkript-Verortungen / 6 pending Rewrites.
 
 ---
 
 ## 4. Stand der Verifikation nach Session-Ende
 
-### 4.1 Vollstaendig verifizierte Quellen (Status 4)
+**Schneller Ueberblick:** `Literatur/_INDEX.md` (auto-erzeugt durch `build_index.py`) zeigt Status-Verteilung, Detailtabelle und Highlights ueber alle 59 BibKeys. Die folgenden Abschnitte halten den Kontext fest, der nicht aus dem Index allein hervorgeht.
 
-**Siehe jeweilige `Literatur/<key>/verified_quotes.md` — detaillierter Befundbericht mit Urteils-Tabellen, Wortlaut-Zitaten, konkreten Umzitierungs-Empfehlungen.**
+### 4.1 Verifizierte Quellen
+
+**Siehe jeweilige `Literatur/<key>/verified_quotes.md` — detaillierter Befundbericht mit Urteils-Tabellen, Wortlaut-Zitaten, Rewrite-Bloecken (siehe §6.3) und konkreten Umzitierungs-Empfehlungen.**
+
+#### Status 4 (Volltext geprueft)
 
 - **`preckel2013hochbegabung`** (13 Cite-Stellen, EPUB):
   - 6 wortnah belegt, 2 bibliografisch, 3 fragwuerdig, 2 nicht gefunden
   - **Kritischer Befund:** Claims L:650, L:790, L:2747, L:3179 handeln von "dynamische/prozessorientierte Diagnostik" — das behandelt aber **Preckel/Vock 2013 "Hochbegabtendiagnostik"** (Hogrefe), nicht das Beck-Buch. Teil3 der Transkripte liefert jetzt **`preckel2021tad`** (Handbuch Begabung 2021) als Ersatz.
-  - **Teil-Loesung bereits dokumentiert:** L:790 und L:2747/L:3179 koennen mit `maehler2018diagnostik` allein tragen (siehe `verified_quotes.md`, Abschnitt "Konkrete Umzitierungs-Anweisungen").
+  - **5 Rewrite-Eintraege** (alle `pending`): L:449, L:650, L:790, L:2747, L:3179. Details in `REWRITES.md`.
 
 - **`fischer2020begabungsfoerderung`** (13 Cite-Stellen, PDF 419 Seiten):
   - 7 wortnah belegt, 4 bibliografisch, 2 schwach belegt
   - **Kritischer Kontext:** Herausgeberband mit ~30 Beitraegen; Formulierungen wie "Fischer beschreibt..." sind APA-technisch unscharf.
-  - **Claim L:1755 (3 SEM-Typen)** ist in fischer2020 nicht systematisch entfaltet. Der neue **`renzullireis2021rls`** (Handbuch Begabung, S. 444-454) ist der bessere Beleg.
+  - **1 Rewrite-Eintrag** (`pending`): L:1755 -> `renzullireis2021rls` (Handbuch Begabung, S. 444-454). Details in `REWRITES.md`.
+
+#### Status 3 (Transkript-konsistent + TOC-Kapitel-Verortung)
+
+- **`lehwald2017motivation`** (13 Cite-Stellen, PDF nur 13 Seiten = Titelei + TOC + Vorwort):
+  - 9 inhaltliche Claims via Teil8-Index 1:1 auf Zitat-IDs gemappt (`F1-EINL-Z14`...`F3-KR-Z05`).
+  - 4 bibliografische Claims (Item-Listen).
+  - Vorwort (S. 13) stuetzt Claim 6 "intrinsische Motivation als Treiber" wortgetreu.
+  - Abkuerzungsverzeichnis (S. 11-12) mit Lehwalds eigenen Messinstrumenten (BVA, FES-S, CSBT) stuetzt Claim 7 (drei Motivationsformen) operativ.
+  - **Keine Umzitierungen noetig.** Volltext-Verifikation aussenstehend (Buch via Swisscovery beschaffbar).
+
+- **`buholzer2010allegleich`** (13 Cite-Stellen, PDF nur 2 Seiten = vollstaendiges TOC):
+  - 9 inhaltliche Claims via Teil8-Index 1:1 auf Zitat-IDs gemappt (`F4-EINL-Z04`...`F5-KR-Z06`).
+  - 4 bibliografische Claims (Item-Listen).
+  - TOC verifiziert Kapitel-Zuordnungen wortgetreu: Fischer-Kap. S. 52, Buholzer S. 97 ("Lernprozesse foerderorientiert diagnostizieren"), Kummer Wyss S. 151 ("Kooperativ unterrichten").
+  - Hinweis Claim 3 (L:1696): Terminus "Paedagogik der Vielfalt" ist Prengel (1993), Sach-Claim wird aber von Buholzer getragen — keine Umzitierung noetig, ggf. Endlektorat.
+  - **Keine Umzitierungen noetig.** Volltext-Verifikation aussenstehend (Sammelband via Swisscovery beschaffbar).
 
 ### 4.2 Neu angelegte BibKeys (Struktur-Stubs, Inhalte via Transkript verifizierbar)
 
@@ -198,17 +258,28 @@ Alle Scripts sind in Python 3.13 geschrieben, Stand-Alone, **idempotent** (mehrf
 
 ### 4.4 Status der restlichen Quellen
 
-**Volltext lokal verfuegbar (19 weitere):**
+**Status-Verteilung (Stand `_INDEX.md`):**
+
+| Status | Anzahl |
+|---|---:|
+| 5 (vollstaendig verifiziert) | 0 |
+| 4 (Volltext geprueft) | 2 (preckel, fischer) |
+| 3 (Transkript-konsistent) | 2 (lehwald, buholzer) |
+| 0 (ungeprueft) | 55 |
+
+**Volltext lokal verfuegbar (Auswahl, restliche 17 noch ungeprueft):**
 ```
 alhroub2021utility, alodat2025equitable, bfs2022migration, brunner2021hochbegabung,
-buholzer2010allegleich (⚠️ nur TOC), erzinger2023pisa, gubbins2020promising,
-ipege2009professionelle, kellerkoller2011erkennen, kosoroklabhart2021voneltern,
-lehwald2017motivation (⚠️ nur TOC), leikhof2021jugendliche, maehler2018diagnostik (foxit),
-mun2020identifying, reutlinger2015hochbegabung, stamm2014mirage, sturm2016graphomotorik,
-uslucan2012begabung
+erzinger2023pisa, gubbins2020promising, ipege2009professionelle,
+kellerkoller2011erkennen, kosoroklabhart2021voneltern, leikhof2021jugendliche,
+maehler2018diagnostik (foxit), mun2020identifying, reutlinger2015hochbegabung,
+stamm2014mirage, sturm2016graphomotorik, uslucan2012begabung
 ```
-**Bisher nur via Transkript belegbar (restliche 26):**
-Zentral: `booth2019index`, `kappus2010migration`, `muelleroppliger2021handbuch` — aber: fast alle haben mehrfache Verortung in den Transkripten, wodurch inhaltliche Verifikation moeglich ist.
+
+**Nur via Transkript belegbar (Auswahl, hochpriorisiert):**
+Zentral: `muelleroppliger2021handbuch` (11 Cites, 5 Transkript-Stellen),
+`booth2019index` (11 Cites, 3), `kappus2010migration` (11 Cites, 2 — Kapitel
+aus buholzer-Sammelband, ueber dessen TOC verifizierbar).
 
 ---
 
@@ -233,61 +304,86 @@ Pascal hat per Claude-Analyst eine hochwertige Vor-Verortung aller Lerndokument-
 
 ## 6. Naechste Schritte — konkret, in Reihenfolge
 
-### 6.1 Sofortmassnahmen (5-30 Min je)
+### 6.1 Sofortmassnahmen (in dieser Session erledigt)
 
-**A) cite_context.py erneut laufen lassen** (WICHTIG, noch nicht erfolgt):
-```powershell
-cd "c:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung OneDrive\MPV\26-MPV"
-$env:PYTHONIOENCODING='utf-8'; python cite_context.py
-```
-Erwartung: 14 neue Claims-Bloecke mit "_Aktuell nicht im TeX zitiert_", 45 unveraenderte. Die Claims-Zahl bleibt bei 278 (oder hoeher, falls mpv.tex in der Zwischenzeit umzitiert wurde).
-
-**B) analyze_transkripte.py auf pro-Chapter erweitern** (TODO T3):
-Fuer reiche Transkript-Bloecke bei den 13 Handbuch-Einzelbeitraegen. Konkret:
-- `analyze_file()` so anpassen, dass bei `chapters[]`-Arrays (Teil1, Teil3) pro Chapter ein **zusaetzlicher** TranskriptBefund erzeugt wird — gebunden an den Chapter-BibKey mit den Feldern `title`, `pages`, `key_ideas`, `memorable_quotes_for_oral_exam`, `tex_placements`, `recommendation_for_inti`.
-- `build_index()` speichert diese pro-Chapter-Befunde unter den entsprechenden BibKeys.
-- `integrate_transkripte.py` kann unveraendert bleiben — die neuen Felder werden automatisch ausgegeben.
-- Schaetzung: 30-45 Min inkl. Tests.
+- ✅ **A) `cite_context.py` Bugfix + Re-Run.** Backslash-in-Replacement-Bug gefixt; 14 neue CLAIMS-Bloecke fuer die 2021er-`@incollection`-Eintraege erzeugt.
+- ✅ **B) T3 Pro-Chapter-Extraktion in `analyze_transkripte.py`.** 9 Teil1- + 5 Teil3-Chapter mit reichen Hints. `integrate_transkripte.py` um `chapter_main`-Rolle erweitert.
+- ✅ **C) `_tmp_*`-Skripte aufgeraeumt, `_phase0_mapping.py` archiviert.**
+- ✅ **D) Rewrite-Block-Konvention eingefuehrt** + `collect_rewrites.py` + `REWRITES.md` (siehe §6.3 fuer den Workflow).
+- ✅ **E) `build_index.py` + `Literatur/_INDEX.md`.** SSOT-Statusuebersicht; ersetzt langfristig die manuell gepflegten Status-Spalten in `Quellen.xlsx`.
 
 ### 6.2 Phase 2, Etappe 1 abschliessen
 
-Die Top-5-zitierten-Quellen inhaltlich verifizieren. **Priorisierung angepasst** wegen Transkript-Rueckendeckung:
+Die Top-zitierten-Quellen inhaltlich verifizieren. **Priorisierung angepasst** wegen Transkript-Rueckendeckung. Stand:
 
-| Quelle | Cite-Stellen | Volltext? | Strategie |
+| Quelle | Cite-Stellen | Volltext? | Status |
 |---|---|---|---|
-| `preckel2013hochbegabung` | 13 | EPUB | ✅ erledigt |
-| `fischer2020begabungsfoerderung` | 13 | PDF | ✅ erledigt |
-| `lehwald2017motivation` | 13 | nur TOC | ⚠️ Transkript-Verortungen (26) pruefen, inhaltlich via Teil5/8 verifizieren |
-| `buholzer2010allegleich` | 13 | nur TOC | ⚠️ Transkript-Verortungen (22) pruefen |
-| `kappus2010migration` | 11 | keine Datei | Via Transkripte (17 Verortungen) |
-| `muelleroppliger2021handbuch` | 11 | keine Datei | Via Transkripte (26 Verortungen) — Sammelband, aber Einzelbeitraege jetzt als `@incollection` vorhanden |
-| `booth2019index` | 11 | keine Datei | Via Transkripte (23 Verortungen) |
+| `preckel2013hochbegabung` | 13 | EPUB | ✅ 4 (Volltext geprueft) |
+| `fischer2020begabungsfoerderung` | 13 | PDF 419 S. | ✅ 4 (Volltext geprueft) |
+| `lehwald2017motivation` | 13 | PDF 13 S. (TOC + Vorwort) | ✅ 3 (Transkript-konsistent) |
+| `buholzer2010allegleich` | 13 | PDF 2 S. (TOC) | ✅ 3 (Transkript-konsistent + TOC) |
+| `muelleroppliger2021handbuch` | 11 | keine Datei | ⚠️ offen (5 Transkripte; Einzelbeitraege als `@incollection` vorhanden) |
+| `booth2019index` | 11 | keine Datei | ⚠️ offen (3 Transkripte) |
+| `kappus2010migration` | 11 | keine Datei | ⚠️ offen (2 Transkripte; Kapitel im buholzer-Sammelband, S. 63 lt. TOC) |
+| `leikhof2021jugendliche` | 10 | PDF 5.6 MB | ⚠️ offen (Volltext vorhanden, hoechste Priorisierung) |
 
-**Empfehlung fuer naechste Verifikation:** `lehwald2017motivation` — 26 Transkript-Stellen = maximale Transkript-Rueckendeckung bei fehlendem Volltext. Workflow:
-1. Transkript-Block in `Literatur/lehwald2017motivation/verified_quotes.md` lesen (zeigt 3 Transkript-Befunde: Teil2, Teil5, Teil8).
-2. In den JSON-Dateien gezielt nach `"bib_key": "lehwald2017motivation"` suchen und die zugehoerigen `kontextsatz`/`integration_vorschlag`-Werte mit den Claims aus `mpv.tex` abgleichen.
-3. Befund-Abschnitt analog zu `preckel2013hochbegabung/verified_quotes.md` unterhalb `<!-- TRANSKRIPTE-END -->` schreiben.
+**Empfehlung fuer naechste Verifikation (Reihenfolge):**
+
+1. **`leikhof2021jugendliche`** — 10 Cites, Volltext lokal vorhanden (5.6 MB). Direkter Verifikationsweg via `pdf_extract.py`.
+2. **`muelleroppliger2021handbuch`** — 11 Cites; Sammelband. Die 14 Einzelbeitraege (`@incollection`) sind als BibKeys angelegt; jetzt fehlt die Verifikation des **Sammelband-Keys** selbst (nicht nur seiner Beitraege).
+3. **`kappus2010migration`** — 11 Cites; ist Kapitel im **buholzer2010allegleich**-Sammelband (S. 63-77 laut TOC). Kann ueber denselben TOC analog zur buholzer-Verifikation auf Status 3 gehoben werden.
+
+**Workflow pro Quelle:**
+1. Dossier oeffnen: `Literatur/<key>/verified_quotes.md`.
+2. CLAIMS-Block lesen (alle TeX-Stellen).
+3. TRANSKRIPTE-Block lesen (Teil8-IDs, Themen, Hints).
+4. Bei Volltext: `python pdf_extract.py <key> -s "<phrase>"` fuer Wortlaut-Belege.
+5. Befund-Abschnitt unterhalb `<!-- TRANSKRIPTE-END -->` schreiben (Vorlage: `lehwald2017motivation` oder `buholzer2010allegleich`).
+6. Bei Umzitierungen: Rewrite-Block (siehe §6.3) anlegen.
+7. Status-Zeile am Ende auf 3, 4 oder 5 setzen + Datum + Bearbeitenden eintragen.
+8. `python build_index.py` zum Aktualisieren von `Literatur/_INDEX.md`.
 
 ### 6.3 Etappe 2+: TeX-Umzitierung
 
-Das Lerndokument sollte die neuen BibKeys nutzen. Konkrete TODO-Liste (aus den verified_quotes.md-Befunden abgeleitet):
+> **SSOT: `REWRITES.md`** (automatisch erzeugt durch `collect_rewrites.py`
+> aus den `<!-- REWRITES-START ... -->`-Bloecken in den Dossiers).
+> Die frueher hier gefuehrte manuelle Tabelle wurde durch diese
+> zentrale Uebersicht abgeloest. Neue Umzitierungen werden als YAML-Block
+> in das Dossier des *ersetzten* BibKeys eingetragen und bei naechstem
+> Lauf automatisch aggregiert.
 
-| TeX-Stelle | Aktuell | Empfohlen |
-|---|---|---|
-| `mpv.tex:449` | `\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}` | Preckel streichen (Gardner-Bereiche sind dort nicht entfaltet) |
-| `mpv.tex:650` | `\textcite{preckel2013hochbegabung}` ("dynamische Verfahren") | Auf `\textcite{preckel2021tad}` umstellen |
-| `mpv.tex:790` | `\parencite{preckel2013hochbegabung}` ("wiederholte Erhebungen, nonverbal") | Preckel streichen (maehler2018 am Satzanfang traegt allein) |
-| `mpv.tex:1755` | `\parencite{fischer2020begabungsfoerderung}` (drei Enrichment-Typen) | Auf `\parencite{renzullireis2021rls}` umstellen |
-| `mpv.tex:2747` | `\parencite{preckel2013hochbegabung,lemas2023begriffsklaerung}` | Zu `\parencite{maehler2018diagnostik,lemas2023begriffsklaerung}` |
-| `mpv.tex:3179` | `\parencite{lemas2023begriffsklaerung,preckel2013hochbegabung}` | Zu `\parencite{lemas2023begriffsklaerung,maehler2018diagnostik}` |
+**Workflow:**
 
-Diese Umzitierungen sind **nutzer-getrieben** (nicht automatisch); die Befund-Bloecke in `verified_quotes.md` geben pro Stelle die genaue Empfehlung.
+1. In `Literatur/<betroffener_bibkey>/verified_quotes.md` einen
+   `<!-- REWRITES-START -->`-YAML-Block mit Feldern
+   `tex_file`, `line`, `action`, `old`, `new`, `reason`, `status` anlegen.
+2. `python collect_rewrites.py` ausfuehren — `REWRITES.md` wird neu erzeugt.
+3. Umzitierungen umsetzen: manuell oder via `apply_rewrites.py` (noch zu
+   implementieren; liest dieselben Bloecke).
+4. Nach Umsetzung `status: pending` -> `status: applied` im Dossier aendern,
+   `collect_rewrites.py` erneut laufen lassen.
+
+**Aktueller Stand (Snapshot, Details -> `REWRITES.md`):** 6 Rewrites,
+alle `pending`. 5 aus `preckel2013hochbegabung` (L:449, L:650, L:790,
+L:2747, L:3179), 1 aus `fischer2020begabungsfoerderung` (L:1755).
+
+Diese Umzitierungen sind **nutzer-getrieben** (nicht automatisch); die
+Befund-Bloecke in `verified_quotes.md` geben pro Stelle die genaue
+Empfehlung.
 
 ### 6.4 Phase 3: Konsolidierung
 
-- `Literatur/_INDEX.md` erzeugen mit Status-Uebersicht pro BibKey (Urteil, Seiten, Volltext-Status, Transkript-Verfuegbarkeit).
-- XLSX-Status auf 5 setzen fuer vollstaendig verifizierte Quellen (per Skript oder manuell).
-- Liste kritischer TeX-Stellen zusammenfassen (Abgabe-Risiken).
+- ✅ `Literatur/_INDEX.md` automatisch via `python build_index.py` (siehe §3.9). Re-Run nach jeder Verifikation.
+- ✅ `apply_rewrites.py` implementiert (siehe §3.8). Pending Rewrites koennen jetzt per Dry-Run geprueft und einzeln/bulk angewendet werden — mit automatischem Status-Flip im Dossier.
+- ⏳ **Naechster Schritt:** Pascal/Inti pruefen die 6 pending Rewrites in `REWRITES.md`, dann
+  ```powershell
+  python apply_rewrites.py                # Vorschau
+  python apply_rewrites.py --apply --yes  # Bulk anwenden
+  python collect_rewrites.py              # REWRITES.md neu rendern
+  python build_index.py                   # _INDEX.md neu rendern
+  ```
+- ⏳ XLSX-Status auf 5 setzen fuer vollstaendig verifizierte Quellen (per Skript oder manuell). Mittelfristig macht `_INDEX.md` die Status-Spalte im XLSX redundant.
+- ⏳ Liste kritischer TeX-Stellen zusammenfassen — ist bereits in `_INDEX.md` als "Kritische Luecken"-Sektion (Status 0/1 + Cites ≥ 5) automatisch erzeugt.
 
 ---
 
@@ -302,16 +398,17 @@ Diese Umzitierungen sind **nutzer-getrieben** (nicht automatisch); die Befund-Bl
   # Verifizierte Zitate – <bibkey>
   <Header-Block mit Quelle/Link/Lokaler Pfad>
   ---
-  <!-- CLAIMS-START --> ... <!-- CLAIMS-END -->    (cite_context.py)
-  <!-- TRANSKRIPTE-START --> ... <!-- TRANSKRIPTE-END -->  (integrate_transkripte.py)
-  ## Verifikations-Zusammenfassung                   (manuell)
-  ## Befunde pro Cite-Stelle                         (manuell)
-  ## Konkrete Umzitierungs-Anweisungen (wenn noetig) (manuell)
+  <!-- CLAIMS-START --> ... <!-- CLAIMS-END -->          (cite_context.py)
+  <!-- TRANSKRIPTE-START --> ... <!-- TRANSKRIPTE-END --> (integrate_transkripte.py)
+  ## Verifikations-Zusammenfassung                       (manuell)
+  ## Befunde pro Cite-Stelle                             (manuell)
+  ## Handlungsbedarf / Umzitierungs-Anweisungen          (manuell, optional)
+  <!-- REWRITES-START --> ... <!-- REWRITES-END -->      (manuell, YAML; collect_rewrites.py liest)
   **Status:** <0-5>
   **Verifiziert am:** <YYYY-MM-DD>
   **Bearbeitet durch:** <Name>
   ```
-- **Idempotenz:** Alle 6 Scripts sind so gebaut, dass Re-Run sicher ist. Wiederholtes Laufen ueberschreibt nur die jeweils eigenen Marker-Bloecke.
+- **Idempotenz:** Alle 9 aktiven Scripts (`bib2csv.py`, `sync_pdfs.py`, `cite_context.py`, `pdf_extract.py`, `analyze_transkripte.py`, `integrate_transkripte.py`, `collect_rewrites.py`, `apply_rewrites.py`, `build_index.py`) sind so gebaut, dass Re-Run sicher ist. Wiederholtes Laufen ueberschreibt nur die jeweils eigenen Marker-Bloecke (`<!-- CLAIMS-... -->`, `<!-- TRANSKRIPTE-... -->`, `<!-- REWRITES-... -->`) oder regeneriert die zentralen Output-Dateien (`REWRITES.md`, `_INDEX.md`). `apply_rewrites.py` ist im Default Dry-Run und schreibt erst mit `--apply`.
 
 ---
 
@@ -321,22 +418,22 @@ Diese Umzitierungen sind **nutzer-getrieben** (nicht automatisch); die Befund-Bl
 
 | ID | Thema | Prio |
 |---|---|---|
-| T3 | `analyze_transkripte.py`: pro-Chapter-Extraktion fuer `chapters[]`-Arrays, damit die 13 Handbuch-Einzelbeitraege reiche Transkript-Bloecke bekommen | Mittel |
-| T4 | `cite_context.py` erneut ausfuehren (fuer 14 neue BibKeys) | Niedrig (selbsterledigend beim Re-Run) |
-| - | `_tmp_analyze.py` aufraeumen (war Debugging-Script in Phase 0) | Niedrig |
 | - | `bib2csv.py` Warnung, wenn BibKeys in `Quellen.bib` case-kollidieren | Niedrig |
+| - | `health_check.py` (gebuendelter §9.1-Lauf mit Pass/Fail-Ausgabe) | Niedrig |
+
+**Erledigt in der April-2026-Session:** T3 (Pro-Chapter-Extraktion), T4 (cite_context.py Re-Run), `_tmp_*`-Skripte aufgeraeumt, Rewrite-Konvention + `collect_rewrites.py` + `REWRITES.md`, `build_index.py` + `_INDEX.md`, T11 (`apply_rewrites.py` mit Dry-Run / `--apply` / Status-Flip).
 
 ### 8.2 Inhaltliche Verifikation
 
-Siehe 6.2 und 6.3. Noch nicht begonnen: 57 von 59 Quellen.
+Siehe §6.2. Stand: 4 von 59 Quellen verifiziert (2 Status 4, 2 Status 3). Restliche 55 Quellen ungeprueft — priorisierter Backlog in `Literatur/_INDEX.md` Sektion "Kritische Luecken".
 
 ### 8.3 Beschaffungsluecken (nicht beschaffte Quellen mit vielen Cite-Stellen)
 
-- `booth2019index` (11 Cites) — Transkript-Rueckendeckung 23
-- `muelleroppliger2021handbuch` (11) — Transkript-Rueckendeckung 26 + 14 Einzelbeitraege
-- `kappus2010migration` (11) — Transkript-Rueckendeckung 17
-- `trautmann2016einfuehrung` (9) — keine lokale Datei
-- `gold2018lesenkannmanlernen` (9) — keine lokale Datei
+- `muelleroppliger2021handbuch` (11) — 5 Transkript-Stellen + 14 Einzelbeitraege als `@incollection` bereits angelegt. Sammelband selbst noch zu beschaffen.
+- `booth2019index` (11) — 3 Transkript-Stellen.
+- `kappus2010migration` (11) — 2 Transkript-Stellen; **wichtiger Hinweis:** ist Kapitel im buholzer-Sammelband (S. 63-77 laut TOC). Verifikation analog zu buholzer ueber Teil8 + TOC moeglich, ohne separaten Volltext.
+- `trautmann2016einfuehrung` (9) — 3 Transkript-Stellen.
+- `gold2018lesenkannmanlernen` (9) — 2 Transkript-Stellen.
 
 Beschaffungsempfehlung: `muelleroppliger2021handbuch` physisch (Bibliothek Luzern) holen — deckt gleichzeitig 14 `@incollection`-Eintraege inhaltlich ab und laesst Inti den Beltz-TOC final verifizieren.
 
@@ -347,31 +444,43 @@ Beschaffungsempfehlung: `muelleroppliger2021handbuch` physisch (Bibliothek Luzer
 ### 9.1 Minimaler Health-Check (1 Min)
 
 ```powershell
-cd "c:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung OneDrive\MPV\26-MPV"
 $env:PYTHONIOENCODING='utf-8'
 
-# 1. bib2csv sollte sauber laufen
+# 1. bib2csv sollte sauber laufen (Excel zu)
 python bib2csv.py
 
 # 2. analyze_transkripte.py sollte 10 JSONs und 59 BibKeys finden
 python analyze_transkripte.py
 
-# 3. pdf_extract.py sollte fuer preckel EPUB und fischer PDF laufen
-python pdf_extract.py preckel2013hochbegabung --list
-python pdf_extract.py fischer2020begabungsfoerderung --list
+# 3. cite_context.py sollte 278 Cite-Stellen finden
+python cite_context.py
+
+# 4. integrate_transkripte.py sollte alle 59 Dossiers updaten
+python integrate_transkripte.py
+
+# 5. collect_rewrites.py sollte 6 Rewrites finden
+python collect_rewrites.py
+
+# 6. apply_rewrites.py Dry-Run: alle 6 als [DRY] anwendbar
+python apply_rewrites.py
+
+# 7. build_index.py sollte 59 BibKeys + 59 Dossiers + 59 Transkripte finden
+python build_index.py
 ```
 
-Wenn alles OK: weiter mit Sofortmassnahme A (cite_context.py) und dann mit 6.2.
+Wenn alles OK: weiter mit §6.2 (Empfehlung: `leikhof2021jugendliche`).
 
 ### 9.2 Einstiegspunkt fuer LLM-Agent
 
 **Diesen Bericht lesen** (`UEBERGABEBERICHT.md`). Dann:
 
-1. Lies die bereits fertigen Befund-Bloecke:
-   - `Literatur/preckel2013hochbegabung/verified_quotes.md` (ab `<!-- CLAIMS-END -->`)
-   - `Literatur/fischer2020begabungsfoerderung/verified_quotes.md` (ab `<!-- CLAIMS-END -->`)
-2. Uebernimm das Format fuer die naechste Quelle (Empfehlung: `lehwald2017motivation`).
-3. Bei Unklarheit: Die Todo-Liste aus der letzten Session ist im Chat-Verlauf; dieser Bericht ersetzt sie konzeptionell.
+1. Lies `Literatur/_INDEX.md` fuer den aktuellen Status (autoritativ).
+2. Lies `REWRITES.md` fuer den aktuellen Stand der TeX-Umzitierungen.
+3. Lies die bereits fertigen Befund-Bloecke als Vorlagen:
+   - **Status 4 (mit Volltext):** `Literatur/preckel2013hochbegabung/verified_quotes.md` und `Literatur/fischer2020begabungsfoerderung/verified_quotes.md` (ab `<!-- CLAIMS-END -->`).
+   - **Status 3 (nur TOC/Transkripte):** `Literatur/lehwald2017motivation/verified_quotes.md` und `Literatur/buholzer2010allegleich/verified_quotes.md` (Mapping-Tabelle TeX -> Teil8-ID + Befunde pro Cite-Stelle).
+4. Uebernimm das Format fuer die naechste Quelle (Empfehlung: `leikhof2021jugendliche`, Volltext lokal verfuegbar).
+5. Bei Unklarheit: Workflow ist in §6.2 "Workflow pro Quelle" Schritt-fuer-Schritt beschrieben.
 
 ### 9.3 Fuer den Nutzer zur Hand
 

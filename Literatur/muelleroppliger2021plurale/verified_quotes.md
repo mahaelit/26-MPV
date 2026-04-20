@@ -25,14 +25,40 @@ _Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 
 Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
 
-### Verortung als Einzel-Zitatstelle
+### Haupt-Kapitel aus Multi-Chapter-Transkript
 
 #### `Teil1_Verortung_Transkripte_HandbuchBegabung.json`
 
 - **Buch:** Handbuch Begabung (2021)
-- **Kapitel:** —
-- **Seiten:** —
-- **Anzahl Zitatstellen:** 1
+- **Kapitel:** Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit
+- **Autor:innen:** Mueller-Oppliger
+- **Seiten:** 32--44
+- **Pruefungsfragen-Relevanz:** **primary**: BW4, BW5; **priority**: high; **secondary**: introduction
+
+**Integration-Hints** (10 gesamt, Anzeige gekappt):
+
+- **[introduction]** Anker: Ausgangslage — cite_strengthen — (Grund: Salamanca-Erklaerung 1994 und Kritik der 7G-Methode explizit einbauen, um den bildungstheoretischen Rahmen der Arbeit zu schaerfen.)  
+  _(chapters[].proposed_usage[0])_
+- **[FW3]** Anker: Teilhabe als Voraussetzung fuer Sichtbarkeit — cite_add — (Grund: Mueller-Oppligers Rezeption der Booth/Ainscow-Dimensionen ergaenzt die bereits vorhandene direkte Booth-Ainscow-Referenz um eine deutschsprachige Rezeption mit Schweizer Kontext.)  
+  _(chapters[].proposed_usage[1])_
+- [Empfehlung] Cite-Stellen sind bereits gut platziert. Eine prominentere Referenz in der Einleitung wuerde den Rahmen schaerfen. Kein Budget-Problem, da bereits im Korpus.  
+  _(chapters[].recommendation_for_inti)_
+- [Zitat muendl.] Normalitaet ist die Vielfalt der Menschen und das Vorhandensein von Unterschieden.  
+  _(chapters[].memorable_quotes[0])_
+- [Kernidee] Schule als Demokratieinstrument (Bezug Dewey): demokratisches Zusammenleben wird in der Schule eingeuebt.  
+  _(chapters[].key_ideas[0])_
+- [Kernidee] 7G-Methode-Kritik: gleichzeitig, gleicher Ort, gleicher Lehrer, gleiche Ziele, gleiche Methoden, gleiche Mittel, gleiche Pruefung als Ausdruck einer ueberholten Homogenitaetslogik.  
+  _(chapters[].key_ideas[1])_
+- [Kernidee] Gleichheits-Gerechtigkeits-Fehlschluss: Gleichbehandlung Ungleicher erzeugt Ungleichheit.  
+  _(chapters[].key_ideas[2])_
+- [Kernidee] Unbekannte Begabungen als Risikogruppe (Fremdsprachige, sozial Benachteiligte, stille Lernende, Twice Exceptionals).  
+  _(chapters[].key_ideas[3])_
+- [Kernidee] Drei Ebenen inklusiver Begabungsfoerderung: leistungsdifferenzierter Unterricht, schulinterne Zusatzangebote, Kooperation mit ausserschulischen Foerderorten.  
+  _(chapters[].key_ideas[4])_
+- [Kernidee] Salamanca-Erklaerung der UNESCO 1994 als bildungspolitisches Fundament.  
+  _(chapters[].key_ideas[5])_
+
+### Verortung als Einzel-Zitatstelle
 
 #### `Teil2_verortung_transkripte.json`
 

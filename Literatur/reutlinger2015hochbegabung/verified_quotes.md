@@ -13,15 +13,26 @@
 
 _Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**12 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[A:275]** . Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.) \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.) \item[ **`\cite{reutlinger2015hochbegabung}`** ] Hochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \it
 
+   → Beleg-Vorschlag [1] (score 0.55): [`001_einfuehrung.pdf`](excerpts/001_einfuehrung.pdf) S. 3-3 · Einführung
+   → Beleg-Vorschlag [2] (score 0.55): [`002_was_ist_hochbegabung.pdf`](excerpts/002_was_ist_hochbegabung.pdf) S. 3-7 · Was ist Hochbegabung?
+
 2. **[L:472]** sichtigung von Erstsprachkompetenzen sowie (e) dynamische, prozessorientierte Diagnostik, die Potenzial auch unter ungünstigen Bedingungen sichtbar werden lässt **`\parencite{ipege2009professionelle,reutlinger2015hochbegabung,uslucan2012begabung}`** . Am Fall S. zeigt sich exemplarisch, wie eine schulpsychologische Testung auf Englisch statt Albanisch überdurchschnittliches Potenzial bestätigte, während er
+
+   → Beleg-Vorschlag [1] (score 0.10): [`006_tipps_zur_diagnostik.pdf`](excerpts/006_tipps_zur_diagnostik.pdf) S. 13-13 · Tipps zur Diagnostik
+   → Beleg-Vorschlag [2] (score 0.10): [`008_foerderbarkeit_von_begabung.pdf`](excerpts/008_foerderbarkeit_von_begabung.pdf) S. 17-19 · Förderbarkeit von Begabung
 
 3. **[L:558]** ie abgebende Lehrperson ihn als \enquote{eher auffällig, sehr weinerlich und etwas störend}; eine Beschreibung, die kognitive Ressourcen vollständig ausblendet. **`\textcite{reutlinger2015hochbegabung}`** betonen, dass gerade bei Kindern mit Migrationshintergrund Verhaltensauffälligkeiten und sprachliche Unsicherheiten die Wahrnehmung dominieren und den Blick auf
 
 4. **[L:642]** ch statt Albanisch entschied, eine Wahl, die auf ein komplexes Sprachprofil verweist und möglicherweise auch auf schwierige Erfahrungen in der Herkunftssprache. **`\textcite{reutlinger2015hochbegabung}`** empfehlen, bei der Begabungsdiagnostik mit mehrsprachigen Kindern konsequent alle verfügbaren Sprachen einzubeziehen und Testungen wenn möglich in der stärksten
 
 5. **[L:722]** . Kap. Begabungsbegriff, Diagnostik. (ca.~40\,S.) \item[\cite{trautmann2016einfuehrung}] Einführung in die Hochbegabtenpädagogik. Kap.~1--2. (ca.~40\,S.) \item[ **`\cite{reutlinger2015hochbegabung}`** ] Hochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \it
+
+   → Beleg-Vorschlag [1] (score 0.55): [`001_einfuehrung.pdf`](excerpts/001_einfuehrung.pdf) S. 3-3 · Einführung
+   → Beleg-Vorschlag [2] (score 0.55): [`002_was_ist_hochbegabung.pdf`](excerpts/002_was_ist_hochbegabung.pdf) S. 3-7 · Was ist Hochbegabung?
 
 <!-- CLAIMS-END -->
 

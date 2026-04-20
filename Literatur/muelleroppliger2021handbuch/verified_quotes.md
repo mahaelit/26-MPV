@@ -113,29 +113,143 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 <!-- TRANSKRIPTE-END -->
 
 
-## Zitate (gegen die Quelle gegengeprueft)
+## Verifikations-Zusammenfassung
 
-### Zitat 1 (S. XX)
+**Primärquelle-Status:** Handbuch Begabung 2021 (Beltz, Hrsg. Müller-Oppliger/Weigand) ist **nicht beschafft**. Das Buch ist ein Herausgeberband; die darin enthaltenen Einzelbeiträge (die in Pascals Transkripten analysiert wurden) werden als `@incollection`-Einträge verifiziert (siehe `weigand2021person`, `weigand2021separativ`, `trautmann2021haltung`, u.a.).
 
-> „Wortgetreues Zitat hier einfuegen.“
+**Sekundärbeleg:** Für alle **7 inhaltlichen** Cite-Stellen, die auf den Herausgeberband selbst (`muelleroppliger2021handbuch`) verweisen, liegt Volltext-Verifikation durch den 2013er-Vorgängerband vor:
 
-**Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+> Hoyer, Timo; Weigand, Gabriele; Müller-Oppliger, Victor (2013). **Begabung: Eine Einführung.** Darmstadt: WBG. 136 S.
 
-**Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+Autorenkreis identisch (Weigand + Müller-Oppliger sind Ko-Autoren in beiden Büchern); Inhalt konvergent bei Gardner/Multiple Intelligenzen, Three-Ring-Concept, SEM und Higher-Order-Thinking. Wortgetreue Belege mit Seitenangaben liegen in `Literatur/hoyer2013begabung/verified_quotes.md` vor.
+
+## Befunde pro Cite-Stelle
+
+| Zeile | Thema | Befund | Empfehlung |
+|---|---|---|---|
+| **A:273** | Literatur-Liste (Antwort-Einleitung Fr. 1) | Meta-Hinweis, kein Inhaltszitat | Belassen |
+| **A:355** | Literatur-Liste (Antwort-Einleitung Fr. 4) | Meta-Hinweis, kein Inhaltszitat | Belassen |
+| **L:449** | Gardners Multiple Intelligenzen | Belegt durch `hoyer2013begabung` S. 74–75 | Doppelreferenz (Rewrite L:449) |
+| **L:504** | Affektive/nicht-kognitive Komponenten | Belegt durch `hoyer2013begabung` S. 73–74 | Doppelreferenz (Rewrite L:504) |
+| **L:720** | Literatur-Liste (Lerndokument Fr. 1) | Meta-Hinweis, kein Inhaltszitat | Belassen |
+| **L:800** | Enrichment ohne formalen Testbefund | Belegt durch `hoyer2013begabung` S. 104–105 | Doppelreferenz (Rewrite L:800) |
+| **L:874** | Stärkenorientierung / Experten-Rolle | Belegt durch `hoyer2013begabung` S. 106–107 | Doppelreferenz (Rewrite L:874) |
+| **L:1026** | „Stärken des Denkens" / HOTS | Belegt durch `hoyer2013begabung` S. 112–113 | Doppelreferenz (Rewrite L:1026) |
+| **L:1689** | Kombination Typ I + III, MI als Zugangsstruktur | Belegt durch `hoyer2013begabung` S. 95–103 | Doppelreferenz (Rewrite L:1689) |
+| **L:1765** | SEM-Grundgedanke: Projektarbeit + Förderung-vor-Identifikation | Belegt durch `hoyer2013begabung` S. 101–104 | Doppelreferenz (Rewrite L:1765) |
+| **L:1927** | Literatur-Liste (Lerndokument Fr. 4) | Meta-Hinweis, kein Inhaltszitat | Belassen |
+
+## Handlungsbedarf / Umzitierungs-Anweisungen
+
+**7 Doppelreferenzen** via `add_key`: Der neue BibKey `hoyer2013begabung` wird direkt nach `muelleroppliger2021handbuch` in die Cite-Liste eingefügt. Beide Quellen stehen dann parallel (Primär-Hrsg.band 2021 + wortgetreuer Sekundärbeleg 2013).
+
+**Ausführen via:**
+
+```powershell
+python apply_rewrites.py                                    # Dry-Run alle
+python apply_rewrites.py --bibkey muelleroppliger2021handbuch --apply  # Nur diese 7
+```
+
+<!-- REWRITES-START (manuell gepflegt; `collect_rewrites.py` aggregiert zu `REWRITES.md`) -->
+
+```yaml
+- tex_file: mpv.tex
+  line: 449
+  action: add_key
+  old: '\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}'
+  new: '\parencite{muelleroppliger2021handbuch,hoyer2013begabung,trautmann2016einfuehrung,preckel2013hochbegabung}'
+  reason: >
+    Hoyer/Weigand/Mueller-Oppliger 2013, Kap. 5.1.3 (S. 74-75) enthaelt die
+    wortgetreue Aufzaehlung der Multiplen Intelligenzen von Gardner (sprachlich,
+    logisch-mathematisch, visuell-raeumlich, koerperlich-kinaesthetisch etc.),
+    die in mpv.tex L:449 behauptet wird. Doppelreferenz als Sekundaerbeleg,
+    da Handbuch Begabung 2021 (Beltz) nicht beschafft ist.
+  status: pending
+
+- tex_file: mpv.tex
+  line: 504
+  action: add_key
+  old: '\parencite{muelleroppliger2021handbuch}'
+  new: '\parencite{muelleroppliger2021handbuch,hoyer2013begabung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 5.1.2 (S. 73-74): Kritik an der "einseitig
+    kognitiven Ausrichtung bisheriger Intelligenztheorien" und Forderung,
+    "weitere 'Intelligenzen' oder Begabungsdomaenen, etwa soziale und
+    emotionale" einzubeziehen. Stuetzt mpv.tex L:504 (affektive Komponenten
+    in offenen Settings wie SOLUX).
+  status: pending
+
+- tex_file: mpv.tex
+  line: 800
+  action: add_key
+  old: '\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung}'
+  new: '\parencite{muelleroppliger2021handbuch,hoyer2013begabung,fischer2020begabungsfoerderung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 7.2 (S. 104-105): Talent Pool fuer 15-20 %
+    "ueber Potenziale verfuegen" ohne formalen Testbefund. Drehtuermodell
+    als flexible Foerderform. Direkter Beleg fuer mpv.tex L:800 ("erweiterte
+    Foerdermoeglichkeiten ... unabhaengig davon, ob ein formaler Testbefund
+    vorliegt").
+  status: pending
+
+- tex_file: mpv.tex
+  line: 874
+  action: add_key
+  old: '\parencite{fischer2020begabungsfoerderung,muelleroppliger2021handbuch}'
+  new: '\parencite{fischer2020begabungsfoerderung,muelleroppliger2021handbuch,hoyer2013begabung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 7.3 (S. 106-107): Parallel Curriculum "regt
+    Lernende staerkenorientiert an, verschiedene Schluesselkonzepte ...
+    miteinander zu verbinden". Belegt Intis Formulierung, dass Staerken
+    zum Ausgangspunkt fuer Kompetenzentwicklung werden und S. als
+    "Experte" auftreten kann.
+  status: pending
+
+- tex_file: mpv.tex
+  line: 1026
+  action: add_key
+  old: '\textcite{muelleroppliger2021handbuch}'
+  new: '\textcite{muelleroppliger2021handbuch,hoyer2013begabung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 7.4 (S. 112-113): "Higher Order Thinking Skills
+    (HOTS) not More of the Same (MOTS)" (Rogers 2002, S. 271) +
+    "Taxonomiestufen fuer hoehere Denkfaehigkeiten". Direkter Beleg fuer
+    Intis Paraphrase "Staerken des Denkens" in L:1026 (Bloom-Taxonomie,
+    wirksame Foerderung setzt an hoeheren Denkfaehigkeiten an).
+  status: pending
+
+- tex_file: mpv.tex
+  line: 1689
+  action: add_key
+  old: '\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung,trautmann2016einfuehrung}'
+  new: '\parencite{muelleroppliger2021handbuch,hoyer2013begabung,fischer2020begabungsfoerderung,trautmann2016einfuehrung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 6.6 (S. 95-97 Three Ring Concept) + Kap. 6.7
+    S. 99 (expliziter Verweis: "Dieser Ansatz der Schluesselerlebnisse
+    oder Schluesselbegegnungen findet seine Entsprechung in den
+    Aktivitaeten zu Type I und Type III des 'Triad Model' von Renzulli
+    (1978)") + Kap. 7.1 (SEM). Direkter Beleg fuer mpv.tex L:1689
+    (Kombination Typ I+III, MI als Zugangsstruktur zum SEM).
+  status: pending
+
+- tex_file: mpv.tex
+  line: 1765
+  action: add_key
+  old: '\parencite{muelleroppliger2021handbuch}'
+  new: '\parencite{muelleroppliger2021handbuch,hoyer2013begabung}'
+  reason: >
+    Hoyer et al. 2013, Kap. 7.1 (S. 101-103): SEM mit drei Foerdermassnahmen
+    (Compacting, Enrichment, Total Talent Portfolio); Schoolhouse vs.
+    Creative-productive Giftedness. Belegt Intis SEM-Grundgedanke
+    (Typ-III = Projektarbeit im individuellen Interessensgebiet,
+    Foerderung-traegt-zur-Identifikation-bei).
+  status: pending
+```
+
+<!-- REWRITES-END -->
 
 ---
 
-### Zitat 2 (S. XX)
-
-> „…“
-
-<...>
-
----
-
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+**Status:** 2 (Primaerquelle 2021 nicht beschafft; 7 von 11 Cite-Stellen durch Sekundaerbeleg `hoyer2013begabung` wortgetreu gestuetzt; 4 Literatur-Listen-Stellen ohne inhaltliche Aussage bleiben unveraendert)
+**Verifiziert am:** 2026-04-20
+**Bearbeitet durch:** Cascade (auf Basis Volltext-PDF `hoyer2013begabung/source.pdf`)

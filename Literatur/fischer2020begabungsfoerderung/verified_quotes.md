@@ -13,31 +13,71 @@
 
 _Dieser BibKey wird **13**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**32 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[A:303]** }] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~2--4. (ca.~60\,S.) \item[ **`\cite{fischer2020begabungsfoerderung}`** ] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit. Beiträge zu Enrichment und Sprache. (ca.~30\,S.) \end{description} \textit{Geschätzter Umfang
+
+   → Beleg-Vorschlag [1] (score 0.31): [`001_titel.pdf`](excerpts/001_titel.pdf) S. 2-4 · Titel
+   → Beleg-Vorschlag [2] (score 0.31): [`024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf`](excerpts/024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf) S. 286-295 · An der Seite von Eltern und PädagogInnen – mit Bildungsgerec
 
 2. **[A:358]** parativ}] Separativ oder integrativ? (ca.~15\,S.) \item[\cite{sedmak2021bildungsgerechtigkeit}] Begabtenförderung und Bildungsgerechtigkeit. (ca.~15\,S.) \item[ **`\cite{fischer2020begabungsfoerderung}`** ] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit -- für alle! (ca.~30\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimension C (Inklu
 
+   → Beleg-Vorschlag [1] (score 0.31): [`001_titel.pdf`](excerpts/001_titel.pdf) S. 2-4 · Titel
+   → Beleg-Vorschlag [2] (score 0.27): [`021_staerkung_der_bildungsgerechtigkeit_bei_underachie.pdf`](excerpts/021_staerkung_der_bildungsgerechtigkeit_bei_underachie.pdf) S. 242-253 · Stärkung der Bildungsgerechtigkeit bei Underachievement, Mig
+
 3. **[L:454]** smerkmalen und Umweltfaktoren, womit Begabung grundsätzlich als Potenzial zu verstehen ist, das sich unter günstigen Bedingungen in Leistung transformieren kann **`\parencite{fischer2020begabungsfoerderung}`** . Für Kinder mit Migrationserfahrung sind sprachlastige Testverfahren wie der WISC nur bedingt aussagekräftig. Maehler et al. betonen die Notwendigkeit sprach-
+
+   → Beleg-Vorschlag [1] (score 0.12): [`019_meistern_statt_maskieren_lese_und_recht_schreibstr.pdf`](excerpts/019_meistern_statt_maskieren_lese_und_recht_schreibstr.pdf) S. 220-231 · Meistern statt Maskieren. Lese- und (Recht-)Schreibstrategie
+   → Beleg-Vorschlag [2] (score 0.10): [`012_naturwissenschafts_und_technikbezogene_potenziale.pdf`](excerpts/012_naturwissenschafts_und_technikbezogene_potenziale.pdf) S. 118-129 · Naturwissenschafts- und technikbezogene Potenziale bei Grund
 
 4. **[L:524]** ve Faktoren können dazu führen, dass hohes Potenzial in Minderleistung mündet, ein Phänomen, das in der Literatur als \textit{Underachievement} beschrieben wird **`\parencite{preckel2013hochbegabung,fischer2020begabungsfoerderung}`** . Die Initiative \textit{Leistung macht Schule} (LemaS) formuliert auf dieser Grundlage eine prozessbezogene Begriffsklärung, die für die vorliegende Fragestell
 
+   → Beleg-Vorschlag [1] (score 0.12): [`025_begabungsfoerderliches_begegnen_foerdern_theoretis.pdf`](excerpts/025_begabungsfoerderliches_begegnen_foerdern_theoretis.pdf) S. 296-303 · Begabungsförderliches Begegnen fördern – theoretische Grundl
+   → Beleg-Vorschlag [2] (score 0.10): [`006_foerderinitiative_leistung_macht_schule_ein_beitra.pdf`](excerpts/006_foerderinitiative_leistung_macht_schule_ein_beitra.pdf) S. 24-45 · Förderinitiative „Leistung macht Schule“. Ein Beitrag zur Bi
+
 5. **[L:800]** richment-Settings auffällige Motivation und Fachkompetenz zeigen, erweiterte Fördermöglichkeiten erhalten, unabhängig davon, ob ein formaler Testbefund vorliegt **`\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung}`** . S.' Teilnahme an SOLUX und die dort sichtbar gewordenen Stärken wären ausreichende Grundlage, um vertiefte Förderangebote einzuleiten. Gegenüber dem multiprof
+
+   → Beleg-Vorschlag [1] (score 0.12): [`018_ein_ozean_voller_energie_wie_kinder_und_jugendlich.pdf`](excerpts/018_ein_ozean_voller_energie_wie_kinder_und_jugendlich.pdf) S. 206-219 · „Ein Ozean voller Energie“ Wie Kinder und Jugendliche mit be
+   → Beleg-Vorschlag [2] (score 0.09): [`024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf`](excerpts/024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf) S. 286-295 · An der Seite von Eltern und PädagogInnen – mit Bildungsgerec
 
 6. **[L:874]** sgebiet zum Ausgangspunkt für Kompetenzentwicklung: S. kann als \enquote{Experte} auftreten, bevor seine schriftsprachlichen Kompetenzen dafür ausreichen würden **`\parencite{fischer2020begabungsfoerderung,muelleroppliger2021handbuch}`** . Entscheidend ist, dass S. erst in einem Setting emotionaler Sicherheit (SOLUX) zu sprechen und sich zu zeigen begann. Dieser Befund verweist auf die enge Vers
 
+   → Beleg-Vorschlag [1] (score 0.10): [`022_individuelle_potenzialentwicklung_durch_staerkenor.pdf`](excerpts/022_individuelle_potenzialentwicklung_durch_staerkenor.pdf) S. 254-273 · Individuelle Potenzialentwicklung durch stärkenorientierte L
+   → Beleg-Vorschlag [2] (score 0.08): [`027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf`](excerpts/027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf) S. 316-325 · Das Präsentationsformat PECHA KUCHA und sein Nutzen für den 
+
 7. **[L:996]** ale Verdichtung im Schachkontext eröffnet die Möglichkeit, Schrift- und Sprachförderung nicht \textit{am Defizit}, sondern \textit{an der Ressource} anzusetzen. **`\textcite{fischer2020begabungsfoerderung}`** betonen im Kontext der Begabungsförderung, dass Enrichment-Ansätze gerade deshalb wirksam sind, weil sie das individuelle Interessensgebiet als Vehikel für den
+
+   → Beleg-Vorschlag [1] (score 0.27): [`027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf`](excerpts/027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf) S. 316-325 · Das Präsentationsformat PECHA KUCHA und sein Nutzen für den 
+   → Beleg-Vorschlag [2] (score 0.15): [`029_flexible_grouping_deeper_learning_universal_design.pdf`](excerpts/029_flexible_grouping_deeper_learning_universal_design.pdf) S. 346-379 · Flexible Grouping, Deeper Learning & Universal Designfor Lea
 
 8. **[L:1108]** }] Graphomotorische Prozesse beim Schreiben(lernen). (ca.~20\,S.) \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~2--4. (ca.~60\,S.) \item[ **`\cite{fischer2020begabungsfoerderung}`** ] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit. Beiträge zu Enrichment und Sprache. (ca.~30\,S.) \end{description} \textit{Geschätzter Umfang
 
+   → Beleg-Vorschlag [1] (score 0.31): [`001_titel.pdf`](excerpts/001_titel.pdf) S. 2-4 · Titel
+   → Beleg-Vorschlag [2] (score 0.31): [`024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf`](excerpts/024_an_der_seite_von_eltern_und_paedagoginnen_mit_bild.pdf) S. 286-295 · An der Seite von Eltern und PädagogInnen – mit Bildungsgerec
+
 9. **[L:1216]** n, dass Enrichment-Ansätze gerade deshalb wirksam sind, weil sie das individuelle Interessensgebiet als Vehikel für den Erwerb übergeordneter Kompetenzen nutzen **`\parencite{fischer2020begabungsfoerderung}`** . Die drei Stränge werden \textit{sequentiell, nicht simultan} angeboten. In einer Fördereinheit wird entweder an der Notation gearbeitet (motorischer Fokus) od
+
+   → Beleg-Vorschlag [1] (score 0.24): [`022_individuelle_potenzialentwicklung_durch_staerkenor.pdf`](excerpts/022_individuelle_potenzialentwicklung_durch_staerkenor.pdf) S. 254-273 · Individuelle Potenzialentwicklung durch stärkenorientierte L
+   → Beleg-Vorschlag [2] (score 0.24): [`027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf`](excerpts/027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf) S. 316-325 · Das Präsentationsformat PECHA KUCHA und sein Nutzen für den 
 
 10. **[L:1689]** entspricht in wesentlichen Zügen einer Kombination aus Typ~I und Typ~III und verankert die Orientierung an Gardners Multiplen Intelligenzen als Zugangsstruktur **`\parencite{muelleroppliger2021handbuch,fischer2020begabungsfoerderung,trautmann2016einfuehrung}`** . Buholzer und Kummer Wyss zeigen, dass Schule und Unterricht in der Schweiz weiterhin stark an Homogenität und an einem gedachten Durchschnittsschüler orientie
 
+   → Beleg-Vorschlag [1] (score 0.10): [`027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf`](excerpts/027_das_praesentationsformat_pecha_kucha_und_sein_nutz.pdf) S. 316-325 · Das Präsentationsformat PECHA KUCHA und sein Nutzen für den 
+
 11. **[L:1755]** er, das Begabungsförderung als Aufgabe der gesamten Schule versteht. Fischer beschreibt die drei Enrichment-Typen des SEM im Kontext des deutschsprachigen Raums **`\parencite{fischer2020begabungsfoerderung}`** . Typ-I-Enrichment umfasst explorative Angebote, die allen Kindern ermöglichen, über Schnupperaktivitäten Zugang zu verschiedenen Themenbereichen und individuel
+
+   → Beleg-Vorschlag [1] (score 0.13): [`022_individuelle_potenzialentwicklung_durch_staerkenor.pdf`](excerpts/022_individuelle_potenzialentwicklung_durch_staerkenor.pdf) S. 254-273 · Individuelle Potenzialentwicklung durch stärkenorientierte L
+   → Beleg-Vorschlag [2] (score 0.12): [`006_foerderinitiative_leistung_macht_schule_ein_beitra.pdf`](excerpts/006_foerderinitiative_leistung_macht_schule_ein_beitra.pdf) S. 24-45 · Förderinitiative „Leistung macht Schule“. Ein Beitrag zur Bi
 
 12. **[L:1774]** erte Möglichkeiten für vertieftes Arbeiten. Die Identifikation erfolgt somit nicht durch einen vorgeschalteten Test, sondern durch Beobachtung im Fördersetting. **`\textcite{fischer2020begabungsfoerderung}`** dokumentiert die Wirksamkeit dieses Ansatzes am Beispiel des Forder-Förder-Projekts, das an der Universität Münster entwickelt wurde. Die Evaluationsergebnisse
 
+   → Beleg-Vorschlag [1] (score 0.15): [`022_individuelle_potenzialentwicklung_durch_staerkenor.pdf`](excerpts/022_individuelle_potenzialentwicklung_durch_staerkenor.pdf) S. 254-273 · Individuelle Potenzialentwicklung durch stärkenorientierte L
+   → Beleg-Vorschlag [2] (score 0.13): [`016_ozhb_neuigkeiten_im_bereich_der_hochbegabungsforsc.pdf`](excerpts/016_ozhb_neuigkeiten_im_bereich_der_hochbegabungsforsc.pdf) S. 176-191 · OZHB – Neuigkeiten im Bereich der Hochbegabungsforschung an 
+
 13. **[L:1930]** parativ}] Separativ oder integrativ? (ca.~15\,S.) \item[\cite{sedmak2021bildungsgerechtigkeit}] Begabtenförderung und Bildungsgerechtigkeit. (ca.~15\,S.) \item[ **`\cite{fischer2020begabungsfoerderung}`** ] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit -- für alle! (ca.~30\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimension C (Inklu
+
+   → Beleg-Vorschlag [1] (score 0.31): [`001_titel.pdf`](excerpts/001_titel.pdf) S. 2-4 · Titel
+   → Beleg-Vorschlag [2] (score 0.27): [`021_staerkung_der_bildungsgerechtigkeit_bei_underachie.pdf`](excerpts/021_staerkung_der_bildungsgerechtigkeit_bei_underachie.pdf) S. 242-253 · Stärkung der Bildungsgerechtigkeit bei Underachievement, Mig
 
 <!-- CLAIMS-END -->
 
@@ -206,11 +246,33 @@ L:1216 pruefen, damit keine irrefuehrende Autorenzuschreibung entsteht.
 - **Empfehlung:** Dreifachbeleg auf `\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung}` reduzieren (Fischer streichen), sofern Mueller-Oppliger und Trautmann das tragen — das muss in deren Verifikationen geprueft werden.
 
 ### Claim 11 — Enrichment-Typen-Darstellung ⚠️
-- Fischer 2020 (Herausgeberband) entfaltet die 3 Typen nicht. 
-- **Empfehlung:** Umzitierung auf `muelleroppliger2021handbuch` oder neuen BibKey `fischer2014individuellefoerderung` (Buch: "Individuelle Foerderung als schulische Herausforderung", Friedrich Verlag 2014). Muss vom Nutzer entschieden werden, nachdem Mueller-Oppliger beschafft/geprueft ist.
+- Fischer 2020 (Herausgeberband) entfaltet die 3 Typen nicht.
+- **Aktueller Konsens (UEBERGABEBERICHT §6.3):** Umzitierung auf
+  `renzullireis2021rls` — das ist die Originalquelle des SEM (Renzulli/Reis 2021,
+  Reis Learning System), fuer die im Projekt bereits ein eigenes Transkript
+  (Teil6_Verortung_Transkript_Teil6_Renzulli_Reis.json) existiert. Die fruehere
+  Dossier-Empfehlung `muelleroppliger2021handbuch` bleibt alternativ moeglich,
+  wenn der deutschsprachige Kontext staerker betont werden soll; `renzullireis2021rls`
+  ist aber die praezisere Primaerquelle fuer die Drei-Typen-Taxonomie.
 
 ---
 
-**Status:** 4 (Volltextquelle vorhanden, 13 Zitate geprueft; 2 Claims benoetigen Nachbesserung)
+<!-- REWRITES-START (manuell gepflegt; `collect_rewrites.py` aggregiert zu `REWRITES.md`) -->
+```yaml
+- tex_file: mpv.tex
+  line: 1755
+  action: replace_key
+  old: '\parencite{fischer2020begabungsfoerderung}'
+  new: '\parencite{renzullireis2021rls}'
+  reason: >
+    Fischer 2020 (Herausgeberband) entfaltet die drei SEM-Enrichment-Typen
+    nicht (0 Treffer "Typ-I" / "drei Enrichment"). Renzulli/Reis 2021
+    (Reis Learning System) ist die Originalquelle der Drei-Typen-Taxonomie;
+    Teil6-Transkript verortet die systematische Darstellung dort.
+  status: pending
+```
+<!-- REWRITES-END -->
+
+**Status:** 4 (Volltextquelle vorhanden, 13 Zitate geprueft; 1 Claim per Rewrite-Block dokumentiert)
 **Verifiziert am:** 2025-11-22
 **Bearbeitet durch:** Cascade (automatisierte Verifikation) + Pascal Schmid

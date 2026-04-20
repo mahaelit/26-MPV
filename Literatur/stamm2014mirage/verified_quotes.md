@@ -13,11 +13,15 @@
 
 _Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
+**8 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
 1. **[L:575]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite{stamm2014mirage,stamm2014handbuch}`** . \subsection{Grenzen sprachlastiger Diagnostik} Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children) erheben den Anspruch,
 
 2. **[L:1406]** abungsreserven in der Migrationsbevölkerung systematisch ungenutzt bleiben, nicht weil die Potenziale fehlten, sondern weil die Institutionen sie nicht erkennen **`\parencite{stamm2014mirage}`** . \subsection{Teilhabe als Voraussetzung für Sichtbarkeit} Booth und Ainscow entwickeln im Index für Inklusion einen Teilhabebegriff, der über physische Anwesen
 
 3. **[L:2490]** eiben, und die MIRAGE-Studie zeigt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht erkannt worden **`\parencite{stamm2014mirage}`** . S. steht in der 5. Klasse; der Übertritt in die Sekundarstufe rückt näher. Jeder Monat, in dem sein Potenzial undokumentiert bleibt, verringert die Wahrschein
+
+   → Beleg-Vorschlag [1] (score 0.09): [`004_briefing_paper3_das_projekt_mirage.pdf`](excerpts/004_briefing_paper3_das_projekt_mirage.pdf) S. 22-22 · Briefing Paper3: Das Projekt MIRAGE
 
 <!-- CLAIMS-END -->
 

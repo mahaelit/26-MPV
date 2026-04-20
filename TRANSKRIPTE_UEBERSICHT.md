@@ -3,16 +3,30 @@
 Dieser Bericht aggregiert die JSON-Verortungen aus `MPV/Literatur/Transkripte/einordnung/`. Die Transkripte sind **kuratierte Zitatstellen aus Originalquellen** (Handbuch Begabung, Renzulli/Reis, Trautmann u. a.) und sollten bei inhaltsgleichen Belegstellen **bevorzugt verwendet werden** gegenueber heuristischen Suchergebnissen.
 
 - Quellordner: `MPV/Literatur/Transkripte/einordnung/`
-- Anzahl JSON-Dateien: **10**
-- Existierende BibKeys in `Quellen.bib`: **59**
+- Anzahl JSON-Dateien: **24**
+- Existierende BibKeys in `Quellen.bib`: **60**
 
 ## 1. Uebersicht
 
 | JSON | Titel / Zweck | Buch / Quelle | Kapitel | BibKey bestehend | BibKey Vorschlag | Integration-Hints |
 | --- | --- | --- | --- | --- | --- | --- |
 | `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument | Handbuch Begabung (2021) |  | `muelleroppliger2021handbuch` |  | 0 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit | Handbuch Begabung (2021) | Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit (32--44) | `muelleroppliger2021plurale` |  | 10 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Begabung, Bildung und Person | Handbuch Begabung (2021) | Begabung, Bildung und Person (46--63) | `weigand2021person` |  | 13 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Begabtenfoerderung und Bildungsgerechtigkeit | Handbuch Begabung (2021) | Begabtenfoerderung und Bildungsgerechtigkeit (65--76) | `sedmak2021bildungsgerechtigkeit` |  | 13 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfra... | Handbuch Begabung (2021) | Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfragen (77--86) | `horvath2021elite` |  | 13 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Begabung als sozialhistorisches und soziokulturelles Konstrukt | Handbuch Begabung (2021) | Begabung als sozialhistorisches und soziokulturelles Konstrukt (88--102) | `wollersheim2021konstrukt` |  | 10 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individu... | Handbuch Begabung (2021) | Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven (115--131) | `baudson2021wasdenken` |  | 7 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsy... | Handbuch Begabung (2021) | Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie (133--147) | `stadelmann2021begabungsentwicklung` |  | 19 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Die Entwicklung von Expertise | Handbuch Begabung (2021) | Die Entwicklung von Expertise (149--167) | `grabnermeier2021expertise` |  | 12 |
+| `Teil1_Verortung_Transkripte_HandbuchBegabung.json` | [Chapter] Kreativitaet und Begabung | Handbuch Begabung (2021) | Kreativitaet und Begabung (168--183) | `urban2021kreativitaet` |  | 12 |
 | `Teil2_verortung_transkripte.json` |  |  |  |  |  | 0 |
-| `Teil3_Verortung_Teil3_BegabungenErkennen.json` |  |  |  |  |  | 0 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` |  | Handbuch Begabung (2021) |  |  |  | 0 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` | [Chapter] Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik | Handbuch Begabung (2021) | Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik (224--238) | `muelleroppliger2021paeddiagnostik` |  | 3 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` | [Chapter] Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung | Handbuch Begabung (2021) | Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung (239--251) | `gauckreimann2021psychdiagnostik` |  | 6 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` | [Chapter] Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrumen... | Handbuch Begabung (2021) | Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler Foerderdiagnostik (252--258) | `stahl2021mbet` |  | 2 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` | [Chapter] Fruehes Erkennen von hohen Begabungen | Handbuch Begabung (2021) | Fruehes Erkennen von hohen Begabungen (260--270) | `koopseddig2021frueheserkennen` |  | 2 |
+| `Teil3_Verortung_Teil3_BegabungenErkennen.json` | [Chapter] Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und ... | Handbuch Begabung (2021) | Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive (274--303) | `preckel2021tad` |  | 4 |
 | `Teil4_Transkript_Verortung_Handbuch_Begabung.json` | Verortung der Transkripte im Lerndokument | Handbuch Begabungsförderung (2021) |  |  |  | 0 |
 | `Teil5_verortung_lerndokument.json` |  |  |  |  |  | 0 |
 | `Teil6_Verortung_Transkript_Teil6_Renzulli_Reis.json` |  | Handbuch Begabung (2021) | Das »Renzulli-Lernsystem« (RLS) (444--454) |  | `renzullireis2021rls` | 0 |
@@ -56,6 +70,36 @@ Die Transkripte schlagen in mehreren Faellen **praezise Einzelbeitraege** innerh
 
 ## 3. Transkripte pro bestehendem BibKey
 
+### `baudson2021wasdenken`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individu
+  - Kapitel: Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven (115--131)
+  - Integration-Hints: 7; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `gauckreimann2021psychdiagnostik`
+- `Teil3_Verortung_Teil3_BegabungenErkennen.json` — [Chapter] Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung
+  - Kapitel: Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung (239--251)
+  - Integration-Hints: 6; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `grabnermeier2021expertise`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Die Entwicklung von Expertise
+  - Kapitel: Die Entwicklung von Expertise (149--167)
+  - Integration-Hints: 12; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `horvath2021elite`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfra
+  - Kapitel: Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfragen (77--86)
+  - Integration-Hints: 13; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `koopseddig2021frueheserkennen`
+- `Teil3_Verortung_Teil3_BegabungenErkennen.json` — [Chapter] Fruehes Erkennen von hohen Begabungen
+  - Kapitel: Fruehes Erkennen von hohen Begabungen (260--270)
+  - Integration-Hints: 2; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
 ### `muelleroppliger2021handbuch`
 - `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument
   - Kapitel: — (?)
@@ -64,6 +108,60 @@ Die Transkripte schlagen in mehreren Faellen **praezise Einzelbeitraege** innerh
 - `Teil7_trautmann_verortung.json` — Verortung des Transkriptinhalts im Lerndokument und im Abgabedossier; Identifika
   - Kapitel: Pädagogische Haltung des Akteurs (496-506)
   - Integration-Hints: 12; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `muelleroppliger2021paeddiagnostik`
+- `Teil3_Verortung_Teil3_BegabungenErkennen.json` — [Chapter] Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik
+  - Kapitel: Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik (224--238)
+  - Integration-Hints: 3; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `muelleroppliger2021plurale`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit
+  - Kapitel: Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit (32--44)
+  - Integration-Hints: 10; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `preckel2021tad`
+- `Teil3_Verortung_Teil3_BegabungenErkennen.json` — [Chapter] Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und 
+  - Kapitel: Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive (274--303)
+  - Integration-Hints: 4; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `sedmak2021bildungsgerechtigkeit`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Begabtenfoerderung und Bildungsgerechtigkeit
+  - Kapitel: Begabtenfoerderung und Bildungsgerechtigkeit (65--76)
+  - Integration-Hints: 13; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `stadelmann2021begabungsentwicklung`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsy
+  - Kapitel: Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie (133--147)
+  - Integration-Hints: 19; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `stahl2021mbet`
+- `Teil3_Verortung_Teil3_BegabungenErkennen.json` — [Chapter] Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrumen
+  - Kapitel: Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler Foerderdiagnostik (252--258)
+  - Integration-Hints: 2; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `urban2021kreativitaet`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Kreativitaet und Begabung
+  - Kapitel: Kreativitaet und Begabung (168--183)
+  - Integration-Hints: 12; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `weigand2021person`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Begabung, Bildung und Person
+  - Kapitel: Begabung, Bildung und Person (46--63)
+  - Integration-Hints: 13; Issues: 0
+  - Zielordner: ✅ Literatur-Ordner vorhanden
+
+### `wollersheim2021konstrukt`
+- `Teil1_Verortung_Transkripte_HandbuchBegabung.json` — [Chapter] Begabung als sozialhistorisches und soziokulturelles Konstrukt
+  - Kapitel: Begabung als sozialhistorisches und soziokulturelles Konstrukt (88--102)
+  - Integration-Hints: 10; Issues: 0
   - Zielordner: ✅ Literatur-Ordner vorhanden
 
 ## 4. Offene Issues / Verifikationsauftraege
@@ -126,32 +224,25 @@ Die kuratierten Transkripte enthalten pro Zitatstelle einen `bib_key`. Haeufigke
 | `behrensen2019inklusive` | 11 | Teil5_verortung_lerndokument:6; Teil8_lerndokument_struktur:5 |
 | `burow2021positive` | 11 | Teil5_verortung_lerndokument:5; Teil8_lerndokument_struktur:5; Teil2_verortung_transkripte:1 |
 | `ipege2009professionelle` | 11 | Teil8_lerndokument_struktur:6; Teil5_verortung_lerndokument:5 |
-| `sedmak2021bildungsgerechtigkeit` | 11 | Teil8_lerndokument_struktur:5; Teil5_verortung_lerndokument:4; Teil1_Verortung_Transkripte_HandbuchBegabung:1; Teil2_verortung_transkripte:1 |
 | `webb2020doppeldiagnosen` | 11 | Teil5_verortung_lerndokument:6; Teil8_lerndokument_struktur:5 |
 | `kellerkoller2021hellekoepfe` | 10 | Teil8_lerndokument_struktur:6; Teil5_verortung_lerndokument:4 |
 | `kosoroklabhart2021voneltern` | 10 | Teil5_verortung_lerndokument:5; Teil8_lerndokument_struktur:5 |
+| `sedmak2021bildungsgerechtigkeit` | 10 | Teil8_lerndokument_struktur:5; Teil5_verortung_lerndokument:4; Teil2_verortung_transkripte:1 |
 | `weigand2021separativ` | 10 | Teil8_lerndokument_struktur:5; Teil5_verortung_lerndokument:4; Teil2_verortung_transkripte:1 |
 | `brunner2021hochbegabung` | 9 | Teil5_verortung_lerndokument:5; Teil8_lerndokument_struktur:4 |
 | `burow2020future` | 9 | Teil8_lerndokument_struktur:5; Teil5_verortung_lerndokument:4 |
 | `reutlinger2015hochbegabung` | 9 | Teil8_lerndokument_struktur:5; Teil5_verortung_lerndokument:4 |
 | `unger2010begabungsfoerderung` | 8 | Teil5_verortung_lerndokument:4; Teil8_lerndokument_struktur:4 |
-| `muelleroppliger2021plurale` | 7 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:2; Teil1_Verortung_Transkripte_HandbuchBegabung:1; Teil2_verortung_transkripte:1 |
 | `stamm2014mirage` | 7 | Teil8_lerndokument_struktur:4; Teil5_verortung_lerndokument:3 |
 | `lemas2023begriffsklaerung` | 6 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:2; Teil2_verortung_transkripte:1 |
+| `muelleroppliger2021plurale` | 6 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:2; Teil2_verortung_transkripte:1 |
 | `stamm2012migranten` | 6 | Teil8_lerndokument_struktur:4; Teil5_verortung_lerndokument:2 |
 | `dvs2025bbf` | 4 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:1 |
 | `kellerkoller2009begabte` | 4 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:1 |
 | `stamm2014handbuch` | 4 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:1 |
 | `stern2025intelligenz` | 4 | Teil8_lerndokument_struktur:2; Teil2_verortung_transkripte:1; Teil5_verortung_lerndokument:1 |
 | `uslucan2012begabung` | 4 | Teil8_lerndokument_struktur:3; Teil5_verortung_lerndokument:1 |
-| `baudson2021wasdenken` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
-| `grabnermeier2021expertise` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
-| `horvath2021elite` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
 | `kellerkoller2011erkennen` | 3 | Teil8_lerndokument_struktur:2; Teil5_verortung_lerndokument:1 |
-| `stadelmann2021begabungsentwicklung` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
-| `urban2021kreativitaet` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
-| `weigand2021person` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
-| `wollersheim2021konstrukt` | 3 | Teil1_Verortung_Transkripte_HandbuchBegabung:3 |
 | `alhroub2021utility` | 2 | Teil8_lerndokument_struktur:2 |
 | `alodat2025equitable` | 2 | Teil8_lerndokument_struktur:2 |
 | `bfs2022migration` | 2 | Teil8_lerndokument_struktur:2 |
@@ -159,10 +250,5 @@ Die kuratierten Transkripte enthalten pro Zitatstelle einen `bib_key`. Haeufigke
 | `gubbins2020promising` | 2 | Teil8_lerndokument_struktur:2 |
 | `mun2020identifying` | 2 | Teil8_lerndokument_struktur:2 |
 | `renzullireis2021rls` | 2 | Teil6_Verortung_Transkript_Teil6_Renzulli_Reis:2 |
-| `gauckreimann2021psychdiagnostik` | 1 | Teil3_Verortung_Teil3_BegabungenErkennen:1 |
-| `koopseddig2021frueheserkennen` | 1 | Teil3_Verortung_Teil3_BegabungenErkennen:1 |
-| `muelleroppliger2021paeddiagnostik` | 1 | Teil3_Verortung_Teil3_BegabungenErkennen:1 |
-| `preckel2021tad` | 1 | Teil3_Verortung_Teil3_BegabungenErkennen:1 |
-| `stahl2021mbet` | 1 | Teil3_Verortung_Teil3_BegabungenErkennen:1 |
 | `trautmann2021haltung` | 1 | Teil7_trautmann_verortung:1 |
 

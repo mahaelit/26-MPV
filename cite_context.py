@@ -231,6 +231,29 @@ def _format_claim(idx: int, c: Citation) -> str:
     return f"{idx}. **{ref}** {context}"
 
 
+# Optional: Claim-Split-Matching fuer automatische Beleg-Vorschlaege
+try:
+    import claim_split_match as _csm
+    _HAS_CSM = True
+except Exception:
+    _HAS_CSM = False
+
+
+def _split_suggestions(bibkey: str, context: str, splits: list, top_n: int = 2) -> list[str]:
+    """Liefert Markdown-Zeilen mit Beleg-Vorschlaegen fuer einen Claim."""
+    if not _HAS_CSM or not splits:
+        return []
+    matches = _csm.match_claim(context, splits, top_n=top_n, min_score=0.08)
+    out: list[str] = []
+    for i, m in enumerate(matches, start=1):
+        out.append(
+            f"   → Beleg-Vorschlag [{i}] (score {m['score']:.2f}): "
+            f"[`{m['file']}`](excerpts/{m['file']}) "
+            f"S. {m['page_start']}-{m['page_end']} · {m['title'][:60]}"
+        )
+    return out
+
+
 def render_claims_block(bibkey: str, cites: list[Citation]) -> str:
     header = "## Zu verifizierende Behauptungen (aus TeX)"
     if not cites:
@@ -247,8 +270,35 @@ def render_claims_block(bibkey: str, cites: list[Citation]) -> str:
         f"Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), "
         f"**A** = `mpv_abgabedokument.tex` (Abgabedokument)."
     )
-    lines = [_format_claim(i + 1, c) for i, c in enumerate(cites_sorted)]
-    body  = intro + "\n\n" + "\n\n".join(lines)
+
+    # Splits dieser Quelle EINMAL laden (Cache)
+    splits = []
+    if _HAS_CSM:
+        try:
+            splits = _csm.load_splits(bibkey)
+        except Exception:
+            splits = []
+
+    lines: list[str] = []
+    for i, c in enumerate(cites_sorted):
+        claim_line = _format_claim(i + 1, c)
+        lines.append(claim_line)
+        # Beleg-Vorschlaege direkt unter dem Claim
+        if splits:
+            # Kontext: context_before + cite + context_after
+            combined_ctx = f"{c.context_before} {c.context_after}"
+            sug = _split_suggestions(bibkey, combined_ctx, splits)
+            if sug:
+                lines.append("\n".join(sug))
+
+    body = intro + "\n\n" + "\n\n".join(lines)
+    if splits:
+        hint = (
+            f"\n\n**{len(splits)} Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). "
+            f"Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als "
+            f"**Beleg-Vorschlag** angegeben (Keyword-Matching)."
+        )
+        body = intro + hint + "\n\n" + "\n\n".join(lines)
     return f"{MARK_START}\n\n{header}\n\n{body}\n\n{MARK_END}"
 
 
@@ -264,7 +314,10 @@ def update_verified_quotes(md_path: Path, block: str) -> str:
     text = md_path.read_text(encoding="utf-8")
 
     if BLOCK_RE.search(text):
-        new_text = BLOCK_RE.sub(block, text, count=1)
+        # Callable statt String-Replacement, damit Python Backslash-Sequenzen
+        # (`\parencite`, `\cite`, ...) im `block`-Text NICHT als Template-
+        # Backreferences interpretiert.
+        new_text = BLOCK_RE.sub(lambda _m: block, text, count=1)
     else:
         # Block direkt hinter dem Header-Trenner (erster '---') einfuegen.
         sep = HEADER_SEP_RE.search(text)

@@ -151,19 +151,73 @@
     "muelleroppliger2021plurale": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit",
+        "chapter_authors": "Mueller-Oppliger",
+        "pages": "32--44",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "high",
+          "primary": "BW4, BW5",
+          "secondary": "introduction"
+        },
+        "integration_hints_count": 10,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "introduction",
+            "text": "Anker: Ausgangslage — cite_strengthen — (Grund: Salamanca-Erklaerung 1994 und Kritik der 7G-Methode explizit einbauen, um den bildungstheoretischen Rahmen der Arbeit zu schaerfen.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "FW3",
+            "text": "Anker: Teilhabe als Voraussetzung fuer Sichtbarkeit — cite_add — (Grund: Mueller-Oppligers Rezeption der Booth/Ainscow-Dimensionen ergaenzt die bereits vorhandene direkte Booth-Ainscow-Referenz um eine deutschsprachige Rezeption mit Schweizer Kontext.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Cite-Stellen sind bereits gut platziert. Eine prominentere Referenz in der Einleitung wuerde den Rahmen schaerfen. Kein Budget-Problem, da bereits im Korpus."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Normalitaet ist die Vielfalt der Menschen und das Vorhandensein von Unterschieden."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Schule als Demokratieinstrument (Bezug Dewey): demokratisches Zusammenleben wird in der Schule eingeuebt."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] 7G-Methode-Kritik: gleichzeitig, gleicher Ort, gleicher Lehrer, gleiche Ziele, gleiche Methoden, gleiche Mittel, gleiche Pruefung als Ausdruck einer ueberholten Homogenitaetslogik."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Gleichheits-Gerechtigkeits-Fehlschluss: Gleichbehandlung Ungleicher erzeugt Ungleichheit."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Unbekannte Begabungen als Risikogruppe (Fremdsprachige, sozial Benachteiligte, stille Lernende, Twice Exceptionals)."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Drei Ebenen inklusiver Begabungsfoerderung: leistungsdifferenzierter Unterricht, schulinterne Zusatzangebote, Kooperation mit ausserschulischen Foerderorten."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Salamanca-Erklaerung der UNESCO 1994 als bildungspolitisches Fundament."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       },
       {
         "source_file": "Teil2_verortung_transkripte.json",
@@ -217,37 +271,175 @@
     "weigand2021person": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Begabung, Bildung und Person",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Begabung, Bildung und Person",
+        "chapter_authors": "Weigand",
+        "pages": "46--63",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "high",
+          "primary": "BW5, FW3",
+          "secondary": "BW4, introduction"
+        },
+        "integration_hints_count": 13,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "BW5",
+            "text": "Anker: Konsequenzen fuer das SHP-Professionsverstaendnis — cite_add — (Grund: Weigands Personorientierung liefert das bildungsphilosophische Fundament fuer die SHP-Trias (fachliche Unabhaengigkeit, reflexive Partnerschaftlichkeit, institutionelle Wachsamkeit). Die drei Funktionen des Personenprinzips (konstitutiv, kritisch-konstruktiv, regulativ) decken sich inhaltlich praezise mit der Trias.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "FW3",
+            "text": "Anker: Anerkennung als paedagogische Grundkategorie — cite_add — (Grund: Ergaenzt Grossrieder (Anerkennung 2. Ordnung) um Bieris drei Dimensionen der Wuerde (wie ich behandelt werde, wie ich andere behandle, wie ich zu mir selbst stehe) und um den demokratietheoretischen Horizont von Dewey.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Unbedingt integrieren. Liefert das philosophisch-paedagogische Fundament fuer Frage 5. Eine 3- bis 5-saetzige Passage im Abschnitt 'Konsequenzen fuer das SHP-Professionsverstaendnis' genuegt, um die Trias argumentativ zu verankern."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Begabungsfoerderung ist kein Sonderbereich schulischer Bildung, sondern ihr unabdingbarer Kern."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Die Person des einzelnen Kindes ist Ausgangspunkt und Ziel aller Bildungsprozesse."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Konstitutive Funktion des Personenprinzips: jeder Mensch ist Person, unabhaengig von Herkunft und Geschlecht."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Kritisch-konstruktive Funktion: Personenprinzip als Messlatte fuer Defizite schulischer Praxis."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Regulative Funktion: Richtschnur fuer das alltaegliche paedagogische Handeln."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Begabung als normativ-analytischer Begriff (nicht deskriptiv, nicht essenzialistisch)."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Bezug Dewey: demokratisches Grundverstaendnis und Entwicklungsimpuls fuer Schule."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Bezug Bieri: drei Dimensionen der Wuerde als Orientierung fuer Bildungsprozesse."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Klassenzimmer als 'embryonische Gesellschaft' (Dewey 1899)."
+          },
+          {
+            "location": "chapters[].key_ideas[7]",
+            "frage": null,
+            "text": "[Kernidee] Begabungs- und Begabtenfoerderung ist kein Sonderbereich, sondern Kern schulischer Bildung."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "sedmak2021bildungsgerechtigkeit": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Begabtenfoerderung und Bildungsgerechtigkeit",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Begabtenfoerderung und Bildungsgerechtigkeit",
+        "chapter_authors": "Sedmak / Kapferer",
+        "pages": "65--76",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "high",
+          "primary": "BW4",
+          "secondary": "FW1, BW5"
+        },
+        "integration_hints_count": 13,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "FW1",
+            "text": "Anker: Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben — cite_add — (Grund: Identifikationsmethoden als Verfestigung sozialer Ungleichheit ist ein starker Zusatzgedanke, der Stamms These der 'begabten Minoritaeten' vertieft.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "BW5",
+            "text": "Anker: Institutionelle Reflexion: Von der Einzelfallberatung zur Schulentwicklung — cite_add — (Grund: Das Matthaeus-Prinzip (wer hat, dem wird gegeben) ist eine praegnante Hintergrundfolie fuer das Argument, dass die SHP die Abwartestrategie der Fachstellen begruendet in Frage stellen muss.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Gut platziert. Das Matthaeus-Prinzip sollte in der muendlichen Pruefung abrufbar sein: es ist ein praegnantes, einpraegsames Schlagwort und rahmt die eigene Argumentation."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Wer hat, dem wird gegeben: das Matthaeus-Prinzip in der Begabtenfoerderung."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Begabung ist keine schlummernde Prinzessin, sondern eine Pflanze, die den richtigen Boden braucht."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Drei Dimensionen der Bildungsgerechtigkeit: epistemisch, individuell, sozial."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Vier moralische Herausforderungen der Begabtenfoerderung: implizite Systemkritik, Status von Begabung, Matthaeus-Prinzip, utilitaristische Logik."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Matthaeus-Effekt (Merton): wer Startvorteile hat, kann diese systematisch ausbauen."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Utilitaristische Falle: Programme waehlen die aus, bei denen Erfolgsversprechen am ehesten einloesbar ist, und lassen die Beduerftigsten zurueck."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Anderson 2007: Teilhabe als soziales Bildungsziel von vornherein einbeziehen."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Beispiel 'Lernen macht Schule' (Salzburg): Kinder mit schwierigem Hintergrund durch Sorge-Perspektive der Lehrpersonen identifiziert."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Begabung ist wie eine Pflanze: Keim ist angelegt, aber Pflege und Boden entscheiden (Metapher statt 'schlummernde Prinzessin')."
+          },
+          {
+            "location": "chapters[].key_ideas[7]",
+            "frage": null,
+            "text": "[Kernidee] Beispiele: Steve Jobs und Lehrerin Imogene Hill; Fiona Mutesi (Schach) und Robert Katende."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       },
       {
         "source_file": "Teil2_verortung_transkripte.json",
@@ -301,109 +493,497 @@
     "horvath2021elite": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfragen",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Elite, Begabung und soziale Ungleichheit: Ungeloeste Gerechtigkeitsfragen",
+        "chapter_authors": "Horvath",
+        "pages": "77--86",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "high",
+          "primary": "BW4, BW5",
+          "secondary": "FW1"
+        },
+        "integration_hints_count": 13,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "BW5",
+            "text": "Anker: Institutionelle Reflexion: Von der Einzelfallberatung zur Schulentwicklung — cite_add — (Grund: Horvath liefert die soziologische Lesart der Begabungskonstrukte als Konventionen. Staerkt das Argument, dass die SHP nicht nur Einzelfaelle bearbeitet, sondern auch Deutungsmuster im Kollegium reflektiert.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "BW4",
+            "text": "Anker: Inklusive Begabungsfoerderung als Gerechtigkeitsperspektive — cite_add — (Grund: Ergaenzt Sedmak/Kapferer und Weigand/Kaiser um die empirisch-soziologische Perspektive auf meritokratische Illusion und Pygmalion-Effekt.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[2]",
+            "frage": "FW1",
+            "text": "Anker: Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben — cite_optional — (Grund: Der 'Migrationshintergrund' als verwobene Kategorie passt direkt zur Situation von S. und zur Argumentation institutioneller Diskriminierung.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Hochrelevant. Die Begriffe 'Meritokratische Illusion' und 'verwobene Kategorie' sind praegnant und in der muendlichen Pruefung stark abrufbar. Mindestens eine Cite-Stelle in Frage 5 setzen."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Meritokratische Illusion: Leistung wird versprochen, Herkunft entscheidet."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Begabungskategorien sind Konventionen, keine Naturbefunde."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Meritokratische Illusion: reine Leistungsgerechtigkeit ist in gegenwaertigen Bildungssystemen nicht realisiert."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Leistungsbegriff ist mehrdeutig: Anstrengung, Effizienz, Innovation, Erfolg koennen je nach Kontext als 'Leistung' gelten."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Pygmalion-Effekt: als begabt wahrgenommene Kinder zeigen tatsaechlich bessere Leistungen."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Begabung als soziale Konvention: keine neutrale Kategorie, sondern Ergebnis paedagogischer Unterscheidungspraxis."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Migrationshintergrund als 'verwobene Kategorie': buendelt migrationsbezogene, soziale und ethnische Elemente."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Mittelschichtbias paedagogischer Praxis: bildungssprachliche Kompetenzen werden bevorzugt wahrgenommen (Bernstein)."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Forderung: Dialog zwischen Sozialforschung und paedagogischer Praxis, um professionelle Reflexivitaet aufzubauen."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "wollersheim2021konstrukt": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Begabung als sozialhistorisches und soziokulturelles Konstrukt",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Begabung als sozialhistorisches und soziokulturelles Konstrukt",
+        "chapter_authors": "Wollersheim",
+        "pages": "88--102",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "low",
+          "primary": "FW1",
+          "secondary": "BW5"
+        },
+        "integration_hints_count": 10,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "FW1",
+            "text": "Anker: Begabung als dynamisches Potenzial — cite_optional — (Grund: Historische Genealogie des dynamischen Begabungsbegriffs (Meumann 1913, Roth 1952, Deutscher Bildungsrat 1968). Gibt dem aktuellen IPEGE-Begriff eine Tiefenschaerfe, ist aber nicht pruefungskritisch.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Nur einbauen, wenn das Seitenbudget es erlaubt. Eher als Karteikartenwissen fuer die muendliche Pruefung, falls nach der Geschichte des Begabungsbegriffs gefragt wird."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Begabung ist keine Naturkategorie, sondern ein historisch gewachsenes Konstrukt."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Begabung ist ein soziohistorisches und soziokulturelles Konstrukt, keine Naturkategorie."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] William Sterns Unterscheidung von Potenzial und Leistung ist historischer Angelpunkt."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Konfuzianisch gepraegte Kulturen (Ostasien) arbeiten mit anderen Begabungskonstruktionen: Fleiss und Anstrengung dominieren vor angeborener Gabe."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Heinrich Roth 1952: erstmals explizit paedagogischer Begabungsbegriff, abgegrenzt vom erbbiologischen Denken."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Deutscher Bildungsrat 1968: dynamischer Begabungsbegriff wird bildungspolitisch wirksam."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Hartnacke vs. Meumann als Negativ-Referenz fuer den erbbiologisch-selektiven Begabungsbegriff der 1910er- bis 1940er-Jahre."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] IPEGE 2009-Definition: Begabung als entwicklungsfaehiges Potenzial, das bei langfristiger Foerderung in sinn- und verantwortungsorientierte Taetigkeit transformiert wird."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "baudson2021wasdenken": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven",
+        "chapter_authors": "Baudson",
+        "pages": "115--131",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "medium",
+          "primary": "BW5, FW3",
+          "secondary": "FW1"
+        },
+        "integration_hints_count": 7,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "BW5",
+            "text": "Anker: Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit — cite_add — (Grund: Laien- und Fachpersonenvorstellungen ueber Hochbegabung beeinflussen paedagogische Wahrnehmungsmuster systematisch. Liefert die empirische Unterfuetterung fuer den 'Deficit Detectors vs. Talent Scouts'-Kontrast.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "FW3",
+            "text": "Anker: Anerkennung als paedagogische Grundkategorie — cite_optional — (Grund: Stereotype ueber Hochbegabte (Disharmonie-Hypothese) koennen die Wahrnehmung von Kindern wie S. zusaetzlich verzerren.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Erst nach Zugriff auf den vollstaendigen Text zitieren. Wenn der Volltext verfuegbar ist, an einer Stelle in Frage 5 einbauen, um die Wahrnehmungskritik im Team empirisch zu fundieren."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Stereotype ueber Hochbegabte sind kulturell stabil und beeinflussen paedagogische Urteile."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Disharmonie-Hypothese: Hochbegabte gelten als sozial auffaellig und emotional schwierig."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Implizite Begabungstheorien von Laien unterscheiden sich systematisch von wissenschaftlichen."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Weitere Inhalte im vorliegenden Transkript nicht erfasst, da es abbricht."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "stadelmann2021begabungsentwicklung": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie",
+        "chapter_authors": "Stadelmann",
+        "pages": "133--147",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "critical",
+          "primary": "FW1, FW2",
+          "secondary": "BW4"
+        },
+        "integration_hints_count": 19,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "FW1",
+            "text": "Anker: Begabung als dynamisches Potenzial — cite_add — (Grund: Stadelmann liefert den naturwissenschaftlichen Unterbau fuer die bisher primaer paedagogisch begruendete dynamische Begabungsauffassung (Preckel, LemaS, Fischer). Epigenetik und Hirnplastizitaet sind die harten Argumente dafuer, dass Potenzial nicht vorgegeben ist.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "FW2",
+            "text": "Anker: Schriftspracherwerb als sensumotorisch-kognitiver Prozess — cite_add — (Grund: Stadelmann begruendet, warum Automatisierung und Wiederholung in sensiblen Phasen neurobiologisch notwendig sind. Das stuetzt die Foerderplanung mit Schachnotation direkt.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[2]",
+            "frage": "FW2",
+            "text": "Anker: Konsequenzen fuer die Foerderplanung — cite_add — (Grund: Das 'use it or lose it'-Prinzip und die Kontextabhaengigkeit von Genexpression legitimieren das Prinzip 'Sicherheit vor Anforderung' neurobiologisch.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] UNBEDINGT integrieren. Dieses Kapitel schliesst genau die Evidenzluecke, die der Kollegenreview in Frage 1 und Frage 2 markiert hat. Ein bis zwei Abschnitte neu in Frage 1 (dynamisches Potenzial, neurobiologische Grundlage) plus 1 bis 2 Saetze in Frage 2 (Graphomotorik und Hirnplastizitaet). Das hebt die Foerderplanung fuer S. von 'paedagogisch plausibel' auf 'neurobiologisch begruendet'."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Kinder sind nicht die Sklaven ihrer Gene."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Gene brauchen Umweltsignale, um zu wirken."
+          },
+          {
+            "location": "chapters[].memorable_quotes[2]",
+            "frage": null,
+            "text": "[Zitat muendl.] Das Gehirn ist das Resultat seiner Benutzung."
+          },
+          {
+            "location": "chapters[].memorable_quotes[3]",
+            "frage": null,
+            "text": "[Zitat muendl.] Lernen macht intelligent, nicht umgekehrt."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Gene wirken nicht selbstaktiv: Genexpression wird durch Umweltsignale ausgeloest."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Epigenetik: Lebenserfahrungen hinterlassen Spuren, die Genaktivitaet ein- oder ausschalten (ohne DNA-Sequenz zu veraendern)."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Kein Begabungsgen, kein Intelligenzgen: kognitive Eigenschaften sind zu komplex fuer monogenetische Erklaerung."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Hirnplastizitaet lebenslang: Synapsen werden gebildet und abgebaut, Gehirn ist 'Resultat seiner Benutzung'."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Sensible Phasen: bestimmte Faehigkeiten (Sprache, Musizieren, Graphomotorik) erfordern frueze Entwicklung."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] 'use it or lose it': Verbindungen ohne Aktivitaet werden abgebaut."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Lernen als Konstruktion: Wissen wird nicht passiv aufgenommen, sondern auf Basis individuellen Vorwissens konstruiert."
+          },
+          {
+            "location": "chapters[].key_ideas[7]",
+            "frage": null,
+            "text": "[Kernidee] Wahrnehmung ist immer interpretierend: Gehirn hat keine direkte Information ueber die Welt, nur elektrische Signalmuster."
+          },
+          {
+            "location": "chapters[].key_ideas[8]",
+            "frage": null,
+            "text": "[Kernidee] Begabung = dynamische Lernleistungsfaehigkeit zu einem bestimmten Zeitpunkt, nicht statischer Vorrat."
+          },
+          {
+            "location": "chapters[].key_ideas[9]",
+            "frage": null,
+            "text": "[Kernidee] Intelligenz bemisst das bereits Gelernte, nicht das Potenzial ('Lernen macht intelligent', Neubauer/Stern 2013)."
+          },
+          {
+            "location": "chapters[].key_ideas[10]",
+            "frage": null,
+            "text": "[Kernidee] Expertiseforschung: 10 000-Stunden-Regel stark relativiert, Begabungsunterschiede moderieren."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "grabnermeier2021expertise": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Die Entwicklung von Expertise",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Die Entwicklung von Expertise",
+        "chapter_authors": "Grabner / Meier",
+        "pages": "149--167",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "low",
+          "primary": "FW2, BW4",
+          "secondary": "FW1"
+        },
+        "integration_hints_count": 12,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "FW2",
+            "text": "Anker: Schach als Foerdermedium fuer Schrift, Sprache und Beteiligung — cite_optional — (Grund: Liefert die kognitionspsychologische Basis fuer die bereits im Lerndokument vorgenommene Abgrenzung: kein Ferntransfer von Schachtraining auf Mathematik oder Lesen. Staerkt die Argumentation gegen uebertriebene Transfer-Hoffnungen.)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "BW4",
+            "text": "Anker: Enrichment als Gegenmodell: Das Schoolwide Enrichment Model — cite_optional — (Grund: Die 10 000-Stunden-Regel und ihre empirische Relativierung geben dem Enrichment-Typ III (eigenstaendige Projektarbeit) eine entwicklungspsychologische Fundierung.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Optional. Im Lerndokument ist der 'Ferntransfer'-Absatz in Frage 2 bereits solide. Grabner und Meier wuerden ihn empirisch stuetzen, aber sind nicht pruefungskritisch. Eher als Ruecklage fuer ergaenzende Fragen zur Rolle von Begabung vs. Uebung."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Die 10 000-Stunden-Regel ist empirisch ueberschaetzt; Begabung moderiert."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Expertise beruht auf strukturiertem Wissen, nicht auf Stundenzahl allein."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Chunking (de Groot, Chase und Simon 1973): Schach-Expert:innen erinnern sinnvolle Positionen deutlich besser, bei Zufallspositionen nur noch durchschnittlich."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Expertise beruht auf strukturierter domaenenspezifischer Wissensbasis, nicht auf genereller Intelligenz."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] 10 000-Stunden-Regel (Ericsson): oft zitiert, aber stark relativiert."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] Meta-Analysen (Hambrick, Macnamara, Oswald): deliberate practice erklaert nur 12 bis 34 % der Leistungsunterschiede."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Intelligenz bleibt relevant: Korrelationen mit Expertise im Schach etwa 0.24, in Musik 0.20 bis 0.30."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Magnus Carlsen als Gegenbeispiel zur strengen Uebungsthese: Grossmeistertitel im Alter von 13."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Deliberate Practice: hochstrukturiertes, zielgerichtetes Ueben mit Feedback, abgegrenzt von reinem Spiel oder Routinearbeit."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "urban2021kreativitaet": [
       {
         "source_file": "Teil1_Verortung_Transkripte_HandbuchBegabung.json",
-        "title": "Verortung der Transkripte aus dem Handbuch Begabung im Lerndokument",
+        "title": "[Chapter] Kreativitaet und Begabung",
         "transcript_file": null,
         "buch": "Handbuch Begabung",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
+        "chapter_title": "Kreativitaet und Begabung",
+        "chapter_authors": "Urban",
+        "pages": "168--183",
         "year": 2021,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "relevance_per_question": {
+          "priority": "medium",
+          "primary": "BW4, FW1"
+        },
+        "integration_hints_count": 12,
+        "integration_hints": [
+          {
+            "location": "chapters[].proposed_usage[0]",
+            "frage": "FW1",
+            "text": "Anker: Begabung als dynamisches Potenzial — cite_add — (Grund: Untermauert Renzullis Drei-Ringe-Modell (Kreativitaet als eigenstaendige Begabungskomponente) und liefert die Schwellentheorie (ab IQ 120 entkoppelt sich Kreativitaet von Intelligenz).)"
+          },
+          {
+            "location": "chapters[].proposed_usage[1]",
+            "frage": "BW4",
+            "text": "Anker: SOLUX: Strukturmerkmale und Wirklogik — cite_add — (Grund: Urbans 25 Prinzipien kreativitaetsfoerdernden Unterrichts lesen sich fast wie eine Checkliste fuer SOLUX: Wertschaetzung fuer Humor, freies Spiel, Fehlertoleranz, offene Ergebnisse. Staerkt die theoretische Fundierung der Wirklogik.)"
+          },
+          {
+            "location": "chapters[].recommendation_for_inti",
+            "frage": null,
+            "text": "[Empfehlung] Empfehlenswert. 1 bis 2 Saetze in Frage 4 (SOLUX-Wirklogik) genuegen, um die theoretische Fundierung zu verbreitern. Nicht in den Mittelpunkt ruecken, Kreativitaet ist nicht Intis Haupt-Argumentationslinie, aber ein sauberer Nebenstrang."
+          },
+          {
+            "location": "chapters[].memorable_quotes[0]",
+            "frage": null,
+            "text": "[Zitat muendl.] Kreativitaet ist nicht Merkmal weniger, sondern essentieller Lebensprozess."
+          },
+          {
+            "location": "chapters[].memorable_quotes[1]",
+            "frage": null,
+            "text": "[Zitat muendl.] Man lernt kreativ zu sein, indem man kreativ ist."
+          },
+          {
+            "location": "chapters[].key_ideas[0]",
+            "frage": null,
+            "text": "[Kernidee] Kreativitaet als eigenstaendige Begabungsdimension, nicht redundant mit Intelligenz."
+          },
+          {
+            "location": "chapters[].key_ideas[1]",
+            "frage": null,
+            "text": "[Kernidee] Schwellentheorie: bis IQ 120 schwacher positiver Zusammenhang, darueber entkoppelt."
+          },
+          {
+            "location": "chapters[].key_ideas[2]",
+            "frage": null,
+            "text": "[Kernidee] Komponentenmodell der Kreativitaet (sechs Bereiche): divergentes Denken, allgemeine Wissensbasis, fokusspezifisches Wissen, Offenheit und Ambiguitaetstoleranz, Motivation, Aufgabenbindung."
+          },
+          {
+            "location": "chapters[].key_ideas[3]",
+            "frage": null,
+            "text": "[Kernidee] 25 Prinzipien kreativitaetsfoerdernden Unterrichts (Urban-Sens-Inventar): Gruppenatmosphaere, Vermeidung von Konkurrenzneid, Wertschaetzung fuer Humor, freies Spiel und Manipulation, kreative Fehlertoleranz, offene Unterrichtsergebnisse."
+          },
+          {
+            "location": "chapters[].key_ideas[4]",
+            "frage": null,
+            "text": "[Kernidee] Kreativogene Umwelt (Stein): Gesellschaft und Schule sollen kreativ wirken, nicht nur erlauben."
+          },
+          {
+            "location": "chapters[].key_ideas[5]",
+            "frage": null,
+            "text": "[Kernidee] Verantwortliche Kretelligenz: ethisch fundierter Begabungsbegriff, der Intelligenz, Kreativitaet und moralische Verantwortung integriert."
+          },
+          {
+            "location": "chapters[].key_ideas[6]",
+            "frage": null,
+            "text": "[Kernidee] Dunkle Seite der Kreativitaet: kreative Produkte koennen auch zerstoererisch wirken."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 3
+        "role": "chapter_main"
       }
     ],
     "preckel2013hochbegabung": [
@@ -959,91 +1539,196 @@
     "muelleroppliger2021paeddiagnostik": [
       {
         "source_file": "Teil3_Verortung_Teil3_BegabungenErkennen.json",
-        "title": "",
+        "title": "[Chapter] Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik",
         "transcript_file": null,
-        "buch": "",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
-        "year": null,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "buch": "Handbuch Begabung",
+        "chapter_title": "Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik",
+        "chapter_authors": "Mueller-Oppliger",
+        "pages": "224--238",
+        "year": 2021,
+        "relevance_per_question": {
+          "priority": "A",
+          "primary": "FW1",
+          "secondary": "BW4, BW5"
+        },
+        "integration_hints_count": 3,
+        "integration_hints": [
+          {
+            "location": "chapters[].integration_hints[0]",
+            "frage": null,
+            "text": "Die 40-50-Prozent-Zahl laesst sich gut mit der Harradine-et-al.-2013-Studie (22 Prozent, bereits im Dossier) zur Dreifachstuetze kombinieren: Schweizer/deutsche Zahl, US-Zahl und TOPS-Intervention zeigen gemeinsam das strukturelle Problem."
+          },
+          {
+            "location": "chapters[].integration_hints[1]",
+            "frage": null,
+            "text": "Das Schweizer Screening-Verfahren ist namensgleich mit der Autorin des Kapitels: Salome Mueller-Oppliger (die Verfasserin) und Victor Mueller-Oppliger (Herausgeber, 2021 verstorben) haben es gemeinsam an der PH FHNW entwickelt. Im Pruefungsgespraech kann dieser Schweizer Bezug argumentativ genutzt werden."
+          },
+          {
+            "location": "chapters[].content.summary",
+            "frage": null,
+            "text": "[Abstract] Systematische Unterscheidung zwischen psychologischer Diagnostik (psychometrisch, standardisiert, ausserschulisch) und paedagogischer Diagnostik (dynamisch, auf Foerderung angelegt, im Unterricht verankert). Vorstellung von Screening-Verfahren und Argumentation fuer eine multiperspektivische, prozessorientierte Diagnostik im Schulalltag."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       }
     ],
     "gauckreimann2021psychdiagnostik": [
       {
         "source_file": "Teil3_Verortung_Teil3_BegabungenErkennen.json",
-        "title": "",
+        "title": "[Chapter] Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung",
         "transcript_file": null,
-        "buch": "",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
-        "year": null,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "buch": "Handbuch Begabung",
+        "chapter_title": "Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung",
+        "chapter_authors": "Gauck / Reimann",
+        "pages": "239--251",
+        "year": 2021,
+        "relevance_per_question": {
+          "priority": "A",
+          "primary": "FW1",
+          "secondary": "FW3, FW2"
+        },
+        "integration_hints_count": 6,
+        "integration_hints": [
+          {
+            "location": "chapters[].integration_hints[0]",
+            "frage": null,
+            "text": "Die Aisha-Vignette ist der staerkste Einzeltreffer des gesamten Transkripts. Sie beantwortet die empirische Luecke, die Mun et al. und Gubbins et al. mit US-Daten fuellen, mit einem deutschsprachigen Fallbeleg. Einbau in Frage 3 dringend empfohlen."
+          },
+          {
+            "location": "chapters[].integration_hints[1]",
+            "frage": null,
+            "text": "Die Lea-Vignette ist im Pruefungsgespraech eine gute Antwort auf die potenzielle Frage: Wie waere bei S. konkret diagnostisch vorzugehen. Antwort: analog zu Lea mit CFT 20-R plus WISC-V, bei WISC-V-Heterogenitaet den Allgemeinen Faehigkeitsindex (AFI) statt Gesamt-IQ interpretieren."
+          },
+          {
+            "location": "chapters[].integration_hints[2]",
+            "frage": null,
+            "text": "Der Begriff Testminderleistung (testing underperformance) ist ein wertvoller Terminus, der in deinem Lerndokument bisher fehlt. Er ergaenzt Preckel/Baudsons Underachievement-Begriff, indem er spezifisch die Diskrepanz zwischen Potenzial und Testergebnis (nicht zwischen Potenzial und schulischer Leistung) beschreibt."
+          },
+          {
+            "location": "chapters[].case_vignettes[0]",
+            "frage": "FW1",
+            "text": "[Vignette] Fall-Vignette Lea, 11 J. — Primarschule, Lehrer vermutet Autismus-Spektrum — Relevanz fuer Fall S.: Exakt gleiche Altersstufe wie S. Lea zeigt, wie heterogene Profile mit spezifischen Testverfahren (CFT 20-R sprachfrei, WISC-V profiliert) aufgeloest werden. Bei S. waere ein analoges Vorgehen mit CFT 20-R und WISC-V auf Englisch oder besser Albanisch mit Dolmetscherin zu empfehlen."
+          },
+          {
+            "location": "chapters[].case_vignettes[1]",
+            "frage": "FW1, FW3",
+            "text": "[Vignette] Fall-Vignette Aisha, 10 J. — Maedchen mit Migrationshintergrund, Underachievement, Lehrerin draengte zur Abklaerung — Relevanz fuer Fall S.: Direkter deutschsprachiger Quellenbeleg fuer das institutionelle Unteridentifikationsmuster. Unterstuetzt Stamms These der begabten Minoritaeten und ergaenzt Muns et al. US-Evidenz um einen deutschsprachigen Fallbeleg. S.s Konstellation (Junge, Migrationshintergrund, als stoerend wahrgenommen) ist strukturell analog zu Aisha."
+          },
+          {
+            "location": "chapters[].content.summary",
+            "frage": null,
+            "text": "[Abstract] Praxisorientierte Einfuehrung in die psychologische Hochbegabungsdiagnostik mit vier Prozessschritten: Erstgespraech, Testauswahl, Testdurchfuehrung, Auswertung und Interpretation, Rueckmeldung. Zwei Fallvignetten illustrieren die Bandbreite: Lea (potenzielle Hochbegabung mit Autismusverdacht) und Aisha (Migrationshintergrund mit Underachievement, dessen ADHS-Diagnose die Hochbegabung zufaellig aufdeckt)."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       }
     ],
     "stahl2021mbet": [
       {
         "source_file": "Teil3_Verortung_Teil3_BegabungenErkennen.json",
-        "title": "",
+        "title": "[Chapter] Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler Foerderdiagnostik",
         "transcript_file": null,
-        "buch": "",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
-        "year": null,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "buch": "Handbuch Begabung",
+        "chapter_title": "Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler Foerderdiagnostik",
+        "chapter_authors": "Stahl",
+        "pages": "252--258",
+        "year": 2021,
+        "relevance_per_question": {
+          "priority": "B",
+          "primary": "FW1",
+          "secondary": "BW5"
+        },
+        "integration_hints_count": 2,
+        "integration_hints": [
+          {
+            "location": "chapters[].integration_hints[0]",
+            "frage": null,
+            "text": "Das mBET ist inhaltlich bereits in Kapitel 3.1 (Mueller-Oppliger, S.) erwaehnt. Wer Platz im Seitenbudget sparen moechte, kann mBET einmal in Frage 1 ueber den Mueller-Oppliger-Eintrag abdecken und auf einen eigenen Stahl-Eintrag verzichten."
+          },
+          {
+            "location": "chapters[].content.summary",
+            "frage": null,
+            "text": "[Abstract] Detaillierte Vorstellung des mBET als ressourcenorientiertes foerderdiagnostisches Instrument des OeZBF (Oesterreichisches Zentrum fuer Begabungsfoerderung und Begabtenforschung). Das Tool umfasst drei in den Kategorien identische Fragebogen fuer Lehrpersonen, Eltern und Lernende und operationalisiert damit das Prinzip der Multiperspektivitaet."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       }
     ],
     "koopseddig2021frueheserkennen": [
       {
         "source_file": "Teil3_Verortung_Teil3_BegabungenErkennen.json",
-        "title": "",
+        "title": "[Chapter] Fruehes Erkennen von hohen Begabungen",
         "transcript_file": null,
-        "buch": "",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
-        "year": null,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "buch": "Handbuch Begabung",
+        "chapter_title": "Fruehes Erkennen von hohen Begabungen",
+        "chapter_authors": "Koop / Seddig",
+        "pages": "260--270",
+        "year": 2021,
+        "relevance_per_question": {
+          "priority": "C",
+          "primary": "BW4",
+          "secondary": "FW3, FW1"
+        },
+        "integration_hints_count": 2,
+        "integration_hints": [
+          {
+            "location": "chapters[].integration_hints[0]",
+            "frage": null,
+            "text": "Falls Platz im Seitenbudget, kann dieser Eintrag als Zusatzbeleg fuer die These eingebracht werden, dass Begabung in der institutionellen Identifikation systematisch von Umweltbedingungen abhaengt. Bei engem Seitenbudget kann er weggelassen werden."
+          },
+          {
+            "location": "chapters[].content.summary",
+            "frage": null,
+            "text": "[Abstract] Diagnostik und Foerderung hoher Begabungen im Kindergartenalter. Zentrale These: Begabungsentwicklung haengt bei kleinen Kindern stark von Umweltbedingungen ab; in bildungsfernen Milieus braucht es Foerderung auf Verdacht, weil institutionelle Identifikation sonst nicht greift. Darstellung verschiedener Beobachtungsverfahren und kritische Diskussion der IQ-Diagnostik im Vorschulalter."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       }
     ],
     "preckel2021tad": [
       {
         "source_file": "Teil3_Verortung_Teil3_BegabungenErkennen.json",
-        "title": "",
+        "title": "[Chapter] Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive",
         "transcript_file": null,
-        "buch": "",
-        "chapter_title": null,
-        "chapter_authors": null,
-        "pages": null,
-        "year": null,
-        "relevance_per_question": {},
-        "integration_hints_count": 0,
-        "integration_hints": [],
+        "buch": "Handbuch Begabung",
+        "chapter_title": "Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive",
+        "chapter_authors": "Preckel",
+        "pages": "274--303",
+        "year": 2021,
+        "relevance_per_question": {
+          "priority": "A",
+          "primary": "FW1",
+          "secondary": "BW4, FW2"
+        },
+        "integration_hints_count": 4,
+        "integration_hints": [
+          {
+            "location": "chapters[].integration_hints[0]",
+            "frage": null,
+            "text": "Das TAD-Framework ist eine eigenstaendige, aktuellere Preckel-Quelle, nicht dasselbe wie preckel2013hochbegabung. Beide koennen parallel zitiert werden."
+          },
+          {
+            "location": "chapters[].integration_hints[1]",
+            "frage": null,
+            "text": "Der Fokus auf Person statt Umwelt kann im Pruefungsgespraech zu einer kritischen Nachfrage fuehren. Antwort: Preckel argumentiert explizit mit Komplexitaetsreduktion zur empirischen Ueberpruefbarkeit, nicht mit einer ontologischen Priorisierung der Person ueber die Umwelt."
+          },
+          {
+            "location": "chapters[].integration_hints[2]",
+            "frage": null,
+            "text": "Im Pruefungsgespraech ist die SMPY-Beobachtung (mathematisch Begabte waehlen MINT, verbal Begabte waehlen Sozial-/Geisteswissenschaften) ein starkes Argument fuer S.s Uebertrittsberatung: sein Profil (Mathematik, Schach) prognostiziert eine anspruchsvolle Sekundarstufen-Bildungsbahn."
+          },
+          {
+            "location": "chapters[].content.summary",
+            "frage": null,
+            "text": "[Abstract] Theoretische Darstellung des TAD-Frameworks (Talent Development in Achievement Domains), einer Weiterentwicklung des Mega-Modells von Subotnik, Olszewski-Kubilius und Worrell 2011. Das Framework beschreibt Talententwicklung als Prozess durch vier aufeinanderfolgende Phasen (Potenzial, Kompetenz, Expertise, aussergewoehnliche Leistung) und konzeptualisiert Begabung als dynamisches, domaenenspezifisches Profil psychologischer Faktoren."
+          }
+        ],
         "issues_count": 0,
-        "role": "mentioned_existing",
-        "mention_count": 1
+        "role": "chapter_main"
       }
     ],
     "stamm2021fehlenderblick": [

@@ -259,6 +259,64 @@ Preckel & Vock 2013 oder eine Satz-Umformulierung.
 
 ---
 
+<!-- REWRITES-START (manuell gepflegt; `collect_rewrites.py` aggregiert zu `REWRITES.md`) -->
+```yaml
+- tex_file: mpv.tex
+  line: 449
+  action: remove_key
+  old: '\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}'
+  new: '\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung}'
+  reason: >
+    Gardner-Bereichsliste (logisch-mathematisch, raeumlich, koerperlich-kinaesthetisch)
+    wird bei Preckel/Baudson nicht in dieser Form entfaltet. Nur mehrdimensionales
+    Hochbegabungsverstaendnis ist belegt, nicht die Bereichsliste selbst.
+  status: pending
+
+- tex_file: mpv.tex
+  line: 650
+  action: replace_key
+  old: '\textcite{preckel2013hochbegabung}'
+  new: '\textcite{preckel2021tad}'
+  reason: >
+    Preckel/Baudson 2013 (Beck) behandelt "dynamische Verfahren" nicht
+    (1x "dynamisch" im Buch, Kontext Renzulli). Preckel 2021 (Handbuch Begabung,
+    Kap. "Hochbegabungsdiagnostik: Testauswahl, Durchfuehrung, Interpretation")
+    deckt dynamische/prozessorientierte Diagnostik ab. BibKey bereits in Quellen.bib.
+  status: pending
+
+- tex_file: mpv.tex
+  line: 790
+  action: remove_key
+  old: '\parencite{preckel2013hochbegabung}'
+  new: '\parencite{maehler2018diagnostik}'
+  reason: >
+    Weder "wiederholte Erhebungen" noch "nonverbale Verfahren" in Preckel/Baudson.
+    maehler2018diagnostik deckt beides wortgetreu (S. 93 wiederholte Ueberpruefung;
+    S. 169/172 nonverbale Intelligenztests).
+  status: pending
+
+- tex_file: mpv.tex
+  line: 2747
+  action: replace_key
+  old: '\parencite{preckel2013hochbegabung,lemas2023begriffsklaerung}'
+  new: '\parencite{maehler2018diagnostik,lemas2023begriffsklaerung}'
+  reason: >
+    "prozessorientierte, dynamische Diagnostik" nicht in Preckel/Baudson.
+    maehler S. 320/325/338 belegt "Prozessdiagnostik" wortgetreu als Paraphrase.
+  status: pending
+
+- tex_file: mpv.tex
+  line: 3179
+  action: replace_key
+  old: '\parencite{lemas2023begriffsklaerung,preckel2013hochbegabung}'
+  new: '\parencite{lemas2023begriffsklaerung,maehler2018diagnostik}'
+  reason: >
+    Gleicher Grund wie L:2747 — Prozessdiagnostik durch maehler belegt,
+    nicht durch Preckel/Baudson.
+  status: pending
+```
+<!-- REWRITES-END -->
+
 ## Status-Zusammenfassung (nach Anwendung der Empfehlungen)
 
 | Urteil | vorher | nachher |

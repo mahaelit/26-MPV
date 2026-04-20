@@ -66,6 +66,9 @@ MAPPING: dict[str, tuple[str, str | None]] = {
         ("mun2020identifying", None),
     "Hochbegabung _ Erkennen, Verstehen, Fördern -- Preckel, Franzis; Baudson, Tanja Gabriele -- Verlag C_H_ Beck, München, 2013 -- Verlag C_H_.epub":
         ("preckel2013hochbegabung", None),
+    "Begabung _ Eine Einführung -- Gabriele Weigand; Victor Müller-Oppliger; Timo Hoyer -- Bookwire GmbH, Darmstadt, 2013 -- WBG Academic --.pdf":
+        ("hoyer2013begabung",
+         "Einfuehrungsband 2013 (WBG); Schwesterpublikation zum Handbuch Begabung 2021."),
     "HOCHBEGABUNG UND MIGRATIONSHINTERGRUND.pdf":
         ("reutlinger2015hochbegabung", None),
     "Migranten mit Potential Dossier MIRAGE def neu.pdf":

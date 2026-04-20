@@ -7,6 +7,13 @@
 
 ---
 
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
 
 <!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
 
@@ -14,14 +21,32 @@
 
 Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
 
-### Verortung als Einzel-Zitatstelle
+### Haupt-Kapitel aus Multi-Chapter-Transkript
 
 #### `Teil1_Verortung_Transkripte_HandbuchBegabung.json`
 
 - **Buch:** Handbuch Begabung (2021)
-- **Kapitel:** —
-- **Seiten:** —
-- **Anzahl Zitatstellen:** 3
+- **Kapitel:** Was Menschen ueber (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven
+- **Autor:innen:** Baudson
+- **Seiten:** 115--131
+- **Pruefungsfragen-Relevanz:** **primary**: BW5, FW3; **priority**: medium; **secondary**: FW1
+
+**Integration-Hints** (7 gesamt, Anzeige gekappt):
+
+- **[BW5]** Anker: Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit — cite_add — (Grund: Laien- und Fachpersonenvorstellungen ueber Hochbegabung beeinflussen paedagogische Wahrnehmungsmuster systematisch. Liefert die empirische Unterfuetterung fuer den 'Deficit Detectors vs. Talent Scouts'-Kontrast.)  
+  _(chapters[].proposed_usage[0])_
+- **[FW3]** Anker: Anerkennung als paedagogische Grundkategorie — cite_optional — (Grund: Stereotype ueber Hochbegabte (Disharmonie-Hypothese) koennen die Wahrnehmung von Kindern wie S. zusaetzlich verzerren.)  
+  _(chapters[].proposed_usage[1])_
+- [Empfehlung] Erst nach Zugriff auf den vollstaendigen Text zitieren. Wenn der Volltext verfuegbar ist, an einer Stelle in Frage 5 einbauen, um die Wahrnehmungskritik im Team empirisch zu fundieren.  
+  _(chapters[].recommendation_for_inti)_
+- [Kernidee] Stereotype ueber Hochbegabte sind kulturell stabil und beeinflussen paedagogische Urteile.  
+  _(chapters[].key_ideas[0])_
+- [Kernidee] Disharmonie-Hypothese: Hochbegabte gelten als sozial auffaellig und emotional schwierig.  
+  _(chapters[].key_ideas[1])_
+- [Kernidee] Implizite Begabungstheorien von Laien unterscheiden sich systematisch von wissenschaftlichen.  
+  _(chapters[].key_ideas[2])_
+- [Kernidee] Weitere Inhalte im vorliegenden Transkript nicht erfasst, da es abbricht.  
+  _(chapters[].key_ideas[3])_
 
 <!-- TRANSKRIPTE-END -->
 

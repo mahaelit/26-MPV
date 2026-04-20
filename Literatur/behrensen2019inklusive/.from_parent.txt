@@ -1,0 +1,5 @@
+parent_key: reintjes2019begabungsfoerderung
+split_file: 043_birgit_behrensen_inklusive_begabungsfoerderung_ein.pdf
+split_pages: 88-100
+chapter_pages: 86-98
+chapter_title: Inklusive {Begabungsförderung} -- eine {Antwort} auf {Bildungsherausforderungen} in {Zeiten} von {Fluchtmigration}

@@ -7,6 +7,13 @@
 
 ---
 
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
 
 <!-- TRANSKRIPTE-START (automatisch durch integrate_transkripte.py erzeugt; nicht manuell editieren) -->
 
@@ -14,14 +21,22 @@
 
 Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte sind kuratierte Originalquellen** und sollten bei inhaltsgleichen Belegstellen bevorzugt gegenueber heuristisch gefundenen Textausschnitten verwendet werden.
 
-### Verortung als Einzel-Zitatstelle
+### Haupt-Kapitel aus Multi-Chapter-Transkript
 
 #### `Teil3_Verortung_Teil3_BegabungenErkennen.json`
 
-- **Buch:** — (—)
-- **Kapitel:** —
-- **Seiten:** —
-- **Anzahl Zitatstellen:** 1
+- **Buch:** Handbuch Begabung (2021)
+- **Kapitel:** Fruehes Erkennen von hohen Begabungen
+- **Autor:innen:** Koop / Seddig
+- **Seiten:** 260--270
+- **Pruefungsfragen-Relevanz:** **primary**: BW4; **priority**: C; **secondary**: FW3, FW1
+
+**Integration-Hints** (2 gesamt, Anzeige gekappt):
+
+- Falls Platz im Seitenbudget, kann dieser Eintrag als Zusatzbeleg fuer die These eingebracht werden, dass Begabung in der institutionellen Identifikation systematisch von Umweltbedingungen abhaengt. Bei engem Seitenbudget kann er weggelassen werden.  
+  _(chapters[].integration_hints[0])_
+- [Abstract] Diagnostik und Foerderung hoher Begabungen im Kindergartenalter. Zentrale These: Begabungsentwicklung haengt bei kleinen Kindern stark von Umweltbedingungen ab; in bildungsfernen Milieus braucht es Foerderung auf Verdacht, weil institutionelle Identifikation sonst nicht greift. Darstellung verschiedener Beobachtungsverfahren und kritische Diskussion der IQ-Diagnostik im Vorschulalter.  
+  _(chapters[].content.summary)_
 
 <!-- TRANSKRIPTE-END -->
 

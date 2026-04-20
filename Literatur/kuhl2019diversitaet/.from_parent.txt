@@ -1,0 +1,5 @@
+parent_key: reintjes2019begabungsfoerderung
+split_file: 021_julius_kuhl_und_franz_hofmann_diversitaet_und_pers.pdf
+split_pages: 38-61
+chapter_pages: 35-57
+chapter_title: Diversität und {Persönlichkeit}: {Begabungsentfaltung} im {Kontext} der pädagogischen {Beziehung}
