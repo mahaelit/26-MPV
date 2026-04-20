@@ -4,7 +4,7 @@ _Stand: 20. April 2026 · Autor: Pascal_
 
 Hallo Inti 👋
 
-Dieses Dokument erklärt dir **genau**, was du ohne KI-Hilfe beitragen kannst.
+Dieses Dokument erklärt dir **genau**, was du machen könntest.
 Du brauchst dafür nur:
 
 - einen **Texteditor** (VS Code ist schon installiert, aber auch Word/Notepad++ geht),
@@ -18,9 +18,9 @@ Alles, was du unten machst, sind **Lese-, Recherche- und kleine Text-Edit-Aufgab
 
 ## 1. Worum geht es überhaupt?
 
-Pascal schreibt seine **Vertiefungsarbeit für den MAS-Heilpädagogik**.
-Am **1. Mai 2026** wird das finale **Abgabedokument** eingereicht. Parallel führt er
-ein viel ausführlicheres **Lerndokument** für die mündliche Prüfung.
+Du schreibst deine **Vertiefungsarbeit für den MAS-Heilpädagogik**.
+Am **1. Mai 2026** wird das finale **Abgabedokument** eingereicht. Parallel wird ein 
+ein viel ausführlicheres **Lerndokument** für die mündliche Prüfung geführt.
 
 ```
 Lerndokument (mpv.tex)         =  ausführlich, darf etwas "weicher" sein
