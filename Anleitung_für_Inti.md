@@ -1,6 +1,6 @@
 # Anleitung für Inti – Manuelle Arbeiten an der MPV-Abgabe
 
-_Stand: 20. April 2026 · Autor: Pascal_
+_Stand: 20. April 2026 · zusammengestellt von Pascal für Inti_
 
 Hallo Inti 👋
 
@@ -19,8 +19,13 @@ Alles, was du unten machst, sind **Lese-, Recherche- und kleine Text-Edit-Aufgab
 ## 1. Worum geht es überhaupt?
 
 Du schreibst deine **Vertiefungsarbeit für den MAS-Heilpädagogik**.
-Am **1. Mai 2026** wird das finale **Abgabedokument** eingereicht. Parallel wird ein 
-ein viel ausführlicheres **Lerndokument** für die mündliche Prüfung geführt.
+Am **1. Mai 2026** wird das finale **Abgabedokument** eingereicht. Parallel
+führst du ein viel ausführlicheres **Lerndokument** für die mündliche Prüfung.
+
+Pascal unterstützt dich **technisch**: Er verwaltet das Repo, lässt die Skripte
+laufen, baut Reports und kümmert sich um die Git-Versionierung. **Du** entscheidest
+inhaltlich über Quellen, Zitate und Text. Diese Anleitung zeigt dir, was du
+selbst erledigen kannst – Pascal übernimmt alles, was Programmierung erfordert.
 
 ```
 Lerndokument (mpv.tex)         =  ausführlich, darf etwas "weicher" sein
@@ -31,7 +36,7 @@ Ein externer Gutachter hat den aktuellen Stand reviewt und klar gesagt:
 
 > **„Für die Abgabe gilt: lieber weniger Quellen, aber jede einzelne formal und inhaltlich belastbar, als ein grosses Literaturfeld mit ROT/GELB-K/Proxy-Belegen."**
 
-Genau hier kannst **du** helfen, ohne KI.
+Genau hier liegt der Fokus deiner manuellen Arbeit – ohne KI, ohne Skripte.
 
 ---
 
@@ -41,7 +46,7 @@ Der Review trennt die Quellen in drei Schichten:
 
 | Ebene | Was heisst das | Beispiel |
 |---|---|---|
-| 1. **Prüfungsnützlich** | Pascal kennt und mag die Quelle, nutzt sie für die mündliche Prüfung | viele GELB-Quellen |
+| 1. **Prüfungsnützlich** | Die Quelle ist für deine mündliche Prüfung hilfreich, auch wenn formal noch unvollständig | viele GELB-Quellen |
 | 2. **Bibliografisch korrekt** | Autor/Jahr/Titel/Seitenzahlen sind nachprüfbar richtig (APA 7) | z. B. ISBN stimmt |
 | 3. **Seitenbeleg verifiziert** | Die konkrete Behauptung ist durch ein wortgetreues Zitat mit Seitenangabe aus dem Original belegt | `verified_quotes.md` Status 4 |
 
@@ -52,7 +57,7 @@ Deine Arbeit hilft uns genau dabei.
 
 ## 3. Die wichtigste Regel der nächsten zwei Wochen
 
-Das Abgabedokument hat **nur 4 inhaltlich kritische Zitat-Stellen** in der Einleitung:
+Dein Abgabedokument hat **nur 4 inhaltlich kritische Zitat-Stellen** in der Einleitung:
 
 | Stelle | Zeile in `mpv_abgabedokument.tex` | Aktuelle Quellen |
 |---|---|---|
@@ -61,7 +66,7 @@ Das Abgabedokument hat **nur 4 inhaltlich kritische Zitat-Stellen** in der Einle
 | A3 | 176 | `dvs2025bbf` |
 | A4 | 204 | `kappus2010migration`, `stamm2012migranten` |
 
-> **Wenn diese 4 Stellen sauber sind, ist die Abgabe praktisch sicher.**
+> **Wenn diese 4 Stellen sauber sind, ist deine Abgabe praktisch sicher.**
 
 Alles andere ist „nice to have" oder Fliesstext ohne tragende Behauptung.
 
@@ -172,14 +177,14 @@ pages = {160--173},
 - **ISBN:** 978-3-264-83605-9
 - **Umfang:** 112 Seiten
 
-**Bitte Pascal fragen, bevor du etwas änderst.** Schreib in dein Protokoll nur:
+**Besprich das mit Pascal, bevor etwas geändert wird.** Schreib in dein Protokoll:
 
-> ⚠️ `brunner2021hochbegabung` hat falsches Jahr/Verlag. Korrektur wartet auf Pascal.
+> ⚠️ `brunner2021hochbegabung` hat falsches Jahr/Verlag. Korrektur mit Pascal besprechen.
 > Belege:
 > - https://www.klett.ch/shop/reihe/spektrum-schule/artikel/978-3-264-83605-9
 > - https://www.lehmanns.de/shop/schulbuch-lexikon-woerterbuch/6521003-9783264836059
 
-**Hintergrund:** Die Korrektur ändert auch den BibKey-Namen (`brunner2005hochbegabung`), was andere Stellen im TeX brechen kann. Pascal muss das zentral lösen.
+**Hintergrund:** Die Korrektur würde auch den BibKey-Namen (z. B. auf `brunner2005hochbegabung`) ändern, was andere Stellen im TeX brechen kann. Das löst Pascal zentral mit einem Skript.
 
 ---
 
@@ -211,7 +216,7 @@ Falls das Feld `date` schon existiert, den Wert anpassen. Falls nur `year = {201
 
 **Problem:** Der Eintrag ist als `@article` modelliert mit Stern als Autorin. Aber es ist ein **Webartikel von Alex Rudolf** (Journalist) *über* ein Interview mit Stern.
 
-**Bitte Pascal fragen.** Schreib in dein Protokoll:
+**Mit Pascal besprechen.** Schreib in dein Protokoll:
 
 > ⚠️ `stern2025intelligenz` ist ein Web-Interview von Alex Rudolf (19.03.2025), nicht ein Artikel von Elsbeth Stern. Type muss von `@article` auf `@online` geändert werden. Richtiger Autor: Alex Rudolf.
 > Beleg: https://www.bildungschweiz.ch/detail/die-intelligenz-kann-sichim-schulalter-noch-veraendern
@@ -242,7 +247,7 @@ Falls das Feld `date` schon existiert, den Wert anpassen. Falls nur `year = {201
 
 **Aktion:** Nur protokollieren:
 
-> ⚠️ `kellerkoller2021hellekoepfe` – unklar, ob Keller-Koller wirklich Kapitelautorin ist. Buch ist von Joëlle Huser. Pascal muss Buchinnenseite beschaffen oder Eintrag entfernen.
+> ⚠️ `kellerkoller2021hellekoepfe` – unklar, ob Keller-Koller wirklich Kapitelautorin ist. Buch ist von Joëlle Huser. Entscheidung: entweder Buchinnenseite beschaffen oder Eintrag entfernen. Mit Pascal besprechen.
 
 ---
 
@@ -274,8 +279,8 @@ https://volksschulbildung.lu.ch/-/media/Volksschulbildung/Dokumente/aufsicht_eva
 2. Im Protokoll notieren:
 
 > ✅ Konkreter Luzerner Evaluationsbericht gefunden und abgespeichert unter
-> `Literatur/dvs2025bbf/source_evaluationsbericht.pdf`. Pascal muss entscheiden,
-> ob der BibKey `dvs2025bbf` umgebogen oder ein neuer Key (`dvs2025eval`) angelegt wird.
+> `Literatur/dvs2025bbf/source_evaluationsbericht.pdf`. Mit Pascal besprechen:
+> BibKey `dvs2025bbf` umbiegen oder neuen Key (`dvs2025eval`) anlegen?
 
 ---
 
@@ -337,18 +342,18 @@ Manche Quellen haben aktuell kein PDF im Repo (sogenannte ROT-Quellen). Dann:
 
 - Im Protokoll als **"PDF fehlt"** markieren.
 - Übergehen und mit der nächsten Quelle weitermachen.
-- Diese Quellen landen dann in Aufgabe D (Beschaffung).
+- Diese Quellen landen dann in Aufgabe D (Beschaffung) oder Pascal besorgt sie.
 
 ### Hinweis zum Review-Urteil
 
 Der Review empfiehlt für jede der 4 Stellen auch **alternative Quellen**, die ohne Umwege belegt werden könnten:
 
-- **A1:** `erzinger2023pisa` + `bfs2022migration` reichen (Stamm rauslöschen? Pascal entscheidet).
+- **A1:** `erzinger2023pisa` + `bfs2022migration` reichen (Stamm rauslöschen? Mit Pascal besprechen).
 - **A2:** primär `leikhof2021jugendliche`.
 - **A3:** durch den konkreten DVS-Evaluationsbericht ersetzen.
 - **A4:** alternativ `kellerkoller2011erkennen`, `reutlinger2015hochbegabung`, `maehler2018diagnostik`.
 
-**Das sind Optionen für Pascal** – du musst diese alternativen Quellen nicht selbst einbauen, aber wenn du bei deinem Beleg-Check feststellst, dass eine dieser Alternativen besser passt, notier das im Protokoll.
+**Das sind Entscheidungsoptionen, die du mit Pascal besprichst** – du musst diese alternativen Quellen nicht selbst einbauen. Wenn du bei deinem Beleg-Check feststellst, dass eine dieser Alternativen besser passt als die aktuell zitierte, notier das im Protokoll.
 
 ---
 
@@ -412,13 +417,16 @@ Für jede Quelle, für die du in Aufgabe B einen Beleg gefunden hast:
 - **Eigene Formulierungen** gehen in den Abschnitt „Kontext", nicht ins Zitat.
 - **Umlaute und Sonderzeichen** genau so übernehmen wie im Original.
 
+Das gehört zu den Teilen, die **nur du** (als Autorin mit direktem Blick ins Buch)
+sinnvoll machen kannst – die KI kann hier nicht einspringen.
+
 ---
 
 ## 8. Aufgabe D – `BESCHAFFUNG.md` priorisiert abarbeiten (optional)
 
 Wenn du Zeit hast: Öffne `BESCHAFFUNG.md`. Dort sind 22 ROT-Quellen nach Priorität sortiert.
 
-### Die wichtigsten Quellen für uns
+### Die wichtigsten Quellen
 
 Aus der strategischen Analyse (siehe `FRAGEN_ABSTIMMUNG.md`, wenn du neugierig bist):
 
@@ -440,8 +448,8 @@ Aus der strategischen Analyse (siehe `FRAGEN_ABSTIMMUNG.md`, wenn du neugierig b
 6. Im Protokoll festhalten, welche Quellen du besorgt hast.
 
 ### Hinweis
-- **Bitte keine Piraterie-Seiten** (libgen, sci-hub) – die Abgabe muss sauber sein.
-- Wenn ein Buch nur als E-Book bestellbar ist, ruf Pascal an, bevor du kaufst.
+- **Keine Piraterie-Seiten** (libgen, sci-hub) – die Abgabe muss sauber sein.
+- Wenn ein Buch nur als E-Book bestellbar ist, sprich vorher mit Pascal.
 
 ---
 
@@ -466,7 +474,7 @@ Aus der strategischen Analyse (siehe `FRAGEN_ABSTIMMUNG.md`, wenn du neugierig b
 
 ## 10. Dein Arbeits-Protokoll
 
-Erstelle im Root-Ordner die neue Datei `Inti_Protokoll.md`. Darin dokumentierst du **alles**, was du machst. Vorlage:
+Erstelle im Root-Ordner die neue Datei `Inti_Protokoll.md`. Darin dokumentierst du **alles**, was du machst. Damit kann Pascal dich gezielt unterstützen, ohne dass du Skripte laufen lassen musst. Vorlage:
 
 ```markdown
 # Inti-Protokoll
@@ -508,12 +516,12 @@ _Beginn: 2026-04-20 · Status: in Bearbeitung_
 
 ## Fragen an Pascal
 
-1. `brunner2021hochbegabung`: Soll ich den Key umbenennen?
+1. `brunner2021hochbegabung`: Key umbenennen?
 2. `stern2025intelligenz`: neuer Key als @online?
 ...
 ```
 
-So weiss Pascal immer, wo du stehst, ohne dass du irgendein Skript laufen lassen musst.
+So sieht Pascal immer, wo du stehst, und kann dir an den richtigen Stellen helfen.
 
 ---
 
@@ -522,8 +530,8 @@ So weiss Pascal immer, wo du stehst, ohne dass du irgendein Skript laufen lassen
 | Regel | Warum |
 |---|---|
 | **Immer vorher Backup** der Datei, die du änderst | Falls etwas schiefgeht, ist die Originalversion noch da |
-| **Keine `.tex`-Dateien editieren** (weder `mpv.tex` noch `mpv_abgabedokument.tex`) | Das sind die Hauptdokumente, da gehen Änderungen schnell schief |
-| **Keine Python/Julia-Skripte ausführen** | Dafür ist Pascal zuständig |
+| **Keine `.tex`-Dateien editieren** (weder `mpv.tex` noch `mpv_abgabedokument.tex`) | Das sind die Hauptdokumente – Pascal baut dort die inhaltlichen Änderungen ein, die ihr gemeinsam beschliesst |
+| **Keine Python/Julia-Skripte ausführen** | Macht Pascal für dich, sobald neue Daten vorliegen |
 | **Keine Dateien im Unterordner `excerpts/` ändern** | Die werden automatisch generiert |
 | **Bei Unsicherheit: Pascal fragen** | Lieber einmal zu viel als zu wenig |
 
@@ -551,9 +559,9 @@ Wenn du fertig bist:
 
 ---
 
-## 13. Was du **nicht** tun sollst (um Pascal zu schützen)
+## 13. Was du **nicht** selbst tun solltest (Pascal übernimmt das)
 
-- ❌ Keine Inhalte in `mpv.tex` oder `mpv_abgabedokument.tex` ändern (das macht Pascal).
+- ❌ Keine Inhalte in `mpv.tex` oder `mpv_abgabedokument.tex` ändern – diese baut Pascal nach eurer gemeinsamen Entscheidung ein.
 - ❌ Keine Dateien löschen.
 - ❌ Keine `git push`/`git commit` ausführen.
 - ❌ Kein Skript (`.py`, `.jl`) laufen lassen.
@@ -571,24 +579,24 @@ A: Strg+F drücken und exakt den Key-Namen eingeben (ohne `@...{` und ohne Komma
 A: Nimm die **gedruckte** Seitenzahl (die aus dem Buch), nicht den Scroll-Zähler. Oft gibt's im PDF sowohl eine Dokument-interne Nummerierung als auch eine gedruckte.
 
 **Q: Der Satz im Abgabedokument steht so **exakt** nicht in der Quelle.**
-A: Das ist normal. Eine Behauptung darf paraphrasiert zitiert werden. Wichtig ist, dass die **Kernaussage** im Zitat auffindbar ist. Wenn du nur eine halbwegs passende Stelle findest, markier im Protokoll „passt teilweise" und schreib deine Begründung dazu. Pascal kann dann entscheiden.
+A: Das ist normal. Eine Behauptung darf paraphrasiert zitiert werden. Wichtig ist, dass die **Kernaussage** im Zitat auffindbar ist. Wenn du nur eine halbwegs passende Stelle findest, markier im Protokoll „passt teilweise" und schreib deine Begründung dazu. Dann entscheidet ihr gemeinsam.
 
 **Q: Ich will eine Quelle ganz aus einem Zitat entfernen.**
-A: Nicht selbst machen – nur im Protokoll vorschlagen. Pascal entscheidet.
+A: Nicht selbst machen – nur im Protokoll vorschlagen. Pascal baut das im TeX ein, sobald ihr es besprochen habt.
 
 **Q: Eine PDF-Datei ist riesig (>500 Seiten) und ich finde nichts.**
 A: Lass sie. Markiere im Protokoll „zu umfangreich ohne TOC". Pascal hat Skripte, die Kapitel-Splits erzeugen können.
 
 **Q: Swisscovery braucht eine Anmeldung.**
-A: Frag Pascal nach seinem SLSP-Login. Oder registriere dich mit deinem eigenen – das ist kostenlos.
+A: Du hast als PH-Studierende Zugang – einfach mit deinem SWITCH-edu-ID-Login anmelden. Falls das nicht klappt, sprich Pascal an.
 
 ---
 
 ## 15. Schlusswort
 
-Inti, alles was du in Aufgabe A und B machst, bringt die Abgabe deutlich näher ans wasserdichte Ziel. Die Skripte und die KI können vieles, aber sie können **nicht** in einem gedruckten Buch auf Seite 42 nachschauen. Genau das tust du, und das ist der Punkt, an dem diese Arbeit steht.
+Inti, alles was du in Aufgabe A und B machst, bringt deine Abgabe deutlich näher ans wasserdichte Ziel. Die Skripte und die KI können vieles, aber sie können **nicht** in einem gedruckten Buch auf Seite 42 nachschauen. Genau das ist **deine** Rolle – und sie ist zentral für die Qualität der Abgabe.
 
-Bei Fragen: Pascal ist da. Bei technischen Problemen mit VS Code: im Zweifel zuerst `Strg+Z` drücken, dann Pascal fragen.
+Pascal hilft dir bei allem Technischen: Skripte laufen lassen, TeX-Bearbeitung, Git, Kompilation. Bei Fragen oder wenn du nicht weiterkommst: einfach ansprechen. Bei Problemen mit VS Code: zuerst `Strg+Z` drücken, dann fragen.
 
 **Viel Erfolg!** 💙
 
