@@ -76,27 +76,38 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
+### Zitat 1 (S. 160, Zusammenfassung)
 
-> „Wortgetreues Zitat hier einfuegen.“
+> „Das Thema gender- und diversitätssensible Begabungsförderung und Inklusion stellt eine Herausforderung sowohl für die Gleichstellung der Geschlechter wie auch die Teilhabe der unterschiedlichen Kulturen in der Schule dar. […] Die Analyse der unterschiedlichen Förderbedarfe von begabten Mädchen und Jungen sowie der Kinder mit Migrationshintergrund belegt die Unterschiede in der Sichtbarkeit und Akzeptanz der Begabung und die Förderbedarfe der genannten Gruppen." (S. 160)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Trägt die Lerndokument-Behauptung (Frage 5), dass diversitätssensible Begabungsförderung eine doppelte Professionalisierungsaufgabe ist (individuelle Kompetenz + strukturelle Veränderung) und dass die Sichtbarkeit von Begabung bei Kindern mit Migrationshintergrund signifikant eingeschränkt ist.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: § Frage 5, „Beratung der Klassenlehrperson", „Institutionelle Reflexion" (mpv.tex Z. ~2280, 2540, 3010)
+- Abgabedokument: Einleitung (Z. 169 zu Leikhof + Macha indirekt) + Kernliteratur Frage 5 (Z. ~428)
 
 ---
 
-### Zitat 2 (S. XX)
+### Zitat 2 (S. 161, Intersektionalität)
 
-> „…“
+> „Unter Umständen stehen die Inklusionsmerkmale in Interdependenz miteinander und können so zu Benachteiligungen in der Schule führen, insbesondere wenn sich der Migrationshintergrund mit Geschlecht und Armut verbindet — die Triade von race, class and gender führt zu spezifische[n…]" (S. 161)
 
-<...>
+**Kontext / Paraphrase:**
+Direkter Beleg für die intersektionale Argumentation (Migrationshintergrund + sozioökonomische Lage + Geschlecht), die im Fall S. mündlich aufgegriffen werden kann.
+
+**Verwendet in:** mündliche Vertiefung Frage 3 + Frage 5
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+### Verifikationsnachweis
+
+- **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
+- **Seitenbereich verifiziert:** S. 160 (Kapitelbeginn) — S. 173 (Ende Literaturverzeichnis); Fischer-Beitrag schliesst auf S. 174 an.
+- **Bib-Eintrag:** `pages = {160--173}`.
+
+---
+
+**Status:** 4 (Volltext geprueft, Seitenbereich + Belegzitate verifiziert)
+**Verifiziert am:** 2026-04-24
+**Bearbeitet durch:** Phase-3-Audit (Klinkhardt-Volltext aus pedocs)

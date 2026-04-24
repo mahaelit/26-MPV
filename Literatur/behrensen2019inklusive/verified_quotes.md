@@ -64,27 +64,36 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
+### Zitat 1 (S. 86, Zusammenfassung)
 
-> „Wortgetreues Zitat hier einfuegen.“
+> „In dem Aufsatz wird dargelegt, wie inklusive Begabungsförderung dazu beitragen kann, den Bildungsbedürfnissen von Geflüchteten zu begegnen. Wesentlich hi[er…]" (S. 86, Beginn der Zusammenfassung; Fortsetzung auf S. 87)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Trägt die Lerndokument-Behauptung (Frage 3, „Migration als kumulative Belastung"), dass inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration zu verstehen ist und dass die Gesamtbelastung kumulativ wirkt (Verlust sozialer Netzwerke, Sprache, prekäre Wohnsituation, Trauma).
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: § Frage 3, „Migration als kumulative Belastung" (mpv.tex Z. ~1335–1380, ~2480 Frage-3-Reflexion)
+- Abgabedokument: Einleitung E3-Migrationsbegriffsabsatz (Z. 239) + Kernliteratur Frage 3 (Z. 361)
 
 ---
 
-### Zitat 2 (S. XX)
+### Zitat 2 (S. 88, Definition inklusiver Begabungsförderung)
 
-> „…“
+> „Inklusive Begabungsförderung bedeutet, Heranwachsende in ihren individuellen Fähigkeiten unter Berücksichtigung ihrer Lebenssitua[tion …]" (S. 88, zentrale Definition; vollständig zitiert in Solzbacher 2018, S. 40–41)
 
-<...>
+**Kontext / Paraphrase:**
+Direkter Beleg für die ressourcen- statt defizitorientierte Lesart inklusiver Begabungsförderung — anschlussfähig an Frage 4 (SOLUX) und Frage 5 (SHP-Beratungshaltung).
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+### Verifikationsnachweis
+
+- **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
+- **Seitenbereich verifiziert:** S. 86 (Kapitelbeginn) — S. 98 (Ende Literaturverzeichnis); Hollen/Ossowski-Beitrag schliesst auf S. 99 an.
+- **Bib-Eintrag:** `pages = {86--98}` (13 Seiten).
+
+---
+
+**Status:** 4 (Volltext geprueft, Seitenbereich + Belegzitate verifiziert)
+**Verifiziert am:** 2026-04-24
+**Bearbeitet durch:** Phase-3-Audit (Klinkhardt-Volltext aus pedocs)

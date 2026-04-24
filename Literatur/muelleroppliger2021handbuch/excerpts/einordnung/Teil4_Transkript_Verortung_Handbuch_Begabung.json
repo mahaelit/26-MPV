@@ -1,0 +1,1136 @@
+{
+  "$schema_version": "1.0",
+  "meta": {
+    "title": "Verortung der Transkripte im Lerndokument",
+    "subtitle": "Zuordnung von sechs Buchkapitel-Transkripten aus dem Handbuch Begabungsförderung (Müller-Oppliger/Weigand 2021) zu Abschnitten im Lerndokument für die MA-SHP-Prüfung Vertiefung am 11.06.2026",
+    "created": "2026-04-19",
+    "language": "de-CH",
+    "student": {
+      "name": "Inti Merolli",
+      "program": "MA Schulische Heilpädagogik, PH Luzern",
+      "exam_date": "2026-06-11",
+      "submission_deadline": "2026-05-01"
+    },
+    "target_tex_document": "Teil_4_Begabende_Schule (Lerndokument)",
+    "fallcase_subject": "S., 11 Jahre, seit Januar 2025 in der Schweiz, A1 Deutsch, Schachexpertise im SOLUX-Projekt",
+    "encoding": "UTF-8",
+    "notes": [
+      "Alle sechs Transkripte stammen aus demselben Sammelband (siehe Feld 'source_book').",
+      "Seitenbereiche sind aus dem Transkript-Dokument rekonstruiert und mit dem TeX-Dokument abgeglichen.",
+      "Die 'priority_score'-Skala reicht von 1 (niedrig) bis 3 (hoch)."
+    ]
+  },
+  "source_book": {
+    "editors": [
+      {
+        "first": "Victor",
+        "last": "Müller-Oppliger"
+      },
+      {
+        "first": "Gabriele",
+        "last": "Weigand"
+      }
+    ],
+    "title": "Handbuch Begabungsförderung",
+    "subtitle": "Theorie, Konzepte, Empirie",
+    "year": 2021,
+    "publisher": "Beltz",
+    "location": "Weinheim",
+    "language": "de",
+    "existing_bibkey_for_volume": "muelleroppliger2021handbuch",
+    "attribution_confidence": "high",
+    "attribution_evidence": [
+      "Konsistenter Seitenbereich 302–398 über alle Transkripte.",
+      "Namentlich passende Kapitel (Weigand/Kaiser, Reis/Renzulli/Müller-Oppliger, Anderegg/Wilhelm) sind in diesem Sammelband nachweisbar.",
+      "Der bestehende Bibkey 'muelleroppliger2021handbuch' im TeX belegt die Präsenz des Bandes im Quellenkorpus."
+    ],
+    "verification_todo": "Vor Abgabe ISBN und konkrete Seitenbereiche in einer Bibliothek oder im eigenen Exemplar verifizieren."
+  },
+  "status_legend": {
+    "new": "Neu: separater @incollection-Eintrag in Quellen.bib erforderlich.",
+    "existing": "Bereits vorhanden: Bibkey in Quellen.bib eingetragen und im TeX zitiert.",
+    "partial": "Teilweise: inhaltlich bisher nur via Sammelband-Cite abgedeckt; separater Eintrag empfohlen."
+  },
+  "priority_legend": {
+    "high": "Hoch: zentraler Beleg, an mehreren Stellen einsetzbar, für die Prüfung argumentationskritisch.",
+    "medium": "Mittel: sinnvolle Ergänzung oder Präzisierung vorhandener Argumente.",
+    "low": "Niedrig: illustrativ, als Querverweis oder Zusatz für Vertiefungsfragen nützlich."
+  },
+  "transcripts": [
+    {
+      "id": "T1",
+      "authors": [
+        {
+          "first": "Niels",
+          "last": "Anderegg"
+        },
+        {
+          "first": "Urs",
+          "last": "Wilhelm"
+        }
+      ],
+      "chapter_title": "Begabungsfördernde Schulentwicklung und Schulführung",
+      "pages": {
+        "first": 302,
+        "last": 316,
+        "count": 15
+      },
+      "bibkey_suggested": "anderegg2021schulentwicklung",
+      "bibkey_existing": null,
+      "bib_status": "new",
+      "primary_question": {
+        "id": "frage5",
+        "label": "BW, ZB/PV – Beratung und Zusammenarbeit aus SHP-Perspektive"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage4",
+          "label": "BW, DG/PV – Inklusive Begabungsförderung am Beispiel SOLUX"
+        }
+      ],
+      "key_themes": [
+        "Begabungsfördernde Schule als dynamischer, systemischer Begriff",
+        "Kultur der Ermöglichung als Fundament von Entwicklung und Führung",
+        "Relationale Schulführung, Shared Leadership, Distributed Leadership",
+        "Lehrerseits versus lernenseits (Schratz): zwei Perspektiven der Schulentwicklung",
+        "Drei Kriterien nachhaltiger Schulentwicklung: Sinnhaftigkeit, Übertragbarkeit, Wirkung",
+        "Rekontextualisierung politischer Vorgaben (Ball/Maguire/Braun 2012)",
+        "Theorie-Praxis-Verhältnis als dialektisches Spannungsfeld (nicht Graben)"
+      ],
+      "placements": [
+        {
+          "placement_id": "T1-P1",
+          "passage": "Kultur der Ermöglichung als Fundament begabungsfördernder Schulen; Schulleitung als Trägerin von Positive Leadership",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Institutionelle Reflexion; ergänzend Kritische Reflexion Frage 4 (Nachhaltigkeit und Transfer)"
+          },
+          "supports_claim": "Die Kultur der Ermöglichung ist in begabungsfördernden Schulen auf allen Ebenen etabliert. Stützt die These, dass der Transfer aus SOLUX in den Regelunterricht kulturelle Verankerung braucht, nicht nur Einzelfallarbeit.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T1-P2",
+          "passage": "Lehrerseits und lernenseits nach Schratz: zwei Perspektiven der Schulentwicklung",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Kritische Reflexion: Nachhaltigkeit und Transfer (Ebene Schule)"
+          },
+          "supports_claim": "Der Fall S. ist ein klassischer lernenseits-Einstieg in Schulentwicklung: vom Einzelfall zur Systemveränderung. Das Begriffspaar gibt der SHP-Argumentation ein präzises theoretisches Label.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T1-P3",
+          "passage": "Rekontextualisierung politischer Vorgaben (Ball, Maguire und Braun 2012)",
+          "target_tex": {
+            "label": "sec:einleitung",
+            "section_title": "Einleitung",
+            "subsection": "Ausgangslage (Luzerner IBBF-Kontext); alternativ Frage 5, Institutionelle Reflexion"
+          },
+          "supports_claim": "Stützt die im TeX zitierte Aussage (dvs2025bbf), das IBBF-Konzept habe insgesamt geringe Priorität: Das ist Rekontextualisierung, nicht Widerstand.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T1-P4",
+          "passage": "Relationale Schulführung, Shared Leadership, Distributed Leadership",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Konsequenzen für das SHP-Professionsverständnis (Trias: Unabhängigkeit, Partnerschaftlichkeit, Wachsamkeit)"
+          },
+          "supports_claim": "Schärft die zweite Haltung 'reflexive Partnerschaftlichkeit': Führung ist ein responsiver Akt im Netzwerk, nicht hierarchisch. Passt direkt zur SHP-Rolle ohne formale Weisungsbefugnis.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T1-P5",
+          "passage": "Drei Kriterien nachhaltiger Schulentwicklung: Sinnhaftigkeit, Übertragbarkeit, Wirkung",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Kritische Reflexion: Nachhaltigkeit und Transfer"
+          },
+          "supports_claim": "Die drei Kriterien liefern eine prüfbare Checkliste für die geforderten Transfermassnahmen (SOLUX in den Regelunterricht). Strukturgebendes Raster für die Antwort.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T1-P6",
+          "passage": "Theorie-Praxis-Verhältnis als dialektisches Spannungsfeld, nicht als Graben",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Kooperation mit externen Fachstellen; Fallbeispiel missglückte Akzeleration, das zu multiprofessionellen Fallbesprechungen führte"
+          },
+          "supports_claim": "Belegt, dass die SHP als reflexive Brückenfigur zwischen Praxis und Forschung agiert. Stärkt das Professionsverständnis der SHP.",
+          "cite_suggestion": "\\parencite{anderegg2021schulentwicklung}",
+          "priority": "medium",
+          "priority_score": 2
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "authors": [
+        {
+          "first": "Miriam",
+          "last": "Vock"
+        }
+      ],
+      "chapter_title": "Akzeleration: Schneller durch die Schule? Effekte, Gelingensbedingungen und Risiken von Akzelerationsmassnahmen",
+      "pages": {
+        "first": 319,
+        "last": 329,
+        "count": 11
+      },
+      "bibkey_suggested": "vock2021akzeleration",
+      "bibkey_existing": null,
+      "bib_status": "new",
+      "primary_question": {
+        "id": "frage4",
+        "label": "BW, DG/PV – Inklusive Begabungsförderung am Beispiel SOLUX"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage1",
+          "label": "FW, KS/DG – Identifikation bei vorzeitiger Einschulung"
+        },
+        {
+          "id": "frage5",
+          "label": "BW, ZB/PV – Beratung bei Übertritt"
+        }
+      ],
+      "key_themes": [
+        "Definition Akzeleration nach Heinbökel 1996",
+        "Drei Ziele: bessere Passung, Lernen mit Älteren, freie Zeit für Vertiefung",
+        "Empirische Befundlage erstaunlich konsistent positiv für begabte Kinder",
+        "Vorzeitige Einschulung als Akzelerationsform (quoten- und geschlechtsabhängig)",
+        "Überspringen: Focken und Köller 2014; 15 Prozent der Springerinnen später an der Hauptschule bei mangelhafter Vordiagnostik",
+        "Propensity-Score-Matching-Studien: kein Leistungsnachteil, ambivalente soziale Effekte",
+        "Voraussetzungen für erfolgreiches Überspringen: Diagnostik, Einverständnis, aufnehmende Lehrkraft"
+      ],
+      "placements": [
+        {
+          "placement_id": "T2-P1",
+          "passage": "Definition Akzeleration (Heinbökel 1996): schnelleres Durchlaufen des Lehrplans als üblich",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Enrichment als Gegenmodell (Abgrenzung zu Akzeleration)"
+          },
+          "supports_claim": "Schärft die im TeX nur als Schlagwort vorhandene Triade Akzeleration, Enrichment, Grouping.",
+          "cite_suggestion": "\\parencite{vock2021akzeleration}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T2-P2",
+          "passage": "Vorzeitige Einschulung: Forschungsbefundlage erstaunlich konsistent und positiv für begabte Kinder",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Kritische Reflexion: Umgang mit divergierenden Testbefunden; auch Frage 4 Kritische Reflexion (Transfer/Übertritt)"
+          },
+          "supports_claim": "Empirische Rückendeckung: Wenn S. Potenzial zeigt, sind Akzelerationsoptionen forschungsseitig breit unterstützt. Relevantes Gegenargument zur Abwarte-Empfehlung der Fachstellen.",
+          "cite_suggestion": "\\parencite{vock2021akzeleration}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T2-P3",
+          "passage": "Focken und Köller 2014: 15 Prozent der Springerinnen besuchen später die Hauptschule bei mangelhafter Vordiagnostik",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Multiperspektivische und dynamische Erfassung; auch Frage 5 Kritische Reflexion"
+          },
+          "supports_claim": "Empirische Warnung gegen isolierte Testbefund-Entscheidungen. Stützt die geforderte diagnostische Mehrperspektivität.",
+          "cite_suggestion": "\\parencite{vock2021akzeleration}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T2-P4",
+          "passage": "Pygmalion-Effekt: Jungen springen häufiger, weil ihr externalisierendes Verhalten Handlungsbedarf auslöst",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben"
+          },
+          "supports_claim": "Strukturanalogie: S. zeigt internalisierendes Verhalten (Weinen, Rückzug), das im Regelunterricht nicht als Begabungsindikator gelesen wird. Vergleichbar mit dem Gender-Bias in der Akzelerationsforschung.",
+          "cite_suggestion": "\\parencite{vock2021akzeleration}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T2-P5",
+          "passage": "Voraussetzungen für erfolgreiches Überspringen: aufgeschlossene aufnehmende Lehrkraft, sorgfältige Begleitung, Einverständnis des Kindes",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Kritische Reflexion: Professionelles Handeln bei Dissens"
+          },
+          "supports_claim": "Passt zum im TeX referenzierten Anderegg-Beispiel der missglückten Akzeleration, die zu multiprofessionellen Fallbesprechungen führte. Gleiche pädagogische Logik.",
+          "cite_suggestion": "\\parencite{vock2021akzeleration}",
+          "priority": "low",
+          "priority_score": 1
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "authors": [
+        {
+          "first": "Sally M.",
+          "last": "Reis"
+        },
+        {
+          "first": "Joseph S.",
+          "last": "Renzulli"
+        },
+        {
+          "first": "Victor",
+          "last": "Müller-Oppliger"
+        }
+      ],
+      "chapter_title": "Das Schoolwide Enrichment Model (SEM)",
+      "pages": {
+        "first": 333,
+        "last": 345,
+        "count": 13
+      },
+      "bibkey_suggested": "reis2021sem",
+      "bibkey_existing": null,
+      "covered_by_volume_cite": "muelleroppliger2021handbuch",
+      "bib_status": "partial",
+      "primary_question": {
+        "id": "frage4",
+        "label": "BW, DG/PV – Inklusive Begabungsförderung am Beispiel SOLUX"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage1",
+          "label": "FW, KS/DG – Renzulli Identification System, Talentpool"
+        },
+        {
+          "id": "frage2",
+          "label": "FW, MW/KS – Enrichment als Fördermedium"
+        }
+      ],
+      "key_themes": [
+        "Drei-Ringe-Konzept: überdurchschnittliche Fähigkeit + Kreativität + Aufgabenverpflichtung",
+        "Begabung als sich entwickelndes Set von Potenzialen, nicht als Designation",
+        "Renzulli Identification System / Gifted Program Services mit Talentpool und alternativen Kriterien",
+        "Enrichment-Triade Typ I, II, III",
+        "Drehtürmodell (Revolving Door) für flexiblen Zugang zu Pull-out-Programmen",
+        "Curriculum Compacting für leistungsstarke Schülerinnen",
+        "Renzulli Learning System (digital, USA-Kontext)",
+        "Empirische Wirksamkeit in ethnisch und sozioökonomisch diversen Schulen"
+      ],
+      "placements": [
+        {
+          "placement_id": "T3-P1",
+          "passage": "Drei-Ringe-Konzept: überdurchschnittliche Fähigkeit, Kreativität, Aufgabenverpflichtung",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Begabung als dynamisches Potenzial"
+          },
+          "supports_claim": "Kernaussage des Kapitels: Leistung ab einer bestimmten IQ-Schwelle hängt weniger von Tests als von nicht-kognitiven Faktoren ab. Stützt die Kritik an sprachlastigen Tests im Fall S.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T3-P2",
+          "passage": "Renzulli Identification System / Gifted Program Services (RISS/GPS) mit Talentpool",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 und Frage 4",
+            "subsection": "Multiperspektivische und dynamische Erfassung (Frage 1); SOLUX Strukturmerkmale (Frage 4)"
+          },
+          "supports_claim": "Direkter Beleg: Begabungsdiagnostik darf nicht am Testwert allein hängen. Der Talentpool ist das internationale Pendant zu SOLUX als Talent-Scout-Setting.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T3-P3",
+          "passage": "Enrichment-Triade Typ I, II, III (vollständige Definition)",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Enrichment als Gegenmodell (bisher über fischer2020 und muelleroppliger2021handbuch belegt)"
+          },
+          "supports_claim": "Die kanonische Primärquelle für das SEM. Sollte an dieser Stelle als Primärbeleg stehen und sich mit Fischer 2020 ergänzen.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T3-P4",
+          "passage": "Drehtürmodell (Revolving Door): flexibler, unbürokratischer Zugang zu Pull-out-Programmen",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 und Frage 5",
+            "subsection": "Enrichment als Gegenmodell (Frage 4); Kritische Reflexion SHP als Talent Scout (Frage 5)"
+          },
+          "supports_claim": "Legitimiert formal, dass S. ohne abgeschlossene Diagnostik ins SOLUX aufgenommen wurde. Begabung ist kein schulpsychologischer Fall.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T3-P5",
+          "passage": "Curriculum Compacting: Verdichtung des Lehrplans für leistungsstarke Schülerinnen",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "SOLUX: Strukturmerkmale und Wirklogik (ergänzt die vier Strukturmerkmale)"
+          },
+          "supports_claim": "Relevant für die geforderten Transfermassnahmen: S.s mathematische Stärken könnten über Compacting Raum für vertiefte Arbeit schaffen.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T3-P6",
+          "passage": "SEM-Erfolg in heterogenen Schulen mit ethnisch und sozioökonomisch diversen Populationen",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive"
+          },
+          "supports_claim": "Empirische Rückendeckung: SEM ist nicht nur für bildungsnahe Eliten, sondern nachweislich wirksam in diversen Kontexten.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T3-P7",
+          "passage": "Begabung explizit als sich entwickelndes Set von Potenzialen, nicht als Designation",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Begabung als dynamisches Potenzial"
+          },
+          "supports_claim": "Ergänzt die LemaS-Begriffsklärung. Stützt die Haltung: 'Du bist begabt' oder 'du bist nicht begabt' ist falsch gedacht.",
+          "cite_suggestion": "\\parencite{reis2021sem}",
+          "priority": "high",
+          "priority_score": 3
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "authors": [
+        {
+          "first": "Thuy-Loan",
+          "last": "Nguyen"
+        },
+        {
+          "first": "Anne",
+          "last": "Sliwka"
+        }
+      ],
+      "chapter_title": "Massnahmen und Kompetenzen von Lehrpersonen für die Begabungsförderung",
+      "pages": {
+        "first": 348,
+        "last": 356,
+        "count": 9
+      },
+      "bibkey_suggested": "nguyensliwka2021kompetenzen",
+      "bibkey_existing": null,
+      "bib_status": "new",
+      "related_existing_bibkey": "macha2019gender",
+      "related_existing_relation": "Thematische Ergänzung, kein Ersatz",
+      "primary_question": {
+        "id": "frage5",
+        "label": "BW, ZB/PV – Beratung und Zusammenarbeit (Lehrer:innenprofessionalisierung)"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage4",
+          "label": "BW, DG/PV – UDL, adaptive Lehrkompetenz, Leistungsbewertung"
+        },
+        {
+          "id": "frage2",
+          "label": "FW, MW/KS – Scaffolding, Coaching, Fading"
+        }
+      ],
+      "key_themes": [
+        "Implikationen für die Lehrer:innenprofessionalisierung",
+        "Universal Design for Learning (UDL) als pädagogisches Konzept",
+        "Adaptive Lehrkompetenz (Beck et al. 2008; Frühwirth 2014)",
+        "Kognitives Apprenticeship Model (Collins/Brown 1989)",
+        "Growth Mindset vs. Fixed Mindset (Dweck 2008)",
+        "Formative Leistungsrückmeldung (Black/Wiliam; Hattie 2009)",
+        "Flächendeckendes Screening (Card und Giuliano 2015)",
+        "Professional Learning Communities und Full-Service-Schulen"
+      ],
+      "placements": [
+        {
+          "placement_id": "T4-P1",
+          "passage": "Universal Design for Learning (UDL): barrierefreier Zugang zu Lerninhalten",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "SOLUX Strukturmerkmale (UDL bisher nur namentlich erwähnt); auch Frage 3 Kritische Reflexion (Alternativen zur Verweisungspraxis)"
+          },
+          "supports_claim": "Im TeX steht UDL als Konzept, aber ohne separate Quelle. Nguyen und Sliwka liefern die Primärreferenz für inklusive Lehrplangestaltung.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T4-P2",
+          "passage": "Adaptive Lehrkompetenz (Beck et al. 2008; Frühwirth 2014)",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Kooperation im multiprofessionellen Team (SHP-Rolle als adaptive Beraterin)"
+          },
+          "supports_claim": "Begriffliche Präzisierung für die SHP-Beratungshaltung gegenüber der Klassenlehrperson. Adaptive Lehrkompetenz verbindet Diagnostik und Didaktik in einem Konzept.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T4-P3",
+          "passage": "Kognitives Apprenticeship Model: Modelling, Coaching, Scaffolding, Fading, Artikulation, Reflexion, Exploration",
+          "target_tex": {
+            "label": "sec:frage2",
+            "section_title": "Frage 2 (FW, MW/KS)",
+            "subsection": "Konsequenzen für die Förderplanung (drei parallele Stränge); besonders bei S.s Peer-Kurs-Planung"
+          },
+          "supports_claim": "Präzises didaktisches Modell für den schrittweisen Aufbau von S.s Expertenrolle: vom Vormachen (Schach erklären) zur eigenständigen Leitung des Peer-Kurses.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T4-P4",
+          "passage": "Growth Mindset versus Fixed Mindset (Dweck 2008)",
+          "target_tex": {
+            "label": "sec:frage3",
+            "section_title": "Frage 3 (FW, PB)",
+            "subsection": "Rückzug und Maskierung als Schutzmechanismen; auch Frage 2 (Motivation als Brücke)"
+          },
+          "supports_claim": "Ergänzt Lehwald um die Dweck-Perspektive: S.s Misserfolgsantizipation ist auch ein Fixed-Mindset-Phänomen, das durch Erfolgserfahrung im SOLUX aufgebrochen wird.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T4-P5",
+          "passage": "Formative Leistungsrückmeldung (Black/Wiliam; Hattie 2009) mit individueller, kriterialer und temporaler Bezugsnorm",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 und Frage 5",
+            "subsection": "SOLUX Strukturmerkmale / Notenfreiheit konzeptionell schärfen (Frage 4); Kompetenzportfolio für den Übertritt (Frage 5)"
+          },
+          "supports_claim": "Die im TeX vorgeschlagene Portfolio-Lösung für den Übertritt ist formativ angelegt. Nguyen und Sliwka liefern die Theorie dazu.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T4-P6",
+          "passage": "Card und Giuliano 2015: flächendeckendes Screening verdreifacht die Identifikation hispanischer und afroamerikanischer begabter Kinder",
+          "target_tex": {
+            "label": "sec:frage1",
+            "section_title": "Frage 1 (FW, KS/DG)",
+            "subsection": "Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben; ergänzt die Fachartikel Mun 2020 und Gubbins 2020"
+          },
+          "supports_claim": "Zentrale empirische Referenz aus deutschsprachiger Sekundärliteratur. Verknüpft mit den bereits referierten englischsprachigen Fachartikeln: universelles Screening als Interventionshebel.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T4-P7",
+          "passage": "Full-Service- und Wrap-Around-Schulen in Kanada (Ontario Co-op-Program)",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Institutionelle Reflexion (internationales Vorbild für multiprofessionelle Strukturen)"
+          },
+          "supports_claim": "Illustrativ, nicht zwingend. Nützlich als Querverweis, wenn die Prüferin nach internationalen Modellen fragt.",
+          "cite_suggestion": "\\parencite{nguyensliwka2021kompetenzen}",
+          "priority": "low",
+          "priority_score": 1
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "authors": [
+        {
+          "first": "Gabriele",
+          "last": "Weigand"
+        },
+        {
+          "first": "Michaela",
+          "last": "Kaiser"
+        }
+      ],
+      "chapter_title": "Separativ, integrativ oder inklusiv? Inklusive Begabungs- und Begabtenförderung",
+      "pages": {
+        "first": 390,
+        "last": 398,
+        "count": 9
+      },
+      "bibkey_suggested": "weigand2021separativ",
+      "bibkey_existing": "weigand2021separativ",
+      "bib_status": "existing",
+      "verification_todo": "Seitenbereich in Quellen.bib prüfen: Transkript nennt 390–398 (9 S.). Im TeX ist in der Kernliteratur-Liste ca. 15 S. notiert. Auf 9 S. korrigieren.",
+      "primary_question": {
+        "id": "frage4",
+        "label": "BW, DG/PV – Inklusive Begabungsförderung am Beispiel SOLUX"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage5",
+          "label": "BW, ZB/PV – Schulentwicklungsauftrag"
+        },
+        {
+          "id": "einleitung",
+          "label": "Einleitung: Ausgangslage / Bildungsgerechtigkeit"
+        }
+      ],
+      "key_themes": [
+        "Drei Grundbegriffe: separativ, integrativ, inklusiv",
+        "Inklusion als Verzicht auf vorgängige Kategorisierung",
+        "Forschungsstand zu Fähigkeitsgruppierung versus inklusiven Lerngruppen (uneinheitlich)",
+        "Borland 2005: gifted education without gifted children",
+        "Freeman 2001: Langzeitstudie zu Stigmatisierung in separativen Hochbegabtenklassen",
+        "LemaS als inklusives Gegenmodell",
+        "Homogenitätsannahme als empirisch widerlegter Mythos"
+      ],
+      "placements": [
+        {
+          "placement_id": "T5-P1",
+          "passage": "Drei Grundbegriffe separativ, integrativ, inklusiv; Inklusion = Verzicht auf vorgängige Kategorisierung",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive (bereits zitiert)"
+          },
+          "supports_claim": "Seitenbereich in Quellen.bib verifizieren (390–398, 9 S.).",
+          "cite_suggestion": "\\parencite{weigand2021separativ}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T5-P2",
+          "passage": "Forschungsstand uneinheitlich: weder separativ noch inklusiv ist per se überlegen",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Enrichment als Gegenmodell (Abgrenzung zu Weigand/Fischer)"
+          },
+          "supports_claim": "Stützt die nuancierte Position im Lerndokument: SOLUX als diagnostisches Fenster, nicht als Ersatz für separative Angebote.",
+          "cite_suggestion": "\\parencite{weigand2021separativ}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T5-P3",
+          "passage": "Borland 2005 – gifted education without gifted children",
+          "target_tex": {
+            "label": "sec:frage4",
+            "section_title": "Frage 4 (BW, DG/PV)",
+            "subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive"
+          },
+          "supports_claim": "Radikalste Formulierung der Inklusionsperspektive. Starkes Zitat für die Prüfung.",
+          "cite_suggestion": "\\parencite{weigand2021separativ}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T5-P4",
+          "passage": "Freeman 2001: Langzeitbefund zu Stigmatisierung durch separative Hochbegabtenklassen",
+          "target_tex": {
+            "label": "sec:frage3",
+            "section_title": "Frage 3 (FW, PB)",
+            "subsection": "Anerkennung als pädagogische Grundkategorie (ergänzt Grossrieder)"
+          },
+          "supports_claim": "Empirische Rückendeckung für die These, dass Etikettierung Zugehörigkeitsprobleme erzeugt. Strukturell analog zu S.s Ausgrenzungserfahrung.",
+          "cite_suggestion": "\\parencite{weigand2021separativ}",
+          "priority": "medium",
+          "priority_score": 2
+        }
+      ]
+    },
+    {
+      "id": "T6",
+      "authors": [
+        {
+          "first": "Christian",
+          "last": "Fischer"
+        },
+        {
+          "first": "Victor",
+          "last": "Müller-Oppliger"
+        }
+      ],
+      "chapter_title": "Begabungsförderung in der Aus- und Weiterbildung von Lehrpersonen",
+      "pages": {
+        "first": 359,
+        "last": 369,
+        "count": 11
+      },
+      "bibkey_suggested": "fischermuelleroppliger2021weiterbildung",
+      "bibkey_existing": null,
+      "bib_status": "new",
+      "disambiguation_warning": "Nicht verwechseln mit fischer2020begabungsfoerderung (Einzelwerk Fischer). Ebenfalls nicht mit muelleroppliger2021handbuch (Sammelband-Cite). Ergänzt flankierend ipege2009professionelle.",
+      "primary_question": {
+        "id": "frage5",
+        "label": "BW, ZB/PV – Professionalisierung, IPEGE und ECHA"
+      },
+      "secondary_questions": [
+        {
+          "id": "frage4",
+          "label": "BW, DG/PV – Schulentwicklung, Implementierung"
+        }
+      ],
+      "key_themes": [
+        "Historische Entwicklung der Begabungsförderungs-Ausbildung seit Sputnik-Schock",
+        "IPEGE (International Panel of Experts on Gifted Education) und seine Qualifikationsstandards",
+        "ECHA-Weiterbildungssystem nach Bologna-Standards",
+        "Tanner und Tettenborn 2013: Begabungsförderung in der Deutschschweizer Grundausbildung nur punktuell",
+        "Wirksamkeitskriterien effektiver Fortbildung (strukturell, personell, didaktisch)",
+        "Kompetenzbereiche der Lehrperson in der Begabungsförderung",
+        "IBBF-Masterprogramm PH Nordwestschweiz (seit 2003)"
+      ],
+      "placements": [
+        {
+          "placement_id": "T6-P1",
+          "passage": "IPEGE (International Panel of Experts on Gifted Education) und Qualifikationsstandards",
+          "target_tex": {
+            "label": "sec:frage1_und_frage5",
+            "section_title": "Frage 1 und Frage 5",
+            "subsection": "Bisher über ipege2009professionelle zitiert"
+          },
+          "supports_claim": "Aktuellere Referenz (2021) für die IPEGE-Standards. Ersetzt oder ergänzt den Stand von 2009.",
+          "cite_suggestion": "\\parencite{fischermuelleroppliger2021weiterbildung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T6-P2",
+          "passage": "ECHA-Weiterbildungssystem (Certificate, Diploma, Master) nach Bologna-Standards",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Konsequenzen für das SHP-Professionsverständnis (institutionelle Verankerung der Trias)"
+          },
+          "supports_claim": "Inti selbst absolviert kein ECHA, aber der Verweis auf IBBF-Masterprogramme (PH Nordwestschweiz seit 2003) kontextualisiert das eigene Studium als institutionellen Professionalisierungsbeitrag.",
+          "cite_suggestion": "\\parencite{fischermuelleroppliger2021weiterbildung}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T6-P3",
+          "passage": "Tanner und Tettenborn 2013: Begabungsförderung in der Deutschschweizer Lehrer:innengrundausbildung nur punktuell vermittelt",
+          "target_tex": {
+            "label": "sec:einleitung",
+            "section_title": "Einleitung und Frage 5",
+            "subsection": "Ausgangslage (Einleitung); Beratung der Klassenlehrperson (Frage 5)"
+          },
+          "supports_claim": "Kontextualisiert die mangelnde Kompetenz der Klassenlehrperson (Quereinsteigerin Chemie-Gymnasium) als systemisches Phänomen, nicht als individuelles Defizit.",
+          "cite_suggestion": "\\parencite{fischermuelleroppliger2021weiterbildung}",
+          "priority": "high",
+          "priority_score": 3
+        },
+        {
+          "placement_id": "T6-P4",
+          "passage": "Wirksamkeitskriterien von Fortbildung: strukturell (längere Zeiträume, Blended Learning), personell (Reflexion von Beliefs), didaktisch (Aktion und Reflexion, Fallarbeit)",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Institutionelle Reflexion (Argumente für systematische Weiterbildung statt Einzelfallsensibilisierung)"
+          },
+          "supports_claim": "Operationalisiert Machas Forderung nach doppelter Professionalisierung (individuell und strukturell) mit konkreten Kriterien.",
+          "cite_suggestion": "\\parencite{fischermuelleroppliger2021weiterbildung}",
+          "priority": "medium",
+          "priority_score": 2
+        },
+        {
+          "placement_id": "T6-P5",
+          "passage": "Kompetenzbereiche der Lehrperson in der Begabungsförderung: Sach-, Diagnostik-, didaktische, Klassenführungs-, Beratungs-/Kooperations-, implementative Kompetenz",
+          "target_tex": {
+            "label": "sec:frage5",
+            "section_title": "Frage 5 (BW, ZB/PV)",
+            "subsection": "Konsequenzen für das SHP-Professionsverständnis (flankiert die entwickelte Trias)"
+          },
+          "supports_claim": "Die TeX-Trias (Unabhängigkeit, Partnerschaftlichkeit, Wachsamkeit) lässt sich auf dieses Kompetenzraster abbilden. Nützlich im Prüfungsgespräch bei Nachfragen.",
+          "cite_suggestion": "\\parencite{fischermuelleroppliger2021weiterbildung}",
+          "priority": "high",
+          "priority_score": 3
+        }
+      ]
+    }
+  ],
+  "placements_by_question": {
+    "einleitung": [
+      {
+        "placement_id": "T1-P3",
+        "transcript_id": "T1",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T6-P3",
+        "transcript_id": "T6",
+        "priority": "high"
+      }
+    ],
+    "frage1": [
+      {
+        "placement_id": "T2-P2",
+        "transcript_id": "T2",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T2-P3",
+        "transcript_id": "T2",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T2-P4",
+        "transcript_id": "T2",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T3-P1",
+        "transcript_id": "T3",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T3-P2",
+        "transcript_id": "T3",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T3-P7",
+        "transcript_id": "T3",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T4-P6",
+        "transcript_id": "T4",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T6-P1",
+        "transcript_id": "T6",
+        "priority": "high"
+      }
+    ],
+    "frage2": [
+      {
+        "placement_id": "T4-P3",
+        "transcript_id": "T4",
+        "priority": "high"
+      }
+    ],
+    "frage3": [
+      {
+        "placement_id": "T4-P4",
+        "transcript_id": "T4",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T5-P4",
+        "transcript_id": "T5",
+        "priority": "medium"
+      }
+    ],
+    "frage4": [
+      {
+        "placement_id": "T1-P2",
+        "transcript_id": "T1",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T1-P5",
+        "transcript_id": "T1",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T2-P1",
+        "transcript_id": "T2",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T3-P3",
+        "transcript_id": "T3",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T3-P4",
+        "transcript_id": "T3",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T3-P5",
+        "transcript_id": "T3",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T3-P6",
+        "transcript_id": "T3",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T4-P1",
+        "transcript_id": "T4",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T4-P5",
+        "transcript_id": "T4",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T5-P1",
+        "transcript_id": "T5",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T5-P2",
+        "transcript_id": "T5",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T5-P3",
+        "transcript_id": "T5",
+        "priority": "high"
+      }
+    ],
+    "frage5": [
+      {
+        "placement_id": "T1-P1",
+        "transcript_id": "T1",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T1-P4",
+        "transcript_id": "T1",
+        "priority": "high"
+      },
+      {
+        "placement_id": "T1-P6",
+        "transcript_id": "T1",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T2-P5",
+        "transcript_id": "T2",
+        "priority": "low"
+      },
+      {
+        "placement_id": "T4-P2",
+        "transcript_id": "T4",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T4-P7",
+        "transcript_id": "T4",
+        "priority": "low"
+      },
+      {
+        "placement_id": "T6-P2",
+        "transcript_id": "T6",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T6-P4",
+        "transcript_id": "T6",
+        "priority": "medium"
+      },
+      {
+        "placement_id": "T6-P5",
+        "transcript_id": "T6",
+        "priority": "high"
+      }
+    ]
+  },
+  "bibliography_entries": [
+    {
+      "bibkey": "anderegg2021schulentwicklung",
+      "status": "new",
+      "entry_type": "incollection",
+      "transcript_id": "T1",
+      "fields": {
+        "author": [
+          "Anderegg, Niels",
+          "Wilhelm, Urs"
+        ],
+        "title": "Begabungsfördernde Schulentwicklung und Schulführung",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "302--316",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{anderegg2021schulentwicklung,\n  author    = {Anderegg, Niels and Wilhelm, Urs},\n  title     = {Begabungsfördernde Schulentwicklung und Schulführung},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {302--316},\n  langid    = {ngerman}\n}"
+    },
+    {
+      "bibkey": "vock2021akzeleration",
+      "status": "new",
+      "entry_type": "incollection",
+      "transcript_id": "T2",
+      "fields": {
+        "author": [
+          "Vock, Miriam"
+        ],
+        "title": "Akzeleration: Schneller durch die Schule? Effekte, Gelingensbedingungen und Risiken von Akzelerationsmassnahmen",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "319--329",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{vock2021akzeleration,\n  author    = {Vock, Miriam},\n  title     = {Akzeleration: Schneller durch die Schule? Effekte, Gelingensbedingungen und Risiken von Akzelerationsmassnahmen},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {319--329},\n  langid    = {ngerman}\n}"
+    },
+    {
+      "bibkey": "reis2021sem",
+      "status": "partial",
+      "status_note": "Inhaltlich bisher via muelleroppliger2021handbuch mitgezogen; separater Eintrag empfohlen, weil es die kanonische SEM-Primärquelle ist.",
+      "entry_type": "incollection",
+      "transcript_id": "T3",
+      "fields": {
+        "author": [
+          "Reis, Sally M.",
+          "Renzulli, Joseph S.",
+          "Müller-Oppliger, Victor"
+        ],
+        "title": "Das Schoolwide Enrichment Model (SEM)",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "333--345",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{reis2021sem,\n  author    = {Reis, Sally M. and Renzulli, Joseph S. and Müller-Oppliger, Victor},\n  title     = {Das Schoolwide Enrichment Model (SEM)},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {333--345},\n  langid    = {ngerman}\n}"
+    },
+    {
+      "bibkey": "nguyensliwka2021kompetenzen",
+      "status": "new",
+      "entry_type": "incollection",
+      "transcript_id": "T4",
+      "fields": {
+        "author": [
+          "Nguyen, Thuy-Loan",
+          "Sliwka, Anne"
+        ],
+        "title": "Massnahmen und Kompetenzen von Lehrpersonen für die Begabungsförderung",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "348--356",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{nguyensliwka2021kompetenzen,\n  author    = {Nguyen, Thuy-Loan and Sliwka, Anne},\n  title     = {Massnahmen und Kompetenzen von Lehrpersonen für die Begabungsförderung},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {348--356},\n  langid    = {ngerman}\n}"
+    },
+    {
+      "bibkey": "weigand2021separativ",
+      "status": "existing",
+      "status_note": "Seitenbereich in Quellen.bib auf 390–398 verifizieren (9 S.). Im TeX ist derzeit ca. 15 S. notiert, dieser Wert ist zu hoch.",
+      "entry_type": "incollection",
+      "transcript_id": "T5",
+      "fields": {
+        "author": [
+          "Weigand, Gabriele",
+          "Kaiser, Michaela"
+        ],
+        "title": "Separativ, integrativ oder inklusiv? Inklusive Begabungs- und Begabtenförderung",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "390--398",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{weigand2021separativ,\n  author    = {Weigand, Gabriele and Kaiser, Michaela},\n  title     = {Separativ, integrativ oder inklusiv? Inklusive Begabungs- und Begabtenförderung},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {390--398},\n  langid    = {ngerman}\n}"
+    },
+    {
+      "bibkey": "fischermuelleroppliger2021weiterbildung",
+      "status": "new",
+      "status_note": "Nicht verwechseln mit fischer2020begabungsfoerderung (anderes Einzelwerk). Ergänzt flankierend ipege2009professionelle.",
+      "entry_type": "incollection",
+      "transcript_id": "T6",
+      "fields": {
+        "author": [
+          "Fischer, Christian",
+          "Müller-Oppliger, Victor"
+        ],
+        "title": "Begabungsförderung in der Aus- und Weiterbildung von Lehrpersonen",
+        "booktitle": "Handbuch Begabungsförderung. Theorie, Konzepte, Empirie",
+        "editor": [
+          "Müller-Oppliger, Victor",
+          "Weigand, Gabriele"
+        ],
+        "year": 2021,
+        "publisher": "Beltz",
+        "location": "Weinheim",
+        "pages": "359--369",
+        "langid": "ngerman"
+      },
+      "biblatex_source": "@incollection{fischermuelleroppliger2021weiterbildung,\n  author    = {Fischer, Christian and Müller-Oppliger, Victor},\n  title     = {Begabungsförderung in der Aus- und Weiterbildung von Lehrpersonen},\n  booktitle = {Handbuch Begabungsförderung. Theorie, Konzepte, Empirie},\n  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  location  = {Weinheim},\n  pages     = {359--369},\n  langid    = {ngerman}\n}"
+    }
+  ],
+  "stats": {
+    "n_transcripts": 6,
+    "total_pages_covered": 68,
+    "n_placements_total": 34,
+    "n_placements_high_priority": 19,
+    "n_placements_medium_priority": 12,
+    "n_placements_low_priority": 3,
+    "n_bibkeys_new": 4,
+    "n_bibkeys_partial": 1,
+    "n_bibkeys_existing": 1,
+    "placements_per_question": {
+      "einleitung": 2,
+      "frage1": 8,
+      "frage2": 1,
+      "frage3": 2,
+      "frage4": 12,
+      "frage5": 9
+    }
+  }
+}

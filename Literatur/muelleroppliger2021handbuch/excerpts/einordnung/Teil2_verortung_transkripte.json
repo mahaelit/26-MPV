@@ -1,0 +1,845 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "title": "Verortungstabelle Transkripte aus Handbuch Begabung zum Lerndokument Inti Merolli",
+    "purpose": "Maschinenlesbare Zuordnung der sechs vorliegenden Transkriptabschnitte zu konkreten Stellen im LaTeX-Lerndokument, inklusive Prioritaetsbewertung fuer die Pruefungsvorbereitung und Auswirkung auf das Seitenbudget",
+    "created_at": "2026-04-19",
+    "language": "de-CH",
+    "author_context": {
+      "principal": "Inti Merolli",
+      "program": "Masterstudiengang Schulische Heilpaedagogik, PH Luzern",
+      "examiner": "Sabine Tanner Merlo",
+      "submission_deadline": "2026-05-01",
+      "examination_date": "2026-06-11"
+    },
+    "source_transcript_file": "Teil_2_Handbuch_Begabung___Begabung_und_Begabungsfoerderung_-_konzepte_und_modelle_ohne_Kommentar.md",
+    "target_document": {
+      "filename": "Lerndokument (LaTeX, article, ngerman)",
+      "title_of_work": "Verdeckte Potenziale bei Schuelerinnen mit Migrationserfahrung: Chancen inklusiver Begabungsfoerderung im Rahmen des Pilotprojekts SOLUX (IBBF)",
+      "document_type": "Vertiefungsarbeit Masterpruefung",
+      "bib_file": "Quellen.bib",
+      "current_net_page_count_estimate": 700,
+      "allowed_page_corridor": {"min": 500, "max": 700}
+    },
+    "common_source_book": {
+      "title": "Handbuch Begabung",
+      "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+      "bibtex_key_in_latex": "muelleroppliger2021handbuch",
+      "confidence": "high",
+      "evidence_for_identification": [
+        "Stadelmann, Grabner/Meier, Urban und Kuhl sind im Transkript mit expliziten Seitenangaben aus einem Sammelband gekennzeichnet",
+        "Mueller-Oppliger selbst verfasst einen eigenen Kapitelbeitrag Begabungsmodelle, was fuer seine Herausgeberrolle am Handbuch spricht",
+        "Die thematische Geschlossenheit (Begabungsmodelle, Genetik, Expertise, Kreativitaet, PSI-Theorie) ist typisch fuer die Struktur des Handbuchs"
+      ]
+    }
+  },
+
+  "questions_in_lerndokument": [
+    {
+      "id": "frage1",
+      "code": "FW-KS-DG",
+      "domain_tags": ["Kognition_und_Sprache", "Diversitaet_und_Gesellschaft"],
+      "title": "Multiperspektivische Erfassung verdeckter Begabungen",
+      "label_short": "Erkennen",
+      "latex_section_label": "sec:frage1",
+      "current_page_budget_estimate": 295
+    },
+    {
+      "id": "frage2",
+      "code": "FW-MW-KS",
+      "domain_tags": ["Motorik_und_Wahrnehmung", "Kognition_und_Sprache"],
+      "title": "Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Foerderung",
+      "label_short": "Barrieren",
+      "latex_section_label": "sec:frage2",
+      "current_page_budget_estimate": 240
+    },
+    {
+      "id": "frage3",
+      "code": "FW-PB",
+      "domain_tags": ["Person_und_Beziehung"],
+      "title": "Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+      "label_short": "Beziehung",
+      "latex_section_label": "sec:frage3",
+      "current_page_budget_estimate": 165
+    },
+    {
+      "id": "frage4",
+      "code": "BW-DG-PV",
+      "domain_tags": ["Diversitaet_und_Gesellschaft", "Professionsverstaendnis"],
+      "title": "Inklusive Begabungsfoerderung am Beispiel SOLUX",
+      "label_short": "Foerderung",
+      "latex_section_label": "sec:frage4",
+      "current_page_budget_estimate": 205
+    },
+    {
+      "id": "frage5",
+      "code": "BW-ZB-PV",
+      "domain_tags": ["Zusammenarbeit_und_Beratung", "Professionsverstaendnis"],
+      "title": "Beratung und Zusammenarbeit aus SHP-Perspektive",
+      "label_short": "Profession",
+      "latex_section_label": "sec:frage5",
+      "current_page_budget_estimate": 213
+    }
+  ],
+
+  "existing_bibtex_keys_referenced": {
+    "muelleroppliger2021handbuch": "Mueller-Oppliger/Weigand (Hrsg.): Handbuch Begabung",
+    "kuhl2019diversitaet": "Kuhl: Diversitaet und Persoenlichkeit (laut Quellen.bib mit Seitenbereich 35-57 oder 35-59)",
+    "stern2025intelligenz": "E. Stern: Intelligenz (aktuelle kognitionspsychologische Forschung)",
+    "preckel2013hochbegabung": "Preckel/Baudson: Hochbegabung",
+    "trautmann2016einfuehrung": "Trautmann: Einfuehrung in die Hochbegabtenpaedagogik",
+    "fischer2020begabungsfoerderung": "Fischer et al.: Begabungsfoerderung, Leistungsentwicklung, Bildungsgerechtigkeit",
+    "lehwald2017motivation": "Lehwald: Motivation trifft Begabung",
+    "webb2020doppeldiagnosen": "Webb et al.: Doppeldiagnosen und Fehldiagnosen bei Hochbegabung",
+    "rosebrock2010grundlagen": "Rosebrock/Nix: Grundlagen der Lesedidaktik",
+    "gold2018lesenkannmanlernen": "Gold: Lesen kann man lernen",
+    "sturm2016graphomotorik": "Sturm: Graphomotorische Prozesse beim Schreiben(lernen)",
+    "grossrieder2010anerkennung": "Grossrieder: Gleiches und Unterschiedliches anerkennen",
+    "booth2019index": "Booth/Ainscow: Index fuer Inklusion",
+    "behrensen2019inklusive": "Behrensen: Inklusive Begabungsfoerderung und Fluchtmigration",
+    "kappus2010migration": "Kappus: Umgang mit migrationsbedingter Heterogenitaet",
+    "weigand2021separativ": "Weigand/Kaiser: Separativ oder integrativ?",
+    "sedmak2021bildungsgerechtigkeit": "Sedmak/Kapferer: Begabtenfoerderung und Bildungsgerechtigkeit",
+    "burow2021positive": "Burow: Positive Paedagogik",
+    "burow2020future": "Burow: Future Fridays",
+    "lemas2023begriffsklaerung": "LemaS: Begriffsklaerung Begabung",
+    "stamm2021fehlenderblick": "Stamm: Der fehlende Blick auf begabte Minoritaeten",
+    "stamm2014mirage": "Stamm: MIRAGE-Studie",
+    "kellerkoller2021hellekoepfe": "Keller-Koller: Helle Koepfe mit Migrationshintergrund",
+    "maehler2018diagnostik": "Maehler et al.: Diagnostik bei Migrantinnen und Migranten",
+    "mun2020identifying": "Mun et al. (2020): Identifying and Serving English Learners in Gifted Education",
+    "gubbins2020promising": "Gubbins et al. (2020): Promising Practices for Improving Identification of ELs",
+    "alhroub2021utility": "Al-Hroub (2021): Utility of Psychometric and Dynamic Assessments",
+    "alodat2025equitable": "Alodat (2025): Equitable Identification Practices for Gifted Refugee Students"
+  },
+
+  "transcripts": [
+    {
+      "id": "T1",
+      "order_in_transcript_file": 1,
+      "author": {
+        "family_name": "Gauzon",
+        "given_names": "Tanja Gabriele",
+        "name_note": "Im Transkript steht 'Tanja, Gabriele Gauzon', vermutlich OCR-Artefakt"
+      },
+      "chapter_title": "Was Menschen ueber Hochbegabung und Hochbegabte denken",
+      "chapter_subtitle": "Individuelle und soziokulturelle Perspektiven, begriffliche Abgrenzungen",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "page_range": {"start": null, "end": null, "page_count_approx": null, "verified": false},
+        "notes": "Seitenangabe im Transkript fehlt; Transkript bricht nach wenigen Saetzen ab (Platzhalter 'Kapitel kommt hier noch: Ester Ziegler und Elsbeth Stern' steht voran)"
+      },
+      "transcript_status": {
+        "complete": false,
+        "quality_issues": [
+          "Transkript sehr fragmentarisch, nur Anfangsabschnitt",
+          "OCR-Fehler im Autorennamen",
+          "Kein verwertbares Material jenseits der Einleitungsformulierung"
+        ]
+      },
+      "key_content": [
+        "Laiensicht versus Fachsicht auf Hochbegabung",
+        "Stereotype und Vorurteile gegenueber Hochbegabten",
+        "Begriffliche Abgrenzung Begabung, Hochbegabung, Talent",
+        "These: Begabungsunterschiede sind graduell, nicht kategorial"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage1",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Begabung als dynamisches Potenzial (Einstieg)",
+            "Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben (defizitorientierte Zuschreibungen, Stereotype von Fachpersonen)"
+          ],
+          "connection_rationale": "Gauzon rahmt die Kritik an fixen IQ-Grenzen (zum Beispiel 130) und liefert die begriffliche Grundlage dafuer, Begabung als Kontinuum zu verstehen"
+        },
+        {
+          "question_id": "frage5",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Die Beratung der Klassenlehrperson (implizite Stereotype)",
+            "Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit"
+          ],
+          "connection_rationale": "Soziokulturelle Stereotype ueber Hochbegabte sind Teil der impliziten Wahrnehmungsmuster, die die SHP im Team bearbeiten muss"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": false,
+        "rationale_for_exclusion": "Transkript ist zu fragmentarisch, um als zitierfaehige Quelle im Pruefungsgespraech dienen zu koennen. Die Inhalte sind bereits ueber preckel2013hochbegabung und muelleroppliger2021handbuch abgedeckt",
+        "use_as_background_only": true,
+        "exam_preparation_tip": "Optional als mentaler Hintergrund fuer die Aussage, dass Begabungsunterschiede graduell sind. Keine aktive Einbringung ins Pruefungsgespraech empfohlen"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "preckel2013hochbegabung", "relationship": "inhaltlich redundant"},
+        {"bibtex_key": "trautmann2016einfuehrung", "relationship": "inhaltlich redundant"},
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands"}
+      ],
+      "priority_for_exam": "low"
+    },
+
+    {
+      "id": "T2",
+      "order_in_transcript_file": 2,
+      "author": {
+        "family_name": "Stadelmann",
+        "given_names": "Willi"
+      },
+      "chapter_title": "Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "bibtex_key_proposed_new": "stadelmann2021genetik",
+        "page_range": {"start": 133, "end": 147, "page_count_approx": 14, "verified": true},
+        "notes": "Seitenangabe im Transkript explizit ausgewiesen"
+      },
+      "transcript_status": {
+        "complete": true,
+        "quality_issues": [
+          "Mehrere OCR-Fehler in Namen (Wateron statt Watson, Fischbach-Zitat verunstaltet)",
+          "Englische Definition von Giftedness teilweise unlesbar transkribiert",
+          "Inhaltliche Struktur aber vollstaendig nachvollziehbar"
+        ]
+      },
+      "key_content": [
+        "Genetik und Umwelt interagieren, sind nicht separat quantifizierbar",
+        "Kein einzelnes Begabungsgen, Intelligenzgen oder Talentgen existiert",
+        "Epigenetik: Genexpression wird durch Umweltimpulse reguliert (Methylgruppen, Acetylgruppen)",
+        "Hirnplastizitaet als Voraussetzung fuer Lernen, 'use it or lose it'",
+        "Lernen als individuelle Konstruktion, nicht als passive Informationsuebernahme",
+        "Kritik am statischen IQ-Konzept und an willkuerlichen Hochbegabungs-Schwellen wie IQ 130",
+        "Begabung als Lernleistungsfaehigkeit, die sich dynamisch entwickelt",
+        "Bedeutung der individuellen Lernbiografie fuer weiteres Lernen",
+        "Intelligenz setzt Lernen voraus (Neubauer und Stern: 'Lernen macht intelligent')",
+        "Expertise- und Innovationsforschung: IQ nicht der entscheidende Praediktor, sondern Umfang und Qualitaet individueller Lernprozesse"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage1",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Begabung als dynamisches Potenzial (gesamter Abschnitt)",
+            "Grenzen sprachlastiger Diagnostik (Kritik am einmaligen IQ-Wert)"
+          ],
+          "connection_rationale": "Stadelmann liefert die neurowissenschaftliche Tiefenbegruendung dafuer, dass ein einmaliger IQ-Wert unzureichend ist und dass Begabung entwicklungsfaehiges Potenzial ist. Direkte Stuetze fuer die LemaS-Begriffsklaerung"
+        },
+        {
+          "question_id": "frage2",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Motivation als Bruecke zwischen Interesse und Kompetenzentwicklung",
+            "Schach als Foerdermedium fuer Schrift, Sprache und Beteiligung (Hirnplastizitaet, sensible Phasen)"
+          ],
+          "connection_rationale": "Neurobiologische Grundlage fuer die Wirksamkeit der Schachnotation als motorischer Automatisierungs-Kontext; erklaert den 'use it or lose it'-Mechanismus"
+        },
+        {
+          "question_id": "frage3",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Begabungsentwicklung als Beziehungsgeschehen (soziale Umwelt als neurobiologische Bedingung)"
+          ],
+          "connection_rationale": "Stadelmann betont, dass kognitive Entwicklung nur in einer anregenden sozialen Umwelt gelingt. Dies legitimiert empirisch den beziehungszentrierten Ansatz von Frage 3"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": true,
+        "rationale_for_inclusion": "Schliesst die empirisch-neurowissenschaftliche Luecke, die im Kollegenreview als groesste Schwaeche identifiziert wurde",
+        "use_as_background_only": false,
+        "exam_preparation_tip": "Merksatz parat haben: 'Es gibt kein Begabungsgen. Genexpression ist kontextabhaengig und epigenetisch reguliert.' Damit kann die Abwarten-Empfehlung der Fachstellen souveraen zurueckgewiesen werden. Stadelmann liefert das neurowissenschaftliche Fundament dafuer, dass ein einmaliger IQ-Wert diagnostisch unzureichend ist"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "stern2025intelligenz", "relationship": "direkte_stuetze", "note": "Stadelmann zitiert Neubauer/Stern: 'Lernen macht intelligent'"},
+        {"bibtex_key": "lemas2023begriffsklaerung", "relationship": "komplementaer", "note": "Liefert neurowissenschaftliche Begruendung fuer LemaS-Definition"},
+        {"bibtex_key": "preckel2013hochbegabung", "relationship": "komplementaer"},
+        {"bibtex_key": "trautmann2016einfuehrung", "relationship": "komplementaer"},
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands"}
+      ],
+      "priority_for_exam": "high"
+    },
+
+    {
+      "id": "T3",
+      "order_in_transcript_file": 3,
+      "author": [
+        {"family_name": "Grabner", "given_names": "Ronald H."},
+        {"family_name": "Meier", "given_names": "Michaela A."}
+      ],
+      "chapter_title": "Die Entwicklung von Expertise",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "bibtex_key_proposed_new": "grabnermeier2021expertise",
+        "page_range": {"start": 149, "end": 159, "page_count_approx": 10, "verified": true},
+        "notes": "Transkript explizit als 'nicht komplett' markiert; bricht mitten in der Diskussion zur Rolle von Intelligenz bei Expertise ab"
+      },
+      "transcript_status": {
+        "complete": false,
+        "quality_issues": [
+          "Transkript explizit unvollstaendig (endet bei Convention-of-Limits-Hypothese)",
+          "OCR-Fehler bei englischen Zitaten (Ericsson, de Groot)",
+          "Die metaanalytischen Zahlen (Hambrick et al., Macnamara et al.) sind jedoch vollstaendig und korrekt wiedergegeben"
+        ]
+      },
+      "key_content": [
+        "Klassische Expertiseforschung, Geschichte seit de Groot 1946",
+        "Chase und Simon (1973) Schachstudien: Grossmeister erinnern 16 von 25 Figuren bei sinnvoller Stellung, nur 3 bei zufaelliger Anordnung",
+        "Chunking-Theorie: Expertise beruht auf groesseren Einheiten im Arbeitsgedaechtnis",
+        "Long-Term Working Memory als Konzept",
+        "10000-Stunden-Regel bzw. 10-Jahres-Regel von Ericsson",
+        "Deliberate Practice Framework",
+        "Monotonic-Benefits-Assumption und ihre empirische Widerlegung",
+        "Metaanalyse Hambrick et al.: nur 34 Prozent Varianz im Schach, 30 Prozent in Musik durch Uebung erklaert",
+        "Metaanalyse Macnamara et al. (88 Studien, n=11000): nur 12 Prozent der Leistungsunterschiede durch Uebung erklaert (Spiele 26, Musik 21, Sport 18, Bildung 4, Berufe unter 1 Prozent)",
+        "Enorme Variabilitaet des Uebungsausmasses fuer gleiches Expertiseniveau",
+        "Fall Magnus Carlsen als Gegenbeispiel zur 10000-Stunden-Regel",
+        "Intelligenz als bedeutsamer Praediktor fuer Expertise, auch jenseits des Anfangsstadiums",
+        "Kein genereller Ferntransfer von Schachtraining auf allgemeine kognitive Faehigkeiten"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage2",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Schach als Foerdermedium fuer Schrift, Sprache und Beteiligung (kognitiv-metakognitive Ebene, Abgrenzung Ferntransfer)",
+            "Schriftspracherwerb als sensumotorisch-kognitiver Prozess (Chunking und Arbeitsgedaechtnis)"
+          ],
+          "connection_rationale": "Das Lerndokument enthaelt bereits die Abgrenzung, dass Schachtraining keinen Ferntransfer erzeugt. Grabner/Meier ist die Primaerquelle fuer diese Abgrenzung. Ohne diese Referenz ist die Aussage argumentativ ungedeckt. Chase/Simon-Chunking stuetzt zusaetzlich die Arbeitsgedaechtnis-Argumentation zur Schachnotation"
+        },
+        {
+          "question_id": "frage1",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Begabung als dynamisches Potenzial (Expertise vs. Intelligenz)",
+            "Grenzen sprachlastiger Diagnostik"
+          ],
+          "connection_rationale": "Liefert die empirische Evidenz dafuer, dass Leistungsexzellenz nicht auf Uebung allein reduzierbar ist und Intelligenz eine signifikante Rolle spielt; relevant fuer die Dynamisierung des Begabungsbegriffs"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": true,
+        "rationale_for_inclusion": "Primaerquelle fuer die im LaTeX bereits getroffene Ferntransfer-Abgrenzung. Ohne diese Quelle ist die Argumentation in Frage 2 empirisch ungedeckt",
+        "use_as_background_only": false,
+        "exam_preparation_tip": "Zwei Kernpointen merkfertig halten: (a) Die 10000-Stunden-Regel ist metaanalytisch nicht belegt, Deliberate Practice erklaert nur 12 bis 34 Prozent der Varianz; (b) Chase/Simon-Chunking erklaert, warum die Schachnotation bei S. als Nahtransfer auf Graphomotorik und Arbeitsgedaechtnis-Entlastung funktioniert. Examinatorin wird mit hoher Wahrscheinlichkeit nachfragen, ob Schachtraining 'allgemein klueger macht'"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "lehwald2017motivation", "relationship": "komplementaer", "note": "Motivation als Voraussetzung fuer Deliberate Practice"},
+        {"bibtex_key": "preckel2013hochbegabung", "relationship": "komplementaer"},
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands"}
+      ],
+      "priority_for_exam": "high"
+    },
+
+    {
+      "id": "T4",
+      "order_in_transcript_file": 4,
+      "author": {
+        "family_name": "Urban",
+        "given_names": "Klaus K."
+      },
+      "chapter_title": "Kreativitaet und Begabung",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "bibtex_key_proposed_new": "urban2021kreativitaet",
+        "page_range": {"start": 168, "end": 181, "page_count_approx": 13, "verified": true},
+        "notes": "Seitenangabe im Transkript explizit ausgewiesen"
+      },
+      "transcript_status": {
+        "complete": true,
+        "quality_issues": [
+          "OCR-Fehler in englischen Passagen und Namen",
+          "Nummerierte Handlungsempfehlungen (25 Punkte) vollstaendig lesbar"
+        ]
+      },
+      "key_content": [
+        "Kreativitaet in Komplex-Begabungskonzepten als gleichwertige Komponente neben Intelligenz",
+        "Schwellentheorie: Ab IQ 120 verschwindet die Korrelation zwischen Intelligenz und Kreativitaet",
+        "Kreativitaetsentwicklung als wenig erforschtes Feld gegenueber Intelligenzforschung",
+        "Komponentenmodell der Kreativitaet mit sechs kognitiven und persoenlichen Faktoren",
+        "Kreativitaet in Schule und Bildung: normativ gefordert, praktisch vernachlaessigt",
+        "Kreatives Denken gehoert in alle Faecher, nicht nur die musischen",
+        "25 Anregungen zur Kreativitaetsfoerderung durch Lehrkraefte",
+        "Konzept der Kreatelligenz: Verbindung von Intelligenz, Kreativitaet und Bereichswissen",
+        "Verantwortliche Kreatelligenz: ethische Dimension, humanitaere Grundhaltung als Rahmen"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage4",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "SOLUX Strukturmerkmale und Wirklogik (notenfrei, interessenorientiert, sprachentlastet, Expertenrolle)",
+            "Enrichment als Gegenmodell"
+          ],
+          "connection_rationale": "Urban liefert das theoretische Fundament dafuer, warum die vier Strukturmerkmale von SOLUX gerade die Kreativitaetskomponente von Begabung aktivieren, die im Regelunterricht systematisch uebersehen wird"
+        },
+        {
+          "question_id": "frage1",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Begabung als dynamisches Potenzial (Kreativitaet als zweiter Ring bei Renzulli)"
+          ],
+          "connection_rationale": "Stuetzt die in Frage 1 eingefuehrte Renzulli-Rezeption durch eine vertiefte Kreativitaetstheorie"
+        },
+        {
+          "question_id": "frage5",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Institutionelle Reflexion Von der Einzelfallberatung zur Schulentwicklung",
+            "Konsequenzen fuer das SHP-Professionsverstaendnis"
+          ],
+          "connection_rationale": "Konzept der verantwortlichen Kreatelligenz passt zur ethisch gerahmten Professionsauffassung der SHP"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": false,
+        "rationale_for_exclusion": "Die Kernthesen sind bereits ueber muelleroppliger2021handbuch und die Renzulli-Rezeption im LaTeX abgedeckt. Aufnahme nur sinnvoll, wenn Seitenbudget komfortabel Spielraum laesst",
+        "use_as_background_only": true,
+        "exam_preparation_tip": "Nur aktiv einbringen, wenn die Examinatorin explizit nach Kreativitaetsfoerderung fragt. Dann das Komponentenmodell nennen und die Pointe setzen, dass Kreativitaet in allen Faechern gehoert und nicht nur in den sogenannten musischen"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands"},
+        {"bibtex_key": "weigand2021separativ", "relationship": "komplementaer"},
+        {"bibtex_key": "sedmak2021bildungsgerechtigkeit", "relationship": "komplementaer"},
+        {"bibtex_key": "burow2021positive", "relationship": "komplementaer", "note": "Positive Paedagogik teilt den staerkenorientierten Grundansatz"}
+      ],
+      "priority_for_exam": "medium"
+    },
+
+    {
+      "id": "T5",
+      "order_in_transcript_file": 5,
+      "author": {
+        "family_name": "Kuhl",
+        "given_names": "Julius"
+      },
+      "chapter_title": "Begabung, Bildung und Beziehung aus persoenlichkeitspsychologischer Sicht",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "bibtex_key_proposed_new": "kuhl2021begabung",
+        "page_range": {"start": 185, "end": 201, "page_count_approx": 16, "verified": true},
+        "notes": "Seitenangabe im Transkript explizit ausgewiesen. Wichtig: Das ist NICHT identisch mit kuhl2019diversitaet (S. 35-57 oder 35-59), das im Lerndokument aktuell zitiert wird. Siehe caveat CAV-01"
+      },
+      "transcript_status": {
+        "complete": true,
+        "quality_issues": [
+          "OCR-Fehler bei Fachtermini (Effigenetik statt Epigenetik, Ephorie statt Euphorie)",
+          "Aufbau und inhaltliche Struktur jedoch vollstaendig lesbar",
+          "Selbstkommentierender Einschub 'Oh Gott, huer schlimm' deutet auf unueberarbeitete Transkription hin"
+        ]
+      },
+      "key_content": [
+        "Drei-Ebenen-Modell der Begabungsentfaltung: maximale Anlage, entwickelte Begabung, Leistung",
+        "PSI-Theorie (Persoenlichkeits-System-Interaktionen)",
+        "Vier psychische Makrosysteme: Intentionsgedaechtnis, Extensionsgedaechtnis mit Selbst, Objekterkennungssystem, Intuitive Verhaltenssteuerung",
+        "Zwei Basiskompetenzen: Handlungskompetenz und Selbstwachstum",
+        "Erste Modulationsannahme: Positiver Affekt aktiviert die Handlungsbahnung",
+        "Zweite Modulationsannahme: Negativer Affekt blockiert den Selbstzugang zum Extensionsgedaechtnis",
+        "Selbstkompetenzen Selbstmotivierung und Selbstberuhigung als Voraussetzung der Begabungsentfaltung",
+        "Protoemotionen auf Ebene 2 versus objektgebundene Effekte auf Ebene 3",
+        "Stress und Hypocampushemmung als Erklaerung fuer Prokrastination und Regression",
+        "Beziehung als Entwicklungsbedingung fuer Emotionsregulation",
+        "Selbstkontaktbestrafung als pathogenes Muster: Bezugspersonen strafen selbstvergessenes Eintauchen des Kindes ab",
+        "Widerspiegelung als paedagogische Kernmethode",
+        "Bildungsbegriff als Foerderung der Selbstkompetenzen der ganzen Person"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage3",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Begabungsentwicklung als Beziehungsgeschehen (PSI-Theorie ist das Kernstueck)",
+            "Rueckzug und Maskierung als Schutzmechanismen (Blockade des Extensionsgedaechtnisses)",
+            "Kritische Reflexion Verweisungspraxis und Alternativen (PSI-Begruendung, warum Verweise kontraproduktiv sind)",
+            "Konsequenzen fuer die heilpaedagogische Begleitung (Beziehung vor Anforderung)"
+          ],
+          "connection_rationale": "Kuhl 2021 ist der einzige Text im Korpus, der die PSI-Theorie in der Tiefe ausarbeitet, die das Lerndokument in Frage 3 bereits nutzt. Die gesamte Argumentation zu Affektblockade, Selbstzugang und Beziehung als neurobiologischer Grundlage ist Kuhl geschuldet"
+        },
+        {
+          "question_id": "frage5",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Die Beratung der Klassenlehrperson (Widerspiegelung als Beratungsmethode)",
+            "Konsequenzen fuer das SHP-Professionsverstaendnis (Beziehung als professionelle Kernkompetenz)"
+          ],
+          "connection_rationale": "Der paedagogische Bezug und die Widerspiegelung sind bei Kuhl als Professionalisierungsauftrag formuliert; das stuetzt die reflexive Partnerschaftlichkeit im Lerndokument"
+        },
+        {
+          "question_id": "frage2",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Verkrampfung als emotionaler Marker (Selbstzugang blockiert durch antizipatorische Vermeidung)"
+          ],
+          "connection_rationale": "Die Schreibblockade bei S. ist ein Lehrbuchbeispiel fuer die PSI-Modulationsannahmen: negativer Affekt blockiert den Selbstzugang und damit die kognitive Leistung"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": true,
+        "rationale_for_inclusion": "Das Lerndokument argumentiert in Frage 3 durchgaengig mit PSI-Kategorien. Diese Quelle ist das Fundament; sie darf in der Bibliographie nicht durch einen unpassenden Kuhl-Eintrag (kuhl2019diversitaet) ersetzt werden",
+        "use_as_background_only": false,
+        "exam_preparation_tip": "Die PSI-Kerntrias (Intentionsgedaechtnis vs. Extensionsgedaechtnis, Selbstzugang durch positiven Affekt, Selbstkontaktbestrafung) muendlich auf ca. 2 Minuten komprimiert abrufbar haben. Ist inhaltlich das Rueckgrat der ergaenzenden Pruefungsfrage zur Verweisungspraxis",
+        "critical_action_required": "Pascal hat in der To-do-Liste 'kuhl2019diversitaet' als VERIFY-Punkt markiert. Dieses Transkript loest den Verifikationsauftrag auf: Inti muss entscheiden, ob sie kuhl2019diversitaet durch kuhl2021begabung ersetzt oder beide Eintraege parallel fuehrt"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "kuhl2019diversitaet", "relationship": "potentiell_zu_ersetzen", "note": "Seitenbereich 35-57 oder 35-59 im aktuellen Eintrag passt nicht zum hier vorliegenden Kapitel S. 185-201. Inhaltlich ist das vorliegende Kapitel deutlich enger an der Argumentation des Lerndokuments"},
+        {"bibtex_key": "grossrieder2010anerkennung", "relationship": "komplementaer", "note": "Anerkennungstheorie und PSI-Theorie adressieren komplementaere Aspekte derselben Beziehungsdynamik"},
+        {"bibtex_key": "booth2019index", "relationship": "komplementaer"},
+        {"bibtex_key": "lehwald2017motivation", "relationship": "komplementaer"},
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands"}
+      ],
+      "priority_for_exam": "very_high"
+    },
+
+    {
+      "id": "T6",
+      "order_in_transcript_file": 6,
+      "author": {
+        "family_name": "Mueller-Oppliger",
+        "given_names": "Viktor"
+      },
+      "chapter_title": "Begabungsmodelle",
+      "chapter_subtitle": "Entwicklungslinien und Positionen zur Erfassung des Phaenomens der Hochbegabung",
+      "source": {
+        "book": "Handbuch Begabung",
+        "editors": ["Mueller-Oppliger, Viktor", "Weigand, Gabriele"],
+        "bibtex_key_in_latex_bib": "muelleroppliger2021handbuch",
+        "bibtex_key_proposed_new": "muelleroppliger2021modelle",
+        "page_range": {"start": null, "end": null, "page_count_approx": 25, "verified": false},
+        "notes": "Seitenangabe im Transkript nicht ausgewiesen. Umfang auf Basis der behandelten 13 Modelle auf ca. 20-30 Seiten geschaetzt. Inti muss am Buch verifizieren"
+      },
+      "transcript_status": {
+        "complete": true,
+        "quality_issues": [
+          "OCR-Fehler in Autorennamen (Tannenbaums Seesternmodell, Mönchs statt Moenks)",
+          "Nummerierungssystem und Modellabfolge klar erkennbar"
+        ]
+      },
+      "key_content": [
+        "Systematische Uebersicht ueber 13 Begabungsmodelle",
+        "Terman: statisches, genetisches Intelligenzmodell (historischer Ausgangspunkt)",
+        "De Haan und Havighurst 1957: sechs Begabungsbereiche",
+        "Marland Report 1972: erweiterter Begabungsbegriff",
+        "Roth 1967: paedagogischer Begabungsbegriff mit Erbe, Umwelt und Ich",
+        "Renzulli: Drei-Ringe-Modell als Wendepunkt (oft im deutschsprachigen Raum verkuerzt rezipiert)",
+        "Tannenbaum: Seesternmodell mit fuenf Faktoren",
+        "Moenks: triadisches Interdependenzmodell (Multifaktorenmodell)",
+        "Gagne: Differenziertes Begabungs- und Talentmodell DMGT, spaeter IMTD 2017",
+        "Muenchner Hochbegabungsmodell (Heller/Perleth): typologisch-mehrdimensional",
+        "Urban: mehrdimensionales Begabungskonzept mit Doppelpyramide",
+        "Fischer: integratives Begabungsmodell",
+        "Sternberg: WICS (Wisdom, Intelligence, Creativity, Synthesized)",
+        "Ziegler: Aktiotop-Modell (systemisch, Expertiseforschung)",
+        "Mueller-Oppliger: oekologisches Begabungsmodell (basiert auf Bronfenbrenner)",
+        "Trautmann: Mikado-Modell (dynamisch, individualisiert)",
+        "Schlussfolgerung: Modelle als Orientierungslinien, keine Wahrheit"
+      ],
+      "relevance_to_questions": [
+        {
+          "question_id": "frage1",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Begabung als dynamisches Potenzial (gesamter Abschnitt, Renzulli, Gardner, Muenchner Modell)",
+            "Multiperspektivische und dynamische Erfassung (Aktiotop, oekologisches Modell)"
+          ],
+          "connection_rationale": "Die im Lerndokument genutzte Trias Renzulli, Gardner, Muenchner Modell ist genau die historische Entwicklungslinie, die Mueller-Oppliger nachzeichnet. Dieser Text legitimiert die Modellauswahl und bietet Alternativen (Aktiotop, oekologisches Modell) als Vertiefung"
+        },
+        {
+          "question_id": "frage4",
+          "relevance_level": "primary",
+          "specific_latex_subsections": [
+            "Enrichment als Gegenmodell Das Schoolwide Enrichment Model (SEM/Renzulli)",
+            "SOLUX Strukturmerkmale und Wirklogik (systemtheoretische Rahmung)"
+          ],
+          "connection_rationale": "Mueller-Oppligers Beschreibung von Renzulli und des oekologischen Modells liefert die theoretische Rahmung fuer SOLUX als systemisch-inklusive Begabungsfoerderung"
+        },
+        {
+          "question_id": "frage3",
+          "relevance_level": "secondary",
+          "specific_latex_subsections": [
+            "Begabungsentwicklung als Beziehungsgeschehen (oekologisches Modell als Bruecke zur Beziehungstheorie)"
+          ],
+          "connection_rationale": "Das oekologische Modell bezieht Selbst und Beziehung systematisch ein; das anschlussfaehig an die PSI-Theorie in Frage 3"
+        }
+      ],
+      "usage_recommendation": {
+        "include_in_core_literature": true,
+        "rationale_for_inclusion": "Theoretische Rahmung der gesamten Arbeit. Im Pruefungsgespraech notwendig, falls die Examinatorin nach der Wahl des zugrunde liegenden Begabungsmodells fragt. Ist bereits durch muelleroppliger2021handbuch in der Bibliographie abgedeckt, sollte aber als spezifisches Kapitel benennbar sein",
+        "use_as_background_only": false,
+        "exam_preparation_tip": "Eine dreiminuetige muendliche Landkarte der Modellentwicklung parat haben: (1) Terman statisch, (2) Renzulli dynamisch, (3) Moenks soziokulturell, (4) Ziegler und Mueller-Oppliger systemisch. Dann positionieren: 'Fuer meinen Fall tragen Renzullis Drei-Ringe plus Muenchner Modell plus oekologisches Modell, weil sie Umweltfaktoren und Selbstkomponente zusammenbringen.'"
+      },
+      "connections_to_existing_citations": [
+        {"bibtex_key": "muelleroppliger2021handbuch", "relationship": "teil_des_gleichen_sammelbands", "note": "Mueller-Oppliger ist zugleich Herausgeber und Autor dieses Kapitels"},
+        {"bibtex_key": "fischer2020begabungsfoerderung", "relationship": "komplementaer"},
+        {"bibtex_key": "trautmann2016einfuehrung", "relationship": "komplementaer"},
+        {"bibtex_key": "muelleroppliger2021plurale", "relationship": "gleicher_autor"}
+      ],
+      "priority_for_exam": "medium_to_high"
+    }
+  ],
+
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "transcript_id": "T5",
+      "priority_level": "very_high",
+      "priority_color": "#C00000",
+      "rationale": "Frage 3 ist inhaltlich komplett auf PSI-Theorie aufgebaut. Die aktuell in der Bibliographie zitierte Kuhl-Quelle (kuhl2019diversitaet) passt weder vom Seitenbereich noch vom inhaltlichen Fokus zu dem, was Inti tatsaechlich argumentiert. Dies ist der kritischste offene Punkt im gesamten Lerndokument"
+    },
+    {
+      "rank": 2,
+      "transcript_id": "T3",
+      "priority_level": "high",
+      "priority_color": "#ED7D31",
+      "rationale": "Der Schach-Bezug ist die auffaelligste inhaltliche Besonderheit des Falls. Die Examinatorin wird mit hoher Wahrscheinlichkeit nachfragen, ob Schachtraining allgemein klueger macht. Hier ist empirische Praezision noetig, die nur Grabner/Meier liefert"
+    },
+    {
+      "rank": 3,
+      "transcript_id": "T2",
+      "priority_level": "high",
+      "priority_color": "#ED7D31",
+      "rationale": "Liefert die neurobiologische Tiefenbegruendung fuer Intis zentrale These, dass Begabung kein statischer IQ-Wert ist, sondern entwicklungsfaehiges Potenzial. Staerkt stern2025intelligenz und lemas2023begriffsklaerung"
+    },
+    {
+      "rank": 4,
+      "transcript_id": "T6",
+      "priority_level": "medium_to_high",
+      "priority_color": "#FFC000",
+      "rationale": "Theoretische Rahmung der gesamten Arbeit. Wird nur dann kritisch, wenn die Examinatorin nach der Wahl des Begabungsmodells fragt"
+    },
+    {
+      "rank": 5,
+      "transcript_id": "T4",
+      "priority_level": "medium",
+      "priority_color": "#FFD966",
+      "rationale": "Kreativitaet ist im Lerndokument bislang nur indirekt ueber Renzulli eingebaut. Urban wuerde einen eigenstaendigen Zugang eroeffnen, ist aber nicht zwingend noetig fuer die Pruefung"
+    },
+    {
+      "rank": 6,
+      "transcript_id": "T1",
+      "priority_level": "low",
+      "priority_color": "#70AD47",
+      "rationale": "Transkript ist zu fragmentarisch, um im Pruefungsgespraech zitierfaehig zu sein. Der Inhalt ist bereits ueber preckel2013hochbegabung im Lerndokument abgedeckt"
+    }
+  ],
+
+  "page_budget_impact": {
+    "current_net_page_count": 700,
+    "allowed_corridor": {"min": 500, "max": 700},
+    "scenarios": [
+      {
+        "name": "minimal",
+        "description": "Nur das Noetigste",
+        "transcripts_to_include": ["T5"],
+        "bibtex_changes_required": [
+          {"type": "replace_or_add", "existing_key": "kuhl2019diversitaet", "new_key": "kuhl2021begabung", "rationale": "Seitenbereich und inhaltlicher Fokus passen nicht"}
+        ],
+        "additional_net_pages": 16,
+        "pages_if_kuhl_replaces_old": 0,
+        "resulting_net_page_count_if_replace": 700,
+        "resulting_net_page_count_if_add": 716,
+        "budget_verdict": "komfortabel_im_korridor",
+        "recommendation": "wenn_nur_einer_dann_dieser"
+      },
+      {
+        "name": "recommended",
+        "description": "Empfohlenes Szenario mit starker empirischer Rueckendeckung",
+        "transcripts_to_include": ["T5", "T2", "T3"],
+        "bibtex_changes_required": [
+          {"type": "replace_or_add", "existing_key": "kuhl2019diversitaet", "new_key": "kuhl2021begabung"},
+          {"type": "add", "new_key": "stadelmann2021genetik"},
+          {"type": "add", "new_key": "grabnermeier2021expertise"}
+        ],
+        "additional_net_pages_if_kuhl_replaces": 24,
+        "additional_net_pages_if_kuhl_adds": 40,
+        "resulting_net_page_count_estimate": 724,
+        "budget_verdict": "leicht_ueber_obergrenze_aber_aufloesbar",
+        "recommendation": "praeferierte_variante",
+        "mitigation": "Kombinierbar mit Pascals To-do Variante A (Bruttosumme realistischer ansetzen), dann Nettosumme wieder komfortabel bei 700 Seiten"
+      },
+      {
+        "name": "maximal",
+        "description": "Alle sechs Transkripte als Kernliteratur",
+        "transcripts_to_include": ["T1", "T2", "T3", "T4", "T5", "T6"],
+        "additional_net_pages": 78,
+        "resulting_net_page_count_estimate": 778,
+        "budget_verdict": "sprengt_korridor",
+        "recommendation": "nicht_empfohlen"
+      }
+    ]
+  },
+
+  "caveats": [
+    {
+      "id": "CAV-01",
+      "severity": "critical",
+      "title": "Kuhl-Diskrepanz zwischen Bibliographie und Transkript",
+      "description": "Die Bibliographie des Lerndokuments zitiert kuhl2019diversitaet mit Seitenbereich 35-57 oder 35-59. Das vorliegende Transkript stammt jedoch aus S. 185-201 und traegt den Titel 'Begabung, Bildung und Beziehung'. Das sind zwei verschiedene Kapitel. Inhaltlich passt der S. 185er-Beitrag deutlich besser zu Frage 3",
+      "affected_transcripts": ["T5"],
+      "affected_bibtex_keys": ["kuhl2019diversitaet"],
+      "resolution_options": [
+        "Option A: kuhl2019diversitaet vollstaendig durch kuhl2021begabung ersetzen",
+        "Option B: Beide Eintraege parallel fuehren (kuhl2019diversitaet + kuhl2021begabung), Zitate in Frage 3 auf den neuen Key umstellen",
+        "Option C: Verifizieren, ob kuhl2019diversitaet tatsaechlich ein anderer, im Lerndokument nicht dokumentierter Beitrag ist, und dann 2021-Eintrag zusaetzlich fuehren"
+      ],
+      "recommended_resolution": "Option_A_oder_B",
+      "deadline": "2026-05-01",
+      "linked_todo": "Pascals To-do-Liste vor 1. Mai, Punkt 1 (Bibliographie verifizieren)"
+    },
+    {
+      "id": "CAV-02",
+      "severity": "minor",
+      "title": "Seitenangaben Gauzon und Mueller-Oppliger Begabungsmodelle fehlen",
+      "description": "Nur Stadelmann, Grabner/Meier, Urban und Kuhl haben explizite Seitenangaben im Transkript. Gauzon und Mueller-Oppliger Begabungsmodelle muessen am Buchregal verifiziert werden, falls sie in die Kernliteratur aufgenommen werden sollen",
+      "affected_transcripts": ["T1", "T6"],
+      "resolution": "Wenn T1 wie empfohlen nicht aufgenommen wird, ist nur T6 zu verifizieren. T6 ist zudem bereits ueber muelleroppliger2021handbuch abgedeckt und benoetigt keinen eigenen BibTeX-Eintrag, sofern im Fliesstext nur der Herausgeberband zitiert wird"
+    },
+    {
+      "id": "CAV-03",
+      "severity": "info",
+      "title": "Gauzon-Transkript ist fragmentarisch",
+      "description": "Der Text bricht nach wenigen Saetzen ab. Als zitierfaehige Quelle im Pruefungsgespraech ungeeignet",
+      "affected_transcripts": ["T1"],
+      "resolution": "Nicht in die Bibliographie aufnehmen, solange das vollstaendige Kapitel nicht vorliegt"
+    },
+    {
+      "id": "CAV-04",
+      "severity": "info",
+      "title": "Grabner/Meier-Transkript ist unvollstaendig",
+      "description": "Der Hinweis 'nicht komplett' steht explizit im Transkript. Die Metaanalyse-Zahlen (Hambrick et al., Macnamara et al.) sind zum Glueck vollstaendig wiedergegeben und fuer die Pruefung ausreichend",
+      "affected_transcripts": ["T3"],
+      "resolution": "Fuer die Pruefungsvorbereitung ausreichend. Fuer eine foermliche Zitation waere Zugriff auf den Volltext wuenschenswert"
+    },
+    {
+      "id": "CAV-05",
+      "severity": "info",
+      "title": "Transkriptionsqualitaet mit OCR-Fehlern",
+      "description": "Die Transkripte weisen erkennbare OCR- bzw. Transkriptionsfehler auf (Namensvarianten, eingedeutschte englische Phrasen). Vor wortwoertlichem Zitieren muss am Originaltext verifiziert werden",
+      "affected_transcripts": ["T1", "T2", "T3", "T4", "T5", "T6"],
+      "resolution": "Nur sinngemaesse Paraphrasen verwenden, keine direkten Zitate ohne Originalabgleich"
+    },
+    {
+      "id": "CAV-06",
+      "severity": "info",
+      "title": "Keine inhaltlichen Widersprueche zum Lerndokument",
+      "description": "Alle sechs Transkripte stuetzen die Kernthesen von Intis Arbeit. Das ist ein starkes Signal dafuer, dass die theoretische Rahmung des Lerndokuments tragfaehig ist"
+    }
+  ],
+
+  "actions": {
+    "before_submission_deadline": {
+      "deadline": "2026-05-01",
+      "scope": "Abgabedossier auf Moodle",
+      "items": [
+        {
+          "action_id": "A-01",
+          "priority": "critical",
+          "description": "Kuhl-Eintrag in Quellen.bib verifizieren und gegebenenfalls ersetzen oder ergaenzen",
+          "linked_caveat": "CAV-01",
+          "linked_transcript": "T5"
+        },
+        {
+          "action_id": "A-02",
+          "priority": "high",
+          "description": "Falls T2 Stadelmann aufgenommen wird: neuen BibTeX-Eintrag stadelmann2021genetik mit Seitenbereich 133-147 anlegen und Kernliteratur Frage 1 ergaenzen",
+          "linked_transcript": "T2"
+        },
+        {
+          "action_id": "A-03",
+          "priority": "high",
+          "description": "Falls T3 Grabner/Meier aufgenommen wird: neuen BibTeX-Eintrag grabnermeier2021expertise mit Seitenbereich 149-159 anlegen und Kernliteratur Frage 2 ergaenzen",
+          "linked_transcript": "T3"
+        },
+        {
+          "action_id": "A-04",
+          "priority": "medium",
+          "description": "Seitenbudget-Tabelle entsprechend der gewaehlten Szenario-Variante aktualisieren",
+          "linked_budget_scenario": "recommended"
+        }
+      ]
+    },
+    "between_submission_and_examination": {
+      "period_start": "2026-05-01",
+      "period_end": "2026-06-11",
+      "scope": "Muendliche Pruefungsvorbereitung",
+      "items": [
+        {
+          "action_id": "A-05",
+          "priority": "critical",
+          "description": "PSI-Kerntrias aus Kuhl T5 auf ca. 2 Minuten komprimiert muendlich abrufbar trainieren (Intentionsgedaechtnis vs. Extensionsgedaechtnis, Selbstzugang durch positiven Affekt, Selbstkontaktbestrafung)",
+          "linked_transcript": "T5",
+          "exam_question_context": "Ergaenzende Frage zur Verweisungspraxis (Frage 3)"
+        },
+        {
+          "action_id": "A-06",
+          "priority": "high",
+          "description": "Zwei Kernpointen aus Grabner/Meier T3 merkfertig halten: (a) 10000-Stunden-Regel empirisch widerlegt, Deliberate Practice erklaert nur 12-34 Prozent der Varianz; (b) Chase/Simon-Chunking erklaert Arbeitsgedaechtnisentlastung durch Schachnotation",
+          "linked_transcript": "T3",
+          "exam_question_context": "Erwartbare Nachfrage, ob Schachtraining allgemein klueger macht (Frage 2)"
+        },
+        {
+          "action_id": "A-07",
+          "priority": "high",
+          "description": "Stadelmann-Merksatz zur neurobiologischen Begruendung parat halten: 'Es gibt kein Begabungsgen. Genexpression ist kontextabhaengig und epigenetisch reguliert.'",
+          "linked_transcript": "T2",
+          "exam_question_context": "Begruendung gegen die Abwarten-Empfehlung der Fachstellen (Frage 5)"
+        },
+        {
+          "action_id": "A-08",
+          "priority": "medium_to_high",
+          "description": "Dreiminuetige muendliche Landkarte der Begabungsmodelle aus Mueller-Oppliger T6 vorbereiten: Terman statisch, Renzulli dynamisch, Moenks soziokulturell, Ziegler und Mueller-Oppliger systemisch",
+          "linked_transcript": "T6",
+          "exam_question_context": "Moegliche Nachfrage nach dem zugrunde liegenden Begabungsmodell (Frage 1 und Frage 4)"
+        },
+        {
+          "action_id": "A-09",
+          "priority": "medium",
+          "description": "Karteikarte fuer Urban T4 anlegen, falls Kreativitaetsfoerderung angesprochen wird: Komponentenmodell, 25 Anregungen, Pointe Kreativitaet in allen Faechern",
+          "linked_transcript": "T4",
+          "exam_question_context": "Nur bei expliziter Frage nach Kreativitaetsfoerderung (Frage 4)"
+        }
+      ]
+    }
+  },
+
+  "cross_reference_indexes": {
+    "by_question": {
+      "frage1": {
+        "primary": ["T2", "T6"],
+        "secondary": ["T3", "T4"],
+        "background_only": ["T1"]
+      },
+      "frage2": {
+        "primary": ["T3"],
+        "secondary": ["T2", "T5"]
+      },
+      "frage3": {
+        "primary": ["T5"],
+        "secondary": ["T2", "T6"]
+      },
+      "frage4": {
+        "primary": ["T4", "T6"],
+        "secondary": []
+      },
+      "frage5": {
+        "primary": ["T5"],
+        "secondary": ["T1", "T4"]
+      }
+    },
+    "by_exam_priority": {
+      "very_high": ["T5"],
+      "high": ["T2", "T3"],
+      "medium_to_high": ["T6"],
+      "medium": ["T4"],
+      "low": ["T1"]
+    },
+    "by_inclusion_recommendation": {
+      "include_in_core_literature": ["T2", "T3", "T5", "T6"],
+      "background_only": ["T1", "T4"]
+    }
+  }
+}

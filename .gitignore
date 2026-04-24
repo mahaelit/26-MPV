@@ -23,11 +23,31 @@
 *_ExcelToLaTeX.err
 missfont.log
 
-# ---------- Erzeugte PDFs ----------
-# PDFs gehören nicht ins Repo – sie werden bei jedem Build neu erzeugt.
-# Falls ihr eine "Release"-Version teilen wollt, nutzt Git-Tags oder
-# kopiert das PDF manuell an einen anderen Ort.
-*.pdf
+# ---------- LaTeX-Build-Outputs im Repo-Root ----------
+# Die vom LaTeX-Build erzeugten PDFs werden bei jedem Build neu generiert
+# und gehoeren deshalb nicht ins Repo. Quellen-PDFs unter `Literatur/**/`
+# sollen dagegen versioniert werden (siehe ! -Regeln weiter unten), damit
+# das Open-Book-Dossier offline und von allen Mitarbeitenden nutzbar ist.
+/mpv.pdf
+/mpv_abgabedokument.pdf
+/mpv_backup.pdf
+/*.pdf
+
+# ---------- Quellen-Volltexte unter Literatur/**/ VERSIONIEREN ----------
+# Ausnahme vom globalen `*.pdf`-Muster: PDFs, EPUBs und andere Quellen-
+# Volltexte (inkl. der aus `extract_excerpts.py` erzeugten Kapitel-Splits)
+# sollen im Repo bleiben.
+!Literatur/**/*.pdf
+!Literatur/**/*.epub
+!Literatur/**/*.djvu
+
+# ---------- Original-Foto-Scans NICHT versionieren ----------
+# Unkomprimierte iOS/Foto-Scans (typ. 30-300 MB) bleiben lokal als Backup
+# verfuegbar, blaehen aber das Repo unnoetig auf. Im Repo wird ausschliesslich
+# die komprimierte `source.pdf` (typ. < 10 MB) versioniert.
+Literatur/**/source_original*.pdf
+Literatur/**/source_original*.PDF
+Literatur/**/*_uncompressed.pdf
 
 # ---------- Editor / OS ----------
 .vscode/

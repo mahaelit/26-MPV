@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "analyse_datum": "2026-04-19",
+    "transkript_datei": "Teil_7__Begabte_belgleiten_ohne_kommentar.md",
+    "zielgruppe": "Inti Merolli, MA SHP, PH Luzern, Masterprüfung Vertiefung (11.06.2026)",
+    "zweck": "Verortung des Transkriptinhalts im Lerndokument und im Abgabedossier; Identifikation der Quelle; Zuordnung zu den fünf Prüfungsfragen; Vorschläge für konkrete Zitierstellen",
+    "analyst": "Claude (Anthropic), im Auftrag von Pascal",
+    "hinweis_lesbarkeit": "Dieses JSON ist so strukturiert, dass es sowohl maschinell (z. B. mit jq) als auch von Hand lesbar ist. Schlüssel sind hierarchisch, lange Prosa liegt in dedizierten String-Feldern. Alle Seitenangaben sind explizit als Strings notiert, um Nullen und Bereiche nicht zu verlieren."
+  },
+
+  "quelle_identifikation": {
+    "status": "Eindeutig identifiziert",
+    "methode": "Kreuzabgleich des Transkriptkopfes ('Teil 7 Begabte begleiten, Akteur:innen und Formen', 'Pädagogische Haltung des Akteurs, Thomas Trautmann, 496-506') mit dem Inhaltsverzeichnis des Handbuchs Begabung (Beltz 2021)",
+    "kapitel": {
+      "autor": "Trautmann, Thomas",
+      "titel": "Pädagogische Haltung des Akteurs",
+      "teil_des_sammelbands": "Teil VII: Begabte begleiten: Akteur:innen und Formen",
+      "seitenbereich_transkriptangabe": "496-506",
+      "seitenbereich_laut_inhaltsverzeichnis": "beginnt auf S. 496; das Folgekapitel (Arnold/Großgasteiger, 'Ressourcenorientierte Hochbegabtenberatung') beginnt auf S. 511",
+      "plausibler_realbereich": "S. 496-510 (15 Seiten inkl. Literaturverzeichnis), davon fliesstextlicher Hauptteil vermutlich S. 496-506",
+      "verifikationsauftrag": "Bei physischer Einsicht ins Handbuch prüfen: Wo genau endet der Fliesstext und wo beginnt das Literaturverzeichnis des Kapitels?"
+    },
+    "sammelband": {
+      "herausgeber": ["Müller-Oppliger, Victor", "Weigand, Gabriele"],
+      "titel": "Handbuch Begabung",
+      "untertitel_reihe": "Reihe: Hochbegabung und pädagogische Praxis",
+      "verlag": "Beltz",
+      "verlagsorte": ["Weinheim", "Basel"],
+      "jahr": 2021,
+      "auflage": "1. Auflage",
+      "isbn_print": "978-3-407-25806-9",
+      "isbn_ebook": "978-3-407-25886-1",
+      "gesamtseiten": 609,
+      "hinweis_karg_stiftung": "Das Handbuch wurde durch die Karg-Stiftung ermöglicht (siehe Vorwort)."
+    },
+    "bezug_zu_bestehender_bib": {
+      "bestehender_key": "muelleroppliger2021handbuch",
+      "problem": "Dieser Key verweist auf den gesamten Sammelband, nicht auf den Trautmann-Beitrag. Wenn im Lerndokument konkret auf Trautmanns Kapitel zitiert wird, sollte ein separater @incollection-Eintrag angelegt werden.",
+      "empfehlung": "Neuer BibTeX-Eintrag 'trautmann2021haltung' als @incollection, der per 'crossref' oder per expliziten editor/publisher-Feldern auf das Handbuch verweist."
+    }
+  },
+
+  "bibtex_vorschlag": {
+    "key": "trautmann2021haltung",
+    "typ": "@incollection",
+    "eintrag_roh": "@incollection{trautmann2021haltung,\n  author    = {Trautmann, Thomas},\n  title     = {P{\\\"a}dagogische Haltung des Akteurs},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  publisher = {Beltz},\n  address   = {Weinheim and Basel},\n  year      = {2021},\n  pages     = {496--510},\n  isbn      = {978-3-407-25806-9}\n}",
+    "hinweis_seitenzahl": "Seitenbereich 496-510 ist eine konservative Obergrenze laut Inhaltsverzeichnis. Bei tatsächlicher Einsicht ggf. auf 496-506 oder 496-509 korrigieren.",
+    "einbettung_in_bestehenden_bib": "Die Zeile TODO zu muelleroppliger2021handbuch für Diagnostik-Kapitel etc. bleibt bestehen. Für Trautmann-spezifische Zitate wird konsequent der neue Key verwendet."
+  },
+
+  "relevanzmatrix_pruefungsfragen": {
+    "beschreibung": "Jede der fünf Prüfungsfragen wird mit einer Relevanzbewertung versehen (HOCH / MITTEL / NIEDRIG / KEINE). HOCH bedeutet: Trautmann liefert zentrale Argumente oder Konzepte, die direkt zitiert werden sollten. MITTEL: ergänzende Argumente, die die bestehende Argumentation verstärken. NIEDRIG: einzelne Randbezüge. KEINE: kein sinnvoller Bezug.",
+    "frage_1_FW_KS_DG": {
+      "titel": "Multiperspektivische Erfassung verdeckter Begabungen",
+      "relevanz": "MITTEL",
+      "begruendung": "Trautmann adressiert nicht Diagnostik im engeren Sinn, aber er liefert das Haltungsfundament, auf dem multiperspektivische Erfassung überhaupt erst gelingt: die 'sensitive Responsivität' (Signale bemerken, angemessen reagieren), die 'forschende Haltung' mit prozessbegleitender Dokumentation (Böhm) und die Mahnung, dass Lehrpersonen 'Heterogenität zwischen drei Ebenen' mit einer unklaren Definition von Begabung verbinden (Eigenforschung Trautmann)."
+    },
+    "frage_2_FW_MW_KS": {
+      "titel": "Sensumotorische und schriftsprachliche Barrieren",
+      "relevanz": "KEINE",
+      "begruendung": "Trautmann argumentiert nicht auf der Ebene sensumotorischer oder schriftsprachlicher Prozesse. Randbezug zu 'intelligenten Übungsformaten', Compacting und Enrichment im Unterricht ist zu allgemein, um für diese Frage tragend zu sein."
+    },
+    "frage_3_FW_PB": {
+      "titel": "Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung, Begabungsentwicklung",
+      "relevanz": "HOCH",
+      "begruendung": "Trautmann entfaltet die relationale Grundlage, auf der Intis Frage 3 argumentiert: Vertrauen (Giddens 1995, System- vs. Personenvertrauen), sensitive Responsivität als 'Big Point' pädagogischer Akteur:innen, emotionale Qualität der Grundschulbeziehung, Rogers' uneingeschränkte Annahme, Ermutigung als wertschätzende aber herausfordernde Haltung. Insbesondere komplementär zu Grossrieders Anerkennungstheorie."
+    },
+    "frage_4_BW_DG_PV": {
+      "titel": "Inklusive Begabungsförderung am Beispiel SOLUX",
+      "relevanz": "MITTEL",
+      "begruendung": "Trautmann argumentiert für Wertschätzung von Diversität, Mehrdimensionalität von Begabung (Gardner 2012, Multiple Intelligenzen), Übergangskompetenz, Ziegler 2005 Aktotop-Modell, intelligente Übungsformate, Enrichment und Compacting. Das liefert haltungsseitige Rückendeckung für SOLUX, ersetzt aber nicht die strukturellen Argumente von Weigand/Kaiser oder Sedmak/Kapferer."
+    },
+    "frage_5_BW_ZB_PV": {
+      "titel": "Beratung und Zusammenarbeit aus SHP-Perspektive",
+      "relevanz": "SEHR HOCH",
+      "begruendung": "Das ist die zentrale Heimat des Trautmann-Beitrags in Intis Arbeit. Der gesamte Kapiteltext diskutiert die professionelle pädagogische Haltung. Drei besonders wichtige Anschlusspunkte: (1) Schwer/Solzbacher 2014, Definition von Haltung als 'idiosynkratisches Muster von Einstellungen und Überzeugungen', (2) die drei Kennzeichen professioneller Haltung nach Kohl/Schwer/Solzbacher 2014 (Standfestigkeit und Kohärenz, Einbezug eigener wie fremder Gefühle, breite Aufmerksamkeit und Wachsamkeit), die sich strukturell mit Intis selbst formulierter SHP-Trias (fachliche Unabhängigkeit, reflexive Partnerschaftlichkeit, institutionelle Wachsamkeit) überlappen, (3) die Forderung nach biographischer Kompetenz, Selbstreflexion und forschender Haltung (Böhm), die Intis methodische Selbstreflexion zur Funktionskumulation und Beobachterverzerrung stützt."
+    }
+  },
+
+  "goldfund_SHP_trias": {
+    "titel": "Die strukturelle Deckung zwischen Kohl/Schwer/Solzbacher (2014) und Intis SHP-Trias",
+    "bedeutung": "Dies ist der wichtigste inhaltliche Befund der Transkriptanalyse und sollte im Prüfungsgespräch aktiv eingesetzt werden, insbesondere zu Frage 5.",
+    "kohl_schwer_solzbacher_2014_drei_kennzeichen": [
+      {
+        "nr": 1,
+        "bezeichnung_original": "Standfestigkeit und Kohärenz von Entscheidungen",
+        "kurzform": "Führung in und ausserhalb pädagogischer Prozesse"
+      },
+      {
+        "nr": 2,
+        "bezeichnung_original": "Einbezug und Integration eigener wie fremder Gefühle, Bedürfnisse und Körperwahrnehmungen",
+        "kurzform": "empathisch und selbstreflektiert"
+      },
+      {
+        "nr": 3,
+        "bezeichnung_original": "breite Form der Aufmerksamkeit / Wachsamkeit",
+        "kurzform": "überwacht aus dem Hintergrund des Bewusstseins die Vereinbarkeit des Eigenhandelns mit Sinn und Verstand"
+      }
+    ],
+    "intis_SHP_trias": [
+      {
+        "nr": 1,
+        "bezeichnung": "Fachliche Unabhängigkeit",
+        "kurzform": "Gegen Konsens argumentieren können, wenn fachlich geboten"
+      },
+      {
+        "nr": 2,
+        "bezeichnung": "Reflexive Partnerschaftlichkeit",
+        "kurzform": "Beratung ohne Belehrung, gemeinsames Beobachten und Nachdenken"
+      },
+      {
+        "nr": 3,
+        "bezeichnung": "Institutionelle Wachsamkeit",
+        "kurzform": "Beobachtet auch Strukturen und Praktiken, nicht nur einzelne Kinder"
+      }
+    ],
+    "strukturelle_korrespondenz": [
+      "Kohl-1 (Standfestigkeit) korrespondiert mit Inti-1 (Fachliche Unabhängigkeit)",
+      "Kohl-2 (Einbezug eigener/fremder Gefühle) korrespondiert mit Inti-2 (Reflexive Partnerschaftlichkeit)",
+      "Kohl-3 (Wachsamkeit) korrespondiert direkt, sogar wörtlich, mit Inti-3 (Institutionelle Wachsamkeit)"
+    ],
+    "strategische_empfehlung": "Im Prüfungsgespräch zu Frage 5 kann Inti ihre SHP-Trias als eigenständige Weiterentwicklung der drei Kennzeichen nach Kohl/Schwer/Solzbacher (2014) rahmen, rezipiert über Trautmann (2021, S. 509 f.). Das zeigt, dass ihre berufliche Selbstformulierung in einem soliden fachlichen Diskurs steht, und gleichzeitig, dass sie eigenständig denkt (Weiterentwicklung: der Zusatz 'institutionell' bei 'Wachsamkeit' ist Intis SHP-spezifische Zuspitzung)."
+  },
+
+  "thematische_gliederung_transkript": [
+    {
+      "nr": 1,
+      "titel": "Braucht es für Begabungsförderung eine besondere Haltung?",
+      "kernaussagen": [
+        "Unterricht ist hochkomplexes, halbchaotisches Geschehen",
+        "Haltung ist nicht direkt beobachtbar, zeigt sich in Interaktionsgestaltung",
+        "Weder Unterricht noch Akteur:innen sind standardisierbar",
+        "Begabungsprägung ist hochindividuell (Trautmann 2016)"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Felten, M.", "jahr": 2013, "bezug": "'Das ist nicht mehr professionell'"},
+        {"name": "Nohl / Litt", "jahr": "1927/1964", "bezug": "Pädagogisches Evangelium des Wachsenlassens"}
+      ],
+      "zuordnung_frage": ["5"],
+      "integration_vorschlag": "Einleitung zu Frage 5 (Abschnitt 'Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit') als Rahmung: 'Bereits Trautmann (2021, S. 496) weist darauf hin, dass Unterricht weder standardisierbar noch die Akteur:innen und ihre Handlungen sind.' Dient als Brücke zur Frage nach Haltung."
+    },
+    {
+      "nr": 2,
+      "titel": "Begriffsklärung: Was ist pädagogische Haltung?",
+      "kernaussagen": [
+        "Haltung als idiosynkratisches Muster von Einstellungen und Überzeugungen (Schwer/Solzbacher 2014)",
+        "Haltung als 'innerer Kompass', der Stabilität und Kontextsensibilität des Urteilens ermöglicht",
+        "Haltung als handlungsleitende Werteorientierung (Nentwig-Gesemann 2012)",
+        "Bild vom Kind und professionelles Rollenverständnis gehören im Kern zur Haltung",
+        "Haltung ist weder leicht veränderbar noch beliebig"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Schwer, C. / Solzbacher, C.", "jahr": 2014, "bezug": "Definition professionelle Haltung"},
+        {"name": "Nentwig-Gesemann, I.", "jahr": 2012, "bezug": "Orientierungsmuster"},
+        {"name": "Römer, J. / Trautmann, T.", "jahr": 2015, "bezug": "habitualisierende Einstellungen"},
+        {"name": "Maret", "jahr": 2018, "bezug": "Authentizität und Mündigkeit"}
+      ],
+      "zuordnung_frage": ["5"],
+      "integration_vorschlag": "Frage 5, Abschnitt 'Konsequenzen für das SHP-Professionsverständnis' (S. 43 im Lerndokument): Vor dem Satz 'Drei Haltungen tragen dieses erweiterte Professionsverständnis' einschieben: '\\textcite{trautmann2021haltung} rezipiert Schwer und Solzbacher (2014), die professionelle Haltung als idiosynkratisches Muster definieren, das durch authentischen Selbstbezug und Selbstkompetenzen zustande kommt und wie ein innerer Kompass Stabilität und Kontextsensibilität ermöglicht.'"
+    },
+    {
+      "nr": 3,
+      "titel": "Biographische Kompetenz und Selbstreflexivität",
+      "kernaussagen": [
+        "Pädagogische Akteur:innen müssen ihre eigene Biographie mitbringen und reflektieren",
+        "Welche Verletzungen erinnere ich? Welches didaktische Weltbild pflege ich?",
+        "Rückmeldungsprozesse sind hochrelevant für Lerneffekte",
+        "Ermutigung als einfühlsame, wertschätzende und herausfordernde Haltung",
+        "Erwartungen sollten auf der Stufe der nächsten Entwicklung angesiedelt sein"
+      ],
+      "zuordnung_frage": ["5", "3"],
+      "integration_vorschlag": "Frage 5, Abschnitt 'Kritische Reflexion: Professionelles Handeln bei Dissens', im Zusammenhang mit Intis Selbstreflexion zur Funktionskumulation (SHP + DaZ + SOLUX-Leitung). Trautmanns Forderung nach biographischer Kompetenz stützt Intis methodische Selbstkritik zur Beobachterverzerrung."
+    },
+    {
+      "nr": 4,
+      "titel": "Ressourcenorientierung",
+      "kernaussagen": [
+        "Abwägung: Was ist bewältigbar, was aktuell nicht?",
+        "Burnout-Gefahr bei Pädagog:innen: vernünftiger Umgang mit Zeit und Engagement",
+        "Hochbegabte fordern pädagogische Akteur:innen, Eltern und Peers gleichzeitig",
+        "Vorbehaltlose Zuwendung UND konsequente Abgrenzung als komplementäre Fixpunkte in einem Spannungsfeld",
+        "Vierninkel 2016: Gefahr der Banalisierung, wenn Ressourcenorientierung zum Ignorieren von Problemlagen wird"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Vierninkel, S.", "jahr": 2016, "bezug": "kritische Warnung vor naiver Ressourcenorientierung"}
+      ],
+      "zuordnung_frage": ["5"],
+      "integration_vorschlag": "Frage 5, als Vertiefung der Warnung vor naiver Ressourcenorientierung. Passt in die Nähe der methodischen Selbstreflexion zur Beobachterverzerrung. Wichtiger Kontrapunkt zur Burow-Rezeption: Trautmann/Vierninkel bewahren Intis Argumentation davor, rein affirmativ-positiv zu werden."
+    },
+    {
+      "nr": 5,
+      "titel": "Empathie, Feinfühligkeit, sensitive Responsivität",
+      "kernaussagen": [
+        "Kommunikation beginnt beim Verstehen, nicht bei der Mitteilung (Luhmann-Systemtheorie via Ripper 2011)",
+        "Drei-Schritt der sensitiven Responsivität: Signale bemerken, Zusammenhang aufmerksam gegenwärtig halten, angemessen verhalten",
+        "Myog 2016: Schüler:innen denken intensiv darüber nach, ob Lehrer:innen fair und gerecht sind",
+        "Differenzierende Codes der Kinder lesen lernen",
+        "Vertrauen als zusätzlicher, bislang wenig beachteter Aspekt"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Ripper (Luhmann-Rezeption)", "jahr": 2011, "bezug": "Kommunikation als Verstehen"},
+        {"name": "Myog", "jahr": 2016, "bezug": "Lehrerbild aus Schülerperspektive; schwer lesbare Transkription, ggf. 'Muyo' oder ähnlich"}
+      ],
+      "zuordnung_frage": ["3", "5"],
+      "integration_vorschlag_frage_3": "Frage 3, Abschnitt 'Begabungsentwicklung als Beziehungsgeschehen' oder 'Anerkennung als pädagogische Grundkategorie': Sensitive Responsivität als Ergänzung zur PSI-Theorie und zu Grossrieder. Trautmanns Drei-Schritt (Signale bemerken, gegenwärtig halten, angemessen reagieren) ist ein konkretisierendes Komplement zur abstrakteren Anerkennungstheorie.",
+      "integration_vorschlag_frage_5": "Frage 5, Abschnitt 'Die Beratung der Klassenlehrperson': Sensitive Responsivität auch gegenüber Kolleg:innen als Dimension reflexiver Partnerschaftlichkeit."
+    },
+    {
+      "nr": 6,
+      "titel": "Vertrauen",
+      "kernaussagen": [
+        "Giddens 1995: Systemvertrauen (gesichtsunabhängige Bindung an Interaktionsmuster und Konventionen) vs. Personenvertrauen (Beziehung zu einem Individuum)",
+        "Im Elternhaus und in der Schule werden beide Arten gebraucht",
+        "Urvertrauen der Kinder ist bereits vorhanden, wird aber durch unzuverlässige oder verwöhnende Eltern und durch ungerechte Lehrpersonen gemindert",
+        "Schülervertrauen kann durch überflüssiges Nacheifern, unpassendes Verbessern, ungerechtes Bestrafen und unehrliches Loben geschädigt werden"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Giddens, A.", "jahr": 1995, "bezug": "Vertrauen in Systeme vs. Personen"}
+      ],
+      "zuordnung_frage": ["3"],
+      "integration_vorschlag": "Frage 3, neuer Kurzabschnitt nach 'Anerkennung als pädagogische Grundkategorie' oder als Einschub in 'Konsequenzen für die heilpädagogische Begleitung': 'Giddens (1995), rezipiert bei \\textcite{trautmann2021haltung}, unterscheidet Systemvertrauen und Personenvertrauen. Für S., der innerhalb weniger Monate Herkunftsland, Sprache, Freunde und Schulsystem verloren hat, ist beides erschüttert: das Systemvertrauen in die neue Institution ebenso wie das Personenvertrauen in die einzelnen Fachpersonen, die ihn als auffällig und weinerlich beschreiben.' Das liefert einen zusätzlichen konzeptionellen Rahmen für Intis Analyse der kumulativen Belastung."
+    },
+    {
+      "nr": 7,
+      "titel": "Offenheit für und Wertschätzung von Diversität",
+      "kernaussagen": [
+        "Rogers: uneingeschränkte Annahme als Axiom gelingender Pädagogik",
+        "Wird im Tagesgeschäft häufig zugunsten defizitorientierter Sichtweisen aufgegeben",
+        "Gardner 2012: Multiple Intelligenzen als Impuls gegen rein kognitive Engführung",
+        "Auch in der Gruppe der Begabten spielt Diversität eine zentrale Rolle (Trautmann 2008, 2016)",
+        "Übergangskompetenz: Individuum muss lernen, Lebensübergänge zu gestalten, inklusive partiellen Scheiterns",
+        "Kirchhöfer/Steffens: Warnung vor einer 'wohlgesinnten Einfältigkeit', die den Blick auf Anforderungen des Lebens verstellt"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Rogers, C."},
+        {"name": "Gardner, H.", "jahr": 2012},
+        {"name": "Kirchhöfer / Steffens"},
+        {"name": "Trautmann, T.", "jahr": "2008, 2016"},
+        {"name": "Brommer, J.", "jahr": 2016, "bezug": "Schulbeginn"},
+        {"name": "Bigdach, O.", "jahr": 2016, "bezug": "Übergang Grundschule zum Gymnasium"}
+      ],
+      "zuordnung_frage": ["4", "3"],
+      "integration_vorschlag_frage_4": "Frage 4, Abschnitt 'Inklusive Begabungsförderung als Gerechtigkeitsperspektive': Trautmanns Rezeption von Gardner und die eigene Arbeit zur Diversität innerhalb der Gruppe der Begabten stützt Intis Argument, dass SOLUX gerade wegen seiner Offenheit diagnostisch produktiv ist.",
+      "integration_vorschlag_frage_3": "Frage 3, Diskussion der Übergangskompetenz: S. steht vor dem Übertritt in die Sekundarstufe. Trautmanns Hinweis auf Übergangskompetenz (inklusive partiellen Scheiterns und Neuorientierung) ist anschlussfähig an Intis Diskussion der Beziehungsgestaltung in Übergangssituationen."
+    },
+    {
+      "nr": 8,
+      "titel": "Pädagogische Haltung und Begabungsförderung",
+      "kernaussagen": [
+        "Haltung muss auf dem Fundament der Kinderrechte verankert sein (Maywald 2015)",
+        "Vierninkel 2016: Haltung als innerer Kompass",
+        "Elterndruck: elterliche Erwartungen weichen oft von Lehrereinschätzungen ab und können zu Über- oder Unterforderung führen (Deutsch 2018)",
+        "Grundschule: Beziehung ist emotional stärker geprägt als Sekundarstufe",
+        "Grundschullehrer:innen brauchen einfühlsames, nicht bewertendes Verstehen der Lebenswelt der Kinder",
+        "Haltung muss sich an berufsethischen Prinzipien orientieren"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Maywald, J.", "jahr": 2015, "bezug": "Kinderrechte als Fundament"},
+        {"name": "Vierninkel, S.", "jahr": 2016, "bezug": "innerer Kompass"},
+        {"name": "Deutsch", "jahr": 2018, "bezug": "Elterndruck, Leistungserwartungen"}
+      ],
+      "zuordnung_frage": ["5", "3"],
+      "integration_vorschlag": "Frage 5, Abschnitt 'Die Beratung der Klassenlehrperson': Die Klassenlehrperson ist Quereinsteigerin aus der Sekundarstufe (Chemie-Gymnasiallehrerin) und muss sich auf die emotional dichtere Beziehungskultur der Primarstufe einstellen. Trautmanns Differenzierung Grundschule vs. Sekundarstufe stützt Intis Argument, dass ihr Beratungsangebot hier fachlich begründet und nicht als Kritik zu verstehen ist."
+    },
+    {
+      "nr": 9,
+      "titel": "Pädagogische Haltung in Unterrichtsprozessen",
+      "kernaussagen": [
+        "Kein perfekter Unterricht, sondern erfolgreiche Handlungsbandbreite",
+        "Faktoren: Klassen- und Kleingruppenklima, räumliche Gegebenheiten, Sitzordnung, Materialien, Leistungsanforderungen, Fehlerkultur",
+        "Vorurteile und manifestierte Meinungen als umweltbezogene Reaktionen auf Heterogenität",
+        "Lerndifferenzierung, Enrichment, Grouping, Compacting, intelligente Übungsformate",
+        "Ziegler et al. 2014 Aktotop-Modell: subjektiver Handlungsraum der Schüler:innen",
+        "Gender- und kontextspezifische Interventionen (Ziegler)"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Ziegler, A. et al.", "jahr": 2014, "bezug": "Aktotop-Modell, epistemologische und interaktionale Ebene"},
+        {"name": "Krocker, B.", "bezug": "Unterrichtsstörungen"},
+        {"name": "Brück, L.", "jahr": 2018, "bezug": "Verantwortung der Erwachsenen"}
+      ],
+      "zuordnung_frage": ["4", "5"],
+      "integration_vorschlag": "Frage 4, Unterabschnitt 'Begabungsförderung als Schulentwicklungsimpuls' oder Frage 5, Diskussion der Unterrichtsentwicklung: Trautmann/Ziegler bieten einen haltungsbasierten Zugang zu Unterrichtsqualität, der ergänzend zu Booth/Ainscow Dimension C gelesen werden kann."
+    },
+    {
+      "nr": 10,
+      "titel": "Erlernbarkeit der Haltung",
+      "kernaussagen": [
+        "Haltung ist unter bestimmten Voraussetzungen erlernbar",
+        "Reflektive Selbststärkung der Ich-Kompetenzen als Kern",
+        "Berliner Empfehlungen 2018: Qualifizierungen, die eine Einrichtung länger begleiten, sind besonders erfolgreich",
+        "Studium: Arbeit an Haltungsvariablen in Praktika, kasuistische Momente (Fallstudien, Dilemmata, Supervision, Coaching)",
+        "Schleiermacher 1822/1976: überindividuell vs. individuell",
+        "Litt 1927: Führen vs. Wachsenlassen (prinzipielle Prüfsteine jeglicher pädagogischer Theorie)",
+        "Kant: Erziehung als eines der grössten Probleme",
+        "Die drei Kennzeichen professioneller Haltung (Kohl/Schwer/Solzbacher 2014)",
+        "Brecht 1932: 'Das Einfache, das schwer zu machen ist' (Schlussformel)"
+      ],
+      "zitierte_autor_innen_im_text": [
+        {"name": "Berliner Empfehlungen", "jahr": 2018},
+        {"name": "Schleiermacher, F.", "jahr": "1822 / 1976"},
+        {"name": "Litt, T.", "jahr": 1927},
+        {"name": "Kant, I."},
+        {"name": "Kohl / Schwer / Solzbacher", "jahr": 2014, "bezug": "drei Kennzeichen: Standfestigkeit, Gefühlsintegration, Wachsamkeit"},
+        {"name": "Brecht, B.", "jahr": 1932}
+      ],
+      "zuordnung_frage": ["5"],
+      "integration_vorschlag": "Frage 5, zentraler Anschluss im Abschnitt 'Konsequenzen für das SHP-Professionsverständnis'. Inti kann ihre SHP-Trias als Weiterentwicklung der drei Kennzeichen nach Kohl/Schwer/Solzbacher (2014), rezipiert über Trautmann (2021), rahmen. Siehe goldfund_SHP_trias oben.",
+      "strategischer_hinweis_pruefung": "Brecht-Zitat 'Das Einfache, das schwer zu machen ist' ist eine sehr elegante Schlussformel für eine mündliche Antwort zu Frage 5."
+    }
+  ],
+
+  "schluesselpassagen_zitierbar": [
+    {
+      "id": "passage_01_definition_haltung",
+      "kontext": "Zentrale Definition, die als Rahmenzitat für Frage 5 dient",
+      "originalaussage_paraphrasiert": "Trautmann rezipiert Schwer und Solzbacher (2014): Eine professionelle Haltung ist ein hoch individualisiertes idiosynkratisches Muster von Einstellungen und Überzeugungen, das durch authentischen Selbstbezug und objektive Selbstkompetenzen zustande kommt und wie ein innerer Kompass Stabilität, Nachhaltigkeit und Kontextsensibilität des Urteilens und Handelns ermöglicht.",
+      "verwendung": "Rahmenzitat für den Abschnitt 'Konsequenzen für das SHP-Professionsverständnis' (Frage 5)"
+    },
+    {
+      "id": "passage_02_drei_kennzeichen",
+      "kontext": "Die drei Kennzeichen professioneller pädagogischer Haltung nach Kohl/Schwer/Solzbacher (2014), wie sie Trautmann gegen Ende seines Kapitels referiert",
+      "originalaussage_paraphrasiert": "Trautmann stellt (mit Bezug auf Kohl, Schwer und Solzbacher 2014) drei Kennzeichen professioneller pädagogischer Haltung heraus: erstens Standfestigkeit und Kohärenz von Entscheidungen als deutliche Zeichen von Führung, zweitens den Einbezug eigener wie fremder Gefühle, Bedürfnisse und Körperwahrnehmungen (empathisch und selbstreflektiert), drittens eine breite Form der Aufmerksamkeit und Wachsamkeit, die aus dem Hintergrund des Bewusstseins die Vereinbarkeit des Eigenhandelns mit Sinn und Verstand überwacht.",
+      "verwendung": "Zentrales Anschlussargument für Intis SHP-Trias in Frage 5; auch für die kritische Reflexion 'Professionelles Handeln bei Dissens'"
+    },
+    {
+      "id": "passage_03_sensitive_responsivitaet",
+      "kontext": "Trautmanns Konkretisierung dessen, was pädagogische Akteur:innen im Moment der Interaktion leisten müssen",
+      "originalaussage_paraphrasiert": "Trautmann beschreibt sensitive Responsivität als Drei-Schritt: Signale bemerken, den Zusammenhang aufmerksam gegenwärtig halten und sich auf die Signale hin angemessen verhalten. Ausgedrückt wird dies über Sprache, Stimme, Gesicht, Hände und Körper.",
+      "verwendung": "Frage 3 (Beziehungsgestaltung) und Frage 5 (Beratung der Klassenlehrperson)"
+    },
+    {
+      "id": "passage_04_vertrauen_giddens",
+      "kontext": "Unterscheidung zweier Vertrauensformen",
+      "originalaussage_paraphrasiert": "Trautmann rezipiert Giddens (1995): Systemvertrauen als gesichtsunabhängige Bindung an soziale Interaktionsmuster und Konventionen; Personenvertrauen als Beziehung zu einem Individuum, gekennzeichnet durch das Vertrauen in dessen Eigenschaften und Absichten. Beide Arten werden in Elternhaus und Schule gebraucht.",
+      "verwendung": "Frage 3: Konzeptioneller Rahmen für die kumulativen Verluste, die S. durch die Migration erlebt hat"
+    },
+    {
+      "id": "passage_05_forschende_haltung",
+      "kontext": "Trautmann rezipiert Böhm zur forschenden Haltung mit prozessbegleitender Dokumentation",
+      "originalaussage_paraphrasiert": "Eine forschende Haltung verlangt, sich intensiv mit einer Situation und ihren Protagonisten auseinanderzusetzen, sensibel für die eigene Wahrnehmung zu werden und sie im Prozess zu reflektieren und auszudifferenzieren.",
+      "verwendung": "Frage 5: Abschnitt 'Kooperation im multiprofessionellen Team', Unterstützung der methodischen Selbstreflexion zur Beobachterverzerrung"
+    },
+    {
+      "id": "passage_06_vierninkel_warnung",
+      "kontext": "Wichtiger Kontrapunkt zu naiver Ressourcenorientierung",
+      "originalaussage_paraphrasiert": "Vierninkel (2016), rezipiert bei Trautmann, warnt vor einer Banalisierung pädagogischer Fachlichkeit und davor, Ressourcenorientierung mit dem Ignorieren oder Tabuisieren von Problemlagen gleichzusetzen.",
+      "verwendung": "Frage 5: Methodische Selbstreflexion; verhindert, dass Intis Burow-Rezeption (Positive Pädagogik) einseitig-affirmativ wirkt"
+    }
+  ],
+
+  "autoren_querverweise": {
+    "bereits_in_intis_bib": [
+      {
+        "name": "Gardner, H.",
+        "jahr_bei_trautmann": 2012,
+        "intis_bib_key": "(noch nicht explizit, aber über trautmann2016einfuehrung und muelleroppliger2021handbuch gut abgedeckt)"
+      },
+      {
+        "name": "Trautmann, T.",
+        "jahr": 2016,
+        "intis_bib_key": "trautmann2016einfuehrung (Einführung in die Hochbegabtenpädagogik)"
+      },
+      {
+        "name": "Ziegler, A.",
+        "jahr_bei_trautmann": 2014,
+        "intis_bib_key": "über muelleroppliger2021handbuch indirekt verfügbar (Stöger/Balestrini/Ziegler in Teil V)"
+      }
+    ],
+    "noch_nicht_in_intis_bib_aber_potenziell_wichtig": [
+      {
+        "name": "Schwer, C. / Solzbacher, C.",
+        "jahr": 2014,
+        "werk_vermutet": "Professionelle pädagogische Haltung. Historische, theoretische und empirische Zugänge zu einem viel strapazierten Begriff. Bad Heilbrunn: Klinkhardt.",
+        "relevanz": "HOCH für Frage 5; wäre direkte Primärquelle für die Definition. Aber: wahrscheinlich reicht Rezeption über Trautmann 2021.",
+        "empfehlung": "Nicht zwingend zusätzlich aufnehmen, da Trautmann 2021 die Rezeption leistet. Sekundärzitat über Trautmann ist prüfungstauglich."
+      },
+      {
+        "name": "Kohl, J. / Schwer, C. / Solzbacher, C.",
+        "jahr": 2014,
+        "bezug": "Drei Kennzeichen professioneller Haltung",
+        "empfehlung": "Ebenfalls über Trautmann 2021 rezipiert ausreichend"
+      },
+      {
+        "name": "Giddens, A.",
+        "jahr": 1995,
+        "werk_vermutet": "Konsequenzen der Moderne. Frankfurt: Suhrkamp. (oder: Die Konstitution der Gesellschaft)",
+        "relevanz": "MITTEL; eleganter Rückgriff für Frage 3, wenn Inti die System/Personen-Vertrauens-Unterscheidung nutzt",
+        "empfehlung": "Rezeption über Trautmann 2021 ausreichend; keine separate Quelle nötig"
+      },
+      {
+        "name": "Rogers, C.",
+        "bezug": "uneingeschränkte Annahme",
+        "empfehlung": "Über Trautmann 2021 gut abgedeckt"
+      },
+      {
+        "name": "Nentwig-Gesemann, I.",
+        "jahr": 2012,
+        "empfehlung": "Über Trautmann 2021 gut abgedeckt"
+      },
+      {
+        "name": "Maywald, J.",
+        "jahr": 2015,
+        "bezug": "Kinderrechte als Fundament",
+        "empfehlung": "Über Trautmann 2021 gut abgedeckt"
+      }
+    ],
+    "transkriptionsunsicherheiten": [
+      {
+        "bezeichnung_im_transkript": "Myog 2016",
+        "vermutete_korrektur": "Möglicherweise ein Transkriptionsfehler; könnte sich auf Muyo oder eine ähnliche Autor:in beziehen. Bei physischer Einsicht ins Kapitel verifizieren."
+      },
+      {
+        "bezeichnung_im_transkript": "Nohl 1927 / 1964",
+        "vermutete_korrektur": "Die Passage über das 'pädagogische Evangelium des Wachsenlassens' könnte sich auf Nohl oder Litt beziehen. Litt 1927 'Führen oder Wachsenlassen' ist der bekanntere Klassiker."
+      },
+      {
+        "bezeichnung_im_transkript": "Ide 2017 und Pianere Heinze 2015",
+        "vermutete_korrektur": "Geschwisterposition-Forschung; wahrscheinlich Christian Fischer oder ähnlich. Bei physischer Einsicht verifizieren."
+      }
+    ]
+  },
+
+  "empfehlungen_integration_konkret": {
+    "beschreibung": "Konkrete Vorschläge, an welchen Stellen im bestehenden LaTeX-Lerndokument Trautmann (2021) eingefügt werden kann. Nummerierung folgt den Sections des .tex-Dokuments.",
+    "vorschlag_A_abschnitt_5_konsequenzen_professionsverstaendnis": {
+      "zielort": "Frage 5, Unterabschnitt 'Konsequenzen für das SHP-Professionsverständnis', direkt vor dem Satz 'Drei Haltungen tragen dieses erweiterte Professionsverständnis.'",
+      "einzufuegender_text": "Die Forschung zur professionellen pädagogischen Haltung bietet einen theoretischen Rahmen für dieses erweiterte Selbstverständnis. \\textcite{trautmann2021haltung} rezipiert die Definition von Schwer und Solzbacher (2014): Professionelle Haltung ist ein hoch individualisiertes, idiosynkratisches Muster von Einstellungen und Überzeugungen, das durch authentischen Selbstbezug zustande kommt und wie ein innerer Kompass Stabilität und Kontextsensibilität des Urteilens ermöglicht. Die drei Kennzeichen einer professionellen Haltung, die Kohl, Schwer und Solzbacher (2014) herausarbeiten, nämlich Standfestigkeit und Kohärenz, Einbezug eigener wie fremder Gefühle sowie eine breite Form der Aufmerksamkeit und Wachsamkeit, finden ihre SHP-spezifische Zuspitzung in den drei folgenden Haltungen.",
+      "anmerkung": "Damit wird Intis SHP-Trias nicht mehr als frei formulierte Privatmeinung, sondern als fachlich rückgebundene Weiterentwicklung eines etablierten Konzepts lesbar."
+    },
+    "vorschlag_B_abschnitt_3_beziehung": {
+      "zielort": "Frage 3, Unterabschnitt 'Begabungsentwicklung als Beziehungsgeschehen' oder 'Anerkennung als pädagogische Grundkategorie'",
+      "einzufuegender_text": "\\textcite{trautmann2021haltung} konkretisiert diesen relationalen Gedanken durch das Konzept der sensitiven Responsivität, das als Drei-Schritt gefasst wird: Signale bemerken, den Zusammenhang aufmerksam gegenwärtig halten und sich auf die Signale hin angemessen verhalten. Für S. ist dieser Drei-Schritt genau das, was im SOLUX-Projekt gelingt und im Regelunterricht scheitert.",
+      "anmerkung": "Ergänzt Grossrieders Anerkennungsbegriff um eine handlungsorientierte Mikroperspektive."
+    },
+    "vorschlag_C_kritische_reflexion_frage_5": {
+      "zielort": "Frage 5, 'Kritische Reflexion: Professionelles Handeln bei Dissens', Passage zur methodischen Selbstreflexion",
+      "einzufuegender_text": "Diese Selbstkritik folgt dem, was \\textcite{trautmann2021haltung} mit Böhm als forschende Haltung beschreibt: sich intensiv mit einer Situation und ihren Protagonist:innen auseinanderzusetzen, sensibel für die eigene Wahrnehmung zu werden und sie im Prozess zu reflektieren und auszudifferenzieren. Die prozessbegleitende Dokumentation wird damit zum methodischen Korrektiv der Funktionskumulation.",
+      "anmerkung": "Verleiht der methodischen Selbstreflexion (die als Qualitätsmerkmal bereits gut ausgearbeitet ist) einen fachlichen Rückhalt."
+    },
+    "vorschlag_D_vertrauen_frage_3": {
+      "zielort": "Frage 3, neuer Absatz oder Einschub in 'Migration als kumulative Belastung'",
+      "einzufuegender_text": "Ein weiterer Aspekt, der bei S. kumulativ bricht, ist das Vertrauen. \\textcite{trautmann2021haltung} rezipiert Giddens (1995) und unterscheidet Systemvertrauen, das sich auf soziale Interaktionsmuster und Konventionen bezieht, von Personenvertrauen, das an konkrete Individuen gebunden ist. Bei S. ist beides erschüttert: das Systemvertrauen in die neue schulische Institution ebenso wie das Personenvertrauen in Fachpersonen, die ihn primär über Defizite wahrnehmen. Die Aufgabe der SHP besteht darin, beide Vertrauensformen parallel wieder aufzubauen.",
+      "anmerkung": "Theoretisches Scharnier zwischen Behrensens kumulativer Belastung und Grossrieders Anerkennungsbegriff."
+    },
+    "vorschlag_E_warnung_vierninkel": {
+      "zielort": "Frage 5, als Kontrapunkt zur Burow-Rezeption in 'Positive Pädagogik: Vom Defizitblick zum Stärkenfokus'",
+      "einzufuegender_text": "Diese Stärkenorientierung darf allerdings nicht zu einer naiven Affirmation werden. Vierninkel (2016), rezipiert bei \\textcite{trautmann2021haltung}, warnt vor einer Banalisierung pädagogischer Fachlichkeit, in der Ressourcenorientierung mit dem Ignorieren oder Tabuisieren von Problemlagen gleichgesetzt wird. Für den Fall S. bedeutet dies, dass die im SOLUX-Projekt sichtbar gewordenen Stärken die schriftsprachlichen und sensumotorischen Barrieren nicht verdecken dürfen.",
+      "anmerkung": "Bewahrt die Argumentation davor, dass die Burow-Rezeption einseitig-affirmativ wirkt; verbindet Frage 5 zurück zu Frage 2."
+    }
+  },
+
+  "abgabedossier_vs_lerndokument": {
+    "beschreibung": "Das LaTeX-Dokument unterscheidet explizit zwischen Abgabedossier (Moodle, Frist 1. Mai) und Lerndokument (intern). Die Frage ist, ob Trautmann 2021 im Abgabedossier als Kernliteratur aufgeführt werden soll.",
+    "empfehlung_kernliteratur": {
+      "ja_aufnehmen_als_kernliteratur_zu_frage_5": true,
+      "begruendung": "Der Beitrag liefert die zentrale theoretische Grundlage für den Haltungsbegriff, der die gesamte Frage 5 trägt. Ohne Trautmann (oder einen vergleichbaren Referenzrahmen) bleibt die SHP-Trias argumentativ untergedeckt.",
+      "seitenzahl_zu_budget": "ca. 15 Seiten (S. 496-510) bzw. 11 Seiten (Fliesstext S. 496-506)",
+      "budgetauswirkung": "Die Seiten sind bereits teilweise im Handbuch-Budget enthalten, da muelleroppliger2021handbuch in den Fragen 1, 4 und bei den Kernliteraturlisten gezählt wird. Bei sauberer Abrechnung: der Trautmann-Beitrag wurde bisher nicht explizit Frage 5 zugeordnet, daher wäre ein netto Zuwachs von ca. 11 bis 15 Seiten plausibel. Das passt in das Seitenbudget (aktuell Bruttosumme 1118, Nettosumme ca. 700)."
+    },
+    "to_do_vor_abgabe_1_mai": [
+      "BibTeX-Eintrag trautmann2021haltung in Quellen.bib ergänzen (Vorschlag siehe bibtex_vorschlag)",
+      "In der Kernliteraturliste zu Frage 5 den Eintrag Trautmann 2021 einfügen",
+      "An mindestens zwei Stellen des Abgabedossiers \\parencite{trautmann2021haltung} oder \\textcite{trautmann2021haltung} aufrufen (siehe Integrationsvorschläge A bis E)",
+      "Seitenbudget-Tabelle anpassen: Frage 5 erhöht sich um ca. 11 bis 15 Seiten",
+      "Entscheiden: Wird Trautmann als separater @incollection-Eintrag geführt (empfohlen) oder einfach über den bestehenden muelleroppliger2021handbuch-Key zitiert (weniger sauber, da der Handbuch-Key dann gleichzeitig Müller-Oppliger, Weigand und Trautmann bezeichnet)"
+    ]
+  },
+
+  "pruefungsstrategie_muendlich": {
+    "beschreibung": "Wie Trautmann 2021 im Prüfungsgespräch eingesetzt werden kann, ohne dass es künstlich wirkt.",
+    "anschlusspunkte": [
+      {
+        "szenario": "Examinatorin fragt nach dem Haltungsbegriff oder nach dem professionellen Selbstverständnis der SHP",
+        "vorgehen": "Direkt mit Schwer/Solzbacher (2014) über Trautmann (2021) antworten: 'Professionelle Haltung ist ein idiosynkratisches Muster von Einstellungen und Überzeugungen, das wie ein innerer Kompass funktioniert.' Dann überleiten zur SHP-Trias."
+      },
+      {
+        "szenario": "Examinatorin fragt nach der Erlernbarkeit oder der Ausbildung pädagogischer Haltung",
+        "vorgehen": "Trautmann: Ja, erlernbar, aber nur durch Reflexion, Fallstudien, Supervision, Coaching und in Praktika. Nicht durch Theorie allein. Berliner Empfehlungen 2018: Qualifizierungen, die eine Einrichtung länger begleiten, sind besonders erfolgreich."
+      },
+      {
+        "szenario": "Examinatorin fragt nach Beziehung in der Grundschule versus Sekundarstufe",
+        "vorgehen": "Trautmanns Unterscheidung zitieren: Grundschule ist emotional stärker geprägt, Sekundarstufe lebt von fachlicher Kompetenz. Für Inti als Mentorin einer Quereinsteigerin aus der Gymnasialstufe direkt relevant."
+      },
+      {
+        "szenario": "Examinatorin bohrt nach: Aber ist Ressourcenorientierung nicht nur ein Wohlfühlbegriff?",
+        "vorgehen": "Vierninkel (2016) über Trautmann (2021) als Selbstkorrektiv einbringen: Die Warnung vor einer Banalisierung pädagogischer Fachlichkeit ist innerhalb der Ressourcenorientierungs-Tradition selbst formuliert. Das zeigt, dass Inti den Diskurs differenziert kennt."
+      },
+      {
+        "szenario": "Eleganter Schluss einer mündlichen Antwort zu Frage 5",
+        "vorgehen": "Brecht 1932, zitiert am Schluss des Trautmann-Kapitels: 'Das Einfache, das schwer zu machen ist.'"
+      }
+    ],
+    "karteikarten_empfehlung": "Zusätzlich zur bereits geplanten Karteikarte für die vier englischsprachigen Fachartikel (Mun, Gubbins, Al-Hroub, Alodat) eine eigene Karteikarte für Trautmann 2021 mit drei Merkpunkten: (1) Schwer/Solzbacher-Definition, (2) Drei Kennzeichen nach Kohl/Schwer/Solzbacher, (3) sensitive Responsivität als Drei-Schritt."
+  },
+
+  "risiken_und_caveats": [
+    {
+      "risiko": "Das Transkript hat Transkriptionsqualitätsprobleme (einzelne Autornamen verzerrt, Sätze holprig). Wenn Inti direkt aus dem Transkript zitiert, riskiert sie Ungenauigkeit.",
+      "massnahme": "Paraphrasieren statt wörtlich zitieren. Vor jedem direkten Zitat physisch ins Buchexemplar schauen und die Passage nachschlagen."
+    },
+    {
+      "risiko": "Seitenangabe 496-506 im Transkriptkopf weicht von der Inhaltsverzeichnis-Angabe (Folgekapitel ab 511) ab. Bei Zitatangabe 'S. XXX' könnte eine falsche Seitenzahl entstehen.",
+      "massnahme": "Vor Abgabe 1. Mai: physisches Exemplar des Handbuchs einsehen und den tatsächlichen Bereich verifizieren. Im BibTeX-Eintrag vorläufig 496-510 eintragen."
+    },
+    {
+      "risiko": "Der bestehende Key muelleroppliger2021handbuch wird bereits für andere Kapitel des Handbuchs genutzt. Doppelzitate (der Sammelband plus der Trautmann-Einzelbeitrag) könnten im Literaturverzeichnis redundant wirken.",
+      "massnahme": "Im BibLaTeX mit crossref arbeiten: @collection muelleroppliger2021handbuch als Sammelband, @incollection trautmann2021haltung mit crossref = muelleroppliger2021handbuch. Dann wird der Handbuch-Eintrag nur einmal im Literaturverzeichnis gedruckt."
+    },
+    {
+      "risiko": "Trautmann 2021 wird im Prüfungsgespräch eingebracht, aber nicht im Abgabedossier aufgeführt, und die Examinatorin fragt nach.",
+      "massnahme": "Trautmann 2021 sollte konsequent in beiden Dokumenten (Abgabedossier UND mündliche Prüfung) verankert sein. Alternativ: Falls der Trautmann-Beitrag aus Seitenbudgetgründen nicht ins Abgabedossier kommt, dann in der mündlichen Prüfung explizit einleiten mit 'Ergänzend habe ich konsultiert...'"
+    }
+  ]
+}

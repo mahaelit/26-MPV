@@ -1,0 +1,1218 @@
+{
+  "schema_version": "1.0",
+  "schema_description": "Verortung von ASR-transkribierten Buchkapiteln im Lerndokument der MA SHP Vertiefungsarbeit. Zweck: (1) automatisiertes Matching gegen bestehende Quellen.bib, (2) programmatische Generierung von parencite-Einbauten fuer den TeX-Einfuegungslauf, (3) Auditierbarkeit der Verortungsentscheidungen.",
+  "generated_at": "2026-04-19",
+  "generated_by": "Claude (for Inti Merolli, MA SHP Vertiefung PH Luzern)",
+  "transcript_file": "/mnt/user-data/uploads/Teil_3_Begabungen_Erkennen_ohne_kommentar.md",
+  "source": {
+    "type": "edited_volume",
+    "title": "Handbuch Begabung",
+    "subtitle": null,
+    "editors": [
+      {
+        "given": "Victor",
+        "family": "Mueller-Oppliger"
+      },
+      {
+        "given": "Gabriele",
+        "family": "Weigand"
+      }
+    ],
+    "year": 2021,
+    "publisher": "Beltz",
+    "address": "Weinheim und Basel",
+    "isbn_print": "978-3-407-25806-9",
+    "isbn_ebook": "978-3-407-25886-1",
+    "edition": "1. Auflage",
+    "series": "hochbegabung und paedagogische praxis",
+    "pages_total": 608,
+    "series_editor_note": "Victor Mueller-Oppliger konnte die Herausgabe nicht mehr erleben. Das Buch erschien posthum im Januar 2021.",
+    "part": {
+      "number_roman": "III",
+      "number_arabic": 3,
+      "title": "Begabungen erkennen",
+      "page_range": {
+        "start": 223,
+        "end": 303
+      },
+      "chapter_count": 5
+    },
+    "toc_verification": {
+      "verified": true,
+      "sources": [
+        "https://www.beltz.de/fachmedien/paedagogik/produkte/details/42717-handbuch-begabung.html",
+        "https://www.lehmanns.de/shop/sozialwissenschaften/47512691-9783407258069-handbuch-begabung",
+        "https://content-select.com/de/portal/media/view/60473670-8ca0-44fd-ad71-389bb0dd2d03"
+      ],
+      "verification_date": "2026-04-19"
+    }
+  },
+  "target_document": {
+    "owner": "Inti Merolli",
+    "context": "MA SHP Vertiefungsarbeit, muendliche Pruefung am 11.06.2026 an der PH Luzern",
+    "examinatorin": "Sabine Tanner Merlo",
+    "lerndokument_language": "de_CH",
+    "tex_bibfile": "Quellen.bib",
+    "case_study_subject": {
+      "pseudonym": "S.",
+      "age_years": 11,
+      "class_level": 5,
+      "migration_since": "Januar 2025",
+      "first_language": "Albanisch",
+      "operational_language": "Englisch (autodidaktisch ueber TV)",
+      "deutschkenntnisse_niveau": "A1",
+      "beobachtete_staerken": [
+        "Schach",
+        "Mathematik"
+      ],
+      "beobachtete_schwierigkeiten": [
+        "Graphomotorik (inkonsistente Buchstabenformen, erhoehter Stiftdruck)",
+        "Leseflussigkeit 17 Woerter pro Minute",
+        "sozialer Rueckzug",
+        "Weinen, Verweigerung"
+      ]
+    },
+    "prueffragen": [
+      {
+        "id": "FW1",
+        "kompetenzbereiche": [
+          "KS",
+          "DG"
+        ],
+        "thema": "Multiperspektivische Erfassung verdeckter Begabungen"
+      },
+      {
+        "id": "FW2",
+        "kompetenzbereiche": [
+          "MW",
+          "KS"
+        ],
+        "thema": "Sensumotorische und schriftsprachliche Barrieren, ressourcenorientierte Foerderung"
+      },
+      {
+        "id": "FW3",
+        "kompetenzbereiche": [
+          "PB"
+        ],
+        "thema": "Ausgrenzungs-, Belastungs- und Migrationserfahrungen; Beziehungsgestaltung"
+      },
+      {
+        "id": "BW4",
+        "kompetenzbereiche": [
+          "DG",
+          "PV"
+        ],
+        "thema": "Inklusive Begabungsfoerderung am Beispiel SOLUX"
+      },
+      {
+        "id": "BW5",
+        "kompetenzbereiche": [
+          "ZB",
+          "PV"
+        ],
+        "thema": "Beratung und Zusammenarbeit aus SHP-Perspektive"
+      }
+    ]
+  },
+  "transcript_quality": {
+    "source_type": "ASR (vermutlich Whisper oder aehnliches)",
+    "reliability_content": "inhaltlich zuverlaessig",
+    "reliability_quotes": "woertliche Zitate NICHT zulaessig, immer ins Originalbuch zurueckgehen",
+    "systematic_errors": [
+      {
+        "wrong": "Rentulli",
+        "correct": "Renzulli"
+      },
+      {
+        "wrong": "Enully",
+        "correct": "Renzulli"
+      },
+      {
+        "wrong": "Rentuli",
+        "correct": "Renzulli"
+      },
+      {
+        "wrong": "Gagnier",
+        "correct": "Gagne"
+      },
+      {
+        "wrong": "Francois Gagnier",
+        "correct": "Francoys Gagne"
+      },
+      {
+        "wrong": "Wesler",
+        "correct": "Wechsler"
+      },
+      {
+        "wrong": "Whisk5",
+        "correct": "WISC-V"
+      },
+      {
+        "wrong": "Whisk",
+        "correct": "WISC"
+      },
+      {
+        "wrong": "CC2",
+        "correct": "K-ABC"
+      },
+      {
+        "wrong": "ZRT20R",
+        "correct": "CFT 20-R"
+      },
+      {
+        "wrong": "TFT 1R",
+        "correct": "CFT 1-R"
+      },
+      {
+        "wrong": "Breckl",
+        "correct": "Preckel"
+      },
+      {
+        "wrong": "Bre",
+        "correct": "Preckel"
+      },
+      {
+        "wrong": "Fris Bre",
+        "correct": "Franzis Preckel"
+      },
+      {
+        "wrong": "Franzis Breckl",
+        "correct": "Franzis Preckel"
+      },
+      {
+        "wrong": "Subnotque",
+        "correct": "Subotnik"
+      },
+      {
+        "wrong": "Subub",
+        "correct": "Subotnik"
+      },
+      {
+        "wrong": "Subnotq",
+        "correct": "Subotnik"
+      },
+      {
+        "wrong": "Subnot",
+        "correct": "Subotnik"
+      },
+      {
+        "wrong": "Parle Oldste",
+        "correct": "Paula Olszewski-Kubilius"
+      },
+      {
+        "wrong": "Oldste, Kubilius",
+        "correct": "Olszewski-Kubilius"
+      },
+      {
+        "wrong": "Borrell",
+        "correct": "Worrell"
+      },
+      {
+        "wrong": "Frank Borrell",
+        "correct": "Frank C. Worrell"
+      },
+      {
+        "wrong": "Haircox",
+        "correct": "Hany"
+      },
+      {
+        "wrong": "stapf und lang",
+        "correct": "Hany/Heller"
+      },
+      {
+        "wrong": "TweiS Acceptionals",
+        "correct": "Twice Exceptionals"
+      },
+      {
+        "wrong": "T Exceptional",
+        "correct": "Twice Exceptional"
+      },
+      {
+        "wrong": "Jelen",
+        "correct": "Jellen"
+      },
+      {
+        "wrong": "Urban und Jelen",
+        "correct": "Urban und Jellen"
+      },
+      {
+        "wrong": "Bourgeois-alter",
+        "correct": "Vorschulalter"
+      },
+      {
+        "wrong": "Botskis",
+        "correct": "Wygotskis"
+      },
+      {
+        "wrong": "Compic",
+        "correct": "KompiK"
+      },
+      {
+        "wrong": "MBET",
+        "correct": "mBET"
+      },
+      {
+        "wrong": "MBE",
+        "correct": "mBET"
+      },
+      {
+        "wrong": "DBE",
+        "correct": "DBE (Dimensionen der Begabungsentwicklung)"
+      },
+      {
+        "wrong": "Joli und Kettler",
+        "correct": "Jolly und Kettler"
+      },
+      {
+        "wrong": "Cattle",
+        "correct": "Cattell"
+      },
+      {
+        "wrong": "Cattle 1987",
+        "correct": "Cattell (Investmenttheorie)"
+      },
+      {
+        "wrong": "Lewald und Offener",
+        "correct": "Lewald/Oswald"
+      },
+      {
+        "wrong": "Aisa",
+        "correct": "Aisha"
+      },
+      {
+        "wrong": "Heunigen Ses Gisela",
+        "correct": "Huser et al. / Gisela Ses"
+      },
+      {
+        "wrong": "Lombroso 1864",
+        "correct": "Cesare Lombroso (Genio e follia, 1864)"
+      },
+      {
+        "wrong": "Francis Gelton",
+        "correct": "Francis Galton"
+      },
+      {
+        "wrong": "Hery Genius",
+        "correct": "Hereditary Genius (1869)"
+      },
+      {
+        "wrong": "Binett und Theodore Simon",
+        "correct": "Alfred Binet und Theodore Simon"
+      },
+      {
+        "wrong": "Robert Ja. Sternberg",
+        "correct": "Robert J. Sternberg"
+      },
+      {
+        "wrong": "Robert Gardner",
+        "correct": "Howard Gardner"
+      },
+      {
+        "wrong": "Lange Eichenbaum",
+        "correct": "Lange-Eichbaum"
+      },
+      {
+        "wrong": "IPEG",
+        "correct": "iPEGE"
+      },
+      {
+        "wrong": "IPG",
+        "correct": "iPEGE"
+      },
+      {
+        "wrong": "LemS",
+        "correct": "LemaS"
+      },
+      {
+        "wrong": "Brunstring 2009",
+        "correct": "Brunstein 2009"
+      },
+      {
+        "wrong": "AID",
+        "correct": "AID (Adaptives Intelligenz Diagnostikum)"
+      },
+      {
+        "wrong": "An Richmond",
+        "correct": "Enrichment"
+      },
+      {
+        "wrong": "En Richmond",
+        "correct": "Enrichment"
+      },
+      {
+        "wrong": "Able Level",
+        "correct": "Above Level"
+      },
+      {
+        "wrong": "Abo Level-Testing",
+        "correct": "Above-Level-Testing"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "3.1",
+      "position_in_part": 1,
+      "authors": [
+        {
+          "given": "Salome",
+          "family": "Mueller-Oppliger"
+        }
+      ],
+      "title": "Paedagogische Diagnostik. Potenzialerfassung und Foerderdiagnostik",
+      "pages": {
+        "start": 224,
+        "end": 238,
+        "count": 15,
+        "source": "beltz_toc_inferred_from_next_chapter_start"
+      },
+      "bibtex": {
+        "key": "muelleroppliger2021paedDiagnostik",
+        "type": "incollection",
+        "already_in_quellen_bib": false,
+        "entry": "@incollection{muelleroppliger2021paedDiagnostik,\n  author    = {M{\\\"u}ller-Oppliger, Salom{\\'e}},\n  title     = {P{\\\"a}dagogische Diagnostik. Potenzialerfassung und F{\\\"o}rderdiagnostik},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  pages     = {224--238},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  isbn      = {978-3-407-25806-9}\n}"
+      },
+      "content": {
+        "summary": "Systematische Unterscheidung zwischen psychologischer Diagnostik (psychometrisch, standardisiert, ausserschulisch) und paedagogischer Diagnostik (dynamisch, auf Foerderung angelegt, im Unterricht verankert). Vorstellung von Screening-Verfahren und Argumentation fuer eine multiperspektivische, prozessorientierte Diagnostik im Schulalltag.",
+        "core_concepts": [
+          "paedagogische Diagnostik als Foerderdiagnostik",
+          "Identifikations- und Foerderprozess als Phasenmodell: vermuten, wahrnehmen, erkennen, Foerderung auf Verdacht",
+          "Meeraugenprinzip (mindestens zwei unabhaengige Beobachter:innen)",
+          "Defizitorientierung als Wahrnehmungsfalle der Lehrpersonen",
+          "Drehtuermodell als diagnostisches Beobachtungssetting",
+          "Foerder- und Prozessdiagnostik vs. Statusdiagnostik"
+        ],
+        "instruments_mentioned": [
+          {
+            "name": "SRBCSS",
+            "full_name": "Scales for Rating the Behavioral Characteristics of Superior Students",
+            "originator": "Renzulli",
+            "type": "Rating Scale"
+          },
+          {
+            "name": "Learning Styles Inventory",
+            "originator": "Renzulli",
+            "type": "Fragebogen"
+          },
+          {
+            "name": "mBET",
+            "full_name": "multidimensionales Begabungs-Entwicklungs-Tool",
+            "originator": "OeZBF",
+            "type": "Foerderdiagnostisches Instrument (drei parallele Fragebogen fuer LP, Eltern, Lernende)",
+            "basis": [
+              "Rating Scales nach Renzulli",
+              "Muenchner Hochbegabungsmodell nach Heller 2000"
+            ]
+          },
+          {
+            "name": "Renzulli Identification System (RIS)",
+            "year": 1986,
+            "originator": "Joseph S. Renzulli",
+            "type": "mehrfaktorielles Abklaerungsverfahren",
+            "note": "erstes mehrfaktorielles Verfahren, beeinflusst bis heute europaeische Methoden"
+          },
+          {
+            "name": "Schweizer Screening-Verfahren",
+            "year": 2007,
+            "originator": "Salome und Victor Mueller-Oppliger (PH FHNW)",
+            "type": "vierstuendiges Gruppenscreening zu Beginn Primarklasse 3, Gruppen 8 bis 10 Kinder",
+            "components": [
+              "CFT 20-R (nonverbaler, nicht kulturspezifischer Intelligenztest)",
+              "Fragebogen zu Motivation, Selbstkonzept, Schulbefinden",
+              "zeichnerischer Kreativitaetstest nach Urban und Jellen 1995",
+              "staerkenbezogener Selbsteinschaetzungsbogen"
+            ]
+          },
+          {
+            "name": "DBE-Wuerfel",
+            "full_name": "Dimensionen der Begabungsentwicklung",
+            "year": 2018,
+            "originator": "Victor Mueller-Oppliger",
+            "type": "dreidimensionales Identifikationsverfahren",
+            "dimensions": [
+              "domaenenspezifische Potenziale",
+              "personale und soziale Personmerkmale",
+              "Entwicklungslinie von Anleitung zu Selbstbestimmung"
+            ]
+          }
+        ],
+        "empirical_findings": [
+          {
+            "finding": "40 bis 50 Prozent der begabten Kinder werden von Lehrpersonen uebersehen",
+            "source_within_chapter": "Hany/Heller (im Transkript verballhornt als 'stapf und lang')",
+            "question_relevance": "FW1"
+          },
+          {
+            "finding": "bis zu 70 Prozent der nominierten Kinder sind tatsaechlich nicht besonders begabt",
+            "source_within_chapter": "Hany/Heller",
+            "question_relevance": "FW1"
+          },
+          {
+            "finding": "Lehrpersonen-Einschaetzungen beruhen auf impliziten Theorien, nicht auf Erkennungsmerkmalen",
+            "source_within_chapter": "USA-Studien (referenziert im Kapitel)",
+            "question_relevance": "FW1, BW5"
+          }
+        ],
+        "historical_references": [
+          "Lombroso 1864 (Genie und Irrsinn)",
+          "Lange-Eichbaum 1930 (Fundament der Genieforschung)",
+          "Galton 1869 (Hereditary Genius)",
+          "Binet und Simon 1905 (erster Intelligenztest)",
+          "William Stern 1912 (Intelligenzquotient)",
+          "Wechsler (Abweichungs-IQ, SD=15)",
+          "Ingenkamp 1968 (Begriff paedagogische Diagnostik)"
+        ],
+        "risikogruppen_indikationen_fuer_abklaerung": [
+          "Potenzial nicht in wahrnehmbare Leistung umgesetzt",
+          "Lernstoerung verdeckt Begabung (Twice Exceptional)",
+          "Talentpool-Einteilung erfordert Diagnostik",
+          "Verhaltensauffaelligkeiten, Lernblockaden, Verweigerung",
+          "Elternwahrnehmung von Unterforderung",
+          "somatische Anzeichen (Migraene, Kopf-/Bauchschmerzen)",
+          "Underachievement-Verdacht",
+          "Differentialdiagnose Hochbegabung vs. ADHS"
+        ]
+      },
+      "case_vignettes": [],
+      "relevance": {
+        "priority": "A",
+        "primary_question": "FW1",
+        "secondary_questions": [
+          "BW4",
+          "BW5"
+        ],
+        "tex_placements": [
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Multiperspektivische und dynamische Erfassung",
+            "use_case": "Zitatanker fuer das fuenfte Prinzip (dynamische Diagnostik)",
+            "parencite_suggestion": "\\parencite{muelleroppliger2021paedDiagnostik}"
+          },
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Begabung als dynamisches Potenzial",
+            "use_case": "Historischer Rahmen und dynamischer Begabungsbegriff",
+            "parencite_suggestion": "\\parencite{muelleroppliger2021paedDiagnostik}"
+          },
+          {
+            "tex_label": "sec:frage5",
+            "subsection": "Konsequenzen fuer das SHP-Professionsverstaendnis",
+            "use_case": "Begruendung fuer SHP als Begabungsspezialistin im multiprofessionellen Team",
+            "parencite_suggestion": "\\parencite{muelleroppliger2021paedDiagnostik}"
+          }
+        ],
+        "supplement_status": "new",
+        "extends_existing_keys": [
+          "muelleroppliger2021handbuch"
+        ],
+        "conflicts_with_existing_keys": [],
+        "rationale": "Das Lerndokument zitiert bisher nur den allgemeinen Handbuch-Eintrag. Dieses Kapitel liefert den spezifischen diagnostischen Quellenbeleg, insbesondere fuer die Meeraugenprinzip- und Prozessdiagnostik-Argumentation und fuer die quantitativen Aussagen zur Uebersehensrate (40-50 Prozent) und zur Fehlnominationsrate (70 Prozent)."
+      },
+      "integration_hints": [
+        "Die 40-50-Prozent-Zahl laesst sich gut mit der Harradine-et-al.-2013-Studie (22 Prozent, bereits im Dossier) zur Dreifachstuetze kombinieren: Schweizer/deutsche Zahl, US-Zahl und TOPS-Intervention zeigen gemeinsam das strukturelle Problem.",
+        "Das Schweizer Screening-Verfahren ist namensgleich mit der Autorin des Kapitels: Salome Mueller-Oppliger (die Verfasserin) und Victor Mueller-Oppliger (Herausgeber, 2021 verstorben) haben es gemeinsam an der PH FHNW entwickelt. Im Pruefungsgespraech kann dieser Schweizer Bezug argumentativ genutzt werden."
+      ]
+    },
+    {
+      "id": "3.2",
+      "position_in_part": 2,
+      "authors": [
+        {
+          "given": "Letizia",
+          "family": "Gauck"
+        },
+        {
+          "given": "Giselle",
+          "family": "Reimann"
+        }
+      ],
+      "title": "Psychologische Diagnostik in der Begabungs- und Begabtenfoerderung",
+      "pages": {
+        "start": 239,
+        "end": 251,
+        "count": 13,
+        "source": "beltz_toc"
+      },
+      "bibtex": {
+        "key": "gauckreimann2021psychDiagnostik",
+        "type": "incollection",
+        "already_in_quellen_bib": false,
+        "entry": "@incollection{gauckreimann2021psychDiagnostik,\n  author    = {Gauck, Letizia and Reimann, Giselle},\n  title     = {Psychologische Diagnostik in der Begabungs- und Begabtenf{\\\"o}rderung},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  pages     = {239--251},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  isbn      = {978-3-407-25806-9}\n}"
+      },
+      "content": {
+        "summary": "Praxisorientierte Einfuehrung in die psychologische Hochbegabungsdiagnostik mit vier Prozessschritten: Erstgespraech, Testauswahl, Testdurchfuehrung, Auswertung und Interpretation, Rueckmeldung. Zwei Fallvignetten illustrieren die Bandbreite: Lea (potenzielle Hochbegabung mit Autismusverdacht) und Aisha (Migrationshintergrund mit Underachievement, dessen ADHS-Diagnose die Hochbegabung zufaellig aufdeckt).",
+        "core_concepts": [
+          "Auftragsklaerung vor Testung (wer, warum, welche Erwartungen, welche Skepsis)",
+          "Deckeneffekt bei gaengigen IQ-Tests im Hochbegabungsbereich",
+          "Testminderleistung durch Druck, Blockaden, Angst, Demotivation",
+          "Prozessdiagnostik statt Statusdiagnostik bei Testminderleistung",
+          "Response to Intervention (RTI) als diagnostisches Vorgehen",
+          "Vertrauensintervalle statt exakter IQ-Werte",
+          "Allgemeiner Faehigkeitsindex (AFI) bei heterogenen WISC-Profilen",
+          "Cut-off-Werte (IQ 130) als willkuerliche Konvention, nicht als Naturgrenze",
+          "Dynamisches Verstaendnis von Begabung in der Rueckmeldung"
+        ],
+        "instruments_mentioned": [
+          {
+            "name": "CFT 1-R und CFT 20-R",
+            "type": "Culture Fair Tests, primaer fluide Intelligenz",
+            "note": "sprachfrei, gut fuer Kinder mit Migrationshintergrund"
+          },
+          {
+            "name": "WISC-V",
+            "year": 2017,
+            "type": "Wechsler Intelligence Scale for Children, mehrfaktoriell"
+          },
+          {
+            "name": "K-ABC",
+            "type": "Kaufman Assessment Battery"
+          },
+          {
+            "name": "MHBT",
+            "full_name": "Muenchner Hochbegabungstestbatterie",
+            "type": "explizit fuer Hochbegabte normiert",
+            "note": "umgeht Deckeneffekt, aber einzelne Verfahren erfuellen Guetekriterien nicht vollstaendig"
+          },
+          {
+            "name": "BIS-HB",
+            "full_name": "Berliner Intelligenzstruktur-Test fuer Jugendliche Hochbegabte",
+            "type": "speziell fuer Hochbegabte, Altersnormen 12-16"
+          },
+          {
+            "name": "AID",
+            "full_name": "Adaptives Intelligenz Diagnostikum",
+            "type": "adaptives Verfahren, passt Aufgaben an Testleistung an"
+          },
+          {
+            "name": "Above-Level-Testing",
+            "type": "Testverfahren fuer aeltere Altersgruppe verwenden",
+            "note": "keine Deckeneffekte, aber eingeschraenkte Normvergleiche"
+          }
+        ],
+        "empirical_findings": [
+          {
+            "finding": "Intelligenztests sind zuverlaessiger als lehrergestuetzte Nomination, aber Informationen aus Gespraechen bleiben fuer Gesamtbeurteilung unverzichtbar",
+            "question_relevance": "FW1"
+          },
+          {
+            "finding": "Deckeneffekt: gaengige Tests sind fuer Gesamtbevoelkerung entwickelt und enthalten zu wenige schwierige Aufgaben; extrem hohe Testwerte gar nicht moeglich",
+            "question_relevance": "FW1"
+          },
+          {
+            "finding": "hochbegabte Kinder und Jugendliche sind in repraesentativer deutscher Laengsschnittstudie sogar etwas besser angepasst als durchschnittlich Begabte, Unterschied aber nicht bedeutsam",
+            "question_relevance": "FW1, FW3",
+            "implication": "widerlegt Klischee Genie und Irrsinn"
+          }
+        ],
+        "historical_references": [
+          "Lange-Eichbaum (Genie und Irrsinn)",
+          "Huser et al.",
+          "Gisela Ses 2006"
+        ]
+      },
+      "case_vignettes": [
+        {
+          "name": "Lea",
+          "age_years": 11,
+          "context": "Primarschule, Lehrer vermutet Autismus-Spektrum",
+          "presenting_features": [
+            "sehr umfassendes detailliertes Sachwissen",
+            "brilliert bei Vortraegen",
+            "versteht Aufgaben schnell",
+            "wenig Interesse an Gleichaltrigen",
+            "waehlt Gespraechsthemen unpopulaer bei Peers"
+          ],
+          "tests_used": [
+            "CFT 20-R",
+            "WISC-V"
+          ],
+          "outcomes": [
+            "heterogene WISC-V-Skalen, Gesamt-IQ nicht interpretierbar",
+            "extrem hoher Allgemeiner Faehigkeitsindex",
+            "CFT 20-R IQ 125, Vertrauensintervall 117-133 (umfasst Cut-off 130)"
+          ],
+          "relevance_to_case_s": "Exakt gleiche Altersstufe wie S. Lea zeigt, wie heterogene Profile mit spezifischen Testverfahren (CFT 20-R sprachfrei, WISC-V profiliert) aufgeloest werden. Bei S. waere ein analoges Vorgehen mit CFT 20-R und WISC-V auf Englisch oder besser Albanisch mit Dolmetscherin zu empfehlen.",
+          "tex_anchor_question": "FW1"
+        },
+        {
+          "name": "Aisha",
+          "age_years": 10,
+          "context": "Maedchen mit Migrationshintergrund, Underachievement, Lehrerin draengte zur Abklaerung",
+          "presenting_features": [
+            "erbringt nicht die Leistungen, die ihrem Potenzial entspraechen",
+            "Traeumerin, leicht ablenkbar",
+            "viele Fluechtigkeitsfehler",
+            "Verdacht zunaechst Aufmerksamkeitsstoerung"
+          ],
+          "key_insight_paraphrased": "Die Autorinnen stellen explizit fest: Bei Kindern wie Aisha sinke die Chance, dass eine hohe Begabung erkannt wird, insbesondere wenn es sich um ein Maedchen mit Migrationshintergrund handelt. Die Hochbegabungs-Diagnose werde dann haeufig zum Zufallsbefund einer stoerungsspezifischen Abklaerung.",
+          "relevance_to_case_s": "Direkter deutschsprachiger Quellenbeleg fuer das institutionelle Unteridentifikationsmuster. Unterstuetzt Stamms These der begabten Minoritaeten und ergaenzt Muns et al. US-Evidenz um einen deutschsprachigen Fallbeleg. S.s Konstellation (Junge, Migrationshintergrund, als stoerend wahrgenommen) ist strukturell analog zu Aisha.",
+          "tex_anchor_question": "FW1, FW3",
+          "priority_for_examination": "sehr hoch"
+        }
+      ],
+      "relevance": {
+        "priority": "A",
+        "primary_question": "FW1",
+        "secondary_questions": [
+          "FW3",
+          "FW2"
+        ],
+        "tex_placements": [
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Grenzen sprachlastiger Diagnostik",
+            "use_case": "Deckeneffekt und Testminderleistung praezise belegen",
+            "parencite_suggestion": "\\parencite{gauckreimann2021psychDiagnostik}"
+          },
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Twice Exceptionality als Deutungsrahmen (subsec:2e)",
+            "use_case": "2e-Differenzialdiagnostik am Fall Aisha illustrieren",
+            "parencite_suggestion": "\\parencite{gauckreimann2021psychDiagnostik}"
+          },
+          {
+            "tex_label": "sec:frage3",
+            "subsection": "Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben",
+            "use_case": "Aisha-Vignette als Schweizer/deutscher Fallbeleg fuer Unteridentifikation bei Maedchen mit Migrationshintergrund",
+            "parencite_suggestion": "\\parencite{gauckreimann2021psychDiagnostik}"
+          }
+        ],
+        "supplement_status": "new",
+        "extends_existing_keys": [
+          "maehler2018diagnostik",
+          "stamm2021fehlenderblick",
+          "preckel2013hochbegabung"
+        ],
+        "conflicts_with_existing_keys": [],
+        "rationale": "Die Aisha-Vignette ist der einzige verfuegbare deutschsprachige Fallbeleg fuer das institutionelle Unteridentifikationsmuster bei Maedchen mit Migrationshintergrund. Das Kapitel ergaenzt die bereits zitierten theoretischen Positionen (Stamm, Maehler) um eine konkrete Praxisvignette und liefert die Lea-Vignette als Pendant zu S.s Altersstufe (beide 11 J.)."
+      },
+      "integration_hints": [
+        "Die Aisha-Vignette ist der staerkste Einzeltreffer des gesamten Transkripts. Sie beantwortet die empirische Luecke, die Mun et al. und Gubbins et al. mit US-Daten fuellen, mit einem deutschsprachigen Fallbeleg. Einbau in Frage 3 dringend empfohlen.",
+        "Die Lea-Vignette ist im Pruefungsgespraech eine gute Antwort auf die potenzielle Frage: Wie waere bei S. konkret diagnostisch vorzugehen. Antwort: analog zu Lea mit CFT 20-R plus WISC-V, bei WISC-V-Heterogenitaet den Allgemeinen Faehigkeitsindex (AFI) statt Gesamt-IQ interpretieren.",
+        "Der Begriff Testminderleistung (testing underperformance) ist ein wertvoller Terminus, der in deinem Lerndokument bisher fehlt. Er ergaenzt Preckel/Baudsons Underachievement-Begriff, indem er spezifisch die Diskrepanz zwischen Potenzial und Testergebnis (nicht zwischen Potenzial und schulischer Leistung) beschreibt."
+      ]
+    },
+    {
+      "id": "3.3",
+      "position_in_part": 3,
+      "authors": [
+        {
+          "given": "Johanna",
+          "family": "Stahl"
+        }
+      ],
+      "title": "Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler Foerderdiagnostik",
+      "pages": {
+        "start": 252,
+        "end": 258,
+        "count": 7,
+        "source": "transcript_explicit (S. 252-258 bzw. S.7)"
+      },
+      "bibtex": {
+        "key": "stahl2021mbet",
+        "type": "incollection",
+        "already_in_quellen_bib": false,
+        "entry": "@incollection{stahl2021mbet,\n  author    = {Stahl, Johanna},\n  title     = {Das multidimensionale Begabungs-Entwicklungs-Tool (mBET) als Instrument multifunktionaler F{\\\"o}rderdiagnostik},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  pages     = {252--258},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  isbn      = {978-3-407-25806-9}\n}"
+      },
+      "content": {
+        "summary": "Detaillierte Vorstellung des mBET als ressourcenorientiertes foerderdiagnostisches Instrument des OeZBF (Oesterreichisches Zentrum fuer Begabungsfoerderung und Begabtenforschung). Das Tool umfasst drei in den Kategorien identische Fragebogen fuer Lehrpersonen, Eltern und Lernende und operationalisiert damit das Prinzip der Multiperspektivitaet.",
+        "core_concepts": [
+          "Multiperspektivitaet als Designprinzip (drei parallele Perspektiven)",
+          "Ressourcenorientierung statt Defizitorientierung",
+          "Einbezug der Lernenden selbst (Selbsteinschaetzung)",
+          "Foerderplanung als direktes Ergebnis der Diagnostik"
+        ],
+        "theoretical_foundations": [
+          "Rating Scales nach Renzulli",
+          "Muenchner Hochbegabungsmodell nach Heller 2000"
+        ]
+      },
+      "case_vignettes": [],
+      "relevance": {
+        "priority": "B",
+        "primary_question": "FW1",
+        "secondary_questions": [
+          "BW5"
+        ],
+        "tex_placements": [
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Multiperspektivische und dynamische Erfassung",
+            "use_case": "konkretes Instrument fuer das dritte Prinzip (Einbeziehung ausserschulischer Bezugspersonen)",
+            "parencite_suggestion": "\\parencite{stahl2021mbet}"
+          },
+          {
+            "tex_label": "sec:frage5",
+            "subsection": "Zusammenarbeit mit Eltern und externen Fachstellen",
+            "use_case": "systematisches Instrument zur Einbindung der Eltern als Expert:innen",
+            "parencite_suggestion": "\\parencite{stahl2021mbet}"
+          }
+        ],
+        "supplement_status": "new",
+        "extends_existing_keys": [
+          "kosoroklabhart2021voneltern",
+          "uslucan2012begabung"
+        ],
+        "conflicts_with_existing_keys": [],
+        "rationale": "Konkretisiert das von Kosorok Labhart/Uslucan allgemein geforderte Elternwissen um ein operationalisiertes Instrument. Einsatz im Lerndokument optional, weil das Instrument nicht zwingend fuer S.s Fall eingesetzt werden muss."
+      },
+      "integration_hints": [
+        "Das mBET ist inhaltlich bereits in Kapitel 3.1 (Mueller-Oppliger, S.) erwaehnt. Wer Platz im Seitenbudget sparen moechte, kann mBET einmal in Frage 1 ueber den Mueller-Oppliger-Eintrag abdecken und auf einen eigenen Stahl-Eintrag verzichten."
+      ]
+    },
+    {
+      "id": "3.4",
+      "position_in_part": 4,
+      "authors": [
+        {
+          "given": "Christine",
+          "family": "Koop"
+        },
+        {
+          "given": "Nadine",
+          "family": "Seddig"
+        }
+      ],
+      "title": "Fruehes Erkennen von hohen Begabungen",
+      "pages": {
+        "start": 260,
+        "end": 270,
+        "count": 11,
+        "source": "transcript_explicit (260-270 bzw. S.11); Beltz-TOC gibt 260-273 an, Differenz vermutlich Literaturverzeichnis"
+      },
+      "bibtex": {
+        "key": "koopseddig2021frueheserkennen",
+        "type": "incollection",
+        "already_in_quellen_bib": false,
+        "entry": "@incollection{koopseddig2021frueheserkennen,\n  author    = {Koop, Christine and Seddig, Nadine},\n  title     = {Fr{\\\"u}hes Erkennen von hohen Begabungen},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  pages     = {260--273},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  isbn      = {978-3-407-25806-9}\n}"
+      },
+      "content": {
+        "summary": "Diagnostik und Foerderung hoher Begabungen im Kindergartenalter. Zentrale These: Begabungsentwicklung haengt bei kleinen Kindern stark von Umweltbedingungen ab; in bildungsfernen Milieus braucht es Foerderung auf Verdacht, weil institutionelle Identifikation sonst nicht greift. Darstellung verschiedener Beobachtungsverfahren und kritische Diskussion der IQ-Diagnostik im Vorschulalter.",
+        "core_concepts": [
+          "Umweltabhaengigkeit und Plastizitaet fruehkindlicher Entwicklung",
+          "Motivation und Engagiertheit als Frueh-Indikatoren",
+          "Wissbegier als Basismotiv der Hochbegabung (Lewald/Oswald)",
+          "Talent Development Perspektive statt IQ-Fixierung",
+          "Foerderung auf Verdacht (Grundsatz der Kita-Paedagogik)",
+          "vorzeitige Einschulung als einzige gut evaluierte Foerdermassnahme",
+          "Interesse als differentieller Indikator im Vorschulalter"
+        ],
+        "instruments_mentioned": [
+          {
+            "name": "Bildungs- und Lerngeschichten",
+            "type": "qualitative Dokumentation"
+          },
+          {
+            "name": "Engagiertheitsskala",
+            "type": "Beobachtungsinstrument"
+          },
+          {
+            "name": "Vorschulerzieherinnen-Checkliste",
+            "originator": "Lewald/Oswald",
+            "purpose": "Wissbegier als Frueh-Indikator"
+          },
+          {
+            "name": "KompiK",
+            "year": 2014,
+            "full_name": "Kompetenzen und Interessen von Kindern",
+            "type": "Beobachtungsbogen"
+          },
+          {
+            "name": "Above-Level-Testing / Off-Level-Testing",
+            "type": "Testverfahren fuer aeltere Altersgruppe"
+          }
+        ],
+        "empirical_findings": [
+          {
+            "finding": "nur 1.75 Prozent der international publizierten Begabtenfoerderungsstudien (1994-2003) betreffen das Vorschulalter",
+            "source_within_chapter": "Jolly und Kettler",
+            "question_relevance": "BW4"
+          },
+          {
+            "finding": "vorzeitige Einschulung hat bei Kindern mit ueberdurchschnittlicher allgemeiner kognitiver Begabung mehrheitlich positive Effekte ohne negative sozioemotionale Folgen",
+            "question_relevance": "BW4"
+          },
+          {
+            "finding": "Aktivierungsniveau und Neugierverhalten von Saeuglingen prognostizieren spaetere kognitive Entwicklung im Vorschulalter gut",
+            "question_relevance": "FW1, BW4"
+          },
+          {
+            "finding": "im deutschsprachigen Raum existiert kein vergleichbarer Ueberblick ueber Studien zur Begabtenfoerderung im Kindergartenalter",
+            "question_relevance": "BW4",
+            "implication": "Evidenzluecke, die Praxis ist hier weitgehend erfahrungsbasiert"
+          }
+        ],
+        "approaches_mentioned": [
+          "Early Excellence Ansatz",
+          "individuelle Bezugsnorm statt sozialer Bezugsnorm",
+          "Reflexion der eigenen Haltung als Fachkraft"
+        ]
+      },
+      "case_vignettes": [],
+      "relevance": {
+        "priority": "C",
+        "primary_question": "BW4",
+        "secondary_questions": [
+          "FW3",
+          "FW1"
+        ],
+        "tex_placements": [
+          {
+            "tex_label": "sec:frage4",
+            "subsection": "Enrichment als Gegenmodell",
+            "use_case": "Grundsatz Foerderung auf Verdacht als argumentative Stuetze fuer SOLUX",
+            "parencite_suggestion": "\\parencite{koopseddig2021frueheserkennen}"
+          },
+          {
+            "tex_label": "sec:frage3",
+            "subsection": "Migration als kumulative Belastung",
+            "use_case": "Umweltabhaengigkeit der Begabungsentwicklung",
+            "parencite_suggestion": "\\parencite{koopseddig2021frueheserkennen}"
+          }
+        ],
+        "supplement_status": "new_but_peripheral",
+        "extends_existing_keys": [
+          "behrensen2019inklusive",
+          "fischer2020begabungsfoerderung"
+        ],
+        "conflicts_with_existing_keys": [],
+        "rationale": "S. ist 11 J. alt, das Kapitel fokussiert auf Kita- und Vorschulalter. Der uebertragbare Gehalt ist der Grundsatz Foerderung auf Verdacht und die Umweltabhaengigkeits-Argumentation. Einbau nur optional."
+      },
+      "integration_hints": [
+        "Falls Platz im Seitenbudget, kann dieser Eintrag als Zusatzbeleg fuer die These eingebracht werden, dass Begabung in der institutionellen Identifikation systematisch von Umweltbedingungen abhaengt. Bei engem Seitenbudget kann er weggelassen werden."
+      ]
+    },
+    {
+      "id": "3.5",
+      "position_in_part": 5,
+      "authors": [
+        {
+          "given": "Franzis",
+          "family": "Preckel"
+        }
+      ],
+      "title": "Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive",
+      "pages": {
+        "start": 274,
+        "end": 303,
+        "count": 30,
+        "source": "beltz_toc (274) und Teil-IV-Beginn bei 304"
+      },
+      "bibtex": {
+        "key": "preckel2021tad",
+        "type": "incollection",
+        "already_in_quellen_bib": false,
+        "entry": "@incollection{preckel2021tad,\n  author    = {Preckel, Franzis},\n  title     = {Das TAD-Framework. Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  pages     = {274--303},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  isbn      = {978-3-407-25806-9}\n}",
+        "not_to_be_confused_with": {
+          "existing_key": "preckel2013hochbegabung",
+          "existing_reference": "Preckel/Baudson (2013): Hochbegabung. Monographie, nicht Handbuch-Kapitel",
+          "note": "Der vorhandene Key preckel2013hochbegabung bezieht sich auf das Preckel/Baudson-Buch von 2013. Der TAD-Framework-Beitrag 2021 ist eine eigenstaendige, deutlich aktuellere Preckel-Quelle (basiert auf Preckel et al. 2020 in Perspectives on Psychological Science). Beide Quellen koennen im Lerndokument koexistieren."
+        }
+      },
+      "content": {
+        "summary": "Theoretische Darstellung des TAD-Frameworks (Talent Development in Achievement Domains), einer Weiterentwicklung des Mega-Modells von Subotnik, Olszewski-Kubilius und Worrell 2011. Das Framework beschreibt Talententwicklung als Prozess durch vier aufeinanderfolgende Phasen (Potenzial, Kompetenz, Expertise, aussergewoehnliche Leistung) und konzeptualisiert Begabung als dynamisches, domaenenspezifisches Profil psychologischer Faktoren.",
+        "core_concepts": [
+          "vier Phasen der Talententwicklung: Potenzial, Kompetenz, Expertise, aussergewoehnliche Leistung",
+          "Umkehrdreieck (mit jedem Abschnitt sinkt die Anzahl Personen)",
+          "Begabung als dynamisches Profil psychologischer Faktoren",
+          "abschnittsabhaengige Praediktoren und Indikatoren",
+          "zunehmende Spezialisierung als Grundannahme",
+          "Faehigkeitsdifferenzierung (Cattells Investmenttheorie)",
+          "Investment Traits (Offenheit, Need for Cognition)",
+          "Intelligenzprofile als Wegweiser zur Domaenenwahl",
+          "evidenzbasiertes deskriptives (nicht normatives) Rahmenmodell",
+          "Fokus auf Person, nicht auf Umwelt oder Genetik (zur Komplexitaetsreduktion)"
+        ],
+        "theoretical_foundations": [
+          "Mega-Modell (Subotnik/Olszewski-Kubilius/Worrell 2011)",
+          "Cattells Investmenttheorie (1987)",
+          "Expertiseforschung",
+          "differentielle Hochbegabungsforschung"
+        ],
+        "empirical_findings": [
+          {
+            "finding": "hochbegabte Jugendliche (Top 0.01 Prozent SAT-M oder SAT-V) mit Staerken im numerischen Bereich waehlen spaeter eher Mathematik oder Ingenieurwissenschaften, solche mit verbalen Staerken eher Sozial- und Geisteswissenschaften",
+            "source_within_chapter": "SMPY (Study of Mathematically Precocious Youth), Stanley/Benbow",
+            "question_relevance": "FW1, BW4"
+          },
+          {
+            "finding": "bei steigender allgemeiner Intelligenz werden ausgepraegte Intelligenzprofile wahrscheinlicher (Staerken in einzelnen Bereichen statt gleichmaessig hoher Auspraegung)",
+            "question_relevance": "FW1"
+          }
+        ],
+        "origin": {
+          "initial_discussion": "2017 Preckel und Subotnik",
+          "working_group_size": 11,
+          "funding": [
+            "Karg-Stiftung",
+            "Siemens Stiftung"
+          ],
+          "publication": "Preckel et al. (2020) in Perspectives on Psychological Science"
+        }
+      },
+      "case_vignettes": [],
+      "relevance": {
+        "priority": "A",
+        "primary_question": "FW1",
+        "secondary_questions": [
+          "BW4",
+          "FW2"
+        ],
+        "tex_placements": [
+          {
+            "tex_label": "sec:frage1",
+            "subsection": "Begabung als dynamisches Potenzial",
+            "use_case": "TAD als aktuelles Rahmenmodell, ergaenzt LemaS-Begriffsklaerung und Preckel/Baudson 2013",
+            "parencite_suggestion": "\\parencite{preckel2021tad}"
+          },
+          {
+            "tex_label": "sec:frage4",
+            "subsection": "SOLUX: Strukturmerkmale und Wirklogik",
+            "use_case": "SOLUX als Talent-Development-Setting, das den Uebergang Potenzial zu Kompetenz adressiert",
+            "parencite_suggestion": "\\parencite{preckel2021tad}"
+          },
+          {
+            "tex_label": "sec:frage2",
+            "subsection": "Motivation als Bruecke zwischen Interesse und Kompetenzentwicklung",
+            "use_case": "Investment Traits (Offenheit, Need for Cognition) als Grundlage fuer die Schach-Bruecke",
+            "parencite_suggestion": "\\parencite{preckel2021tad}"
+          }
+        ],
+        "supplement_status": "new_complementing_existing",
+        "extends_existing_keys": [
+          "preckel2013hochbegabung",
+          "lemas2023begriffsklaerung",
+          "muelleroppliger2021handbuch"
+        ],
+        "conflicts_with_existing_keys": [],
+        "rationale": "Das TAD-Framework ist die aktuellste, domaenenspezifisch angelegte Weiterentwicklung des Mega-Modells. Fuer S. mit Schach- und Mathematik-Profil ist das der passgenaue Rahmen, weil er die SOLUX-Beobachtungen als Uebergang Potenzial zu Kompetenz rahmt und gleichzeitig die domaenenspezifische Perspektive liefert, die im bisherigen Begabungsbegriff des Lerndokuments eher additiv abgebildet ist."
+      },
+      "integration_hints": [
+        "Das TAD-Framework ist eine eigenstaendige, aktuellere Preckel-Quelle, nicht dasselbe wie preckel2013hochbegabung. Beide koennen parallel zitiert werden.",
+        "Der Fokus auf Person statt Umwelt kann im Pruefungsgespraech zu einer kritischen Nachfrage fuehren. Antwort: Preckel argumentiert explizit mit Komplexitaetsreduktion zur empirischen Ueberpruefbarkeit, nicht mit einer ontologischen Priorisierung der Person ueber die Umwelt.",
+        "Im Pruefungsgespraech ist die SMPY-Beobachtung (mathematisch Begabte waehlen MINT, verbal Begabte waehlen Sozial-/Geisteswissenschaften) ein starkes Argument fuer S.s Uebertrittsberatung: sein Profil (Mathematik, Schach) prognostiziert eine anspruchsvolle Sekundarstufen-Bildungsbahn."
+      ]
+    }
+  ],
+  "cross_cutting_analysis": {
+    "strongest_single_finds": [
+      {
+        "rank": 1,
+        "chapter_id": "3.2",
+        "title": "Aisha-Vignette",
+        "why": "Einziger verfuegbarer deutschsprachiger Fallbeleg fuer institutionelle Unteridentifikation bei Maedchen mit Migrationshintergrund. Parallel zu Muns US-Evidenz.",
+        "tex_insertion_priority": "sehr hoch",
+        "tex_target": "sec:frage3 > Warum Potenziale verdeckt bleiben"
+      },
+      {
+        "rank": 2,
+        "chapter_id": "3.1",
+        "title": "40-50 Prozent Uebersehensrate und 70 Prozent Fehlnominationsrate",
+        "why": "Zwei harte quantitative Aussagen (Hany/Heller), die das Lerndokument bisher nicht belegt. Ergaenzt Harradine et al. 2013 (22 Prozent) zur Dreifachstuetze.",
+        "tex_insertion_priority": "hoch",
+        "tex_target": "sec:frage1 > Multiperspektivische und dynamische Erfassung"
+      },
+      {
+        "rank": 3,
+        "chapter_id": "3.5",
+        "title": "TAD-Framework mit vier Phasen und SMPY-Evidenz",
+        "why": "Aktuellstes domaenenspezifisches Rahmenmodell. Erlaubt, S.s SOLUX-Beobachtungen als Uebergang Potenzial-Kompetenz zu rahmen und Uebertrittsberatung empirisch zu stuetzen (SMPY-Studien).",
+        "tex_insertion_priority": "hoch",
+        "tex_target": "sec:frage1 > Begabung als dynamisches Potenzial; sec:frage4 > SOLUX Strukturmerkmale"
+      },
+      {
+        "rank": 4,
+        "chapter_id": "3.2",
+        "title": "Lea-Vignette als diagnostisches Parallel-Beispiel",
+        "why": "Gleiche Altersstufe wie S. (11 J.). Zeigt diagnostisches Vorgehen mit CFT 20-R plus WISC-V und Verwendung des Allgemeinen Faehigkeitsindex (AFI) bei heterogenen Profilen.",
+        "tex_insertion_priority": "mittel",
+        "tex_target": "sec:frage1 > Kritische Reflexion Umgang mit divergierenden Testbefunden"
+      }
+    ],
+    "quantitative_data_points": [
+      {
+        "value_numeric": 0.45,
+        "value_string": "40 bis 50 Prozent",
+        "claim": "Anteil begabter Kinder, die von Lehrpersonen uebersehen werden",
+        "source_chapter": "3.1",
+        "source_within_chapter": "Hany/Heller"
+      },
+      {
+        "value_numeric": 0.7,
+        "value_string": "70 Prozent",
+        "claim": "Anteil der nominierten Kinder, die tatsaechlich nicht besonders begabt sind",
+        "source_chapter": "3.1",
+        "source_within_chapter": "Hany/Heller"
+      },
+      {
+        "value_numeric": 0.0175,
+        "value_string": "1.75 Prozent",
+        "claim": "Anteil internationaler Begabtenfoerderungsstudien (1994-2003), die das Vorschulalter betreffen",
+        "source_chapter": "3.4",
+        "source_within_chapter": "Jolly und Kettler"
+      },
+      {
+        "value_numeric": 15,
+        "value_string": "SD 15",
+        "claim": "Standardabweichung des Abweichungs-IQ (Wechsler-Skala)",
+        "source_chapter": "3.1",
+        "source_within_chapter": "historischer Verweis"
+      },
+      {
+        "value_numeric": 130,
+        "value_string": "IQ 130",
+        "claim": "konventioneller Cut-off fuer Hochbegabung (willkuerlich, nicht naturgegeben)",
+        "source_chapter": "3.2",
+        "source_within_chapter": "Praxisstandard"
+      }
+    ],
+    "thematic_clusters": [
+      {
+        "cluster": "diagnostische Mehrperspektivitaet",
+        "chapters_supporting": [
+          "3.1",
+          "3.2",
+          "3.3"
+        ],
+        "existing_keys_supporting": [
+          "ipege2009professionelle",
+          "reutlinger2015hochbegabung",
+          "maehler2018diagnostik"
+        ]
+      },
+      {
+        "cluster": "Grenzen sprachlastiger IQ-Diagnostik",
+        "chapters_supporting": [
+          "3.1",
+          "3.2"
+        ],
+        "existing_keys_supporting": [
+          "maehler2018diagnostik",
+          "preckel2013hochbegabung"
+        ]
+      },
+      {
+        "cluster": "dynamischer und prozessorientierter Begabungsbegriff",
+        "chapters_supporting": [
+          "3.1",
+          "3.2",
+          "3.5"
+        ],
+        "existing_keys_supporting": [
+          "lemas2023begriffsklaerung",
+          "preckel2013hochbegabung",
+          "muelleroppliger2021handbuch"
+        ]
+      },
+      {
+        "cluster": "Migration und Unteridentifikation",
+        "chapters_supporting": [
+          "3.2"
+        ],
+        "existing_keys_supporting": [
+          "stamm2021fehlenderblick",
+          "kellerkoller2021hellekoepfe",
+          "leikhof2021jugendliche"
+        ]
+      },
+      {
+        "cluster": "Foerderung auf Verdacht und Enrichment",
+        "chapters_supporting": [
+          "3.1",
+          "3.4"
+        ],
+        "existing_keys_supporting": [
+          "fischer2020begabungsfoerderung",
+          "muelleroppliger2021handbuch"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "type": "asr_transcription",
+        "severity": "high",
+        "message": "Das Transkript ist ASR-generiert und enthaelt systematische Eigennamen- und Fachbegriffsfehler. Woertliche Zitate sind deshalb nicht zulaessig. Vor jedem Zitat das Originalbuch konsultieren. Die vollstaendige Fehlerliste ist im transcript_quality.systematic_errors Array dieses Dokuments."
+      },
+      {
+        "type": "bibkey_conflict",
+        "severity": "medium",
+        "message": "Der Autorname Preckel erscheint zweimal im bibliographischen Kontext. preckel2013hochbegabung verweist auf das Preckel/Baudson-Buch, preckel2021tad auf das TAD-Framework-Kapitel. Beide koennen koexistieren, aber das muss im Lerndokument konsistent unterschieden werden."
+      },
+      {
+        "type": "page_range_discrepancy",
+        "severity": "low",
+        "message": "Fuer Kapitel 3.4 (Koop/Seddig) nennt das Transkript S. 260-270 (11 S.), das Beltz-TOC aber 260-273. Die Differenz ist vermutlich das kapitelinterne Literaturverzeichnis. Beim Zitat bitte den TOC-Bereich (260-273) verwenden."
+      },
+      {
+        "type": "seitenbudget",
+        "severity": "low",
+        "message": "Die To-do-Box im Lerndokument nennt 500-700 Seiten als Korridor. Die fuenf neuen Kapitel (zusammen ca. 75 Seiten) wuerden das Budget erhoehen. Bei engem Budget kann Prioritaet B (3.3) und C (3.4) weggelassen werden, bei knappem Budget auch 3.1 gebuendelt ueber muelleroppliger2021handbuch zitiert werden."
+      }
+    ]
+  },
+  "integration_workflow": {
+    "description": "Vorgeschlagener Arbeitsablauf fuer die Einarbeitung in Lerndokument und Abgabedossier.",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Quellen.bib ergaenzen",
+        "details": "Die BibTeX-Entries fuer Prioritaet A (3.1, 3.2, 3.5) sofort anlegen. 3.3 und 3.4 optional, je nach Seitenbudget."
+      },
+      {
+        "step": 2,
+        "action": "parencite-Einbauten in sec:frage1 vornehmen",
+        "details": "Drei Stellen: Begabung als dynamisches Potenzial (plus preckel2021tad), Multiperspektivische und dynamische Erfassung (plus muelleroppliger2021paedDiagnostik), Grenzen sprachlastiger Diagnostik (plus gauckreimann2021psychDiagnostik)."
+      },
+      {
+        "step": 3,
+        "action": "Aisha-Vignette in sec:frage3 einbauen",
+        "details": "Paraphrasierte Beschreibung der Vignette als deutschsprachiger Fallbeleg fuer Unteridentifikation. Wichtig: paraphrasieren, nicht zitieren."
+      },
+      {
+        "step": 4,
+        "action": "SMPY-Evidenz in sec:frage4 einbauen",
+        "details": "Preckel 2021 zur Domaenenspezifik: mathematisch Begabte waehlen MINT, verbal Begabte waehlen Sozial-/Geisteswissenschaften. S.s Profil (Mathematik, Schach) prognostiziert anspruchsvolle Sekundarstufen-Bahn. Stuetzt die Kompetenzportfolio-Argumentation fuer den Uebertritt."
+      },
+      {
+        "step": 5,
+        "action": "biblatex-Durchlauf",
+        "details": "pdflatex -> biber -> pdflatex -> pdflatex; Pruefung dass alle neuen parencite-Keys aufgeloest werden."
+      },
+      {
+        "step": 6,
+        "action": "Physische Verifikation in Bibliothek",
+        "details": "Im selben Gang, in dem die offenen VERIFY-Marker der bestehenden Quellen.bib abgearbeitet werden, die neuen Seitenbereiche der Teil-III-Kapitel am Handbuch verifizieren. Insbesondere die Endseite von 3.1 (238?) und der Beginn von 3.5 (274?)."
+      }
+    ]
+  },
+  "tex_snippets_ready_to_paste": {
+    "description": "Fertige LaTeX-Textbausteine zum direkten Einfuegen in das Lerndokument. Alle Paraphrasen unter 15 Woertern aus dem Original, konform mit Anthropics Copyright-Regeln und Intis Paraphrasierungsstandard.",
+    "snippets": [
+      {
+        "target_section": "sec:frage1 > Multiperspektivische und dynamische Erfassung",
+        "position": "Ende des Abschnitts nach IPEGE-Zitat",
+        "snippet": "Wie gross die Wahrnehmungsluecke ist, zeigt \\textcite{muelleroppliger2021paedDiagnostik} unter Bezug auf Hany und Heller: 40 bis 50 Prozent der begabten Kinder werden von Lehrpersonen uebersehen, und bis zu 70 Prozent der nominierten Kinder sind bei genauerer Abklaerung nicht besonders begabt. Diese beiden Fehlerquoten, Unteridentifikation und Fehlnominierung, unterstreichen die Notwendigkeit eines Meeraugenprinzips und mehrerer unabhaengiger Datenquellen."
+      },
+      {
+        "target_section": "sec:frage1 > Grenzen sprachlastiger Diagnostik",
+        "position": "nach Maehler-Absatz",
+        "snippet": "\\textcite{gauckreimann2021psychDiagnostik} weisen auf zwei spezifische Probleme standardisierter IQ-Tests im Hochbegabungsbereich hin: den Deckeneffekt (zu wenige schwierige Aufgaben, kuenstliche Obergrenze der Messung) und die Testminderleistung (Diskrepanz zwischen Potenzial und Testergebnis aufgrund von Druck, Blockaden oder Demotivation waehrend der Testdurchfuehrung). Bei S. wirken beide Faktoren: der Test auf Englisch statt Albanisch unterschaetzt potenziell sein Ergebnis, und die schulische Vorgeschichte macht eine Testminderleistung wahrscheinlich."
+      },
+      {
+        "target_section": "sec:frage3 > Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben",
+        "position": "nach dem Kappus-Absatz zur institutionellen Diskriminierung",
+        "snippet": "\\textcite{gauckreimann2021psychDiagnostik} illustrieren dieses Muster anhand einer zehnjaehrigen Schuelerin mit Migrationshintergrund, deren Unterforderungssymptome zunaechst als Aufmerksamkeitsstoerung interpretiert werden. Die Hochbegabung wird erst als Zufallsbefund einer stoerungsspezifischen Abklaerung sichtbar. Die Autorinnen stellen fest, dass bei Maedchen mit Migrationshintergrund die Wahrscheinlichkeit systematisch sinkt, dass eine Hochbegabung erkannt wird. Die Parallele zu S. ist strukturell klar: auch bei ihm dominiert die stoerungsorientierte Wahrnehmung, und die kognitiven Staerken werden erst im SOLUX-Setting sichtbar."
+      },
+      {
+        "target_section": "sec:frage1 > Begabung als dynamisches Potenzial",
+        "position": "nach dem LemaS-Absatz",
+        "snippet": "Das TAD-Framework \\parencite{preckel2021tad} operationalisiert diese dynamische Konzeption in vier aufeinanderfolgenden Abschnitten der Talententwicklung: Potenzial, Kompetenz, Expertise und aussergewoehnliche Leistung. Begabung wird dabei als domaenenspezifisches Profil psychologischer Faktoren verstanden, das im jeweiligen Entwicklungsabschnitt die positive Leistungsentwicklung vorhersagt. Fuer S. bedeutet das: die im SOLUX-Projekt sichtbar gewordenen kognitiven Staerken im Schach sind kein Hochbegabungs-Etikett, sondern ein Potenzial-Indikator im Uebergang zu einer systematisch aufgebauten Kompetenz."
+      },
+      {
+        "target_section": "sec:frage4 > SOLUX: Strukturmerkmale und Wirklogik",
+        "position": "nach dem Absatz zur Expertenrolle",
+        "snippet": "Dass domaenenspezifische Staerken fuer die spaetere Bildungsbahn aussagekraeftig sind, belegen die Laengsschnittbefunde der SMPY-Studien, auf die \\textcite{preckel2021tad} verweist: hochbegabte Jugendliche mit ausgepraegten numerischen Staerken waehlen spaeter ueberproportional haeufig MINT-Bildungsbahnen. S.s mathematische und strategische Staerken (Schach, ausserordentlich auffaelliges Mathematikverhalten) sind in diesem Licht keine diffusen Begabungsindizien, sondern ein domaenenspezifisches Profil, das die Uebertrittsberatung substantiell beeinflussen sollte."
+      }
+    ]
+  }
+}

@@ -1,0 +1,4021 @@
+{
+  "dataset_meta": {
+    "dataset_id": "transkript_verortung_lerndokument",
+    "dataset_version": "1.0.0",
+    "created_from": "Transkript_Verortung_Lerndokument.xlsx",
+    "export_format": "json",
+    "encoding": "utf-8",
+    "language": "de",
+    "generator": "OpenAI ChatGPT",
+    "created_on": "2026-04-19",
+    "design_goal": "Maschinenlesbare, normalisierte Verortung der transkribierten Handbuch-Kapitel in das Lerndokument inkl. Prioritäten, Verwendungslogik, Qualitätsflags und Zielsektionen."
+  },
+  "consumer_notes": {
+    "preferred_filter_fields": [
+      "record_id",
+      "handbuch_part.code",
+      "placement.primary.target_id",
+      "priority.code",
+      "tex_recommendation.current_status_code",
+      "transcript_status.code",
+      "quality_flags"
+    ],
+    "note": "Für Automatisierung bevorzugt die *_code-Felder und Booleans verwenden; die raw-Felder erhalten den ursprünglichen Wortlaut aus dem Workbook."
+  },
+  "source_context": {
+    "probable_source_work": {
+      "work_id": "handbuch_begabung_2021",
+      "title": "Handbuch Begabung",
+      "editors": [
+        "Victor Müller-Oppliger",
+        "Gabriele Weigand"
+      ],
+      "publisher": "Beltz",
+      "year": 2021,
+      "identification_confidence_label": "sehr plausibel",
+      "identification_basis": "Alle sieben Upload-Teile lassen sich laut Workbook sehr plausibel demselben Sammelband zuordnen."
+    },
+    "input_file_registry": [
+      {
+        "part_id": "teil_1",
+        "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+        "handbuch_part_code": "I",
+        "part_title": "Begabung, Bildung und Gesellschaft"
+      },
+      {
+        "part_id": "teil_2",
+        "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+        "handbuch_part_code": "II",
+        "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      {
+        "part_id": "teil_3",
+        "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+        "handbuch_part_code": "III",
+        "part_title": "Begabungen erkennen"
+      },
+      {
+        "part_id": "teil_4",
+        "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+        "handbuch_part_code": "IV",
+        "part_title": "Begabende Schule"
+      },
+      {
+        "part_id": "teil_5",
+        "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+        "handbuch_part_code": "V",
+        "part_title": "Begabender Unterricht"
+      },
+      {
+        "part_id": "teil_6",
+        "filename": "Teil 6 Begabende Unterstützugssysteme fast ohne kommentare.docx",
+        "handbuch_part_code": "VI",
+        "part_title": "Begabende Unterstützungssysteme"
+      },
+      {
+        "part_id": "teil_7",
+        "filename": "Teil 7  Begabte belgleiten ohne kommentar.docx",
+        "handbuch_part_code": "VII",
+        "part_title": "Begabte begleiten, Akteur:innen und Formen"
+      }
+    ],
+    "source_workbook_snapshot": {
+      "sheet_names": [
+        "Uebersicht",
+        "Kapitel_Zuordnung",
+        "Matrix_Lerndokument",
+        "Auffaelligkeiten_und_Luecken"
+      ],
+      "sheet_row_counts": {
+        "Uebersicht": 20,
+        "Kapitel_Zuordnung": 35,
+        "Matrix_Lerndokument": 39,
+        "Auffaelligkeiten_und_Luecken": 9
+      },
+      "sheet_column_counts": {
+        "Uebersicht": 6,
+        "Kapitel_Zuordnung": 22,
+        "Matrix_Lerndokument": 10,
+        "Auffaelligkeiten_und_Luecken": 5
+      }
+    }
+  },
+  "normalization_rules": {
+    "ids": "Jeder Datensatz hat eine stabile record_id im Format HB-XXX.",
+    "keys": "JSON-Schlüssel sind bewusst in ASCII-sicherem snake_case gehalten.",
+    "page_logic": "Seitenenden wurden bei unklaren Uploads teils aus der Startseite des Folgekapitels minus 1 abgeleitet.",
+    "placements": "Primär- und Sekundärverortung werden sowohl semantisch (target_id) als auch als Matrix-Flags abgebildet.",
+    "duplicates": "Mehrfachfunde über mehrere Upload-Teile werden booleansch markiert statt nur textlich beschrieben.",
+    "missing_or_unsafe_sources": "Kapitel mit nur Titel, knappen OCR-Hinweisen oder ohne Transkript erhalten Qualitätsflags und eine empfohlene Aktion requires_source_before_use."
+  },
+  "lookups": {
+    "priority_lookup": {
+      "A": {
+        "label": "hoch",
+        "rank": 1
+      },
+      "B": {
+        "label": "mittel",
+        "rank": 2
+      },
+      "C": {
+        "label": "niedrig",
+        "rank": 3
+      }
+    },
+    "target_catalog": {
+      "intro": {
+        "short_label": "Einleitung",
+        "full_title": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+        "tex_label": "sec:einleitung",
+        "purpose": "Fallrahmen, Erkenntnisinteresse, gesellschaftlicher und heilpädagogischer Problemaufriss"
+      },
+      "q1": {
+        "short_label": "Frage 1",
+        "full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+        "tex_label": "sec:frage1",
+        "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung"
+      },
+      "q2": {
+        "short_label": "Frage 2",
+        "full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+        "tex_label": "sec:frage2",
+        "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken"
+      },
+      "q3": {
+        "short_label": "Frage 3",
+        "full_title": "Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+        "tex_label": "sec:frage3",
+        "purpose": "Anerkennung, Emotion, Beziehung, Teilhabe, Belastungsperspektive"
+      },
+      "q4": {
+        "short_label": "Frage 4",
+        "full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+        "tex_label": "sec:frage4",
+        "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer"
+      },
+      "q5": {
+        "short_label": "Frage 5",
+        "full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+        "tex_label": "sec:frage5",
+        "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung"
+      },
+      "reserve": {
+        "short_label": "Reserve",
+        "full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+        "tex_label": null,
+        "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich"
+      }
+    },
+    "transcript_status_lookup": {
+      "chapter_start_long_ocr_excerpt": {
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "title_only_no_real_ocr_text": {
+        "coverage": "very_low",
+        "usable_without_rechecking": "no"
+      },
+      "title_only_short_ocr_hint": {
+        "coverage": "very_low",
+        "usable_without_rechecking": "no"
+      },
+      "mentioned_only_not_transcribed": {
+        "coverage": "none_or_negligible",
+        "usable_without_rechecking": "no"
+      }
+    }
+  },
+  "overview": {
+    "title": "Verortung der Transkripte im Lerndokument – Arbeitsübersicht",
+    "logic_note": "Die Seitenangaben stammen aus dem Inhaltsverzeichnis des Handbuchs; Endseiten wurden – sofern im Upload unklar – aus der Startseite des Folgekapitels minus 1 abgeleitet. Die Verortung im Lerndokument ist eine Arbeitszuordnung für dein aktuelles TeX-Skript.",
+    "snapshot_stats_from_workbook": {
+      "gesamtzahl_einheiten": 34,
+      "davon_direkt_anschlussfaehig": 8,
+      "davon_sinnvolle_ergaenzung": 17,
+      "davon_eher_muendliche_reserve": 5,
+      "davon_fuer_aktuelle_fassung_entbehrlich": 4,
+      "nur_erwaehnt_nicht_transkribiert": 4,
+      "nur_titel_sehr_knapp": 2,
+      "prioritaet_a": 13,
+      "prioritaet_b": 11,
+      "prioritaet_c": 10
+    }
+  },
+  "summary": {
+    "total_records": 34,
+    "by_primary_target": {
+      "intro": 1,
+      "q3": 3,
+      "q4": 10,
+      "q1": 9,
+      "q5": 6,
+      "q2": 3,
+      "reserve": 2
+    },
+    "by_priority": {
+      "A": 13,
+      "B": 11,
+      "C": 10
+    },
+    "by_current_status": {
+      "direkt_anschlussfaehig": 8,
+      "sinnvolle_ergaenzung": 17,
+      "eher_muendliche_reserve": 5,
+      "fuer_aktuelle_fassung_entbehrlich": 4
+    },
+    "by_transcript_coverage": {
+      "chapter_start_long_ocr_excerpt": 28,
+      "title_only_no_real_ocr_text": 1,
+      "title_only_short_ocr_hint": 1,
+      "mentioned_only_not_transcribed": 4
+    },
+    "duplicates_across_uploads": 4,
+    "requires_source_before_use": 6
+  },
+  "indexes": {
+    "record_index_by_id": {
+      "HB-001": 0,
+      "HB-002": 1,
+      "HB-003": 2,
+      "HB-004": 3,
+      "HB-005": 4,
+      "HB-006": 5,
+      "HB-007": 6,
+      "HB-008": 7,
+      "HB-009": 8,
+      "HB-010": 9,
+      "HB-011": 10,
+      "HB-012": 11,
+      "HB-013": 12,
+      "HB-014": 13,
+      "HB-015": 14,
+      "HB-016": 15,
+      "HB-017": 16,
+      "HB-018": 17,
+      "HB-019": 18,
+      "HB-020": 19,
+      "HB-021": 20,
+      "HB-022": 21,
+      "HB-023": 22,
+      "HB-024": 23,
+      "HB-025": 24,
+      "HB-026": 25,
+      "HB-027": 26,
+      "HB-028": 27,
+      "HB-029": 28,
+      "HB-030": 29,
+      "HB-031": 30,
+      "HB-032": 31,
+      "HB-033": 32,
+      "HB-034": 33
+    },
+    "record_ids_by_primary_target": {
+      "intro": [
+        "HB-001"
+      ],
+      "q3": [
+        "HB-002",
+        "HB-011",
+        "HB-027"
+      ],
+      "q4": [
+        "HB-003",
+        "HB-004",
+        "HB-018",
+        "HB-019",
+        "HB-020",
+        "HB-021",
+        "HB-024",
+        "HB-025",
+        "HB-028",
+        "HB-029"
+      ],
+      "q1": [
+        "HB-005",
+        "HB-006",
+        "HB-010",
+        "HB-012",
+        "HB-013",
+        "HB-014",
+        "HB-015",
+        "HB-016",
+        "HB-017"
+      ],
+      "q5": [
+        "HB-007",
+        "HB-022",
+        "HB-023",
+        "HB-031",
+        "HB-033",
+        "HB-034"
+      ],
+      "q2": [
+        "HB-008",
+        "HB-009",
+        "HB-026"
+      ],
+      "reserve": [
+        "HB-030",
+        "HB-032"
+      ]
+    },
+    "record_ids_by_secondary_target": {
+      "q4": [
+        "HB-001",
+        "HB-010",
+        "HB-012",
+        "HB-017",
+        "HB-022",
+        "HB-023",
+        "HB-026",
+        "HB-027",
+        "HB-030"
+      ],
+      "q5": [
+        "HB-002",
+        "HB-013",
+        "HB-015",
+        "HB-019",
+        "HB-028",
+        "HB-032"
+      ],
+      "intro": [
+        "HB-003",
+        "HB-004",
+        "HB-005"
+      ],
+      "q2": [
+        "HB-006",
+        "HB-024",
+        "HB-025"
+      ],
+      "q1": [
+        "HB-007",
+        "HB-008",
+        "HB-009",
+        "HB-021"
+      ],
+      "reserve": [
+        "HB-016",
+        "HB-020",
+        "HB-029",
+        "HB-031",
+        "HB-034"
+      ],
+      "q3": [
+        "HB-033"
+      ]
+    },
+    "record_ids_by_priority": {
+      "A": [
+        "HB-001",
+        "HB-003",
+        "HB-008",
+        "HB-011",
+        "HB-012",
+        "HB-013",
+        "HB-014",
+        "HB-018",
+        "HB-019",
+        "HB-021",
+        "HB-024",
+        "HB-028",
+        "HB-033"
+      ],
+      "B": [
+        "HB-002",
+        "HB-004",
+        "HB-007",
+        "HB-009",
+        "HB-015",
+        "HB-017",
+        "HB-022",
+        "HB-023",
+        "HB-026",
+        "HB-027",
+        "HB-034"
+      ],
+      "C": [
+        "HB-005",
+        "HB-006",
+        "HB-010",
+        "HB-016",
+        "HB-020",
+        "HB-025",
+        "HB-029",
+        "HB-030",
+        "HB-031",
+        "HB-032"
+      ]
+    }
+  },
+  "records": [
+    {
+      "record_id": "HB-001",
+      "source_workbook_row": 2,
+      "handbuch_part": {
+        "code": "I",
+        "title": "Begabung, Bildung und Gesellschaft"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Victor Müller-Oppliger",
+        "authors": [
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 32,
+        "end": 45,
+        "count": 14,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "intro",
+          "target_label": "Einleitung",
+          "target_full_title": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+          "target_tex_label": "sec:einleitung",
+          "purpose": "Fallrahmen, Erkenntnisinteresse, gesellschaftlicher und heilpädagogischer Problemaufriss",
+          "precise_subsection": "Ausgangslage / Heilpädagogischer Bezug",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": "P",
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Einleitung > Ausgangslage / Heilpädagogischer Bezug",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "entspricht sehr wahrscheinlich einer bereits vorgesehenen Quelle",
+        "bib_relation_code": "entspricht_sehr_wahrscheinlich_einer_bereits_vorgesehenen_quelle",
+        "usage_form_raw": "Theorieanker",
+        "usage_form_code": "theorieanker",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Makrorahmen zu Pluralität, Inklusion, Bildungsgerechtigkeit; eignet sich für den gesellschaftlichen Problemaufriss vor dem Fall S.",
+      "integration_hint": "Am besten 1–2 Sätze im Einstieg verdichten, nicht als Detailbeleg überladen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.95,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1",
+        "primaere_verortung": "Einleitung",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-002",
+      "source_workbook_row": 3,
+      "handbuch_part": {
+        "code": "I",
+        "title": "Begabung, Bildung und Gesellschaft"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Gabriele Weigand",
+        "authors": [
+          "Gabriele Weigand"
+        ],
+        "title": "Begabung, Bildung und Person"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 46,
+        "end": 64,
+        "count": 19,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q3",
+          "target_label": "Frage 3",
+          "target_full_title": "Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+          "target_tex_label": "sec:frage3",
+          "purpose": "Anerkennung, Emotion, Beziehung, Teilhabe, Belastungsperspektive",
+          "precise_subsection": "Begabungsentwicklung als Beziehungsgeschehen",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": "P",
+          "q4": null,
+          "q5": "S",
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 3 > Begabungsentwicklung als Beziehungsgeschehen",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag sinnvoll",
+        "bib_relation_code": "neuer_kapitel-eintrag_sinnvoll",
+        "usage_form_raw": "Theorieanker",
+        "usage_form_code": "theorieanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Stärkt die personorientierte Linie: S. nicht primär als Defizitträger, sondern als Person mit Entwicklungsanspruch lesen.",
+      "integration_hint": "Passt gut als Brücke von Beziehung/Person zu professioneller Haltung.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.88,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1",
+        "primaere_verortung": "Frage 3",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-003",
+      "source_workbook_row": 4,
+      "handbuch_part": {
+        "code": "I",
+        "title": "Begabung, Bildung und Gesellschaft"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Clemens Sedmak / Elisabeth Kapferer",
+        "authors": [
+          "Clemens Sedmak",
+          "Elisabeth Kapferer"
+        ],
+        "title": "Begabtenförderung und Bildungsgerechtigkeit"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 65,
+        "end": 76,
+        "count": 12,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "intro",
+          "target_label": "Einleitung",
+          "target_full_title": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+          "target_tex_label": "sec:einleitung",
+          "purpose": "Fallrahmen, Erkenntnisinteresse, gesellschaftlicher und heilpädagogischer Problemaufriss",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": "S",
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+        "display_path_secondary": "Einleitung",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "entspricht sehr wahrscheinlich einer bereits vorgesehenen Quelle",
+        "bib_relation_code": "entspricht_sehr_wahrscheinlich_einer_bereits_vorgesehenen_quelle",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Ideal für die These, dass Begabungsförderung Ungleichheit nicht reproduzieren, sondern Chancen eröffnen muss.",
+      "integration_hint": "Im Gerechtigkeitsabschnitt direkt neben Weigand/Kaiser einsetzen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.96,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Einleitung"
+      }
+    },
+    {
+      "record_id": "HB-004",
+      "source_workbook_row": 5,
+      "handbuch_part": {
+        "code": "I",
+        "title": "Begabung, Bildung und Gesellschaft"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Kenneth Horvath",
+        "authors": [
+          "Kenneth Horvath"
+        ],
+        "title": "Elite, Begabung und soziale Ungleichheit – ungelöste Gerechtigkeitsfragen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 77,
+        "end": 87,
+        "count": 11,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "intro",
+          "target_label": "Einleitung",
+          "target_full_title": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+          "target_tex_label": "sec:einleitung",
+          "purpose": "Fallrahmen, Erkenntnisinteresse, gesellschaftlicher und heilpädagogischer Problemaufriss",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": "S",
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 4 > Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+        "display_path_secondary": "Einleitung",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "kritische Rahmung",
+        "usage_form_code": "kritische_rahmung",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Schärft die Spannung zwischen Elitenlogik und Bildungsgerechtigkeit; nützlich, wenn du die Selektionsfrage expliziter machen willst.",
+      "integration_hint": "Eher knapp als Kontrastfolie verwenden, nicht als Hauptquelle des Kapitels.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.82,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Einleitung"
+      }
+    },
+    {
+      "record_id": "HB-005",
+      "source_workbook_row": 6,
+      "handbuch_part": {
+        "code": "I",
+        "title": "Begabung, Bildung und Gesellschaft"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Heinz-Werner Wollersheim",
+        "authors": [
+          "Heinz-Werner Wollersheim"
+        ],
+        "title": "Begabung als sozialhistorisches und soziokulturelles Konstrukt"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 88,
+        "end": 103,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Begabung als dynamisches Potenzial",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "intro",
+          "target_label": "Einleitung",
+          "target_full_title": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+          "target_tex_label": "sec:einleitung",
+          "purpose": "Fallrahmen, Erkenntnisinteresse, gesellschaftlicher und heilpädagogischer Problemaufriss",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": "S",
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 1 > Begabung als dynamisches Potenzial",
+        "display_path_secondary": "Einleitung",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "eher mündliche Reserve",
+        "current_status_code": "eher_muendliche_reserve",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "theoretische Reserve",
+        "usage_form_code": "theoretische_reserve",
+        "recommended_action": {
+          "code": "oral_exam_reserve",
+          "label": "eher als mündliche Reserve verwenden"
+        }
+      },
+      "why_here": "Hilfreich, wenn du den Begabungsbegriff historisch entnaturalisieren willst; für den Fall S. aber eher Hintergrund als Kern.",
+      "integration_hint": "Wenn überhaupt, dann nur 1 verdichteter Satz zur sozialen Konstruiertheit des Begabungsbegriffs.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.74,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "lower_confidence_assignment",
+        "oral_reserve"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Einleitung"
+      }
+    },
+    {
+      "record_id": "HB-006",
+      "source_workbook_row": 7,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Esther Ziegler / Elsbeth Stern",
+        "authors": [
+          "Esther Ziegler",
+          "Elsbeth Stern"
+        ],
+        "title": "Der Einfluss von Erbe und Umwelt auf Bildung, Intelligenz und Lernen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 104,
+        "end": 114,
+        "count": 11,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur Titel / kein eigentlicher OCR-Text",
+        "code": "title_only_no_real_ocr_text",
+        "coverage": "very_low",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Begabung als dynamisches Potenzial",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": "S",
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 1 > Begabung als dynamisches Potenzial",
+        "display_path_secondary": "Frage 2",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nur nach Volltextkontrolle",
+        "bib_relation_code": "neuer_kapitel-eintrag_nur_nach_volltextkontrolle",
+        "usage_form_raw": "theoretische Reserve",
+        "usage_form_code": "theoretische_reserve",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Thematisch passend für Anlage-Umwelt-Dynamik, aber der Upload enthält praktisch noch keinen verwertbaren Text.",
+      "integration_hint": "Erst nach Nachtranskription oder Einsicht ins Buch verwenden.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.6,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 2",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 2"
+      }
+    },
+    {
+      "record_id": "HB-007",
+      "source_workbook_row": 8,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        },
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": true,
+      "chapter": {
+        "authors_raw": "Tanja Gabriele Baudson",
+        "authors": [
+          "Tanja Gabriele Baudson"
+        ],
+        "title": "Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 115,
+        "end": 132,
+        "count": 18,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur Titel / sehr knapper OCR-Hinweis",
+        "code": "title_only_short_ocr_hint",
+        "coverage": "very_low",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "S",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "P",
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 5 > Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit",
+        "display_path_secondary": "Frage 1",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "kritische Rahmung",
+        "usage_form_code": "kritische_rahmung",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Wäre stark für implizite Begabungsvorstellungen und stereotype Wahrnehmungsmuster im Team.",
+      "integration_hint": "Wegen der lückenhaften Transkription nur vorsichtig einsetzen; besser als Denkanstoß für die mündliche Prüfung.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.72,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "duplicate_across_uploads",
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1 / Teil 2",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Frage 1"
+      }
+    },
+    {
+      "record_id": "HB-008",
+      "source_workbook_row": 9,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        },
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": true,
+      "chapter": {
+        "authors_raw": "Willi Stadelmann",
+        "authors": [
+          "Willi Stadelmann"
+        ],
+        "title": "Begabungsentwicklung aus Sicht der Genetik und der kognitiven Neuropsychologie"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 133,
+        "end": 148,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "precise_subsection": "Schriftspracherwerb als sensumotorisch-kognitiver Prozess",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "S",
+          "q2": "P",
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 2 > Schriftspracherwerb als sensumotorisch-kognitiver Prozess",
+        "display_path_secondary": "Frage 1",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Theorieanker",
+        "usage_form_code": "theorieanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Sehr brauchbar als Brückenkapitel: Plastizität, Wahrnehmung, Lernbiografie und Motorik stützen deinen entwicklungsorientierten Blick auf S.s Schreib- und Leseprobleme.",
+      "integration_hint": "Vor den graphomotorischen Befunden verorten; nicht zu neurobiologisch auswalzen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.93,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "duplicate_across_uploads"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1 / Teil 2",
+        "primaere_verortung": "Frage 2",
+        "sekundaere_verortung": "Frage 1"
+      }
+    },
+    {
+      "record_id": "HB-009",
+      "source_workbook_row": 10,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        },
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": true,
+      "chapter": {
+        "authors_raw": "Roland H. Grabner / Michaela A. Meier",
+        "authors": [
+          "Roland H. Grabner",
+          "Michaela A. Meier"
+        ],
+        "title": "Die Entwicklung von Expertise"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 149,
+        "end": 167,
+        "count": 19,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "precise_subsection": "Schach als Fördermedium für Schrift, Sprache und Beteiligung",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "S",
+          "q2": "P",
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 2 > Schach als Fördermedium für Schrift, Sprache und Beteiligung",
+        "display_path_secondary": "Frage 1",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "domänenspezifische Rahmung",
+        "usage_form_code": "domaenenspezifische_rahmung",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Passt dort, wo du Schach nicht als „Zaubermittel“, sondern als domänenspezifischen Kompetenzraum erklärst.",
+      "integration_hint": "Als 1 kurzer Theoriehinweis zu Expertiseentwicklung, dann schnell wieder zurück zum Fall S.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.84,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "duplicate_across_uploads"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1 / Teil 2",
+        "primaere_verortung": "Frage 2",
+        "sekundaere_verortung": "Frage 1"
+      }
+    },
+    {
+      "record_id": "HB-010",
+      "source_workbook_row": 11,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 1",
+          "part_id": "teil_1",
+          "filename": "Teil 1 Begabung Handbuch ohne kommentar.docx",
+          "part_title": "Begabung, Bildung und Gesellschaft"
+        },
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": true,
+      "chapter": {
+        "authors_raw": "Klaus K. Urban",
+        "authors": [
+          "Klaus K. Urban"
+        ],
+        "title": "Kreativität und Begabung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 168,
+        "end": 184,
+        "count": 17,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Begabung als dynamisches Potenzial",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 1 > Begabung als dynamisches Potenzial",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "eher mündliche Reserve",
+        "current_status_code": "eher_muendliche_reserve",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Begriffsweitung",
+        "usage_form_code": "begriffsweitung",
+        "recommended_action": {
+          "code": "oral_exam_reserve",
+          "label": "eher als mündliche Reserve verwenden"
+        }
+      },
+      "why_here": "Nützlich, wenn du den Begabungsbegriff über IQ, Leistung und Kreativität hinaus öffnen willst.",
+      "integration_hint": "Nur ergänzend; im aktuellen Text ist die Linie über Renzulli/Gardner schon tragfähig.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.76,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "duplicate_across_uploads",
+        "oral_reserve"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 1 / Teil 2",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-011",
+      "source_workbook_row": 12,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Julius Kuhl",
+        "authors": [
+          "Julius Kuhl"
+        ],
+        "title": "Begabung, Bildung und Beziehung aus persönlichkeitspsychologischer Sicht"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 185,
+        "end": 203,
+        "count": 19,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q3",
+          "target_label": "Frage 3",
+          "target_full_title": "Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+          "target_tex_label": "sec:frage3",
+          "purpose": "Anerkennung, Emotion, Beziehung, Teilhabe, Belastungsperspektive",
+          "precise_subsection": "Begabungsentwicklung als Beziehungsgeschehen",
+          "matrix_code": "P"
+        },
+        "secondary": null,
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": "P",
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 3 > Begabungsentwicklung als Beziehungsgeschehen",
+        "display_path_secondary": null,
+        "secondary_same_as_primary_in_source": true
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "inhaltlich verwandt mit vorhandener Kuhl-Quelle, bibliographisch aber nicht identisch",
+        "bib_relation_code": "inhaltlich_verwandt_mit_vorhandener_kuhl-quelle_bibliographisch_aber_nicht_identisch",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Trägt deine PSI-/Affekt-/Beziehungsargumentation fast ideal; besonders passend für die These, dass negativer Affekt den Zugang zu Ressourcen blockiert.",
+      "integration_hint": "Kann den Auftakt von Frage 3 deutlich schärfen oder vorhandene Kuhl-Stellen präzisieren.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.94,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "secondary_target_same_as_primary_in_source"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 2",
+        "primaere_verortung": "Frage 3",
+        "sekundaere_verortung": "Frage 3"
+      }
+    },
+    {
+      "record_id": "HB-012",
+      "source_workbook_row": 13,
+      "handbuch_part": {
+        "code": "II",
+        "title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 2",
+          "part_id": "teil_2",
+          "filename": "Teil 2 Handbuch Begabung _ Begabung und Begabunfsförderung - konzepte und modelle ohne KOmmentar.docx",
+          "part_title": "Begabung und Begabungsförderung – Konzepte und Modelle"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Victor Müller-Oppliger",
+        "authors": [
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Begabungsmodelle"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 204,
+        "end": 223,
+        "count": 20,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Begabung als dynamisches Potenzial",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 1 > Begabung als dynamisches Potenzial",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "wahrscheinlich über Sammelband schon indirekt bedacht; für Kapitelzitat sauberer neuer Eintrag",
+        "bib_relation_code": "wahrscheinlich_ueber_sammelband_schon_indirekt_bedacht_fuer_kapitelzitat_sauberer_neuer_eintrag",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Ideal für Renzulli/Gardner/Münchner Modell als theoretisches Raster des Diagnostik-Kapitels.",
+      "integration_hint": "Im Modellüberblick zu Beginn von Frage 1 bündeln.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.95,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 2",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-013",
+      "source_workbook_row": 14,
+      "handbuch_part": {
+        "code": "III",
+        "title": "Begabungen erkennen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 3",
+          "part_id": "teil_3",
+          "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+          "part_title": "Begabungen erkennen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Salomé Müller-Oppliger",
+        "authors": [
+          "Salomé Müller-Oppliger"
+        ],
+        "title": "Pädagogische Diagnostik – Potenzialerfassung und Förderdiagnostik"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 224,
+        "end": 238,
+        "count": 15,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Multiperspektivische und dynamische Erfassung",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "S",
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 1 > Multiperspektivische und dynamische Erfassung",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "Kapitelzitat neu oder über Handbuch präzisieren",
+        "bib_relation_code": "kapitelzitat_neu_oder_ueber_handbuch_praezisieren",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Passt perfekt zu deiner Argumentationslinie: mehrperspektivisch, förderorientiert, Lehrpersonen als Diagnostikerinnen.",
+      "integration_hint": "Auch für die kritische Reflexion zu divergierenden Testbefunden sehr ergiebig.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.97,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 3",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-014",
+      "source_workbook_row": 15,
+      "handbuch_part": {
+        "code": "III",
+        "title": "Begabungen erkennen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 3",
+          "part_id": "teil_3",
+          "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+          "part_title": "Begabungen erkennen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Letizia Gauck / Giselle Reimann",
+        "authors": [
+          "Letizia Gauck",
+          "Giselle Reimann"
+        ],
+        "title": "Psychologische Diagnostik in der Begabungs- und Begabtenförderung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 239,
+        "end": 251,
+        "count": 13,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Grenzen sprachlastiger Diagnostik",
+          "matrix_code": "P"
+        },
+        "secondary": null,
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 1 > Grenzen sprachlastiger Diagnostik",
+        "display_path_secondary": null,
+        "secondary_same_as_primary_in_source": true
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Methodenanker",
+        "usage_form_code": "methodenanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Gut für Testdurchführung, Erstgespräch, Rückmeldung und Grenzen formaler Abklärung.",
+      "integration_hint": "Neben Maehler eher praktisch-methodisch einsetzen, nicht parallel alles doppeln.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.9,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "secondary_target_same_as_primary_in_source"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 3",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 1"
+      }
+    },
+    {
+      "record_id": "HB-015",
+      "source_workbook_row": 16,
+      "handbuch_part": {
+        "code": "III",
+        "title": "Begabungen erkennen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 3",
+          "part_id": "teil_3",
+          "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+          "part_title": "Begabungen erkennen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Johanna Stahl",
+        "authors": [
+          "Johanna Stahl"
+        ],
+        "title": "Das „multidimensionale Begabungs-Entwicklungs-Tool“ (mBET) als Instrument multifunktionaler Förderdiagnostik"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 252,
+        "end": 259,
+        "count": 8,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Multiperspektivische und dynamische Erfassung",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "S",
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 1 > Multiperspektivische und dynamische Erfassung",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "konkretes Instrument",
+        "usage_form_code": "konkretes_instrument",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Hilfreich, wenn du nach einem konkreten schulischen Beobachtungsinstrument gefragt wirst.",
+      "integration_hint": "Im Schrifttext eher kurz erwähnen; mündlich sehr nützlich als Praxisbeispiel.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.86,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 3",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-016",
+      "source_workbook_row": 17,
+      "handbuch_part": {
+        "code": "III",
+        "title": "Begabungen erkennen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 3",
+          "part_id": "teil_3",
+          "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+          "part_title": "Begabungen erkennen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Christine Koop / Nadine Seddig",
+        "authors": [
+          "Christine Koop",
+          "Nadine Seddig"
+        ],
+        "title": "Frühes Erkennen von hohen Begabungen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 260,
+        "end": 273,
+        "count": 14,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Multiperspektivische und dynamische Erfassung",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": null,
+          "reserve": "S",
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 1 > Multiperspektivische und dynamische Erfassung",
+        "display_path_secondary": "Reserve",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "für aktuelle Fassung entbehrlich",
+        "current_status_code": "fuer_aktuelle_fassung_entbehrlich",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nur bei tatsächlicher Nutzung",
+        "bib_relation_code": "neuer_kapitel-eintrag_nur_bei_tatsaechlicher_nutzung",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "omit_in_current_tex",
+          "label": "für die aktuelle Fassung weglassen"
+        }
+      },
+      "why_here": "Inhaltlich passend, aber der Fokus auf frühe Kindheit passt nur begrenzt zu S. (11 Jahre).",
+      "integration_hint": "Eher weglassen oder nur als allgemeiner Hinweis auf Plastizität erwähnen.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.7,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "lower_confidence_assignment",
+        "currently_not_needed"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 3",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Reserve"
+      }
+    },
+    {
+      "record_id": "HB-017",
+      "source_workbook_row": 18,
+      "handbuch_part": {
+        "code": "III",
+        "title": "Begabungen erkennen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 3",
+          "part_id": "teil_3",
+          "filename": "Teil 3 Begabungen Erkennen ohne kommentar.docx",
+          "part_title": "Begabungen erkennen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Franzis Preckel",
+        "authors": [
+          "Franzis Preckel"
+        ],
+        "title": "Das TAD-Framework – Ein Rahmenmodell zur Beschreibung von Begabung und Leistung unter einer Talententwicklungsperspektive"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 274,
+        "end": 289,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "precise_subsection": "Begabung als dynamisches Potenzial",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "P",
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 1 > Begabung als dynamisches Potenzial",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "inhaltlich nah an vorhandener Preckel-Quelle, aber nicht identisch",
+        "bib_relation_code": "inhaltlich_nah_an_vorhandener_preckel-quelle_aber_nicht_identisch",
+        "usage_form_raw": "Modellergänzung",
+        "usage_form_code": "modellergaenzung",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Stärkt die Entwicklungsperspektive: Potenzial, Lernpfade, Leistung in Domänen.",
+      "integration_hint": "Gut als aktuelleres Ergänzungsmodell, wenn du Preckel nicht nur klassisch-psychometrisch rahmen willst.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.88,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 3",
+        "primaere_verortung": "Frage 1",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-018",
+      "source_workbook_row": 19,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Gabriele Weigand / Michaela Kaiser",
+        "authors": [
+          "Gabriele Weigand",
+          "Michaela Kaiser"
+        ],
+        "title": "Separativ oder integrativ? Inklusive Begabungs- und Begabtenförderung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 290,
+        "end": 301,
+        "count": 12,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+          "matrix_code": "P"
+        },
+        "secondary": null,
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+        "display_path_secondary": null,
+        "secondary_same_as_primary_in_source": true
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "entspricht sehr wahrscheinlich einer bereits vorgesehenen Quelle",
+        "bib_relation_code": "entspricht_sehr_wahrscheinlich_einer_bereits_vorgesehenen_quelle",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Fast deckungsgleich mit deinem Frage-4-Kern: Schule der Vielfalt, Kritik an Kategorisierung, inklusive Begabungsförderung.",
+      "integration_hint": "Im Unterabschnitt zu Inklusion/Gerechtigkeit prominent verankern.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.98,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "secondary_target_same_as_primary_in_source"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-019",
+      "source_workbook_row": 20,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Niels Anderegg / Urs Wilhelm",
+        "authors": [
+          "Niels Anderegg",
+          "Urs Wilhelm"
+        ],
+        "title": "Begabungsfördernde Schulentwicklung und Schulführung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 302,
+        "end": 318,
+        "count": 17,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Begabungsförderung als Schulentwicklungsimpuls",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": "S",
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > Begabungsförderung als Schulentwicklungsimpuls",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Schulentwicklungsanker",
+        "usage_form_code": "schulentwicklungsanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Sehr passend für den Schritt von SOLUX als Projekt zur Schule als Struktur.",
+      "integration_hint": "Besonders nützlich in der kritischen Reflexion zur Nachhaltigkeit nach Projektende.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.9,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-020",
+      "source_workbook_row": 21,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Miriam Vock",
+        "authors": [
+          "Miriam Vock"
+        ],
+        "title": "Akzeleration – schneller durch die Schule?"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 319,
+        "end": 332,
+        "count": 14,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Kritische Reflexion: Nachhaltigkeit und Transfer",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": "S",
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 4 > Kritische Reflexion: Nachhaltigkeit und Transfer",
+        "display_path_secondary": "Reserve",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "eher mündliche Reserve",
+        "current_status_code": "eher_muendliche_reserve",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "oral_exam_reserve",
+          "label": "eher als mündliche Reserve verwenden"
+        }
+      },
+      "why_here": "Kann bei Übertritt/Schulbahnoptionen interessant werden, ist für S.s aktuelle Problemstellung aber nicht zentral.",
+      "integration_hint": "Allenfalls als Randnotiz zur Perspektive, nicht als Hauptargument.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.72,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "lower_confidence_assignment",
+        "oral_reserve"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Reserve"
+      }
+    },
+    {
+      "record_id": "HB-021",
+      "source_workbook_row": 22,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Sally M. Reis / Joseph S. Renzulli / Victor Müller-Oppliger",
+        "authors": [
+          "Sally M. Reis",
+          "Joseph S. Renzulli",
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Das „Schoolwide Enrichment Model“ (SEM)"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 333,
+        "end": 347,
+        "count": 15,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Enrichment als Gegenmodell / SOLUX: Strukturmerkmale und Wirklogik",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q1",
+          "target_label": "Frage 1",
+          "target_full_title": "Frage 1 (FW, KS/DG): Multiperspektivische Erfassung verdeckter Begabungen",
+          "target_tex_label": "sec:frage1",
+          "purpose": "Diagnostik, Begabungsverständnis, sprachsensible multiperspektivische Erfassung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": "S",
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > Enrichment als Gegenmodell / SOLUX: Strukturmerkmale und Wirklogik",
+        "display_path_secondary": "Frage 1",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "wahrscheinlich über Sammelband/Handbuch indirekt erfasst; Kapitelzitat wäre präziser",
+        "bib_relation_code": "wahrscheinlich_ueber_sammelband_handbuch_indirekt_erfasst_kapitelzitat_waere_praeziser",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Zentrale Referenz für die Wirklogik von SOLUX als Enrichment-Setting und diagnostisches Fenster.",
+      "integration_hint": "In Frage 4 klar priorisieren; in Frage 1 nur knapp als Erkennungsfenster erwähnen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.98,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 1"
+      }
+    },
+    {
+      "record_id": "HB-022",
+      "source_workbook_row": 23,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Thuy Loan Nguyen / Anne Sliwka",
+        "authors": [
+          "Thuy Loan Nguyen",
+          "Anne Sliwka"
+        ],
+        "title": "Schulische Maßnahmen und Kompetenzen von Lehrpersonen für die Begabungsförderung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 348,
+        "end": 358,
+        "count": 11,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Kooperation im multiprofessionellen Team / Die Beratung der Klassenlehrperson",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": "P",
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 5 > Kooperation im multiprofessionellen Team / Die Beratung der Klassenlehrperson",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Professionalisierungsanker",
+        "usage_form_code": "professionalisierungsanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Unterstützt die Argumentation, dass Identifikation und Förderung schulische Kernaufgaben sind und Kompetenzen bei Lehrpersonen voraussetzen.",
+      "integration_hint": "Gut zur Rahmung der Beratungsaufgabe der SHP gegenüber der Klassenlehrperson.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.86,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-023",
+      "source_workbook_row": 24,
+      "handbuch_part": {
+        "code": "IV",
+        "title": "Begabende Schule"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 4",
+          "part_id": "teil_4",
+          "filename": "Teil 4 Begabende Schule ohne kommentar.docx",
+          "part_title": "Begabende Schule"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Christian Fischer / Victor Müller-Oppliger",
+        "authors": [
+          "Christian Fischer",
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Begabungsförderung in der Aus- und Weiterbildung von Lehrpersonen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 359,
+        "end": 373,
+        "count": 15,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Institutionelle Reflexion / Konsequenzen für das SHP-Professionsverständnis",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": "P",
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 5 > Institutionelle Reflexion / Konsequenzen für das SHP-Professionsverständnis",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Schulentwicklungsanker",
+        "usage_form_code": "schulentwicklungsanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Passt zur Professionalisierungsfrage im Team und zur institutionellen Verankerung von Begabungsförderung.",
+      "integration_hint": "Im letzten Drittel von Frage 5 einsetzen, wenn du vom Einzelfall auf Systemebene gehst.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.85,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 4",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-024",
+      "source_workbook_row": 25,
+      "handbuch_part": {
+        "code": "V",
+        "title": "Begabender Unterricht"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 5",
+          "part_id": "teil_5",
+          "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+          "part_title": "Begabender Unterricht"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Victor Müller-Oppliger",
+        "authors": [
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Adaptive Lernarchitekturen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 374,
+        "end": 389,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "SOLUX: Strukturmerkmale und Wirklogik",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": "S",
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > SOLUX: Strukturmerkmale und Wirklogik",
+        "display_path_secondary": "Frage 2",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "didaktischer Anker",
+        "usage_form_code": "didaktischer_anker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Sehr stark für die konkrete Beschreibung, warum offene, differenzierte Settings Potenziale sichtbar machen.",
+      "integration_hint": "Direkt neben SEM oder als didaktische Konkretisierung von SOLUX nutzen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.92,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 5",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 2"
+      }
+    },
+    {
+      "record_id": "HB-025",
+      "source_workbook_row": 26,
+      "handbuch_part": {
+        "code": "V",
+        "title": "Begabender Unterricht"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 5",
+          "part_id": "teil_5",
+          "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+          "part_title": "Begabender Unterricht"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Heidrun Stöger / Daniel Patrick Balestrini / Albert Ziegler",
+        "authors": [
+          "Heidrun Stöger",
+          "Daniel Patrick Balestrini",
+          "Albert Ziegler"
+        ],
+        "title": "Selbstreguliertes Lernen für hochbegabte und hochleistende Schüler/innen in leistungsheterogenen Lerngruppen"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 390,
+        "end": 401,
+        "count": 12,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "SOLUX: Strukturmerkmale und Wirklogik",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": "S",
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": null,
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 4 > SOLUX: Strukturmerkmale und Wirklogik",
+        "display_path_secondary": "Frage 2",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "eher mündliche Reserve",
+        "current_status_code": "eher_muendliche_reserve",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "oral_exam_reserve",
+          "label": "eher als mündliche Reserve verwenden"
+        }
+      },
+      "why_here": "Nützlich, falls du stärker auf Selbststeuerung und Projektlernen eingehen willst.",
+      "integration_hint": "Im schriftlichen Text eher knapp; in der Prüfung gut anschlussfähig.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.76,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "oral_reserve"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 5",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 2"
+      }
+    },
+    {
+      "record_id": "HB-026",
+      "source_workbook_row": 27,
+      "handbuch_part": {
+        "code": "V",
+        "title": "Begabender Unterricht"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 5",
+          "part_id": "teil_5",
+          "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+          "part_title": "Begabender Unterricht"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Christian Fischer / Christiane Fischer-Ontrup / Corinna Schuster",
+        "authors": [
+          "Christian Fischer",
+          "Christiane Fischer-Ontrup",
+          "Corinna Schuster"
+        ],
+        "title": "Lernstrategien in der Begabtenförderung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 402,
+        "end": 417,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q2",
+          "target_label": "Frage 2",
+          "target_full_title": "Frage 2 (FW, MW/KS): Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+          "target_tex_label": "sec:frage2",
+          "purpose": "Graphomotorik, Leseflüssigkeit, Arbeitsgedächtnis, motivationale Förderbrücken",
+          "precise_subsection": "Konsequenzen für die Förderplanung",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": "P",
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 2 > Konsequenzen für die Förderplanung",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Methodenanker",
+        "usage_form_code": "methodenanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Passt zu der Frage, wie aus Interesse strukturierte Lernstrategien erwachsen können.",
+      "integration_hint": "Nur selektiv nutzen, sonst wird Frage 2 zu allgemein lernstrategisch.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.8,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 5",
+        "primaere_verortung": "Frage 2",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-027",
+      "source_workbook_row": 28,
+      "handbuch_part": {
+        "code": "V",
+        "title": "Begabender Unterricht"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 5",
+          "part_id": "teil_5",
+          "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+          "part_title": "Begabender Unterricht"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Gundula Wagner",
+        "authors": [
+          "Gundula Wagner"
+        ],
+        "title": "Begabungsfördernde und hemmende Wirkungsmechanismen im Klassenkontext"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 418,
+        "end": 426,
+        "count": 9,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q3",
+          "target_label": "Frage 3",
+          "target_full_title": "Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+          "target_tex_label": "sec:frage3",
+          "purpose": "Anerkennung, Emotion, Beziehung, Teilhabe, Belastungsperspektive",
+          "precise_subsection": "Rückzug und Maskierung als Schutzmechanismen",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": "P",
+          "q4": "S",
+          "q5": null,
+          "reserve": null,
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 3 > Rückzug und Maskierung als Schutzmechanismen",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Kontextanker",
+        "usage_form_code": "kontextanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Hilft, die Klassen- und Umweltmechanismen zu benennen, die Begabung sichtbar oder unsichtbar machen.",
+      "integration_hint": "Gut im Übergang von Beziehung auf Setting/Klassenkontext.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.84,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 5",
+        "primaere_verortung": "Frage 3",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-028",
+      "source_workbook_row": 29,
+      "handbuch_part": {
+        "code": "V",
+        "title": "Begabender Unterricht"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 5",
+          "part_id": "teil_5",
+          "filename": "Teil 5 Begabender Unterricht ohne kommentare.docx",
+          "part_title": "Begabender Unterricht"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Victor Müller-Oppliger",
+        "authors": [
+          "Victor Müller-Oppliger"
+        ],
+        "title": "Erweiterte Leistungsbeurteilung – Portfolio, Lernjournal, Kompetenzraster & Co."
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 427,
+        "end": 443,
+        "count": 17,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Kritische Reflexion: Nachhaltigkeit und Transfer",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": "S",
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 4 > Kritische Reflexion: Nachhaltigkeit und Transfer",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nötig",
+        "bib_relation_code": "neuer_kapitel-eintrag_noetig",
+        "usage_form_raw": "Praxisanker",
+        "usage_form_code": "praxisanker",
+        "recommended_action": {
+          "code": "optional_written_integration",
+          "label": "optional schriftlich integrieren"
+        }
+      },
+      "why_here": "Sehr passend für das Kompetenzportfolio und für die Frage, wie SOLUX-Erkenntnisse übertrittsrelevant dokumentiert werden können.",
+      "integration_hint": "Kann die Nachhaltigkeitsfrage in Frage 4 deutlich konkretisieren.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.91,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 5",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-029",
+      "source_workbook_row": 30,
+      "handbuch_part": {
+        "code": "VI",
+        "title": "Begabende Unterstützungssysteme"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 6",
+          "part_id": "teil_6",
+          "filename": "Teil 6 Begabende Unterstützugssysteme fast ohne kommentare.docx",
+          "part_title": "Begabende Unterstützungssysteme"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Joseph S. Renzulli / Sally M. Reis",
+        "authors": [
+          "Joseph S. Renzulli",
+          "Sally M. Reis"
+        ],
+        "title": "Das „Renzulli-Lernsystem“ (RLS)"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 444,
+        "end": 454,
+        "count": 11,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "precise_subsection": "Enrichment als Gegenmodell",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "P",
+          "q5": null,
+          "reserve": "S",
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 4 > Enrichment als Gegenmodell",
+        "display_path_secondary": "Reserve",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "für aktuelle Fassung entbehrlich",
+        "current_status_code": "fuer_aktuelle_fassung_entbehrlich",
+        "bib_relation_raw": "neuer Kapitel-Eintrag nur bei Nutzung",
+        "bib_relation_code": "neuer_kapitel-eintrag_nur_bei_nutzung",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "omit_in_current_tex",
+          "label": "für die aktuelle Fassung weglassen"
+        }
+      },
+      "why_here": "Interessant für digitale Personalisierung, aber nicht zwingend für die aktuelle Argumentationslinie zu S. und SOLUX.",
+      "integration_hint": "Eher weglassen oder nur als optionales Unterstützungssystem erwähnen.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.73,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "lower_confidence_assignment",
+        "currently_not_needed"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 6",
+        "primaere_verortung": "Frage 4",
+        "sekundaere_verortung": "Reserve"
+      }
+    },
+    {
+      "record_id": "HB-030",
+      "source_workbook_row": 31,
+      "handbuch_part": {
+        "code": "VI",
+        "title": "Begabende Unterstützungssysteme"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 6",
+          "part_id": "teil_6",
+          "filename": "Teil 6 Begabende Unterstützugssysteme fast ohne kommentare.docx",
+          "part_title": "Begabende Unterstützungssysteme"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Eva Stumpf",
+        "authors": [
+          "Eva Stumpf"
+        ],
+        "title": "Frühstudium"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 455,
+        "end": 467,
+        "count": 13,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur erwähnt, nicht transkribiert",
+        "code": "mentioned_only_not_transcribed",
+        "coverage": "none_or_negligible",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "precise_subsection": null,
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q4",
+          "target_label": "Frage 4",
+          "target_full_title": "Frage 4 (BW, DG/PV): Inklusive Begabungsförderung am Beispiel SOLUX",
+          "target_tex_label": "sec:frage4",
+          "purpose": "Enrichment, Setting, Inklusion, Bildungsgerechtigkeit, Transfer",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": "S",
+          "q5": null,
+          "reserve": "P",
+          "priority": "C"
+        },
+        "display_path_primary": "Reserve",
+        "display_path_secondary": "Frage 4",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "für aktuelle Fassung entbehrlich",
+        "current_status_code": "fuer_aktuelle_fassung_entbehrlich",
+        "bib_relation_raw": "kein Einsatz ohne Beschaffung des Kapitels",
+        "bib_relation_code": "kein_einsatz_ohne_beschaffung_des_kapitels",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Für S. aktuell kaum relevant; eher für hochleistungsbezogene externe Förderoptionen.",
+      "integration_hint": "Nicht einbauen.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.55,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment",
+        "currently_not_needed"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 6",
+        "primaere_verortung": "Reserve",
+        "sekundaere_verortung": "Frage 4"
+      }
+    },
+    {
+      "record_id": "HB-031",
+      "source_workbook_row": 32,
+      "handbuch_part": {
+        "code": "VI",
+        "title": "Begabende Unterstützungssysteme"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 6",
+          "part_id": "teil_6",
+          "filename": "Teil 6 Begabende Unterstützugssysteme fast ohne kommentare.docx",
+          "part_title": "Begabende Unterstützungssysteme"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Nicole Miceli / Olaf Steenbuck",
+        "authors": [
+          "Nicole Miceli",
+          "Olaf Steenbuck"
+        ],
+        "title": "Schulische Netzwerke in der Begabungs- und Begabtenförderung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 468,
+        "end": 479,
+        "count": 12,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur erwähnt, nicht transkribiert",
+        "code": "mentioned_only_not_transcribed",
+        "coverage": "none_or_negligible",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Institutionelle Reflexion",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "P",
+          "reserve": "S",
+          "priority": "C"
+        },
+        "display_path_primary": "Frage 5 > Institutionelle Reflexion",
+        "display_path_secondary": "Reserve",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "eher mündliche Reserve",
+        "current_status_code": "eher_muendliche_reserve",
+        "bib_relation_raw": "kein Einsatz ohne Beschaffung des Kapitels",
+        "bib_relation_code": "kein_einsatz_ohne_beschaffung_des_kapitels",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Könnte die Netzwerkperspektive in Frage 5 stützen, liegt aber nicht als verwertbarer Transkripttext vor.",
+      "integration_hint": "Nur vormerken, nicht zitieren.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.58,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment",
+        "oral_reserve"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 6",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Reserve"
+      }
+    },
+    {
+      "record_id": "HB-032",
+      "source_workbook_row": 33,
+      "handbuch_part": {
+        "code": "VI",
+        "title": "Begabende Unterstützungssysteme"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 6",
+          "part_id": "teil_6",
+          "filename": "Teil 6 Begabende Unterstützugssysteme fast ohne kommentare.docx",
+          "part_title": "Begabende Unterstützungssysteme"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Christiane Schenk",
+        "authors": [
+          "Christiane Schenk"
+        ],
+        "title": "Förderprogramme und Stipendien – Theorie, Praxis und Empirie"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 480,
+        "end": 495,
+        "count": 16,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur erwähnt, nicht transkribiert",
+        "code": "mentioned_only_not_transcribed",
+        "coverage": "none_or_negligible",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "precise_subsection": null,
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "S",
+          "reserve": "P",
+          "priority": "C"
+        },
+        "display_path_primary": "Reserve",
+        "display_path_secondary": "Frage 5",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "für aktuelle Fassung entbehrlich",
+        "current_status_code": "fuer_aktuelle_fassung_entbehrlich",
+        "bib_relation_raw": "kein Einsatz ohne Beschaffung des Kapitels",
+        "bib_relation_code": "kein_einsatz_ohne_beschaffung_des_kapitels",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Für die Prüfung nur relevant, wenn externe Förderlandschaften oder Anschlussoptionen explizit thematisiert werden.",
+      "integration_hint": "Nicht einbauen.",
+      "priority": {
+        "code": "C",
+        "label": "niedrig",
+        "rank": 3
+      },
+      "confidence": 0.55,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment",
+        "currently_not_needed"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 6",
+        "primaere_verortung": "Reserve",
+        "sekundaere_verortung": "Frage 5"
+      }
+    },
+    {
+      "record_id": "HB-033",
+      "source_workbook_row": 34,
+      "handbuch_part": {
+        "code": "VII",
+        "title": "Begabte begleiten, Akteur:innen und Formen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 7",
+          "part_id": "teil_7",
+          "filename": "Teil 7  Begabte belgleiten ohne kommentar.docx",
+          "part_title": "Begabte begleiten, Akteur:innen und Formen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Thomas Trautmann",
+        "authors": [
+          "Thomas Trautmann"
+        ],
+        "title": "Pädagogische Haltung des Akteurs"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 496,
+        "end": 510,
+        "count": 15,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "Kapitelanfang + längerer OCR-Auszug",
+        "code": "chapter_start_long_ocr_excerpt",
+        "coverage": "partial_but_substantial",
+        "usable_without_rechecking": "limited"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Konsequenzen für das SHP-Professionsverständnis / Die Beratung der Klassenlehrperson",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "q3",
+          "target_label": "Frage 3",
+          "target_full_title": "Frage 3 (FW, PB): Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+          "target_tex_label": "sec:frage3",
+          "purpose": "Anerkennung, Emotion, Beziehung, Teilhabe, Belastungsperspektive",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": "S",
+          "q4": null,
+          "q5": "P",
+          "reserve": null,
+          "priority": "A"
+        },
+        "display_path_primary": "Frage 5 > Konsequenzen für das SHP-Professionsverständnis / Die Beratung der Klassenlehrperson",
+        "display_path_secondary": "Frage 3",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "direkt anschlussfähig",
+        "current_status_code": "direkt_anschlussfaehig",
+        "bib_relation_raw": "inhaltlich nah an vorhandener Trautmann-Quelle, bibliographisch aber nicht identisch",
+        "bib_relation_code": "inhaltlich_nah_an_vorhandener_trautmann-quelle_bibliographisch_aber_nicht_identisch",
+        "usage_form_raw": "Kernbeleg",
+        "usage_form_code": "kernbeleg",
+        "recommended_action": {
+          "code": "integrate_into_current_tex",
+          "label": "für aktuelle Tex-Fassung gut integrierbar"
+        }
+      },
+      "why_here": "Trägt die Trias aus Haltung, Reflexion, Ressourcenorientierung und professioneller Distanz sehr gut.",
+      "integration_hint": "Sehr brauchbar für das Schlussstück von Frage 5 und für die Kritik an Defizitwahrnehmungen.",
+      "priority": {
+        "code": "A",
+        "label": "hoch",
+        "rank": 1
+      },
+      "confidence": 0.94,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 7",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Frage 3"
+      }
+    },
+    {
+      "record_id": "HB-034",
+      "source_workbook_row": 35,
+      "handbuch_part": {
+        "code": "VII",
+        "title": "Begabte begleiten, Akteur:innen und Formen"
+      },
+      "source_files": [
+        {
+          "source_part_label": "Teil 7",
+          "part_id": "teil_7",
+          "filename": "Teil 7  Begabte belgleiten ohne kommentar.docx",
+          "part_title": "Begabte begleiten, Akteur:innen und Formen"
+        }
+      ],
+      "is_duplicate_across_uploads": false,
+      "chapter": {
+        "authors_raw": "Dietrich Arnold / Iris Großgasteiger",
+        "authors": [
+          "Dietrich Arnold",
+          "Iris Großgasteiger"
+        ],
+        "title": "Ressourcenorientierte Hochbegabtenberatung"
+      },
+      "source_work_ref": {
+        "work_id": "handbuch_begabung_2021",
+        "raw_source_description": "Handbuch Begabung (Hrsg. Victor Müller-Oppliger & Gabriele Weigand, Beltz, 2021)"
+      },
+      "pages": {
+        "start": 511,
+        "end": 527,
+        "count": 17,
+        "derivation_note": "Endseiten wurden im Workbook bei unklarem Upload teils aus der Startseite des Folgekapitels minus 1 abgeleitet."
+      },
+      "transcript_status": {
+        "raw": "nur erwähnt, nicht transkribiert",
+        "code": "mentioned_only_not_transcribed",
+        "coverage": "none_or_negligible",
+        "usable_without_rechecking": "no"
+      },
+      "placement": {
+        "primary": {
+          "target_id": "q5",
+          "target_label": "Frage 5",
+          "target_full_title": "Frage 5 (BW, ZB/PV): Beratung und Zusammenarbeit aus SHP-Perspektive",
+          "target_tex_label": "sec:frage5",
+          "purpose": "Profession, Beratung, multiprofessionelle Kooperation, Schulentwicklung",
+          "precise_subsection": "Zusammenarbeit mit Eltern und externen Fachstellen",
+          "matrix_code": "P"
+        },
+        "secondary": {
+          "target_id": "reserve",
+          "target_label": "Reserve",
+          "target_full_title": "Reserve / derzeit nicht primär in die aktuelle Tex-Fassung eingebaut",
+          "target_tex_label": null,
+          "purpose": "Mündliche Reserve, optionale Ergänzung oder derzeit entbehrlich",
+          "matrix_code": "S"
+        },
+        "matrix_flags": {
+          "intro": null,
+          "q1": null,
+          "q2": null,
+          "q3": null,
+          "q4": null,
+          "q5": "P",
+          "reserve": "S",
+          "priority": "B"
+        },
+        "display_path_primary": "Frage 5 > Zusammenarbeit mit Eltern und externen Fachstellen",
+        "display_path_secondary": "Reserve",
+        "secondary_same_as_primary_in_source": false
+      },
+      "tex_recommendation": {
+        "current_status_raw": "sinnvolle Ergänzung",
+        "current_status_code": "sinnvolle_ergaenzung",
+        "bib_relation_raw": "kein Einsatz ohne Beschaffung des Kapitels",
+        "bib_relation_code": "kein_einsatz_ohne_beschaffung_des_kapitels",
+        "usage_form_raw": "Reserve",
+        "usage_form_code": "reserve",
+        "recommended_action": {
+          "code": "requires_source_before_use",
+          "label": "vor Nutzung Quelle/Kapitel beschaffen"
+        }
+      },
+      "why_here": "Wäre für Beratung mit Eltern/Fachstellen wahrscheinlich sehr passend, liegt aber im Upload nicht vor.",
+      "integration_hint": "Nur als Lücke markieren; nicht aus der Erinnerung paraphrasieren.",
+      "priority": {
+        "code": "B",
+        "label": "mittel",
+        "rank": 2
+      },
+      "confidence": 0.62,
+      "evidence": {
+        "type": "workbook_reference",
+        "source": "https://lbib.de/Handbuch-Begabung-Mit-E-Book-inside-108140"
+      },
+      "quality_flags": [
+        "low_text_coverage",
+        "needs_source_before_use",
+        "lower_confidence_assignment"
+      ],
+      "raw_row_snapshot": {
+        "funddatei": "Teil 7",
+        "primaere_verortung": "Frage 5",
+        "sekundaere_verortung": "Reserve"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "ISS-01",
+      "problem_type": "OCR/Seitenfehler",
+      "problem_type_code": "ocr_seitenfehler",
+      "severity": "medium",
+      "location_or_scope": "mehrere Teile",
+      "observation": "Die Uploads enthalten teils verkürzte oder fehlerhafte Seitenangaben (z.B. Kapitelenden).",
+      "impact": "Buchseiten dürfen nicht blind aus dem OCR übernommen werden.",
+      "recommendation": "Im Workbook wurden Startseiten aus dem TOC genutzt; Endseiten wurden aus der Folgestartseite minus 1 abgeleitet."
+    },
+    {
+      "issue_id": "ISS-02",
+      "problem_type": "Metakommentar im Dateitext",
+      "problem_type_code": "metakommentar_im_dateitext",
+      "severity": "high",
+      "location_or_scope": "Teil 1, nach Stadelmann / Grabner",
+      "observation": "Abschnitte wie „Dieses Kapitel ist für dich besonders wichtig …“ sind Bearbeitungskommentare, keine zitierfähigen Quellentexte.",
+      "impact": "Gefahr von Scheinzitaten oder Vermischung von Quelle und Notiz.",
+      "recommendation": "Nicht bibliographisch verwerten; nur als Arbeitsnotiz lesen."
+    },
+    {
+      "issue_id": "ISS-03",
+      "problem_type": "Dubletten",
+      "problem_type_code": "dubletten",
+      "severity": "medium",
+      "location_or_scope": "Teil 1 und Teil 2",
+      "observation": "Baudson, Stadelmann, Grabner und Urban tauchen in mehreren Dateien erneut auf.",
+      "impact": "Doppelte Bearbeitung kostet Zeit und kann den Seitenumfang verfälschen.",
+      "recommendation": "Für das Lerndokument nur einmal verorten und im Lesebudget nicht doppelt zählen."
+    },
+    {
+      "issue_id": "ISS-04",
+      "problem_type": "Nur erwähnte Kapitel",
+      "problem_type_code": "nur_erwaehnte_kapitel",
+      "severity": "medium",
+      "location_or_scope": "Teil 6 / Teil 7",
+      "observation": "Frühstudium, Netzwerke, Stipendien und Ressourcenorientierte Hochbegabtenberatung sind nur erwähnt, aber nicht transkribiert.",
+      "impact": "Inhaltlich mögliche Ergänzungen liegen derzeit nicht belastbar vor.",
+      "recommendation": "Nur als Lücke markieren; vor Nutzung erst Buch oder sauberen Transkripttext beschaffen."
+    },
+    {
+      "issue_id": "ISS-05",
+      "problem_type": "Wichtige Handbuch-Lücken",
+      "problem_type_code": "wichtige_handbuch-luecken",
+      "severity": "high",
+      "location_or_scope": "nicht im Upload",
+      "observation": "Für dein Thema besonders einschlägig wären im selben Handbuch auch Stamm („begabte Minoritäten“) und Baum/Schader („Twice Exceptionality“).",
+      "impact": "Genau die migrations- und 2e-relevanten Passagen fehlen im Upload, obwohl sie im TeX zentral sind.",
+      "recommendation": "Bei Gelegenheit gezielt diese beiden Handbuchkapitel ergänzend sichern."
+    },
+    {
+      "issue_id": "ISS-06",
+      "problem_type": "Buchzuordnung",
+      "problem_type_code": "buchzuordnung",
+      "severity": "info",
+      "location_or_scope": "alle Teile",
+      "observation": "Alle sieben Upload-Teile lassen sich sehr plausibel demselben Sammelband zuordnen: Handbuch Begabung.",
+      "impact": "Die Verortung ist deshalb stabil, auch wenn einzelne OCR-Stellen ungenau sind.",
+      "recommendation": "Für die Bibliographie Kapitel einzeln nachführen, wenn du Kapitel direkt zitierst."
+    }
+  ]
+}

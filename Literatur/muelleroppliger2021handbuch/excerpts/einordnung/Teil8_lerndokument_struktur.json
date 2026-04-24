@@ -1,0 +1,3773 @@
+{
+  "meta": {
+    "dokumenttitel": "Verdeckte Potenziale bei Schueler:innen mit Migrationserfahrung",
+    "untertitel": "Chancen inklusiver Begabungsfoerderung im Rahmen des Pilotprojekts SOLUX (IBBF)",
+    "autorin": "Inti Merolli",
+    "examinatorin": "Sabine Tanner Merlo",
+    "studiengang": "Masterstudiengang Schulische Heilpaedagogik, PH Luzern",
+    "pruefungstermin": "2026-06-11",
+    "abgabefrist_dossier": "2026-05-01",
+    "dokumenttyp": "Internes Lerndokument (NICHT Abgabedossier)",
+    "schema_version": "1.0",
+    "zweck_dieser_json": "Rahmen fuer die spaetere Einordnung von Originalquellen-Transkripten. Jede Zitatstelle ist mit stabiler ID, Bib-Key, Kontextangabe und Verortungshinweisen versehen, sodass Transkripte (z.B. Buchseiten, Kapitelausschnitte) eindeutig zugeordnet werden koennen.",
+    "id_schema": {
+      "muster": "<SEKTION>-<ABSCHNITT>-<ZAEHLER>",
+      "beispiele": {
+        "E-AL-Z01": "Einleitung, Ausgangslage, erste Zitatstelle",
+        "F1-A2-Z03": "Frage 1, Abschnitt 2 (Warum Potenziale verdeckt bleiben), dritte Zitatstelle",
+        "F1-KR-Z02": "Frage 1, Kritische Reflexion, zweite Zitatstelle",
+        "FA-MUN-S03": "Fachartikel Mun, interne Primaerstudie Nr. 3"
+      }
+    }
+  },
+  "struktur": {
+    "einleitung": {
+      "titel": "Einleitung: Anspruchsvolle Situation und Erkenntnisinteresse",
+      "label_tex": "sec:einleitung",
+      "abschnitte": [
+        {
+          "id": "E-AL",
+          "titel": "Ausgangslage",
+          "kernaussage": "Die IBBF hat im Kanton Luzern an Gewicht gewonnen, doch Bildungschancen haengen weiter stark von Herkunft, Migrationsgeschichte und Ressourcen ab. Potenziale bleiben verdeckt, wo sprachliche Unsicherheit oder belastende Umstaende die Wahrnehmung dominieren.",
+          "zitatstellen": [
+            {
+              "id": "E-AL-Z01",
+              "bib_key": "erzinger2023pisa",
+              "zitat_art": "parencite",
+              "kontextsatz": "Bildungschancen in der Schweiz haengen weiter stark von Herkunft und Migration ab.",
+              "thema": "Bildungsungleichheit Schweiz, PISA-Befunde",
+              "verortung_im_original": {
+                "werk": "PISA 2022 (CH)",
+                "verortung_hinweis": "Ungleichheitskapitel / Zusammenfassung"
+              },
+              "transkript_suchhinweise": [
+                "sozioekonomischer Gradient",
+                "Schweiz PISA",
+                "Migrationshintergrund Leistung"
+              ]
+            },
+            {
+              "id": "E-AL-Z02",
+              "bib_key": "stamm2021fehlenderblick",
+              "zitat_art": "parencite",
+              "kontextsatz": "Bildungschancen haengen stark von sozialer Herkunft und Migrationsgeschichte ab.",
+              "thema": "Begabte Minoritaeten als blinder Fleck der Begabungsfoerderung",
+              "verortung_im_original": {
+                "werk": "Handbuch Begabung",
+                "kapitel": "Der fehlende Blick auf begabte Minoritaeten",
+                "seiten_vermutet": "576--587 oder 576--588 (VERIFY)"
+              },
+              "transkript_suchhinweise": [
+                "begabte Minoritaeten",
+                "blinder Fleck",
+                "Migration Begabung"
+              ]
+            },
+            {
+              "id": "E-AL-Z03",
+              "bib_key": "bfs2022migration",
+              "zitat_art": "parencite",
+              "kontextsatz": "Migrationsstatistik BFS.",
+              "thema": "Statistische Belege zu Migrationsbevoelkerung Schweiz",
+              "verortung_im_original": {
+                "werk": "BFS-Bericht 2022",
+                "verortung_hinweis": "Kerntabellen Migration"
+              },
+              "transkript_suchhinweise": [
+                "BFS Migration",
+                "Bevoelkerungsstatistik"
+              ]
+            },
+            {
+              "id": "E-AL-Z04",
+              "bib_key": "kellerkoller2021hellekoepfe",
+              "zitat_art": "parencite",
+              "kontextsatz": "Kinder aus benachteiligten/zugewanderten Familien sind in Foerderangeboten untervertreten; Potenziale bleiben bei sprachlicher Unsicherheit verdeckt.",
+              "thema": "Helle Koepfe mit Migrationshintergrund: Unteridentifikation",
+              "verortung_im_original": {
+                "werk": "Huser (Hrsg.) 2021",
+                "verortung_hinweis": "Kapitel Keller-Koller",
+                "seiten_vermutet": "XXX--XXX (VERIFY)"
+              },
+              "transkript_suchhinweise": [
+                "Helle Koepfe",
+                "Migrationshintergrund",
+                "Unteridentifikation"
+              ]
+            },
+            {
+              "id": "E-AL-Z05",
+              "bib_key": "leikhof2021jugendliche",
+              "zitat_art": "parencite",
+              "kontextsatz": "Jugendliche mit Migrationshintergrund sind in Begabungsfoerderung systematisch unterrepraesentiert.",
+              "thema": "Unterrepraesentation in Begabtenfoerderung",
+              "verortung_im_original": {
+                "werk": "Leikhof Diss. 2021",
+                "verortung_hinweis": "Einleitung/Kap. 1--3"
+              },
+              "transkript_suchhinweise": [
+                "Leikhof Dissertation",
+                "Migrationshintergrund Begabung"
+              ]
+            },
+            {
+              "id": "E-AL-Z06",
+              "bib_key": "dvs2025bbf",
+              "zitat_art": "parencite",
+              "kontextsatz": "Kantonale DVS stellt IBBF-Umsetzungshilfen bereit; Identifikation laeuft primaer ueber SPD und Schulleistung; Weiterbildung nur teilweise; Begabungsfoerderung hat insgesamt geringe Prioritaet.",
+              "thema": "Kantonale Lage Luzern IBBF",
+              "verortung_im_original": {
+                "werk": "DVS Kanton Luzern 2025",
+                "verortung_hinweis": "Statusbericht / Konzeptpapier IBBF"
+              },
+              "transkript_suchhinweise": [
+                "DVS Luzern",
+                "IBBF",
+                "Umsetzungshilfen Kanton"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E-FS",
+          "titel": "Der Fall S.",
+          "kernaussage": "S., 11 Jahre, seit Januar 2025 in der Schweiz; A1-Deutsch, Englisch als Zweitsprache via TV, Albanisch L1. Im SOLUX-Projekt zeigt er hohe Schachkompetenz; bei Schrift bricht die Dynamik ab (17 WPM, inkonsistente Buchstabenformen).",
+          "zitatstellen": []
+        },
+        {
+          "id": "E-HP",
+          "titel": "Heilpaedagogischer Bezug",
+          "kernaussage": "Ueberlagerung von kognitivem Potenzial, Zweitspracherwerb, Schriftsprache, Graphomotorik, moeglicher Vorbelastung. Gefahr der Under-Identifikation und institutionellen Diskriminierung; ICF-Rahmung: Sprachanforderungen als Umweltbarriere, SOLUX als Foerderfaktor.",
+          "zitatstellen": [
+            {
+              "id": "E-HP-Z01",
+              "bib_key": "kappus2010migration",
+              "zitat_art": "parencite",
+              "kontextsatz": "Gefahr institutioneller Diskriminierung und defizitaerer Zuschreibung.",
+              "thema": "Institutionelle Diskriminierung bei Migration",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010 (Hrsg.)",
+                "kapitel": "Umgang mit migrationsbedingter Heterogenitaet"
+              },
+              "transkript_suchhinweise": [
+                "Kappus",
+                "institutionelle Diskriminierung",
+                "Migration Schule"
+              ]
+            },
+            {
+              "id": "E-HP-Z02",
+              "bib_key": "stamm2012migranten",
+              "zitat_art": "parencite",
+              "kontextsatz": "Migranten mit Potenzial bleiben systematisch unerkannt.",
+              "thema": "Migranten mit Potenzial",
+              "verortung_im_original": {
+                "werk": "Stamm 2012",
+                "verortung_hinweis": "Aufsatz/Buch"
+              },
+              "transkript_suchhinweise": [
+                "Stamm Migranten",
+                "Potenzial ungenutzt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E-EF",
+          "titel": "Erkenntnisinteresse und Fragestellungen",
+          "kernaussage": "Fuenf Fragen, zwei BW + drei FW, in Progression: Erkennen -> Barrieren -> Beziehung -> Setting -> Profession.",
+          "zitatstellen": []
+        }
+      ]
+    },
+    "fragen": [
+      {
+        "nummer": 1,
+        "typ": "FW",
+        "dimensionen": [
+          "KS",
+          "DG"
+        ],
+        "titel": "Multiperspektivische Erfassung verdeckter Begabungen",
+        "fragetext": "Wie koennen verdeckte Begabungen bei neu zugewanderten, mehrsprachigen Schueler:innen mit geringen Deutschkenntnissen multiperspektivisch und sprachsensibel erfasst werden?",
+        "label_tex": "sec:frage1",
+        "seitenbudget_vermutet": 295,
+        "kernthese": "Ein einzelner Test darf nie das letzte Wort haben. Begabungsdiagnostik bei Kindern mit Migrationserfahrung braucht nonverbale Verfahren, Beobachtung in verschiedenen Settings, Einbezug aussersch. Bezugspersonen, Erstsprachkompetenz und dynamische/prozessorientierte Diagnostik.",
+        "abschnitte": [
+          {
+            "id": "F1-EINL",
+            "titel": "Einleitungsrahmen (vor den Unterabschnitten)",
+            "kernaussage": "Dynamischer, mehrdimensionaler Begabungsbegriff; Renzulli, Gardner, Muenchner Modell.",
+            "zitatstellen": [
+              {
+                "id": "F1-EINL-Z01",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Drei-Ringe-Modell Renzulli und Gardner (Multiple Intelligenzen).",
+                "thema": "Begabungsmodelle im Ueberblick",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung",
+                  "kapitel": "Begabungsbegriff"
+                },
+                "transkript_suchhinweise": [
+                  "Renzulli drei Ringe",
+                  "Gardner Multiple Intelligenzen",
+                  "Mueller-Oppliger"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z02",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Einfuehrung Hochbegabtenpaedagogik, Begabungsmodelle.",
+                "thema": "Einfuehrung in die Hochbegabtenpaedagogik",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016",
+                  "kapitel": "Kap. 1--2"
+                },
+                "transkript_suchhinweise": [
+                  "Trautmann Einfuehrung",
+                  "Hochbegabtenpaedagogik"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z03",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Hochbegabung: Erkennen und Verstehen.",
+                "thema": "Preckel/Baudson Hochbegabung",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013",
+                  "kapitel": "Kap. 1--2"
+                },
+                "transkript_suchhinweise": [
+                  "Preckel Baudson",
+                  "Hochbegabung Kap 1"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z04",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Muenchner Hochbegabungsmodell Heller/Perleth, Wechselwirkung.",
+                "thema": "Muenchner Modell, Begabung als Potenzial",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Muenchner Modell",
+                  "Heller Perleth",
+                  "Fischer 2020"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z05",
+                "bib_key": "maehler2018diagnostik",
+                "zitat_art": "textcite",
+                "kontextsatz": "Maehler et al. betonen Notwendigkeit sprach-/kulturfairer Diagnostik.",
+                "thema": "Sprach- und kulturfaire Diagnostik",
+                "verortung_im_original": {
+                  "werk": "Maehler/Hasselhorn (Hrsg.) 2018",
+                  "kapitel": "Kap. 1--3, 9--10"
+                },
+                "transkript_suchhinweise": [
+                  "Maehler Diagnostik Migranten",
+                  "WISC kulturfair"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z06",
+                "bib_key": "stamm2021fehlenderblick",
+                "zitat_art": "parencite",
+                "kontextsatz": "Begabte Minoritaeten als blinder Fleck der Begabtenfoerderung.",
+                "thema": "Unteridentifikation Minoritaeten",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung (Huser)",
+                  "kapitel": "Der fehlende Blick auf begabte Minoritaeten",
+                  "seiten_vermutet": "576--587/588 (VERIFY)"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm fehlender Blick",
+                  "begabte Minoritaeten"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z07",
+                "bib_key": "stamm2014handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Handbuch: sprachliche, sozio-oek., stereotype Huerden bei Identifikation.",
+                "thema": "Handbuch Begabungsfoerderung / Begabungsdiagnostik",
+                "verortung_im_original": {
+                  "werk": "Stamm 2014 Handbuch"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm Handbuch 2014"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z08",
+                "bib_key": "kellerkoller2021hellekoepfe",
+                "zitat_art": "parencite",
+                "kontextsatz": "Keller-Koller: Kombination Migration + Underachievement fuehrt zur Verdeckung.",
+                "thema": "Underachievement bei Migrationshintergrund",
+                "verortung_im_original": {
+                  "werk": "Huser (Hrsg.) 2021",
+                  "kapitel": "Helle Koepfe mit Migrationshintergrund",
+                  "seiten_vermutet": "VERIFY"
+                },
+                "transkript_suchhinweise": [
+                  "Keller-Koller helle Koepfe",
+                  "Underachievement Migration"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z09",
+                "bib_key": "kellerkoller2009begabte",
+                "zitat_art": "parencite",
+                "kontextsatz": "Fruehere Arbeit Keller-Koller zu begabten Migrationskindern.",
+                "thema": "Begabte Kinder mit Migrationshintergrund (2009)",
+                "verortung_im_original": {
+                  "werk": "Keller-Koller 2009"
+                },
+                "transkript_suchhinweise": [
+                  "Keller-Koller 2009"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z10",
+                "bib_key": "ipege2009professionelle",
+                "zitat_art": "parencite",
+                "kontextsatz": "iPEGE-Qualitaetsstandards, Multiperspektivitaet.",
+                "thema": "Professionelle Begabtenfoerderung iPEGE",
+                "verortung_im_original": {
+                  "werk": "iPEGE 2009",
+                  "kapitel": "Diagnostik"
+                },
+                "transkript_suchhinweise": [
+                  "iPEGE",
+                  "Qualitaetsstandards Begabtenfoerderung"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z11",
+                "bib_key": "reutlinger2015hochbegabung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Hochbegabung und Migrationshintergrund, Mehrsprachigkeit einbeziehen.",
+                "thema": "Hochbegabung und Migrationshintergrund",
+                "verortung_im_original": {
+                  "werk": "Reutlinger et al. 2015"
+                },
+                "transkript_suchhinweise": [
+                  "Reutlinger Hochbegabung Migration"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z12",
+                "bib_key": "uslucan2012begabung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Migrationsspezifische Bildungsaspirationen, Elternperspektive.",
+                "thema": "Migration und Bildungsaspirationen",
+                "verortung_im_original": {
+                  "werk": "Uslucan 2012"
+                },
+                "transkript_suchhinweise": [
+                  "Uslucan Begabung Migration"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z13",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Twice Exceptionality als Deutungsrahmen.",
+                "thema": "2e-Konzept bei Preckel/Baudson",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013",
+                  "kapitel": "Kap. 2e"
+                },
+                "transkript_suchhinweise": [
+                  "Preckel 2e",
+                  "twice exceptional"
+                ]
+              },
+              {
+                "id": "F1-EINL-Z14",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "parencite",
+                "kontextsatz": "Motivation und Begabung, Interessen-Passung.",
+                "thema": "Motivation trifft Begabung",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald Motivation Begabung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A1",
+            "titel": "Begabung als dynamisches Potenzial",
+            "kernaussage": "Stern (1916): Potenzial vs. Performanz; Renzulli, Gardner, Muenchner Modell; LemaS: Begabung als entwicklungsfaehiges Potenzial.",
+            "zitatstellen": [
+              {
+                "id": "F1-A1-Z01",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Unterscheidung Potenzial/Performanz durchzieht aktuelle Diskussion (Preckel).",
+                "thema": "Potenzial vs. Performanz",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013",
+                  "kapitel": "Kap. 1"
+                },
+                "transkript_suchhinweise": [
+                  "Preckel Potenzial Leistung",
+                  "William Stern 1916"
+                ]
+              },
+              {
+                "id": "F1-A1-Z02",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Trautmann bestaetigt Potenzial/Performanz-Unterscheidung.",
+                "thema": "Begabung als Moeglichkeit",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Trautmann Potenzial",
+                  "Begabungsbegriff"
+                ]
+              },
+              {
+                "id": "F1-A1-Z03",
+                "bib_key": "stern2025intelligenz",
+                "zitat_art": "textcite",
+                "kontextsatz": "E. Stern: Intelligenz kann sich im Schulalter substanziell veraendern.",
+                "thema": "Aktuelle Forschung Intelligenz/Veraenderbarkeit",
+                "verortung_im_original": {
+                  "werk": "Stern 2025",
+                  "verortung_hinweis": "Uebersichtsartikel/Monographie"
+                },
+                "transkript_suchhinweise": [
+                  "Elsbeth Stern Intelligenz",
+                  "Intelligenz Entwicklung Kinder"
+                ]
+              },
+              {
+                "id": "F1-A1-Z04",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Renzulli-Modell als motivationale/kreative Erweiterung.",
+                "thema": "Drei-Ringe-Modell im Detail",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung"
+                },
+                "transkript_suchhinweise": [
+                  "Renzulli drei Ringe",
+                  "task commitment"
+                ]
+              },
+              {
+                "id": "F1-A1-Z05",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Gardner: logisch-mathematische, raeumliche, koerperlich-kinaesthetische Intelligenzen.",
+                "thema": "Multiple Intelligenzen",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Gardner Multiple Intelligenzen",
+                  "raeumliche Intelligenz"
+                ]
+              },
+              {
+                "id": "F1-A1-Z06",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Underachievement bei negativer Umwelt/Motivation.",
+                "thema": "Underachievement-Konzept",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013"
+                },
+                "transkript_suchhinweise": [
+                  "Underachievement",
+                  "Potenzial Leistung Diskrepanz"
+                ]
+              },
+              {
+                "id": "F1-A1-Z07",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Fischer: Muenchner Modell und Transformation Potenzial->Leistung.",
+                "thema": "Muenchner Hochbegabungsmodell",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer Muenchner Modell",
+                  "Transformation Potenzial Leistung"
+                ]
+              },
+              {
+                "id": "F1-A1-Z08",
+                "bib_key": "lemas2023begriffsklaerung",
+                "zitat_art": "parencite",
+                "kontextsatz": "LemaS: prozessorientierte Diagnostik noetig, Statusdiagnostik genuegt nicht.",
+                "thema": "LemaS-Begriffsklaerung",
+                "verortung_im_original": {
+                  "werk": "LemaS 2023",
+                  "verortung_hinweis": "Begriffsklaerung/Grundlagenpapier"
+                },
+                "transkript_suchhinweise": [
+                  "LemaS Leistung macht Schule",
+                  "Prozessdiagnostik"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A2",
+            "titel": "Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben",
+            "kernaussage": "Drei Mechanismen: sprachgebundene Selektion, defizitorientierte Zuschreibungen, institutionelle Diskriminierung.",
+            "zitatstellen": [
+              {
+                "id": "F1-A2-Z01",
+                "bib_key": "stamm2021fehlenderblick",
+                "zitat_art": "textcite",
+                "kontextsatz": "Stamm: Begabte Minoritaeten als systematischer blinder Fleck.",
+                "thema": "Unterrepraesentation in Foerderprogrammen",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung",
+                  "seiten_vermutet": "576--587/588"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm Minoritaeten",
+                  "Unterrepraesentation Foerderung"
+                ]
+              },
+              {
+                "id": "F1-A2-Z02",
+                "bib_key": "kellerkoller2021hellekoepfe",
+                "zitat_art": "textcite",
+                "kontextsatz": "Keller-Koller: Kinder kommen bis Mittelstufe nie mit Begabtenfoerderung in Beruehrung.",
+                "thema": "Domaenen nicht als leistungsrelevant anerkannt",
+                "verortung_im_original": {
+                  "werk": "Huser (Hrsg.) 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Keller-Koller Mittelstufe",
+                  "Begabtenfoerderung Zugang"
+                ]
+              },
+              {
+                "id": "F1-A2-Z03",
+                "bib_key": "kellerkoller2009begabte",
+                "zitat_art": "parencite",
+                "kontextsatz": "Keller-Koller 2009: fruehere Arbeit.",
+                "thema": "Begabte Kinder mit Migration (2009)",
+                "verortung_im_original": {
+                  "werk": "Keller-Koller 2009"
+                },
+                "transkript_suchhinweise": [
+                  "Keller-Koller fruehe Arbeit"
+                ]
+              },
+              {
+                "id": "F1-A2-Z04",
+                "bib_key": "kellerkoller2011erkennen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Keller-Koller 2011: Erkennen verdeckter Begabung.",
+                "thema": "Erkennen von verdeckter Begabung",
+                "verortung_im_original": {
+                  "werk": "Keller-Koller 2011"
+                },
+                "transkript_suchhinweise": [
+                  "Keller-Koller erkennen"
+                ]
+              },
+              {
+                "id": "F1-A2-Z05",
+                "bib_key": "reutlinger2015hochbegabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Reutlinger: Verhaltensauffaelligkeiten dominieren Wahrnehmung bei Migrationshintergrund.",
+                "thema": "Defizitperspektive in der Wahrnehmung",
+                "verortung_im_original": {
+                  "werk": "Reutlinger et al. 2015"
+                },
+                "transkript_suchhinweise": [
+                  "Reutlinger Wahrnehmungsverzerrung"
+                ]
+              },
+              {
+                "id": "F1-A2-Z06",
+                "bib_key": "kappus2010migration",
+                "zitat_art": "textcite",
+                "kontextsatz": "Kappus: Studien zeigen haeufiger Zuweisungsempfehlungen bei auslaendisch klingenden Namen.",
+                "thema": "Institutionelle Diskriminierung (Namensstudien CH)",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Kappus Namensstudien",
+                  "CH Diskriminierung Zuweisung"
+                ]
+              },
+              {
+                "id": "F1-A2-Z07",
+                "bib_key": "stamm2014mirage",
+                "zitat_art": "parencite",
+                "kontextsatz": "MIRAGE-Studie: Potenziale retrospektiv oft spaet erkannt.",
+                "thema": "MIRAGE: Migrantische Erfolgskarrieren",
+                "verortung_im_original": {
+                  "werk": "Stamm MIRAGE-Studie 2014"
+                },
+                "transkript_suchhinweise": [
+                  "MIRAGE Studie",
+                  "Stamm Migranten Erfolg"
+                ]
+              },
+              {
+                "id": "F1-A2-Z08",
+                "bib_key": "stamm2014handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Handbuch Stamm 2014 zu Begabungsreserven Migration.",
+                "thema": "Begabungsreserven in der Migrationsbevoelkerung",
+                "verortung_im_original": {
+                  "werk": "Stamm Handbuch 2014"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm Begabungsreserven"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A3",
+            "titel": "Grenzen sprachlastiger Diagnostik",
+            "kernaussage": "WISC u.a. bei L2-Kindern eingeschraenkt valide; drei Fehlerquellen (Sprache, Testvertrautheit, Stress).",
+            "zitatstellen": [
+              {
+                "id": "F1-A3-Z01",
+                "bib_key": "maehler2018diagnostik",
+                "zitat_art": "textcite",
+                "kontextsatz": "Maehler et al.: drei systematische Fehlerquellen bei Migrationsdiagnostik.",
+                "thema": "Fehlerquellen Migrationsdiagnostik",
+                "verortung_im_original": {
+                  "werk": "Maehler/Hasselhorn 2018",
+                  "kapitel": "Handbuch-Kap. zu Migrationsdiagnostik"
+                },
+                "transkript_suchhinweise": [
+                  "Maehler Fehlerquellen",
+                  "WISC Migration Validitaet"
+                ]
+              },
+              {
+                "id": "F1-A3-Z02",
+                "bib_key": "maehler2018diagnostik",
+                "zitat_art": "textcite",
+                "kontextsatz": "Maehler: Differenzierung sprachgebunden/sprachfrei, Interpretation im Sprachbiographie-Kontext.",
+                "thema": "Sprachgebundene vs. sprachfreie Testanteile",
+                "verortung_im_original": {
+                  "werk": "Maehler/Hasselhorn 2018"
+                },
+                "transkript_suchhinweise": [
+                  "sprachfreie Testung",
+                  "WISC Subtests"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A4",
+            "titel": "Multiperspektivische und dynamische Erfassung",
+            "kernaussage": "Fuenf Strategien: nonverbale Verfahren, Beobachtung in Settings, aussersch. Bezugspersonen, Erstsprachkompetenz, dynamische Diagnostik.",
+            "zitatstellen": [
+              {
+                "id": "F1-A4-Z01",
+                "bib_key": "ipege2009professionelle",
+                "zitat_art": "parencite",
+                "kontextsatz": "iPEGE-Standards jenseits punktueller Testung.",
+                "thema": "Qualitaetsstandards iPEGE",
+                "verortung_im_original": {
+                  "werk": "iPEGE 2009"
+                },
+                "transkript_suchhinweise": [
+                  "iPEGE Standards"
+                ]
+              },
+              {
+                "id": "F1-A4-Z02",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Beobachtung als diagnostisches Instrument nur kriteriengestuetzt valide.",
+                "thema": "Verhaltensbeobachtung diagnostisch",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Trautmann Beobachtung",
+                  "kriteriengestuetzte Diagnostik"
+                ]
+              },
+              {
+                "id": "F1-A4-Z03",
+                "bib_key": "uslucan2012begabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Uslucan: migrationsspezifische Bildungsaspirationen; Elterneinbezug.",
+                "thema": "Elternperspektive Migration",
+                "verortung_im_original": {
+                  "werk": "Uslucan 2012"
+                },
+                "transkript_suchhinweise": [
+                  "Uslucan Bildungsaspirationen",
+                  "Elterngespraech Migration"
+                ]
+              },
+              {
+                "id": "F1-A4-Z04",
+                "bib_key": "reutlinger2015hochbegabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Reutlinger: alle verfuegbaren Sprachen einbeziehen.",
+                "thema": "Mehrsprachige Diagnostik",
+                "verortung_im_original": {
+                  "werk": "Reutlinger et al. 2015"
+                },
+                "transkript_suchhinweise": [
+                  "Reutlinger Mehrsprachigkeit",
+                  "staerkste Sprache Test"
+                ]
+              },
+              {
+                "id": "F1-A4-Z05",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Preckel: dynamische Verfahren bei Diskrepanz Leistung/Potenzial ueberlegen.",
+                "thema": "Dynamische Diagnostik",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013"
+                },
+                "transkript_suchhinweise": [
+                  "Preckel dynamische Diagnostik",
+                  "Lernpotenzial"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A5",
+            "titel": "Twice Exceptionality als Deutungsrahmen",
+            "kernaussage": "2e: hohe Faehigkeiten + Lern-/Verhaltensbesonderheit; gegenseitige Maskierung. Rahmen, nicht Diagnose.",
+            "label_tex": "subsec:2e",
+            "zitatstellen": [
+              {
+                "id": "F1-A5-Z01",
+                "bib_key": "preckel2013hochbegabung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Preckel: 2e-Kinder, Maskierung, weder Begabung noch Schwierigkeit erkannt.",
+                "thema": "2e-Grundkonzept",
+                "verortung_im_original": {
+                  "werk": "Preckel/Baudson 2013"
+                },
+                "transkript_suchhinweise": [
+                  "Preckel twice exceptional",
+                  "Maskierung 2e"
+                ]
+              },
+              {
+                "id": "F1-A5-Z02",
+                "bib_key": "webb2020doppeldiagnosen",
+                "zitat_art": "textcite",
+                "kontextsatz": "Webb et al.: Fehldiagnosen (ADHS, Autismus) bei hochbegabten Kindern.",
+                "thema": "Doppeldiagnosen und Fehldiagnosen",
+                "verortung_im_original": {
+                  "werk": "Webb et al. 2020",
+                  "kapitel": "Kap. 1--2, 10"
+                },
+                "transkript_suchhinweise": [
+                  "Webb Doppeldiagnosen",
+                  "Fehldiagnosen Hochbegabung ADHS"
+                ]
+              },
+              {
+                "id": "F1-A5-Z03",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "textcite",
+                "kontextsatz": "Lehwald: Motivationseinbruch bei fehlender Passung.",
+                "thema": "Motivationsverlust ohne Passung",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald Motivationsverlust",
+                  "Passung Lernumgebung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F1-A6",
+            "titel": "Konsequenzen fuer die heilpaedagogische Praxis",
+            "kernaussage": "Drei Prinzipien: diagnostische Mehrperspektivitaet, Kontextvariation, Reflexion eigener Wahrnehmung.",
+            "zitatstellen": []
+          }
+        ],
+        "kernliteratur": [
+          {
+            "bib_key": "stamm2021fehlenderblick",
+            "umfang_seiten": 15,
+            "kapitel": "Der fehlende Blick auf begabte Minoritaeten",
+            "buchkontext": "In: Handbuch Begabung"
+          },
+          {
+            "bib_key": "kellerkoller2021hellekoepfe",
+            "umfang_seiten": 20,
+            "kapitel": "Helle Koepfe mit Migrationshintergrund",
+            "buchkontext": "Huser (Hrsg.) 2021"
+          },
+          {
+            "bib_key": "maehler2018diagnostik",
+            "umfang_seiten": 80,
+            "kapitel": "Kap. 1--3, 9--10",
+            "buchkontext": "Diagnostik bei Migrantinnen und Migranten"
+          },
+          {
+            "bib_key": "preckel2013hochbegabung",
+            "umfang_seiten": 40,
+            "kapitel": "Kap. 1--2 (Erkennen, Verstehen)",
+            "buchkontext": "Hochbegabung"
+          },
+          {
+            "bib_key": "muelleroppliger2021handbuch",
+            "umfang_seiten": 40,
+            "kapitel": "Begabungsbegriff, Diagnostik",
+            "buchkontext": "Handbuch Begabung"
+          },
+          {
+            "bib_key": "trautmann2016einfuehrung",
+            "umfang_seiten": 40,
+            "kapitel": "Kap. 1--2",
+            "buchkontext": "Einfuehrung in die Hochbegabtenpaedagogik"
+          },
+          {
+            "bib_key": "reutlinger2015hochbegabung",
+            "umfang_seiten": 15,
+            "kapitel": "Hochbegabung und Migrationshintergrund"
+          },
+          {
+            "bib_key": "ipege2009professionelle",
+            "umfang_seiten": 20,
+            "kapitel": "Diagnostik"
+          },
+          {
+            "bib_key": "webb2020doppeldiagnosen",
+            "umfang_seiten": 25,
+            "kapitel": "Kap. 1--2, 10"
+          }
+        ],
+        "kritische_reflexion": {
+          "id": "F1-KR",
+          "titel": "Umgang mit divergierenden Testbefunden",
+          "leitfrage": "Angenommen, die schulpsychologische Testung haette bei S. kein ueberdurchschnittliches Potenzial bestaetigt, sondern ein durchschnittliches Ergebnis geliefert - wie gehen Sie damit um?",
+          "zitatstellen": [
+            {
+              "id": "F1-KR-Z01",
+              "bib_key": "maehler2018diagnostik",
+              "zitat_art": "parencite",
+              "kontextsatz": "Maehler: drei Fehlerquellen sprechen gegen valide Interpretation eines Durchschnittsergebnisses.",
+              "thema": "Unterschaetzung durch Testbedingungen",
+              "verortung_im_original": {
+                "werk": "Maehler/Hasselhorn 2018"
+              },
+              "transkript_suchhinweise": [
+                "Maehler Fehlerquellen Migration"
+              ]
+            },
+            {
+              "id": "F1-KR-Z02",
+              "bib_key": "lemas2023begriffsklaerung",
+              "zitat_art": "parencite",
+              "kontextsatz": "LemaS: prozessorientierte Diagnostik statt einmaliger Statusdiagnostik.",
+              "thema": "Prozessorientierung",
+              "verortung_im_original": {
+                "werk": "LemaS Begriffsklaerung 2023"
+              },
+              "transkript_suchhinweise": [
+                "LemaS Prozessdiagnostik"
+              ]
+            },
+            {
+              "id": "F1-KR-Z03",
+              "bib_key": "trautmann2016einfuehrung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Trautmann: kriteriengestuetzte Beobachtung aussagekraeftig.",
+              "thema": "Dokumentation SOLUX-Beobachtungen",
+              "verortung_im_original": {
+                "werk": "Trautmann 2016"
+              },
+              "transkript_suchhinweise": [
+                "Trautmann kriteriengestuetzt"
+              ]
+            },
+            {
+              "id": "F1-KR-Z04",
+              "bib_key": "ipege2009professionelle",
+              "zitat_art": "parencite",
+              "kontextsatz": "iPEGE-Standards unterstuetzen Beobachtungsdiagnostik.",
+              "thema": "iPEGE-Beobachtung",
+              "verortung_im_original": {
+                "werk": "iPEGE 2009"
+              },
+              "transkript_suchhinweise": [
+                "iPEGE Beobachtung"
+              ]
+            },
+            {
+              "id": "F1-KR-Z05",
+              "bib_key": "preckel2013hochbegabung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Preckel: wiederholte Erhebungen bei 2e.",
+              "thema": "Retestung / Wiederholungsdiagnostik",
+              "verortung_im_original": {
+                "werk": "Preckel/Baudson 2013"
+              },
+              "transkript_suchhinweise": [
+                "Preckel Retest 2e"
+              ]
+            },
+            {
+              "id": "F1-KR-Z06",
+              "bib_key": "muelleroppliger2021handbuch",
+              "zitat_art": "parencite",
+              "kontextsatz": "Renzulli Drehtuermodell: Enrichment vor Identifikation.",
+              "thema": "Drehtuermodell",
+              "verortung_im_original": {
+                "werk": "Handbuch Begabung"
+              },
+              "transkript_suchhinweise": [
+                "Renzulli Drehtuer",
+                "SEM Drehtuermodell"
+              ]
+            },
+            {
+              "id": "F1-KR-Z07",
+              "bib_key": "fischer2020begabungsfoerderung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Fischer: Enrichment-Grundsatz Foerderung vor Identifikation.",
+              "thema": "Enrichment-Paradigma",
+              "verortung_im_original": {
+                "werk": "Fischer et al. 2020"
+              },
+              "transkript_suchhinweise": [
+                "Fischer Enrichment Paradigma"
+              ]
+            },
+            {
+              "id": "F1-KR-Z08",
+              "bib_key": "stamm2021fehlenderblick",
+              "zitat_art": "parencite",
+              "kontextsatz": "Stamm: Instrumente auf bestimmte Klientel zugeschnitten.",
+              "thema": "Instrumenten-Zuschnitt",
+              "verortung_im_original": {
+                "werk": "Handbuch Begabung"
+              },
+              "transkript_suchhinweise": [
+                "Stamm Instrumente Klientel"
+              ]
+            },
+            {
+              "id": "F1-KR-Z09",
+              "bib_key": "lehwald2017motivation",
+              "zitat_art": "parencite",
+              "kontextsatz": "Lehwald: Motivationseinbruch bei fehlender Passung.",
+              "thema": "Motivationsrisiko bei Abbruch Foerderung",
+              "verortung_im_original": {
+                "werk": "Lehwald 2017"
+              },
+              "transkript_suchhinweise": [
+                "Lehwald Passung"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "nummer": 2,
+        "typ": "FW",
+        "dimensionen": [
+          "MW",
+          "KS"
+        ],
+        "titel": "Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Foerderung",
+        "fragetext": "Welche sensumotorischen und schriftsprachlichen Faktoren koennen dazu beitragen, dass kognitive Potenziale verdeckt bleiben, und wie lassen sie sich ressourcenorientiert foerdern?",
+        "label_tex": "sec:frage2",
+        "seitenbudget_vermutet": 240,
+        "kernthese": "Schreiben ist ein komplexer sensumotorisch-kognitiver Prozess. Nicht-automatisierte Graphomotorik bindet Arbeitsgedaechtnis; Schach als motivationaler Brueckenkontext entlastet und aktiviert zugleich. Sicherheit und Passung gehen vor Defizittraining.",
+        "abschnitte": [
+          {
+            "id": "F2-EINL",
+            "titel": "Einleitungsrahmen",
+            "kernaussage": "Graphomotorik und Leseflüssigkeit (17 WPM) als Belastungsquellen; SOLUX-Abbruch bei Schrift.",
+            "zitatstellen": [
+              {
+                "id": "F2-EINL-Z01",
+                "bib_key": "rosebrock2010grundlagen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Mehrebenenmodell Lesen; hierarchieniedrige Prozesse muessen automatisiert sein.",
+                "thema": "Mehrebenenmodell Rosebrock/Nix",
+                "verortung_im_original": {
+                  "werk": "Rosebrock/Nix 2010",
+                  "kapitel": "Kap. 1--4"
+                },
+                "transkript_suchhinweise": [
+                  "Rosebrock Nix Lesedidaktik",
+                  "Leseflüssigkeit Ebenen"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z02",
+                "bib_key": "gold2018lesenkannmanlernen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Gold: systematische Leseforderung auf Wortebene.",
+                "thema": "Leseforderung auf Wortebene",
+                "verortung_im_original": {
+                  "werk": "Gold 2018"
+                },
+                "transkript_suchhinweise": [
+                  "Gold Lesen lernen",
+                  "Dekodier-Automatisierung"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z03",
+                "bib_key": "rosebrock2010grundlagen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Rosebrock/Nix Mehrebenen, Ressourcen fuer Verstaendnis.",
+                "thema": "Rosebrock Lesemodell",
+                "verortung_im_original": {
+                  "werk": "Rosebrock/Nix 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Rosebrock Ressourcen"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z04",
+                "bib_key": "gold2018lesenkannmanlernen",
+                "zitat_art": "textcite",
+                "kontextsatz": "Gold zu systematischer Leseforderung.",
+                "thema": "Gold Leseforderung",
+                "verortung_im_original": {
+                  "werk": "Gold 2018"
+                },
+                "transkript_suchhinweise": [
+                  "Gold Leseforderung"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z05",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "textcite",
+                "kontextsatz": "Lehwald: intrinsische Motivation als Treiber.",
+                "thema": "Motivation und Durchhaltevermogen",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald intrinsisch"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z06",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Enrichment: Interessensgebiet als Ausgangspunkt.",
+                "thema": "Enrichment-Paradigma (Fischer)",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer Enrichment"
+                ]
+              },
+              {
+                "id": "F2-EINL-Z07",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Mueller-Oppliger: Renzulli-Enrichment.",
+                "thema": "SEM-Grundlage",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung"
+                },
+                "transkript_suchhinweise": [
+                  "Handbuch Enrichment"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A1",
+            "titel": "Schriftspracherwerb als sensumotorisch-kognitiver Prozess",
+            "kernaussage": "Rosebrock/Nix Mehrebenenmodell; drei Teilprozesse (visuomotorisch, kinaesthetisch, Automatisierung); Gold kognitiv-linguistisch.",
+            "zitatstellen": [
+              {
+                "id": "F2-A1-Z01",
+                "bib_key": "rosebrock2010grundlagen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Rosebrock/Nix Mehrebenenmodell Lesen, uebertragbar auf Schreiben.",
+                "thema": "Mehrebenenmodell",
+                "verortung_im_original": {
+                  "werk": "Rosebrock/Nix 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Rosebrock Mehrebenen Schreiben"
+                ]
+              },
+              {
+                "id": "F2-A1-Z02",
+                "bib_key": "sturm2016graphomotorik",
+                "zitat_art": "textcite",
+                "kontextsatz": "Sturm: graphomotorische Prozesse eigenstaendige Entwicklungsaufgabe.",
+                "thema": "Graphomotorik als Entwicklungsaufgabe",
+                "verortung_im_original": {
+                  "werk": "Sturm 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Sturm Graphomotorik",
+                  "Bewegungsmuster Grapheme"
+                ]
+              },
+              {
+                "id": "F2-A1-Z03",
+                "bib_key": "gold2018lesenkannmanlernen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Gold: Ueberforderung bei simultaner motorischer/orthografischer/inhaltlicher Anforderung.",
+                "thema": "Arbeitsgedaechtnisueberlastung",
+                "verortung_im_original": {
+                  "werk": "Gold 2018"
+                },
+                "transkript_suchhinweise": [
+                  "Gold Überforderung",
+                  "Arbeitsgedaechtnis Schreiben"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A2",
+            "titel": "Graphomotorische Befunde bei S.",
+            "kernaussage": "Sprachuebergreifend fragile Teilprozesse; Schreiben kognitiv hochbelastend.",
+            "zitatstellen": []
+          },
+          {
+            "id": "F2-A3",
+            "titel": "Leseflüssigkeit als komplementaeres Entwicklungsfeld",
+            "kernaussage": "17 WPM weit unter Norm; Gold: Wortebene zuerst; Matthäus-Effekt.",
+            "zitatstellen": [
+              {
+                "id": "F2-A3-Z01",
+                "bib_key": "rosebrock2010grundlagen",
+                "zitat_art": "textcite",
+                "kontextsatz": "Rosebrock/Nix: Leseflüssigkeit = Geschwindigkeit, Genauigkeit, Prosodie.",
+                "thema": "Leseflüssigkeit Definition",
+                "verortung_im_original": {
+                  "werk": "Rosebrock/Nix 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Leseflüssigkeit Definition"
+                ]
+              },
+              {
+                "id": "F2-A3-Z02",
+                "bib_key": "gold2018lesenkannmanlernen",
+                "zitat_art": "textcite",
+                "kontextsatz": "Gold: Leseforderung auf Buchstaben-Laut-Zuordnung/Sichtwortschatz.",
+                "thema": "Leseforderung Wortebene",
+                "verortung_im_original": {
+                  "werk": "Gold 2018"
+                },
+                "transkript_suchhinweise": [
+                  "Gold Wortebene",
+                  "Sichtwortschatz"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A4",
+            "titel": "Motivation als Bruecke zwischen Interesse und Kompetenzentwicklung",
+            "kernaussage": "Drei Motivationsformen (Erkenntnis, Leistung, Anschluss) bei S. im Schach aktiviert.",
+            "zitatstellen": [
+              {
+                "id": "F2-A4-Z01",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "textcite",
+                "kontextsatz": "Lehwald: drei Formen Lernmotivation.",
+                "thema": "Erkenntnis-, Leistungs-, Anschlussmotivation",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017",
+                  "kapitel": "Kap. 2--4"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald drei Motivationsformen"
+                ]
+              },
+              {
+                "id": "F2-A4-Z02",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Fischer: Enrichment nutzt individuelles Interesse als Vehikel.",
+                "thema": "Enrichment und Kompetenzerwerb",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer Enrichment Interesse"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A5",
+            "titel": "Schach als Foerdermedium fuer Schrift, Sprache und Beteiligung",
+            "kernaussage": "Graphomotorisch (Notation), sprachlich (Gespraechsanlaesse), kognitiv (Uebertrag Schachdenken), sozial (Experten-/Peer-Rolle). Explizite Abgrenzung: KEIN Ferntransfer-Anspruch.",
+            "zitatstellen": [
+              {
+                "id": "F2-A5-Z01",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "textcite",
+                "kontextsatz": "Staerken des Denkens als Ausgangspunkt, Transfer.",
+                "thema": "Begabungsfoerderung ueber Staerken",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung"
+                },
+                "transkript_suchhinweise": [
+                  "Mueller-Oppliger Staerken Denken"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A6",
+            "titel": "Verkrampfung als emotionaler Marker",
+            "kernaussage": "Tonische Anspannung als antizipatorische Vermeidung; Misserfolgserwartung; Teufelskreis.",
+            "zitatstellen": [
+              {
+                "id": "F2-A6-Z01",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "textcite",
+                "kontextsatz": "Lehwald: antizipatorische Vermeidung bei begabten Kindern mit Misserfolg.",
+                "thema": "Antizipatorische Vermeidung",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald Vermeidung Misserfolg"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F2-A7",
+            "titel": "Konsequenzen fuer die Foerderplanung",
+            "kernaussage": "Drei Prinzipien: Zugang ueber Staerke, Entkopplung Anforderungsebenen, systematische Leseforderung Wortebene.",
+            "zitatstellen": [
+              {
+                "id": "F2-A7-Z01",
+                "bib_key": "rosebrock2010grundlagen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Rosebrock/Nix systematisches Training hierarchieniedriger Prozesse.",
+                "thema": "Systematisches Lesetraining",
+                "verortung_im_original": {
+                  "werk": "Rosebrock/Nix 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Rosebrock systematisches Training"
+                ]
+              },
+              {
+                "id": "F2-A7-Z02",
+                "bib_key": "gold2018lesenkannmanlernen",
+                "zitat_art": "parencite",
+                "kontextsatz": "Gold: Wortebene und Leseanlaesse mit Motivation.",
+                "thema": "Wortebene und Motivation",
+                "verortung_im_original": {
+                  "werk": "Gold 2018"
+                },
+                "transkript_suchhinweise": [
+                  "Gold Leseanlaesse Motivation"
+                ]
+              }
+            ]
+          }
+        ],
+        "kernliteratur": [
+          {
+            "bib_key": "rosebrock2010grundlagen",
+            "umfang_seiten": 60,
+            "kapitel": "Kap. 1--4"
+          },
+          {
+            "bib_key": "gold2018lesenkannmanlernen",
+            "umfang_seiten": 70,
+            "kapitel": "Kap. 1--4"
+          },
+          {
+            "bib_key": "sturm2016graphomotorik",
+            "umfang_seiten": 20,
+            "kapitel": "Aufsatz"
+          },
+          {
+            "bib_key": "lehwald2017motivation",
+            "umfang_seiten": 60,
+            "kapitel": "Kap. 2--4"
+          },
+          {
+            "bib_key": "fischer2020begabungsfoerderung",
+            "umfang_seiten": 30,
+            "kapitel": "Enrichment/Sprache"
+          }
+        ],
+        "kritische_reflexion": {
+          "id": "F2-KR",
+          "titel": "Kontextgebundene Schreibmotivation",
+          "leitfrage": "S. verweigert im regulaeren Unterricht das Schreiben, im SOLUX-Projekt beginnt er jedoch, Schachzuege zu notieren. Wie erklaeren Sie den Unterschied, und welche Foerdersequenz leiten Sie ab?",
+          "zitatstellen": [
+            {
+              "id": "F2-KR-Z01",
+              "bib_key": "gold2018lesenkannmanlernen",
+              "zitat_art": "parencite",
+              "kontextsatz": "Gold: Ueberforderung bei simultanen Anforderungen.",
+              "thema": "Simultane Belastung Arbeitsgedaechtnis",
+              "verortung_im_original": {
+                "werk": "Gold 2018"
+              },
+              "transkript_suchhinweise": [
+                "Gold simultane Anforderungen"
+              ]
+            },
+            {
+              "id": "F2-KR-Z02",
+              "bib_key": "sturm2016graphomotorik",
+              "zitat_art": "parencite",
+              "kontextsatz": "Sturm: Automatisierung braucht freie Verarbeitungskapazitaet.",
+              "thema": "Automatisierungsbedingungen",
+              "verortung_im_original": {
+                "werk": "Sturm 2016"
+              },
+              "transkript_suchhinweise": [
+                "Sturm Automatisierung Kapazitaet"
+              ]
+            },
+            {
+              "id": "F2-KR-Z03",
+              "bib_key": "lehwald2017motivation",
+              "zitat_art": "parencite",
+              "kontextsatz": "Lehwald: drei Motivationsformen aktiviert in SOLUX.",
+              "thema": "Motivationsaktivierung",
+              "verortung_im_original": {
+                "werk": "Lehwald 2017"
+              },
+              "transkript_suchhinweise": [
+                "Lehwald Aktivierung"
+              ]
+            },
+            {
+              "id": "F2-KR-Z04",
+              "bib_key": "sturm2016graphomotorik",
+              "zitat_art": "parencite",
+              "kontextsatz": "Sturm: motorische Programme Kernaufgabe.",
+              "thema": "Automatisierung motorischer Programme",
+              "verortung_im_original": {
+                "werk": "Sturm 2016"
+              },
+              "transkript_suchhinweise": [
+                "Sturm motorische Programme"
+              ]
+            },
+            {
+              "id": "F2-KR-Z05",
+              "bib_key": "rosebrock2010grundlagen",
+              "zitat_art": "parencite",
+              "kontextsatz": "Rosebrock/Nix: hierarchieniedrige Prozesse Training.",
+              "thema": "Lesetraining hierarchieniedrig",
+              "verortung_im_original": {
+                "werk": "Rosebrock/Nix 2010"
+              },
+              "transkript_suchhinweise": [
+                "Rosebrock hierarchieniedrig"
+              ]
+            },
+            {
+              "id": "F2-KR-Z06",
+              "bib_key": "gold2018lesenkannmanlernen",
+              "zitat_art": "parencite",
+              "kontextsatz": "Gold: Leseanlaesse motivational und niveauangepasst.",
+              "thema": "Matthaeuseffekt durchbrechen",
+              "verortung_im_original": {
+                "werk": "Gold 2018"
+              },
+              "transkript_suchhinweise": [
+                "Gold Matthaeus"
+              ]
+            },
+            {
+              "id": "F2-KR-Z07",
+              "bib_key": "fischer2020begabungsfoerderung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Fischer: Enrichment nutzt Interesse als Vehikel.",
+              "thema": "Enrichment als Rahmen",
+              "verortung_im_original": {
+                "werk": "Fischer et al. 2020"
+              },
+              "transkript_suchhinweise": [
+                "Fischer Enrichment Vehikel"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "nummer": 3,
+        "typ": "FW",
+        "dimensionen": [
+          "PB"
+        ],
+        "titel": "Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+        "fragetext": "Wie beeinflussen Ausgrenzungs-, Belastungs- und Migrationserfahrungen die Begabungsentwicklung und soziale Teilhabe, und welche Beziehungsgestaltungen wirken foerderlich?",
+        "label_tex": "sec:frage3",
+        "seitenbudget_vermutet": 165,
+        "kernthese": "Begabung entwickelt sich in Beziehungen. Anerkennung zweiter Ordnung, Teilhabe und emotionale Sicherheit sind Voraussetzungen dafuer, dass Potenzial sichtbar werden kann. Rueckzug ist Schutzmechanismus, keine Charaktereigenschaft.",
+        "abschnitte": [
+          {
+            "id": "F3-EINL",
+            "titel": "Einleitungsrahmen",
+            "kernaussage": "Kontrast SOLUX vs. Regelunterricht; Anerkennungstheorie; kumulative Migrationsbelastung.",
+            "zitatstellen": [
+              {
+                "id": "F3-EINL-Z01",
+                "bib_key": "grossrieder2010anerkennung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Grossrieder: Anerkennung als paedagogisches Grundprinzip, zweite Ordnung.",
+                "thema": "Anerkennungskonzept Grossrieder",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Grossrieder Anerkennung",
+                  "Anerkennung zweite Ordnung"
+                ]
+              },
+              {
+                "id": "F3-EINL-Z02",
+                "bib_key": "kuhl2019diversitaet",
+                "zitat_art": "textcite",
+                "kontextsatz": "Kuhl: paedagogische Beziehung als notwendige Bedingung fuer Begabungsentfaltung.",
+                "thema": "PSI-Theorie und Diversitaet",
+                "verortung_im_original": {
+                  "werk": "Kuhl/Hofmann 2019",
+                  "seiten_vermutet": "35--57 oder 35--59 (VERIFY)"
+                },
+                "transkript_suchhinweise": [
+                  "Kuhl PSI",
+                  "Diversitaet Persoenlichkeit"
+                ]
+              },
+              {
+                "id": "F3-EINL-Z03",
+                "bib_key": "behrensen2019inklusive",
+                "zitat_art": "parencite",
+                "kontextsatz": "Behrensen: kumulative Belastung durch Fluchtmigration.",
+                "thema": "Fluchtmigration kumulativ",
+                "verortung_im_original": {
+                  "werk": "Behrensen 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Behrensen Fluchtmigration"
+                ]
+              },
+              {
+                "id": "F3-EINL-Z04",
+                "bib_key": "stamm2012migranten",
+                "zitat_art": "parencite",
+                "kontextsatz": "Stamm 2012 zu Migranten mit Potenzial.",
+                "thema": "Potenziale Migration",
+                "verortung_im_original": {
+                  "werk": "Stamm 2012"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm 2012 Migranten"
+                ]
+              },
+              {
+                "id": "F3-EINL-Z05",
+                "bib_key": "kappus2010migration",
+                "zitat_art": "textcite",
+                "kontextsatz": "Kappus: institutionelle Diskriminierung im Alltag.",
+                "thema": "Institutionelle Diskriminierung",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Kappus Alltag Diskriminierung"
+                ]
+              },
+              {
+                "id": "F3-EINL-Z06",
+                "bib_key": "booth2019index",
+                "zitat_art": "parencite",
+                "kontextsatz": "Booth/Ainscow: Teilhabe mehr als Anwesenheit.",
+                "thema": "Teilhabekonzept Index",
+                "verortung_im_original": {
+                  "werk": "Booth/Ainscow Index fuer Inklusion"
+                },
+                "transkript_suchhinweise": [
+                  "Booth Ainscow Teilhabe",
+                  "Index Inklusion"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A1",
+            "titel": "Begabungsentwicklung als Beziehungsgeschehen",
+            "kernaussage": "PSI-Theorie: Intentions- vs. Extensionsgedaechtnis; positiver Affekt bahnt Extensionsgedaechtnis; Scham blockiert kognitive Ressourcen.",
+            "zitatstellen": [
+              {
+                "id": "F3-A1-Z01",
+                "bib_key": "kuhl2019diversitaet",
+                "zitat_art": "textcite",
+                "kontextsatz": "Kuhl/Hofmann: Beziehung konstitutive Bedingung, nicht Kontext.",
+                "thema": "Beziehung als Bedingung",
+                "verortung_im_original": {
+                  "werk": "Kuhl/Hofmann 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Kuhl Beziehung Bedingung"
+                ]
+              },
+              {
+                "id": "F3-A1-Z02",
+                "bib_key": "kuhl2019diversitaet",
+                "zitat_art": "parencite",
+                "kontextsatz": "Kuhl PSI-Systeme, Extensionsgedaechtnis und Affekt.",
+                "thema": "Extensionsgedaechtnis und Affekt",
+                "verortung_im_original": {
+                  "werk": "Kuhl/Hofmann 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Kuhl Extensionsgedaechtnis",
+                  "PSI Affekt"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A2",
+            "titel": "Anerkennung als paedagogische Grundkategorie",
+            "kernaussage": "Anerkennung 1. vs. 2. Ordnung (Grossrieder); Klassenklima und Selbstkonzept.",
+            "zitatstellen": [
+              {
+                "id": "F3-A2-Z01",
+                "bib_key": "grossrieder2010anerkennung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Grossrieder: Anerkennung 2. Ordnung als Grundhaltung, nicht Technik.",
+                "thema": "Anerkennung 1./2. Ordnung",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Grossrieder 1 2 Ordnung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A3",
+            "titel": "Migration als kumulative Belastung",
+            "kernaussage": "Verlust Netzwerke, unterbrochene Bildung, Sprache, Aufenthalt, Fluchttrauma -> Gesamtbelastung.",
+            "zitatstellen": [
+              {
+                "id": "F3-A3-Z01",
+                "bib_key": "behrensen2019inklusive",
+                "zitat_art": "textcite",
+                "kontextsatz": "Behrensen: Bildungssituation bei Fluchtmigration, Kumulation.",
+                "thema": "Kumulative Gesamtbelastung",
+                "verortung_im_original": {
+                  "werk": "Behrensen 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Behrensen Inklusion Flucht"
+                ]
+              },
+              {
+                "id": "F3-A3-Z02",
+                "bib_key": "stamm2014mirage",
+                "zitat_art": "parencite",
+                "kontextsatz": "MIRAGE: Schluesselpersonen in Bildungsbiographien.",
+                "thema": "MIRAGE-Befunde",
+                "verortung_im_original": {
+                  "werk": "Stamm 2014 MIRAGE"
+                },
+                "transkript_suchhinweise": [
+                  "Stamm MIRAGE Schluesselpersonen"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A4",
+            "titel": "Teilhabe als Voraussetzung fuer Sichtbarkeit",
+            "kernaussage": "Booth/Ainscow Dimensionen A, B, C; Dim. A (Kultur) im Fall S. verletzt.",
+            "zitatstellen": [
+              {
+                "id": "F3-A4-Z01",
+                "bib_key": "booth2019index",
+                "zitat_art": "parencite",
+                "kontextsatz": "Booth/Ainscow Index: Dimensionen A, B, C.",
+                "thema": "Dimensionen Index",
+                "verortung_im_original": {
+                  "werk": "Booth/Ainscow Index fuer Inklusion",
+                  "kapitel": "Dimensionen A und B"
+                },
+                "transkript_suchhinweise": [
+                  "Index Dimensionen A B C",
+                  "inklusive Kultur Struktur Praxis"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A5",
+            "titel": "Rueckzug und Maskierung als Schutzmechanismen",
+            "kernaussage": "PSI + Anerkennung + kumulative Belastung -> Schutzreaktion, nicht Verweigerung. Sequenz: koerperlich -> kognitiv -> sozial -> sprachlich.",
+            "zitatstellen": [
+              {
+                "id": "F3-A5-Z01",
+                "bib_key": "lehwald2017motivation",
+                "zitat_art": "textcite",
+                "kontextsatz": "Lehwald: Maskierung als Strategie begabter Kinder.",
+                "thema": "Maskierung bei begabten Kindern",
+                "verortung_im_original": {
+                  "werk": "Lehwald 2017",
+                  "kapitel": "Kap. 5--6"
+                },
+                "transkript_suchhinweise": [
+                  "Lehwald Maskierung"
+                ]
+              },
+              {
+                "id": "F3-A5-Z02",
+                "bib_key": "webb2020doppeldiagnosen",
+                "zitat_art": "textcite",
+                "kontextsatz": "Webb: diagnostische Falle bei sichtbaren Schwierigkeiten.",
+                "thema": "Diagnostische Falle",
+                "verortung_im_original": {
+                  "werk": "Webb et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Webb diagnostische Falle"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F3-A6",
+            "titel": "Konsequenzen fuer die heilpaedagogische Begleitung",
+            "kernaussage": "Beziehung vor Anforderung; Anerkennungsgelegenheiten arrangieren; inklusive Strukturen.",
+            "zitatstellen": [
+              {
+                "id": "F3-A6-Z01",
+                "bib_key": "booth2019index",
+                "zitat_art": "textcite",
+                "kontextsatz": "Booth/Ainscow: Schulkultur als Rahmen.",
+                "thema": "Schulkultur als Rahmen",
+                "verortung_im_original": {
+                  "werk": "Booth/Ainscow Index"
+                },
+                "transkript_suchhinweise": [
+                  "Booth Ainscow Schulkultur"
+                ]
+              }
+            ]
+          }
+        ],
+        "kernliteratur": [
+          {
+            "bib_key": "grossrieder2010anerkennung",
+            "umfang_seiten": 10,
+            "kapitel": "Gleiches und Unterschiedliches anerkennen",
+            "buchkontext": "Buholzer/Kummer Wyss 2010"
+          },
+          {
+            "bib_key": "kuhl2019diversitaet",
+            "umfang_seiten": 23,
+            "seiten_vermutet": "35--57 oder 35--59 (VERIFY)"
+          },
+          {
+            "bib_key": "behrensen2019inklusive",
+            "umfang_seiten": 12
+          },
+          {
+            "bib_key": "booth2019index",
+            "umfang_seiten": 60,
+            "kapitel": "Dimensionen A und B"
+          },
+          {
+            "bib_key": "lehwald2017motivation",
+            "umfang_seiten": 30,
+            "kapitel": "Kap. 5--6 (Emotion)"
+          },
+          {
+            "bib_key": "kappus2010migration",
+            "umfang_seiten": 15,
+            "kapitel": "Umgang mit migrationsbedingter Heterogenitaet"
+          },
+          {
+            "bib_key": "stamm2012migranten",
+            "umfang_seiten": 15
+          },
+          {
+            "bib_key": "webb2020doppeldiagnosen",
+            "umfang_seiten": "bereits bei F1 gezaehlt",
+            "kapitel": "Kap. 1--2 (Maskierung)"
+          }
+        ],
+        "kritische_reflexion": {
+          "id": "F3-KR",
+          "titel": "Verweisungspraxis und Alternativen",
+          "leitfrage": "S. wird wiederholt aus dem Unterricht verwiesen und muss draussen Strafarbeiten erledigen. Wie beurteilen Sie die Praxis, welche Alternativen schlagen Sie vor?",
+          "zitatstellen": [
+            {
+              "id": "F3-KR-Z01",
+              "bib_key": "kuhl2019diversitaet",
+              "zitat_art": "parencite",
+              "kontextsatz": "PSI: Scham blockiert Extensionsgedaechtnis.",
+              "thema": "PSI-Theorie gegen Verweis",
+              "verortung_im_original": {
+                "werk": "Kuhl/Hofmann 2019"
+              },
+              "transkript_suchhinweise": [
+                "Kuhl Scham Extensionsgedaechtnis"
+              ]
+            },
+            {
+              "id": "F3-KR-Z02",
+              "bib_key": "grossrieder2010anerkennung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Grossrieder: Anerkennung 1. Ordnung negativ ausgepraegt durch Entzug.",
+              "thema": "Anerkennungsentzug",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010"
+              },
+              "transkript_suchhinweise": [
+                "Grossrieder Entzug Anerkennung"
+              ]
+            },
+            {
+              "id": "F3-KR-Z03",
+              "bib_key": "booth2019index",
+              "zitat_art": "parencite",
+              "kontextsatz": "Index: Teilhabe verletzt durch Verweis.",
+              "thema": "Teilhaberecht verletzt",
+              "verortung_im_original": {
+                "werk": "Booth/Ainscow Index"
+              },
+              "transkript_suchhinweise": [
+                "Index Teilhabe Verweis"
+              ]
+            },
+            {
+              "id": "F3-KR-Z04",
+              "bib_key": "behrensen2019inklusive",
+              "zitat_art": "parencite",
+              "kontextsatz": "Behrensen: kumulative Belastung uebersteigt Ressourcen.",
+              "thema": "Verweigerung als Uebersteigung",
+              "verortung_im_original": {
+                "werk": "Behrensen 2019"
+              },
+              "transkript_suchhinweise": [
+                "Behrensen Ueberforderung Flucht"
+              ]
+            },
+            {
+              "id": "F3-KR-Z05",
+              "bib_key": "lehwald2017motivation",
+              "zitat_art": "parencite",
+              "kontextsatz": "Lehwald: Passung zu Interesse stabilisiert Motivation.",
+              "thema": "Ressource Schach in Regelunterricht",
+              "verortung_im_original": {
+                "werk": "Lehwald 2017"
+              },
+              "transkript_suchhinweise": [
+                "Lehwald Passung Interesse"
+              ]
+            },
+            {
+              "id": "F3-KR-Z06",
+              "bib_key": "kappus2010migration",
+              "zitat_art": "parencite",
+              "kontextsatz": "Kappus: institutionelle Diskriminierung im Alltag der Praktiken.",
+              "thema": "Alltagspraktiken und Diskriminierung",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010"
+              },
+              "transkript_suchhinweise": [
+                "Kappus Alltag Praktiken"
+              ]
+            },
+            {
+              "id": "F3-KR-Z07",
+              "bib_key": "booth2019index",
+              "zitat_art": "parencite",
+              "kontextsatz": "Index Dimension A: Gemeinschaft und Zugehoerigkeit.",
+              "thema": "Dimension A als Rahmen",
+              "verortung_im_original": {
+                "werk": "Booth/Ainscow Index"
+              },
+              "transkript_suchhinweise": [
+                "Index Dimension A"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "nummer": 4,
+        "typ": "BW",
+        "dimensionen": [
+          "DG",
+          "PV"
+        ],
+        "titel": "Inklusive Begabungsfoerderung am Beispiel SOLUX",
+        "fragetext": "Inwiefern koennen offene, enrichment-orientierte Begabungsfoerderungssettings wie SOLUX Potenziale sichtbar machen, die im Regelunterricht systematisch uebersehen werden?",
+        "label_tex": "sec:frage4",
+        "seitenbudget_vermutet": 205,
+        "kernthese": "SOLUX erzeugt Begabung nicht, sondern macht sie sichtbar. Die vier Strukturmerkmale (Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle) wirken als diagnostisches Fenster. Begabungsfoerderung ist Gerechtigkeitsfrage.",
+        "abschnitte": [
+          {
+            "id": "F4-EINL",
+            "titel": "Einleitungsrahmen",
+            "kernaussage": "SEM-Referenzrahmen; Homogenitaetslogik der Schule; Enrichment als Gegenmodell.",
+            "zitatstellen": [
+              {
+                "id": "F4-EINL-Z01",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Mueller-Oppliger: SEM-Typen I-III.",
+                "thema": "SEM-Enrichment-Typen",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung"
+                },
+                "transkript_suchhinweise": [
+                  "Handbuch SEM Enrichment Typ I II III"
+                ]
+              },
+              {
+                "id": "F4-EINL-Z02",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Fischer: SEM im deutschsprachigen Raum.",
+                "thema": "SEM im DACH-Raum",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer SEM DACH"
+                ]
+              },
+              {
+                "id": "F4-EINL-Z03",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Trautmann: Gardner als Zugangsstruktur.",
+                "thema": "Multiple Intelligenzen als Zugang",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Trautmann Gardner Zugang"
+                ]
+              },
+              {
+                "id": "F4-EINL-Z04",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "parencite",
+                "kontextsatz": "Buholzer/Kummer Wyss: Homogenitaetsorientierung im CH-System.",
+                "thema": "Homogenitaetslogik",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010 (Hrsg.)"
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer Homogenitaet",
+                  "alle gleich alle unterschiedlich"
+                ]
+              },
+              {
+                "id": "F4-EINL-Z05",
+                "bib_key": "weigand2021separativ",
+                "zitat_art": "textcite",
+                "kontextsatz": "Weigand/Kaiser: inklusive Begabungsfoerderung jenseits Hochbegabten-Auswahl.",
+                "thema": "Inklusive Begabungsfoerderung",
+                "verortung_im_original": {
+                  "werk": "Weigand/Kaiser 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Weigand Kaiser separativ integrativ"
+                ]
+              },
+              {
+                "id": "F4-EINL-Z06",
+                "bib_key": "sedmak2021bildungsgerechtigkeit",
+                "zitat_art": "textcite",
+                "kontextsatz": "Sedmak/Kapferer: Bildungsgerechtigkeit als Rahmen.",
+                "thema": "Gerechtigkeitsrahmen",
+                "verortung_im_original": {
+                  "werk": "Sedmak/Kapferer 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Sedmak Kapferer Bildungsgerechtigkeit"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A1",
+            "titel": "Homogenitaetslogik und systematische Unsichtbarkeit",
+            "kernaussage": "TIMSS 55% Lehrkraefte Heterogenitaet als Erschwernis; Polarisierungen; Paedagogik der Vielfalt nur teilweise angekommen.",
+            "zitatstellen": [
+              {
+                "id": "F4-A1-Z01",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "textcite",
+                "kontextsatz": "Buholzer/Kummer Wyss: Bildungssystem auf Homogenitaet ausgerichtet, TIMSS-Befund.",
+                "thema": "Strukturelle Homogenitaetsorientierung",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010",
+                  "kapitel": "Einleitung, Fischer-Kap."
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer TIMSS Heterogenitaet"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A2",
+            "titel": "Enrichment als Gegenmodell: Das Schoolwide Enrichment Model",
+            "kernaussage": "Drei Enrichment-Typen, Drehtuermodell; FFP-Evaluation zeigt Wirksamkeit.",
+            "zitatstellen": [
+              {
+                "id": "F4-A2-Z01",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Fischer: SEM-Typen im DACH-Kontext.",
+                "thema": "SEM Typen Beschreibung",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer SEM Typen"
+                ]
+              },
+              {
+                "id": "F4-A2-Z02",
+                "bib_key": "muelleroppliger2021handbuch",
+                "zitat_art": "parencite",
+                "kontextsatz": "Mueller-Oppliger: Typ-III-Enrichment.",
+                "thema": "Typ-III Enrichment",
+                "verortung_im_original": {
+                  "werk": "Handbuch Begabung"
+                },
+                "transkript_suchhinweise": [
+                  "Handbuch Typ III"
+                ]
+              },
+              {
+                "id": "F4-A2-Z03",
+                "bib_key": "fischer2020begabungsfoerderung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Fischer: Forder-Foerder-Projekt Muenster, Evaluationsergebnisse.",
+                "thema": "FFP-Wirksamkeit",
+                "verortung_im_original": {
+                  "werk": "Fischer et al. 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Fischer FFP Muenster Evaluation"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A3",
+            "titel": "SOLUX: Strukturmerkmale und Wirklogik",
+            "kernaussage": "Vier Merkmale: Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle. UDL-Prinzipien implizit. SOLUX = diagnostisches Fenster.",
+            "zitatstellen": [
+              {
+                "id": "F4-A3-Z01",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "textcite",
+                "kontextsatz": "Buholzer/Kummer Wyss: alternative Beurteilungsformen erlauben produktiven Heterogenitaets-Umgang.",
+                "thema": "Alternative Beurteilung",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer alternative Beurteilung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A4",
+            "titel": "Inklusive Begabungsfoerderung als Gerechtigkeitsperspektive",
+            "kernaussage": "Weigand/Kaiser: inklusiv + vertiefend als Komplement. Sedmak: ohne aktive Suche = Privilegienreproduktion. Mueller-Oppliger: plurale Gesellschaft.",
+            "zitatstellen": [
+              {
+                "id": "F4-A4-Z01",
+                "bib_key": "weigand2021separativ",
+                "zitat_art": "textcite",
+                "kontextsatz": "Weigand/Kaiser: integrativ/separativ als Komplement.",
+                "thema": "Integrativ vs. separativ",
+                "verortung_im_original": {
+                  "werk": "Weigand/Kaiser 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Weigand Komplement"
+                ]
+              },
+              {
+                "id": "F4-A4-Z02",
+                "bib_key": "sedmak2021bildungsgerechtigkeit",
+                "zitat_art": "textcite",
+                "kontextsatz": "Sedmak/Kapferer: Schule muss aktiv nach Potenzialen suchen.",
+                "thema": "Aktive Suche als Gerechtigkeit",
+                "verortung_im_original": {
+                  "werk": "Sedmak/Kapferer 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Sedmak aktive Suche"
+                ]
+              },
+              {
+                "id": "F4-A4-Z03",
+                "bib_key": "muelleroppliger2021plurale",
+                "zitat_art": "textcite",
+                "kontextsatz": "Mueller-Oppliger: Begabungsfoerderung als Teil inklusiver Schulentwicklung.",
+                "thema": "Plurale Gesellschaft",
+                "verortung_im_original": {
+                  "werk": "Mueller-Oppliger 2021 (plurale Gesellschaft)"
+                },
+                "transkript_suchhinweise": [
+                  "Mueller-Oppliger plurale Gesellschaft"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A5",
+            "titel": "Begabungsfoerderung als Schulentwicklungsimpuls",
+            "kernaussage": "Unger: Gelingensbedingungen; Booth/Ainscow Dimension C; Transfer in Regelunterricht aussteht.",
+            "zitatstellen": [
+              {
+                "id": "F4-A5-Z01",
+                "bib_key": "unger2010begabungsfoerderung",
+                "zitat_art": "textcite",
+                "kontextsatz": "Unger: Gelingensbedingungen Begabungsfoerderung Regelschule.",
+                "thema": "Gelingensbedingungen",
+                "verortung_im_original": {
+                  "werk": "Unger 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Unger NMS Begabungsfoerderung"
+                ]
+              },
+              {
+                "id": "F4-A5-Z02",
+                "bib_key": "booth2019index",
+                "zitat_art": "textcite",
+                "kontextsatz": "Booth/Ainscow: Dimension C Indikatoren.",
+                "thema": "Dimension C Indikatoren",
+                "verortung_im_original": {
+                  "werk": "Booth/Ainscow Index",
+                  "kapitel": "Dim. C Inklusive Praktiken"
+                },
+                "transkript_suchhinweise": [
+                  "Index Dimension C",
+                  "Barrieren Lernen Teilhabe"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F4-A6",
+            "titel": "Konsequenzen fuer die Praxis inklusiver Begabungsfoerderung",
+            "kernaussage": "Drei Konsequenzen: Diagnostische Gelegenheit, Uebertrittsfrage, Transfer in Regelunterricht.",
+            "zitatstellen": []
+          }
+        ],
+        "kernliteratur": [
+          {
+            "bib_key": "buholzer2010allegleich",
+            "umfang_seiten": 30,
+            "kapitel": "Einleitung, Fischer-Kap."
+          },
+          {
+            "bib_key": "muelleroppliger2021handbuch",
+            "umfang_seiten": 40,
+            "kapitel": "SEM, Enrichment, Inklusion"
+          },
+          {
+            "bib_key": "weigand2021separativ",
+            "umfang_seiten": 15
+          },
+          {
+            "bib_key": "sedmak2021bildungsgerechtigkeit",
+            "umfang_seiten": 15
+          },
+          {
+            "bib_key": "fischer2020begabungsfoerderung",
+            "umfang_seiten": 30
+          },
+          {
+            "bib_key": "booth2019index",
+            "umfang_seiten": 30,
+            "kapitel": "Dimension C"
+          },
+          {
+            "bib_key": "unger2010begabungsfoerderung",
+            "umfang_seiten": 20
+          },
+          {
+            "bib_key": "brunner2021hochbegabung",
+            "umfang_seiten": 25,
+            "kapitel": "Identifikation, Foerdermodelle CH",
+            "hinweis_verify": "3. Aufl. 2021 oder 1. Aufl. 2005 (Klett/Balmer Zug)? VERIFY"
+          }
+        ],
+        "kritische_reflexion": {
+          "id": "F4-KR",
+          "titel": "Nachhaltigkeit und Transfer",
+          "leitfrage": "SOLUX ist zeitlich begrenzt. Wie stellen Sie sicher, dass die sichtbar gewordenen Potenziale nicht wieder unsichtbar werden?",
+          "zitatstellen": [
+            {
+              "id": "F4-KR-Z01",
+              "bib_key": "booth2019index",
+              "zitat_art": "parencite",
+              "kontextsatz": "Booth/Ainscow: drei Dimensionen muessen zusammenwirken.",
+              "thema": "A-B-C Zusammenwirken",
+              "verortung_im_original": {
+                "werk": "Booth/Ainscow Index"
+              },
+              "transkript_suchhinweise": [
+                "Index A B C"
+              ]
+            },
+            {
+              "id": "F4-KR-Z02",
+              "bib_key": "sedmak2021bildungsgerechtigkeit",
+              "zitat_art": "parencite",
+              "kontextsatz": "Sedmak: aktive Suche nach Potenzialen.",
+              "thema": "Aktive Potenzialsuche",
+              "verortung_im_original": {
+                "werk": "Sedmak/Kapferer 2021"
+              },
+              "transkript_suchhinweise": [
+                "Sedmak aktive Suche"
+              ]
+            },
+            {
+              "id": "F4-KR-Z03",
+              "bib_key": "leikhof2021jugendliche",
+              "zitat_art": "parencite",
+              "kontextsatz": "Leikhof: Uebertritte benachteiligen mit Migrationshintergrund.",
+              "thema": "Uebertritt Benachteiligung",
+              "verortung_im_original": {
+                "werk": "Leikhof Diss. 2021"
+              },
+              "transkript_suchhinweise": [
+                "Leikhof Uebertritt"
+              ]
+            },
+            {
+              "id": "F4-KR-Z04",
+              "bib_key": "buholzer2010allegleich",
+              "zitat_art": "parencite",
+              "kontextsatz": "Buholzer/Kummer Wyss: kooperatives Unterrichten.",
+              "thema": "Kooperatives Nachdenken",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010"
+              },
+              "transkript_suchhinweise": [
+                "Buholzer Kooperation"
+              ]
+            },
+            {
+              "id": "F4-KR-Z05",
+              "bib_key": "unger2010begabungsfoerderung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Unger: Gelingensbedingungen.",
+              "thema": "Gelingensbedingungen Unger",
+              "verortung_im_original": {
+                "werk": "Unger 2010"
+              },
+              "transkript_suchhinweise": [
+                "Unger Gelingensbedingungen"
+              ]
+            },
+            {
+              "id": "F4-KR-Z06",
+              "bib_key": "weigand2021separativ",
+              "zitat_art": "parencite",
+              "kontextsatz": "Weigand/Kaiser: integraler Bestandteil Schulentwicklung.",
+              "thema": "Integraler Schulentwicklungsbestandteil",
+              "verortung_im_original": {
+                "werk": "Weigand/Kaiser 2021"
+              },
+              "transkript_suchhinweise": [
+                "Weigand integraler Bestandteil"
+              ]
+            },
+            {
+              "id": "F4-KR-Z07",
+              "bib_key": "muelleroppliger2021plurale",
+              "zitat_art": "parencite",
+              "kontextsatz": "Mueller-Oppliger: gesamtschulische Aufgabe.",
+              "thema": "Gesamtschulische Aufgabe",
+              "verortung_im_original": {
+                "werk": "Mueller-Oppliger plurale Gesellschaft"
+              },
+              "transkript_suchhinweise": [
+                "Mueller-Oppliger gesamtschulisch"
+              ]
+            },
+            {
+              "id": "F4-KR-Z08",
+              "bib_key": "dvs2025bbf",
+              "zitat_art": "parencite",
+              "kontextsatz": "DVS Luzern IBBF, Schulen fuer alle.",
+              "thema": "Institutioneller Rahmen Luzern",
+              "verortung_im_original": {
+                "werk": "DVS Luzern 2025"
+              },
+              "transkript_suchhinweise": [
+                "DVS Luzern Rahmen"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "nummer": 5,
+        "typ": "BW",
+        "dimensionen": [
+          "ZB",
+          "PV"
+        ],
+        "titel": "Beratung und Zusammenarbeit aus SHP-Perspektive",
+        "fragetext": "Wie gestalte ich als SHP Beratung und Zusammenarbeit im multiprofessionellen Team so, dass defizitorientierte Wahrnehmungen bei neu zugewanderten Schueler:innen mit verdeckten Potenzialen reflektiert und ressourcenorientiert erweitert werden?",
+        "label_tex": "sec:frage5",
+        "seitenbudget_vermutet": 213,
+        "kernthese": "Die SHP agiert auf vier Ebenen (Diagnostikerin, Foerderperson, Beraterin, Impulsgeberin Schulentwicklung). Trias: fachliche Unabhaengigkeit, reflexive Partnerschaftlichkeit, institutionelle Wachsamkeit.",
+        "abschnitte": [
+          {
+            "id": "F5-EINL",
+            "titel": "Einleitungsrahmen",
+            "kernaussage": "Ausgangslage: Fachpersonen sehen Defizite, Fachstellen raten zum Abwarten, Verweise aus dem Unterricht.",
+            "zitatstellen": [
+              {
+                "id": "F5-EINL-Z01",
+                "bib_key": "burow2020future",
+                "zitat_art": "parencite",
+                "kontextsatz": "Burow: Fokuswechsel Defizit->Staerken ueber gemeinsame Erfahrung.",
+                "thema": "Positive Paedagogik/Future Fridays",
+                "verortung_im_original": {
+                  "werk": "Burow 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Burow Future Fridays",
+                  "Positive Paedagogik"
+                ]
+              },
+              {
+                "id": "F5-EINL-Z02",
+                "bib_key": "burow2021positive",
+                "zitat_art": "parencite",
+                "kontextsatz": "Burow Positive Paedagogik.",
+                "thema": "Positive Paedagogik",
+                "verortung_im_original": {
+                  "werk": "Burow 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Burow Positive Paedagogik"
+                ]
+              },
+              {
+                "id": "F5-EINL-Z03",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "parencite",
+                "kontextsatz": "Buholzer/Kummer Wyss: Kooperation auf Schul-/Unterrichtsebene.",
+                "thema": "Kooperative Unterrichtsentwicklung",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer Kooperation Schule Unterricht"
+                ]
+              },
+              {
+                "id": "F5-EINL-Z04",
+                "bib_key": "leikhof2021jugendliche",
+                "zitat_art": "textcite",
+                "kontextsatz": "Leikhof: Unterrepraesentation in Begabungsfoerderung.",
+                "thema": "Unterrepraesentation bei Jugendlichen",
+                "verortung_im_original": {
+                  "werk": "Leikhof Diss. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Leikhof Unterrepraesentation"
+                ]
+              },
+              {
+                "id": "F5-EINL-Z05",
+                "bib_key": "macha2019gender",
+                "zitat_art": "textcite",
+                "kontextsatz": "Macha: gender- und diversitaetssensible Professionalisierung.",
+                "thema": "Diversitaetssensible Professionalisierung",
+                "verortung_im_original": {
+                  "werk": "Macha 2019",
+                  "seiten_vermutet": "160--172 oder 160--173 (VERIFY)"
+                },
+                "transkript_suchhinweise": [
+                  "Macha Gender Diversitaet"
+                ]
+              },
+              {
+                "id": "F5-EINL-Z06",
+                "bib_key": "kosoroklabhart2021voneltern",
+                "zitat_art": "parencite",
+                "kontextsatz": "Kosorok Labhart et al.: von Eltern lernen.",
+                "thema": "Elternperspektive",
+                "verortung_im_original": {
+                  "werk": "Kosorok Labhart et al. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Kosorok Labhart Eltern"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A1",
+            "titel": "Defizitorientierung als professionelle Gewohnheit",
+            "kernaussage": "Drei implizite Annahmen im Team (Abwarten, Rueckzug=Verweigerung, keine Begabungsfoerderung).",
+            "zitatstellen": [
+              {
+                "id": "F5-A1-Z01",
+                "bib_key": "leikhof2021jugendliche",
+                "zitat_art": "textcite",
+                "kontextsatz": "Leikhof: drei Barrieren (Erwartung, Selektion, Passung).",
+                "thema": "Drei Barrieren",
+                "verortung_im_original": {
+                  "werk": "Leikhof Diss. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Leikhof drei Barrieren",
+                  "Pygmalion Effekt"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A2",
+            "titel": "Positive Paedagogik: Vom Defizitblick zum Staerkenfokus",
+            "kernaussage": "Burow: drei Wege (Staerkenorientierung, Wertschaetzung, Potenzialentfaltung); Future Fridays.",
+            "zitatstellen": [
+              {
+                "id": "F5-A2-Z01",
+                "bib_key": "burow2021positive",
+                "zitat_art": "textcite",
+                "kontextsatz": "Burow Positive Paedagogik, sieben Wege.",
+                "thema": "Sieben Wege, drei zentrale",
+                "verortung_im_original": {
+                  "werk": "Burow 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Burow sieben Wege",
+                  "Staerkenorientierung"
+                ]
+              },
+              {
+                "id": "F5-A2-Z02",
+                "bib_key": "burow2020future",
+                "zitat_art": "parencite",
+                "kontextsatz": "Burow Future Fridays, Lernkultur.",
+                "thema": "Future Fridays Lernkultur",
+                "verortung_im_original": {
+                  "werk": "Burow 2020"
+                },
+                "transkript_suchhinweise": [
+                  "Burow Future Fridays Lernkultur"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A3",
+            "titel": "Kooperation im multiprofessionellen Team",
+            "kernaussage": "Rollenkumulation SHP+DaZ+Mentorin; Beobachterverzerrung als Risiko; Triangulation als Gegenmittel.",
+            "zitatstellen": [
+              {
+                "id": "F5-A3-Z01",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "parencite",
+                "kontextsatz": "Buholzer: kooperatives Unterrichten als gemeinsames Nachdenken.",
+                "thema": "Kooperatives Unterrichten",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer gemeinsames Nachdenken"
+                ]
+              },
+              {
+                "id": "F5-A3-Z02",
+                "bib_key": "trautmann2016einfuehrung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Trautmann: etablierte Indikatoren der Begabungserkennung.",
+                "thema": "Indikatoren Begabungserkennung",
+                "verortung_im_original": {
+                  "werk": "Trautmann 2016"
+                },
+                "transkript_suchhinweise": [
+                  "Trautmann Indikatoren"
+                ]
+              },
+              {
+                "id": "F5-A3-Z03",
+                "bib_key": "ipege2009professionelle",
+                "zitat_art": "parencite",
+                "kontextsatz": "iPEGE: Qualitaetsstandards.",
+                "thema": "iPEGE-Standards",
+                "verortung_im_original": {
+                  "werk": "iPEGE 2009"
+                },
+                "transkript_suchhinweise": [
+                  "iPEGE Standards Beobachtung"
+                ]
+              },
+              {
+                "id": "F5-A3-Z04",
+                "bib_key": "buholzer2010allegleich",
+                "zitat_art": "textcite",
+                "kontextsatz": "Buholzer: Diagnostik im Regelunterricht verankert, kriteriengestuetzt.",
+                "thema": "Paedagogische Diagnostik im Alltag",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Buholzer paedagogische Diagnostik"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A4",
+            "titel": "Die Beratung der Klassenlehrperson",
+            "kernaussage": "Quereinsteigerin; diversitaetssensible Professionalisierung; Kontrastbeobachtung statt Belehrung.",
+            "zitatstellen": [
+              {
+                "id": "F5-A4-Z01",
+                "bib_key": "macha2019gender",
+                "zitat_art": "textcite",
+                "kontextsatz": "Macha: diversitaetssensible Professionalisierung, Stereotype reflektieren.",
+                "thema": "Professionalisierung und Stereotype",
+                "verortung_im_original": {
+                  "werk": "Macha 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Macha diversitaetssensibel"
+                ]
+              },
+              {
+                "id": "F5-A4-Z02",
+                "bib_key": "grossrieder2010anerkennung",
+                "zitat_art": "parencite",
+                "kontextsatz": "Grossrieder: Anerkennung auch gegenueber Kolleg:innen.",
+                "thema": "Anerkennung im Kollegium",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Grossrieder Kollegium Anerkennung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A5",
+            "titel": "Zusammenarbeit mit Eltern und externen Fachstellen",
+            "kernaussage": "Eltern als Expert:innen; professionelles Dolmetschen; Handeln gegen Mainstream der Fachstellen.",
+            "zitatstellen": [
+              {
+                "id": "F5-A5-Z01",
+                "bib_key": "kosoroklabhart2021voneltern",
+                "zitat_art": "textcite",
+                "kontextsatz": "Kosorok Labhart/Luginbuehl/Schoellhorn: Eltern als Expert:innen.",
+                "thema": "Elternkooperation",
+                "verortung_im_original": {
+                  "werk": "Kosorok Labhart et al. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Kosorok Labhart Elternwissen"
+                ]
+              },
+              {
+                "id": "F5-A5-Z02",
+                "bib_key": "leikhof2021jugendliche",
+                "zitat_art": "textcite",
+                "kontextsatz": "Leikhof: proaktive Identifikation haengt an Schluesselpersonen.",
+                "thema": "Handeln gegen Mainstream",
+                "verortung_im_original": {
+                  "werk": "Leikhof Diss. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Leikhof Schluesselpersonen"
+                ]
+              },
+              {
+                "id": "F5-A5-Z03",
+                "bib_key": "leikhof2021jugendliche",
+                "zitat_art": "parencite",
+                "kontextsatz": "Leikhof: Systematisierung statt Zufaelligkeit.",
+                "thema": "Systematisierung Identifikation",
+                "verortung_im_original": {
+                  "werk": "Leikhof Diss. 2021"
+                },
+                "transkript_suchhinweise": [
+                  "Leikhof Systematisierung"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A6",
+            "titel": "Institutionelle Reflexion: Von der Einzelfallberatung zur Schulentwicklung",
+            "kernaussage": "Kappus: Einzelfallberatung reicht nicht; Macha: doppelte Professionalisierungsaufgabe.",
+            "zitatstellen": [
+              {
+                "id": "F5-A6-Z01",
+                "bib_key": "kappus2010migration",
+                "zitat_art": "parencite",
+                "kontextsatz": "Kappus: Institutionelle Diskriminierung in Alltagspraxis.",
+                "thema": "Institutionelle Praktik-Reflexion",
+                "verortung_im_original": {
+                  "werk": "Buholzer/Kummer Wyss 2010"
+                },
+                "transkript_suchhinweise": [
+                  "Kappus institutionelle Praxis"
+                ]
+              },
+              {
+                "id": "F5-A6-Z02",
+                "bib_key": "macha2019gender",
+                "zitat_art": "textcite",
+                "kontextsatz": "Macha: doppelte Professionalisierungsaufgabe (individuell + strukturell).",
+                "thema": "Doppelte Professionalisierung",
+                "verortung_im_original": {
+                  "werk": "Macha 2019"
+                },
+                "transkript_suchhinweise": [
+                  "Macha doppelte Aufgabe"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "F5-A7",
+            "titel": "Konsequenzen fuer das SHP-Professionsverstaendnis",
+            "kernaussage": "Vier Ebenen + Trias: fachliche Unabhaengigkeit, reflexive Partnerschaftlichkeit, institutionelle Wachsamkeit.",
+            "zitatstellen": []
+          }
+        ],
+        "kernliteratur": [
+          {
+            "bib_key": "burow2021positive",
+            "umfang_seiten": 50,
+            "kapitel": "Staerkenorientierung, Schulentwicklung"
+          },
+          {
+            "bib_key": "burow2020future",
+            "umfang_seiten": 30,
+            "kapitel": "Lernkultur, Zukunftskompetenzen"
+          },
+          {
+            "bib_key": "buholzer2010allegleich",
+            "umfang_seiten": 30,
+            "kapitel": "Kooperation, Diagnostik"
+          },
+          {
+            "bib_key": "leikhof2021jugendliche",
+            "umfang_seiten": 60,
+            "kapitel": "Kap. 1--3"
+          },
+          {
+            "bib_key": "kosoroklabhart2021voneltern",
+            "umfang_seiten": 30
+          },
+          {
+            "bib_key": "macha2019gender",
+            "umfang_seiten": 13,
+            "seiten_vermutet": "160--172 oder 160--173 (VERIFY)"
+          },
+          {
+            "bib_key": "kappus2010migration",
+            "umfang_seiten": "bereits bei F3 gezaehlt"
+          },
+          {
+            "bib_key": "brunner2021hochbegabung",
+            "umfang_seiten": "bereits bei F4 gezaehlt",
+            "kapitel": "Schweizer Foerderkontext"
+          }
+        ],
+        "kritische_reflexion": {
+          "id": "F5-KR",
+          "titel": "Professionelles Handeln bei Dissens",
+          "leitfrage": "Die Fachstellen raten zum Abwarten. Sie haben dennoch eine schulpsychologische Abklaerung und KJPD-Einschaetzung initiiert. Wie begruenden Sie das Handeln gegen den Konsens, ohne die Kooperation zu beschaedigen?",
+          "zitatstellen": [
+            {
+              "id": "F5-KR-Z01",
+              "bib_key": "sturm2016graphomotorik",
+              "zitat_art": "parencite",
+              "kontextsatz": "Sturm: Graphomotorik eigenstaendig, nicht spracherwerbsbedingt.",
+              "thema": "Domaenenspezifik Graphomotorik",
+              "verortung_im_original": {
+                "werk": "Sturm 2016"
+              },
+              "transkript_suchhinweise": [
+                "Sturm Graphomotorik eigenstaendig"
+              ]
+            },
+            {
+              "id": "F5-KR-Z02",
+              "bib_key": "preckel2013hochbegabung",
+              "zitat_art": "parencite",
+              "kontextsatz": "Preckel: 2e-Maskierung.",
+              "thema": "2e-Maskierung-Argument",
+              "verortung_im_original": {
+                "werk": "Preckel/Baudson 2013"
+              },
+              "transkript_suchhinweise": [
+                "Preckel 2e Maskierung"
+              ]
+            },
+            {
+              "id": "F5-KR-Z03",
+              "bib_key": "stamm2014mirage",
+              "zitat_art": "parencite",
+              "kontextsatz": "MIRAGE: spaet erkannte Potenziale.",
+              "thema": "Risiko Bildungsbiographie",
+              "verortung_im_original": {
+                "werk": "Stamm MIRAGE 2014"
+              },
+              "transkript_suchhinweise": [
+                "Stamm MIRAGE Biographie"
+              ]
+            },
+            {
+              "id": "F5-KR-Z04",
+              "bib_key": "leikhof2021jugendliche",
+              "zitat_art": "parencite",
+              "kontextsatz": "Leikhof: Unterrepraesentation bei spaeter/fehlender Abklaerung.",
+              "thema": "Risiko verspaeteter Abklaerung",
+              "verortung_im_original": {
+                "werk": "Leikhof Diss. 2021"
+              },
+              "transkript_suchhinweise": [
+                "Leikhof Unterrepraesentation Abklaerung"
+              ]
+            },
+            {
+              "id": "F5-KR-Z05",
+              "bib_key": "burow2021positive",
+              "zitat_art": "parencite",
+              "kontextsatz": "Burow: Positive Paedagogik als Haltung.",
+              "thema": "Positive Paedagogik als Rahmen",
+              "verortung_im_original": {
+                "werk": "Burow 2021"
+              },
+              "transkript_suchhinweise": [
+                "Burow Haltung"
+              ]
+            },
+            {
+              "id": "F5-KR-Z06",
+              "bib_key": "buholzer2010allegleich",
+              "zitat_art": "parencite",
+              "kontextsatz": "Buholzer: kooperatives Unterrichten als Nachdenken.",
+              "thema": "Kooperation statt Wettbewerb",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010"
+              },
+              "transkript_suchhinweise": [
+                "Buholzer kein Wettbewerb"
+              ]
+            },
+            {
+              "id": "F5-KR-Z07",
+              "bib_key": "macha2019gender",
+              "zitat_art": "parencite",
+              "kontextsatz": "Macha: Systemaufgabe, nicht individuelle Fachperson.",
+              "thema": "Systemaufgabe Professionalisierung",
+              "verortung_im_original": {
+                "werk": "Macha 2019"
+              },
+              "transkript_suchhinweise": [
+                "Macha Systemaufgabe"
+              ]
+            },
+            {
+              "id": "F5-KR-Z08",
+              "bib_key": "kosoroklabhart2021voneltern",
+              "zitat_art": "parencite",
+              "kontextsatz": "Kosorok Labhart: professionelles Dolmetschen.",
+              "thema": "Dolmetschen/Elternkooperation",
+              "verortung_im_original": {
+                "werk": "Kosorok Labhart et al. 2021"
+              },
+              "transkript_suchhinweise": [
+                "Kosorok Labhart Dolmetschen"
+              ]
+            },
+            {
+              "id": "F5-KR-Z09",
+              "bib_key": "kappus2010migration",
+              "zitat_art": "parencite",
+              "kontextsatz": "Kappus: Routinen der Diskriminierung.",
+              "thema": "Routinen und Diskriminierung",
+              "verortung_im_original": {
+                "werk": "Buholzer/Kummer Wyss 2010"
+              },
+              "transkript_suchhinweise": [
+                "Kappus Routinen"
+              ]
+            },
+            {
+              "id": "F5-KR-Z10",
+              "bib_key": "burow2020future",
+              "zitat_art": "parencite",
+              "kontextsatz": "Burow: produktiver Dissens statt Konformitaet.",
+              "thema": "Produktiver Dissens",
+              "verortung_im_original": {
+                "werk": "Burow 2020"
+              },
+              "transkript_suchhinweise": [
+                "Burow Future produktiver Dissens"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "ergaenzende_fachartikel": [
+      {
+        "id": "FA-MUN",
+        "bib_key": "mun2020identifying",
+        "label_tex": "subsec:mun2020",
+        "vollzitat": "Mun, R.U., Hemmler, V., Langley, S.D., Ware, S., Gubbins, E.J., Callahan, C.M., McCoach, D.B. & Siegle, D. (2020). Identifying and Serving English Learners in Gifted Education: Looking Back and Moving Forward. Journal for the Education of the Gifted, 43(4), 297--335.",
+        "methode": "Systematisches Review 50 Artikel (1974--2018), ERIC/PsycINFO u.a.",
+        "bezug_zu_fragen": [
+          1,
+          4,
+          5
+        ],
+        "thematische_abschnitte": [
+          "Nomination als Selektionsfilter",
+          "Screening/Assessment: Grenzen nonverbaler Tests",
+          "Foerderung nach Identifikation",
+          "Identifikationsmodelle (Young Scholars, Project CLUE, RTI)",
+          "Uebergreifende Schlussfolgerungen"
+        ],
+        "interne_primaerstudien": [
+          {
+            "id": "FA-MUN-S01",
+            "kurzref": "Peterson/Margolin 1997",
+            "befund": "55 angloamerikanische Lehrpersonen, keine mehrfach nominierte sprachliche Minderheit"
+          },
+          {
+            "id": "FA-MUN-S02",
+            "kurzref": "Allen 2017",
+            "befund": "Sprachbarriere + Testfixierung verhindern EL-Identifikation"
+          },
+          {
+            "id": "FA-MUN-S03",
+            "kurzref": "Costello 2017",
+            "befund": "s.o."
+          },
+          {
+            "id": "FA-MUN-S04",
+            "kurzref": "Harradine et al. 2013 (TOPS)",
+            "befund": "22% der Kinder ohne strukturiertes Instrument uebersehen; 74% nutzbar"
+          },
+          {
+            "id": "FA-MUN-S05",
+            "kurzref": "Lohman et al. 2008",
+            "befund": "EL -0.5 bis -0.6 SD auf nonverbalen Tests"
+          },
+          {
+            "id": "FA-MUN-S06",
+            "kurzref": "Lakin/Lohman 2011",
+            "befund": "Nonverbal schlechtere Schulleistungsvorhersage"
+          },
+          {
+            "id": "FA-MUN-S07",
+            "kurzref": "Matthews/Kirsch 2011",
+            "befund": "Keine Unterschiede verbal/nonverbal"
+          },
+          {
+            "id": "FA-MUN-S08",
+            "kurzref": "Kirschenbaum 1998; Lidz/Macrine 2001",
+            "befund": "Dynamische Diagnostik; NNAT-Modifikation von <1% auf 5%"
+          },
+          {
+            "id": "FA-MUN-S09",
+            "kurzref": "Sarouphim 1999, 2000 (DISCOVER)",
+            "befund": "Performanzbasiertes Assessment"
+          },
+          {
+            "id": "FA-MUN-S10",
+            "kurzref": "Lohman/Gambrell 2012",
+            "befund": "Lokale Normen"
+          },
+          {
+            "id": "FA-MUN-S11",
+            "kurzref": "Cho et al. 2015 (M3)",
+            "befund": "Effekt d=0.63 fuer mathematisch begabte EL"
+          },
+          {
+            "id": "FA-MUN-S12",
+            "kurzref": "Brulles et al. 2010, 2012",
+            "befund": "Cluster-Grouping wirksam bei EL"
+          },
+          {
+            "id": "FA-MUN-S13",
+            "kurzref": "Pereira/Gentry 2013 (Project HOPE)",
+            "befund": "22 hispanische EL, keine in Regelschule identifiziert"
+          },
+          {
+            "id": "FA-MUN-S14",
+            "kurzref": "Horn 2015 (Young Scholars)",
+            "befund": "+565% afroamerikanisch/hispanisch in 11 Jahren"
+          },
+          {
+            "id": "FA-MUN-S15",
+            "kurzref": "Pierce et al. 2007 (Project CLUE)",
+            "befund": "30% EL qualifizieren ueber Nebenstufen"
+          },
+          {
+            "id": "FA-MUN-S16",
+            "kurzref": "Bianco/Harris 2014 (RTI)",
+            "befund": "Dreistufiges staerkenbasiertes RTI"
+          }
+        ],
+        "kernbotschaft_pruefung": "Systematisches Review belegt: strukturierte Beobachtungsinstrumente (TOPS: 22%) und dynamische Diagnostik (Lidz/Macrine: <1% -> 5%) verbessern die Identifikation begabter EL signifikant. Young-Scholars-Modell: +565% Identifikation in 11 Jahren."
+      },
+      {
+        "id": "FA-GUB",
+        "bib_key": "gubbins2020promising",
+        "label_tex": "subsec:gubbins2020",
+        "vollzitat": "Gubbins, E.J., Siegle, D., Peters, P.M., Carpenter, A.Y., Hamilton, R., McCoach, D.B., Puryear, J.S., Langley, S.D. & Long, D. (2020). Promising Practices for Improving Identification of English Learners for Gifted and Talented Programs. Journal for the Education of the Gifted, 43(4), 336--369.",
+        "methode": "Qualitative Feldstudie 16 Schulen (9 Distrikte, 3 Bundesstaaten); 225 Interviews; Grounded-Theory",
+        "bezug_zu_fragen": [
+          1,
+          4,
+          5
+        ],
+        "vier_themen": [
+          {
+            "nr": 1,
+            "titel": "Universelles Screening",
+            "kernbefund": "14/16 Schulen; wiederholt ueber Jahrgangsstufen; umgeht lehrerbasierte Nomination"
+          },
+          {
+            "nr": 2,
+            "titel": "Alternative Zugangswege",
+            "kernbefund": "Vorbereitungsprogramme (5), Talent Pools (5), muttersprachliche Testung, Portfolio"
+          },
+          {
+            "nr": 3,
+            "titel": "Web of Communication",
+            "kernbefund": "Mehrsprachiges Personal; 13/16 benennen fehlende DaZ-Begabten-Koordination als Herausforderung"
+          },
+          {
+            "nr": 4,
+            "titel": "Weiterbildung",
+            "kernbefund": "EIN gemeinsames Treffen: 4 -> 45 identifizierte EL; nur 5/16 Schulen systematisch"
+          }
+        ],
+        "vier_persistente_herausforderungen": [
+          "Zoegerliche Nomination durch Lehrpersonen",
+          "Rigide Cut-off-Werte",
+          "Diskrepanz Testsprache / Foerdersprache",
+          "Definitorische Unschaerfe EL / begabt"
+        ],
+        "kernbotschaft_pruefung": "\"Deficit Detectors\" -> \"Talent Scouts\" durch vier Massnahmen. Das Datum '4 -> 45 durch ein Treffen' ist der staerkste Einzelbeleg fuer Wirksamkeit interprofessioneller Zusammenarbeit."
+      },
+      {
+        "id": "FA-ALH",
+        "bib_key": "alhroub2021utility",
+        "label_tex": "subsec:alhroub2021",
+        "vollzitat": "Al-Hroub, A. (2021). Utility of Psychometric and Dynamic Assessments for Identifying Cognitive Characteristics of Twice-Exceptional Students. Frontiers in Psychology, 12, Article 747872.",
+        "methode": "30 2E-Kinder + 22 Kontrollen, 10-12 Jahre, Amman (Jordanien); 4 Instrumente",
+        "bezug_zu_fragen": [
+          1,
+          2,
+          3
+        ],
+        "kernbefunde": [
+          {
+            "id": "FA-ALH-B01",
+            "thema": "WISC-Profil",
+            "befund": "VIQ-PIQ-Diskrepanz 12.73 (2E) vs 7.95 (Kontrolle); grosse Subtest-Streuung"
+          },
+          {
+            "id": "FA-ALH-B02",
+            "thema": "Dynamische Diagnostik",
+            "befund": "Lernzuwachs 10.55 -> 17.63, d=9.22 (abh. Stichprobe); >90% IQ>=120 mit massiver Unterschaetzung durch statischen Test"
+          },
+          {
+            "id": "FA-ALH-B03",
+            "thema": "Wahrnehmungsprofil",
+            "befund": "40% auditiv, 6.7% visuell, 40% gemischt, 13.3% ohne; staerker visuell-raeumlich"
+          },
+          {
+            "id": "FA-ALH-B04",
+            "thema": "Lesen/Schreiben",
+            "befund": "1.2-2.5 Klassenstufen Rueckstand; Arab.-Diglossia verschaerft LD"
+          }
+        ],
+        "methodologische_these": "Psychometrische und dynamische Diagnostik bilden Kontinuum, nicht Opposition. Dynamik als notwendige Erweiterung, nicht Alternative.",
+        "einschraenkungen": [
+          "N=30 klein, nur MG/LD-Profil",
+          "WISC-III-Jordan (nicht WISC-V)",
+          "Keine 2E-Kontrollgruppe fuer dynamische Komponente"
+        ],
+        "kernbotschaft_pruefung": "Staerkste experimentelle Evidenz fuer Ueberlegenheit dynamischer Diagnostik bei 2E-Kindern. d=9.22 (Prae-Post abh. Stichprobe) zeigt massive Unterschaetzung durch statische Tests."
+      },
+      {
+        "id": "FA-ALO",
+        "bib_key": "alodat2025equitable",
+        "label_tex": "subsec:alodat2025",
+        "vollzitat": "Alodat, A.M. (2025). Equitable Identification Practices for Gifted Refugee Students: A Systematic Review and Comparative Thematic Analysis. Gifted Child Quarterly, OnlineFirst.",
+        "methode": "Systematisches Review 26 Studien 2000-2024; 2054 Codes -> 5 Kernthemen",
+        "bezug_zu_fragen": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "fuenf_themen": [
+          "Identifikationspraktiken: traditionell vs. nichttraditionell",
+          "Anpassungen fuer gerechte Identifikation",
+          "Identifikationsherausforderungen (Genauigkeit, Policy, Zugang)",
+          "Auswirkungen auf Wohlbefinden",
+          "Limitationen bestehender Methoden"
+        ],
+        "kernthese": "Bewaehrte Praktiken fuer unterrepraesentierte Begabte (universelles Screening, nonverbale Tests, Portfolio, flexible Cut-offs) greifen bei gefluechteten Kindern nicht automatisch. Zusaetzliche, spezifisch angepasste Rahmen erforderlich wegen unterbrochener Schulbiographie, Trauma, Akkulturationsstress.",
+        "nichttraditionelle_begabungsformen": [
+          "Resilienz",
+          "emotionale Intelligenz",
+          "kreatives Problemloesen",
+          "Anpassungsfaehigkeit",
+          "intrinsische Motivation"
+        ],
+        "kernbotschaft_pruefung": "Aktuelles GCQ-Review 2025: Selbst bewaehrte Praktiken reichen bei gefluechteten Kindern nicht, weil kumulative Belastungen qualitativ anders sind. Klammer um Mun, Gubbins, Al-Hroub."
+      }
+    ]
+  },
+  "bibliographie": [
+    {
+      "bib_key": "erzinger2023pisa",
+      "kurzref": "Erzinger et al. 2023",
+      "typ": "Report/Studie",
+      "titel": "PISA 2022 (Schweizer Auswertung)",
+      "kontextstellen": [
+        "E-AL-Z01"
+      ],
+      "transkript_suchwoerter": [
+        "PISA 2022 Schweiz",
+        "Bildungsungleichheit",
+        "sozioekonomischer Gradient"
+      ]
+    },
+    {
+      "bib_key": "stamm2021fehlenderblick",
+      "kurzref": "Stamm 2021",
+      "typ": "Buchkapitel",
+      "titel": "Der fehlende Blick auf begabte Minoritaeten",
+      "buchkontext": "In: Handbuch Begabung",
+      "seiten_verify": "576--587 ODER 576--588",
+      "kontextstellen": [
+        "E-AL-Z02",
+        "F1-EINL-Z06",
+        "F1-A2-Z01",
+        "F1-KR-Z08"
+      ],
+      "transkript_suchwoerter": [
+        "begabte Minoritaeten",
+        "blinder Fleck",
+        "Stamm Handbuch Begabung"
+      ]
+    },
+    {
+      "bib_key": "bfs2022migration",
+      "kurzref": "BFS 2022",
+      "typ": "Statistik",
+      "titel": "Migrationsstatistik Schweiz",
+      "kontextstellen": [
+        "E-AL-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "BFS Migration",
+        "Bevoelkerungsstatistik CH"
+      ]
+    },
+    {
+      "bib_key": "kellerkoller2021hellekoepfe",
+      "kurzref": "Keller-Koller 2021",
+      "typ": "Buchkapitel",
+      "titel": "Helle Koepfe mit Migrationshintergrund",
+      "buchkontext": "In: Huser (Hrsg.) 2021",
+      "seiten_verify": "XXX--XXX (in Quellen.bib noch offen)",
+      "kontextstellen": [
+        "E-AL-Z04",
+        "F1-EINL-Z08",
+        "F1-A2-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Keller-Koller helle Koepfe",
+        "Migrationshintergrund Begabung"
+      ]
+    },
+    {
+      "bib_key": "leikhof2021jugendliche",
+      "kurzref": "Leikhof 2021 (Diss.)",
+      "typ": "Dissertation",
+      "titel": "Jugendliche mit Migrationshintergrund in der Begabungsfoerderung",
+      "kontextstellen": [
+        "E-AL-Z05",
+        "F5-EINL-Z04",
+        "F5-A1-Z01",
+        "F5-A5-Z02",
+        "F5-A5-Z03",
+        "F4-KR-Z03",
+        "F5-KR-Z04"
+      ],
+      "transkript_suchwoerter": [
+        "Leikhof Dissertation",
+        "Unterrepraesentation Begabung",
+        "Pygmalion Effekt"
+      ]
+    },
+    {
+      "bib_key": "dvs2025bbf",
+      "kurzref": "DVS Luzern 2025",
+      "typ": "Behoerdenpapier",
+      "titel": "Begabungs- und Begabtenfoerderung Kanton Luzern",
+      "kontextstellen": [
+        "E-AL-Z06",
+        "F4-KR-Z08"
+      ],
+      "transkript_suchwoerter": [
+        "DVS Luzern IBBF",
+        "Umsetzungshilfen Kanton"
+      ]
+    },
+    {
+      "bib_key": "kappus2010migration",
+      "kurzref": "Kappus 2010",
+      "typ": "Buchkapitel",
+      "titel": "Umgang mit migrationsbedingter Heterogenitaet",
+      "buchkontext": "In: Buholzer/Kummer Wyss 2010",
+      "kontextstellen": [
+        "E-HP-Z01",
+        "F1-A2-Z06",
+        "F3-EINL-Z05",
+        "F3-KR-Z06",
+        "F5-A6-Z01",
+        "F5-KR-Z09"
+      ],
+      "transkript_suchwoerter": [
+        "Kappus Diskriminierung",
+        "Migration Schule Zuweisung"
+      ]
+    },
+    {
+      "bib_key": "stamm2012migranten",
+      "kurzref": "Stamm 2012",
+      "typ": "Monographie/Aufsatz",
+      "titel": "Migranten mit Potenzial",
+      "kontextstellen": [
+        "E-HP-Z02",
+        "F3-EINL-Z04"
+      ],
+      "transkript_suchwoerter": [
+        "Stamm Migranten Potenzial"
+      ]
+    },
+    {
+      "bib_key": "maehler2018diagnostik",
+      "kurzref": "Maehler/Hasselhorn (Hrsg.) 2018",
+      "typ": "Herausgeberwerk",
+      "titel": "Diagnostik bei Migrantinnen und Migranten",
+      "kapitel_relevant": [
+        "Kap. 1-3",
+        "Kap. 9-10"
+      ],
+      "kontextstellen": [
+        "F1-EINL-Z05",
+        "F1-A3-Z01",
+        "F1-A3-Z02",
+        "F1-KR-Z01"
+      ],
+      "transkript_suchwoerter": [
+        "Maehler Diagnostik Migranten",
+        "WISC Fehlerquellen"
+      ]
+    },
+    {
+      "bib_key": "muelleroppliger2021handbuch",
+      "kurzref": "Mueller-Oppliger/Weigand 2021 (Hrsg.)",
+      "typ": "Handbuch",
+      "titel": "Handbuch Begabung",
+      "kapitel_relevant": [
+        "Begabungsbegriff",
+        "Diagnostik",
+        "SEM/Enrichment",
+        "Inklusion"
+      ],
+      "kontextstellen": [
+        "F1-EINL-Z01",
+        "F1-A1-Z04",
+        "F1-KR-Z06",
+        "F2-EINL-Z07",
+        "F2-A5-Z01",
+        "F4-EINL-Z01",
+        "F4-A2-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Handbuch Begabung",
+        "Mueller-Oppliger Renzulli SEM"
+      ]
+    },
+    {
+      "bib_key": "trautmann2016einfuehrung",
+      "kurzref": "Trautmann 2016",
+      "typ": "Lehrbuch",
+      "titel": "Einfuehrung in die Hochbegabtenpaedagogik",
+      "kapitel_relevant": [
+        "Kap. 1-2"
+      ],
+      "kontextstellen": [
+        "F1-EINL-Z02",
+        "F1-A1-Z02",
+        "F1-A1-Z05",
+        "F1-A4-Z02",
+        "F4-EINL-Z03",
+        "F5-A3-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Trautmann Hochbegabung",
+        "Gardner Multiple Intelligenzen"
+      ]
+    },
+    {
+      "bib_key": "preckel2013hochbegabung",
+      "kurzref": "Preckel/Baudson 2013",
+      "typ": "Lehrbuch",
+      "titel": "Hochbegabung",
+      "kapitel_relevant": [
+        "Kap. 1-2",
+        "2e-Abschnitte"
+      ],
+      "kontextstellen": [
+        "F1-EINL-Z03",
+        "F1-EINL-Z13",
+        "F1-A1-Z01",
+        "F1-A1-Z06",
+        "F1-A4-Z05",
+        "F1-A5-Z01",
+        "F1-KR-Z05",
+        "F5-KR-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Preckel Baudson Hochbegabung",
+        "2e twice exceptional Preckel"
+      ]
+    },
+    {
+      "bib_key": "fischer2020begabungsfoerderung",
+      "kurzref": "Fischer et al. 2020",
+      "typ": "Sammelband",
+      "titel": "Begabungsfoerderung, Leistungsentwicklung, Bildungsgerechtigkeit",
+      "kontextstellen": [
+        "F1-EINL-Z04",
+        "F1-A1-Z07",
+        "F1-KR-Z07",
+        "F2-EINL-Z06",
+        "F2-A4-Z02",
+        "F2-KR-Z07",
+        "F4-EINL-Z02",
+        "F4-A2-Z01",
+        "F4-A2-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "Fischer Muenchner Modell",
+        "Forder Foerder Projekt Muenster"
+      ]
+    },
+    {
+      "bib_key": "stamm2014handbuch",
+      "kurzref": "Stamm 2014 (Handbuch)",
+      "typ": "Handbuch",
+      "titel": "Handbuch Talententwicklung",
+      "kontextstellen": [
+        "F1-EINL-Z07",
+        "F1-A2-Z08"
+      ],
+      "transkript_suchwoerter": [
+        "Stamm Handbuch Talent"
+      ]
+    },
+    {
+      "bib_key": "kellerkoller2009begabte",
+      "kurzref": "Keller-Koller 2009",
+      "typ": "Aufsatz",
+      "titel": "Begabte Kinder mit Migrationshintergrund",
+      "kontextstellen": [
+        "F1-EINL-Z09",
+        "F1-A2-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "Keller-Koller 2009 Begabte"
+      ]
+    },
+    {
+      "bib_key": "ipege2009professionelle",
+      "kurzref": "iPEGE 2009",
+      "typ": "Fachpapier",
+      "titel": "Professionelle Begabtenfoerderung",
+      "kontextstellen": [
+        "F1-EINL-Z10",
+        "F1-A4-Z01",
+        "F1-KR-Z04",
+        "F5-A3-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "iPEGE Qualitaetsstandards"
+      ]
+    },
+    {
+      "bib_key": "reutlinger2015hochbegabung",
+      "kurzref": "Reutlinger et al. 2015",
+      "typ": "Aufsatz",
+      "titel": "Hochbegabung und Migrationshintergrund",
+      "kontextstellen": [
+        "F1-EINL-Z11",
+        "F1-A2-Z05",
+        "F1-A4-Z04"
+      ],
+      "transkript_suchwoerter": [
+        "Reutlinger Hochbegabung Migration"
+      ]
+    },
+    {
+      "bib_key": "uslucan2012begabung",
+      "kurzref": "Uslucan 2012",
+      "typ": "Aufsatz",
+      "titel": "Migration und Begabung",
+      "kontextstellen": [
+        "F1-EINL-Z12",
+        "F1-A4-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "Uslucan Bildungsaspirationen Migration"
+      ]
+    },
+    {
+      "bib_key": "lehwald2017motivation",
+      "kurzref": "Lehwald 2017",
+      "typ": "Monographie",
+      "titel": "Motivation trifft Begabung",
+      "kapitel_relevant": [
+        "Kap. 2-4",
+        "Kap. 5-6 (Emotion)"
+      ],
+      "kontextstellen": [
+        "F1-EINL-Z14",
+        "F1-A5-Z03",
+        "F1-KR-Z09",
+        "F2-EINL-Z05",
+        "F2-A4-Z01",
+        "F2-A6-Z01",
+        "F3-A5-Z01",
+        "F3-KR-Z05"
+      ],
+      "transkript_suchwoerter": [
+        "Lehwald Motivation Begabung",
+        "Lehwald Emotion"
+      ]
+    },
+    {
+      "bib_key": "stern2025intelligenz",
+      "kurzref": "Stern (E.) 2025",
+      "typ": "Aktuelle Publikation",
+      "titel": "Intelligenz und Entwicklung",
+      "kontextstellen": [
+        "F1-A1-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "Elsbeth Stern Intelligenz",
+        "Intelligenz Entwicklung Schule"
+      ]
+    },
+    {
+      "bib_key": "lemas2023begriffsklaerung",
+      "kurzref": "LemaS 2023",
+      "typ": "Grundlagenpapier",
+      "titel": "LemaS Begriffsklaerung",
+      "kontextstellen": [
+        "F1-A1-Z08",
+        "F1-KR-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "LemaS Leistung macht Schule",
+        "Prozessdiagnostik Begabung"
+      ]
+    },
+    {
+      "bib_key": "kellerkoller2011erkennen",
+      "kurzref": "Keller-Koller 2011",
+      "typ": "Aufsatz",
+      "titel": "Erkennen verdeckter Begabung",
+      "kontextstellen": [
+        "F1-A2-Z04"
+      ],
+      "transkript_suchwoerter": [
+        "Keller-Koller 2011 erkennen"
+      ]
+    },
+    {
+      "bib_key": "stamm2014mirage",
+      "kurzref": "Stamm 2014 (MIRAGE)",
+      "typ": "Studie",
+      "titel": "MIRAGE-Studie",
+      "kontextstellen": [
+        "F1-A2-Z07",
+        "F3-A3-Z02",
+        "F5-KR-Z03"
+      ],
+      "transkript_suchwoerter": [
+        "MIRAGE Studie",
+        "Stamm Migration Erfolgsbiographie"
+      ]
+    },
+    {
+      "bib_key": "webb2020doppeldiagnosen",
+      "kurzref": "Webb et al. 2020",
+      "typ": "Monographie",
+      "titel": "Doppeldiagnosen und Fehldiagnosen bei Hochbegabung",
+      "kapitel_relevant": [
+        "Kap. 1-2",
+        "Kap. 10"
+      ],
+      "kontextstellen": [
+        "F1-A5-Z02",
+        "F3-A5-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Webb Doppeldiagnosen",
+        "Fehldiagnosen Hochbegabung ADHS"
+      ]
+    },
+    {
+      "bib_key": "rosebrock2010grundlagen",
+      "kurzref": "Rosebrock/Nix 2010",
+      "typ": "Lehrbuch",
+      "titel": "Grundlagen der Lesedidaktik",
+      "kapitel_relevant": [
+        "Kap. 1-4"
+      ],
+      "kontextstellen": [
+        "F2-EINL-Z01",
+        "F2-EINL-Z03",
+        "F2-A1-Z01",
+        "F2-A3-Z01",
+        "F2-A7-Z01",
+        "F2-KR-Z05"
+      ],
+      "transkript_suchwoerter": [
+        "Rosebrock Nix Lesedidaktik",
+        "Mehrebenen Lesen"
+      ]
+    },
+    {
+      "bib_key": "gold2018lesenkannmanlernen",
+      "kurzref": "Gold 2018",
+      "typ": "Lehrbuch",
+      "titel": "Lesen kann man lernen",
+      "kapitel_relevant": [
+        "Kap. 1-4"
+      ],
+      "kontextstellen": [
+        "F2-EINL-Z02",
+        "F2-EINL-Z04",
+        "F2-A1-Z03",
+        "F2-A3-Z02",
+        "F2-A7-Z02",
+        "F2-KR-Z01",
+        "F2-KR-Z06"
+      ],
+      "transkript_suchwoerter": [
+        "Gold Lesen lernen",
+        "Matthaeus Effekt Lesen"
+      ]
+    },
+    {
+      "bib_key": "sturm2016graphomotorik",
+      "kurzref": "Sturm 2016",
+      "typ": "Aufsatz",
+      "titel": "Graphomotorische Prozesse beim Schreiben(lernen)",
+      "kontextstellen": [
+        "F2-A1-Z02",
+        "F2-KR-Z02",
+        "F2-KR-Z04",
+        "F5-KR-Z01"
+      ],
+      "transkript_suchwoerter": [
+        "Sturm Graphomotorik Schreiben",
+        "Automatisierung Grapheme"
+      ]
+    },
+    {
+      "bib_key": "grossrieder2010anerkennung",
+      "kurzref": "Grossrieder 2010",
+      "typ": "Buchkapitel",
+      "titel": "Gleiches und Unterschiedliches anerkennen",
+      "buchkontext": "In: Buholzer/Kummer Wyss 2010",
+      "kontextstellen": [
+        "F3-EINL-Z01",
+        "F3-A2-Z01",
+        "F3-KR-Z02",
+        "F5-A4-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Grossrieder Anerkennung",
+        "Anerkennung zweite Ordnung"
+      ]
+    },
+    {
+      "bib_key": "kuhl2019diversitaet",
+      "kurzref": "Kuhl/Hofmann 2019",
+      "typ": "Aufsatz",
+      "titel": "Diversitaet und Persoenlichkeit (PSI-Theorie)",
+      "seiten_verify": "35--57 ODER 35--59",
+      "kontextstellen": [
+        "F3-EINL-Z02",
+        "F3-A1-Z01",
+        "F3-A1-Z02",
+        "F3-KR-Z01"
+      ],
+      "transkript_suchwoerter": [
+        "Kuhl PSI",
+        "Extensionsgedaechtnis",
+        "Intentionsgedaechtnis"
+      ]
+    },
+    {
+      "bib_key": "behrensen2019inklusive",
+      "kurzref": "Behrensen 2019",
+      "typ": "Aufsatz",
+      "titel": "Inklusive Begabungsfoerderung und Fluchtmigration",
+      "kontextstellen": [
+        "F3-EINL-Z03",
+        "F3-A3-Z01",
+        "F3-KR-Z04"
+      ],
+      "transkript_suchwoerter": [
+        "Behrensen Fluchtmigration",
+        "kumulative Belastung"
+      ]
+    },
+    {
+      "bib_key": "booth2019index",
+      "kurzref": "Booth/Ainscow (dt. 2019)",
+      "typ": "Handbuch/Index",
+      "titel": "Index fuer Inklusion",
+      "kapitel_relevant": [
+        "Dim. A",
+        "Dim. B",
+        "Dim. C"
+      ],
+      "kontextstellen": [
+        "F3-EINL-Z06",
+        "F3-A4-Z01",
+        "F3-A6-Z01",
+        "F3-KR-Z03",
+        "F3-KR-Z07",
+        "F4-A5-Z02",
+        "F4-KR-Z01"
+      ],
+      "transkript_suchwoerter": [
+        "Index Inklusion Booth Ainscow",
+        "Dimensionen A B C"
+      ]
+    },
+    {
+      "bib_key": "buholzer2010allegleich",
+      "kurzref": "Buholzer/Kummer Wyss (Hrsg.) 2010",
+      "typ": "Herausgeberwerk",
+      "titel": "Alle gleich -- alle unterschiedlich",
+      "kontextstellen": [
+        "F4-EINL-Z04",
+        "F4-A1-Z01",
+        "F4-A3-Z01",
+        "F4-KR-Z04",
+        "F5-EINL-Z03",
+        "F5-A3-Z01",
+        "F5-A3-Z04",
+        "F5-KR-Z06"
+      ],
+      "transkript_suchwoerter": [
+        "Buholzer Kummer Wyss Heterogenitaet",
+        "alle gleich unterschiedlich"
+      ]
+    },
+    {
+      "bib_key": "weigand2021separativ",
+      "kurzref": "Weigand/Kaiser 2021",
+      "typ": "Aufsatz",
+      "titel": "Separativ oder integrativ?",
+      "kontextstellen": [
+        "F4-EINL-Z05",
+        "F4-A4-Z01",
+        "F4-KR-Z06"
+      ],
+      "transkript_suchwoerter": [
+        "Weigand Kaiser separativ integrativ"
+      ]
+    },
+    {
+      "bib_key": "sedmak2021bildungsgerechtigkeit",
+      "kurzref": "Sedmak/Kapferer 2021",
+      "typ": "Aufsatz",
+      "titel": "Begabtenfoerderung und Bildungsgerechtigkeit",
+      "kontextstellen": [
+        "F4-EINL-Z06",
+        "F4-A4-Z02",
+        "F4-KR-Z02"
+      ],
+      "transkript_suchwoerter": [
+        "Sedmak Kapferer Bildungsgerechtigkeit"
+      ]
+    },
+    {
+      "bib_key": "unger2010begabungsfoerderung",
+      "kurzref": "Unger 2010",
+      "typ": "Aufsatz",
+      "titel": "Begabungsfoerderung unter NMS-Bedingungen",
+      "kontextstellen": [
+        "F4-A5-Z01",
+        "F4-KR-Z05"
+      ],
+      "transkript_suchwoerter": [
+        "Unger NMS Begabungsfoerderung"
+      ]
+    },
+    {
+      "bib_key": "brunner2021hochbegabung",
+      "kurzref": "Brunner 2021",
+      "typ": "Monographie",
+      "titel": "Hochbegabung (k)ein Problem?",
+      "seiten_verify": "3. Aufl. 2021 vs. 1. Aufl. 2005 (Klett/Balmer Zug) -- prüfen!",
+      "kontextstellen": [],
+      "transkript_suchwoerter": [
+        "Brunner Hochbegabung Klett Balmer"
+      ]
+    },
+    {
+      "bib_key": "muelleroppliger2021plurale",
+      "kurzref": "Mueller-Oppliger 2021 (plurale Gesellschaft)",
+      "typ": "Aufsatz",
+      "titel": "Begabungsfoerderung in pluraler Gesellschaft",
+      "kontextstellen": [
+        "F4-A4-Z03",
+        "F4-KR-Z07"
+      ],
+      "transkript_suchwoerter": [
+        "Mueller-Oppliger plurale Gesellschaft Inklusion"
+      ]
+    },
+    {
+      "bib_key": "burow2021positive",
+      "kurzref": "Burow 2021",
+      "typ": "Monographie",
+      "titel": "Positive Paedagogik",
+      "kapitel_relevant": [
+        "Staerkenorientierung",
+        "Schulentwicklung"
+      ],
+      "kontextstellen": [
+        "F5-EINL-Z02",
+        "F5-A2-Z01",
+        "F5-KR-Z05"
+      ],
+      "transkript_suchwoerter": [
+        "Burow Positive Paedagogik",
+        "Staerkenorientierung Wertschaetzung"
+      ]
+    },
+    {
+      "bib_key": "burow2020future",
+      "kurzref": "Burow 2020",
+      "typ": "Monographie",
+      "titel": "Future Fridays",
+      "kontextstellen": [
+        "F5-EINL-Z01",
+        "F5-A2-Z02",
+        "F5-KR-Z10"
+      ],
+      "transkript_suchwoerter": [
+        "Burow Future Fridays Lernkultur"
+      ]
+    },
+    {
+      "bib_key": "macha2019gender",
+      "kurzref": "Macha 2019",
+      "typ": "Aufsatz",
+      "titel": "Gender- und diversitaetssensible Begabungsfoerderung",
+      "seiten_verify": "160--172 ODER 160--173",
+      "kontextstellen": [
+        "F5-EINL-Z05",
+        "F5-A4-Z01",
+        "F5-A6-Z02",
+        "F5-KR-Z07"
+      ],
+      "transkript_suchwoerter": [
+        "Macha Gender Diversitaet Begabung"
+      ]
+    },
+    {
+      "bib_key": "kosoroklabhart2021voneltern",
+      "kurzref": "Kosorok Labhart/Luginbuehl/Schoellhorn 2021",
+      "typ": "Aufsatz",
+      "titel": "Von Eltern mit Migrationshintergrund lernen",
+      "kontextstellen": [
+        "F5-EINL-Z06",
+        "F5-A5-Z01",
+        "F5-KR-Z08"
+      ],
+      "transkript_suchwoerter": [
+        "Kosorok Labhart Eltern Migration"
+      ]
+    },
+    {
+      "bib_key": "mun2020identifying",
+      "kurzref": "Mun et al. 2020",
+      "typ": "Peer-reviewed Review",
+      "titel": "Identifying and Serving English Learners in Gifted Education",
+      "zeitschrift": "Journal for the Education of the Gifted, 43(4), 297-335",
+      "kontextstellen": [
+        "FA-MUN"
+      ],
+      "transkript_suchwoerter": [
+        "Mun Hemmler Langley English Learners gifted"
+      ]
+    },
+    {
+      "bib_key": "gubbins2020promising",
+      "kurzref": "Gubbins et al. 2020",
+      "typ": "Peer-reviewed Feldstudie",
+      "titel": "Promising Practices for Identification of English Learners",
+      "zeitschrift": "Journal for the Education of the Gifted, 43(4), 336-369",
+      "kontextstellen": [
+        "FA-GUB"
+      ],
+      "transkript_suchwoerter": [
+        "Gubbins promising practices English Learners"
+      ]
+    },
+    {
+      "bib_key": "alhroub2021utility",
+      "kurzref": "Al-Hroub 2021",
+      "typ": "Peer-reviewed Empirie",
+      "titel": "Utility of Psychometric and Dynamic Assessments for 2E",
+      "zeitschrift": "Frontiers in Psychology, 12, Article 747872",
+      "kontextstellen": [
+        "FA-ALH"
+      ],
+      "transkript_suchwoerter": [
+        "Al-Hroub twice exceptional dynamic assessment Jordan"
+      ]
+    },
+    {
+      "bib_key": "alodat2025equitable",
+      "kurzref": "Alodat 2025",
+      "typ": "Peer-reviewed Review",
+      "titel": "Equitable Identification Practices for Gifted Refugee Students",
+      "zeitschrift": "Gifted Child Quarterly, OnlineFirst",
+      "kontextstellen": [
+        "FA-ALO"
+      ],
+      "transkript_suchwoerter": [
+        "Alodat refugee gifted identification systematic review"
+      ]
+    }
+  ],
+  "hinweise_fuer_transkriptzuordnung": {
+    "workflow": [
+      "1. Fuer jedes Transkript: Titel und Autor/Herausgeber identifizieren.",
+      "2. Ueber 'bibliographie[].transkript_suchwoerter' passenden bib_key finden.",
+      "3. Ueber 'bibliographie[].kontextstellen' alle Zitatstellen-IDs ermitteln.",
+      "4. Fuer jede Zitatstelle im Baum (fragen[].abschnitte[].zitatstellen[]) pruefen, ob der Transkriptinhalt zum 'thema' und 'kontextsatz' passt.",
+      "5. Eindeutig zuordenbar? -> in ein neues Feld 'transkript_zitat' der Zitatstelle eintragen (freier Text + Seitenzahl im Original).",
+      "6. Bei Mehrdeutigkeit: in 'transkript_zitat_kandidaten' als Liste speichern."
+    ],
+    "verify_offene_bib_eintraege": [
+      {
+        "bib_key": "kellerkoller2021hellekoepfe",
+        "problem": "Seitenbereich XXX--XXX, muss verifiziert werden"
+      },
+      {
+        "bib_key": "stamm2021fehlenderblick",
+        "problem": "576--587 vs. 576--588?"
+      },
+      {
+        "bib_key": "kuhl2019diversitaet",
+        "problem": "35--57 vs. 35--59?"
+      },
+      {
+        "bib_key": "macha2019gender",
+        "problem": "160--172 vs. 160--173?"
+      },
+      {
+        "bib_key": "brunner2021hochbegabung",
+        "problem": "3. Aufl. 2021 belegbar oder 1. Aufl. 2005?"
+      }
+    ],
+    "textlich_am_dichtesten_zitierte_quellen": [
+      "lehwald2017motivation (8 Kontextstellen)",
+      "kappus2010migration (6)",
+      "booth2019index (7)",
+      "preckel2013hochbegabung (8)",
+      "rosebrock2010grundlagen (6)",
+      "fischer2020begabungsfoerderung (9)",
+      "buholzer2010allegleich (8)"
+    ],
+    "empfohlene_schreibreihenfolge_fuer_transkriptzuordnung": [
+      "Zuerst die dichtest zitierten Quellen (s.o.): Dort ist die Trefferquote pro Transkript am hoechsten.",
+      "Dann die Einzelzitate (nur 1 Kontextstelle): z.B. stern2025intelligenz, kellerkoller2011erkennen.",
+      "Zuletzt die Fachartikel FA-MUN, FA-GUB, FA-ALH, FA-ALO, falls Zitate aus diesen Artikeln auftauchen."
+    ]
+  }
+}

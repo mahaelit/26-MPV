@@ -80,27 +80,27 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
+### Zitat 1 (S. 35, Zusammenfassung)
 
-> „Wortgetreues Zitat hier einfuegen.“
+> „Die Qualität der pädagogischen Beziehung ist aus mehreren Gründen als ein Schlüssel zur Begabungsentfaltung anzusehen. Damit Lehrpersonen diesen Schlüssel nutzen können, wird hier aus der Sicht einer funktionsanalytischen Persönlichkeitstheorie (PSI-Theorie) beschrieben, welche Beziehungsaspekte Schülerinnen und Schülern mit unterschiedlichen Dispositionen helfen können, ihre Begabungen in konkrete Leistungen umzusetzen. Beziehungserfahrungen sind für die Entwicklung der Fähigkeiten zur Selbstmotivierung und Selbstberuhigung bedeutsam und für die von diesen Fähigkeiten abhängigen Selbstkompetenzen wie Handlungskompetenz (Vorsätze umsetzen) und Selbstwachstum (z. B. aus Fehlern lernen)." (S. 35)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Trägt die Behauptung im Lerndokument (Frage 3, „Begabungsentwicklung als Beziehungsgeschehen"), dass die pädagogische Beziehung nicht bloss förderlicher Kontextfaktor, sondern Bedingung der Begabungsentfaltung ist (PSI-Theorie nach Kuhl/Hofmann). Direktbeleg für die Selbstmotivierung-/Selbstberuhigungs-Argumentation und für den Brückenschlag zur Lehrer-Schüler-Beziehung.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: § Frage 3, „Begabungsentwicklung als Beziehungsgeschehen" (mpv.tex Z. ~1300–1320)
+- Abgabedokument: Kernliteratur Frage 3 (mpv\_abgabedokument.tex Z. ~360)
 
 ---
 
-### Zitat 2 (S. XX)
+### Verifikationsnachweis
 
-> „…“
-
-<...>
+- **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
+- **Seitenbereich verifiziert:** S. 35 (Kapitelbeginn, Zusammenfassung) — S. 59 (Ende Literaturverzeichnis); Käpnick-Beitrag schliesst auf S. 60 an.
+- **Bib-Eintrag:** `pages = {35--59}`.
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+**Status:** 4 (Volltext geprueft, Seitenbereich + Belegzitat verifiziert)
+**Verifiziert am:** 2026-04-24
+**Bearbeitet durch:** Phase-3-Audit (Klinkhardt-Volltext aus pedocs)

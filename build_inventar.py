@@ -113,7 +113,12 @@ def scan_dossier(key: str) -> dict[str, Any]:
         "has_verified_quotes": False,
         "has_excerpts_dir": False,
         "n_excerpts_pdf": 0,       # Anzahl PDF-Splits
+        "n_excerpts_md": 0,        # Anzahl Markdown-Transkripte (z.B. teil1.md)
         "has_outline_md": False,    # _outline.md vorhanden?
+        "n_chapter_pdfs": 0,       # PDFs am Bibkey-Root, die nicht source.* sind
+        "chapter_pages": 0,         # Summe Seiten der Kapitel-PDFs
+        "chapter_size_mb": 0.0,     # Summe Groesse der Kapitel-PDFs
+        "has_outline_root_md": False,  # _outline.md am Bibkey-Root?
         "source_size_mb": 0.0,
         "source_pages": 0,
         "short_pdf": False,         # <15 Seiten: vermutlich nur Auszug/Artikel
@@ -134,6 +139,8 @@ def scan_dossier(key: str) -> dict[str, Any]:
                 info["source_size_mb"] = round(f.stat().st_size / (1024 * 1024), 2)
             elif n.startswith("_TOC_") and n.endswith(".md"):
                 info["has_toc"] = True
+            elif n == "_outline.md":
+                info["has_outline_root_md"] = True
             elif n == "verified_quotes.md":
                 info["has_verified_quotes"] = True
                 try:
@@ -143,9 +150,22 @@ def scan_dossier(key: str) -> dict[str, Any]:
                         info["status"] = int(m.group(1))
                 except Exception:
                     pass
+            elif (n.lower().endswith(".pdf") and not n.startswith("source")
+                  and not n.startswith(".")):
+                # Foto-Kapitel-PDF am Bibkey-Root (z.B. "kap02_...pdf",
+                # "s013-038.pdf"). Wird als alternative Volltext-Quelle gezählt,
+                # damit die Inventar-Ampel die Realität widerspiegelt.
+                info["n_chapter_pdfs"] += 1
+                info["chapter_pages"] += _count_pdf_pages(f)
+                info["chapter_size_mb"] += round(f.stat().st_size / (1024 * 1024), 2)
         elif f.is_dir() and n == "excerpts":
             info["has_excerpts_dir"] = True
             info["n_excerpts_pdf"] = sum(1 for _ in f.glob("*.pdf"))
+            # Markdown-Transkripte (z.B. bei muelleroppliger2021handbuch mit
+            # teil1...teil8.md) zählen auch als Volltext-Ersatz.
+            info["n_excerpts_md"] = sum(
+                1 for p in f.glob("*.md") if p.name != "_outline.md"
+            )
             info["has_outline_md"] = (f / "_outline.md").exists()
     return info
 
@@ -173,10 +193,18 @@ def fmt_files(info: dict[str, Any]) -> str:
         parts.append(tag)
     if info["has_source_epub"]:
         parts.append(f"EPUB {info['source_size_mb']}MB")
+    if info["n_chapter_pdfs"]:
+        # Kapitel-PDFs am Bibkey-Root (z.B. komprimierte Foto-Auszüge)
+        parts.append(
+            f"{info['n_chapter_pdfs']} Kapitel-PDFs "
+            f"({info['chapter_size_mb']:.1f}MB/{info['chapter_pages']}S.)"
+        )
     if info["has_toc"]:
         parts.append("TOC")
     if info["has_excerpts_dir"] and info["n_excerpts_pdf"]:
         parts.append(f"{info['n_excerpts_pdf']} Splits")
+    if info["has_excerpts_dir"] and info["n_excerpts_md"]:
+        parts.append(f"{info['n_excerpts_md']} MD-Transkripte")
     if info["has_verified_quotes"] and info["status"] is not None:
         parts.append(f"vq={info['status']}")
     return ", ".join(parts) if parts else "(leer)"
@@ -186,16 +214,21 @@ def coverage_tag(info: dict[str, Any], cite_count: int) -> str:
     """Ampelfarben-Logik fuer das Inventar."""
     if cite_count == 0:
         return "-"
-    has_fulltext = info["has_source_pdf"] or info["has_source_epub"]
+    has_fulltext = (
+        info["has_source_pdf"]
+        or info["has_source_epub"]
+        or info["n_chapter_pdfs"] > 0
+        or info["n_excerpts_md"] > 0
+    )
     if not has_fulltext:
         return "ORANGE" if info["has_toc"] else "ROT"
     # Volltext vorhanden
-    if info["short_pdf"]:
+    if info["short_pdf"] and info["n_chapter_pdfs"] == 0 and info["n_excerpts_md"] == 0:
         return "GELB-K"  # kurzes PDF - evtl. nur Auszug, vollständigkeit unklar
     s = info["status"]
     if s is not None and s >= 3:
         return "GRUEN"
-    if info["n_excerpts_pdf"] > 0:
+    if info["n_excerpts_pdf"] > 0 or info["n_chapter_pdfs"] > 0 or info["n_excerpts_md"] > 0:
         return "GELB+"   # Volltext + Splits vorhanden, aber nicht verifiziert
     return "GELB"
 
@@ -254,9 +287,17 @@ def main() -> int:
     # Zusammenfassung
     total = len(rows)
     with_cites = sum(1 for r in rows if r["cite_count"] > 0)
-    with_pdf = sum(1 for r in rows if r["dossier"]["has_source_pdf"] or r["dossier"]["has_source_epub"])
-    with_cites_and_pdf = sum(1 for r in rows if r["cite_count"] > 0 and (r["dossier"]["has_source_pdf"] or r["dossier"]["has_source_epub"]))
-    with_cites_no_pdf = sum(1 for r in rows if r["cite_count"] > 0 and not (r["dossier"]["has_source_pdf"] or r["dossier"]["has_source_epub"]))
+    def _has_fulltext(r):
+        d = r["dossier"]
+        return (
+            d["has_source_pdf"]
+            or d["has_source_epub"]
+            or d["n_chapter_pdfs"] > 0
+            or d["n_excerpts_md"] > 0
+        )
+    with_pdf = sum(1 for r in rows if _has_fulltext(r))
+    with_cites_and_pdf = sum(1 for r in rows if r["cite_count"] > 0 and _has_fulltext(r))
+    with_cites_no_pdf = sum(1 for r in rows if r["cite_count"] > 0 and not _has_fulltext(r))
     lines.append("## Zusammenfassung")
     lines.append("")
     lines.append(f"- BibKeys gesamt:                 **{total}**")

@@ -13,23 +13,27 @@
   editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},
   year      = {2021},
   publisher = {Beltz},
-  address   = {Weinheim},
-  % VERIFY Inti: Review behauptet 576--587 statt 576--588. Bitte am Buch prüfen.
-  pages     = {576--588},
-  annotation = {ca.~15\,S.},
+  address   = {Weinheim und Basel},
+  pages     = {576--585},
+  isbn      = {978-3-407-25806-9},
+  annotation = {10\,S. (S.\,576--585). Fliesstext-Spanne von Inti verifiziert
+                (KERNLITERATUR\_INTI.md, Frage\,1). Anschliessender Beitrag
+                Baum/Schader ab S.\,588; S.\,586--587 Literaturverzeichnis
+                des Stamm-Beitrags. Teil VIII \enquote{Dysfunktionale Begabungsentwicklung}.},
 }
 
 @incollection{kellerkoller2021hellekoepfe,
   author    = {Keller-Koller, Irène},
-  title     = {Helle {Köpfe} mit {Migrationshintergrund}},
+  title     = {Helle {Köpfe} mit {Migrationshintergrund}: warum sie oft unerkannt bleiben},
   booktitle = {Lichtblick für helle {Köpfe}: {Ein} {Wegweiser} zur {Erkennung} und {Förderung} von hohen {Fähigkeiten} bei {Kindern} und {Jugendlichen} auf allen {Schulstufen}},
   editor    = {Huser, Joëlle},
-  year      = {2021},
-  publisher = {Lehrmittelverlag des Kantons Zürich},
+  year      = {2025},
+  edition   = {3},
+  publisher = {Lehrmittelverlag Zürich},
   address   = {Zürich},
-  % TODO Inti: Seitenbereich aus Huser (2021) nachschlagen und eintragen
-  pages     = {XXX--XXX},
-  annotation = {ca.~20\,S.},
+  pages     = {76--78},
+  isbn      = {978-3-03713-867-0},
+  annotation = {3\,S. (S.\,76--78). Aus der 3.\,Aufl. 2025 (Ausgabe 2021) des Handbuchs; Kapitel neu gegenüber der 1.\,Aufl. 2004 (vgl. Lehrmittelverlag Zürich: "3. Auflage 2025, Ausgabe 2021"). BibKey zu Konsistenzgründen beibehalten.},
 }
 
 @thesis{kellerkoller2009begabte,
@@ -63,8 +67,23 @@
   title     = {Handbuch {Begabung}},
   year      = {2021},
   publisher = {Beltz},
-  address   = {Weinheim},
-  annotation = {Kap. Begabungsbegriff, Diagnostik, SEM, Enrichment, Inklusion: ca.~80\,S. (verteilt auf Fr.~1 und 4)},
+  address   = {Weinheim und Basel},
+  isbn      = {978-3-407-25806-9},
+  pagetotal = {608},
+  annotation = {Sammelband mit 33 Beiträgen in 8 Teilen (608 S.). Volltext als
+                textbasierte Transkripte verfügbar in
+                Literatur/muelleroppliger2021handbuch/excerpts/ (teil1--teil8.md,
+                zusammen ca. 1\,MB volltextsuchbares Material, deckt alle acht Teile
+                ab). Strukturelle Verortungs-JSONs in excerpts/einordnung/ verknüpfen
+                Lerndokument-Cite-Stellen mit Transkript-Textstellen
+                (analyze\_transkripte.py, integrate\_transkripte.py). Einzelne
+                Kapitel-BibKeys (baudson2021wasdenken, stadelmann2021begabungsentwicklung,
+                stamm2021fehlenderblick etc.) nutzen die Transkripte als Primärquelle.
+                Verwendete Kapitel in der MPV: Begabungsbegriff (Müller-Oppliger),
+                Diagnostik (S. 224--251), SEM (Reis/Renzulli/Müller-Oppliger,
+                S. 333--347), separativ/integrativ (Weigand/Kaiser, S. 290--301),
+                fehlender Blick auf Minoritäten (Stamm, S. 576--587),
+                2e (Baum/Schader, S. 588--601).},
 }
 
 @book{hoyer2013begabung,
@@ -85,7 +104,12 @@
   edition   = {3},
   publisher = {Schneider Hohengehren},
   address   = {Baltmannsweiler},
-  annotation = {Kap.~1--2: ca.~40\,S.},
+  annotation = {Lokal verfügbarer Foto-Auszug (komprimiert): Kap. zu Multiplen Intelligenzen
+                nach Gardner, S.\,34--41 (8\,S.) -- siehe
+                Literatur/trautmann2016einfuehrung/kap\_multiple\_intelligenzen\_s034-041.pdf.
+                Im Lerndokument (mpv.tex Z.\,~520) als Beleg für Gardners Theorie zitiert
+                (FW1, 2e-Konzept). Weitere Kapitel (1--2, 5--6) sind nicht als Volltext
+                verfügbar; bei Bedarf Bibliothek beschaffen.},
 }
 
 @book{reutlinger2015hochbegabung,
@@ -122,7 +146,48 @@
   year      = {2014},
   publisher = {Huber},
   address   = {Bern},
-  annotation = {Kap. zu Underachievement, Migration, Diagnostik: ca.~40\,S.},
+  annotation = {Sammelband-Herausgeberschaft. Einzelbeiträge als @incollection:
+                stamm2014minoritaeten (S.\,375--382),
+                grossenbachertettenborn2014volksschule (S.\,317--325).
+                Lokaler Foto-Auszug (komprimiert): Beitrag zu Begabung, Talent und
+                Leistungsschwierigkeit (Migration), S.\,393--400 (8\,S.) -- siehe
+                Literatur/stamm2014handbuch/kap\_migration\_talent\_leistungsschwierigkeit\_s393-400.pdf.},
+}
+
+@incollection{stamm2014minoritaeten,
+  author    = {Stamm, Margrit},
+  title     = {Minoritäten als {Begabungsreserven}},
+  booktitle = {Handbuch {Talententwicklung}: {Theorien}, {Methoden} und {Praxis} in {Psychologie} und {Pädagogik}},
+  editor    = {Stamm, Margrit},
+  year      = {2014},
+  publisher = {Huber},
+  address   = {Bern},
+  pages     = {375--382},
+  annotation = {8\,S. (S.\,375--382). Kapitelbeitrag im Handbuch Talententwicklung.
+                Von Inti als Kernliteratur für FW1 verifiziert
+                (siehe KERNLITERATUR\_INTI.md, Frage\,1). Thematischer Anschluss an
+                stamm2021fehlenderblick (Handbuch Begabung, S.\,576--585):
+                Stamm argumentiert durchgängig, dass Minoritäten systematisch
+                als Begabungsreserven übersehen werden -- dieser Beitrag von 2014
+                ist die ältere empirische Grundlage der 2021er Synthese.},
+}
+
+@incollection{grossenbachertettenborn2014volksschule,
+  author    = {Grossenbacher, Silvia and Tettenborn, Annette},
+  title     = {Talent und {Begabung} in der {Volksschule} der deutschsprachigen {Schweiz}},
+  booktitle = {Handbuch {Talententwicklung}: {Theorien}, {Methoden} und {Praxis} in {Psychologie} und {Pädagogik}},
+  editor    = {Stamm, Margrit},
+  year      = {2014},
+  publisher = {Huber},
+  address   = {Bern},
+  pages     = {317--325},
+  annotation = {9\,S. (S.\,317--325). Länderspezifischer Beitrag zum Stand von
+                Talent- und Begabungsförderung in der deutschsprachigen
+                Schweizer Volksschule -- bindet Intis Fallkontext (Luzern/Ebikon)
+                an die institutionelle Realität der föderalen Schulstrukturen.
+                Von Inti als Kernliteratur für FW1 verifiziert
+                (siehe KERNLITERATUR\_INTI.md, Frage\,1).
+                Tettenborn ist PHLU-Dozentin (Kontinuität zum Ausbildungskontext).},
 }
 
 @book{webb2020doppeldiagnosen,
@@ -137,8 +202,13 @@
   address   = {Bern},
   note      = {Dt. Übers. der 3. Aufl. von \textit{Misdiagnosis and
                Dual Diagnoses of Gifted Children and Adults}},
-  annotation = {Kap.~1--2 (Fehldiagnosen, Doppeldiagnosen),
-               Kap.~10 (kulturelle Aspekte): ca.~25\,S.},
+  annotation = {Lokal verfügbare Foto-Auszüge (komprimiert):
+               (a) Kap.~2 \enquote{Fehldiagnosen und Doppeldiagnosen bei hochbegabten Kindern
+               und Erwachsenen}, S.\,87--94 (8\,S.) -- siehe
+               Literatur/webb2020doppeldiagnosen/kap02\_fehldiagnosen\_doppeldiagnosen\_s087-094.pdf;
+               (b) Kap.~12 \enquote{Der diagnostische Prozess}, S.\,351--376 (26\,S.) -- siehe
+               Literatur/webb2020doppeldiagnosen/kap12\_diagnostischer\_prozess\_s351-376.pdf.
+               Zusammen ca.~34\,S. Volltext.},
 }
 
 % ── Frage 2: Fördern (Schriftsprache, Motorik, Schach) ────
@@ -193,6 +263,339 @@
   annotation = {16\,S.},
 }
 
+% ══════════════════════════════════════════════════════════════
+%  Grafomotorik-Quellenpaket (PH Luzern Studium, Inti Merolli).
+%  Zentrale Figur: Sibylle Hurschler Lichtsteiner (PH Luzern). Alle PDFs
+%  liegen in Literatur/<bibkey>/source.pdf. Die peer-reviewed Artikel sind
+%  zitierfertig; der @unpublished-Eintrag und der @misc-Sammel-Eintrag
+%  (phluzern_hurschler_grafomotorik) dokumentieren Lehr- und Vorlesungsmaterial.
+%
+%  Strategie (vgl. GRAFOMOTORIK_UEBERSICHT.md): Dieses Paket ersetzt/ergaenzt
+%  die Kernliteratur zu FW2 (sensomotorische und schriftsprachliche Barrieren)
+%  und macht groesstenteils die Beschaffung von rosebrock2010grundlagen /
+%  gold2018lesenkannmanlernen ueberfluessig. Ausserdem ergaenzt es
+%  sturm2016graphomotorik mit Schweiz-spezifischer Forschung.
+% ══════════════════════════════════════════════════════════════
+
+@article{hurschlerlichtsteiner2024handschriftanalysen,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Grafomotorische {Beeinträchtigungen}: {Erkennbar} in digitalen {Handschriftanalysen} von {Kindern} der zweiten {Primarklasse}},
+  journal   = {Lernen und Lernstörungen},
+  year      = {2024},
+  volume    = {13},
+  number    = {2},
+  pages     = {97--108},
+  doi       = {10.1024/2235-0977/a000443},
+  publisher = {Hogrefe},
+  note      = {Open Access (CC BY 4.0). Institut für Fachdidaktik der Sprachen und Bildungslinguistik, PH Luzern.},
+  annotation = {12\,S. Aktuelle peer-reviewed Originalarbeit zur digitalen Handschriftdiagnostik bei Grundschulkindern. Zentrale Schweizer Primärquelle zu FW2.},
+}
+
+@article{hurschler2020handschriftbeurteilung,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Differenzierende {Beurteilung} der {Handschrift}: {Ein} {Bestandteil} der {Schreibförderung}},
+  journal   = {leseforum.ch: {Online-Plattform} für {Literalität}},
+  year      = {2020},
+  number    = {3},
+  issn      = {2624-7771},
+  url       = {https://www.leseforum.ch/sysModules/obxLeseforum/Artikel/711/2020_3_de_hurschler.pdf},
+  urldate   = {2026-04-24},
+  annotation = {26\,S. Schweizer Lehrplan-21-Bezug; Leserlichkeit + Geläufigkeit als Beurteilungskriterien. Zentrale Grundlage für diagnostische Schreib-Förderung in FW2.},
+}
+
+@article{hurschlerbaenninger2021digitaleschreibgeraete,
+  author    = {Hurschler Lichtsteiner, Sibylle and Bänninger, Ruth},
+  title     = {Digitale {Schreibgeräte} erproben},
+  journal   = {Fördermagazin {Sekundarstufe}},
+  year      = {2021},
+  number    = {04},
+  pages     = {11--16},
+  publisher = {Friedrich Verlag},
+  note      = {PREPRINT-Version.},
+  annotation = {6\,S. Praxisorientierter Artikel zur digitalen Textproduktion in der Sekundarstufe. Ergänzt FW2 um Tastaturschreib-Perspektive.},
+}
+
+@article{hurschlerjurt2019spielerisch,
+  author    = {Hurschler Lichtsteiner, Sibylle and Jurt Betschart, Josy},
+  title     = {Spielerisch schreiben lernen: {Buchstabenabläufe} erwerben -- {Anregungen} in {Form} von {Videos}},
+  journal   = {Grundschulunterricht {Deutsch}},
+  year      = {2019},
+  number    = {1},
+  pages     = {19--23},
+  doi       = {10.5281/zenodo.2611654},
+  annotation = {5\,S. (S.\,19--23). Peer-reviewed Didaktik-Zeitschrift. Einführung der Deutschschweizer Basisschrift und Buchstabenabläufe (D-EDK 2014). Verifikation via phlu.ch-Publikationsliste Hurschler Lichtsteiner.},
+}
+
+@article{hurschlerjurt2017individuelleziele,
+  author    = {Hurschler Lichtsteiner, Sibylle and Jurt, Ruth},
+  title     = {Individuelle {Ziele} setzen},
+  journal   = {Grundschule Deutsch},
+  year      = {2017},
+  note      = {PREPRINT-Version.},
+  annotation = {4\,S. Didaktischer Praxis-Beitrag zur Schreibförderung in der Grundschule.},
+}
+
+@article{hurschler2018spurenlegen,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Spuren legen -- pragmatisch und bewusst: {Das} {Erarbeiten} zweckmässiger {Buchstabenabläufe}},
+  journal   = {Die {Grundschulzeitschrift}},
+  year      = {2018},
+  volume    = {308},
+  number    = {4},
+  pages     = {35--37},
+  publisher = {Friedrich Verlag},
+  annotation = {3\,S. (S.\,35--37). Didaktischer Fachbeitrag in der etablierten \emph{Grundschulzeitschrift}. Verifikation via phlu.ch-Publikationsliste.},
+}
+
+@unpublished{hurschler2015theoriepraxis,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Von der {Theorie} zur {Praxis}: {Didaktische} {Anregungen} zur {Deutschschweizer} {Basisschrift}},
+  year      = {2015},
+  institution = {Pädagogische Hochschule Luzern, Institut für Fachdidaktik der Sprachen und Bildungslinguistik},
+  note      = {Workshop-/Tagungshandout; thematisch korrespondierend mit Vortrag
+                \enquote{Vom Erstalphabet zu einer teilweise verbundenen,
+                persönlichen Handschrift} an der 17.\,Fachtagung der
+                Linkshänder-Beraterinnen (Meissen, 11.--12.09.2015).
+                Formelle Publikationsquelle nicht in der phlu.ch-Publikationsliste nachweisbar.},
+  annotation = {2\,S. Handout/Kurzbeitrag aus PHLU-Kontext. Formal als
+                @unpublished eingeordnet; Zitation mit Kontakt-Verweis.},
+}
+
+@article{hurschlerlichtsteiner2025tastaturschreiben,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Zur {Bedeutung} der {Diagnose} beim {Tastaturschreiben}},
+  journal   = {Fördermagazin {Grundschule}},
+  year      = {2025},
+  number    = {1},
+  pages     = {30--35},
+  publisher = {Friedrich Verlag},
+  note      = {PREPRINT-Version, erscheint 2025.},
+  annotation = {6\,S. Aktuell; Schweizer Schule + Tastaturschreib-Diagnose.},
+}
+
+@misc{jurthurschler2019arbeitsblaetter,
+  author    = {Jurt, Ruth and Hurschler Lichtsteiner, Sibylle},
+  title     = {Arbeitsblätter {Schreibförderung}, 5. und 6. {Klasse}},
+  year      = {2019},
+  note      = {Schulmaterial-Auszug; Beurteilungskriterien für Handschriften und Selbsteinschätzungsbögen.},
+  annotation = {7\,S. Didaktisches Arbeitsmaterial mit Beurteilungskriterien.},
+}
+
+@unpublished{hurschler2020skriptgrafomotorischestoerungen,
+  author    = {Hurschler Lichtsteiner, Sibylle},
+  title     = {Was sind grafomotorische {Störungen}? {Teil} 1},
+  note      = {Unveröffentlichtes Skript zur Tagung Basisschrift, Februar 2019; Weitergabe an Dritte nicht gestattet. Datiert 2020-05-08. Kontakt: sibylle.hurschler@phlu.ch, PH Luzern.},
+  year      = {2020},
+  annotation = {4\,S. Zentrale Definition und Indikatoren für grafomotorische Störungen (Dysgraphie). Anschlussfähig an FW2.},
+}
+
+@misc{phluzern_hurschler_grafomotorik,
+  author       = {Hurschler Lichtsteiner, Sibylle},
+  title        = {Studienmodul {Grafomotorik} und {Schreibförderung} (Vorlesungsfolien und {Aufträge}, 2020--2024)},
+  year         = {2024},
+  institution  = {Pädagogische Hochschule Luzern, Institut für Fachdidaktik der Sprachen und Bildungslinguistik},
+  howpublished = {PHLU-Vorlesungsskripte},
+  note         = {Sammel-Eintrag für PHLU-Lehrmaterial 2020--2024 aus dem Studium
+                  Schulische Heilpädagogik (Inti Merolli). Einzelne Handouts:
+                  F20-Vorlesung 3B \enquote{Vorläuferfertigkeiten} (2020, 18\,S.),
+                  4A \enquote{Grundformen und -bewegungen} (2020, 35\,S.),
+                  4B \enquote{Körper- und Stifthaltung} (2020, 19\,S.),
+                  F21-Vorlesung 9 \enquote{Tastaturschreiben} (2021, 14\,S.),
+                  24-Veranstaltung 8 \enquote{Auftrag + Präsentation} (2024),
+                  MW02.01 \enquote{Schrifterwerb unter erschwerten Bedingungen}.},
+  annotation = {Sammel-BibKey für PHLU-Lehrmaterial; einzelne Handouts liegen in Literatur/phluzern\_hurschler\_grafomotorik/excerpts/.},
+}
+
+@incollection{nottbusch2017graphomotorik,
+  author    = {Nottbusch, Guido},
+  title     = {Graphomotorik},
+  booktitle = {Forschungshandbuch empirische {Schreibdidaktik}},
+  editor    = {Becker-Mrotzek, Michael and Grabowski, Joachim and Steinhoff, Torsten},
+  year      = {2017},
+  publisher = {Waxmann},
+  address   = {Münster und New York},
+  pages     = {125--138},
+  isbn      = {978-3-8309-3432-5},
+  annotation = {14\,S. Peer-reviewed Kapitel. Teil B \enquote{Entwicklung der Schreibkompetenz} des Forschungshandbuchs. Zentrale Forschungssynthese zur Graphomotorik (Chunking, Automatisierung, Alterstrajektorien).},
+}
+
+@article{philipp2019handschrifttastatur,
+  author    = {Philipp, Maik},
+  title     = {Handschrift oder {Tastaturschreiben}? {Wer} erfolgreich kommunizieren will, muss beides können!},
+  journal   = {Grundschulunterricht {Deutsch}},
+  year      = {2019},
+  number    = {1},
+  pages     = {10--13},
+  annotation = {4\,S. (S.\,10--13). Didaktischer Fachbeitrag von Maik Philipp (Prof.\ für Deutschdidaktik, PH Zürich); plädiert für Förderung beider Techniken, mit Vorrang der Handschrift im Primar-Alter. Verifikation via Literaturverzeichnis in Hurschler 2020 (leseforum.ch).},
+}
+
+@article{hubergrosche2012rti,
+  author    = {Huber, Christian and Grosche, Michael},
+  title     = {Das response-to-intervention-{Modell} als {Grundlage} für einen inklusiven {Paradigmenwechsel} in der {Sonderpädagogik}},
+  journal   = {Zeitschrift für {Heilpädagogik}},
+  year      = {2012},
+  number    = {8},
+  pages     = {312--322},
+  issn      = {0513-9066},
+  publisher = {Verband Sonderpädagogik e.V.},
+  annotation = {11\,S. (S.\,312--322). RTI-Rahmenmodell für inklusive Sonderpädagogik. Peer-reviewed Fachzeitschrift des Verbands Sonderpädagogik. Querbezug zu FW1/FW2 (mehrebiges diagnostisches Modell). Verifikation via fachportal-paedagogik.de.},
+}
+
+% ══════════════════════════════════════════════════════════════
+%  Frage-3-Quellenpaket (Beziehung, Freundschaft, Peer-Kontakte, Mobbing).
+%  Quellenbasis für FW3 (relationale und strukturelle Bedingungen der
+%  Begabungsentfaltung). Kombination aus Schweizer Heilpädagogik-Perspektive
+%  (SZH 9/2022 Themenheft, Tschopp/Grütter/Buholzer), deutsche Freundschafts-
+%  forschung (PFLB 4/5 2022 Themenheft), und peer-reviewed Inklusionsforschung
+%  (Schwab 2016, Wiemann/Lohaus 2024). Details: FRAGE3_UEBERSICHT.md.
+% ══════════════════════════════════════════════════════════════
+
+% --- Sammelwerke (Lehrbuch + zwei Themenhefte) -----------------
+
+@book{wildmoeller2020paedagogischepsychologie,
+  editor    = {Wild, Elke and Möller, Jens},
+  title     = {Pädagogische {Psychologie}},
+  year      = {2020},
+  edition   = {3},
+  publisher = {Springer},
+  address   = {Berlin und Heidelberg},
+  isbn      = {978-3-662-61403-7},
+  pagetotal = {474},
+  annotation = {3.\,Aufl.\ 2020 des Standard-Lehrbuchs. Enthält u.\,a.\ das Kapitel Kessels/Hannover \enquote{Gleichaltrige} (Kap.\,12), hier separat als @incollection erfasst.},
+}
+
+@periodical{zimmersteinboesing2022pflbfreundschaften,
+  editor    = {Zimmer, Veronika and Stein, Margit and Bösing, Eike},
+  title     = {Freundschaften und prosoziale {Peer-Kontakte} in der {Schule}},
+  journaltitle = {{PraxisForschungLehrer*innenBildung} ({PFLB})},
+  year      = {2022},
+  volume    = {4},
+  number    = {5},
+  note      = {Themenheft. Open Access, BieJournals, Universität Bielefeld.},
+  url       = {https://www.pflb-journal.de},
+  annotation = {247\,S. Themenheft mit 14 Beiträgen; hier separate @incollection-Einträge für die verwendeten Beiträge (wernkemeyer, boosnuenning, baumert, zimmerstein).},
+}
+
+@periodical{szh2022heftfreundschaftenmobbing,
+  title     = {Freundschaften und {Mobbing}},
+  journaltitle = {Schweizerische {Zeitschrift} für {Heilpädagogik}},
+  year      = {2022},
+  volume    = {28},
+  number    = {9},
+  publisher = {Stiftung Schweizer Zentrum für Heil- und Sonderpädagogik (SZH/CSPS)},
+  address   = {Bern},
+  note      = {Themenheft zu Freundschaften und Mobbing; hier separate Einträge für Editorial (Stalder) und Hauptbeitrag (Tschopp/Grütter/Buholzer).},
+  annotation = {64\,S. Schweizer Fachzeitschrift, Sonderheft zu Peer-Beziehungen aus heilpädagogischer Perspektive.},
+}
+
+% --- Einzelbeiträge aus dem PFLB-Themenheft 2022 ---------------
+
+@incollection{wernkemeyer2022feedbackfreunde,
+  author    = {Wernke, Stephan and Meyer, Martin Joh.},
+  title     = {Feedback unter {Freund*innen}: {Einflüsse} von {Freundschaften} auf das schulische {Lernen} und {Möglichkeiten} der didaktischen {Nutzung} des {Freundschaftspotenzials}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {119--134},
+  affiliation = {Universität Vechta},
+  license   = {CC BY-SA 4.0},
+  annotation = {16\,S. Didaktische Implementierung von Freundschafts-Feedback im Unterricht.},
+}
+
+@incollection{boosnuenning2022interethnisch,
+  author    = {Boos-Nünning, Ursula},
+  title     = {Interethnische {Freundschaften} unter den {Bedingungen} sozialräumlicher und institutioneller {Segregation}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {51--71},
+  affiliation = {Universität Duisburg-Essen},
+  license   = {CC BY-SA 4.0},
+  annotation = {21\,S. Strukturelle Barrieren für Freundschaften zwischen einheimischen und migrierten Jugendlichen. Zentrale FW3-Quelle zur Verschränkung von Migration und Peer-Beziehung.},
+}
+
+@incollection{baumert2022freundschaftwerte,
+  author    = {Baumert, Britta},
+  title     = {\enquote{Man kann nicht leben, wenn man keine {Freunde} hat}: {Wertezuschreibungen} {Jugendlicher} mit und ohne {Fluchterfahrung} im {Themenbereich} {Freundschaft}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {36--50},
+  affiliation = {Universität Vechta},
+  license   = {CC BY-SA 4.0},
+  annotation = {15\,S. Empirische Studie zu Freundschaftswerten bei Jugendlichen mit/ohne Fluchterfahrung. Direkter Bezug zu FW3 (Migration + Peer-Beziehungen).},
+}
+
+@incollection{zimmerstein2022schulischeswohlbefinden,
+  author    = {Zimmer, Veronika and Stein, Margit},
+  title     = {Schulisches {Wohlbefinden} und {Freundschaften}: {Ein} {Vergleich} zwischen jungen {Menschen} mit und ohne {Migrationshintergrund} in {Abhängigkeit} (inter)ethnischer {Freundschaften}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {135--151},
+  affiliation = {IU Internationale Hochschule / Universität Vechta},
+  license   = {CC BY-SA 4.0},
+  annotation = {17\,S. Quantitative Studie; Migrationshintergrund, interethnische Freundschaften und schulisches Wohlbefinden. Zentrale FW3-Quelle.},
+}
+
+% --- Einzelbeiträge aus SZH 9/2022 -----------------------------
+
+@incollection{stalder2022editorialfreundschaften,
+  author    = {Stalder, Daniel},
+  title     = {{Editorial}: {Freundschaften} und {Mobbing}},
+  crossref  = {szh2022heftfreundschaftenmobbing},
+  pages     = {3},
+  annotation = {1\,S. Editorial des SZH-Themenhefts.},
+}
+
+@incollection{tschoppgruetterbuholzer2022intergruppenkontakt,
+  author    = {Tschopp, Cécile and Grütter, Jeanine and Buholzer, Alois},
+  title     = {Soziale {Teilhabe} durch {Intergruppenkontakt}: {Wie} {Freundschaften} von {Kindern} mit heilpädagogischem {Förderbedarf} unterstützt werden können},
+  crossref  = {szh2022heftfreundschaftenmobbing},
+  pages     = {35--41},
+  url       = {https://www.szh-csps.ch/z2022-09-05},
+  urldate   = {2026-04-24},
+  annotation = {7\,S. Schweizer Programm \enquote{Freundschaften fördern in heterogenen Lerngruppen}; zentrale Quelle zur SHP-Rolle bei Förderung sozialer Teilhabe. Buholzer als PHLU-Mitautor schafft Kontinuität zu buholzer2010allegleich.},
+}
+
+% --- Kapitel im Lehrbuch Wild/Möller ---------------------------
+
+@incollection{kesselshannover2015gleichaltrige,
+  author    = {Kessels, Ursula and Hannover, Bettina},
+  title     = {Gleichaltrige},
+  booktitle = {Pädagogische {Psychologie}},
+  editor    = {Wild, Elke and Möller, Jens},
+  year      = {2015},
+  edition   = {2},
+  publisher = {Springer},
+  address   = {Berlin und Heidelberg},
+  pages     = {283--300},
+  annotation = {20\,S. (Kap.\,12). Peer-Status, Beliebtheit, Freundschaft, Gruppenzugehörigkeit. Die 2.\,Aufl.\ 2015 enthält diesen Beitrag; die 3.\,Aufl.\ 2020 (wildmoeller2020paedagogischepsychologie) führt ihn aktualisiert weiter. Basiskapitel für FW3.},
+}
+
+% --- Peer-reviewed Einzelartikel -------------------------------
+
+@article{schwab2016partizipation,
+  author    = {Schwab, Susanne},
+  title     = {Erfassung von sozialer {Partizipation}: {Übereinstimmung} zwischen {Selbst-} und {Fremdsicht} von {Schülern} mit und ohne sonderpädagogischen {Förderbedarf}},
+  journal   = {Zeitschrift für Pädagogische Psychologie},
+  year      = {2016},
+  volume    = {30},
+  number    = {4},
+  pages     = {227--236},
+  doi       = {10.1024/1010-0652/a000187},
+  publisher = {Hogrefe},
+  affiliation = {Universität Bielefeld; North-West University (Südafrika)},
+  annotation = {10\,S. Peer-reviewed Originalartikel. Soziale Partizipation aus Selbst- und Fremdsicht -- methodischer Beitrag. Inklusionsrelevant für FW3.},
+}
+
+@article{wiemannlohaus2024bullying,
+  author    = {Wiemann, Ann-Katrin and Lohaus, Arnold},
+  title     = {Verfügbare {Ressourcen} und {Bullyingerfahrungen} von {Schülern} und {Schülerinnen} mit und ohne sonderpädagogischen {Förderbedarf}: {Eine} {Pilotstudie} im {Inklusionskontext}},
+  journal   = {Zeitschrift für Pädagogische Psychologie},
+  year      = {2024},
+  volume    = {38},
+  number    = {1--2},
+  pages     = {85--98},
+  doi       = {10.1024/1010-0652/a000325},
+  publisher = {Hogrefe},
+  note      = {Open Access (CC BY 4.0), Hogrefe OpenMind. OnlineFirst-Vorversion 2021.},
+  affiliation = {Universität Bielefeld},
+  annotation = {14\,S. Peer-reviewed Pilotstudie. Bullyingerfahrungen bei SPF-Schüler:innen vs. Peers ohne SPF. Direkter Bezug zur sozialen Teilhabe und Schutz-Mechanismen in FW3. Lokal sind 2024-Print und 2021-OnlineFirst abgelegt (source.pdf bzw. source\_onlinefirst2021.pdf).},
+}
+
 % ── Frage 3: Person, Beziehung, Emotion ───────────────────
 
 @incollection{grossrieder2010anerkennung,
@@ -203,8 +606,45 @@
   year      = {2010},
   publisher = {Klett und Balmer},
   address   = {Zug},
-  pages     = {87--96},
-  annotation = {10\,S.},
+  pages     = {87--94},
+  annotation = {7\,S. (S.\,87--94). Fliesstext-Spanne von Inti verifiziert
+                (KERNLITERATUR\_INTI.md, Frage\,3); gesamter Beitrag geht mit
+                Literatur bis S.\,96. Kapitelbeitrag im Buholzer/Kummer-Wyss-Sammelband.},
+}
+
+@incollection{buholzerkummerwyss2010einfuehrung,
+  author    = {Buholzer, Alois and Kummer Wyss, Annemarie},
+  title     = {Einführung: {Zum} {Umgang} mit {Heterogenität} in {Schule} und {Unterricht}},
+  booktitle = {Alle gleich -- alle unterschiedlich: {Zum} {Umgang} mit {Heterogenität} in {Schule} und {Unterricht}},
+  editor    = {Buholzer, Alois and Kummer Wyss, Annemarie},
+  year      = {2010},
+  publisher = {Klett und Balmer},
+  address   = {Zug},
+  pages     = {7--12},
+  annotation = {5\,S. (S.\,7--12). Herausgeber-Einführung des Sammelbands.
+                Von Inti als Kernliteratur für Frage\,4 verifiziert
+                (KERNLITERATUR\_INTI.md). Herausgebertext definiert den
+                Heterogenitäts-Rahmen für sämtliche Folgebeiträge im Band
+                (Kappus, Grossrieder, Fischer etc.).},
+}
+
+@incollection{fischer2010begabung,
+  author    = {Fischer, Christian},
+  title     = {Begabung und {Hochbegabtenförderung}},
+  booktitle = {Alle gleich -- alle unterschiedlich: {Zum} {Umgang} mit {Heterogenität} in {Schule} und {Unterricht}},
+  editor    = {Buholzer, Alois and Kummer Wyss, Annemarie},
+  year      = {2010},
+  publisher = {Klett und Balmer},
+  address   = {Zug},
+  pages     = {VERIFY--VERIFY},
+  note      = {VERIFY: Exakte Seitenspanne im Buholzer/Kummer-Wyss-Sammelband 2010
+               gemäss Inti (KERNLITERATUR\_INTI.md) noch offen -- ggf.\ via Buch
+               nachtragen. Kap.\ wird sowohl für FW2 als auch für FW4
+               als Kernliteratur geführt.},
+  annotation = {Kapitelbeitrag im Buholzer/Kummer-Wyss-Sammelband 2010.
+                Von Inti als Kernliteratur für Frage\,2 (Begabung im
+                Heterogenitätskontext) und Frage\,4 (Hochbegabtenförderung)
+                verifiziert. Exakte Seitenangabe noch zu ergänzen.},
 }
 
 @incollection{kuhl2019diversitaet,
@@ -215,9 +655,10 @@
   year      = {2019},
   publisher = {Verlag Julius Klinkhardt},
   address   = {Bad Heilbrunn},
-  % VERIFY Inti: Review behauptet 35--59 statt 35--57. Bitte am Buch prüfen.
-  pages     = {35--57},
-  annotation = {23\,S.},
+  pages     = {35--59},
+  isbn      = {978-3-7815-2316-6},
+  doi       = {10.25656/01:17448},
+  annotation = {25\,S. (S.\,35--59). Verifiziert via Klinkhardt Open-Access-PDF (urn:nbn:de:0111-pedocs-174484); Käpnick-Beitrag schliesst auf S.\,60 an.},
 }
 
 @incollection{behrensen2019inklusive,
@@ -262,7 +703,11 @@
   publisher = {Klett und Balmer},
   address   = {Zug},
   pages     = {63--77},
-  annotation = {15\,S.},
+  annotation = {15\,S. (S.\,63--77). Volltext (Foto-Scan, komprimiert) liegt vor unter
+                Literatur/kappus2010migration/source.pdf (5,0\,MB). Inhaltsverzeichnis-
+                Position bestätigt via Buholzer-Sammelband (Universitätsbibliothek Basel,
+                IDSBB 005018146): Kappus-Beitrag steht in Teil~I \enquote{Erscheinungsweisen
+                von Heterogenität}.},
 }
 
 % ── Frage 4: SOLUX / Enrichment / Inklusion ───────────────
@@ -323,23 +768,12 @@
   annotation  = {ca.~20\,S.},
 }
 
-% VERIFY Inti: Online ist nur die 1. Auflage 2005 bei Klett und Balmer (Zug)
-% belastbar nachweisbar (ISBN 978-3-264-83605-9). Falls keine 3. Aufl. 2021
-% physisch vorliegt, muss der Eintrag auf year={2005}, publisher={Klett und
-% Balmer}, address={Zug} korrigiert und edition entfernt werden.
-@book{brunner2021hochbegabung,
-  author    = {Brunner, Esther and Gyseler, Dominik
-               and Lienhard, Peter},
-  title     = {Hochbegabung ({k})ein {Problem}? {Zuweisung} und
-               {Förderung} von {Kindern} und {Jugendlichen} mit
-               besonderen {Begabungen}},
-  year      = {2021},
-  edition   = {3},
-  publisher = {Haupt},
-  address   = {Bern},
-  annotation = {Kap. Identifikation, Fördermodelle im Schweizer
-               Kontext: ca.~25\,S.},
-}
+% Eintrag brunner2021hochbegabung wurde gemäss Phase-0-Entscheidung E5
+% (siehe ENTSCHEIDUNGEN.md) entfernt, weil weder die ursprünglich angegebene
+% 3. Aufl. 2021 (Haupt, Bern) noch eine andere als die 1. Aufl. 2005
+% (Klett und Balmer, Zug, ISBN 978-3-264-83605-9) belastbar nachweisbar war.
+% Ersatz im Korpus: muelleroppliger2021handbuch (Anderegg/Wilhelm, Nguyen/Sliwka)
+% + stamm2014handbuch.
 
 % ── Frage 5: Beratung, Kooperation, Profession ────────────
 
@@ -382,15 +816,16 @@
 
 @incollection{macha2019gender,
   author    = {Macha, Hildegard},
-  title     = {Gender und diversitätssensible {Begabungsförderung} und {Professionalisierung}},
+  title     = {Gender- und diversitätssensible {Begabungsförderung} und {Professionalisierung}},
   booktitle = {Begabungsförderung und {Professionalisierung}: {Befunde}, {Perspektiven}, {Herausforderungen}},
   editor    = {Reintjes, Christian and Kunze, Ingrid and Ossowski, Ekkehard},
   year      = {2019},
   publisher = {Verlag Julius Klinkhardt},
   address   = {Bad Heilbrunn},
-  % VERIFY Inti: Review behauptet 160--173 statt 160--172. Bitte am Buch prüfen.
-  pages     = {160--172},
-  annotation = {13\,S.},
+  pages     = {160--173},
+  isbn      = {978-3-7815-2316-6},
+  doi       = {10.25656/01:17448},
+  annotation = {14\,S. (S.\,160--173). Verifiziert via Klinkhardt Open-Access-PDF (urn:nbn:de:0111-pedocs-174484); Fischer-Beitrag schliesst auf S.\,174 an.},
 }
 
 % ── Kontextquellen (Statistik, Policy) ────────────────────
@@ -511,6 +946,61 @@
   annotation = {26 Studien 2000--2024, 5 Kernthemen, Flucht/Migration.},
 }
 
+% ── Ergänzende Schweizer Quellen ─────────────────────────
+
+@book{huser2025lichtblick,
+  editor    = {Huser, Joëlle},
+  title     = {Lichtblick für helle {Köpfe}: {Ein} {Wegweiser} zur {Erkennung} und {Förderung} von hohen {Fähigkeiten} bei {Kindern} und {Jugendlichen} auf allen {Schulstufen}},
+  year      = {2025},
+  edition   = {3},
+  publisher = {Lehrmittelverlag Zürich},
+  address   = {Zürich},
+  isbn      = {978-3-03713-867-0},
+  pagetotal = {176},
+  annotation = {3.\,Aufl.\ 2025 (Ausgabe 2021); Gegenüber der 1.\,Aufl.\ 2004 erweitert um die
+                Kapitel zu Spiel, Perfektionismus, Hochsensitivität, Fehl-/Mehrfachdiagnosen
+                und Lernenden mit Migrationshintergrund (Verlagsbeschreibung Lehrmittelverlag
+                Zürich). Im lokalen Korpus liegen Foto-Auszüge (komprimiert mit
+                compress\_pdfs.py) zu Kap.\,1, 12, 14, 15 und Keller-Koller-Migration
+                in Literatur/huser2025lichtblick/.},
+}
+
+@incollection{kummerwyss2017kooperativunterrichten,
+  author    = {Kummer Wyss, Annemarie},
+  title     = {Kooperativ unterrichten},
+  booktitle = {Alle gleich -- alle unterschiedlich! {Zum} {Umgang} mit {Heterogenität} in {Schule} und {Unterricht}},
+  editor    = {Buholzer, Alois and Kummer Wyss, Annemarie},
+  year      = {2017},
+  edition   = {3},
+  publisher = {Kallmeyer/Klett und Klett und Balmer},
+  address   = {Seelze und Zug},
+  pages     = {151--160},
+  annotation = {10\,S. (S.\,151--160). 3.\,Aufl.\ 2017 (Erstauflage 2010, S.\,151--162 bei
+                Klett und Balmer Zug). Beitrag im Sammelband Buholzer/Kummer Wyss; verbindet
+                sich thematisch mit kappus2010migration (S.\,63--77) und
+                grossrieder2010anerkennung (S.\,87--96) aus demselben Band.
+                Volltext-PDF in Literatur/kummerwyss2017kooperativunterrichten/source.pdf.},
+}
+
+@book{stamm2025vonuntennachoben,
+  author    = {Stamm, Margrit},
+  title     = {Von unten nach oben: {Arbeiterkinder} und ihre {Bildungsaufstiege} an das {Gymnasium}},
+  year      = {2025},
+  publisher = {Beltz Juventa},
+  address   = {Weinheim und Basel},
+  isbn      = {978-3-7799-7574-8},
+  pagetotal = {138},
+  annotation = {Erscheinungsjahr 2025 (Impressum); Online-Händler führen die Ende
+                Dezember 2024 ausgelieferten Exemplare teilweise als 12/2024.
+                Maßgeblich für APA-Zitation ist das Copyright-Jahr im Impressum (2025),
+                verifiziert am physischen Buchexemplar. Fotografien der Seiten 13--129
+                liegen komprimiert in Literatur/stamm2025vonuntennachoben/
+                (s013--038, s035--057, s058--079, s080--104, s106--129). Überlappung
+                S.\,35--38 und Lücke S.\,105; Seiten ohne OCR, nur visuell durchsuchbar.
+                Ergänzende Lektüre zu FW1 (\enquote{begabte Minoritäten}) und FW3
+                (soziale Herkunft, Bildungsgerechtigkeit).},
+}
+
 % ══════════════════════════════════════════════════════════════
 %  @incollection-Eintraege aus Handbuch Begabung (Müller-Oppliger/Weigand 2021)
 %  Generiert aus Transkript-Verortungen (siehe MPV/Literatur/Transkripte/einordnung/).
@@ -539,9 +1029,12 @@
   year      = {2021},
   publisher = {Beltz},
   address   = {Weinheim und Basel},
-  pages     = {77--86},
+  pages     = {77--87},
   isbn      = {978-3-407-25806-9},
-  annotation = {ca.~10\,S. Meritokratische Illusion, Pygmalion-Effekt, Migrationshintergrund als verwobene Kategorie.},
+  annotation = {11\,S. (S.\,77--87). Von Inti verifiziert
+                (KERNLITERATUR\_INTI.md, Fragen\,1,\,4,\,5). Meritokratische
+                Illusion, Pygmalion-Effekt, Migrationshintergrund als
+                verwobene Kategorie.},
 }
 
 @incollection{wollersheim2021konstrukt,
@@ -565,10 +1058,22 @@
   year      = {2021},
   publisher = {Beltz},
   address   = {Weinheim und Basel},
-  pages     = {115--131},
+  pages     = {115--129},
   isbn      = {978-3-407-25806-9},
-  % VERIFY Inti: Transkript unvollständig (bricht nach Einleitung ab); vor Zitierung Volltext konsultieren.
-  annotation = {ca.~17\,S. Laien-/Fachpersonen-Theorien; Disharmonie-Hypothese.},
+  annotation = {15\,S. (S.\,115--129). Seitenspanne von Inti verifiziert
+                (KERNLITERATUR\_INTI.md, Fragen\,1,\,3,\,5); der Scan
+                umfasst die Fliesstext-Seiten 115--128 plus die erste
+                Literaturseite 129. Volltext via OCR (source.pdf, komprimiert
+                6.7\,MB) vorliegend. Gliederung:
+                (1) Begriffliche Abgrenzungen, (2) Erkennen mit IQ-Kritik
+                und Lehrkrafturteil ($\rho = .50$), (3) Hochbegabungs-
+                konzeptionen (Disharmonie-Stereotyp, Cultural Mismatch,
+                Minoritätenstress, Cass-Stufenmodell), (4) Folgerungen
+                für globalisierte Gesellschaft. Schlüsselbeleg für FW1
+                (Sprache als Identifikationsbarriere, S.\,120), FW3
+                (kultursensible Begabungsdiagnostik, S.\,125) und BW4
+                (Inklusionsdebatte vergisst Begabung, S.\,119).
+                Vollständige verified\_quotes.md Status\,4 vorliegend.},
 }
 
 @incollection{stadelmann2021begabungsentwicklung,
@@ -594,8 +1099,7 @@
   address   = {Weinheim und Basel},
   pages     = {149--167},
   isbn      = {978-3-407-25806-9},
-  % VERIFY Inti: Transkript unvollständig (endet mitten in Intelligenz-Expertise-Diskussion).
-  annotation = {ca.~19\,S. Chunking, deliberate practice, Relativierung der 10000-Stunden-Regel.},
+  annotation = {19\,S. (S.\,149--167). Verifiziert via Beltz-Inhaltsverzeichnis (Urban-Beitrag schliesst auf S.\,168 an). Chunking, deliberate practice, Relativierung der 10000-Stunden-Regel.},
 }
 
 @incollection{urban2021kreativitaet,
@@ -677,6 +1181,19 @@
   annotation = {ca.~30\,S. Vier Phasen Talententwicklung: Potenzial, Kompetenz, Expertise, aussergewöhnliche Leistung; Weiterentwicklung des Mega-Modells (Subotnik et al.\ 2011).},
 }
 
+@incollection{baumschader2021twice,
+  author    = {Baum, Susan and Schader, Robin},
+  title     = {\enquote{Twice {Exceptionality}} -- in zweifacher {Hinsicht} aussergewöhnlich: {Geschichte}, {Charakteristika} und {Möglichkeiten} erfolgreichen {Lernens}},
+  booktitle = {Handbuch {Begabung}},
+  editor    = {Müller-Oppliger, Victor and Weigand, Gabriele},
+  year      = {2021},
+  publisher = {Beltz},
+  address   = {Weinheim und Basel},
+  pages     = {588--601},
+  isbn      = {978-3-407-25806-9},
+  annotation = {14\,S. (S.\,588--601). Schlussbeitrag im Teil VIII \enquote{Dysfunktionale Begabungsentwicklung} des Handbuchs Begabung. Historische Entwicklung des 2e-Konzepts, Charakteristika und Lernbedingungen. Volltext verfügbar via teil8\_dysfunktionale\_begabungsentwicklung.md in muelleroppliger2021handbuch/excerpts/.},
+}
+
 @incollection{renzullireis2021rls,
   author    = {Renzulli, Joseph S. and Reis, Sally M.},
   title     = {Das \enquote{Renzulli-Lernsystem} ({RLS})},
@@ -698,10 +1215,9 @@
   year      = {2021},
   publisher = {Beltz},
   address   = {Weinheim und Basel},
-  % VERIFY Inti: Seitenbereich 496--510 laut Inhaltsverzeichnis; Fliesstext evt. bis 506, dann Lit.-Verzeichnis.
   pages     = {496--510},
   isbn      = {978-3-407-25806-9},
-  annotation = {ca.~15\,S. Haltung als idiosynkratisches Muster (Schwer/Solzbacher 2014); sensitive Responsivität; drei Kennzeichen professioneller Haltung (Kohl/Schwer/Solzbacher 2014).},
+  annotation = {15\,S. (S.\,496--510). Verifiziert via Beltz-Inhaltsverzeichnis (Arnold/Großgasteiger-Beitrag schliesst auf S.\,511 an). Haltung als idiosynkratisches Muster (Schwer/Solzbacher 2014); sensitive Responsivität; drei Kennzeichen professioneller Haltung (Kohl/Schwer/Solzbacher 2014).},
 }
 
 @book{behrensen2016grundwissen,

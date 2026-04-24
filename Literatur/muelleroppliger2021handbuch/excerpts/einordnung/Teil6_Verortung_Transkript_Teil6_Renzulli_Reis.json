@@ -1,0 +1,959 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-04-19",
+    "generated_for": "Inti Merolli, Masterprüfung Vertiefung SHP, PH Luzern",
+    "purpose": "Verortung eines Spracherkennungs-Transkripts zu Teil VI (Begabende Unterstützungssysteme) des Handbuchs Begabung im Lerndokument der Masterprüfungsvorbereitung. Die Datei dokumentiert pro Transkript-Passage die mutmassliche Druckseite, die Zielfrage, den Zielabschnitt und einen konkreten Einbauvorschlag.",
+    "structural_keys_language": "en",
+    "content_values_language": "de",
+    "priority_legend": {
+      "A": "Hoher argumentativer Mehrwert, soll unbedingt eingebaut werden",
+      "B": "Sinnvolle Ergänzung, je nach Platzbudget einbaubar",
+      "C": "Peripher, nur auf gezielte Nachfrage in der mündlichen Prüfung"
+    }
+  },
+  "source": {
+    "type": "book_chapter",
+    "chapter": {
+      "title": "Das »Renzulli-Lernsystem« (RLS)",
+      "authors": [
+        {
+          "family": "Renzulli",
+          "given": "Joseph S."
+        },
+        {
+          "family": "Reis",
+          "given": "Sally M."
+        }
+      ],
+      "page_start": 444,
+      "page_end": 454,
+      "page_count": 11,
+      "part_of_volume": {
+        "part_number": "VI",
+        "part_title": "Begabende Unterstützungssysteme",
+        "chapters_in_part": [
+          {
+            "title": "Das »Renzulli-Lernsystem« (RLS)",
+            "authors": [
+              "Renzulli, J. S.",
+              "Reis, S. M."
+            ],
+            "page_start": 444,
+            "page_end": 454,
+            "used_in_dossier": true,
+            "is_transcript_source": true
+          },
+          {
+            "title": "Frühstudium",
+            "authors": [
+              "Stumpf, E."
+            ],
+            "page_start": 455,
+            "page_end": 467,
+            "used_in_dossier": false,
+            "note_from_user": "gelesen, aber nicht verwendet"
+          },
+          {
+            "title": "Schulische Netzwerke in der Begabungs- und Begabtenförderung",
+            "authors": [
+              "Miceli, N.",
+              "Steenbuck, O."
+            ],
+            "page_start": 468,
+            "page_end": 479,
+            "used_in_dossier": false,
+            "note_from_user": "gelesen, aber nicht verwendet"
+          },
+          {
+            "title": "Förderprogramme und Stipendien. Theorie, Praxis und Empirie",
+            "authors": [
+              "Schenk, C."
+            ],
+            "page_start": 480,
+            "page_end": 495,
+            "used_in_dossier": false,
+            "note_from_user": "gelesen, aber nicht verwendet"
+          }
+        ]
+      }
+    },
+    "book": {
+      "title": "Handbuch Begabung",
+      "editors": [
+        {
+          "family": "Müller-Oppliger",
+          "given": "Victor"
+        },
+        {
+          "family": "Weigand",
+          "given": "Gabriele"
+        }
+      ],
+      "year": 2021,
+      "publisher": "Beltz",
+      "publisher_location": "Weinheim und Basel",
+      "isbn_print": "978-3-407-25806-9",
+      "isbn_ebook": "978-3-407-25886-1",
+      "total_pages": 609,
+      "edition": 1,
+      "series": "hochbegabung und pädagogische praxis"
+    },
+    "identification": {
+      "method": "Positive Identifikation durch drei unabhängige Merkmale: (1) Namensnennung Renzulli und Reis am Anfang des Transkripts, (2) Titel »Renzulli Lernsystem RLS«, (3) am Ende genannte Folgekapitel (Stumpf, Miceli und Steenbuck, Schenk) entsprechen exakt der Kapitelreihenfolge in Teil VI des Handbuchs Begabung (Beltz 2021).",
+      "confidence": "high",
+      "verified_against": [
+        "Inhaltsverzeichnis Handbuch Begabung (Lehmanns.de, abgerufen 2026-04-19)",
+        "Beltz-Leseprobe der 1. Auflage",
+        "Rezension ECHA Österreich 2021"
+      ]
+    },
+    "biblatex_entry": {
+      "key": "renzullireis2021rls",
+      "type": "incollection",
+      "fields": {
+        "author": "Renzulli, Joseph S. and Reis, Sally M.",
+        "title": "Das {\\glqq}Renzulli-Lernsystem{\\grqq} (RLS)",
+        "booktitle": "Handbuch Begabung",
+        "editor": "M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele",
+        "year": "2021",
+        "publisher": "Beltz",
+        "address": "Weinheim und Basel",
+        "pages": "444--454"
+      },
+      "rendered": "@incollection{renzullireis2021rls,\n  author    = {Renzulli, Joseph S. and Reis, Sally M.},\n  title     = {Das {\\glqq}Renzulli-Lernsystem{\\grqq} (RLS)},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  pages     = {444--454}\n}"
+    },
+    "apa7_citation": "Renzulli, J. S. & Reis, S. M. (2021). Das »Renzulli-Lernsystem« (RLS). In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 444 bis 454). Weinheim und Basel: Beltz."
+  },
+  "lerndokument": {
+    "filename_reference": "Teil_6_Begabende_Unterstützungssysteme.tex",
+    "questions": [
+      {
+        "id": "Q1",
+        "number": 1,
+        "domain": "FW",
+        "competence_areas": [
+          "KS",
+          "DG"
+        ],
+        "title": "Multiperspektivische Erfassung verdeckter Begabungen",
+        "short_focus": "Wie lassen sich verdeckte Begabungen bei mehrsprachigen Neuzugewanderten sprachsensibel erfassen?"
+      },
+      {
+        "id": "Q2",
+        "number": 2,
+        "domain": "FW",
+        "competence_areas": [
+          "MW",
+          "KS"
+        ],
+        "title": "Sensumotorische und schriftsprachliche Barrieren und ressourcenorientierte Förderung",
+        "short_focus": "Welche Faktoren verdecken kognitives Potenzial, und wie lässt es sich ressourcenorientiert fördern?"
+      },
+      {
+        "id": "Q3",
+        "number": 3,
+        "domain": "FW",
+        "competence_areas": [
+          "PB"
+        ],
+        "title": "Ausgrenzungs- und Migrationserfahrungen, Beziehungsgestaltung und Begabungsentwicklung",
+        "short_focus": "Wie beeinflussen Belastungs- und Migrationserfahrungen die Begabungsentwicklung und soziale Teilhabe?"
+      },
+      {
+        "id": "Q4",
+        "number": 4,
+        "domain": "BW",
+        "competence_areas": [
+          "DG",
+          "PV"
+        ],
+        "title": "Inklusive Begabungsförderung am Beispiel SOLUX",
+        "short_focus": "Inwiefern macht SOLUX Potenziale sichtbar, die der Regelunterricht systematisch übersieht?"
+      },
+      {
+        "id": "Q5",
+        "number": 5,
+        "domain": "BW",
+        "competence_areas": [
+          "ZB",
+          "PV"
+        ],
+        "title": "Beratung und Zusammenarbeit aus SHP-Perspektive",
+        "short_focus": "Wie gestalte ich als SHP Beratung und Kooperation so, dass defizitorientierte Wahrnehmungen ressourcenorientiert erweitert werden?"
+      }
+    ]
+  },
+  "transcript": {
+    "filename": "Teil_6_Begabende_Unterstützugssysteme_fast_ohne_kommentare.md",
+    "type": "speech_to_text",
+    "language": "de",
+    "quality": {
+      "assessment": "medium",
+      "issues": [
+        "Typische Whisper-/Diktat-Fehler: Rentoli statt Renzulli, En Richment statt Enrichment, Sementarium statt Instrumentarium, Begabungssprogramme statt Begabtenprogramme, Guide to the side statt Guide on the side",
+        "Eigennamen teils entstellt (Firmender korrekt, Rubenstein vermutlich korrekt, Field ungesichert)",
+        "Satzgrenzen unscharf, Grossschreibung inkonsistent"
+      ],
+      "implication": "Nicht wörtlich zitierfähig. Für jede Übernahme in das Abgabedossier muss die Originalformulierung aus dem Druckkapitel rückverifiziert werden."
+    }
+  },
+  "passages": [
+    {
+      "id": "P01",
+      "order": 1,
+      "title": "Ausgangslage RLS: Digitale Ergänzung zum SEM",
+      "summary": "Das RLS wurde 2008 an der University of Connecticut entwickelt, um die arbeitsintensive Stärkendiagnose und Materialsuche des SEM technisch zu unterstützen. Lehrpersonen scheitern laut Renzulli und Reis an der Differenzierung nicht aus Unwillen, sondern aus Ressourcenknappheit.",
+      "transcript_marker": {
+        "keywords": [
+          "Auswertung der schriftlichen Verfahren",
+          "mit großem Aufwand",
+          "ohne umfangreiche technische Hilfsmittel"
+        ],
+        "approximate_line_range": "Z. 5 bis 10"
+      },
+      "estimated_pages": {
+        "page_start": 444,
+        "page_end": 445,
+        "confidence": "high",
+        "rationale": "Einleitung des Kapitels"
+      },
+      "tags": [
+        "SEM",
+        "Enrichment",
+        "Technologie",
+        "Differenzierung"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "SOLUX: Strukturmerkmale und Wirklogik",
+              "anchor_text": "Das Pilotprojekt SOLUX, das an sieben 5. und 6. Klassen eingeführt wird",
+              "insertion_mode": "footnote_or_sidenote"
+            },
+            {
+              "section_title": "Enrichment als Gegenmodell: Das Schoolwide Enrichment Model",
+              "anchor_text": "Das Schoolwide Enrichment Model (SEM) nach Renzulli und Reis",
+              "insertion_mode": "parenthetical"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Das RLS zeigt, dass auch die prominentesten Vertreter des Enrichment-Gedankens die Umsetzungsschwierigkeit im Alltag explizit anerkennen. Das stärkt die Deutung, dass SOLUX kein Zusatz, sondern eine strukturelle Antwort auf ein bekanntes Problem ist.",
+      "insertion_suggestion": "Kurzer Nebensatz im SEM-Absatz, der erwähnt, dass Renzulli und Reis selbst die praktische Differenzierungslücke als Ausgangsproblem benennen und mit dem RLS eine technologische Antwort entwickelt haben.",
+      "priority": "B",
+      "priority_rank": 6
+    },
+    {
+      "id": "P02",
+      "order": 2,
+      "title": "Firmender, Reis und Sweeney 2013: Lesekompetenz als Begabungskriterium",
+      "summary": "In einer Studie an fünf Schulen (darunter eine mit Begabungsschwerpunkt) und über 1000 Grundschülerinnen der Klassen 3 und 4 zeigte sich: Auch in Begabtenprogrammen ist die Bandbreite des Leseverständnisses enorm. Neben nonverbaler Intelligenz ist Lesekompetenz ein eigenständiges Aufnahme- und Förderkriterium.",
+      "transcript_marker": {
+        "keywords": [
+          "Studie von Firmender Reis und Sweeney 2013",
+          "fünf Schulen",
+          "über 1000 Grundschüler",
+          "Größenunterschiede im Leseverständnis",
+          "zusätzlich zur nonverbalen Intelligenz"
+        ],
+        "approximate_line_range": "Z. 11 bis 17"
+      },
+      "estimated_pages": {
+        "page_start": 445,
+        "page_end": 445,
+        "confidence": "high",
+        "rationale": "Frühe Einleitung zur Legitimation des RLS, kommt vor der Vier-Schritte-Struktur"
+      },
+      "tags": [
+        "Lesekompetenz",
+        "empirische Evidenz",
+        "Firmender 2013",
+        "Diagnostik"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q2",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Leseflüssigkeit als komplementäres Entwicklungsfeld",
+              "anchor_text": "Dieser Matthäus-Effekt ist bei S. besonders ausgeprägt",
+              "insertion_mode": "after_anchor_paragraph"
+            }
+          ]
+        },
+        {
+          "question_id": "Q1",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Grenzen sprachlastiger Diagnostik",
+              "anchor_text": "Ein einzelner IQ-Wert ist kein hinreichendes Kriterium",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Sehr starkes empirisches Argument. S. liest 17 Wörter pro Minute. Die Firmender/Reis/Sweeney-Studie zeigt, dass selbst in US-Begabtenprogrammen das Leseverständnis stark variiert und deshalb neben nonverbaler Intelligenz als eigenes Diagnostikkriterium erfasst werden muss.",
+      "insertion_suggestion": "Nach dem Matthäus-Effekt-Absatz in Frage 2 einschieben: Auch in der Begabtenforschung selbst wird die Bedeutung der Leseflüssigkeit als eigenständiges Diagnostikkriterium neben nonverbaler Intelligenz hervorgehoben (Firmender, Reis und Sweeney 2013, zit. n. Renzulli und Reis 2021, S. 445).",
+      "priority": "A",
+      "priority_rank": 1
+    },
+    {
+      "id": "P03",
+      "order": 3,
+      "title": "Schritt 1 des RLS: Stärke- und Interessensprofil",
+      "summary": "Computergestütztes Diagnoseinstrument (30 Min. online) erstellt ein individuelles Profil aus intellektuellen Fähigkeiten, Interessen, Lernstilen und Ausdruckspräferenzen. Dieses Profil fungiert als Kompass und erlaubt zudem die Zusammenstellung interessenhomogener Lerngruppen.",
+      "transcript_marker": {
+        "keywords": [
+          "Schritt 1",
+          "Stärkeanalyse",
+          "elektronisches Lernprofil",
+          "intellektuelle Fähigkeiten, Interessen, Lernstile, Ausdruckspräferenzen",
+          "30 Minuten"
+        ],
+        "approximate_line_range": "Z. 22 bis 26"
+      },
+      "estimated_pages": {
+        "page_start": 446,
+        "page_end": 446,
+        "confidence": "high",
+        "rationale": "Erste Stufe der Vier-Schritte-Struktur, folgt unmittelbar auf die Einleitung"
+      },
+      "tags": [
+        "Stärkenprofil",
+        "Lernprofil",
+        "Interessensdiagnostik",
+        "Gruppierung"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "SOLUX: Strukturmerkmale und Wirklogik",
+              "anchor_text": "Das zweite Merkmal ist die Interessenorientierung",
+              "insertion_mode": "after_anchor_paragraph"
+            }
+          ]
+        },
+        {
+          "question_id": "Q1",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Multiperspektivische und dynamische Erfassung",
+              "anchor_text": "Die internationale Fachliteratur zur professionellen Begabtenförderung",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Struktureller Beleg dafür, dass interessens- und stärkengeleitete Diagnostik international etabliert ist. Der SOLUX-Fragebogen entspricht funktional dem RLS-Profiler.",
+      "insertion_suggestion": "Im Absatz zu SOLUX ergänzen, dass der SOLUX-Fragebogen (barrierefrei vorgelesen, Sprachwahl Englisch oder Albanisch) funktional dem RLS-Profiler entspricht. Das legitimiert den methodischen Zugang von SOLUX als anerkannter Standard der Begabungsforschung.",
+      "priority": "B",
+      "priority_rank": 5
+    },
+    {
+      "id": "P04",
+      "order": 4,
+      "title": "Schritt 2 des RLS: Enrichment-Datenbanken und Junior-Experten-Rolle",
+      "summary": "Suchmaschine gleicht Profil mit 50000 Enrichment-Aktivitäten ab (u.a. Exkursionen, Kreativitätstraining, Recherchenprojekte, kreatives Schreiben). Ziel: Lernende agieren als Junior-Profi in authentischen Fragestellungen. Vermittlung von Forschungsmethoden, kritischem Denken und Quellenkritik. Explizite Abkehr von trägem Wissen.",
+      "transcript_marker": {
+        "keywords": [
+          "50.000 verschiedenen Aktivitäten",
+          "wie ein praktizierender Profi zu fühlen",
+          "Junior Leevel",
+          "träges Wissen"
+        ],
+        "approximate_line_range": "Z. 29 bis 40"
+      },
+      "estimated_pages": {
+        "page_start": 447,
+        "page_end": 448,
+        "confidence": "high",
+        "rationale": "Zweiter Schritt der Vier-Schritte-Struktur"
+      },
+      "tags": [
+        "Enrichment",
+        "Expertenrolle",
+        "träges Wissen",
+        "Forschungsmethoden",
+        "Kreativität"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "SOLUX: Strukturmerkmale und Wirklogik",
+              "anchor_text": "Das vierte Merkmal ist die Expertenrolle",
+              "insertion_mode": "theoretical_backing"
+            }
+          ]
+        },
+        {
+          "question_id": "Q2",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Motivation als Brücke zwischen Interesse und Kompetenzentwicklung",
+              "anchor_text": "Lehwald analysiert das Zusammenspiel von Motivation und Begabung",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Zentraler theoretischer Rückhalt für die Expertenrollen-These. S. tritt im SOLUX-Projekt mit seinem Schachkurs exakt in der Junior-Experten-Logik auf, die Renzulli und Reis auch für das RLS beschreiben.",
+      "insertion_suggestion": "Im Abschnitt Expertenrolle (Frage 4) als theoretischer Rahmen zitieren: Renzulli und Reis (2021, S. 447) beschreiben diese Rollenumkehr als zentrale Wirkkomponente des Enrichment-Gedankens.",
+      "priority": "A",
+      "priority_rank": 3
+    },
+    {
+      "id": "P05",
+      "order": 5,
+      "title": "PISA 2006: Engagement als Hauptkriterium",
+      "summary": "Der PISA-Bericht 2006 weist Engagement der Lernenden als Hauptkriterium für den Unterschied zwischen Hoch- und Tief-Performer-Ländern aus, und zwar kontrolliert für Ethnizität und sozioökonomischen Status. Engagement korreliert positiv mit Leistung, Selbstkonzept, Selbstwirksamkeit und Schul-Haltung.",
+      "transcript_marker": {
+        "keywords": [
+          "PISA-Bericht 2006",
+          "Engagement der lernenden als Hauptkriterium",
+          "demographische Faktoren wie Ethnizität",
+          "sozioökonomische Unterschiede berücksichtigt"
+        ],
+        "approximate_line_range": "Z. 42 bis 46"
+      },
+      "estimated_pages": {
+        "page_start": 448,
+        "page_end": 448,
+        "confidence": "medium",
+        "rationale": "Evidenzabschnitt nach Beschreibung von Schritt 2"
+      },
+      "tags": [
+        "PISA 2006",
+        "Engagement",
+        "Bildungsgerechtigkeit",
+        "empirische Evidenz"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Inklusive Begabungsförderung als Gerechtigkeitsperspektive",
+              "anchor_text": "Sedmak und Kapferer vertiefen die Gerechtigkeitsperspektive",
+              "insertion_mode": "supporting_footnote"
+            }
+          ]
+        },
+        {
+          "question_id": "Q3",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Teilhabe als Voraussetzung für Sichtbarkeit",
+              "anchor_text": "Booth und Ainscow entwickeln im Index für Inklusion",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Robust kontrolliertes, demographie-bereinigtes Argument dafür, dass Engagement nicht durch Herkunft determiniert ist. Direkt anschlussfähig an Sedmaks Bildungsgerechtigkeitsperspektive.",
+      "insertion_suggestion": "Als ergänzende Fussnote oder Nebensatz im Gerechtigkeitsabschnitt von Frage 4: Die PISA-Befunde zeigen, dass Engagement-Unterschiede zwischen Ländern nach Kontrolle demographischer Faktoren bestehen bleiben. SOLUX adressiert exakt diese Engagement-Dimension.",
+      "priority": "C",
+      "priority_rank": 9
+    },
+    {
+      "id": "P06",
+      "order": 6,
+      "title": "Schritt 3 des RLS: Wizard Project Maker und Lehrperson als Guide on the side",
+      "summary": "Der Wizard Project Maker ist ein Management-Tool für Typ-III-Projekte. Er fördert sechs metakognitive Fertigkeiten: Projektdefinition, Zielsetzung, Ressourcenidentifikation, Priorisierung, Fortschrittskontrolle, Reflexion. Lehrperson verschiebt sich explizit vom Wissensvermittler zum Mentor.",
+      "transcript_marker": {
+        "keywords": [
+          "Wizard Project Maker",
+          "metakognitive Fertigkeiten",
+          "weniger als Aufgabenstellerin und Wissensvermittlerin, denn als Mentorin",
+          "Guide to the side"
+        ],
+        "approximate_line_range": "Z. 48 bis 56"
+      },
+      "estimated_pages": {
+        "page_start": 449,
+        "page_end": 450,
+        "confidence": "high",
+        "rationale": "Dritter Schritt der Vier-Schritte-Struktur"
+      },
+      "tags": [
+        "Typ-III-Enrichment",
+        "Metakognition",
+        "Mentoring",
+        "Lehrerrolle",
+        "Guide on the side"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q5",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Konsequenzen für das SHP-Professionsverständnis",
+              "anchor_text": "Die zweite Haltung ist reflexive Partnerschaftlichkeit",
+              "insertion_mode": "theoretical_backing"
+            },
+            {
+              "section_title": "Die Beratung der Klassenlehrperson",
+              "anchor_text": "Macha beschreibt die Anforderungen an eine diversitätssensible Professionalisierung",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        },
+        {
+          "question_id": "Q4",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Enrichment als Gegenmodell: Das Schoolwide Enrichment Model",
+              "anchor_text": "Typ-III-Enrichment schliesslich ermöglicht eigenständige Projektarbeit",
+              "insertion_mode": "parenthetical"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Direkter Beleg dafür, dass Renzulli die Lehrperson in Typ-III-Projekten als Mentor und nicht als Aufgabenstellerin rahmt. Das stützt Intis SHP-Rollenverständnis als reflexive Partnerschaftlichkeit.",
+      "insertion_suggestion": "Im Abschnitt Beratung der Klassenlehrperson als theoretischer Bezug einbauen: Diese Haltung deckt sich mit der von Renzulli und Reis (2021, S. 450) für Enrichment-Settings geforderten Rolle der Lehrperson als Guide on the side statt als Sage on the stage.",
+      "priority": "A",
+      "priority_rank": 4
+    },
+    {
+      "id": "P07",
+      "order": 7,
+      "title": "Schritt 4 des RLS: Total Talent Portfolio (TTP)",
+      "summary": "Das Total Talent Portfolio sammelt Lernschritte, Ressourcenbewertungen und Produkte. Es dient der Selbstreflexion, dem Feedback, dem Einbezug der Eltern und der Anknüpfung an Übertrittsentscheide. Das TTP begleitet die gesamte Bildungslaufbahn und wird ausdrücklich als Grundlage für Berufs- und Studienentscheide empfohlen.",
+      "transcript_marker": {
+        "keywords": [
+          "Total Talent Portfolio",
+          "personalisiertes Portfolio",
+          "Selbstbewertung",
+          "Grundlage für individuelles Feedback",
+          "Eltern Einblick",
+          "Bewerbungen an Colleges"
+        ],
+        "approximate_line_range": "Z. 58 bis 65"
+      },
+      "estimated_pages": {
+        "page_start": 450,
+        "page_end": 451,
+        "confidence": "high",
+        "rationale": "Vierter Schritt der Vier-Schritte-Struktur"
+      },
+      "tags": [
+        "Total Talent Portfolio",
+        "TTP",
+        "Kompetenzportfolio",
+        "Übertritt",
+        "Bildungsbiographie"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Kritische Reflexion: Nachhaltigkeit und Transfer",
+              "anchor_text": "Konkret schlage ich vor, für die Übertrittsdokumentation ein Kompetenzportfolio anzulegen",
+              "insertion_mode": "source_attribution"
+            }
+          ]
+        },
+        {
+          "question_id": "Q5",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Zusammenarbeit mit Eltern und externen Fachstellen",
+              "anchor_text": "Wenn die Eltern zugleich berichten, dass S.",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Stärkster Treffer des Transkripts. Das TTP ist der direkte Quellenbeleg für das in Intis kritischer Reflexion vorgeschlagene Kompetenzportfolio für S.s Übertritt. Ein international etabliertes Konzept, das die Idee von einer Einzelfalleingebung zu einem fachlich verankerten Instrument hebt.",
+      "insertion_suggestion": "In der kritischen Reflexion von Frage 4 am Ende des Kompetenzportfolio-Absatzes: Dieser Vorschlag folgt dem Konzept des Total Talent Portfolio (TTP), das Renzulli und Reis (2021, S. 450 bis 451) als integralen Bestandteil des RLS beschreiben. Das TTP begleitet Lernende durch die gesamte Bildungslaufbahn und dient explizit als Grundlage für Übertritts- und Berufsentscheide. Müller-Oppliger (2021, S. 427 ff. desselben Bandes) operationalisiert das Konzept für den deutschsprachigen Schulkontext.",
+      "priority": "A",
+      "priority_rank": 2
+    },
+    {
+      "id": "P08",
+      "order": 8,
+      "title": "Neuerung: Personal Success Plan",
+      "summary": "Schülerinnen formulieren Zukunftsziele, identifizieren Vorbilder und Unterstützerinnen, erkunden Berufsfelder und entwerfen Umsetzungspläne.",
+      "transcript_marker": {
+        "keywords": [
+          "Personal Sucess Plan",
+          "Ziele für die Zukunft setzen",
+          "Heldinnen, Vorbilder",
+          "Berufsoptionen"
+        ],
+        "approximate_line_range": "Z. 67 bis 70"
+      },
+      "estimated_pages": {
+        "page_start": 451,
+        "page_end": 452,
+        "confidence": "medium",
+        "rationale": "Abschnitt Aktuelle Neuerungen im RLS nach der Vier-Schritte-Struktur"
+      },
+      "tags": [
+        "Zukunftsorientierung",
+        "Biographie",
+        "Berufsfindung",
+        "Vorbilder"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Kritische Reflexion: Nachhaltigkeit und Transfer",
+              "anchor_text": "Konkret schlage ich vor, für die Übertrittsdokumentation ein Kompetenzportfolio anzulegen",
+              "insertion_mode": "optional_extension"
+            }
+          ]
+        },
+        {
+          "question_id": "Q3",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Konsequenzen für die heilpädagogische Begleitung",
+              "anchor_text": "Der zweite Orientierungspunkt ist die gezielte Gestaltung von Anerkennungsgelegenheiten",
+              "insertion_mode": "optional_extension"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Unterstützt die Argumentation, dass Begabungsförderung nicht nur aktuell, sondern biographisch ausgerichtet sein muss.",
+      "insertion_suggestion": "Ergänzend zum TTP erwähnen, dass das RLS explizit Zukunftsorientierung als integralen Bestandteil versteht. Schwächere Priorität, weil nur locker an S.s Fall angeschlossen.",
+      "priority": "C",
+      "priority_rank": 10
+    },
+    {
+      "id": "P09",
+      "order": 9,
+      "title": "Assessment of Creativity und Drei-Ringe-Modell",
+      "summary": "Das RLS beruht auf Renzullis Drei-Ringe-Modell. Kreativität wird als eine der am schwersten zu quantifizierenden Eigenschaften junger Menschen benannt. Elektronische Bewertung erlaubt Längsschnitt-Betrachtung.",
+      "transcript_marker": {
+        "keywords": [
+          "Drei-Ringe-Modell",
+          "Kreativität ist eine der am schwierigsten zu qualifizierenden Eigenschaften"
+        ],
+        "approximate_line_range": "Z. 71 bis 73"
+      },
+      "estimated_pages": {
+        "page_start": 452,
+        "page_end": 452,
+        "confidence": "medium",
+        "rationale": "Teil des Abschnitts Aktuelle Neuerungen"
+      },
+      "tags": [
+        "Drei-Ringe-Modell",
+        "Kreativität",
+        "Längsschnitt"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q1",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Begabung als dynamisches Potenzial",
+              "anchor_text": "Renzullis Drei-Ringe-Modell fasst Begabung als Schnittmenge dreier Faktoren",
+              "insertion_mode": "supporting_footnote"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Sekundärer Beleg dafür, dass das Drei-Ringe-Modell als operationaler Rahmen fungiert und Kreativität als eigenständiger, schwer zu messender Ring behandelt wird.",
+      "insertion_suggestion": "Optional als Fussnote oder Satzzusatz im Drei-Ringe-Absatz: Renzulli und Reis (2021, S. 452) weisen explizit darauf hin, dass Kreativität die am schwersten zu qualifizierende Komponente des Modells bleibt und deshalb längsschnittlich erfasst werden sollte. Geringe Zusatzinformation gegenüber dem bestehenden Müller-Oppliger- und Trautmann-Material.",
+      "priority": "C",
+      "priority_rank": 11
+    },
+    {
+      "id": "P10",
+      "order": 10,
+      "title": "Mehrsprachige Profiler-Versionen",
+      "summary": "Der RLS-Profiler liegt in Englisch, Spanisch, Italienisch und Chinesisch vor. Arabisch und Türkisch sind in Vorbereitung. Kinder erstellen ihr Profil in ihrer Sprache, Lehrpersonen lesen die Ergebnisse auf Englisch.",
+      "transcript_marker": {
+        "keywords": [
+          "Profiler im englischen, spanischer, italienisch und chinesischer Sprache",
+          "arabische und türkische Version"
+        ],
+        "approximate_line_range": "Z. 75 bis 78"
+      },
+      "estimated_pages": {
+        "page_start": 452,
+        "page_end": 453,
+        "confidence": "medium",
+        "rationale": "Weitere Neuerung im RLS"
+      },
+      "tags": [
+        "Mehrsprachigkeit",
+        "Erstsprachendiagnostik",
+        "Zweitspracherwerb"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q1",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Grenzen sprachlastiger Diagnostik",
+              "anchor_text": "Maehler et al. empfehlen deshalb, bei der Diagnostik mit Migrant:innen konsequent zwischen sprachgebundenen und sprachfreien Testanteilen zu differenzieren",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        },
+        {
+          "question_id": "Q5",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Zusammenarbeit mit Eltern und externen Fachstellen",
+              "anchor_text": "Kosorok Labhart et al. betonen, dass professionelles Dolmetschen",
+              "insertion_mode": "optional_extension"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Belegt international, dass Erstsprachen-Diagnostik als Standard implementiert wird. Für S. (Albanisch) nicht direkt anwendbar, aber als Prinzip-Beleg nutzbar.",
+      "insertion_suggestion": "Optional als Ergänzung im Abschnitt Grenzen sprachlastiger Diagnostik: Die Notwendigkeit erstsprachlicher Verfahren wird selbst im RLS als zentrales Qualitätsmerkmal umgesetzt. Schwächere Priorität, weil Albanisch nicht zu den verfügbaren Sprachen gehört und die Argumentation bei S. bereits über Maehler et al. (2018) solide abgedeckt ist.",
+      "priority": "C",
+      "priority_rank": 12
+    },
+    {
+      "id": "P11",
+      "order": 11,
+      "title": "Unterstützung für Lehrpersonen und Schulbehörden",
+      "summary": "Das RLS bietet Lehrpersonen individualisierte Lektionspläne, Upload-Möglichkeiten für eigene Quellen (PDFs, Bilder), Gruppierungshilfen nach Interessen und Lernstil und kombinierbare Datenbanken. Schulbehörden erhalten Übersichts-Reports.",
+      "transcript_marker": {
+        "keywords": [
+          "differentierungsprogramm",
+          "individualisierte Lektionspläne",
+          "hochladen eigener Quellen"
+        ],
+        "approximate_line_range": "Z. 81 bis 86"
+      },
+      "estimated_pages": {
+        "page_start": 453,
+        "page_end": 453,
+        "confidence": "medium",
+        "rationale": "Abschnitt Instrument zur Unterstützung von Lehrpersonen"
+      },
+      "tags": [
+        "Lehrpersonen-Unterstützung",
+        "digitale Plattform"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q5",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Kooperation im multiprofessionellen Team",
+              "anchor_text": "Für die Zusammenarbeit im Fall S. leiten sich daraus konkrete Formate ab",
+              "insertion_mode": "optional_extension"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Eher peripher. Zeigt, dass digitale Unterstützungsplattformen im Enrichment-Paradigma mitgedacht werden.",
+      "insertion_suggestion": "Nur nutzen, wenn die Examinatorin gezielt nach digitalen Unterstützungsplattformen fragt. Für das Dossier nicht notwendig.",
+      "priority": "C",
+      "priority_rank": 13
+    },
+    {
+      "id": "P12",
+      "order": 12,
+      "title": "Field-Studie: 16 Wochen, signifikante Zuwächse",
+      "summary": "Eine Vergleichsstudie (Field, zit. nach Renzulli und Reis 2021) zeigt, dass RLS-Teilnehmende nach 16 Wochen signifikant höhere Zuwächse an Leseverständnis, aktiver Lesekompetenz und Sozialkompetenz aufwiesen als eine nicht teilnehmende Kontrollgruppe.",
+      "transcript_marker": {
+        "keywords": [
+          "Studie von Field",
+          "nach 16 Wochen einen signifikant hören Zuwachs",
+          "Leseverständnis und aktiver Lesekompetenz",
+          "signifikant höheres Wachstum an Sozialkompetenz"
+        ],
+        "approximate_line_range": "Z. 90 bis 92"
+      },
+      "estimated_pages": {
+        "page_start": 453,
+        "page_end": 454,
+        "confidence": "high",
+        "rationale": "Wirksamkeitsstudie in der Zusammenfassung des Kapitels"
+      },
+      "tags": [
+        "Wirksamkeitsstudie",
+        "Field",
+        "Lesekompetenz",
+        "Sozialkompetenz",
+        "Kontrollgruppe"
+      ],
+      "target_questions": [
+        {
+          "question_id": "Q4",
+          "is_primary": true,
+          "target_sections": [
+            {
+              "section_title": "Enrichment als Gegenmodell: Das Schoolwide Enrichment Model",
+              "anchor_text": "Fischer dokumentiert die Wirksamkeit dieses Ansatzes am Beispiel des Forder-Förder-Projekts",
+              "insertion_mode": "parallel_empirical_source"
+            }
+          ]
+        },
+        {
+          "question_id": "Q2",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Schach als Fördermedium für Schrift, Sprache und Beteiligung",
+              "anchor_text": "Auf der sprachlichen Ebene eröffnet das Schachprojekt Gesprächsanlässe",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        },
+        {
+          "question_id": "Q3",
+          "is_primary": false,
+          "target_sections": [
+            {
+              "section_title": "Konsequenzen für die heilpädagogische Begleitung",
+              "anchor_text": "Das Schachprojekt zeigt, dass S.' soziale Öffnung an die Erfahrung geknüpft ist",
+              "insertion_mode": "supporting_citation"
+            }
+          ]
+        }
+      ],
+      "argumentative_function": "Empirisches Zusatzargument. Lesewachstum und Sozialkompetenz-Zuwachs in einer Kontrollgruppenstudie stützen direkt Intis Förderplanung bei S. (Stränge 1 bis 3 in Frage 2).",
+      "insertion_suggestion": "Im Fischer-Evaluationsabsatz (Frage 4, Forder-Förder-Projekt) parallel die RLS-Field-Studie als zweite, internationale Belegstelle anfügen: Eine parallele Wirksamkeitsuntersuchung zum Renzulli-Lernsystem (Field, zit. n. Renzulli und Reis 2021, S. 453) dokumentiert nach 16 Wochen signifikante Zuwächse in Leseverständnis, Lesekompetenz und Sozialkompetenz gegenüber einer Kontrollgruppe.",
+      "priority": "B",
+      "priority_rank": 7
+    },
+    {
+      "id": "P13",
+      "order": 13,
+      "title": "Digitalisierung, Zukunftsausblick",
+      "summary": "Digitale Medien als Motivationsmotor für digital natives, kritisches und kreatives Denken als übergeordnetes Lernziel, Differenzierung ohne technische Unterstützung kaum leistbar.",
+      "transcript_marker": {
+        "keywords": [
+          "Generation digitaler lernen",
+          "Reduktion der Langeweile im Unterricht"
+        ],
+        "approximate_line_range": "Z. 95 bis 100"
+      },
+      "estimated_pages": {
+        "page_start": 454,
+        "page_end": 454,
+        "confidence": "high",
+        "rationale": "Schlussausblick des Kapitels"
+      },
+      "tags": [
+        "Ausblick",
+        "digitale Medien",
+        "Motivation"
+      ],
+      "target_questions": [],
+      "argumentative_function": "Ausblicks-Passage, die für Intis Fall keinen eigenständigen Beitrag leistet.",
+      "insertion_suggestion": "Weglassen. Für das Prüfungsgespräch ohne Relevanz.",
+      "priority": "C",
+      "priority_rank": 8
+    }
+  ],
+  "top_recommendations": [
+    {
+      "rank": 1,
+      "id": "REC_A1",
+      "passage_ref": "P02",
+      "title": "Firmender, Reis und Sweeney 2013 in Frage 2 zur Leseflüssigkeit integrieren",
+      "target": {
+        "question_id": "Q2",
+        "section_title": "Leseflüssigkeit als komplementäres Entwicklungsfeld",
+        "anchor_text": "Dieser Matthäus-Effekt ist bei S. besonders ausgeprägt",
+        "insertion_mode": "after_anchor_paragraph"
+      },
+      "gap_filled": "Der Abschnitt argumentiert bisher nur über deutschsprachige Literatur (Rosebrock/Nix, Gold). Es fehlt ein internationales empirisches Argument dafür, dass Lesekompetenz auch in Begabtenprogrammen selbst als eigenständiges Diagnostikkriterium gilt. Firmender, Reis und Sweeney 2013 schliessen diese Lücke an einer für S. zentralen Stelle.",
+      "latex_snippet": "\\parencite[Firmender, Reis und Sweeney 2013, zit.\\,n.][S.\\,445]{renzullireis2021rls} bestätigen diesen Befund in einer Studie an fünf US-Grundschulen mit über 1\\,000 Lernenden: Auch in Schulen mit Begabungsschwerpunkt variiert das Leseverständnis mit steigender Klassenstufe deutlich. Sie folgern, dass neben nonverbaler Intelligenz die Lesekompetenz als eigenständiges Aufnahmekriterium für Begabtenprogramme mitgedacht werden muss.",
+      "required_biblatex_keys": [
+        "renzullireis2021rls"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "REC_A2",
+      "passage_ref": "P07",
+      "title": "Total Talent Portfolio in der kritischen Reflexion von Frage 4 als Quellenbeleg für das vorgeschlagene Kompetenzportfolio",
+      "target": {
+        "question_id": "Q4",
+        "section_title": "Kritische Reflexion: Nachhaltigkeit und Transfer",
+        "anchor_text": "Konkret schlage ich vor, für die Übertrittsdokumentation ein Kompetenzportfolio anzulegen",
+        "insertion_mode": "source_attribution"
+      },
+      "gap_filled": "Die kritische Reflexion schlägt ein Kompetenzportfolio als Eigenerfindung vor. Ohne Quellenbeleg wirkt das als Einzelfallidee. Der Rückgriff auf Renzulli und Reis zum TTP und auf Müller-Oppliger zum deutschsprachigen Portfolio-Diskurs rahmt den Vorschlag als international etabliertes Instrument. Stärkstes Zusatzargument für die Übertrittsberatung und zentrales Gespräch bei der mündlichen Prüfung.",
+      "latex_snippet": "Dieser Vorschlag knüpft unmittelbar an das \\textit{Total Talent Portfolio} (TTP) an, das \\textcite[S.\\,450\\,bis\\,451]{renzullireis2021rls} als integralen Bestandteil des Renzulli-Lernsystems beschreiben. Das TTP dokumentiert Lernwege, Selbstreflexionen und Produkte über die gesamte Bildungslaufbahn und dient ausdrücklich als Grundlage für Übertritts- und Berufsentscheide. \\textcite{muelleroppliger2021handbuch} überträgt dieses Konzept in seinem Beitrag zur erweiterten Leistungsbeurteilung (S.\\,427\\,ff.\\ desselben Bandes) in den deutschsprachigen Schulkontext.",
+      "required_biblatex_keys": [
+        "renzullireis2021rls",
+        "muelleroppliger2021handbuch"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "REC_A3",
+      "passage_ref": "P06",
+      "title": "Wizard Project Maker und Guide on the side in Frage 5 als theoretischer Rückhalt der SHP-Rolle",
+      "target": {
+        "question_id": "Q5",
+        "section_title": "Konsequenzen für das SHP-Professionsverständnis",
+        "anchor_text": "Die zweite Haltung ist reflexive Partnerschaftlichkeit",
+        "insertion_mode": "theoretical_backing"
+      },
+      "gap_filled": "Die Trias aus fachlicher Unabhängigkeit, reflexiver Partnerschaftlichkeit und institutioneller Wachsamkeit ist theoretisch elegant, aber das Element reflexive Partnerschaftlichkeit stützt sich bisher nur auf Buholzer/Kummer Wyss und Burow. Ein zusätzlicher Verweis auf Renzulli und Reis macht sichtbar, dass die Verschiebung der Lehrpersonenrolle in Enrichment-Settings international konsistent gedacht wird.",
+      "latex_snippet": "Diese Rollenverschiebung entspricht der Figur der \\textit{Guide on the side}, die \\textcite[S.\\,449\\,bis\\,450]{renzullireis2021rls} für Typ-III-Enrichment beschreiben: Die Lehrperson agiert nicht als Wissensvermittlerin, sondern als Mentorin, die metakognitive Prozesse (Zieldefinition, Priorisierung, Fortschrittskontrolle, Reflexion) begleitet.",
+      "required_biblatex_keys": [
+        "renzullireis2021rls"
+      ]
+    }
+  ],
+  "required_biblatex_additions": [
+    {
+      "key": "renzullireis2021rls",
+      "status": "missing_in_quellen_bib",
+      "action": "Eintrag in Quellen.bib ergänzen, sobald mindestens eine der drei A-Empfehlungen übernommen wird",
+      "entry": "@incollection{renzullireis2021rls,\n  author    = {Renzulli, Joseph S. and Reis, Sally M.},\n  title     = {Das {\\glqq}Renzulli-Lernsystem{\\grqq} (RLS)},\n  booktitle = {Handbuch Begabung},\n  editor    = {M{\\\"u}ller-Oppliger, Victor and Weigand, Gabriele},\n  year      = {2021},\n  publisher = {Beltz},\n  address   = {Weinheim und Basel},\n  pages     = {444--454}\n}"
+    }
+  ],
+  "summary_statistics": {
+    "passages_total": 13,
+    "priority_A_count": 4,
+    "priority_B_count": 3,
+    "priority_C_count": 6,
+    "questions_with_primary_hit": [
+      "Q1",
+      "Q2",
+      "Q4",
+      "Q5"
+    ],
+    "questions_without_primary_hit": [
+      "Q3"
+    ],
+    "strongest_single_match": {
+      "passage_id": "P07",
+      "reason": "Total Talent Portfolio ist exakter Quellenbeleg für das in Intis kritischer Reflexion vorgeschlagene Kompetenzportfolio, das andernfalls ohne Beleg in der Luft hängt"
+    }
+  }
+}
