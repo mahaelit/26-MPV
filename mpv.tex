@@ -228,33 +228,45 @@ ZB    & Zusammenarbeit \& Beratung \\
 \textbf{Restliche Schritte vor der Abgabe (Frist 1.\,Mai 2026).}
 
 \medskip
-\textbf{Statushinweis (Stand 24.\,April 2026, nach 500-S.-Reduktion).}
-Das Kernkorpus wurde gemäss PI-Feedback auf \textbf{500 Seiten exakt}
-reduziert: Frage~1 110\,S., Frage~2 100\,S., Frage~3 100\,S., Frage~4 100\,S.,
-Frage~5 90\,S. Die Kernliteratur-Listen pro Frage und die Seitenbudget-Tabelle
-sind in beiden Dokumenten neu gebaut, alle Pauschalabzüge entfallen.
-Aus \texttt{Quellen.bib} wurden physisch entfernt: PHLU-/Hurschler-Paket
-(7~Einträge), PFLB-/SZH-Pakete (8~Einträge), Wiemann/Lohaus, Schwab,
-Kessel/Hannover, Wild/Möller, Maehler-Stub-Seiten (ca.~30 BibKeys
-insgesamt). Trautmann 2016 (Multiple Intelligenzen, S.\,34--41) ist
-zurück im Korpus. Baudson/Ziemes-Absatz in Frage~5 ist gestrichen, die
-Drei-Haltungen-Trias bildet den Abschluss. \texttt{systematisch} wurde
-an den vier vom PI markierten Stellen sowie weiteren Stellen bewusst
-gegen \texttt{strukturell} ersetzt; methodisch korrekte Verwendungen
-(\enquote{systematische Beobachtung}, \enquote{systematische Reviews})
-bleiben.
+\textbf{Statushinweis (Stand 24.\,April 2026, nach 500-S.-Reduktion und
+PI-Endkontrolle).}
+Das Kernkorpus ist auf \textbf{500 Seiten} dimensioniert (Frage~1 110\,S.,
+Frage~2 100\,S., Frage~3 100\,S., Frage~4 100\,S., Frage~5 90\,S.). Die
+Kernliteratur-Listen pro Frage und die Seitenbudget-Tabelle sind in beiden
+Dokumenten neu gebaut, alle Pauschalabzüge entfallen. Die ausgewiesenen
+500\,Seiten bilden das bereinigte Kernkorpus; einzelne offene
+Seitenverifikationen im Fliesstext (siehe Punkt~1) werden vor der Abgabe
+geschlossen.
+
+Aus \texttt{Quellen.bib} sind das umfangreiche PHLU-Handout-Paket sowie die
+Wild/Möller- und Maehler-Stub-Seiten entfernt. Als fachlich tragende
+Graphomotorikquelle bleibt \texttt{hurschler2020handschriftbeurteilung} im
+Kernkorpus von Frage~2; \texttt{hurschlerlichtsteiner2024handschriftanalysen}
+wird nur ergänzend im Lerndokument verwendet und ist nicht im
+Frage-2-Kernkorpus gezählt. Frage~5 schliesst mit der Drei-Haltungen-Trias;
+der Baudson-Absatz zum Disharmonie-Stereotyp und zur Identitätsentwicklung
+ist gestrichen. Trautmann 2016 (Multiple Intelligenzen, S.\,34--41) ist
+zurück im Korpus. \texttt{systematisch} wurde an den vier vom PI markierten
+Stellen sowie weiteren Stellen bewusst gegen \texttt{strukturell} ersetzt;
+methodisch korrekte Verwendungen (\enquote{systematische Beobachtung},
+\enquote{systematische Reviews}) bleiben.
 
 \medskip
-\textbf{1. Verbleibende OFFEN-Marker im Fliesstext klären.} Acht inline
-\texttt{\% OFFEN:}-Marker stehen noch in Frage~1 (Drei-Ringe-Modell-Seite,
-MHBM-Seite, Lehwald-2e-Stelle, Stern-Interview-Seite, nicht-kognitive
-Faktoren, ergänzende Studie zu Keller-Koller, Lehwald-Underachievement-
-Seite). Diese sind in der Bibliotheksstunde aufzulösen.
+\textbf{1. Verbleibende Seitenverifikationen aus Frage~1 schliessen.}
+Die noch offenen Detail-Seitenangaben (Drei-Ringe-Modell, MHBM,
+Stern-Interview, nicht-kognitive Faktoren, ergänzende Studie zu Keller-Koller,
+Lehwald-Underachievement-Seite, Preckel-2e-Seite) sind in
+\texttt{OFFEN\_VERIFIKATIONEN.md} aufgelistet und in der Bibliotheksstunde
+einzutragen. Im LaTeX-Quelltext stehen keine \texttt{\% OFFEN:}-Kommentare
+mehr.
 
 \medskip
-\textbf{2. \texttt{fischer2010begabung} Seitenspanne verifizieren.}
-Die Schätzung S.\,97--113 im Buholzer-Sammelband ist plausibel, sollte
-aber am Druck bestätigt werden.
+\textbf{2. \texttt{fischer2010begabung} und \texttt{baumschader2021twice}
+Seitenspannen am Druck bestätigen.}
+Fischer 2010 (S.\,97--113) im Buholzer-Sammelband sowie Baum/Schader 2021
+(S.\,588--601 laut Beltz-Inhaltsverzeichnis) am physischen Buchexemplar
+nachprüfen, weil das 500-Seiten-Korpus durch Einzelseiten-Korrekturen
+sofort kippen kann.
 
 \medskip
 \textbf{3. Abgabedokument vs.\ Lerndokument trennen.}
@@ -265,7 +277,9 @@ internes Vorbereitungsdokument und gehört \textit{nicht} zur Abgabe.
 
 \medskip
 \textbf{4. Cite-Closure-Stichprobe.}
-\verb|latexmk -xelatex -bibtex| für beide Dokumente. Ziel: 0~Errors,
+\verb|latexmk -xelatex mpv.tex| (mit \texttt{biblatex}-Backend
+\texttt{biber}) bzw.\ manuell
+\verb|xelatex && biber && xelatex && xelatex|. Ziel: 0~Errors,
 0~\verb|cite: not found|, 0~\verb|No instances of|.
 \end{todomai}
 
@@ -339,12 +353,12 @@ zugleich zielt das Entwicklungsvorhaben \enquote{Schulen für alle} darauf ab, T
 und chancengerechtere Bildung zu stärken. Bildungswissenschaftliche Befunde zeigen
 indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft,
 Migrationsgeschichte und familiären Ressourcen abhängen
-\parencite[S.\,5--7]{erzinger2023pisa},\parencite[S.\,576--580]{stamm2021fehlenderblick},\parencite[S.\,12--16]{bfs2022migration}.
+\parencite{erzinger2023pisa},\parencite[S.\,576--580]{stamm2021fehlenderblick},\parencite{bfs2022migration}.
 Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in
 anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre Potenziale
 bleiben nicht selten verdeckt, insbesondere dann, wenn sprachliche Unsicherheiten, belastende
 Lebensumstände oder auffälliges Verhalten die Wahrnehmung dominieren
-\parencite[S.\,76--78]{kellerkoller2021hellekoepfe},\parencite[Kap.\,1--2, S.\,25--80]{leikhof2021jugendliche}.
+\parencite[S.\,76--78]{kellerkoller2021hellekoepfe},\parencite{leikhof2021jugendliche}.
 Die kantonale Dienststelle Volksschulbildung stellt zwar Umsetzungshilfen für die
 integrative Begabungs- und Begabtenförderung (IBBF) bereit, die Identifikation
 begabter Kinder läuft in der Praxis jedoch stark über schulpsychologische
@@ -375,21 +389,19 @@ grundlegende Abläufe nicht automatisiert, die Leseflüssigkeit liegt bei 17 Wö
 
 \subsection*{Begriffsklärung: Migrationserfahrung}
 
-Unter \textit{Migrationserfahrung} wird in der vorliegenden Arbeit das
-Aufwachsen beziehungsweise der Neuzugang in ein Schulsystem verstanden,
-das nicht die primäre Sozialisationssprache des Kindes spricht,
-typischerweise verbunden mit sozioökonomischer Benachteiligung
-\parencite{bfs2022migration} und häufig mit unterbrochener Bildungsbiographie.
-Der Fall S.\ liegt an der Schnittstelle zwischen Familiennachzug aus einem
-Nicht-EU-Staat und möglicher Fluchterfahrung; die exakte Form ist für die
-heilpädagogische Fragestellung sekundär, weil die wirksamen Mechanismen,
-sprachliche Isolation, kumulative Belastung und defizitorientierte
-Wahrnehmung, über Migrationstypen hinweg greifen
-\parencite{behrensen2019inklusive,stamm2021fehlenderblick}. Die Gemeinde Ebikon,
-in der sich der Fall abspielt, zeichnet sich durch eine sozioökonomisch
-heterogene Bevölkerung mit einem überdurchschnittlichen Anteil an Familien
-mit Migrationsgeschichte aus; diese lokale Kontextbedingung ist für die
-schulische Realität mitbestimmend.
+Unter \textit{Migrationserfahrung} wird in der vorliegenden Arbeit nicht
+Migration als homogenes Merkmal verstanden, sondern eine schulisch relevante
+Konstellation: Neuzugang in ein Schulsystem mit anderer Unterrichtssprache,
+begrenzte Vertrautheit mit schulischen Codes, mögliche unterbrochene
+Bildungsbiographie und, im konkreten Fall S., Hinweise auf zusätzliche
+soziale und biographische Belastungen. Der gesellschaftliche Kontext der
+Schweizer Volksschule wird durch die Migrationsstatistik des Bundesamts
+für Statistik gerahmt \parencite{bfs2022migration}. Für die vorliegende
+Fragestellung steht nicht die rechtliche Migrationskategorie im Vordergrund,
+sondern die pädagogisch wirksame Konstellation aus früher
+Zweitspracherwerbsphase, schulischer Anschlussunsicherheit, möglicher
+biographischer Belastung und defizitorientierter Wahrnehmung
+\parencite{behrensen2019inklusive,stamm2021fehlenderblick}.
 
 \subsection*{Heilpädagogischer Bezug}
  
@@ -488,16 +500,17 @@ sichtbar zu machen.
  
 Der theoretische Rahmen stützt sich auf einen dynamischen, mehrdimensionalen
 Begabungsbegriff. Das Drei-Ringe-Modell nach Renzulli versteht Begabung als
-Zusammenwirken von überdurchschnittlicher Fähigkeit, Kreativität und Aufgabenverpflichtung% OFFEN: Verifikation Drei-Ringe-Modell: preckel2013hochbegabung S. 15; trautmann2016einfuehrung S. 52-54; muelleroppliger2021handbuch (Kap. Begabungsmodelle) - Seite ergänzen.
+Zusammenwirken von überdurchschnittlichen Fähigkeiten, Kreativität und
+Aufgabenverpflichtung.
 Gardners Theorie der Multiplen Intelligenzen erweitert den Blick auf sprachlich
 nicht zugängliche Domänen wie die logisch-mathematische, räumliche oder
 körperlich-kinästhetische Intelligenz
 \parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}.
-Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung % OFFEN: Seitenverifikation MHBM: muelleroppliger2021handbuch S. 211; trautmann2016einfuehrung S. 59-62.
+Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung
 zwischen kognitiven Prädiktoren, nicht-kognitiven Persönlichkeitsmerkmalen und
 Umweltfaktoren, womit Begabung grundsätzlich als Potenzial zu verstehen ist, das sich
 unter günstigen Bedingungen in Leistung transformieren kann
-\parencite[S.\,253--267]{fischer2020begabungsfoerderung}.
+\parencite{fischer2020begabungsfoerderung}.
  
 Für Kinder mit Migrationserfahrung sind sprachlastige Testverfahren wie der WISC nur
 bedingt aussagekräftig. Maehler et al. betonen die Notwendigkeit sprach- und kulturfairer
@@ -523,7 +536,7 @@ Das Konzept der \textit{twice exceptionality} dient als Deutungsrahmen, nicht al
 Bei S. überlagern sich hohes kognitives Potenzial, schriftsprachliche Schwierigkeiten und
 möglicherweise belastende Vorerfahrungen. Dies erfordert eine diagnostische Haltung,
 die Stärken und Barrieren gleichzeitig in den Blick nimmt
-\parencite[S.\,36--50]{preckel2013hochbegabung}.% OFFEN: Lehwald-Stelle für 2e-Argument noch zu verifizieren.
+\parencite{preckel2013hochbegabung}.
 
 
 \subsection{Begabung als dynamisches Potenzial}
@@ -535,7 +548,7 @@ betont heute die Wechselwirkung von Anlage und Umwelt. Bereits William Stern hie
 1916 fest, dass Begabungen Möglichkeiten zur Leistung seien, nicht Leistung selbst.
 Diese Unterscheidung von Potenzial und Performanz durchzieht die gesamte aktuelle
 Diskussion (vgl. \textcite{preckel2013hochbegabung}; \textcite{trautmann2016einfuehrung}).
-E.~\textcite{stern2025intelligenz} bestätigt diese Perspektive aus aktueller% OFFEN: Stern-Interview ca. 4 S. - exakte Seite ergänzen.
+E.~\textcite{stern2025intelligenz} bestätigt diese Perspektive aus aktueller
 kognitionspsychologischer Forschung: Intelligenz kann sich im Schulalter noch
 substanziell verändern, was die Fixierung auf einen einmalig erhobenen IQ-Wert als
 diagnostische Grundlage zusätzlich in Frage stellt.
@@ -546,7 +559,7 @@ Renzullis Drei-Ringe-Modell fasst Begabung als Schnittmenge dreier Faktoren:
 weil es Begabung nicht auf kognitive Leistung reduziert, sondern motivationale und
 kreative Komponenten einschliesst, die sich gerade in offenen Settings wie SOLUX zeigen
 können, während sie im leistungsnormierten Regelunterricht unsichtbar bleiben
-\parencite[S.\,9--14]{muelleroppliger2021handbuch}.
+\parencite{muelleroppliger2021handbuch}.
 
 Gardners Theorie der Multiplen Intelligenzen erweitert den Blick zusätzlich auf Domänen,
 die sprachlich nicht oder nur teilweise zugänglich sind: die logisch-mathematische,
@@ -564,14 +577,16 @@ Persönlichkeitsmerkmale (Leistungsmotivation, Stressbewältigung, Arbeitsverhal
 Umweltmerkmale (Instruktionsqualität, Schulklima, familiäre Unterstützung). Die
 Transformation von Potenzial in Leistung hängt wesentlich von der Ausprägung und dem
 Zusammenspiel dieser Faktoren ab. Negativ ausgeprägte Umweltmerkmale oder
-nicht-kognitive Faktoren können dazu führen, dass hohes Potenzial in Minderleistung% OFFEN: Konkretisierung der nicht-kognitiven Faktoren mit Seitenangabe.
-mündet, ein Phänomen, das in der Literatur als \textit{Underachievement} beschrieben wird
-\parencite[S.\,43--46]{preckel2013hochbegabung},\parencite[S.\,281--282, 411--413]{fischer2020begabungsfoerderung}.
-Grundlage eine prozessbezogene Begriffsklärung, die für die vorliegende
-Fragestellung zentral ist: Begabung wird als entwicklungsfähiges Potenzial
-verstanden, das einer prozessorientierten Diagnostik bedarf. Eine einmalige
-Statusdiagnostik per Intelligenztest genügt dieser Definition ausdrücklich
-nicht \parencite{lemas2023begriffsklaerung}.
+nicht-kognitive Faktoren können dazu führen, dass hohes Potenzial in
+Minderleistung mündet, ein Phänomen, das in der Literatur als
+\textit{Underachievement} beschrieben wird
+\parencite{preckel2013hochbegabung,fischer2020begabungsfoerderung}.
+
+Eine prozessbezogene Begriffsklärung, die für die vorliegende Fragestellung
+zentral ist, liefert das LemaS-Projekt: Begabung wird als entwicklungsfähiges
+Potenzial verstanden, das einer prozessorientierten Diagnostik bedarf. Eine
+einmalige Statusdiagnostik per Intelligenztest genügt dieser Definition
+ausdrücklich nicht \parencite{lemas2023begriffsklaerung}.
 
 Preckel und Kolleginnen entfalten diese Lesart im TAD-Framework (Talent
 Development Framework) in vier Phasen, in denen sich Potenzial über die Zeit
@@ -580,10 +595,10 @@ unter Lern- und Umweltbedingungen in Leistung transformiert
 Perspektive um eine neuropsychologische: Kognitive Potenziale reifen in
 Abhängigkeit von neuronaler Plastizität und Erfahrungsangeboten, weshalb
 Diagnostik entwicklungssensitiv zu verfahren hat und Momentaufnahmen nicht
-genügen \parencite{stadelmann2021begabungsentwicklung}. Für S.\ bedeutet
-dies, dass die unter sprachlichen Erschwernissen gewonnenen Testwerte
-weniger sein kognitives Potenzial abbilden als den Zustand einer frühen
-Adaptationsphase.
+genügen \parencite{stadelmann2021begabungsentwicklung}. Für S.\ bedeutet dies,
+dass Testwerte unter sprachlichen Erschwernissen nicht isoliert als stabile
+Abbildung seines Potenzials gelesen werden dürfen, sondern immer auch die
+Bedingungen der frühen Adaptationsphase mitabbilden.
 
 \subsection{Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben}
 
@@ -604,7 +619,7 @@ Zweitspracherwerbs nicht verfügen. \textcite{kellerkoller2021hellekoepfe} zeigt
 Migrationshintergrund trotz deutlich sichtbarer Ressourcen bis in die Mittelstufe hinein
 nie mit Begabtenförderung in Berührung kommen, weil ihre Stärken in Domänen liegen,
 die schulisch nicht als leistungsrelevant anerkannt werden
-(vgl. auch \textcite{kellerkoller2009begabte}; \textcite{kellerkoller2011erkennen}).% OFFEN: Ergänzend wissenschaftlichere Studie nachschlagen.
+(vgl. auch \textcite{kellerkoller2009begabte}; \textcite{kellerkoller2011erkennen}).
 
 Zweitens wirken defizitorientierte Zuschreibungen als Filter: Kinder, die weinen,
 sich zurückziehen, Aufgaben verweigern oder auffälliges Verhalten zeigen, werden
@@ -708,7 +723,7 @@ variierenden Bedingungen, letztere stellt einen stabilen Merkmalsbefund
 fest. Für den Fall~S.\ gilt die Priorität der Förderdiagnostik, weil ein
 stabiler Statusbefund unter migrationsbedingten Störfaktoren derzeit nicht
 valide gewonnen werden kann. Als konkretes Instrument der Multiperspektivität
-etabliert das Münchner Begabungstestsystem (mBET) eine strukturierte
+etabliert das multidimensionale Begabungs-Entwicklungs-Tool (mBET) eine strukturierte
 Triangulation zwischen Lehrperson, Eltern und Lernenden
 \parencite{stahl2021mbet}. Im Fall~S.\ wäre mBET, kombiniert mit nonverbalen
 Testanteilen und einer dolmetschergestützten Elternrückmeldung, ein Beispiel
@@ -778,9 +793,11 @@ koexistieren. \textcite{baumschader2021twice} entfalten dieses Konstrukt als
 überdurchschnittlichen Fähigkeiten und gleichzeitigen Lernschwierigkeiten
 benötigen besondere Fördermassnahmen, die beide Pole simultan adressieren
 \parencite[S.\,588--601]{baumschader2021twice}. Klassische Beispiele sind
-hochbegabte Kinder mit Legasthenie, ADHS oder Autismus-Spektrum-Störungen. \textcite[S.\,47]{preckel2013hochbegabung} weisen darauf hin, dass 
-weil sich beide Aspekte gegenseitig maskieren: Die Begabung kompensiert teilweise die
-Schwierigkeit, die Schwierigkeit verdeckt die Begabung.
+hochbegabte Kinder mit Legasthenie, ADHS oder Autismus-Spektrum-Störungen.
+\textcite{preckel2013hochbegabung} weisen darauf hin, dass solche Profile
+diagnostisch schwer erkennbar sind, weil sich beide Aspekte gegenseitig
+maskieren: Die Begabung kompensiert teilweise die Schwierigkeit, die
+Schwierigkeit verdeckt die Begabung.
 \textcite[S.\,87--94]{webb2020doppeldiagnosen} systematisieren dieses Phänomen und
 dokumentieren, dass hochbegabte Kinder häufig Fehldiagnosen erhalten:
 Verhaltensweisen, die aus der Diskrepanz zwischen Potenzial und inadäquater
@@ -801,7 +818,7 @@ zu drängen. Die heilpädagogische Konsequenz ist eine diagnostische Haltung der
 Blick genommen. \textcite{lehwald2017motivation} beschreibt, dass Motivation bei begabten Kindern dann
 einbricht, wenn die Lernumgebung keine Passung zu ihren Interessen und Fähigkeiten
 bietet; eine einseitig defizitorientierte Förderung kann diesen Motivationsverlust
-verstärken (Underachievement-Mechanismus).% OFFEN: Lehwald-Kapitel-Seitenangabe nachtragen.
+verstärken (Underachievement-Mechanismus).
 
 \subsection{Konsequenzen für die heilpädagogische Praxis}
 
@@ -1020,7 +1037,7 @@ und Durchhaltevermögen wirkt. Im Enrichment-Paradigma
 (Renzulli) wird das individuelle Interessensgebiet zum Ausgangspunkt für
 Kompetenzentwicklung: S. kann als \enquote{Experte} auftreten, bevor seine schriftsprachlichen
 Kompetenzen dafür ausreichen würden
-\parencite{fischer2020begabungsfoerderung,muelleroppliger2021handbuch}.
+\parencite[S.\,444--454]{renzullireis2021rls},\parencite[S.\,254--273]{fischer2020begabungsfoerderung}.
  
 Entscheidend ist, dass S. erst in einem Setting emotionaler Sicherheit (SOLUX) zu
 sprechen und sich zu zeigen begann. Dieser Befund verweist auf die enge Verschränkung
@@ -1373,12 +1390,9 @@ Die Wiederholung der immer gleichen Buchstaben- und Zahlenformen in einem
 bedeutungsvollen Kontext zielt direkt auf die Automatisierung motorischer
 Programme, die Sturm als Kernaufgabe des graphomotorischen Lernens beschreibt
 \parencite{sturm2016graphomotorik}. Wo S.\ bei längeren Texten an die Grenzen
-der Handschriftbelastung stösst, wird ergänzend das Tastaturschreiben als
-zweite Schriftform aufgebaut; die didaktische Diskussion zur Verschränkung
-von Hand- und Tastaturschreiben in der Primarschule
-\parencite{philipp2019handschrifttastatur} verweist darauf, dass beide
-Schriftformen nicht in Konkurrenz, sondern in funktionaler Ergänzung
-stehen.
+der Handschriftbelastung stösst, können alternative Ausdrucksformen geprüft
+werden; im Zentrum der vorliegenden Förderplanung bleibt jedoch die
+kleinschrittige graphomotorische Automatisierung über die Schachnotation.
 
 Der \textit{zweite Strang} betrifft die Leseförderung auf Wortebene. Rosebrock und
 Nix betonen, dass Leseflüssigkeit über systematisches Training der
@@ -1592,9 +1606,10 @@ nicht gegeben sind.
 \textcite{baumert2022freundschaftwerte} dokumentiert empirisch, dass
 Jugendliche mit Fluchterfahrung Freundschaft als zentralen Wert benennen und
 auf Freundschaftsnormen zurückgreifen, die kulturübergreifend stabil sind.
-Diese empirische Evidenz stützt die Lesart, dass S.s Öffnung im SOLUX-Setting
-keine Ausnahme, sondern die Aktivierung einer entwicklungspsychologisch
-verfügbaren Ressource ist. Die kulturübergreifend stabilen Freundschaftsnormen
+Diese Befunde ergänzen die fallbezogene Lesart, dass S.s soziale Öffnung im
+SOLUX-Setting nicht als Zufall, sondern als Hinweis auf ein unter passenden
+Bedingungen aktivierbares Bedürfnis nach Zugehörigkeit und Anerkennung
+verstanden werden kann. Die kulturübergreifend stabilen Freundschaftsnormen
 gerade im Kontext von Fluchterfahrung dokumentieren
 \textcite[S.\,40--49]{baumert2022freundschaftwerte} an
 qualitativen Interviews; sie verweisen darauf, dass Anerkennungsdynamiken
@@ -2306,10 +2321,13 @@ realisierbar.
 
 Auf der \textit{Ebene der Schule} stellt sich die Frage, wie das
 Pilotprojekt SOLUX über den Einzelfall hinaus als Schulentwicklungsimpuls
-genutzt werden kann. Renzulli und Reis benennen als Gelingensbedingungen
-für SEM-Implementierungen die Unterstützung durch die Schulleitung, die
-Verankerung im Schulprogramm und eine Kultur der Ressourcenorientierung
-\parencite[S.\,444--454]{renzullireis2021rls}. SOLUX wird derzeit an sieben
+genutzt werden kann. \textcite[S.\,444--454]{renzullireis2021rls} beschreiben
+das Renzulli-Lernsystem und die Enrichment-Logik als schoolwide angelegte
+Begabungsförderung. Für die schulische Verankerung solcher Ansätze sind
+darüber hinaus Unterstützung durch die Schulleitung, Kooperation im Kollegium
+und eine ressourcenorientierte Schulkultur zentral, wie sie der Index für
+Inklusion und die kooperative Unterrichtsentwicklung formulieren
+\parencite{booth2019index,buholzer2010allegleich}. SOLUX wird derzeit an sieben
 Klassen durchgeführt; die kriteriengestützte Auswertung der Erfahrungen
 könnte in ein schulinternes Konzept für inklusive Begabungsförderung
 münden, das über das Pilotprojekt hinaus Bestand hat.
@@ -2660,19 +2678,6 @@ Kinder, sondern auch die Strukturen und Praktiken, die deren Entwicklung
 ermöglichen oder behindern, und bringt diese Beobachtungen in
 Schulentwicklungsprozesse ein.
 
-Diese drei Haltungen werden durch ein viertes professionelles Wissen flankiert:
-das Wissen um wirksame Wahrnehmungsverzerrungen im Team. So lässt sich das
-Disharmonie-Stereotyp, also die Vorstellung, hohe Begabung gehe mit Defiziten
-in sozial-emotionalen Bereichen einher, sowohl bei Lehrkräften als auch in
-deutschsprachigen Repräsentativstichproben empirisch nachweisen
-\parencite[S.\,122]{baudson2021wasdenken}. Wichtig für die SHP-Beratung ist
-die Differenzierung: Empirisch belegt ist das Stereotyp, nicht die Disharmonie
-selbst; rund ein Drittel der Befragten verfügt über ein realistisches Bild
-\parencite[S.\,122]{baudson2021wasdenken}. Im Beratungskontext erlaubt diese
-Differenzierung, Kolleg:innen, die mit der Sorge \enquote{aber S.\ ist doch
-sozial schwierig} argumentieren, nicht zu belehren, sondern die empirische
-Befundlage gemeinsam einzuordnen.
-
 \subsection{Kernliteratur zu Frage 5}
  
 \begin{description}
@@ -2897,10 +2902,10 @@ etwas anderes. Sie sind peer-reviewed Studien aus internationalen Fachzeitschrif
 \textit{Gifted Child Quarterly}), die genau die empirische Evidenz liefern, die dem
 Kernkorpus fehlt: kontrollierte Studien, systematische Reviews, quantitative Daten.
 
-Sie stehen aus zwei Gründen nicht im offiziellen Abgabedossier. Erstens ist das Dossier
-bereits mit rund 700 Seiten Kernliteratur am oberen Rand des Seitenbudgets. Vier
-zusätzliche englischsprachige Artikel (zusammen über 100 Seiten) würden das Budget
-sprengen, ohne dass sie für die fünf Fragestellungen zwingend nötig wären: Die
+Sie stehen aus zwei Gründen nicht im offiziellen Abgabedossier. Erstens enthält das
+Dossier ein bewusst auf 500 Seiten reduziertes Kernkorpus; vier zusätzliche
+englischsprachige Artikel mit zusammen über 100 Seiten würden diesen klaren Zuschnitt
+verwischen, ohne dass sie für die fünf Fragestellungen zwingend nötig wären: Die
 Fragestellungen lassen sich mit der deutschsprachigen Literatur vollständig beantworten.
 Zweitens sind die Artikel als Ergänzung stärker denn als Kernliteratur: Sie bestätigen und
 vertiefen, was die Kernquellen bereits sagen, und sie tun es mit internationaler empirischer
