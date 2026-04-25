@@ -5,12 +5,43 @@
 > der mündlichen Prüfung. Sie dient ausschliesslich Inti als Checkliste für die letzte
 > Bibliotheksstunde, in der die Volltexte aufgeschlagen werden.
 >
-> **Stand:** 2026-04-24 (nach PI-Endkontrolle)
+> **Stand:** 2026-04-25 (nach Plan-Beschluss "Bibliotheksstunde + Pauschalaussage halten")
 > **Vorher als `% OFFEN:`-Kommentare im LaTeX-Quelltext, jetzt extern.**
 
 ---
 
-## Frage 1 — sieben Detailseiten
+## Priorität A — Hauptverifikationen für das Abgabedokument
+
+Diese zwei Stellen tragen die Pauschalaussage "Jede der 500 Seiten ist verifiziert
+gelesen" im Abgabedokument (`mpv_abgabedokument.tex` Z. 522–525). Vor Abgabe
+zwingend am physischen Buch zu prüfen.
+
+### A.1 Fischer 2010 (`fischer2010begabung`) — F4-Korpus
+
+- **Bib-Stand:** 17 S. (S. 97–113) im Buholzer-Sammelband, Schätzung gestützt auf
+  Reihenfolge Kappus 63–77, Grossrieder 87–96.
+- **Aktion:** Spanne S. 97–113 am Druck bestätigen.
+- **Eintrag nach Verifikation:** ___ S. (S. ___–___)
+
+### A.2 Baum/Schader 2021 (`baumschader2021twice`) — F4-Korpus
+
+- **Bib-Stand:** 14 S. (S. 588–601) im Handbuch Begabung (Beltz). Volltext via
+  `teil8_dysfunktionale_begabungsentwicklung.md` bereits verfügbar.
+- **Aktion:** Spanne S. 588–601 am gedruckten Beltz-Band bestätigen.
+- **Eintrag nach Verifikation:** ___ S. (S. ___–___)
+
+### A.3 Stern 2025 (`stern2025intelligenz`) — F1-Korpus (NEU, OP-Plan)
+
+- **Bib-Stand:** keine `pages`-Angabe in `Quellen.bib`; ca. 4-seitiges Interview
+  in *Bildung Schweiz* 3/2025.
+- **Aktion:** Exakte Seitenspanne am Heft nachschlagen, Bib-Eintrag um
+  `pages = {...--...}` ergänzen, F1-Kernliteratur und Seitenbudget-Tabelle im
+  Abgabedokument an die tatsächliche Seitenzahl anpassen.
+- **Eintrag nach Verifikation:** ___ S. (S. ___–___)
+
+---
+
+## Priorität B — Detailseiten Frage 1 (für Lerndokument)
 
 ### 1.1 Drei-Ringe-Modell nach Renzulli (Z. 489–495 in `mpv.tex`)
 
@@ -31,10 +62,9 @@
   Bildungsgerechtigkeit.
 - **Aktion:** am Druck verifizieren.
 
-### 1.4 Stern-Interview (Z. 538)
+### 1.4 Stern-Interview (Z. 538) — siehe Priorität A.3
 
-- Inti-Vermutung: ca. 4-seitiges Interview.
-- **Aktion:** exakte Seitenangabe ergänzen.
+(verschoben nach oben, weil für das Abgabedokument relevant.)
 
 ### 1.5 Müller-Oppliger Handbuch — dynamische Begabungs-Lesart (Z. 549)
 
@@ -73,16 +103,24 @@
 
 ## Verfahren in der Bibliotheksstunde
 
-1. ZHB Luzern aufsuchen, alle drei Bücher (Preckel 2013, Trautmann 2016,
-   Müller-Oppliger 2021) sowie Fischer 2020 und Stern 2025 bereitstellen.
-2. Pro Punkt 1.1–2.2 die genaue Seite finden, in eine Tabelle schreiben.
-3. Anschliessend pro Stelle den `\parencite`-Aufruf in `mpv.tex` um die Seite
-   ergänzen, z. B.:
-
-   ```tex
-   \parencite[S.\,15]{preckel2013hochbegabung}
-   ```
-4. Diese Datei nach erfolgter Bibliotheksarbeit auf Status „erledigt" setzen
+1. ZHB Luzern aufsuchen, folgende Werke bereitstellen:
+   - **Priorität A** (zwingend): Buholzer/Kummer Wyss 2010 (für A.1 Fischer-Kap.),
+     Müller-Oppliger/Weigand 2021 Handbuch Begabung (für A.2 Baum/Schader-Kap.),
+     *Bildung Schweiz* Heft 3/2025 (für A.3 Stern-Interview).
+   - **Priorität B/C/D**: Preckel 2013, Trautmann 2016, Fischer 2020, Lehwald 2017.
+2. **Zuerst Priorität A abarbeiten** (drei Spannen verifizieren, Eintragstabelle oben füllen).
+3. Anschliessend Priorität B (Punkte 1.1, 1.2, 1.3, 1.5, 1.6, 1.7) und die
+   verbleibenden Detailpunkte 2.1 und 2.2 abarbeiten — die genaue Seite finden,
+   in den jeweiligen Abschnitt eintragen.
+4. Anschliessend:
+   - Pro Stelle den `\parencite`-Aufruf in `mpv.tex` um die Seite ergänzen, z. B.
+     `\parencite[S.\,15]{preckel2013hochbegabung}`.
+   - Falls A.3 (Stern) eine andere Seitenzahl als 4 ergibt: F1-Summe und
+     Seitenbudget-Tabelle in `mpv_abgabedokument.tex` (Z. 353 und Z. 509–515)
+     auf den korrekten Wert nachjustieren.
+   - Falls A.1 oder A.2 abweicht: in `Quellen.bib` `pages`/`annotation` korrigieren
+     und Seitenbudget-Tabelle prüfen.
+5. Diese Datei nach erfolgter Bibliotheksarbeit auf Status „erledigt" setzen
    und gegebenenfalls löschen.
 
 ---
