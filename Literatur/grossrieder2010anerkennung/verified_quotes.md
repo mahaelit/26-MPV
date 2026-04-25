@@ -85,3 +85,17 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter alter Locator:** `S.\,87--94`
+
+**Prüfbefund:**
+- Im Ordner `Literatur/grossrieder2010anerkennung/` liegt kein `source.pdf`.
+- Es liegt auch kein belastbares Kapiteltranskript oder `excerpts/_outline.md` vor, das die Seiten 87--94 im Volltext absichern würde.
+- Nach Regel `No page without proof` wurden die Seitenangaben in `mpv.tex` entfernt.
+- Jede betroffene Stelle wurde mit `% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.` markiert.
+
+**Audit-Status:** OFFEN (kein Volltext; Seitenlocatoren entfernt)

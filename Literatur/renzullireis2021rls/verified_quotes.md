@@ -58,3 +58,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,444--454`
+
+**Prüfbasis:** Sammelband-Transkript `Literatur/muelleroppliger2021handbuch/excerpts/teil6_begabende_unterstuetzungssysteme.md`.
+
+**Prüfbefund:**
+- Das Transkript verortet Joseph S. Renzulli/Sally M. Reis, `Renzulli Lernsystem RLS`, auf S. 444--454.
+- Der Beitrag beschreibt das RLS als technologiegestützte Ressource für Begabungsförderung, Personalisierung, Differenzierung und Talentportfolio.
+- Der Locator trägt die Aussagen in `mpv.tex` zu Enrichment, Interessenorientierung, RLS und schulweiter Begabungsförderung.
+
+**Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)

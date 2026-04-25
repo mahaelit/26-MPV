@@ -93,3 +93,17 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,1--4`, `S.\,2--4`
+
+**Prüfbefund:**
+- S. 1--4 bilden den kompletten lokalen Artikelauszug `Zur Bedeutung der graphomotorischen Prozesse`.
+- S. 1 beschreibt die Rolle graphomotorischer Automatisierung für das Schreibenlernen.
+- S. 2--4 behandeln schreibmotorische Entwicklung, Grundschrift, Geläufigkeit und die zunehmende Automatisierung der Schrift.
+- Beide Locator tragen die graphomotorischen Aussagen in `mpv.tex`.
+
+**Audit-Status:** 4 (Volltext geprüft, Seitenbereiche verifiziert)

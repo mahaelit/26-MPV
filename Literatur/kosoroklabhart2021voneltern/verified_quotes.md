@@ -92,3 +92,19 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Alter Locator:** `S.\,14--19`  
+**Korrigierter Locator:** `S.\,39`
+
+**Verwendet in:** `mpv.tex`, Z. ~3133, zu professionellem Dolmetschen und kulturvermittelnder Begleitung in der Elternzusammenarbeit.
+
+**Prüfbefund:**
+- S. 14--19 tragen die konkrete Aussage nicht.
+- S. 39 beschreibt Schlüsselpersonen aus Migrationsgruppen, Vertrauens- und Verständnisbrücken sowie interkulturelle Dolmetscherinnen und Dolmetscher mit Vorgespräch.
+- `mpv.tex` wurde auf `\textcite[S.\,39]{kosoroklabhart2021voneltern}` korrigiert.
+
+**Audit-Status:** 4 (Volltext geprüft, falscher Locator korrigiert)

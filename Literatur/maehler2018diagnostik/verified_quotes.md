@@ -74,29 +74,80 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 <!-- TRANSKRIPTE-END -->
 
 
-## Zitate (gegen die Quelle gegengeprueft)
+## Zitate (gegen die Quelle gegengeprüft)
 
-### Zitat 1 (S. XX)
+### Zitat 1 (S. 14, Kap. 1.2)
 
-> „Wortgetreues Zitat hier einfuegen.“
+> „Das vorliegende Handbuch befasst sich mit diagnostischen Verfahren zur Testung von Personen mit Migrationshintergrund in Deutschland. […] Insbesondere die letzte Gruppe steht im Mittelpunkt des vorliegenden Handbuches, denn für Migrantinnen und Migranten können rein deutschsprachige Verfahren in der überwiegenden Zahl der Fälle nicht eingesetzt werden." (S. 14)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Maehler, Brinkmann & Shajek definieren in §1.2 „Zielbevölkerung mit Migrationshintergrund" das Grundproblem: Standardverfahren in deutscher Sprache sind für Zugewanderte der ersten Generation diagnostisch unbrauchbar. Dies stützt die Behauptung im Lerndokument, dass „sprachlastige Testverfahren wie der WISC nur bedingt aussagekräftig" sind.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: § Frage 1, Theorierahmen (mpv.tex Z. ~587)
+- Abgabedokument: Kernliteratur Frage 1
 
 ---
 
-### Zitat 2 (S. XX)
+### Zitat 2 (S. 30, Kap. 2.2.2.7 Testfairness)
 
-> „…“
+> „Aus diesem Grund werden zunehmend sogenannte kulturfaire Testverfahren (culture fair tests) entwickelt. Diese sind so konzipiert, dass die Aufgaben dieser Instrumente möglichst ohne das Beherrschen sprachlicher Kompetenzen oder anderer Kulturtechniken wie Lesen bearbeitet werden können (Krampen, 2017). […] Es wird jedoch darauf hingewiesen, dass sich auch in diesen Tests noch eine Restkonfundierung mit sprachlicher Kompetenz bzw. mit Kultur zeigt (ebd.). Zudem lassen sich nicht alle Fragestellungen mit sprachfreien Verfahren beantworten." (S. 30)
 
-<...>
+**Kontext / Paraphrase:**
+Shajek, Maehler & Brinkmann erläutern in Kap. 2.2.2.7 (Testfairness) das Konzept der culture-fair tests und deren Grenzen: Auch sprachfreie Verfahren haben eine Restkonfundierung. Das belegt die Position im Lerndokument, dass kulturfaire Diagnostik zwar notwendig, aber nicht ausreichend ist — es braucht zusätzlich prozessorientierte und dynamische Verfahren.
+
+**Verwendet in:**
+- Lerndokument: § Frage 1, Diagnostik bei Migrationsgeschichte (mpv.tex Z. ~587)
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+### Zitat 3 (S. 31, Kap. 2.2.2.7 Testfairness)
+
+> „Ebenfalls aufgezeigt werden soll, wie eine kultursensible Testung bei dieser Zielgruppe aussehen kann, denn selbst wenn geeignete Instrumente vorliegen, können diese nur dann valide Ergebnisse produzieren, wenn bestimmte Bedingungen in der diagnostischen Situation gegeben sind. Dies gilt insbesondere im Umgang mit Geflüchteten oder Kindern bzw. Jugendlichen." (S. 31)
+
+**Kontext / Paraphrase:**
+Das Schlussargument von Kap. 2: Nicht nur das Instrument muss fair sein, sondern die gesamte diagnostische Situation. Besonders für Kinder mit Fluchtgeschichte (wie S. im Lerndokument) reichen faire Tests allein nicht — die Testsituation selbst muss kultursensibel gestaltet werden.
+
+**Verwendet in:**
+- Lerndokument: § Frage 1, Diagnostik bei Migrationsgeschichte (mpv.tex Z. ~587)
+
+---
+
+### Zitat 4 (S. 18, Kap. 1.3 Gliederung)
+
+> „Ein Schwerpunkt liegt dabei einerseits auf der Rolle der Sprache bei der Konzeptualisierung bzw. Testung schulischer Leistungen (z. B. mathematischer Kompetenzen), und andererseits auf der Frage, inwiefern ‚sprachfreie' Testungen kognitiver Leistungen überhaupt möglich bzw. wünschenswert sind." (S. 18)
+
+**Kontext / Paraphrase:**
+In der Buchgliederung (Kap. 1.3) formulieren die Herausgeber die Leitfrage des gesamten Handbuchs: Gibt es wirklich „sprachfreie" Intelligenztests? Diese grundsätzliche Skepsis untermauert die Argumentation im Lerndokument, dass multiperspektivische Diagnostik nötig ist.
+
+**Verwendet in:**
+- Lerndokument: § Frage 1, Diagnostik bei Migrationsgeschichte
+
+---
+
+### Verifikationsnachweis
+
+- **Volltext:** Hogrefe-PDF (DRM-geschützt, lokale Kopie), ISBN 978-3-8409-2786-7.
+- **Seitenbereiche verifiziert:** S. 14 (Kap. 1.2), S. 18 (Kap. 1.3), S. 29–31 (Kap. 2.2.2.7 Testfairness).
+- **Extraktionsmethode:** PyMuPDF (fitz) auf `source.pdf` und `source_foxit.pdf` (Foxit-Version für OCR-Korrektur).
+- **Bib-Eintrag:** Sammelband, 402 S. gesamt; kein `pages`-Feld (gesamtes Buch).
+
+---
+
+**Status:** 4 (Volltext geprüft, Seitenbereiche + Belegzitate verifiziert)
+**Verifiziert am:** 2026-04-25
+**Bearbeitet durch:** Quellenagent (Antigravity), Session mit Inti
+
+---
+
+## Nachprüfung 2026-04-25 - Zusatzbefund `mpv.tex`
+
+**Geprüfte Locator:** `S.\,14\psq;\,29--31`, `S.\,93,\,169--172`
+
+**Prüfbefund:**
+- `source_foxit.pdf` enthält die auf S. 14 unvollständig extrahierten Zeilen vollständig; S. 14--15 begründen die diagnostische Herausforderung bei Personen mit Migrationshintergrund.
+- S. 29--31 behandeln Testfairness, kulturfaire Verfahren und die Grenzen sprachfreier bzw. kultursensibler Testung.
+- S. 93 und S. 169--172 tragen die späteren Aussagen zu Entwicklungs-/Leistungsstanddiagnostik und sprachlich-kulturell heterogenen Testsettings.
+- Die früheren Locator `S.\,320,\,325,\,338` waren für dynamische/prozessorientierte Diagnostik falsch; diese Seiten betreffen berufsbezogene Kompetenzen. Die Seitenangabe wurde in `mpv.tex` entfernt und die LemaS-Stelle als `% OFFEN` markiert.
+
+**Audit-Status:** 4 (Volltext geprüft; falscher Locator entfernt)

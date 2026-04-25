@@ -68,3 +68,19 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,224--235`
+
+**Prüfbasis:** Sammelband-Transkript `Literatur/muelleroppliger2021handbuch/excerpts/teil3_begabungen_erkennen.md`.
+
+**Prüfbefund:**
+- Das Transkript verortet Salomé Müller-Oppliger, `Pädagogische Diagnostik, Potenzialerfassung und Förderdiagnostik`, auf S. 224--235.
+- Der Beitrag kontrastiert psychologische Testdiagnostik und pädagogische Diagnostik.
+- Er beschreibt pädagogische Diagnostik als dynamische, auf Förderung angelegte Diagnostik mit den Phasen Vermuten, Wahrnehmen, Erkennen und Förderung auf Verdacht.
+- Der Locator trägt die Aussagen in `mpv.tex` zur multiperspektivischen und förderorientierten Diagnostik.
+
+**Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)

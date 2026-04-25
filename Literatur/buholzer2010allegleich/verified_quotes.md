@@ -310,3 +310,16 @@ mit den in Teil8 hinterlegten Werten ueberein.
 **Status:** 3 (Transkript-konsistent verifiziert + TOC-Kapitel-Verortung; Volltext-Verifikation aussenstehend)
 **Verifiziert am:** 2026-04-19
 **Bearbeitet durch:** Cascade (automatisierte Transkript-Verifikation) + Pascal Schmid
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Alter Locator in `mpv.tex`:** `\textcite[S.\,151--161]{buholzer2010allegleich}`
+
+**Prüfbefund:**
+- Die Seiten 151--160 gehören nicht zum Sammelband als Ganzem, sondern zum Einzelkapitel `kummerwyss2017kooperativunterrichten`.
+- In `mpv.tex` wurde der BibKey auf `kummerwyss2017kooperativunterrichten` und der Locator auf `S.\,151--160` korrigiert.
+- Der Nachweis liegt im Ordner `Literatur/kummerwyss2017kooperativunterrichten/verified_quotes.md`.
+
+**Audit-Status:** korrigiert auf Einzelkapitel-BibKey

@@ -78,3 +78,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,76--78`
+
+**Prüfbasis:** Kapitel-PDF `Literatur/huser2025lichtblick/kapXX_keller_koller_helle_koepfe_migration_s076-078.pdf`, OCR-Volltext `/tmp/mpv_ocr/kellerkoller2021hellekoepfe.txt`.
+
+**Prüfbefund:**
+- S. 76--78 behandeln Sohrab als Fallbeispiel eines Kindes mit Migrationshintergrund und hohem Potenzial.
+- Die Seiten nennen Vorurteile, Deutsch als Zweitsprache, Sprachdefizite als Wahrnehmungsbarriere und die Gefahr, das wahre Potenzial zu unterschätzen.
+- Der Locator trägt die Aussagen in `mpv.tex` zu verdecktem Potenzial, sprachlicher Unsicherheit, Migrationshintergrund und Begabtenförderung.
+
+**Audit-Status:** 4 (Kapitel-PDF/OCR geprüft, Seitenbereich verifiziert)

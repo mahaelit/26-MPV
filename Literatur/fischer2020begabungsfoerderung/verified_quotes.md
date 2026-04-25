@@ -276,3 +276,16 @@ L:1216 pruefen, damit keine irrefuehrende Autorenzuschreibung entsteht.
 **Status:** 4 (Volltextquelle vorhanden, 13 Zitate geprueft; 1 Claim per Rewrite-Block dokumentiert)
 **Verifiziert am:** 2025-11-22
 **Bearbeitet durch:** Cascade (automatisierte Verifikation) + Pascal Schmid
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator in `mpv.tex`:** `S.\,76`, `S.\,242--253`, `S.\,254--273`
+
+**Prüfbefund:**
+- Der alte Locator zum Münchner Hochbegabungsmodell (`S.\,14,\,17,\,36`; zwischenzeitlich `S.\,14--17,\,36,\,76`) war falsch. Die Modellbeschreibung steht im lokalen Volltext auf S. 76; `mpv.tex` wurde auf `S.\,76` korrigiert.
+- `S.\,242--253` ist der Beitrag zu Underachievement, Migration und Hochbegabung.
+- `S.\,254--273` ist der Bereich zum Forder-Foerder-Projekt und trägt die Enrichment-/FFP-Aussagen.
+
+**Audit-Status:** 4 (Volltext geprüft, falscher Locator korrigiert)

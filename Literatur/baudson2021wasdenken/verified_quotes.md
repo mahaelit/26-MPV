@@ -197,3 +197,20 @@ Der Beitrag bietet **fünf empirische Stütz­pfeiler** für Intis Hauptthese:
 5. **Kulturreflektierende Diagnostik** als Bildungsgerechtigkeits-Bedingung (L, S. 125; P, S. 128)
 
 Inti kann **alle fünf Stützpfeiler ohne Sekundärquelle** direkt aus diesem Beitrag belegen — das ist eine seltene Konzentrations­dichte und macht Baudson 2021 zu einer der wenigen Quellen, die die Brücke zwischen FW1, FW3, BW4 und BW5 in einem einzigen Text schlagen.
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,115`, `S.\,117`, `S.\,118`, `S.\,119`, `S.\,120`
+
+**Prüfbasis:** OCR-Volltext `/tmp/mpv_ocr/baudson2021wasdenken.txt`.
+
+**Prüfbefund:**
+- S. 115 rahmt Begabung, Hochbegabung und Stereotype.
+- S. 117 begrenzt harte IQ-Grenzwerte und betont Testmoment/-kontext.
+- S. 118 behandelt Lehrkrafturteile und deren diagnostische Grenzen.
+- S. 119 trägt die Inklusionsdebatte/Begabung-als-Diversitätsfaktor-Aussage.
+- S. 120 enthält die Passage zur Unterrichtssprache als Sichtbarkeitsbarriere.
+
+**Audit-Status:** 4 (OCR-Volltext geprüft, Seiten verifiziert)

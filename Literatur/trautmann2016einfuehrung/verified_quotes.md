@@ -91,3 +91,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,34--41`
+
+**Prüfbasis:** OCR-Volltext `/tmp/mpv_ocr/trautmann2016einfuehrung.txt`.
+
+**Prüfbefund:**
+- S. 34--41 behandeln Gardners Multiple Intelligenzen und die Kritik an einem engen IQ-Verständnis.
+- Der Bereich enthält logisch-mathematische, visuell-räumliche und körperlich-kinästhetische Intelligenz sowie Beispiele wie Schach.
+- Der Locator trägt die Aussagen in `mpv.tex` zu alternativen Zugängen, Schach und Begabung jenseits sprachlastiger Verfahren.
+
+**Audit-Status:** 4 (OCR-Volltext geprüft, Seitenbereich verifiziert)

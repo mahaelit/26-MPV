@@ -80,3 +80,16 @@ nicht an Herkunft, sondern an Anerkennung gebunden sind.
 > Familie, Freundlichkeit und Hilfsbereitschaft**.
 
 **Einbau-Empfehlung:** Für Methoden-Diskussion der qualitativen Evidenz.
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,40--49`
+
+**Prüfbefund:**
+- Das lokale `source.pdf` enthält den Artikel auf S. 36--50; PDF-Seite 5 entspricht gedruckter S. 40.
+- S. 40--42 beschreiben theoretische Rahmung, Stichprobe und Interviewleitfaden.
+- S. 43--49 enthalten die Ergebnisse zu Freundschaft, Fluchterfahrung, Sprache, Zugehörigkeit und die Schlussfolgerung, dass zentrale Ansprüche an Freundschaft unabhängig vom sozialen oder kulturellen Hintergrund konstant bleiben.
+
+**Audit-Status:** 4 (Volltext geprüft, Seitenbereich verifiziert)

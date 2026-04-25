@@ -309,3 +309,16 @@ Die übrigen Lehwald-Stellen in `mpv.tex` verwenden Kapitel-/Abschnittslocators 
 **Status:** 3 (Transkript-konsistent verifiziert; Volltext-Verifikation aussenstehend)
 **Verifiziert am:** 2026-04-19; nachgeprueft 2026-04-25
 **Bearbeitet durch:** Cascade (automatisierte Transkript-Verifikation) + Pascal Schmid; Codex-Zitationsaudit
+
+---
+
+## Nachprüfung 2026-04-25 - Zusatzbefund `mpv.tex`
+
+**Geprüfter Locator:** `S.\,11`
+
+**Prüfbefund:**
+- Das lokale `source.pdf` umfasst nur Titelei, Inhaltsverzeichnis, Abkürzungsverzeichnis und Vorwort.
+- Gedruckte S. 11 ist im Volltext vorhanden und rückt intrinsische Motive, Begabungsentwicklung und Störungen der Begabungsentwicklung in den Blick.
+- Die Kapitelangaben `Kap. 1--3`, `Kap. 2.1--2.4, 2.8`, `Kap. 2.3--2.4, 4.3`, `Kap. 2.4, 4.3` und `Kap. 2.3` sind nicht im lokalen Volltext prüfbar. Sie wurden in `mpv.tex` aus den Locator entfernt und als `% OFFEN` markiert.
+
+**Audit-Status:** 4 für S. 11; OFFEN für die entfernten Kapitelbelege

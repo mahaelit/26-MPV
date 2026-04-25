@@ -67,3 +67,16 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,5--6`
+
+**Prüfbefund:**
+- S. 5 berichtet Unterschiede in visuomotorischen, visuellen und auditiven Wahrnehmungs-/Integrationsleistungen.
+- S. 6 fasst die Identifikation von twice-exceptional learners zusammen und beschreibt hohe visuelle/verbale Fähigkeiten bei gleichzeitigen Wahrnehmungsproblemen.
+- Der Locator trägt die Aussage in `mpv.tex` zu visuomotorischen Koordinationsproblemen und 2E-Profilen.
+
+**Audit-Status:** 4 (Volltext geprüft, Seitenbereich verifiziert)

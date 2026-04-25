@@ -88,3 +88,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,63--77`
+
+**Prüfbasis:** OCR-Volltext `/tmp/mpv_ocr/kappus2010migration.txt`.
+
+**Prüfbefund:**
+- S. 63--77 bilden den Beitrag zu Migration, Begabungsförderung und institutioneller Einbettung.
+- Der OCR-Volltext enthält die Argumentation zu institutioneller Diskriminierung und zur Rolle kantonaler/schulischer Routinen.
+- Der Bereich trägt die Aussagen in `mpv.tex` zu institutioneller Diskriminierung, ausländisch klingenden Namen, kantonalen Unterschieden und Reflexion institutioneller Routinen.
+
+**Audit-Status:** 4 (OCR-Volltext geprüft, Seitenbereich verifiziert)

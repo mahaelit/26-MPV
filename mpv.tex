@@ -267,13 +267,10 @@ methodisch korrekte Verwendungen (\enquote{systematische Beobachtung},
 \enquote{systematische Reviews}) bleiben.
 
 \medskip
-\textbf{1. Verbleibende Seitenverifikationen aus Frage~1 schliessen.}
-Die noch offenen Detail-Seitenangaben (Drei-Ringe-Modell, MHBM,
-Stern-Interview, nicht-kognitive Faktoren, ergänzende Studie zu Keller-Koller,
-Lehwald-Underachievement-Seite, Preckel-2e-Seite) sind in
-\texttt{OFFEN\_VERIFIKATIONEN.md} aufgelistet und in der Bibliotheksstunde
-einzutragen. Im LaTeX-Quelltext stehen keine \texttt{\% OFFEN:}-Kommentare
-mehr.
+\textbf{1. Verbleibende Seitenverifikationen schliessen.}
+Die nach dem Seitenzahl-Audit noch offenen Belege sind im LaTeX-Quelltext mit
+\texttt{\% OFFEN:} markiert. Sie betreffen nur Stellen, für die im lokalen Repo kein
+volltextprüfbarer Seiten- oder Kapitelbeleg vorliegt.
 
 \medskip
 \textbf{2. \texttt{fischer2010begabung} und \texttt{baumschader2021twice}
@@ -368,7 +365,7 @@ zugleich zielt das Entwicklungsvorhaben \enquote{Schulen für alle} darauf ab, T
 und chancengerechtere Bildung zu stärken. Bildungswissenschaftliche Befunde zeigen
 indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft,
 Migrationsgeschichte und familiären Ressourcen abhängen
-\parencites[S.\,45--48]{erzinger2023pisa}[S.\,576--580]{stamm2021fehlenderblick}[S.\,34,\,37]{bfs2022migration}.
+\parencites[S.\,45--48]{erzinger2023pisa}[S.\,576--585]{stamm2021fehlenderblick}[S.\,34,\,37]{bfs2022migration}.
 Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in
 anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre Potenziale
 bleiben nicht selten verdeckt, insbesondere dann, wenn sprachliche Unsicherheiten, belastende
@@ -581,10 +578,10 @@ Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung
 zwischen kognitiven Prädiktoren, nicht-kognitiven Persönlichkeitsmerkmalen und
 Umweltfaktoren, womit Begabung grundsätzlich als Potenzial zu verstehen ist, das sich
 unter günstigen Bedingungen in Leistung transformieren kann
-\parencite[S.\,14,\,17,\,36]{fischer2020begabungsfoerderung}.
+\parencite[S.\,76]{fischer2020begabungsfoerderung}.
  
 Für Kinder mit Migrationserfahrung sind sprachlastige Testverfahren wie der WISC nur
-bedingt aussagekräftig. \textcite[Kap.\,1]{maehler2018diagnostik} betonen die Notwendigkeit
+bedingt aussagekräftig. \textcite[S.\,14\psq;\,29--31]{maehler2018diagnostik} betonen die Notwendigkeit
 sprach- und kulturfairer Diagnostik. \textcite[S.\,576--585]{stamm2021fehlenderblick}
 verweist auf \enquote{begabte Minoritäten} als blinden Fleck der Begabtenförderung:
 Kinder aus Migrationskontexten werden aufgrund
@@ -675,7 +672,7 @@ Bedingungen der frühen Adaptationsphase mitabbilden.
 
 \subsection{Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben}
 
-\textcite[S.\,576]{stamm2021fehlenderblick} identifiziert \enquote{begabte Minoritäten} als systematischen blinden Fleck der
+\textcite[S.\,576--585]{stamm2021fehlenderblick} identifiziert \enquote{begabte Minoritäten} als systematischen blinden Fleck der
 Begabtenförderung. Kinder aus Migrationskontexten, aus sozioökonomisch benachteiligten
 Familien und aus bildungsfernen Milieus sind in Förderprogrammen für Begabte signifikant
 unterrepräsentiert. Dies liegt nicht daran, dass diese Kinder weniger Potenzial aufwiesen,
@@ -699,10 +696,10 @@ sich zurückziehen, Aufgaben verweigern oder auffälliges Verhalten zeigen, werd
 als förderbedürftig, nicht als begabt wahrgenommen. Bei S. beschrieb die abgebende
 Lehrperson ihn als \enquote{eher auffällig, sehr weinerlich und etwas störend}; eine
 Beschreibung, die kognitive Ressourcen vollständig ausblendet.
-\textcite[S.\,87--89]{webb2020doppeldiagnosen} betonen, dass gerade bei Kindern
-mit Migrationshintergrund Verhaltensauffälligkeiten und sprachliche
-Unsicherheiten die Wahrnehmung dominieren und den Blick auf Stärken verstellen
-können (Maskierungs-Phänomen).
+\textcite[S.\,87--89]{webb2020doppeldiagnosen} beschreiben allgemein, dass
+Verhaltensweisen Hochbegabter als Störung fehlgedeutet werden können. Bei
+Kindern mit Migrationshintergrund verschärfen sprachliche Unsicherheiten diese
+Maskierung zusätzlich \parencite[S.\,76--78]{kellerkoller2021hellekoepfe}.
 
 Drittens besteht die Gefahr institutioneller Diskriminierung. \textcite[S.\,63--77]{kappus2010migration} referiert Studien,
 die darauf hinweisen, dass Kinder mit ausländisch klingenden Nachnamen in einzelnen
@@ -887,7 +884,8 @@ belastenden Vorerfahrungen konzeptionell zu fassen, ohne vorschnell in eine Kate
 zu drängen. Die heilpädagogische Konsequenz ist eine diagnostische Haltung der
 \textit{gleichzeitigen Aufmerksamkeit}: Stärken und Barrieren werden nicht sequentiell
 (\enquote{zuerst die Defizite beheben, dann die Begabung fördern}), sondern parallel in den
-Blick genommen. \textcite[Kap.\,2.3--2.4,\,4.3]{lehwald2017motivation} beschreibt, dass Motivation bei begabten Kindern dann
+Blick genommen. \textcite{lehwald2017motivation} beschreibt, dass Motivation bei begabten Kindern dann
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 2.3--2.4 und 4.3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 einbricht, wenn die Lernumgebung keine Passung zu ihren Interessen und Fähigkeiten
 bietet; eine einseitig defizitorientierte Förderung kann diesen Motivationsverlust
 verstärken (Underachievement-Mechanismus).
@@ -917,7 +915,7 @@ strukturell an sprachlicher Kompetenz, Anpassungsverhalten und sozioökonomische
 Hintergrund ausrichten. Eine professionelle Begabungsdiagnostik erfordert die
 Bereitschaft, diese Muster zu hinterfragen, und institutionelle Strukturen, die eine
 solche Reflexion ermöglichen
-\parencite[S.\,579\psqq]{stamm2021fehlenderblick};
+\parencite[S.\,576--585]{stamm2021fehlenderblick};
 \parencite[S.\,161,\,163\psq]{macha2019gender}.
  
 \subsection{Kernliteratur zu Frage 1}
@@ -1042,7 +1040,8 @@ Begabungserkennung auf eine bestimmte Klientel zugeschnitten sind. Ein
 durchschnittliches Testergebnis bei einem Kind, das unter massiv erschwerten
 Bedingungen getestet wurde, sagt weniger über seine kognitive Kapazität als über
 die Grenzen des Verfahrens. Das zweite Argument
-ist pädagogisch: \textcite[Kap.\,2.3--2.4,\,4.3]{lehwald2017motivation} zeigt, dass Motivation bei begabten Kindern einbricht,
+ist pädagogisch: \textcite{lehwald2017motivation} zeigt, dass Motivation bei begabten Kindern einbricht,
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 2.3--2.4 und 4.3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 wenn die Lernumgebung keine Passung bietet. Auf einen durchschnittlichen Testwert
 hin die Begabungsförderung einzustellen hiesse, genau jene Demotivation zu
 erzeugen, die das Kind dann endgültig in die Unsichtbarkeit drängt.
@@ -1093,7 +1092,7 @@ Dieses Kapitel nimmt ein Problem ernst, das im schulischen Alltag leicht falsch 
 
 Schreiben sieht von aussen einfach aus, ist aber für das Gehirn sehr
 anstrengend. Man muss gleichzeitig den Stift führen, Buchstaben formen,
-Wörter finden und überlege⁄n, was man sagen will. Wenn ein Kind die
+Wörter finden und überlegen, was man sagen will. Wenn ein Kind die
 Buchstaben noch nicht automatisch schreiben kann, ist das Gehirn so
 beschäftigt mit der Stiftführung, dass kaum Platz fürs Denken bleibt.
 Bei S.~ist das so: Er drückt den Stift fest auf, setzt ständig ab, und
@@ -1231,7 +1230,7 @@ Ermüdung und Verkrampfung beschleunigt. Solche Bewegungsmerkmale lassen sich he
 Schreibtablett-Analysen erfassen, wie
 \textcite{hurschlerlichtsteiner2024handschriftanalysen} an Daten aus
 Schweizer Primarklassen zeigt, und differenzierend beurteilen, wie
-\textcite[S.\,3, 11]{hurschler2020handschriftbeurteilung} am Beispiel der
+\textcite[S.\,3,\,11]{hurschler2020handschriftbeurteilung} am Beispiel der
 Kriterien Leserlichkeit und Geläufigkeit darlegt; entscheidend für den
 Förderprozess ist nicht die apparative Messung, sondern die
 kriteriengestützte Verschränkung von Beobachtung, Selbsteinschätzung und
@@ -1285,7 +1284,8 @@ auf dem aktuellen Kompetenzniveau des Kindes angesiedelt sind.
 
 \subsection{Motivation als Brücke zwischen Interesse und Kompetenzentwicklung}
 
-\textcite[S.\,11; Kap.\,2.1--2.4,\,2.8]{lehwald2017motivation} analysiert das Zusammenspiel von Motivation und Begabung und zeigt, dass
+\textcite[S.\,11]{lehwald2017motivation} analysiert das Zusammenspiel von Motivation und Begabung und zeigt, dass
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 2.1--2.4 und 2.8 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 kognitive Anstrengungsbereitschaft nicht als Persönlichkeitseigenschaft zu verstehen ist,
 sondern als kontextabhängige Reaktion auf Passung oder Nicht-Passung zwischen
 Lernumgebung und individuellen Interessen. Begabte Kinder sind nicht per se motiviert;
@@ -1294,7 +1294,8 @@ entspricht. Bei fehlender Passung reagieren sie mit Rückzug, Verweigerung oder
 Underachievement, also mit genau jenen Verhaltensweisen, die bei S. im regulären
 Unterricht beschrieben werden.
 
-\textcite[Kap.\,1--3]{lehwald2017motivation} unterscheidet drei Formen von Lernmotivation, die für begabte Kinder besonders
+\textcite{lehwald2017motivation} unterscheidet drei Formen von Lernmotivation, die für begabte Kinder besonders
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 1--3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 relevant sind: die \textit{Erkenntnismotivation} (das Bedürfnis, Zusammenhänge zu
 durchdringen), die \textit{Leistungsmotivation} (das Bedürfnis, sich an anspruchsvollen
 Aufgaben zu bewähren) und die \textit{soziale Anschlussmotivation} (das Bedürfnis,
@@ -1374,7 +1375,8 @@ das wiederholte Ansetzen und Abbrechen, begleitet von selbstregulatorischen Laut
 All dies sind Zeichen einer tonischen Anspannung, die nicht allein auf fehlende
 Übung zurückzuführen ist, sondern auf eine emotionale Besetzung der Schreibhandlung.
 
-\textcite[Kap.\,2.3--2.4]{lehwald2017motivation} verortet Underachievement und Flow-Erleben
+\textcite{lehwald2017motivation} verortet Underachievement und Flow-Erleben
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 2.3--2.4 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 im Zusammenspiel von Begabung und Motivation. Vor diesem Hintergrund lässt sich das
 Verhalten als \textit{antizipatorische Vermeidung} deuten: S. vermeidet die Tätigkeit
 nicht, weil er sie nicht kann, sondern weil die Erwartung des Scheiterns affektiv
@@ -1483,7 +1485,8 @@ Verarbeitungskapazität für die motorische Übung freilassen. Die Schachnotatio
 schafft genau diese Bedingung.
 
 Auf der \textit{motivationalen Ebene} wirkt der Unterschied zwischen extrinsischer
-Anforderung und intrinsischem Interesse. \textcite[Kap.\,1--3]{lehwald2017motivation} unterscheidet Erkenntnismotivation,
+Anforderung und intrinsischem Interesse. \textcite{lehwald2017motivation} unterscheidet Erkenntnismotivation,
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 1--3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 Leistungsmotivation und soziale Anschlussmotivation. Im regulären Unterricht ist
 keine dieser drei Formen aktiviert: Die Aufgabenstellung ist für S. inhaltlich
 unzugänglich, das Leistungsniveau unerreichbar, und die soziale Situation (Verweis
@@ -1647,7 +1650,8 @@ wird als störend wahrgenommen und aus dem Unterricht verwiesen. Diese Diskrepan
 verweist auf die enge Verbindung zwischen emotionaler Sicherheit und der Sichtbarkeit
 von Begabung.
  
-\textcite[S.\,87--94]{grossrieder2010anerkennung} beschreibt Anerkennung als pädagogisches Grundprinzip, das über Lob
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+\textcite{grossrieder2010anerkennung} beschreibt Anerkennung als pädagogisches Grundprinzip, das über Lob
 hinausgeht: Anerkennung zweiter Ordnung meint eine Grundhaltung, in der Unterschiedlichkeit
 nicht defizitär gelesen, sondern respektiert wird.
 Wo Anerkennung fehlt, ziehen sich Kinder zurück: sie maskieren ihre Fähigkeiten,
@@ -1716,7 +1720,8 @@ ist ein sichtbarer Ausdruck dieser affektiven Zustandsveränderung.
 
 \subsection{Anerkennung als pädagogische Grundkategorie}
 
-\textcite[S.\,87--94]{grossrieder2010anerkennung} entfaltet den Begriff der Anerkennung in einer Differenzierung, die für
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+\textcite{grossrieder2010anerkennung} entfaltet den Begriff der Anerkennung in einer Differenzierung, die für
 die Analyse von S.' Situation aufschlussreich ist. Sie unterscheidet Anerkennung
 erster und zweiter Ordnung. Anerkennung erster Ordnung ist direkt beobachtbar: Lob,
 Zuwendung, positive Verstärker. Sie orientiert sich an einem vorgegebenen Konzept
@@ -1728,7 +1733,8 @@ Anerkennung zweiter Ordnung hingegen bezeichnet eine Grundhaltung, die den ander
 Person respektiert, mit eigenen Wünschen, Bedürfnissen und Auffassungen, unabhängig
 von Leistung oder Nutzen. Sie ist nicht direkt beobachtbar, sondern zeigt sich in der
 Art, wie Interaktionen gestaltet, Lernumgebungen arrangiert und Unterschiede behandelt
-werden. \textcite[S.\,87--94]{grossrieder2010anerkennung} betont, dass Anerkennung zweiter Ordnung ein
+werden. \textcite{grossrieder2010anerkennung} betont, dass Anerkennung zweiter Ordnung ein
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
 Interaktionsgeschehen voraussetzt, in dem die Beteiligten sich in ihrer Besonderheit
 zeigen können, ohne unter die Wünsche, Bilder oder Handlungserwartungen des
 Gegenübers subsumiert zu werden.
@@ -1741,7 +1747,8 @@ entsprechen einer Logik, in der Anerkennung an Anpassung geknüpft ist. Die
 Verhaltensweisen von S. werden nicht als Ausdruck einer komplexen Situation gelesen,
 sondern als Normverletzung sanktioniert.
 
-\textcite[S.\,87--94]{grossrieder2010anerkennung} verweist auf Forschungsergebnisse zum Schulklima, wonach ein von
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+\textcite{grossrieder2010anerkennung} verweist auf Forschungsergebnisse zum Schulklima, wonach ein von
 Akzeptanz und positiver Erwartungshaltung geprägtes Klima einen positiven Zusammenhang
 mit Leistung und Selbstkonzept aufweist. Umgekehrt zeigen Schüler:innen in Klassen mit
 negativem Klima signifikant niedrigeres Selbstwertgefühl, geringere Erfolgszuversicht
@@ -1815,7 +1822,8 @@ Index: inklusive Kulturen schaffen (Dimension A), inklusive Strukturen etabliere
 In der heilpädagogischen Beziehungsperspektive ist die Bedeutung von Peer-
 und Anerkennungsbeziehungen für Wohlbefinden, Selbstkonzept und
 Lernmotivation in der mittleren Kindheit und frühen Adoleszenz tragend
-\parencite[S.\,87--94]{grossrieder2010anerkennung}. Im Fall S.\ stellt SOLUX
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+\parencite{grossrieder2010anerkennung}. Im Fall S.\ stellt SOLUX
 einen strukturierten Kontaktraum bereit: gemeinsame Tätigkeit, geteilte
 Expertenrolle, Anerkennung durch Peers. Im Regelunterricht hingegen fehlen
 diese Bedingungen, und das Risiko, dass Rückzug und Verweisungen aus dem
@@ -1854,13 +1862,15 @@ willentliche Leistungsverweigerung.
 Aus der Perspektive der PSI-Theorie nach \textcite[S.\,35--57]{kuhl2019diversitaet} blockiert negativer Affekt den Zugang zum
 Extensionsgedächtnis. Das Kind fällt in einen Modus reduzierter Handlungsfähigkeit
 zurück, in dem weder kreative Problemlösung noch soziale Öffnung möglich ist. Aus der
-Perspektive der Anerkennungstheorie nach \textcite[S.\,87--94]{grossrieder2010anerkennung} fehlt die Grundlage, sich als Person
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+Perspektive der Anerkennungstheorie nach \textcite{grossrieder2010anerkennung} fehlt die Grundlage, sich als Person
 mit eigenen Stärken zu zeigen, weil die Umgebung primär Defizite spiegelt. Aus der
 Perspektive der kumulativen Belastung nach \textcite[S.\,86--98]{behrensen2019inklusive} übersteigt die Gesamtanforderung,
 neue Sprache, neue Schule, neue Peers, fehlende familiäre Brücken, die
 Bewältigungsressourcen des Kindes.
 
-\textcite[S.\,11; Kap.\,2.3]{lehwald2017motivation} ordnet Störungen der Begabungsentwicklung
+\textcite[S.\,11]{lehwald2017motivation} ordnet Störungen der Begabungsentwicklung
+% OFFEN: Kapitelbeleg zu Lehwald 2017 Kap. 2.3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 und Underachievement in eine motivationsbezogene Perspektive ein. Damit lässt sich
 Maskierung als mögliche Strategie begabter Kinder verstehen: Wenn Fähigkeiten nicht
 anerkannt werden oder Leistung zu Ausgrenzung führt (etwa weil Peers sie meiden),
@@ -1977,13 +1987,15 @@ sondern sein System ist unter Stress herabreguliert. Ein Kind in diesem Zustand
 kann auf Druck nicht mit erhöhter Kooperation reagieren, sondern nur mit
 verstärktem Rückzug oder mit Erstarrung \parencite[S.\,35--57]{kuhl2019diversitaet}.
 
-Aus der Anerkennungstheorie von \textcite[S.\,87--94]{grossrieder2010anerkennung} betrachtet, stellt der Verweis
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
+Aus der Anerkennungstheorie von \textcite{grossrieder2010anerkennung} betrachtet, stellt der Verweis
 eine besonders wirksame Form der Anerkennung erster Ordnung in ihrer negativen
 Ausprägung dar: Anerkennung wird an Anpassung geknüpft und bei Abweichung
 entzogen. S. erfährt, dass er nur dann als Teil der Gemeinschaft gilt, wenn er
 den Erwartungen der Fachperson entspricht. Da er diese Erwartungen aufgrund
 seiner sprachlichen, motorischen und emotionalen Situation nicht erfüllen kann,
-wird der Entzug von Anerkennung zum Dauerzustand. \textcite[S.\,87--94]{grossrieder2010anerkennung} verweist auf
+wird der Entzug von Anerkennung zum Dauerzustand. \textcite{grossrieder2010anerkennung} verweist auf
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
 Forschungsergebnisse, wonach ein negatives Klassenklima mit signifikant
 niedrigerem Selbstwertgefühl und erhöhter Hilflosigkeit bei den Betroffenen
 einhergeht. Der Verweis verschärft also genau jene psychische Lage, die das
@@ -2043,7 +2055,8 @@ Kompetenz und soziale Öffnung zeigt, stellt sich die Frage, wie diese
 Erfahrung in den Alltag transferiert werden kann. Konkret schlage ich vor,
 S. im Mathematikunterricht gezielt als Ressource einzusetzen: als Helfer bei
 Knobelaufgaben, als Partner in Strategiespielen, als Experte für logische
-Muster. \textcite[Kap.\,2.4,\,4.3]{lehwald2017motivation} zeigt, dass Motivation dann stabil bleibt, wenn die
+Muster. \textcite{lehwald2017motivation} zeigt, dass Motivation dann stabil bleibt, wenn die
+% OFFEN: Kapitelbelege zu Lehwald 2017 Kap. 2.4 und 4.3 nicht volltextverifizierbar; lokales PDF enthält nur Titelei, Inhaltsverzeichnis und Vorwort.
 Lernumgebung eine Passung zu den Interessen und Fähigkeiten des Kindes bietet.
 Wenn S. im regulären Unterricht zumindest
 punktuell als kompetent erlebt wird, verändert sich die Wahrnehmung der
@@ -2885,7 +2898,8 @@ adressiert, sondern als Kollegin, die unter erschwerten
 Ausgangsbedingungen (Quereinstieg, neues Bildungssystem, neue Schulstufe)
 eine professionelle Aufgabe übernimmt. Die Anerkennung, die wir für S.\
 einfordern, beginnt damit, dass wir sie auch im Umgang mit Kolleg:innen
-praktizieren \parencite[S.\,87--94]{grossrieder2010anerkennung}.
+praktizieren \parencite{grossrieder2010anerkennung}.
+% OFFEN: Seitenangabe zu grossrieder2010anerkennung nicht verifizierbar; kein Volltext im Repo.
 
 \subsection{Zusammenarbeit mit Eltern und externen Fachstellen}
 
@@ -3102,7 +3116,7 @@ die anderen, sondern bereichert das gemeinsame Bild von S. um eine Dimension,
 die bisher fehlte. Im Standortgespräch rahme ich das Ergebnis nicht als
 \enquote{Ich hatte recht}, sondern als \enquote{Wir haben jetzt ein
 vollständigeres Bild, das neue Handlungsoptionen eröffnet}.
-\textcite[S.\,151--161]{buholzer2010allegleich} betonen, dass
+\textcite[S.\,151--160]{kummerwyss2017kooperativunterrichten} betont, dass
 kooperatives Unterrichten ein gemeinsames Nachdenken über Kinder
 voraussetzt, nicht einen Wettbewerb um die richtige Diagnose.
 
@@ -3119,7 +3133,7 @@ diversitätssensible Professionalisierung als Aufgabe des gesamten Systems,
 nicht einzelner Fachpersonen.
 
 Das dritte Prinzip ist die \textit{Einbindung der Eltern als Wissensträger}.
-\textcite[S.\,14--19]{kosoroklabhart2021voneltern} betonen, dass
+\textcite[S.\,39]{kosoroklabhart2021voneltern} betonen, dass
 professionelles Dolmetschen und kulturvermittelnde Begleitung
 Grundvoraussetzungen für eine gelingende Zusammenarbeit mit Eltern mit
 Migrationshintergrund sind. Im Fall S. hat erst das
@@ -3322,7 +3336,8 @@ identifizierter Kinder stieg von unter 1\% auf 5\% der Schulpopulation.
 Abschnitt~\ref{sec:frage1} dargestellte Kritik an sprachlastiger
 Diagnostik \parencite[S.\,93,\,169--172]{maehler2018diagnostik} und die Forderung nach
 prozessorientierter, dynamischer Diagnostik
-\parencites[S.\,320,\,325,\,338]{maehler2018diagnostik}{lemas2023begriffsklaerung}. Die
+\parencite{lemas2023begriffsklaerung}. % OFFEN: Seitenangabe zur LemaS-Begriffsklärung noch nicht verifiziert.
+Die
 DISCOVER-Studie und die dynamische NNAT-Modifikation liefern empirische
 Evidenz für genau jene multiperspektivischen Verfahren, die im Lernskript
 gefordert werden. Am Fall S. wäre eine dynamische Diagnostik (\textit{Wie
@@ -3758,7 +3773,8 @@ Englisch ist wahrscheinlich eine Unterschätzung. Eine dynamische
 Diagnostik (z.\,B. mathematische Aufgaben mit gestufter Unterstützung)
 würde sein Potenzial vermutlich noch deutlicher zeigen. Die Forderung nach
 prozessorientierter Diagnostik
-\parencites{lemas2023begriffsklaerung}[S.\,320,\,325,\,338]{maehler2018diagnostik} wird hier
+% OFFEN: Seitenangabe zur LemaS-Begriffsklärung noch nicht verifiziert.
+\parencite{lemas2023begriffsklaerung} wird hier
 experimentell belegt.
 
 \subsubsection*{Wahrnehmungsprofil: Auditive Schwächen dominieren}

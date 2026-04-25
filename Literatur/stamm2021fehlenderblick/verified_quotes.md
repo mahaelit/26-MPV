@@ -81,3 +81,18 @@ Der Locator `\parencite[S.\,576--585]{stamm2021fehlenderblick}` ist bibliographi
 **Status:** 2 (bibliographisch verortet, Volltext fehlt)
 **Verifiziert am:** 2026-04-25
 **Bearbeitet durch:** Codex-Zitationsaudit
+
+---
+
+## Nachprüfung 2026-04-25 - Ergänzung Sammelbandtranskript
+
+**Geprüfter Locator:** `S.\,576--585`
+
+**Prüfbasis:** Kein eigenes `source.pdf` im Einzelordner. Der Volltext liegt im Sammelband-Transkript `Literatur/muelleroppliger2021handbuch/excerpts/teil8_dysfunktionale_begabungsentwicklung.md` vor.
+
+**Prüfbefund:**
+- Das Transkript enthält den Beitrag `Der fehlende Blick auf begabte Minoritäten, blinde Flecken der Begabten Förderung` und verortet ihn auf S. 576--585.
+- Der Beitrag behandelt Bildungschancen, soziale Herkunft, kulturelles/ökonomisches Kapital, Migrationshintergrund und die Gefahr, dass Begabungsförderung bestehende Bildungsungleichheiten verstärkt.
+- Die früheren Teil-Locator `S.\,576`, `S.\,576--580` und `S.\,579\psqq` wurden in `mpv.tex` auf die vollständige Kapitelspanne `S.\,576--585` vereinheitlicht.
+
+**Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)

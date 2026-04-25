@@ -81,3 +81,16 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,9--13,\,23`, `S.\,23--31`
+
+**Prüfbefund:**
+- S. 9--13 beschreiben die Auswahl der drei Bundesstaaten, die Proportionalitätsratio für gifted English Learners, die 16 Schulen sowie Interviews/Fokusgruppen und Codierung.
+- S. 23 leitet die vier Hauptthemen zur Identifikation begabter English Learners ein.
+- S. 23--31 tragen die Aussagen zu stärkenorientierter Identifikation, alternativen Zugangswegen, Kommunikationsnetzwerken, Weiterbildung und dem Wechsel von Defizitdetektoren zu Talentscouts.
+
+**Audit-Status:** 4 (Volltext geprüft, Seitenbereiche verifiziert)

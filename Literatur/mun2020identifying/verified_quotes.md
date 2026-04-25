@@ -75,3 +75,16 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,302--304`, `S.\,325`
+
+**Prüfbefund:**
+- S. 302--304 beschreiben Such-/Screeningprozess, Einschlusskriterien und Aufbau der systematischen Übersichtsarbeit zu gifted English Learners.
+- S. 325 formuliert Program Evaluation als wesentlichen Bestandteil eines Identifikationssystems für gifted English Learners.
+- Beide Locator tragen die Aussagen in `mpv.tex`.
+
+**Audit-Status:** 4 (Volltext geprüft, Seiten verifiziert)

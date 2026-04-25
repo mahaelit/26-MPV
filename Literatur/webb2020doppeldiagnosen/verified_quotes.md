@@ -80,3 +80,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,87--89`, `S.\,87--94`
+
+**Prüfbasis:** OCR-Volltext `/tmp/mpv_ocr/webb2020doppeldiagnosen.txt`.
+
+**Prüfbefund:**
+- S. 87--89 definieren Fehldiagnosen bei Hochbegabung und beschreiben, dass hochbegabte Kinder wegen untypischer oder fehlgedeuteter Verhaltensweisen falsch diagnostiziert werden können.
+- S. 87--94 decken Fehldiagnosen, Doppeldiagnosen und die gegenseitige Überlagerung von Hochbegabung und diagnostischen Kategorien ab.
+- Der frühere Satz in `mpv.tex`, Webb belege spezifisch Migrationshintergrund/sprachliche Unsicherheit, war zu stark. Er wurde umgeschrieben; Webb trägt nun nur den allgemeinen Maskierungs-/Fehldiagnosebefund, Keller-Koller trägt die migrationsspezifische Ergänzung.
+
+**Audit-Status:** 4 (OCR-Volltext geprüft, Aussage präzisiert)

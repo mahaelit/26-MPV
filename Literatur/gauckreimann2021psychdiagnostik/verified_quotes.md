@@ -74,3 +74,18 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,239--251`, `S.\,239--247`
+
+**Prüfbasis:** Sammelband-Transkript `Literatur/muelleroppliger2021handbuch/excerpts/teil3_begabungen_erkennen.md`.
+
+**Prüfbefund:**
+- Das Transkript verortet Letizia Gauck/Giselle Reimann, `Psychologische Diagnostik in der Begabungs- und Begabtenförderung`, auf S. 239--251.
+- Der Beitrag behandelt Erstgespräch, Testverfahren, Durchführung, Interpretation und Rückmeldung bei kognitiver Hochbegabung.
+- Die Fallbeispiele Lea/Aisha liegen im verifizierten Bereich und tragen die Aussagen in `mpv.tex` zu psychologischer Abklärung und diagnostischer Vorsicht.
+
+**Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)

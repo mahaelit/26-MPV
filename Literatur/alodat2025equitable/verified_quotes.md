@@ -67,3 +67,16 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,10`, `S.\,12`
+
+**Prüfbefund:**
+- S. 10 behandelt Messinvarianz und die Maskierung von Fähigkeiten geflüchteter Schüler:innen durch Trauma, Sprache und Akkulturationsstress.
+- S. 12 beschreibt fehlende Identifikationspraxis in Camp-Schulen und fordert ressourcensensible Identifikationsverfahren für begabte Geflüchtete.
+- Beide Locator tragen die Aussagen in `mpv.tex`.
+
+**Audit-Status:** 4 (Volltext geprüft, Seiten verifiziert)

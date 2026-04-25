@@ -73,3 +73,16 @@ deutschsprachigen Raum gegenüber dem Englischen ein Desiderat darstellt.
 > ermöglichen und die Lehrperson darin unterstützen, die nächsten Lernschritte
 > **gemeinsam mit den Lernenden** anzugehen."
 > (S. 4)
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfte Locator:** `S.\,3`, `S.\,11`, `S.\,3,\,11`
+
+**Prüfbefund:**
+- S. 3 trägt die Aussage zur Geläufigkeit der Handschrift und zur Entlastung anderer Schreibprozesse.
+- S. 11 trägt die Kriterien Leserlichkeit/Geläufigkeit und die Referenz auf mehrdimensionale Erfassung.
+- Der Schreibfehler `S.\,3, 11` in `mpv.tex` wurde zu `S.\,3,\,11` vereinheitlicht.
+
+**Audit-Status:** 4 (Volltext geprüft, Seiten verifiziert)

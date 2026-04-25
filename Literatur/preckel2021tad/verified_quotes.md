@@ -70,3 +70,19 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 **Status:** 0 (ungeprueft)
 **Verifiziert am:** <YYYY-MM-DD>
 **Bearbeitet durch:** Inti Merolli
+
+---
+
+## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
+
+**Geprüfter Locator:** `S.\,274--303`
+
+**Prüfbasis:** Sammelband-Transkript `Literatur/muelleroppliger2021handbuch/excerpts/teil3_begabungen_erkennen.md`.
+
+**Prüfbefund:**
+- Das Transkript verortet Franzis Preckel, `Das TAD Framework`, auf S. 274--303.
+- Der Beitrag beschreibt Talententwicklung als Prozess von anfänglichem Potenzial bis zu außergewöhnlicher Leistung.
+- Er erläutert Entwicklungsabschnitte, zunehmende Spezialisierung sowie abschnittsabhängige Prädiktoren und Indikatoren.
+- Der Locator trägt die Aussagen in `mpv.tex` zur Talententwicklungsperspektive und zu TAD.
+
+**Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)
