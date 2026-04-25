@@ -98,3 +98,25 @@ Date: 2026-04-25
   full text is unavailable.
 - Verified that no invalid `\f` command remains; only `\psq`/`\psqq` are used
   for following-page locators.
+
+## Follow-up: Migrationsabschnitt, 2026-04-25
+
+- `erzinger2023pisa`: ergänzt mit S. 45--48 für soziale Herkunft,
+  familiäre Ressourcen und Bildungschancen; Volltext in `source.pdf`
+  geprüft.
+- `bfs2022migration`: ergänzt mit S. 3, 5 für den Migrationsbegriffsabsatz
+  und S. 34, 37 für die Ausgangslage zu Bildung/Migrationsstatus; Volltext
+  und Druckpaginierung in `source.pdf` geprüft.
+- `behrensen2019inklusive`: den breiten Artikelverweis im
+  Migrationsbegriffsabsatz auf S. 86, 88, 92, 95--97 eingegrenzt.
+- `leikhof2021jugendliche`: ergänzt mit S. 6--8 für Unterrepräsentation,
+  Zugangshürden und Ressourcenfragen bei Jugendlichen mit
+  Migrationshintergrund.
+- `lehwald2017motivation`: pauschale `\textcite`-Stellen auf
+  Kapitel-/Abschnittslocators umgestellt; einzige lokal volltextnahe
+  Seitenstelle auf gedruckte S. 11 korrigiert. Exakte Kapitel-Seiten bleiben
+  nicht volltextverifiziert, weil `source.pdf` nur eine Hogrefe-Leseprobe mit
+  Inhaltsverzeichnis/Vorwort enthält.
+- `stamm2021fehlenderblick`: Locator S. 576--585 beibehalten, aber in
+  `verified_quotes.md` als nicht volltextverifiziert markiert, weil lokal kein
+  `source.pdf` für den Beitrag vorhanden ist.

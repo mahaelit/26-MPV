@@ -3,7 +3,7 @@
 **Quelle:** Stamm, Margrit (2021). Der fehlende Blick auf begabte Minoritäten: Blinde Flecken der Begabtenförderung. In: Handbuch Begabung.
 **Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,M%C3%BCller-Oppliger,%20Victor;%20Weigand,%20Gabriele%20Handbuch%20Begabung&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
 **Identifikator:** –
-**Lokaler Pfad:** `source.pdf`
+**Lokaler Pfad:** kein `source.pdf` in diesem Ordner; lokale Verortung nur ueber Bibliographie, Outline und strukturierte Handbuch-Notizen
 
 ---
 
@@ -56,27 +56,28 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
-
-> „Wortgetreues Zitat hier einfuegen.“
+### Nachprüfung 2026-04-25 (S. 576--585)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Die Quelle wird in `mpv.tex` fuer die These verwendet, dass begabte Minoritaeten bzw. Kinder mit Migrationsgeschichte, soziooekonomischer Benachteiligung und stereotypen Zuschreibungen in der Begabtenfoerderung weniger sichtbar werden.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: Migrationsbegriffsabsatz (`mpv.tex`, Z. ~419)
+- Lerndokument: Frage 1 / begabte Minoritaeten und verdeckte Potenziale
+
+**Prüfbefund:**
+Nicht volltextverifiziert. Im Ordner `Literatur/stamm2021fehlenderblick/` liegt kein `source.pdf`; eine PyMuPDF-Pruefung der gedruckten Seiten ist deshalb nicht moeglich.
+
+**Lokale Absicherung der Seitenangabe:**
+- `Quellen.bib` fuehrt den Beitrag mit `pages = {576--585}`.
+- `_outline.md` verortet den Beitrag im Handbuch bei Teil VIII und nennt den bibliographischen Bereich.
+- Die strukturierten Handbuch-Notizen verorten Stamm inhaltlich bei begabten Minoritaeten, Migrationsgeschichte, sozialer Herkunft und blinden Flecken; die genaue Seitenabgrenzung ist dort jedoch selbst als zu verifizieren markiert.
+
+**Bewertung:**
+Der Locator `\parencite[S.\,576--585]{stamm2021fehlenderblick}` ist bibliographisch plausibel, aber nicht als Volltext-Beleg gesichert. Fuer ein echtes Volltext-Audit muss `source.pdf` nachgetragen oder der Beitrag aus dem Handbuch-PDF verlaesslich extrahiert werden.
 
 ---
 
-### Zitat 2 (S. XX)
-
-> „…“
-
-<...>
-
----
-
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+**Status:** 2 (bibliographisch verortet, Volltext fehlt)
+**Verifiziert am:** 2026-04-25
+**Bearbeitet durch:** Codex-Zitationsaudit

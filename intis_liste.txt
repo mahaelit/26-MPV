@@ -1,0 +1,75 @@
+Frage 	Literatur 	Seitenzahl	Total Seiten 	Werktyp
+
+Frage 1	Wie können verdeckte Begabungen bei neu zugewanderten, mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch und sprachsensibel erfasst werden?
+	
+Frage 1 	Stamm, M. (2021). Der fehlende Blick auf begabte Minoritäten: Blinde Flecken in der Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 576–587). Beltz. 	576-587	12	Sammelband-Kap. 
+	Stamm, M. (2014). Minoritäten als Begabungsreserven. In M. Stamm (Hrsg.), Handbuch Talententwicklung: Theorien, Methoden und Praxis in Psychologie und Pädagogik (S. 375–382). Huber. 	375-382	8	Sammelband-Kap.
+	Grossenbacher, S., & Tettenborn, A. (2014). Talent und Begabung in der Volksschule der deutschsprachigen Schweiz. In M. Stamm (Hrsg.), Handbuch Talententwicklung: Theorien, Methoden und Praxis in Psychologie und Pädagogik (S. 317–325). Huber.	317-325	9	Sammelband-Kap.
+	Stamm, M. (2025). Von unten nach oben: Arbeiterkinder und ihre Bildungsaufstiege an das Gymnasium. Beltz Juventa.	58-62	5	Buch
+	Horvath, K. (2021). Elite, Begabung und soziale Ungleichheit – ungelöste Gerechtigkeitsfragen. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 77–87). Beltz. 	77-87	9	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 32–45). Beltz.	32-24	x	Sammelband-Kap.
+	Sedmak, C., & Kapferer, E. (2021). Begabtenförderung und Bildungsgerechtigkeit. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 65–78). Beltz.	65-78	x	Sammelband-Kap.
+	Baudson, T. G. (2021). Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 115–132). Beltz.	115-132	18	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Begabungsmodelle: Entwicklungslinien und Positionen zur Erfassung des Phänomens der Hochbegabung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 204–222). Beltz.	204–222	x	Sammelband-Kap.
+	Reis, S. M., Renzulli, J. S., & Müller-Oppliger, V. (2021). Das Schoolwide Enrichment Model (SEM): Vier Jahrzehnte Forschung zur Entwicklung von Talenten und kreativer Produktivität. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 333–347). Beltz.	333-347	x	Sammelband-Kap.
+	Müller-Oppliger, S. (2021). Pädagogische Diagnostik, Potenzialerfassung und Förderdiagnostik. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 224–238). Beltz.	224-238	15	Sammelband-Kap.
+	Gauck, L., & Reimann, G. (2021). Psychologische Diagnostik in der Begabungs- und Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 239–251). Beltz.	239-251	13	Sammelband-Kap.
+	Baum, S. & Schader, R. (2021). "Twice Exceptionality" – in zweifacher Hinsicht außergewöhnlich. Geschichte, Charakteristika und Möglichkeiten erfolgreichen Lernens. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 588–600). Beltz.	588-600	x	Sammelband-Kap.
+Frage 2	Welche sensumotorischen und schriftsprachlichen Faktoren können dazu beitragen, dass kognitive
+Potenziale verdeckt bleiben, und wie lassen sie sich ressourcenorientiert fördern?
+	
+Frage 2	Fischer, C. (2010). Begabung und Hochbegabtenförderung. In A. Buholzer & A. Kummer Wyss (Hrsg.), Alle gleich – alle unterschiedlich. Zum Umgang mit Heterogenität in Schule und Unterricht (S. xx–xx). Seelze: Klett/Kallmeyer.			Buch
+	Greiten, S. (2021). Underachievement: Begriff und Konzept. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 546–555). Beltz.	546-555	10	Sammelband-Kap.
+	Baum, S. & Schader, R. (2021). "Twice Exceptionality" – in zweifacher Hinsicht außergewöhnlich. Geschichte, Charakteristika und Möglichkeiten erfolgreichen Lernens. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 588–600). Beltz.	588-600	13	Sammelband-Kap.
+				
+				
+				
+Frage 3	Wie beeinflussen Ausgrenzungs-, Belastungs- und Migrationserfahrungen die Begabungsentwicklung
+und soziale Teilhabe, und welche Beziehungsgestaltungen wirken förderlich?
+Kommentar	
+Frage 3	Grossrieder, I. (2010). Gleiches und Unterschiedliches anerkennen. In A. Buholzer & A. Kummer Wyss (Hrsg.), Alle gleich – alle unterschiedlich. Zum Umgang mit Heterogenität in Schule und Unterricht (S. xx–xx). Seelze: Klett/Kallmeyer.	87-94	7 	Buch
+	Baudson, T. G. (2021). Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 115–132). Beltz	115-132	x	Sammelband-Kap.
+	Kuhl J.(2021). Begabung, Bildung und Beziehung aus persönlichkeitspsychologischer Sicht. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 185–203). Beltz.	185-203	19	Sammelband-Kap.
+	Gauck, L., & Reimann, G. (2021). Psychologische Diagnostik in der Begabungs- und Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 239–251). Beltz.	239-251	x	Sammelband-Kap.
+	Wagener, G. (2021). Begabungsfördernde und hemmende Wirkungsmechanismen im Klassenkontext. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 418–426). Beltz.	418-426	9	Sammelband-Kap.
+				
+				
+				
+				
+Frage 4	Inwiefern können offene, enrichment-orientierte Begabungsförderungssettings wie SOLUX Potenziale sichtbar machen, die im Regelunterricht systematisch übersehen werden?
+Kommentar 	
+Frage 4 	Buholzer & A. Kummer Wyss (Hrsg.), Alle gleich – alle unterschiedlich. Zum Umgang mit Heterogenität in Schule und Unterricht (S. 7-12). Seelze: Klett/Kallmeyer.
+
+	7-12	5	Buch
+	Fischer, C. (2010). Begabung und Hochbegabtenförderung. In A. Buholzer & A. Kummer Wyss (Hrsg.), Alle gleich – alle unterschiedlich. Zum Umgang mit Heterogenität in Schule und Unterricht (S. xx–xx). Seelze: Klett/Kallmeyer.			Sammelband-Kap.
+	Horvath, K. (2021). Elite, Begabung und soziale Ungleichheit – ungelöste Gerechtigkeitsfragen. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 77–87). Beltz.	77-87	x	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 32–45). Beltz.	32-45	11	Sammelband-Kap.
+	Weigand, G. (2021). Begabung, Bildung und Person. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 46–64). Beltz.	46-59	x	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Begabungsmodelle: Entwicklungslinien und Positionen zur Erfassung des Phänomens der Hochbegabung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 204–222). Beltz.	204-222	19	Sammelband-Kap.
+	Reis, S. M., Renzulli, J. S., & Müller-Oppliger, V. (2021). Das Schoolwide Enrichment Model (SEM): Vier Jahrzehnte Forschung zur Entwicklung von Talenten und kreativer Produktivität. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 333–347). Beltz.	333-347	15	Sammelband-Kap.
+	Müller-Oppliger, S. (2021). Pädagogische Diagnostik, Potenzialerfassung und Förderdiagnostik. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 224–238). Beltz.	224-238	x	Sammelband-Kap.
+	Weigand, G., & Kaiser, M. (2021). Separativ, integrativ, inklusive Begabungs- und Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 290–301). Beltz.	290-301	12	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Adaptive Lernarchitekturen: Begabungs- und Begabtenförderung innerhalb der Lerngemeinschaft. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 374–389). Beltz.	374-389	16	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Erweiterte Leistungsbeurteilung. Portfolio, Lernjournal, Kompetenzraster und Co. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 427–441). Beltz.	327-441	15	Sammelband-Kap.
+				
+Frage 5	Wie gestalte ich als SHP Beratung und Zusammenarbeit im multiprofessionellen Team so, dass defizitorientierte Wahrnehmungen bei neu zugewanderten Schüler:innen mit verdeckten Potenzialen reflektiert und ressourcenorientiert erweitert werden?
+Kommentar 	
+Frage 5	Horvath, K. (2021). Elite, Begabung und soziale Ungleichheit – ungelöste Gerechtigkeitsfragen. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 77–87). Beltz.	77-87	x	Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 32–45). Beltz.	32-45	x	Sammelband-Kap.
+	Weigand, G. (2021). Begabung, Bildung und Person. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 46–64). Beltz.	46-59	14	Sammelband-Kap.
+	Sedmak, C., & Kapferer, E. (2021). Begabtenförderung und Bildungsgerechtigkeit. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 65–78). Beltz.	65-75	11	Sammelband-Kap.
+	Baudson, T. G. (2021). Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken: Individuelle und soziokulturelle Perspektiven. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 115–132). Beltz.	115-129		Sammelband-Kap.
+	Müller-Oppliger, V. (2021). Begabungsmodelle: Entwicklungslinien und Positionen zur Erfassung des Phänomens der Hochbegabung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 204–222). Beltz.	204-222	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Reis, S. M., Renzulli, J. S., & Müller-Oppliger, V. (2021). Das Schoolwide Enrichment Model (SEM): Vier Jahrzehnte Forschung zur Entwicklung von Talenten und kreativer Produktivität. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 333–347). Beltz.	333-347	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Müller-Oppliger, S. (2021). Pädagogische Diagnostik, Potenzialerfassung und Förderdiagnostik. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 224–238). Beltz.	224-238	x	
+	Gauck, L., & Reimann, G. (2021). Psychologische Diagnostik in der Begabungs- und Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 239–251). Beltz.	239-251	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Weigand, G., & Kaiser, M. (2021). Separativ, integrativ, inklusive Begabungs- und Begabtenförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 290–301). Beltz.	290-301	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Nguyen, T. L., & Sliwka, A. (2021). Schulische Maßnahmen und Kompetenzen von Lehrpersonen für die Begabungsförderung. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 348–358). Beltz.	348-358	11	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Müller-Oppliger, V. (2021). Adaptive Lernarchitekturen: Begabungs- und Begabtenförderung innerhalb der Lerngemeinschaft. 16 Seiten (S. 374–389).	374-389	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+	Wagener, G. (2021). Begabungsfördernde und hemmende Wirkungsmechanismen im Klassenkontext. In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung (S. 418–426). Beltz.	418-426	x	In V. Müller-Oppliger & G. Weigand (Hrsg.), Handbuch Begabung
+				
+				
+				
+				
+Literaturangabe Masterprüfung Vertiefung «verdeckte Potenziale» 2026
+

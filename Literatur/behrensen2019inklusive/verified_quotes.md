@@ -86,10 +86,21 @@ Direkter Beleg für die ressourcen- statt defizitorientierte Lesart inklusiver B
 
 ---
 
+### Zitat 3 (S. 86, 88, 92, 95--97)
+
+**Kontext / Paraphrase:**
+Die Quelle stützt die Beschreibung von Migrationserfahrung als pädagogisch wirksame Konstellation: Fluchtmigration wird als Bildungsherausforderung gerahmt (S. 86), inklusive Begabungsförderung soll Lebenssituation und biographische Erfahrungen berücksichtigen (S. 88), und schulische Anschlussfragen, Mehrsprachigkeit, Trauma sowie Anerkennung vorausgehender Bildung werden als spezifische Herausforderungen beschrieben (S. 92). Die Seiten 95--97 tragen die ressourcenorientierte, dialogische Gegenperspektive zur defizitorientierten Wahrnehmung.
+
+**Verwendet in:**
+- Lerndokument: Migrationsbegriffsabsatz (`mpv.tex`, Z. ~415--419)
+
+---
+
 ### Verifikationsnachweis
 
 - **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
 - **Seitenbereich verifiziert:** S. 86 (Kapitelbeginn) — S. 98 (Ende Literaturverzeichnis); Hollen/Ossowski-Beitrag schliesst auf S. 99 an.
+- **Nachprüfung 2026-04-25:** Für den Migrationsbegriffsabsatz enger Locator `\parencites[S.\,86,\,88,\,92,\,95--97]{behrensen2019inklusive}` gesetzt.
 - **Bib-Eintrag:** `pages = {86--98}` (13 Seiten).
 
 ---

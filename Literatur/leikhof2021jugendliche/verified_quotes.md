@@ -86,27 +86,24 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
-
-> „Wortgetreues Zitat hier einfuegen.“
+### Zitat 1 (S. 6--8)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Leikhof rahmt Jugendliche mit Migrationshintergrund als in Begabungsförderprogrammen unterrepräsentierte Gruppe. Die Einleitung formuliert die Forschungsfrage nach gleichen Chancen, Begabungen zu entwickeln, und nennt weniger verfügbare begabungsförderliche Ressourcen, seltenere Vertretung in Förderformaten sowie Zugangshürden.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: Ausgangslage, verdeckte Potenziale und Untervertretung (`mpv.tex`, Z. ~372--376)
 
 ---
 
-### Zitat 2 (S. XX)
+### Verifikationsnachweis
 
-> „…“
-
-<...>
+- **Volltext:** `source.pdf` geprüft.
+- **Paginierung:** PDF-Seite 7 = gedruckte S. 6; PDF-Seite 8 = gedruckte S. 7; PDF-Seite 9 = gedruckte S. 8.
+- **Empfohlener Locator:** `\parencite[S.\,6--8]{leikhof2021jugendliche}`.
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+**Status:** 4 (Volltext geprueft, relevante Seiten verifiziert)
+**Verifiziert am:** 2026-04-25
+**Bearbeitet durch:** Codex-Zitationsaudit

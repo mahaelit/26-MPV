@@ -45,27 +45,24 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
-
-> „Wortgetreues Zitat hier einfuegen.“
+### Zitat 1 (S. 45--48)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Der PISA-Bericht behandelt den Zusammenhang zwischen sozialer Herkunft und Mathematikkompetenzen. Er definiert soziale Herkunft über den wirtschaftlichen, sozialen und kulturellen Status und bezieht dabei familiäre Ressourcen ein. Die Seiten stützen die Aussage, dass Bildungschancen und Bildungserfolg mit sozialer Herkunft zusammenhängen.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: Ausgangslage, Bildungschancen, soziale Herkunft und familiäre Ressourcen (`mpv.tex`, Z. ~368--371)
 
 ---
 
-### Zitat 2 (S. XX)
+### Verifikationsnachweis
 
-> „…“
-
-<...>
+- **Volltext:** `source.pdf` geprüft.
+- **Paginierung:** Die Kapitel- und PDF-Paginierung laufen ab dem Haupttext gleich; Abschnitt 3.2 liegt auf S. 45--51.
+- **Empfohlener Locator:** `\parencite[S.\,45--48]{erzinger2023pisa}`.
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+**Status:** 4 (Volltext geprueft, relevante Seiten verifiziert)
+**Verifiziert am:** 2026-04-25
+**Bearbeitet durch:** Codex-Zitationsaudit

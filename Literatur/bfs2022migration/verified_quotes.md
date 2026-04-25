@@ -47,27 +47,44 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
-
-> „Wortgetreues Zitat hier einfuegen.“
+### Zitat 1 (S. 3)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Das BFS rahmt die Publikation als Überblick zur Bevölkerung mit direktem oder indirektem Migrationsbezug und deren Integration in der Schweiz. Es nennt dazu u. a. Sprachkenntnisse und Bildung als relevante Integrationsbereiche.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: Migrationsbegriffsabsatz, Kontext der Schweizer Volksschule (`mpv.tex`, Z. ~413)
 
 ---
 
-### Zitat 2 (S. XX)
+### Zitat 2 (S. 5)
 
-> „…“
+**Kontext / Paraphrase:**
+Das BFS grenzt die Bevölkerung mit Migrationshintergrund von einer rein rechtlich-administrativen Unterscheidung nach Staatsangehörigkeit ab und beschreibt dieses Konzept als bevorzugte statistische Kategorie, sofern Daten verfügbar sind.
 
-<...>
+**Verwendet in:**
+- Lerndokument: Migrationsbegriffsabsatz, Abgrenzung von rechtlicher Migrationskategorie (`mpv.tex`, Z. ~414--416)
 
 ---
 
-**Status:** 0 (ungeprueft)
-**Verifiziert am:** <YYYY-MM-DD>
-**Bearbeitet durch:** Inti Merolli
+### Zitat 3 (S. 34, 37)
+
+**Kontext / Paraphrase:**
+Das BFS beschreibt Bildung als Indikator struktureller Integration und Chancengleichheit. S. 34 ordnet die höchste abgeschlossene Ausbildung nach Migrationsstatus ein; S. 37 fasst zusammen, dass die Bevölkerung mit Migrationshintergrund in Bezug auf Sprachkenntnisse und Bildung insgesamt schlechter gestellt ist als die Bevölkerung ohne Migrationshintergrund.
+
+**Verwendet in:**
+- Lerndokument: Ausgangslage, Bildungschancen und Migrationsgeschichte (`mpv.tex`, Z. ~368--371)
+
+---
+
+### Verifikationsnachweis
+
+- **Volltext:** `source.pdf` geprüft.
+- **Paginierung:** PDF-Seite 7 = gedruckte S. 3; PDF-Seite 9 = gedruckte S. 5; PDF-Seite 38 = gedruckte S. 34; PDF-Seite 41 = gedruckte S. 37.
+- **Empfohlene Locatoren:** `\parencite[S.\,3,\,5]{bfs2022migration}` und `\parencite[S.\,34,\,37]{bfs2022migration}`.
+
+---
+
+**Status:** 4 (Volltext geprueft, relevante Seiten verifiziert)
+**Verifiziert am:** 2026-04-25
+**Bearbeitet durch:** Codex-Zitationsaudit

@@ -1,0 +1,301 @@
+{
+  "mapping": {
+    "F1-01": "stamm2021fehlenderblick",
+    "F1-02": null,
+    "F1-03": null,
+    "F1-04": "stamm2025vonuntennachoben",
+    "F1-05": "horvath2021elite",
+    "F1-06": "muelleroppliger2021plurale",
+    "F1-07": "sedmak2021bildungsgerechtigkeit",
+    "F1-08": "baudson2021wasdenken",
+    "F1-09": null,
+    "F1-10": null,
+    "F1-11": "muelleroppliger2021paeddiagnostik",
+    "F1-12": "gauckreimann2021psychdiagnostik",
+    "F1-13": "baumschader2021twice",
+    "F2-01": "fischer2010begabung",
+    "F2-02": null,
+    "F2-03": "baumschader2021twice",
+    "F3-01": "grossrieder2010anerkennung",
+    "F3-02": "baudson2021wasdenken",
+    "F3-03": null,
+    "F3-04": "gauckreimann2021psychdiagnostik",
+    "F3-05": null,
+    "F4-01": "buholzerkummerwyss2010einfuehrung",
+    "F4-02": "fischer2010begabung",
+    "F4-03": "horvath2021elite",
+    "F4-04": "muelleroppliger2021plurale",
+    "F4-05": "weigand2021person",
+    "F4-06": null,
+    "F4-07": null,
+    "F4-08": "muelleroppliger2021paeddiagnostik",
+    "F4-09": "weigand2021separativ",
+    "F4-10": null,
+    "F4-11": null,
+    "F5-01": "horvath2021elite",
+    "F5-02": "muelleroppliger2021plurale",
+    "F5-03": "weigand2021person",
+    "F5-04": "sedmak2021bildungsgerechtigkeit",
+    "F5-05": "baudson2021wasdenken",
+    "F5-06": null,
+    "F5-07": null,
+    "F5-08": "muelleroppliger2021paeddiagnostik",
+    "F5-09": "gauckreimann2021psychdiagnostik",
+    "F5-10": "weigand2021separativ",
+    "F5-11": null,
+    "F5-12": null,
+    "F5-13": null
+  },
+  "diffs": [
+    {
+      "eid": "F1-01",
+      "bibkey": "stamm2021fehlenderblick",
+      "inti": "576-587=12",
+      "bib_pages": "576--585",
+      "tex_span": "576-585 (10)",
+      "status": "TOTAL: Inti=12 != Tex=10"
+    },
+    {
+      "eid": "F1-04",
+      "bibkey": "stamm2025vonuntennachoben",
+      "inti": "58-62=5",
+      "bib_pages": "-",
+      "tex_span": "",
+      "status": "OK"
+    },
+    {
+      "eid": "F1-05",
+      "bibkey": "horvath2021elite",
+      "inti": "77-87=9",
+      "bib_pages": "77--87",
+      "tex_span": "",
+      "status": "PAGES: Inti=77-87 != Bib=77--87"
+    },
+    {
+      "eid": "F1-06",
+      "bibkey": "muelleroppliger2021plurale",
+      "inti": "32-24=x [x]",
+      "bib_pages": "32--45",
+      "tex_span": "32-45 (14)",
+      "status": "PAGES: Inti=32-24 != Bib=32--45"
+    },
+    {
+      "eid": "F1-07",
+      "bibkey": "sedmak2021bildungsgerechtigkeit",
+      "inti": "65-78=x [x]",
+      "bib_pages": "65--76",
+      "tex_span": "65-76 (12)",
+      "status": "PAGES: Inti=65-78 != Bib=65--76"
+    },
+    {
+      "eid": "F1-08",
+      "bibkey": "baudson2021wasdenken",
+      "inti": "115-132=18",
+      "bib_pages": "115--129",
+      "tex_span": "115-128 (14)",
+      "status": "TOTAL: Inti=18 != Tex=14"
+    },
+    {
+      "eid": "F1-11",
+      "bibkey": "muelleroppliger2021paeddiagnostik",
+      "inti": "224-238=15",
+      "bib_pages": "224--238",
+      "tex_span": "224-235 (12)",
+      "status": "TOTAL: Inti=15 != Tex=12"
+    },
+    {
+      "eid": "F1-12",
+      "bibkey": "gauckreimann2021psychdiagnostik",
+      "inti": "239-251=13",
+      "bib_pages": "239--251",
+      "tex_span": "239-247 (9)",
+      "status": "TOTAL: Inti=13 != Tex=9"
+    },
+    {
+      "eid": "F1-13",
+      "bibkey": "baumschader2021twice",
+      "inti": "588-600=x [x]",
+      "bib_pages": "588--601",
+      "tex_span": "588-601 (14)",
+      "status": "PAGES: Inti=588-600 != Bib=588--601"
+    },
+    {
+      "eid": "F2-01",
+      "bibkey": "fischer2010begabung",
+      "inti": "xx-xx=None",
+      "bib_pages": "97--113",
+      "tex_span": "",
+      "status": "PAGES: Inti=xx-xx != Bib=97--113"
+    },
+    {
+      "eid": "F2-03",
+      "bibkey": "baumschader2021twice",
+      "inti": "588-600=13",
+      "bib_pages": "588--601",
+      "tex_span": "588-601 (14)",
+      "status": "TOTAL: Inti=13 != Tex=14"
+    },
+    {
+      "eid": "F3-01",
+      "bibkey": "grossrieder2010anerkennung",
+      "inti": "87-94=7",
+      "bib_pages": "87--94",
+      "tex_span": "87-96 (10)",
+      "status": "TOTAL: Inti=7 != Tex=10"
+    },
+    {
+      "eid": "F3-02",
+      "bibkey": "baudson2021wasdenken",
+      "inti": "115-132=x [x]",
+      "bib_pages": "115--129",
+      "tex_span": "115-128 (14)",
+      "status": "PAGES: Inti=115-132 != Bib=115--129"
+    },
+    {
+      "eid": "F3-04",
+      "bibkey": "gauckreimann2021psychdiagnostik",
+      "inti": "239-251=x [x]",
+      "bib_pages": "239--251",
+      "tex_span": "239-247 (9)",
+      "status": "PAGES: Inti=239-251 != Bib=239--251"
+    },
+    {
+      "eid": "F4-01",
+      "bibkey": "buholzerkummerwyss2010einfuehrung",
+      "inti": "7-12=5",
+      "bib_pages": "7--12",
+      "tex_span": "",
+      "status": "PAGES: Inti=7-12 != Bib=7--12"
+    },
+    {
+      "eid": "F4-02",
+      "bibkey": "fischer2010begabung",
+      "inti": "xx-xx=None",
+      "bib_pages": "97--113",
+      "tex_span": "",
+      "status": "PAGES: Inti=xx-xx != Bib=97--113"
+    },
+    {
+      "eid": "F4-03",
+      "bibkey": "horvath2021elite",
+      "inti": "77-87=x [x]",
+      "bib_pages": "77--87",
+      "tex_span": "",
+      "status": "PAGES: Inti=77-87 != Bib=77--87"
+    },
+    {
+      "eid": "F4-04",
+      "bibkey": "muelleroppliger2021plurale",
+      "inti": "32-45=11",
+      "bib_pages": "32--45",
+      "tex_span": "32-45 (14)",
+      "status": "TOTAL: Inti=11 != Tex=14"
+    },
+    {
+      "eid": "F4-05",
+      "bibkey": "weigand2021person",
+      "inti": "46-59=x [x]",
+      "bib_pages": "46--63",
+      "tex_span": "",
+      "status": "PAGES: Inti=46-59 != Bib=46--63"
+    },
+    {
+      "eid": "F4-08",
+      "bibkey": "muelleroppliger2021paeddiagnostik",
+      "inti": "224-238=x [x]",
+      "bib_pages": "224--238",
+      "tex_span": "224-235 (12)",
+      "status": "PAGES: Inti=224-238 != Bib=224--238"
+    },
+    {
+      "eid": "F4-09",
+      "bibkey": "weigand2021separativ",
+      "inti": "290-301=12",
+      "bib_pages": "290--301",
+      "tex_span": "290-301 (12)",
+      "status": "PAGES: Inti=290-301 != Bib=290--301"
+    },
+    {
+      "eid": "F5-01",
+      "bibkey": "horvath2021elite",
+      "inti": "77-87=x [x]",
+      "bib_pages": "77--87",
+      "tex_span": "",
+      "status": "PAGES: Inti=77-87 != Bib=77--87"
+    },
+    {
+      "eid": "F5-02",
+      "bibkey": "muelleroppliger2021plurale",
+      "inti": "32-45=x [x]",
+      "bib_pages": "32--45",
+      "tex_span": "32-45 (14)",
+      "status": "PAGES: Inti=32-45 != Bib=32--45"
+    },
+    {
+      "eid": "F5-03",
+      "bibkey": "weigand2021person",
+      "inti": "46-59=14",
+      "bib_pages": "46--63",
+      "tex_span": "",
+      "status": "PAGES: Inti=46-59 != Bib=46--63"
+    },
+    {
+      "eid": "F5-04",
+      "bibkey": "sedmak2021bildungsgerechtigkeit",
+      "inti": "65-75=11",
+      "bib_pages": "65--76",
+      "tex_span": "65-76 (12)",
+      "status": "TOTAL: Inti=11 != Tex=12"
+    },
+    {
+      "eid": "F5-05",
+      "bibkey": "baudson2021wasdenken",
+      "inti": "115-129=None",
+      "bib_pages": "115--129",
+      "tex_span": "115-128 (14)",
+      "status": "PAGES: Inti=115-129 != Bib=115--129"
+    },
+    {
+      "eid": "F5-08",
+      "bibkey": "muelleroppliger2021paeddiagnostik",
+      "inti": "224-238=x [x]",
+      "bib_pages": "224--238",
+      "tex_span": "224-235 (12)",
+      "status": "PAGES: Inti=224-238 != Bib=224--238"
+    },
+    {
+      "eid": "F5-09",
+      "bibkey": "gauckreimann2021psychdiagnostik",
+      "inti": "239-251=x [x]",
+      "bib_pages": "239--251",
+      "tex_span": "239-247 (9)",
+      "status": "PAGES: Inti=239-251 != Bib=239--251"
+    },
+    {
+      "eid": "F5-10",
+      "bibkey": "weigand2021separativ",
+      "inti": "290-301=x [x]",
+      "bib_pages": "290--301",
+      "tex_span": "290-301 (12)",
+      "status": "PAGES: Inti=290-301 != Bib=290--301"
+    }
+  ],
+  "eintraege_neu": [
+    "F1-02",
+    "F1-03",
+    "F1-09",
+    "F1-10",
+    "F2-02",
+    "F3-03",
+    "F3-05",
+    "F4-06",
+    "F4-07",
+    "F4-10",
+    "F4-11",
+    "F5-06",
+    "F5-07",
+    "F5-11",
+    "F5-12",
+    "F5-13"
+  ]
+}

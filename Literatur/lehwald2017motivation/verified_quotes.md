@@ -81,19 +81,19 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 |---|---|---|
 | Transkript-konsistent (Teil8-Index) | 9 | 3, 4, 5, 6, 7, 8, 10, 11, 13 |
 | bibliographisch (Literaturliste) | 4 | 1, 2, 9, 12 |
-| wortgetreu aus Volltext belegt | 0 | — (Volltext fehlt) |
+| wortgetreu aus lokaler Leseprobe belegt | 1 | 6 (Vorwort, S. 11) |
 | fragwuerdig / Umzitierung noetig | 0 | — |
 
 ### Datenlage
 
-- **PDF `source.pdf`:** Nur Hogrefe-Leseprobe, 13 Seiten:
+- **PDF `source.pdf`:** Nur Hogrefe-Leseprobe, 13 PDF-Seiten:
   - S. 1-5: Titelei
-  - S. 6-10: Inhaltsverzeichnis (nicht sichtbar extrahiert, PDF-Layout-bedingt)
-  - S. 11-12: Abkuerzungsverzeichnis verwendeter Testverfahren
+  - gedruckte S. 5-7: Inhaltsverzeichnis
+  - gedruckte S. 9-10: Abkuerzungsverzeichnis verwendeter Testverfahren
     (BVA Bilderverfahren Anstrengungsbereitschaft, FES-S/FES-K Fragebogen Erkenntnisstreben,
     CSBT Checkliste Bezugsnorm-Orientierung — alle von Lehwald selbst entwickelt)
-  - S. 13: Vorwort
-- **Vorwort-Kernaussagen (S. 13, wortgetreu extrahiert):**
+  - gedruckte S. 11: Vorwort
+- **Vorwort-Kernaussagen (gedruckte S. 11, wortgetreu extrahiert):**
   - "er stellt **intrinsische Motive** ins Zentrum seiner Betrachtungen"
   - "Begabungsentwicklung ... ein **Zusammenspiel individueller und kontextueller
     Faktoren**"
@@ -123,7 +123,15 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 Die Zitierarten (parencite vs. textcite) im TeX stimmen exakt mit den im Teil8-Index
 hinterlegten Werten ueberein — das Lerndokument folgt dem kuratierten Plan.
 
-### Kapitel-Struktur lt. Teil8-Kernliteratur
+### Kapitel-Struktur lt. lokalem Inhaltsverzeichnis
+
+- **Kap. 2.3 (S. 78):** Fallbeispiele fuer Underachievement
+- **Kap. 2.4 (S. 84):** Taetigkeitsmotivation, Flow-Erleben und Begabung
+- **Kap. 2.8 (S. 101):** Von den Motiven zu den Interessen
+- **Kap. 3.5--3.7 (S. 123--137):** Diagnostik von Erkenntnisstreben, Informationssuche, Interessen und Bezugsnorm-Orientierung
+- **Kap. 4.3 (S. 151--177):** Foerderung von Wissbegier und Erkenntnisstreben bei begabten Schueler/innen
+
+### Kapitel-Struktur lt. aelterem Teil8-Kernliteraturindex
 
 - **Kap. 2-4 (ca. 60 S., kognitiv-intrinsisch):** Erkenntnis-/Leistungs-/
   Anschlussmotivation (F2), drei Formen der Lernmotivation
@@ -163,7 +171,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
   Interessen-Passung". Preckel traegt den Kern-Claim ueber die 2E-Stelle (S. 4);
   Lehwald erganzt die motivationale Dimension (Passung Interesse-Begabung).
   Das Vorwort bestaetigt: Lehwald konzentriert sich "auf die Begabungsentwicklung,
-  die auf ein Zusammenspiel individueller und kontextueller Faktoren angewiesen ist" (S. 13).
+  die auf ein Zusammenspiel individueller und kontextueller Faktoren angewiesen ist" (S. 11).
 - **Urteil:** Transkript-konsistent. Mitbeleg zulaessig; Lehwald steht hier fuer
   die *dynamische* Passungsperspektive (Interessen+Faehigkeiten), Preckel fuer
   die *statische* 2E-Diagnostik.
@@ -176,7 +184,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 - **Pruefung:** Teil8-ID `F1-A5-Z03`, Thema "Motivationsverlust ohne Passung".
   Passung-These ist zentrale Lehwald-Botschaft (siehe Titel "Motivation *trifft*
   Begabung"); im Vorwort indirekt bestaetigt durch die Betonung des "Zusammenspiels
-  individueller und kontextueller Faktoren" (S. 13).
+  individueller und kontextueller Faktoren" (S. 11).
 - **Urteil:** Transkript-konsistent, Vorwort-kompatibel.
 
 ### Claim 5 — [L:816] Demotivation durch zu niedrige Erwartungen
@@ -187,7 +195,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
   die das Kind dann endgueltig in die Unsichtbarkeit draengt"
 - **Pruefung:** Teil8-ID `F1-KR-Z09`, Thema "Motivationsrisiko bei Abbruch
   Foerderung". Die Idee "Stoerungen der Begabungsentwicklung" wird im Vorwort
-  explizit als Lehwald-Beitrag benannt (S. 13).
+  explizit als Lehwald-Beitrag benannt (S. 11).
 - **Urteil:** Transkript-konsistent.
 
 ### Claim 6 — [L:869] intrinsische Motivation als Treiber
@@ -196,7 +204,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 - **TeX-Behauptung:** "intrinsische Motivation als Treiber fuer kognitive
   Anstrengung und Durchhaltevermoegen"
 - **Pruefung:** Teil8-ID `F2-EINL-Z05`, Thema "Motivation und Durchhaltevermoegen".
-  Vorwort (S. 13, wortgetreu): "**intrinsische Motive** ins Zentrum seiner
+  Vorwort (S. 11, wortgetreu): "**intrinsische Motive** ins Zentrum seiner
   Betrachtungen" — das ist *die* Kernthese des Buches und wird durch den
   Vorwort-Text explizit bestaetigt.
 - **Urteil:** Transkript-konsistent + Vorwort-wortgetreu gestuetzt (staerkste
@@ -208,7 +216,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 - **TeX-Behauptung:** "Zusammenspiel von Motivation und Begabung", "kognitive
   Anstrengungsbereitschaft nicht als Persoenlichkeitseigenschaft"
 - **Pruefung:** Teil8-ID `F2-A4-Z01`, Thema "Erkenntnis-, Leistungs-,
-  Anschlussmotivation", Kapitel "Kap. 2-4". Das Abkuerzungsverzeichnis (S. 11-12)
+  Anschlussmotivation", Kapitel "Kap. 2-4". Das Abkuerzungsverzeichnis (S. 9-10)
   listet Lehwalds eigene Messinstrumente fuer genau diese Motivationsformen:
   **FES-S** (Fragebogen Erkenntnisstreben Sekundarstufe), **BVA** (Bilderverfahren
   Anstrengungsbereitschaft), **CSBT** (Checkliste Bezugsnorm-Orientierung) — das
@@ -222,7 +230,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 - **TeX-Behauptung:** "begabte Kinder, die wiederholt Misserfolg in einem Bereich
   erleben, eine antizipatorische Vermeidung entwickeln: Sie vermeiden die Taetigkeit"
 - **Pruefung:** Teil8-ID `F2-A6-Z01`, Thema "Antizipatorische Vermeidung".
-  Konzept gehoert zu Kap. 5-6 (Emotion). Vorwort S. 13: "**Stoerungen der
+  Konzept gehoert zu Kap. 5-6 (Emotion). Vorwort S. 11: "**Stoerungen der
   Begabungsentwicklung**" als expliziter Lehwald-Beitrag.
 - **Urteil:** Transkript-konsistent.
 
@@ -235,7 +243,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 - **Pruefung:** Teil8-ID `F2-KR-Z03`, Thema "Motivationsaktivierung", Verwendung
   als parencite (Belegzitat, nicht Autorenverweis). Bezieht sich auf die
   drei-Formen-Taxonomie aus Claim 7.
-- **Urteil:** Bibliographisch-inhaltlich gestuetzt (Taxonomie durch Claim 7 / S. 11-12
+- **Urteil:** Bibliographisch-inhaltlich gestuetzt (Taxonomie durch Claim 7 / S. 9-10
   abgesichert).
 
 ### Claim 10 — [L:1454] Maskierung bei begabten Kindern
@@ -245,7 +253,7 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
   erleben, dass ihre Faehigkeiten nicht anerkannt werden"
 - **Pruefung:** Teil8-ID `F3-A5-Z01`, Thema "Maskierung bei begabten Kindern",
   Kapitel "Kap. 5-6". Gehoert zur emotionalen Dimension. "Stoerungen der
-  Begabungsentwicklung" (Vorwort S. 13) deckt diese Stelle thematisch ab.
+  Begabungsentwicklung" (Vorwort S. 11) deckt diese Stelle thematisch ab.
 - **Urteil:** Transkript-konsistent.
 
 ### Claim 11 — [L:1632] Passung stabilisiert Motivation
@@ -262,48 +270,42 @@ L:1107 / A:302 (Kap. 2-4) und L:1514 / A:329 (Kap. 5-6).
 
 ## Handlungsbedarf
 
-- **Keine Umzitierungen noetig**: Alle 9 inhaltlichen Claims sind thematisch
-  mit dem Lehwald-Strukturindex (Teil8) konsistent. Lehwald wird nirgends
-  "missbraucht" im Sinne einer diagnostisch-operativen Behauptung, die das Buch
-  nicht traegt. Das Lerndokument nutzt Lehwald korrekt als *Rahmenquelle fuer
-  Motivations- und Emotions-Aspekte der Begabungsentwicklung*.
+- **Umzitierungen 2026-04-25 vorgenommen:** Die vormals pauschalen
+  `\textcite{lehwald2017motivation}`-Stellen in `mpv.tex` wurden auf
+  Kapitel-/Abschnittslocators umgestellt. Die einzige lokale Seitenangabe ist
+  gedruckte S. 11 fuer das Vorwort.
 - **Fuer Status=5 fehlt nur:** Wortgetreue Belege mit Seitenzahlen aus den
-  Kapiteln 2-6. Optionen:
+  Kapiteln 2-4 bzw. den im Teil8-Index genannten Emotions-/Maskierungsstellen.
+  Optionen:
   1. **Lehwald-Buch via Swisscovery beschaffen** (Bibliotheksausleihe;
-     Verifikationslink im Dossier-Header); 90 S. Lesezeit (Kap. 2-6 gemaess
-     Teil8-Kernliteratur).
-  2. **Status 3 beibehalten** und die Paraphrasen mit `\parencite`/`\textcite`
-     ohne Seiten weiterfuehren — fachlich vertretbar, da Teil8-Index als
-     kuratierte Originalquelle fungiert.
+     Verifikationslink im Dossier-Header); relevante Kapitel nach lokalem
+     Inhaltsverzeichnis: Kap. 2.3--2.4, 2.8, 3.5--3.7 und 4.3.
+  2. **Status 3 beibehalten** und die Paraphrasen mit Kapitel-/Abschnittslocators
+     fuehren — fachlich vertretbar, aber nicht volltextverifiziert.
 - **Besonders hochwertige Einzelstelle:** Claim 6 (intrinsische Motivation als
-  Treiber) ist durch das Vorwort wortgetreu abgesichert — diese Stelle koennte
-  bereits jetzt mit Seitenangabe S. 13 zitiert werden.
+  Treiber) ist durch das Vorwort abgesichert; die korrekte gedruckte Seitenangabe
+  ist S. 11, nicht PDF-Seite 13.
 
 ---
 
 ## Zitate (gegen die Quelle gegengeprueft)
 
-### Zitat 1 (S. XX)
-
-> „Wortgetreues Zitat hier einfuegen.“
+### Zitat 1 (S. 11, Vorwort)
 
 **Kontext / Paraphrase:**
-<eigene Zusammenfassung in 1-2 Saetzen>
+Das Vorwort rahmt Lehwalds Beitrag als Verschiebung der Begabungsforschung hin zu intrinsischen Motiven und zum Zusammenspiel individueller und kontextueller Faktoren in der Begabungsentwicklung. Es nennt auch Stoerungen der Begabungsentwicklung als damit erklaerbar.
 
 **Verwendet in:**
-- Lerndokument: §<Abschnitt>
-- Abgabedokument: §<Abschnitt>
+- Lerndokument: Frage 2, Motivation als Bruecke zwischen Interesse und Kompetenzentwicklung (`mpv.tex`, Z. ~1055 und ~1181)
 
 ---
 
-### Zitat 2 (S. XX)
+### Kapitelverortung ohne Volltextseiten
 
-> „…“
-
-<...>
+Die übrigen Lehwald-Stellen in `mpv.tex` verwenden Kapitel-/Abschnittslocators aus dem lokalen Inhaltsverzeichnis, weil die eigentlichen Kapitel im lokalen `source.pdf` nicht enthalten sind. Diese Locators sind bibliographisch/strukturell abgesichert, aber nicht im Volltext gegengeprüft.
 
 ---
 
 **Status:** 3 (Transkript-konsistent verifiziert; Volltext-Verifikation aussenstehend)
-**Verifiziert am:** 2026-04-19
-**Bearbeitet durch:** Cascade (automatisierte Transkript-Verifikation) + Pascal Schmid
+**Verifiziert am:** 2026-04-19; nachgeprueft 2026-04-25
+**Bearbeitet durch:** Cascade (automatisierte Transkript-Verifikation) + Pascal Schmid; Codex-Zitationsaudit
