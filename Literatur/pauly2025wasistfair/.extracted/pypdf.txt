@@ -1,0 +1,2404 @@
+Claudia Pauly (Hrsg.)
+Was ist fair?
+Begabungsgerechtigkeit 
+auf dem Prüfstand
+Open AccessClaudia Pauly (Hg.)
+Was ist fair? 
+Begabungsgerechtigkeit auf dem Prüfstand
+Bibliografische Information der Deutschen Nationalbibliothek:  
+Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen 
+Nationalbibliografie; detaillierte bibliografische Daten sind im Internet abrufbar über 
+www.dnb.de
+Dieser Sammelband sowie die darin enthaltenen Beiträge, insbesondere Texte, Bilder und 
+Gra
+fiken, sind urheberrechtlich geschützt. Jede Verwertung außerhalb des Urheberrechts, 
+insbesondere die Vervielfältigung/Bearbeitung, Übersetzung, Verbreitung und Wieder-
+gabe, bedarf der schriftlichen Zustimmung durch die Herausgeberin. Die Inhalte dürfen 
+nicht zur Entwicklung, zum Training und/oder zur Anreicherung von KI-Systemen, 
+insbesondere generativen KI-Systemen, verwendet werden. Die Nutzung der Inhalte für 
+Text- und Data-Mining ist ausdrücklich vorbehalten und daher untersagt. 
+ Die Publikation (mit Ausnahme aller Fotos, Grafiken und Abbildungen)  
+ist unter der nachfolgenden Creative Commons Lizenz veröffentlicht:  
+CC BY-ND 4.0 International | https://creativecommons.org/licenses/by-nd/4.0/
+1. Auflage, Frankfurt am Main
+© 2025, Karg-Stiftung, Niddastr. 35, 60329 Frankfurt am Main
+www.karg-stiftung.de | www.fachportal-hochbegabung.de
+Verantwortlich: Dr. Ingmar Ahl, Vorstand
+Redaktion: Karg Fachmedien (Franca Zimmermann, Anja Gjaldbaek, Linde Storm) 
+Redaktion des Online-Blogs: Karg Fachmedien (Anja Gjaldbaek, Franca Zimmermann) 
+Satz: ffj Büro für Typografie und Gestaltung, Offenbach, www.ffj-design.de
+Coverabbildung: Carsten Kahl, www.ck-graphics.com 
+URL: https://doi.org/10.25656/01:33972Inhalt
+Vorwort  .............................................................. 5
+Begabungsgerechtigkeit wagen. Oder: Wie das Bildungssystem fairer wird ............ 7
+Ingmar Ahl
+Verborgenes Potenzial: Herausforderungen hochbegabter Kinder und Jugendlicher  
+in einkommensarmen Familien  ....................................... 12
+Nadine Seddig 
+Der Einfluss von Adultismus auf die Begabungsentfaltung ....................... 16
+Gesa Hartenbach
+Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung ... 21
+Wiebke Evers 
+Hochbegabte Kinder sind nicht wie Raketen ................................. 28
+Saskia Niechzial und Claudia Pauly
+Wie wir Begabte besser finden können ...................................... 35
+Tanja G. Baudson
+Netzwerken im Sozialraum ist Begabungsförderung  ........................... 41
+Simone Welzien und Angelina Haupt
+Gerecht verteilt? Gedanken zur psychotherapeutischen Versorgung von Kindern  
+und Jugendlichen  .................................................. 48
+Kathrin Schmitt
+Schulentwicklung als Motor für mehr Begabungsgerechtigkeit ................... 53
+Nicole Miceli 
+Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung,  
+LRS und mehr ..................................................... 58
+Oskar und Claudia Pauly 
+Die Herkunft entscheidet zu oft über die Chancen  ............................ 64
+Christine Koop  
+It’s beginning to look a lot like fairness ..................................... 70
+Claudia Pauly5
+Vorwort
+„Unfair!“ , ruft der Erstklässler, als ihm die Drittklässlerin im Spiel den Ball abluchst. Unfair 
+– oder einfach Pausenhof-Kicken? Aber man könnte doch auch ein bisschen Rücksicht 
+nehmen. Andererseits: Das hier ist Fußball, da gelten klare Regeln. Und auf dem Platz sind 
+alle gleich. Oder?
+Was bereits beim Dribbeln in der Pause Fragen aufwirft, wird auf dem gesellschaftlichen 
+Spielfeld noch komplizierter. Wir bewegen uns im Bemühen um Fairness und Gerechtigkeit 
+zwischen Regeln, Gesetzen, ethischen Prinzipien, moralischem Empfinden und persön-
+lichen Bedürfnissen und versuchen, das Beste daraus zu machen. Das ist nicht immer 
+einfach – für Kinder, obwohl Studien ihnen ein grundlegendes moralisches Empfinden 
+noch vor dem Spracherwerb bescheinigen, aber auch für Erwachsene. Bei den Kleinen 
+überlagert die Lust auf den Keks nicht selten die Intention fürs gerechte Teilen. 1 Bei den 
+Großen ist es meist komplizierter (manchmal aber auch nicht).
+In jedem Fall klafft zwischen dem Ideal von Gerechtigkeit und der Realität oft eine Lücke, 
+und dabei macht unser Bildungssystem keine Ausnahme. Kein Wunder: Es ist tief verwo -
+ben mit gesellschaftlichen Strukturen, kulturellen Kontexten und menschlichem Handeln. 
+Und das ist gut so, es bedeutet aber auch: Alles, was wir als Gesellschaft erfahren –  Chancen, 
+Schwierigkeiten, Ungleichheiten – schlägt sich in ihm nieder. 
+Das Bildungssystem ist aber bei Weitem nicht nur Empfänger. Es kann auch eigene Impulse 
+setzen und damit Gerechtigkeit befördern: durch kluge Strukturen, reflektierte Praxis und 
+vor allem durch engagierte Menschen. Gerade jetzt, vor dem Hintergrund gesellschaft -
+licher Spannungen und politischer Polarisierung, ist dies nicht nur eine Option – es ist 
+demokratische Notwendigkeit. Denn ein gerechtes, inklusiv verstandenes und damit be -
+gabungsgerechtes Bildungssystem ist ein Wellenbrecher für die Demokratie. John Deweys 
+Feststellung bleibt aktuell: Eine stabile Demokratie ist angewiesen auf die Potenzialentfal-
+tung aller, insbesondere der Kinder und Jugendlichen.2 Bildungs- und Begabungsgerechtig-
+keit sind deshalb gesamtgesellschaftliche Themen, bei denen der Blick nicht nur auf die 
+Schule gerichtet werden muss, sondern überall dorthin, wo junge Menschen aufwachsen, 
+leben und lernen.
+Aus diesem Grund haben wir uns in der Karg-Stiftung zusammen mit weiteren Expert:in -
+nen im Jahr 2024 in unserem Blog „Begabungsgerechtigkeit auf dem Prüfstand“ mit der 
+Frage beschäftigt: Was bedeutet Begabungsgerechtigkeit in verschiedenen Kontexten? Da-
+bei lag unser Fokus vor allem auf den besonders begabten Kindern und Jugend lichen. 
+Denn gerade sie geraten beim Thema Gerechtigkeit oft aus dem Blick, zum Beispiel, weil 
+anderes wichtiger erscheint oder wegen eines vermeintlichen Matthäus-Effekts („Wer hat, 6
+dem wird gegeben. “). Doch auch Hochbegabte brauchen Aufmerksamkeit – nicht auf Kos-
+ten anderer, sondern zum Nutzen aller. Warum das so ist und wo sich Stellschrauben für 
+mehr Begabungsgerechtigkeit finden lassen, haben wir in den Beiträgen dieses Sammel -
+bandes aufgeschlüsselt. 
+Wir wünschen Ihnen viel Freude damit.
+Dr. Claudia Pauly
+1 Nikitin, J. (o. J.): Denken Kleinkinder fair? URL: https://www.psychologie.uzh.ch/de/bereiche/dev/
+lifespan/erleben/berichte/fairness.html (Abrufdatum: 22.07.2025).
+2 Weigand, G.(2021): Begabung, Bildung und Person. Entwicklung einer pädagogischen Begabungs-
+theorie im Dialog mit der schulischen Praxis. In: Müller-Oppliger, V./Weigand, G. (2021): Handbuch 
+Begabung. Weinheim, Basel: Beltz, S. 46–64.7
+Ingmar Ahl
+Begabungsgerechtigkeit wagen.  
+Oder: Wie das Bildungssystem fairer wird
+Was ist Begabungsgerechtigkeit? Dieser Blogbeitrag versucht eine 
+Definition und geht den Dimensionen von Begabungsgerechtigkeit 
+im Bildungssystem nach – in Bezug auf alle Kinder und Jugendlichen.
+Begabungsgerechtigkeit? Eine Irritation
+Begabungsgerechtigkeit? Was soll denn das jetzt schon wieder sein? Noch eine Gruppe, die 
+dies und das für sich verlangt und das mit unfairer Behandlung, mit aktiver Benachteili -
+gung, eben Ungerechtigkeiten begründet? Und dann auch noch die Hochbegabten? Die 
+sind doch eh’ schon im Vorteil wegen ihrer Begabung! Und solange es noch einen wirklich 
+Benachteiligten gibt, sind die Begabten und Hochbegabten erst einmal noch nicht dran. 
+Und schaut euch doch mal die Förderangebote für Hochbegabte an. Findet man da über-
+haupt Benachteiligte?
+So könnte man sich jedenfalls eine – zugegebenermaßen zugespitzte – Reaktion auf die 
+Forderung nach Begabungsgerechtigkeit vorstellen: die stärkere Berücksichtigung Begabter 
+bzw. die Forderung nach einer Verstärkung von Ansätzen der Begabtenförderung im Bil -
+dungssystem. Und so fallen tatsächlich Reaktionen auf den Wunsch nach der verbesserten 
+Förderung hoher und sonstiger Begabungen leider immer noch aus. Was also soll Bega -
+bungsgerechtigkeit bedeuten? Wie soll sich Begabtenförderung und begabungsgerechte 
+Bildung rechtfertigen? Wie kann man sie begründen und vor allem dazu motivieren, Begab-
+tenförderung auszuprobieren, eben Begabung zu wagen?
+Begabungsgerechtigkeit? Eine Definition
+Begabungsgerechtigkeit meint zunächst einmal, „dass Menschen unabhängig von den un-
+terschiedlichen Heterogenitätsdimensionen ein Recht darauf haben, entsprechend ihren 
+Potenzialen gefordert und gefördert zu werden, wobei Potenziale und Begabungen breit 
+und dynamisch aufgefasst werden. Werden also Begabungen ganz unterschiedlicher Art 
+unabhängig von der sozialen Herkunft, des Geschlechts, von Gesundheit oder der Ethnizi-
+tät […] zugetraut und anerkannt, kann dies ein Schritt in Richtung Begabungsgerechtigkeit 
+sein“ (1).
+So weit so gut – und absolut anschlussfähig auf den ersten Blick mit allgemeinen Ziel -
+stellungen von Bildung, Bildungsplänen und Bildungsangeboten. Bestmögliche individuelle 
+Förderung auf der Grundlage der jeweiligen Begabung  – so der Auftrag von Bildung in Begabungsgerechtigkeit wagen. Oder: Wie das Bildungssystem fairer wird
+8
+vielen Bildungsgesetzgebungen und Bildungsplänen. Als Richtschnur dient dabei die Be -
+gabung des einzelnen Kindes – aber nicht mehr verstanden als etwas Determiniertes, 
+ Naturwüchsiges oder gar Statisches. Begabung wird hier vielmehr als etwas begriffen, das 
+sich in komplexer Wechselwirkung von Individuum und Umwelt, Voraussetzung und Förde-
+rung entwickelt. Begabung bezeichnet damit das (intellektuelle) Fähigkeits- bzw. Leistungs-
+potenzial eines Menschen – das sich unter günstigen Bedingungen bei Individuum und 
+Umwelt in hoher Leistung oder großem Wissen zeigen kann. Begabung meint damit die 
+Möglichkeit zu hoher Leistung, nicht schon die Leistung selbst – so die Summe aller zeit -
+gemäßen Begabungsdefinitionen ( 2). Sie geht letztlich auf den Pionier der modernen 
+ Begabungsförderung und Begabungsforschung William Stern (1871–1938) zurück (3).
+Begabungsgerechtigkeit? Ein Auftrag aller Bildung
+Eine in diesem Sinne verstandene Begabung kann so zum Dreh- und Angelpunkt aller Bil-
+dung erklärt werden. Nach Begabung und Begabten zu suchen, sie zu entfalten und zu 
+entwickeln ist Aufgabe des Einzelnen wie des Systems und kennzeichnet ein gerechtes 
+Bildungssystem. Dabei stehen die Potenziale aller Kinder und Jugendlichen im Mittelpunkt 
+allen Bildungshandelns. Begabungsförderung und Begabtenförderung sind somit nichts 
+eigens zu Begründendes oder Begründbares, sondern bedeuten pädagogisches Handeln an 
+sich. Der erklärte Auftrag im Sinne aller Kinder und Jugendlichen ist genau diese Suche 
+nach den Begabungen und ihre Förderung – unabhängig von Standes-, Klassen- und Schich-
+tenzugehörigkeit, unabhängig von Herkunft und Ethnie.
+Und selbst für die Pädagoginnen und Pädagogen, die sich lieber nicht an Normativitä -
+ten orientieren möchten, ist begabungsgerechte Förderung und Begabungs- und Begab -
+tenförderung eine ziemlich gute Idee: Bildungsentwicklungen in Kita und Schule beinhal -
+ten immer auch Herausforderungen, denen sich alle Beteiligten stellen müssen – jedes 
+Kind muss insoweit rechnen, schreiben und lesen lernen. Doch Bildungsbiografien sind 
+besser gestaltbar, wenn sie auf den individuellen Begabungen aufsetzen und von diesen 
+aus individuelle Entwicklungen gestalten. Das wissen aufmerksame Pädagoginnen und Pä-
+dagogen aus ihrem Berufsalltag. Ein Wissen, das etwas neudeutsch als Potenzialorientie -
+rung bezeichnet wird. Es ist daher nicht nur plausibel, sondern politisch wie pädagogisch 
+zwingend, „die Begabungspotenziale aller jungen Menschen zu entdecken, freizulegen und 
+optimal zu fördern“ – so Victor Müller-Oppliger (4). Auf den schon von William Stern in der 
+Weimarer Republik identifizierten Konnex eines demokratischen Bildungssystems von Bil-
+dungshandeln und Begabtenförderung wird kaum noch verwiesen. Begabtenförderung ist 
+jedoch ein bildungsdemokratischer Grundwert (4).
+Begabungsgerechtigkeit? Ein Auftrag zur Suche nach Benachteiligten
+Dass in Maßnahmen der Begabtenförderung Kinder und Jugendliche mit sozialen, kulturel-
+len, geschlechtlichen und individuellen Barrieren unterrepräsentiert sind, sie nicht zu Maß-
+nahmen der Begabtenförderung allokiert, ja von Maßnahmen der Begabtenförderung ex -
+kludiert werden, macht nachdenklich ( 4, 5). Die Begabtenförderung ist damit letztlich Begabungsgerechtigkeit wagen. Oder: Wie das Bildungssystem fairer wird
+9
+Spiegel der Ungerechtigkeit des Bildungssystems an sich. Auch in ihr erweist sich die hohe 
+Abhängigkeit von sozialer Herkunft, sozioökonomischem Status, Bildungsaspiration und 
+-kultur und Zugang zu höherer Bildung, ja Bildungserfolg überhaupt ( 6, 7). Dieser Befund 
+spricht aber noch nicht gegen die Begabtenförderung.
+Vielmehr muss Begabung, auch hohe Begabung, auch bei Kindern und Jugendlichen 
+mit Barrieren grundsätzlich unterstellt werden. Sie müssen zielgerichtet gesucht, ihre 
+ Benachteiligung ausgleichend gefunden und ihr Potenzial gefördert werden. Begabungs -
+gerechtigkeit fordert dann so verstanden auch immer dazu auf, unfairen Ausschluss oder 
+Behandlung von Minderheiten und Bildungsbenachteiligten in der Begabtenförderung 
+selbst zu reflektieren und zu korrigieren. Begabungen ganz unterschiedlicher Art müssen 
+somit unabhängig von der sozialen Herkunft, dem Geschlecht, Ethnie oder von Gesundheit 
+angenommen, anerkannt und angemessen gefunden und gefördert werden. Auch dies 
+meint selbstverständlich Begabungsgerechtigkeit und zielt auf die mangelnde Gerechtig -
+keit der Begabtenförderung selbst (5).
+Begabungsgerechtigkeit? Ein Auftrag, auch Hochbegabte angemessen zu sehen
+Ein faires, auf Begabungen aller vertrauendes Bildungssystem sorgt sich um die gute, best-
+mögliche Bildung aller Kinder und Jugendlichen. Und es schließt dabei hochbegabte Kin -
+der und Jugendliche nicht nur nicht aus, sondern vielmehr explizit ein. Gerechtigkeit ist 
+nicht teilbar – und die Aufmerksamkeit für mögliche Ungerechtigkeit muss grundsätzlich 
+bei allen Schülerinnen und Schülern vorhanden sein. Auch im Falle Hochbegabter und in 
+der Begabtenförderung.
+Und dabei spielt weniger eine Rolle, dass unsere Gesellschaft das Potenzial Hochbegab-
+ter ganz gut gebrauchen oder gar nicht darauf verzichten kann. Allenthalben wird dann auf 
+die Probleme der Zeit: Klimawandel, digitale Revolution, Globalisierung, Demokratiegefähr-
+dung, Entsolidarisierung verwiesen. Doch um die etwaige Performanz Hochbegabter hier-
+zu kann es nicht gehen, wenn es um Gerechtigkeit geht. Sie zielt auf jede Einzelne und 
+jeden Einzelnen und ermöglicht ihnen eine angemessene Teilhabe an einer für sie und ihn 
+bestmöglichen Bildung.
+Hochbegabung bezeichnet das überdurchschnittliche kognitive Potenzial eines Men -
+schen, welches sich unter günstigen individuellen Voraussetzungen und Umweltbedingun-
+gen in Verbindung mit gezielter Anregung zu herausragenden Leistungen und großem Wis-
+sen entwickeln kann. Hochbegabung ist damit nur ein Persönlichkeitsmerkmal von vielen, 
+das den Bildungsgang von Kindern und Jugendlichen bedingen kann. Aber es ist eins mit 
+einer hohen Prospektivität im Hinblick auf Schul- und Lebenserfolg – statistisch gesehen.
+Und dennoch gibt es hochbegabte Kinder und Jugendliche, denen es nicht gelingt, ihr 
+hohes intellektuelles Potenzial in Performanz zu übersetzen. Man spricht dabei von „Un -
+derachievement“ , von sogenannter „Minderleistung“ . Ursachen können in mangelnder Mo-
+tivation, fehlenden Lernstrategien oder auch Unterforderung liegen. Ein Teil des Problems 
+liegt dabei oft im Bildungssystem: Mit Bildungsangeboten, die noch immer an mittleren 
+altersgemäßen Normen orientiert sind, bleiben nicht nur so genannte leistungsschwache 
+Kinder und Jugendliche auf der Strecke, sondern eben auch hochbegabte sowie potenziell Begabungsgerechtigkeit wagen. Oder: Wie das Bildungssystem fairer wird
+10
+leistungsstarke Schülerinnen und Schüler. Dazu kommt: Auch bei bester Leistung kann 
+Unterforderung vorliegen, optimale Förderung unterbleiben und damit eine ungerechte, 
+unfaire Behandlung Hochbegabter gegeben sein.
+Begabungsgerechtigkeit und Begabtenförderung zielt also auf alle Kinder und Jugend -
+lichen ab, auf Kinder und Jugendliche mit Barrieren, sie zielt auf Hochbegabte – gerade an 
+diesen darf sie auf keinen Fall scheitern. Das Bildungssystem muss daher mehr Begabung, 
+auch Hochbegabung wagen!
+Was bedeuten Gerechtigkeit und Fairness eigentlich im Kontext von Begabungsentfaltung 
+und Bildung? Warum spielen sie in der Unterstützung begabter Kinder und Jugendlicher 
+eine wichtige Rolle? Wer wird in der Begabtenförderung oft übersehen? Und was können 
+Kitas, Schulen und Beratungsstellen tun, um das zu ändern? Wie können Hochbegabte im 
+Bildungssystem angemessen vorkommen? Zu diesen und weiteren Fragen liefern die Au -
+torinnen und Autoren dieses Blogs über das Jahr 2024 hinweg spannende Überlegungen 
+aus Wissenschaft und Praxis.
+Was sagen Kinder dazu?
+Ich finde es gerecht, dass in Deutschland alle Kinder zur Schule gehen. Wenn ich allein zu 
+Hause lerne, fühlt es sich für mich so an, als müsste ich als Einziger in der Klasse eine Auf-
+gabe bearbeiten.
+Johannes, 10 Jahre 
+Quellen
+1 Kiso, C./Lagies, J. (2019): Begabungsgerechtigkeit. Perspektiven auf stärkenorientierte Schulgestaltung 
+in Zeiten von Inklusion. Wiesbaden: Springer VS.
+2 International Panel of Experts for Gifted Education (iPEGE) (Hrsg.) (2009): Professionelle Begabten-
+förderung. Empfehlung zur Qualifizierung von Fachkräften in der Begabtenförderung. Salzburg: ÖZBF .
+3 Heinemann, R. (2023): Die Begabungsforschung von William Stern. Bad Heilbrunn: Verlag Julius 
+Klinkhardt.
+4 Müller-Oppliger, V. (2021): Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In: Müller- 
+Oppliger, V./Weigand, G. (Hrsg.) (2021): Handbuch Begabung. Weinheim, Basel: Beltz, S. 32–46.
+5 Stamm, M. (2009): Begabte Minoritäten. Wiesbaden: Springer VS.
+6 Brenner, P . J. (2010): Bildungsgerechtigkeit. Stuttgart: Kohlhammer.
+7 Baader, M. S./Freytag, T. (2017): Bildung und Ungerechtigkeit. Wiesbaden: VS Verlag für Sozialwissen-
+schaften.Begabungsgerechtigkeit wagen. Oder: Wie das Bildungssystem fairer wird
+11
+Dr. Ingmar Ahl
+Als Vorstand Zweckerfüllung ist Dr. Ingmar Ahl für die Verwirklichung 
+des Stiftungszwecks und die Projektarbeit der Karg-Stiftung zuständig. 
+Der Bildungshistoriker war nach Stationen in Universität, Wissenschaft, 
+Verlag und Politik bis 2007 als Bereichsleiter Förderung und Programm-
+leiter Wissenschaft für die ZEIT-Stiftung in Hamburg tätig. Er ist Beirats-
+mitglied im Bundesverband Deutscher Stiftungen, stv. Vorsitzender der 
+Konferenz der Arbeitskreisleitungen sowie seit 2020 Leiter des Arbeits-
+kreises Bildung.12
+Nadine Seddig
+Verborgenes Potenzial: Herausforderungen 
+hochbegabter Kinder und Jugendlicher in 
+einkommensarmen Familien 
+Hochbegabte Kinder in einkommensarmen Familien stehen vor 
+ besonderen Herausforderungen. Oft können sie ihre Begabungen 
+nicht entfalten, weil ihre Eltern sich kostenpflichtige Bildungs­
+angebote nicht leisten können.
+Einkommensarmut in der Familie und Begabungsentfaltung
+Einkommensarmut stellt eine der größten Herausforderungen unserer Gesellschaft dar 
+und betrifft auch viele Kinder und Jugendliche, insbesondere wenn sie in Mehrkindfamilien 
+oder bei alleinerziehenden Elternteilen aufwachsen. Doch gerade in dieser Altersgruppe 
+schlummern oft große Begabungen und Potenziale, die es zu fördern gilt. Wie können wir 
+ihnen als Gesellschaft helfen, ihre Talente zu entdecken und zu entfalten? Die Bildungs-  
+institutionen Kita und Schule spielen dabei eine entscheidende Rolle, da junge Menschen 
+hier viel Zeit verbringen.
+In diesem Blogbeitrag werden wir uns damit auseinandersetzen, was dazu beitragen 
+kann, dass hochbegabte Kinder aus einkommensarmen Familien ihr volles Potenzial aus -
+schöpfen können. Dabei geht es nicht nur um die Förderung von Bildungschancen, son -
+dern vor allem auch um den gerechten Zugang zu Bildungsangeboten, die eine Teilhabe 
+ermöglichen. Denn immer noch kosten diese zusätzliches Geld, das von manchen Familien 
+einfach nicht aufgebracht werden kann. Eine ganzheitliche Unterstützung durch staatliche 
+Institutionen ist hierbei ebenso wichtig wie eine Sensibilisierung der Gesellschaft für das 
+Thema Einkommensarmut und deren Auswirkungen auf begabte Kinder.
+Leona und die Liebe zur Kunst
+Schauen wir uns zunächst das Fallbeispiel von Leona an, um die Thematik besser zu ver -
+stehen. Leona ist fünf Jahre alt und wurde auf Anraten der Kita bereits als hochbegabt ge-
+testet. Sie besucht eine Kita im ländlichen Raum in Deutschland. Leona hat ein ausgepräg-
+tes Interesse an Kunst und Geschichte – sie liebt es zu malen und möchte so viel wie 
+möglich über Kunst in verschiedenen Zeitepochen erfahren. Die Kita plant einen Ausflug 
+in ein Kunstmuseum der nächstgrößeren Stadt, der für alle Kinder eine spannende Mög -
+lichkeit darstellen soll, mehr über die Welt um sie herum zu lernen. Sie müssen mit der 
+Bahn dorthin fahren – was für eine aufregende Unternehmung für die Kinder. Dafür wird Verborgenes Potenzial: Herausforderungen hochbegabter Kinder und Jugendlicher in einkommensarmen Familien
+13
+von allen Eltern eine Kostenbeteiligung von 8 Euro erhoben. Leona kann allerdings an 
+solchen Aktivitäten nicht teilnehmen. Ihre Eltern arbeiten zwar beide, verdienen aber nur 
+sehr wenig Geld. Die Familie hat Schwierigkeiten, die grundlegenden Bedürfnisse zu de -
+cken und kann daher erst recht keine zusätzlichen Ausgaben für solche Bildungsangebote 
+oder gar Hobbies tätigen. Trotzdem ist die Scham zu groß, die Kita um Unterstützung zu 
+bitten. So denken sich die Eltern eine Ausrede aus, damit Leona nicht teilnehmen muss. 
+Leona, die ihre Enttäuschung über das Fehlen solcher Erfahrungen noch nicht äußern 
+kann, leidet still unter der Unmöglichkeit, ihre Leidenschaft zu vertiefen und an dem Grup-
+penerlebnis teilhaben zu können.
+Die finanzielle Belastungssituation setzt sich auch in der Schule fort. Die Schule bietet 
+eine Digitalwerkstatt an, die den Schüler:innen die Möglichkeit gibt, ihre technischen Fä -
+higkeiten zu entwickeln. Leona, die ein besonderes Interesse an der digitalen Welt zeigt, 
+kann jedoch nicht teilnehmen, da die Extra-Teilnahmegebühren für ihre Familie unbezahl-
+bar sind. Sowohl Leona als auch ihre Eltern schämen sich, dies in der Schule zu offenbaren. 
+Leona fühlt sich von einer Welt der Möglichkeiten ausgeschlossen, die für ihre Altersge -
+noss:innen selbstverständlich zu sein scheint.
+Einkommensarmut und Begabungen – was heißt das konkret?
+Das Fallbeispiel von Leona zeigt eindrücklich, warum Kinder aus einkommensarmen Fami-
+lien nicht immer teilhaben können und wie sie darunter leiden. Diese Teilhabe ist jedoch 
+die Grundvoraussetzung dafür, dass Kinder ihre Begabungen entfalten und Wissen vertie -
+fen können. Grundsätzlich bezeichnet „Armut“ eine Situation, in der Menschen über un-
+zureichende materielle Ressourcen verfügen. Armut bedeutet aber noch viel mehr. Sie ist 
+ein komplexes Phänomen und hat auch Auswirkungen auf die kognitive und soziale Ent -
+wicklung von Kindern und Jugendlichen. Ein Mangel an Bildungs- oder Freizeitangeboten 
+sowie ein Mehr an psychosozialen Belastungen – wie bei Leona, die still unter mangelnder 
+Teilhabe leidet – können sich negativ auf die Potenzialentfaltung auswirken. Es ist daher 
+wichtig und auch die Pflicht von Bildungsinstitutionen, Politik und Gesellschaft, dass Maß-
+nahmen ergriffen werden, um allen Kindern und Jugendlichen den Zugang zu Bildungs -
+chancen und Freizeitmöglichkeiten zu eröffnen. Durch gezielte Förderung ihrer Begabun-
+gen können diese Kinder ihre Talente entfalten und ihre Zukunft selbstbestimmter 
+gestalten. Eine ganzheitliche Unterstützung durch staatliche Initiativen sowie eine Sensibi-
+lisierung der Gesellschaft für das Thema Armut sind hierbei unerlässlich. Nur so kann ein 
+gerechter Bildungszugang für alle Kinder gewährleistet werden – unabhängig vom Einkom-
+men der Eltern.
+Bildungsangebote in Kitas und Schulen dürfen nichts kosten!
+Das Fallbeispiel von Leona verdeutlicht, dass hochbegabte Kinder aus einkommensarmen 
+Familien oft von früher Kindheit an von grundlegenden Bildungserfahrungen ausgeschlos-
+sen sein können. Es ist von entscheidender Bedeutung, die Barrieren für hochbegabte 
+Kinder zu erkennen und aktiv nach Lösungen zu suchen. Denn oft fehlen Eltern, ganz be-Verborgenes Potenzial: Herausforderungen hochbegabter Kinder und Jugendlicher in einkommensarmen Familien
+14
+sonders alleinerziehenden Elternteilen, die finanziellen Mittel, um an teuren Nachhilfe -
+stunden, innerschulischen Bildungsangeboten oder außerschulischen Aktivitäten teilzu -
+nehmen.
+Schulen und Kindertageseinrichtungen können hier von Beginn an einen wichtigen 
+Beitrag leisten, indem sie gezielt auf die individuellen Bedürfnisse von Kindern und Ju -
+gendlichen eingehen und ihnen Unterstützung zukommen lassen. So sollte darauf geach-
+tet werden, dass zusätzliche Bildungsangebote für Familien keine zusätzlichen Kosten ver-
+ursachen. Hier kann ein Förderverein die richtige Lösung sein oder auch die Förderung 
+durch gemeinnützige Organisationen für bestimmte Bildungsangebote. Ein sensibler Um-
+gang mit und ein aufmerksamer Blick auf Familien ist dabei wichtig, um Scham und Stig-
+matisierung zu vermeiden.
+Ganzheitliche Unterstützung ist notwendig
+„Es bedarf eines ganzen Dorfes, um ein Kind großzuziehen. “ Oft wird dieses afrikanische 
+Sprichwort zitiert und es bleibt aktuell. Denn es gibt viel zu tun, damit Kinder teilhaben 
+können. Es bedarf einer ganzheitlichen Unterstützung durch staatliche Initiativen und Or-
+ganisationen sowie der Sensibilisierung der Gesellschaft für das Thema „Armut“ und ihrer 
+Auswirkungen auf begabte Kinder. Es darf nicht vergessen werden, dass Armut ein komple-
+xes Phänomen ist, das nicht allein durch individuelle Maßnahmen gelöst werden kann. 
+Zwar wäre Leona geholfen, wenn die Kita oder die Schule die Kosten der Bildungsangebote 
+übernehmen würde. In einer weiterführenden Schule stünde sie vermutlich wieder vor 
+dem Problem, dass sie Angebote nicht wahrnehmen kann. Hier liegen strukturelle Proble-
+me vor. Daher ist eine umfassende gesellschaftliche Auseinandersetzung mit dem Thema 
+Armut, Bildung und Begabungsentfaltung unerlässlich: um allen Kindern und Jugendlichen 
+gleiche Chancen zu ermöglichen und ihnen die Möglichkeit für eine vollständige Entfal -
+tung ihres Potenzials zu geben.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Fair ist, wenn alle gerecht behandelt werden. Ressourcen, Chancen und Belohnungen soll-
+ten auf eine gerechte Weise verteilt werden. Fairness hat daher viel damit zu tun, wie die 
+Menschen miteinander umgehen und warum sie wie handeln. Fair ist auch, wenn Men -
+schen in angemessener Weise behandelt werden.
+Dr. Nadine Seddig
+Was sagen Kinder dazu?
+Ich finde es gemein, wenn Kinder einfach nicht mitgehen können, nur weil die Eltern kein 
+Geld dafür übrig haben. Die tun mir leid und denen ist das bestimmt auch peinlich, in der 
+Schule zu fragen, ob die das bezahlen können.
+Lucia, 9 JahreVerborgenes Potenzial: Herausforderungen hochbegabter Kinder und Jugendlicher in einkommensarmen Familien
+15
+Zum Weiterlesen
+Funcke, A./Menne, S. (2023): Factsheet: Kinder- und Jugendarmut in Deutschland. Gütersloh: 
+Bertelsmann Stiftung. URL: https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/
+factsheet-kinder-und-jugendarmut-in-deutschland (Abrufdatum: 22.07.2025)
+Althaus, N./Andresen, S. (2023): Teilhabe und Beteiligung neu denken. Kinder und Jugendliche 
+sprechen mit! Gütersloh: Bertelsmann Stiftung. URL: https://www.bertelsmann-stiftung.de/de/
+publikationen/publikation/did/teilhabe-und-beteiligung-neu-denken-kinder-und-jugendliche-spre-
+chen-mit (Abrufdatum: 22.07.2025)
+Volf, I. (2023): Armutssensibles Handeln in Kindertagesstätten. URL: https://www.iss-ffm.de/
+fileadmin/assets/veroeffentlichungen/downloads/ZuSi-Armutssensibles_Handeln_in_Kindertagesein-
+richtungen.pdf (Abrufdatum: 22.07.2025)
+Dr. Nadine Seddig 
+ist Erziehungswissenschaftlerin und arbeitet als Leiterin „Programme 
+und Fördermanagement“ der DFL Stiftung. Dort beschäftigt sie sich  
+mit Fragen zum gesunden und aktiven Aufwachsen von Kindern und 
+Jugendlichen sowie dem gesellschaftlichen Miteinander und der Rolle 
+des Sports. Ihre Expertise liegt im Bereich Bildung, Kinder- und 
+Jugendrechte sowie soziale Ungleichheit. 16
+Gesa Hartenbach
+Der Einfluss von Adultismus auf die 
+Begabungsentfaltung
+„Dafür bist du noch zu klein!“ oder „Um über den Tod nachzu­
+denken, bist du noch zu jung“ sind Sätze, die Erwachsene zu Kindern 
+sagen. Oft denken Erwachsene aufgrund ihres Alters, dass sie wissen, 
+was für Kinder am besten ist. Aber nur weil eine Person erwachsen ist, 
+heißt es nicht automatisch, dass sie kompetenter und klüger ist. Wann 
+aber sprechen wir genau von Adultismus? Und wann verhindert 
+ adultistisches Verhalten, dass Kinder ihre Begabungen entfalten 
+ können? Mit diesen und anderen Fragen befasst sich dieser Blog­
+beitrag.
+Was ist Adultimus?
+Unter dem Begriff Adultismus wird das ungleiche Machtverhältnis zwischen Kindern und 
+Erwachsenen verstanden. Aufgrund des geringeren Alters eines Kindes werden ihm be -
+stimmte Eigenschaften zugeschrieben, wie beispielsweise trotzig, niedlich, unreif oder 
+nicht vertrauenswürdig zu sein. Viele Erwachsene gehen aufgrund ihres Alters davon aus, 
+mehr zu wissen als Kinder (1).
+Adultismus kann ein Hintergrund für Diskriminierung sein. Oft ist es die erste Diskrimi-
+nierungsform, mit der höchstwahrscheinlich jeder Mensch in seinem Leben Erfahrung 
+machen wird – ungeachtet der sozialen Herkunft, des Aussehens oder Geschlechts ( 1). 
+Außerdem ist es die einzige Diskriminierungsform, die meist alle Erwachsene bereits erlebt 
+haben, gleichzeitig aber auch oft selbst gegenüber Kindern ausüben.
+Ein Fallbeispiel
+Wir schauen auf ein Fallbeispiel, um zu veranschaulichen, was Adultismus genau bedeutet 
+und in welchen Kontexten das Phänomen auftritt.
+Noa ist vier Jahre alt und besucht seit einem Jahr den städtischen Kindergarten. Sie 
+zeigt besonders großes Interesse an Büchern und Geschichten. Ihre Lieblingsbeschäftigun-
+gen in der Kita sind Vorlesen, Bücher anschauen und eigene Geschichten erzählen. Noa 
+möchte unbedingt alle Bücher aus der Kita selbst lesen und beginnt daher damit, sich 
+einzelne Wörter selbst beizubringen. Sie fragt ihre pädagogische Fachkraft Frau Schmitt, ob 
+sie sie beim Lesenlernen unterstützen kann.Der Einfluss von Adultismus auf die Begabungsentfaltung
+17
+Was ist adultistisches Verhalten?
+Adultistisches Verhalten kann in den unterschiedlichsten Situationen sichtbar werden. Oft-
+mals geschieht es unbewusst, dass sich Erwachsene gegenüber Kindern adultistisch ver -
+halten. Erwachsene meinen aufgrund ihres Alters zu wissen, was für Kinder das Beste sei, 
+und bestimmen mit diesem Hintergedanken über sie (4). Das wäre beispielsweise der Fall, 
+wenn Frau Schmitt Noa mit dem Lesenlernen auf die Schule vertröstet, weil sie denkt, das 
+Beste für das Kind sei es, in der Kita noch zu spielen.
+Auch das Unterbrechen von Kindern, wenn sie in ein Spiel oder Experiment vertieft sind, 
+zum Beispiel weil es Essen gibt, ist adultistisches Verhalten. Dies wird oftmals nicht vorsätz-
+lich begangen, sondern lässt sich unter anderem durch institutionelle Strukturen erklären. 
+Auch Eltern verhalten sich gegenüber ihren Kindern adultistisch, wenn sie beispielsweise 
+festlegen, welche Kleidung ihr Kind heute trägt ( 1). In extremen Fällen kann Adultismus 
+sogar in Form von körperlicher Gewalt, Bestrafung und Beschimpfung auftreten (1).
+In Bildungseinrichtungen sowie in der Familie passiert es häufig, dass unter Zeitdruck 
+gehandelt und die Meinung der Kinder unbewusst übergangen wird. Es gibt Situationen, in 
+denen es sinnvoll ist, wenn Erwachsene Entscheidungen für Kinder treffen, um sie beispiel-
+weise vor real existierenden Gefahren zu schützen. Allerdings müssen und können Kinder 
+durch das aktive Besprechen von Entscheidungen gut in einen ernst gemeinten Meinungs-
+austausch miteinbezogen werden (4).
+Welches erwachsene Verhalten führt dazu, dass Kinder ihre Begabungen nicht 
+entfalten können?
+Widerstand oder sogar Ablehnung von Erwachsenen gegenüber Kindern kann dazu führen, 
+dass Kinder ihre Begabungen nicht entfalten können. Es gibt Kinder, die in der Schule eige-
+ne kreative und eventuell ungewöhnliche Arbeitsweisen nutzen, um beispielsweise eine 
+zunächst simpel erscheinende Matheaufgabe „kompliziert“ zu lösen. Bei Lehrkräften oder 
+Eltern kann das zu Verwirrung führen. Sie lehnen die unbekannte Arbeitsweise ab und 
+wollen dem Kind den Rechenweg durch ihre Methoden erleichtern, ohne zu versuchen, 
+den Lösungsansatz des Kindes nachzuvollziehen. Doch ein solches Verhalten kann negati-
+ve Auswirkungen auf die Leistungsmotivation und das kindliche Selbstbild haben (1).
+Oft bremsen Erwachsene besonders interessierte Kinder aus und vertrösten sie auf ei -
+nen späteren Zeitpunkt. Das kann auch bei Noa passieren, wenn Frau Schmitt sie auf die 
+Schule verweist und sagt: „Das lernen wir hier noch nicht, das lernt ihr erst in der Schule. “ 
+Eine mögliche Folge kann sein, dass sich ihre Lernfreude verringert und es zu einer dauer-
+haften Unterforderung kommt.
+Wenn Erwachsene mit einer adultistischen und vorurteilsbehafteten Perspektive auf 
+Kinder blicken, kann ihre Begabungsentfaltung gefährdet werden ( 1). Für Kinder mit Mi-
+grationshintergrund kann das bedeuten, dass ihnen Begabungen weniger zugetraut werden, 
+beispielsweise aufgrund fehlender Deutschkenntnisse. Auch Kinder aus sozial schwachen 
+Familien können betroffen sein. Ein weiteres gängiges Vorurteil ist, dass Jungen häufiger 
+hochbegabt seien als Mädchen. Fakt ist aber: Mädchen werden einfach nur seltener er -Der Einfluss von Adultismus auf die Begabungsentfaltung
+18
+kannt, da sie sich oftmals besser (an soziale Situationen) anpassen und so ihre Begabungen 
+„verstecken“ .
+Weitere erwachsene Verhaltensweisen, die dazu führen können, dass Kinder ihre Bega-
+bungen nicht entfalten können, sind:
+• hohe Erwartungen und damit verbundener Leistungsdruck auf die Kinder
+• keine konsequente Förderung und damit fehlende Lern- und Übungsgelegenheiten (3) 
+Mögliche Folgen von adultistischem Verhalten
+Genauso vielfältig wie die Erscheinungsformen adultistischen Verhaltens sind auch die 
+möglichen Folgen:
+Zunächst suggeriert das ungleiche Machtverhältnis ein hierarchisches Gefälle mit ei -
+nem Unten und einem erstrebenswerteren Oben. Dieses ungleiche Machtverhältnis muss 
+nicht zwingend zwischen Erwachsenen und Kindern herrschen, sondern kann auch zwi -
+schen Kindern und Jugendlichen mit unterschiedlichem Alter vorkommen (2).
+Durch Erfahrungen mit adultistischem Verhalten erleben Kinder zudem, dass sie und 
+ihre Meinung nicht ernst genommen werden. Wenn solche Situationen vermehrt auftre -
+ten, werden die Erfahrungen möglicherweise verinnerlicht und die Kinder sind dann tat -
+sächlich davon überzeugt, dass Erwachsene Dinge besser wissen und entscheiden sollten. 
+Es wird von einem „verinnerlichten Adultismus“ gesprochen (1).
+Kinder könnten daraus folgern, dass Erwachsene sie bevormunden dürfen, weil sie über 
+mehr Wissen und Macht verfügen. Reaktionen können sich in unterschiedlichen Verhal -
+tensweisen äußern:
+• passives Verhalten
+• aggressives Verhalten
+• schwankendes Verhalten
+• Generalisierung von negativen Abwertungen auf die ganze Person
+• geringes Selbstwertgefühl
+• fehlendes Selbstvertrauen (1) 
+Auf Noa und ihr Bedürfnis Lesen zu lernen bezogen, kann es passieren, dass Noa ihren 
+Spaß an Büchern und Geschichten verliert. Sie könnte das Gefühl bekommen, dass sei 
+noch nichts für sie und ihr Wunsch lesen zu lernen sei albern und unpassend. Ihr Vertrauen 
+in sich selbst und ihre Fähigkeit auf die eigenen Bedürfnisse zu hören, könnten darunter 
+leiden. Außerdem könnte es passieren, dass sie sich in der Kita passiv verhält und als Folge 
+ihren Lieblingsbeschäftigungen gar nicht mehr nachgeht.
+Adultismus reflektieren und in Institutionen handeln
+Der erste Schritt, um eine adultismuskritische Haltung zu entwickeln, ist, Adultismus als 
+solchen zu erkennen und auch zu benennen. Es ist notwendig, sich mit Vorurteilen gegen-Der Einfluss von Adultismus auf die Begabungsentfaltung
+19
+über Kindern und Jugendlichen auseinanderzusetzen. Gesellschaftliche Normen, Werte und 
+Regeln müssen hinterfragt und gegebenenfalls neu definiert werden. Wenn Erwachsene 
+selbst ihre adultistischen Verhaltensweisen erkennen, können sie ihre Verhaltens- und Hand-
+lungsweisen konstruktiv beenden und neu ausrichten, wenn es die Situation erlaubt (1).
+Um Adultismus im Alltag entgegenzuwirken, muss bewusst Macht abgegeben werden. 
+Kinder und Jugendliche haben das Recht auf Partizipation und auf Achtung ihrer Meinung. 
+Sie müssen bei Entscheidungen, die ihre Lebenswelt betreffen, mitwirken dürfen. Dabei ist 
+es bedeutend, dass die Beteiligung ernst gemeint ist. Die Kinder und Jugendlichen müssen 
+merken, dass sie mit ihrem Handeln und ihrer Meinung aktiv etwas bewirken können (1, 2). 
+Dadurch werden neue Perspektiven und Möglichkeiten eröffnet sowie Hierarchien verscho-
+ben. Ein Beispiel aus der Praxis ist das Kinderparlament. Dort können Kinder beispielswei-
+se innerhalb ihrer Nachmittagsbetreuung über Themen, die sie selbst betreffen, diskutie -
+ren, abstimmen und bestimmen. Damit eine echte Partizipation gewährleistet ist, müssen 
+die Beschlüsse des Kinderparlaments im Betreuungsalltag beachtet und integriert bzw. 
+eingeführt werden.
+Was trägt dazu bei, dass Kinder ihre Begabungen entfalten können?
+Damit Kinder ihre Begabungen und Potenziale entfalten können, ist es wichtig, ihre Be -
+dürfnisse zu beachten und sie sowohl mit ihrem Ärger als auch ihren Wünschen wahr- und 
+ernst zu nehmen. Nicht alle Rahmenbedingungen lassen es zu, dass jedes individuelle Be-
+dürfnis erfüllt werden kann. Wichtig ist, dass die Kinder trotzdem lernen bzw. die Erfahrung 
+machen, dass ihre Meinung und sie als Person zählen (1).
+Um adultistisches Verhalten in Bezug auf Begabungsentfaltung zu verhindern, müssen 
+Erwachsene es lernen zuzulassen, wenn Kinder mehr wissen als sie. Insbesondere hoch -
+begabte Kinder verfügen über eine große Spannbreite an Wissen. Es ist absolut in Ordnung 
+und auch normal, dass Erwachsene in diesem Fall nicht immer mithalten können, und sie 
+müssen es auch nicht. Es kann als Chance gesehen werden, Neues zu lernen. Nur weil eine 
+Person erwachsen ist, heißt dies nicht automatisch, dass sie kompetenter und klüger ist. 
+Auch Erwachsene lernen immer noch dazu, denn wir Menschen lernen ein Leben lang (1).
+Wichtig ist es außerdem, hochbegabte Kinder als heterogene und diverse Gruppe wahr -
+zunehmen und die eigenen Vorurteile und Einstellungen gegenüber Hochbegabung zu 
+reflektieren.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Für mich bedeutet faires Handeln, dass nicht alle Menschen gleich behandelt werden, son-
+dern gleichwertig. Dabei ist es entscheidend, die individuellen Bedürfnisse zu beachten 
+und diese zu erfüllen. Fair ist demnach, wenn jede und jeder bekommt, was sie oder er 
+individuell benötigt. Dabei spielen Gerechtigkeit und Ehrlichkeit eine große Rolle ebenso 
+wie die moralischen Werte, an die wir glauben.
+Gesa HartenbachDer Einfluss von Adultismus auf die Begabungsentfaltung
+20
+Was sagen Kinder dazu?
+Im Sport bedeutet Fairness für mich, dass man die Gegenspieler respektiert und niemandem 
+schaden möchte.
+Theo, 16 Jahre
+Quellen
+1 Richter, S. (2013): Adultismus: die erste erlebte Diskriminierungsform? Theoretische Grundlagen 
+und Praxisrelevanz. URL: https://www.kita-fachtexte.de/fileadmin/Redaktion/Publikationen/KiTaFT_
+richter_2013.pdf (Abrufdatum: 22.07.2025)
+2 Steinke, A. (o. J.): Adultismus. Wie können adultistische Strukturen in der Kindertagesbetreuung 
+erkannt und reflektiert werden? URL: https://www.nifbe.de/component/themensammlung?view= 
+item&id=952:adultismus&catid=0 (Abrufdatum: 22.07.2025)
+3 Liebel, M./Meade, P . (2023): Schule ohne Adultismus? Die Macht über Kinder herausfordern. Bad 
+Heilbrunn: Verlag Julius Klinkhardt.
+4 Richter, S. (2018): Dafür bist du noch zu jung! Adultismus, eine Diskriminierungsform, die wir alle 
+kennen. Aachen: Bergmoser + Höller.
+Gesa Hartenbach
+hat ihr Erstes Staatsexamen absolviert und ist angehende 
+Grundschullehrerin für die Fächer Deutsch, Mathematik und 
+Sachunterricht. Bis Februar 2025 war sie bei der Karg-Stiftung als 
+studentische Mitarbeiterin tätig und hat viel im Bereich frühkindliche 
+Bildung gearbeitet.21
+Wiebke Evers
+Stress als Dämpfer für die kognitive Entwicklung 
+und die Entfaltung von Begabung
+Stress beeinträchtigt nicht nur unser Wohlbefinden, sondern auch 
+unsere Lern­ und Gedächtnisprozesse. Wird Stress zum Dauerzustand, 
+kann er dazu führen, dass Kinder und Jugendliche ihre intellektuellen 
+Potenziale nicht entwickeln können.
+Was ist Stress und wie entsteht er?
+Wenn uns Ereignisse in unseren Fähigkeiten sehr beanspruchen oder überfordern, erleben 
+wir das als Stress (1, 2). Stress ist allgegenwärtig und nicht nur den Erwachsenen vorbehal-
+ten. Auch Kinder und Jugendliche werden in Schule, Familie und Freizeit mit Situationen 
+konfrontiert, die Stress erzeugen können.
+Was wir als stressig wahrnehmen, ist dabei höchst individuell, denn das Stresserleben ist 
+abhängig von verschiedenen Faktoren, wie etwa
+• der Intensität bzw. der Bewertung eines Stressors (Beispiel: Ein Referat mag für 
+den bzw. die eine Stress bedeuten, für jemanden anderen nicht.);
+• der Dauer, mit der der Stress anhält (Beispiel: Eine Matheklausur ist irgendwann 
+vorüber, aber Stress zu Hause durch ständig streitende Eltern besteht dauerhaft.);
+• den Bewältigungsfertigkeiten, über die man verfügt (Beispiel: Wenn man Strategien 
+kennt, wie z. B. Atemübungen, dann kann man so der Stressreaktion entgegen-
+steuern.);
+• der sozialen Unterstützung, auf die man zurückgreifen kann (Beispiel: Wenn ein 
+Kind, das gemobbt wird, damit nicht allein gelassen wird, sondern Hilfe durch 
+ Eltern und Lehrkräfte bekommt.);
+• von den eigenen Vorerfahrungen mit Stress ebenso wie von Vorerfahrungen der 
+Eltern, die über (epi-)genetische Mechanismen weitergegeben werden (Beispiel:  
+Ist eine werdende Mutter während der Schwangerschaft durch Jobverlust oder 
+auch Krankheit hohem Stress ausgesetzt, kann sich das auf die Stressreaktivität 
+des ungeborenen Kindes auswirken.).
+An der Tafel etwas vorrechnen müssen, ein Referat halten, Fahrprüfung, Zeitdruck: Dies 
+sind eher klassische Beispiele für Stress. Stress kann aber auch durch die Beurteilung ande-
+rer ausgelöst werden, besonders wenn zu erwarten ist, dass diese zum Beispiel schon durch 
+Stereotype vorbehaftet und verhärtet ist. Auch die Angst davor, aufzufallen und von einer Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+22
+Gruppe abzuweichen, um dann eventuell Opfer von Mobbing oder Ausgrenzung zu werden, 
+löst Stress aus. Begabte Kinder und Jugendliche spüren diese Art von Stress manchmal 
+deutlich, besonders wenn sie nicht den gängigen Stereotypen (z.  B. bezüglich ihres Ge -
+schlechts, ihres Aussehens, ihrer Herkunft oder auch ihrer Interessen) entsprechen.
+Wie wirkt Stress?
+Kurzzeitig kann uns Stress sogar leistungsfähiger machen, doch hat er uns über längere 
+Zeit im Griff, hinterlässt er seine Spuren. Wenn wir Stress erleben, werden Stresshormone 
+wie Adrenalin und Cortisol freigesetzt, die unseren Körper in den sogenannten „Fight-or-
+Flight“-Modus versetzen. Dadurch bereitet sich der Körper darauf vor, zu kämpfen oder zu 
+fliehen. Dieser Zustand ist ein Überbleibsel der Evolution und überlebenswichtig. Befindet 
+sich unser Körper jedoch längere Zeit in diesem (kräftezehrenden) Zustand, wirkt sich das 
+nicht nur negativ auf unser Wohlbefinden, sondern auch auf unsere intellektuellen Fähig-
+keiten wie die Gedächtnis- und Lernleistung sowie auf unsere Selbstregulations- und Pro-
+blemlösefähigkeiten aus. Andauernder Stress kann dazu führen, dass diese wichtigen Funk-
+tionen unwiederbringlich beeinträchtigt sind.
+Wenn Stress Lernen und Leistung verhindert
+Fight-or-Flight ist ein Überlebensinstinkt. Dein Körper will nicht 
+ lernen, er will flüchten – oder kämpfen. Im Klartext: Wer Angst hat, 
+kann sich nicht auf den Unterricht konzentrieren. Wer sich fürchtet, 
+kann nicht folgen, verstehen und lernen.
+Norman Wolf (3) 
+Stress wirkt auf viele unterschiedliche Lern- und Gedächtnisprozesse ein. In stressigen Si -
+tuationen können wir zum Beispiel Informationen schlechter verarbeiten und Probleme 
+schlechter lösen. Auch die Übertragung von Informationen ins Langzeitgedächtnis und der 
+Abruf von gespeicherten Informationen gelingt uns unter Stress weniger gut (4).
+Stresssituationen sind heutzutage aber oft genau solche Situationen, in denen wir 
+schnell Informationen verarbeiten und weniger unser Überleben sichern müssen: Wenn 
+wir vor der Klasse ein Matheproblem lösen sollen, ist weder der Flucht- noch der Kampf -
+instinkt nützlich, sondern gut funktionierende intellektuelle Prozesse, die uns auf die 
+ Lösung bringen.
+Sind wir dauerhaft gestresst, kann sich dies auf unsere Gehirnstrukturen, zum Beispiel 
+die Amygdala, auswirken. Die Amygdala ist aktiv, wenn wir Angst empfinden. Sie sorgt da-
+für, dass die Angstreaktion eingeleitet wird, die im Zweifel unser Überleben sichern soll. 
+Durch chronischen Stress oder Angst vergrößert sich die Amygdala, was wiederum zu einer 
+stärkeren und auch langanhaltenderen Reaktion auf Stress- und Angstzustände führt. Die-
+se beiden Prozesse können sich immer weiter verstärken und zu psychischen Störungen 
+wie Depressionen und Angststörungen führen (5, 6, 7).Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+23
+Stress wirkt sich außerdem stark auf den präfrontalen Cortex aus, eine Hirnregion hin-
+ter unserer Stirn, in dem viele Prozesse zur Selbstregulation ablaufen. Sind Kinder über -
+fordert (intellektuell oder auch sozial), haben Angst oder fühlen sich bedroht, zeigt sich das 
+meist schnell in ihrem Verhalten. Sie haben Schwierigkeiten, ihre Gefühle zu regulieren, ihr 
+Handeln zu kontrollieren und sich mitzuteilen. Stress beeinflusst so direkt ihr Lern- aber 
+auch ihr Sozialverhalten. Studien zeigen, dass Lehrkräfte eher Kinder für Programme der 
+Begabtenförderung vorschlagen, die sich gut regulieren können ( 8). So verpassen beson -
+ders begabte Kinder, die häufig unter Stress stehen und sich so weniger gut regulieren 
+können, unter Umständen Lernchancen.
+Da sich die Gehirne von Kindern und Jugendlichen noch in der Entwicklung befinden, 
+können sie durch Dauerstress sowohl in ihrer Lernleistung als auch in ihrer psychischen 
+Gesundheit nachhaltig beeinträchtigt werden (9). Früher Stress kann dazu führen, dass sie 
+ihre intellektuellen Fähigkeiten nicht entwickeln können. Sie sind später schulbereit ( 10), 
+schneiden sowohl bei IQ-Tests (11) als auch bei akademischen Prüfungen schlechter ab (12, 
+13), entwickeln eher psychische Störungen und laufen so eher Gefahr, vom Bildungssystem 
+abgehängt zu werden.
+Stress: Ein individueller Faktor
+Menschen sind unterschiedlichen Ereignissen und Situationen ausgesetzt, in denen sie 
+abhängig von ihren Ressourcen, Fähigkeiten und Bewältigungsstrategien Stress empfinden 
+oder eben nicht. Das Umfeld, in dem Kinder und Jugendliche aufwachsen, spielt dabei eine 
+große Rolle.
+Die Welt um dich herum ist schön, wenn die Welt in dir friedlich ist.
+Unbekannte:r Autor:in
+Das kindliche Stresserleben ist stark von der Anwesenheit und dem Verhalten der engen 
+Bezugspersonen abhängig. So kann ein Erziehungsstil, der von Unzuverlässigkeit und ge -
+ringer emotionaler Sensibilität geprägt ist, das Stresserleben des Kindes erhöhen. Reagiert 
+eine Mutter bei einem umgestoßenen Glas das eine Mal mit einer Ohrfeige und das nächs-
+te Mal mit einem verständnisvollen Lächeln, löst diese Unvorhersehbarkeit Stress aus. Er-
+höhter Stress aufseiten der Eltern kann mit einem weniger förderlichen Erziehungsverhal-
+ten und Erziehungspraktiken einhergehen, was sich negativ auf die sozial-emotionale und 
+auch die intellektuelle Entwicklung der Kinder auswirkt (14).
+Faktoren wie zum Beispiel die Regelmäßigkeit von Einkommen, Stabilität in der Wohn-
+situation, Verlässlichkeit von wichtigen Bezugspersonen in ihrer Anwesenheit und ihrem 
+Verhalten beeinflussen sowohl das elterliche als auch das kindliche Stresserleben ( 15). 
+Denn obwohl Kinder selbst vielleicht nicht beurteilen können, ob ihre Familie am Existenz-
+minimum oder in einer unsicheren Nachbarschaft lebt, sind sie dennoch in hohem Maße 
+davon betroffen, da sich der Stress, den ihre Eltern durch diese Dinge erleben, vererbt. 
+Dieses Erbe treten Kinder schon vor ihrer Geburt an, denn Stress wirkt nicht nur über die 
+Umgebung, in der er auftritt, sondern auch genetisch und epigenetisch. Dadurch erhöht Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+24
+sich die Anfälligkeit für Stress sowie auch die Stressreaktion selbst (z.  B. wie das Ausmaß 
+der körperlichen und geistigen Reaktion auf einen Stressor ausfällt).
+Auch das schulische Umfeld kann Stress bedeuten. Dieser Stress ist oft akademischer 
+Art (z. B. Prüfungen, Lernstress, Versetzungsgefährdung). Er kann aber auch durch sozial-
+emotionale Herausforderungen entstehen, wie durch Mobbing und Ausgrenzung (ggf. auf-
+grund von Stigmatisierungen, die mit der sozialen und kulturellen Herkunft einhergehen), 
+ein angespanntes Klassenklima oder eine schlechte Beziehung zu den Lehrkräften.
+Damit führt uns das Thema Stress über ungleich verteiltes finanzielles, kulturelles und 
+soziales Kapital direkt zur Bildungs- und Begabungsgerechtigkeit. Denn Stress kann nicht 
+nur die Entdeckung und Entwicklung von Begabungen behindern, sondern auch den Zu -
+gang zu Bildungs- und Fördermöglichkeiten verwehren. Auch die Voraussetzungen für eine 
+erfolgreiche Teilnahme an Förderprogrammen können durch sozialen Rückzug, mangelndes 
+Selbstbewusstsein und die zuvor genannten Auswirkungen auf Lern- und Gedächtnisprozes-
+se bei begabten Kindern, die stark unter Stress leiden, unter Umständen nicht erfüllt sein.
+Stress lass nach!
+Ziel ist es nicht, dass Kindern und Jugendlichen jeglicher Stress erspart wird. Stress – in 
+einem gewissen Maß – fördert adaptive Funktionen und ermöglicht Lernerfahrungen, die 
+für den Aufbau von Stressbewältigungsstrategien wichtig sind ( 16). Was es zu vermeiden 
+gilt, ist die dauerhafte Überforderung durch Stress, da sich so zum Teil unumkehrbare Ef-
+fekte auf das Lernen und die persönliche Entwicklung ergeben.
+In der Konsequenz müssen wir also präventiv tätig werden und dafür sorgen, dass Kin-
+der und Jugendliche nicht mit übermäßig stressigen bis hin zu bedrohlichen Situationen 
+konfrontiert werden. Das Aufwachsen von Kindern sollte durch frühe Hilfen und Unter -
+stützung von Familien von unnötigem Stress befreit werden.
+Darüber hinaus sollten wir unser Möglichstes dafür tun, dass die Kinder, die stark von 
+frühem Stress geprägt sind, gut begleitet werden. Um in der Schule lernfähig zu sein, müs-
+sen die für das Überleben wichtigen, aber für das Lernen hinderlichen Reaktionsmuster, 
+die das Gehirn über viele Stresssituationen hinweg erlernt hat, wieder geschwächt werden.
+Um begabten Kindern und Jugendlichen die Möglichkeiten zu geben, sich nicht nur 
+mental gesund, sondern auch intellektuell gemäß ihrem Potenzial zu entwickeln, sollte der 
+individuelle Faktor Stress („Was stresst mich? Wie sehr stresst mich etwas? Was kann ich 
+allein bewältigen und wann brauche ich Hilfe von außen?“) im Schulbetrieb berücksichtigt 
+werden. Das ist wichtig, um mehr Chancengleichheit im Bildungssystem und der Bega -
+bungsförderung zu schaffen. 
+Um aus dem angelernten Stressmodus herauszukommen und lernen zu können, brau-
+chen Schüler:innen Unterstützung. Diese kann unterschiedlich ansetzen:
+Präsenz des sozialen Unterstützungssystems
+Lehrkräfte und Berater:innen ...
+• ... wissen um die negativen Auswirkungen von Stress.Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+25
+• ... erkennen, wenn Schüler:innen von Stress in der Familie oder in der Schule 
+überfordert sind.
+• ... bieten sich proaktiv als Ansprechpartner:innen an, zeigen Verständnis, hören zu, 
+geben Hoffnung und eine Perspektive.
+• ... kennen externe Hilfsangebote und können Empfehlungen für passende Unter-
+stützungsangebote geben.
+Stressfreie Lernumgebungen
+• Die Schule bietet Schüler:innen eine von Dauerstress und Angst befreite Lern-
+umgebung im Klassenraum und auf dem Pausenhof.
+• Die Schule bietet Rückzugsräume zur Entspannung.
+• Lehrkräfte bieten individuell Alternativen zu stressbehafteten Lern- und Prüfungs-
+situationen an.
+Stressbewältigungsstrategien
+• Schüler:innen bekommen Gelegenheit, verschiedene Strategien für den Umgang 
+mit potenziell stresserzeugenden Ereignissen zu erlernen, um ihr Stressempfinden 
+zu verringern (16), beispielsweise:
+• Selbstregulationstraining, z. B. Stärkung der Exekutiven Funktionen
+• Entspannungsmethoden, wie Atemtechniken
+• schulbasierte Achtsamkeitsinterventionen (17) 
+Stress als Fußfessel für Bildungs- und Begabungsgerechtigkeit
+Durch Stress können intellektuelle Potenziale unwiederbringlich verloren gehen. Bestehen-
+de Benachteiligungen reproduzieren sich, sodass die Bildungsverlierer:innen von gestern 
+und heute die Bildungsverlierer:innen von morgen sind, wenn nichts unternommen wird. 
+Die Förderung von Begabungsgerechtigkeit erfordert nicht nur einen fairen Zugang zu 
+Bildungsangeboten, sondern auch die Reduktion von Stressfaktoren für Kinder und Fami-
+lien sowie einen sensiblen Umgang mit ihren unterschiedlichen Vorerfahrungen mit Stress.
+Reflexionsfragen
+1. Wie sensibel bin ich für die Stressoren, die meine Schüler:innen in der Schule  
+und in ihrer Familie erleben?
+2. Was tue ich, wenn ich als Lehrkraft im Unterricht wahrnehme, dass meine 
+ Schüler:innen aufgrund von Stress in ihrem Lernen behindert werden?
+3. Welche Unterstützungsmöglichkeiten gibt es in meiner Region für Familien,  
+die stark von Stress belastet sind?Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+26
+Ressource: „Das Handmodell des Gehirns“ von Dr. Daniel Siegel
+Mit dem Handmodell des Gehirns hat Dr. Daniel Siegel eine anschauliche Methode ent -
+wickelt, wie wir die Prozesse, die unter Stress und Überforderung im menschlichen Gehirn 
+vor sich gehen, darstellen und auch Schüler:innen begreiflich machen können. Dieses  
+Video in englischer Sprache erklärt das Modell.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Fair ist für mich, wenn Menschen mit den gleichen Leistungen auch gleiche Ziele errei -
+chen. Gerecht wird es, wenn die Möglichkeiten, eigene Potenziale entwickeln zu können, 
+die diese Leistungen ermöglichen, ebenfalls gleich sind. Bestehende Ungleichheiten in den 
+verfügbaren Ressourcen, aber auch einwirkenden Stressoren müssen dafür ausgeglichen 
+werden.
+Dr. Wiebke Evers 
+Was sagen Kinder dazu?
+Stress ist für mich das Gegenteil von Konzentration. Wenn ich gestresst bin, z.  B. weil ich 
+später eine Mathearbeit schreibe, dann kann ich mich nicht auf den Deutschunterricht 
+fokussieren, der gerade läuft. Das ist dann blöd. Denn man kann nur den Moment beein -
+flussen, in dem man gerade ist. Das weiß ich. Und ich werde besser darin, mich nicht so 
+stressen zu lassen von etwas, was noch nicht dran ist und worauf ich noch keinen Einfluss 
+habe.
+Liam, 14 Jahre 
+Quellen
+1 Lazarus, R. S. (1981): Stress und Stressbewältigung. In: Filipp, S.-H. (Hrsg.) (1981): Kritische 
+Lebensereignisse. München: Urban & Schwarzenberg, S. 198–232.
+2 Lazarus, R. S./Folkman, S. (1984): Stress, appraisal, and coping. New York: Springer.
+3 Wolf, N. (2021): Wenn die Pause zur Hölle wird: Wie du dich gegen Mobbing stärkst und Selbstver-
+trauen gewinnst. München: mvg, S. 50.
+4 Smith, K. E./Pollak, S. D. (2020): Early life stress and development: potential mechanisms for 
+adverse outcomes. In: Journal of neurodevelopmental disorders, 12, S. 1–15.
+5 Morris, M. C./Ciesla, J. A./Garber, J. (2010): A prospective study of stress autonomy versus stress 
+sensitization in adolescents at varied risk for depression. In: Journal of Abnormal Psychology , 119,  
+S. 341–354. URL: https://psycnet.apa.org/record/2010-08841-010 (Abrufdatum: 22.07.2025)
+6 Sousa, C. /Mason, W. A. /Herrenkohl, T. I. et al. (2018): Direct and indirect effects of child abuse and 
+environmental stress: A lifecourse perspective on adversity and depressive symptoms. In: American 
+Journal of Orthopsychiatry , 88(2), S. 180–188. URL: https://doi.org/10.1037/ort0000283 (Abruf-
+datum: 22.07.2025)Stress als Dämpfer für die kognitive Entwicklung und die Entfaltung von Begabung
+27
+7 Tsoory, M. /Cohen, H./Richter-Levin, G. (2007): Juvenile stress induces a predisposition to either 
+anxiety or depressive-like symptoms following stress in adulthood. In: European Neuropsycho-  
+pharmacology, 17(4), S. 245–256. URL: https://www.sciencedirect.com/science/article/pii/
+S0924977X06001246 (Abrufdatum: 22.07.2025)
+8 Kenney, A. V. (2010): Link Between Executive Functioning and Teacher Referrals for Gifted Testing. 
+Dissertation, Philadelphia College of Osteopathic Medicine.
+9 Lohaus, A. /Beyer, A. /Klein-Heßling, J. (2004): Stresserleben und Stresssymptomatik bei Kindern 
+und Jugendlichen. In: Zeitschrift für Entwicklungspsychologie und Pädagogische Psychologie , 36,  
+S. 38–46. URL: https://doi.org/10.1026/0049-8637.36.1.38 (Abrufdatum: 22.07.2025)
+10 Jackson, D. B./Testa, A./Vaughn, M. G. (2021): Adverse childhood experiences and school 
+readiness among preschool-aged children. In: The journal of pediatrics , 230, S. 191–197.
+11 Perzow, S. E. D. /Petrenko, C. L. M. et al. (2013): Dissociative symptoms and academic functioning 
+in maltreated children: A preliminary study. In: Journal of Trauma & Dissociation, 14, S. 302–311. 
+URL: https://pubmed.ncbi.nlm.nih.gov/23627479/ (Abrufdatum: 22.07.2025)
+12 Schraml, K./Perski, A./Grossi, G./Makower, I. (2012): Chronic stress and its consequences on 
+subsequent academic achievement among adolescents. In: Journal of Educational and Developmen -
+tal Psychology , 2, S. 69–79. URL: https://www.researchgate.net/publication/267959542_Chronic_
+Stress_and_Its_Consequences_on_Subsequent_Academic_Achievement_among_Adolescents 
+(Abrufdatum: 22.07.2025)
+13 Schuurmans, I. K./Luik, A. I./de Maat, D. A. et al. (2022): The association of early life stress with 
+IQ-achievement discrepancy in children: A population-based study. In: Child Development , 93(6),  
+S. 1837–1847.
+14 Guajardo, N. R./Snyder, G./Petersen, R. (2009): Relationships among parenting practices, parental 
+stress, child behaviour, and children’s social-cognitive development. In: Infant and Child Develop -
+ment: An International Journal of Research and Practice , 18(1), S. 37–60.
+15 Hackman, D. A./Betancourt, L. M./Brodsky, N. L. et al. (2012): Neighborhood disadvantage and 
+adolescent stress reactivity. In: Frontiers in Human Neuroscience , 6, S. 277. URL: https://pubmed.
+ncbi.nlm.nih.gov/23091454/ (Abrufdatum: 22.07.2025)
+16 Hartmann, S./Lohaus, A./Rüth, J. E./Eschenbeck, H. (2022): Stresserleben und Stresssymptomatik 
+bei Kindern und Jugendlichen. In: Zeitschrift für Entwicklungspsychologie und Pädagogische 
+Psychologie, 54(1), S. 15–26.
+17 Edwards, M./Adams, E. M. et al. (2014): Effects of a mindfulness group on Latino adolescent 
+students: Examining levels of perceived stress, mindfulness, self- compassion, and psychological 
+symptoms. In: The Journal for Specialists in Group Work , 39(2), S. 145–163.
+Dr. Wiebke Evers 
+ist Psychologin (M. Sc.) und arbeitet in der Karg-Stiftung als 
+Projektleitung im Team Beratung sowie als Leitung der Karg 
+Modellprojekte. In ihren Projekten geht es um die Intervention und 
+Prävention von Underachievement, die Stärkung von Selbstregulation 
+und Motivation für die Entwicklung individueller Potenziale, den 
+Umgang mit Leistungsdruck sowie den Ausbau von digitalen Beratungs-
+angeboten.28
+Saskia Niechzial und Claudia Pauly
+Hochbegabte Kinder sind nicht wie Raketen
+Alle, die mit Schule zu tun haben, wissen: Leistung und ihre 
+Bewertung spielen hier eine große Rolle. Dabei geht es nicht allein 
+darum, Schüler:innen eine Rückmeldung zu ihrer Lernentwicklung zu 
+geben. Leistungsbewertung, die zum Großteil in Ziffernnoten erfolgt, 
+wird nach wie vor auch zur Selektion genutzt. Diese Vermischung von 
+Funktionen – dem individuellen Feedback, um Bildungsfortschritt zu 
+ermöglichen, und der gleichzeitigen Begrenzung von Bildungs­
+möglichkeiten – ist problematisch und wird noch problematischer, 
+wenn man bedenkt, dass Noten schlicht nicht gerecht sind.
+Leistungsrückmeldung im Fokus von Begabungsgerechtigkeit
+Noten messen häufig nicht das, was sie messen sollen, sie sind abhängig von den persön-
+lichen Einstellungen der Bewertenden, es werden oft unterschiedliche Maßstäbe angelegt. 
+Und auch die meistgenutzten Methoden der Leistungsüberprüfung – (unangekündigte) 
+Tests, Klausuren etc. – können zur BildungsUNgerechtigkeit beitragen. Wer alles weiß, aber 
+unter Prüfungsangst leidet, etwas mehr Zeit zum Bearbeiten einer Aufgabe braucht, eine 
+andere Muttersprache oder vielleicht Probleme mit dem Verschriftlichen hat, kann dabei 
+oft wenig punkten. Dennoch entscheidet diese Art der Leistungsbewertung wesentlich 
+über Bildungschancen.
+Nun könnte man meinen, wer hochbegabt ist, hat damit keine Probleme. Denn sind 
+hochbegabte Schüler:innen nicht die berühmten Einserkandidat:innen? So einfach ist das 
+nicht, erklärt uns Saskia Niechzial im Interview. Claudia Pauly hat mit ihr darüber gespro -
+chen, welche Bedeutung Leistungsrückmeldung in der Schule hat, welche Rahmenbedin -
+gungen es aktuell dafür gibt und was das alles mit Hochbegabung und Begabungsgerech -
+tigkeit zu tun hat.
+Saskia Niechzial ist Grundschullehrkraft und Mutter von drei Kindern. Auf Instagram, 
+ihrem Blog sowie in ihren Büchern schreibt sie praxis- und innovationsorientiert über Bil -
+dungsthemen – mit besonderem Fokus auf Aspekte wie Kommunikation, Elternzusam -
+menarbeit und Neurodivergenz (inklusive Hochbegabung). Mit viel Leidenschaft setzt sie 
+sich dabei für Veränderungen im Schulsystem ein.Hochbegabte Kinder sind nicht wie Raketen
+29
+Saskia, inwiefern sind Noten für Dich eine zeitgemäße Rückmeldungsmethode? 
+Kannst du gut mit ihnen arbeiten?
+Ganz kurz: Nein, ich finde sie nicht mehr zeitgemäß. Und nein, ich kann nicht gut mit ih-
+nen arbeiten. Aus dem lerntheoretischen Forschungsbereich wissen wir mittlerweile, dass 
+Noten einfach nicht das tun, was ihnen zugeschrieben wird, nämlich: Lernstandsrückmel-
+dungen geben. Das sind Momentaufnahmen, die sind nicht objektiv. Wir wissen, dass da 
+Ungerechtigkeiten mit reinzählen, dass zum Beispiel kulturelle Hintergründe dazu führen, 
+dass von vornherein schlechter benotet wird.
+Wenn ich jetzt sage: „Ich hatte eine 3 in Mathe. “ – was weißt Du dann über mich und 
+meinen Leistungsstand? Heißt das: Ich hatte Prüfungsangst? Heißt das, dass Mathe viel -
+leicht nicht mein Stärkenbereich war? Heißt das, dass ich eine schlechte Beziehung zu der 
+Lehrkraft hatte? Heißt das, ich habe mich vielleicht gar nicht angestrengt, weil ich nicht 
+wollte? Alles ist möglich. Es sagt Dir aber nicht, ob ich in diesem Fach wirklich durch -
+schnittlich leistungsfähig bin.
+Hast Du das Gefühl, dass das Thema Benotung für besonders begabte oder 
+hochbegabte Kinder eine spezifische Relevanz hat?
+So ziemlich alle Kinder haben ihre Schwierigkeiten mit den Noten. Die einen, weil sie be -
+stimmte Erwartungen nicht erfüllen können, die nächsten, weil sie zu Zeiten überprüft 
+werden, zu denen sie mit diesem Lernstoff eigentlich noch gar nicht fertig sind, wieder 
+andere, weil sie Prüfungssituationen nicht mögen, wieder andere, weil sie schriftlich nicht 
+gut sind und so viel schriftlich abgefragt wird.
+Im Bereich der Hochbegabung erlebe ich zum Beispiel, dass Kinder manchmal sehr 
+bewusst Situationen nutzen, um nicht aufzufallen – gerade in der Pubertät. Diese Schü -
+ler:innen fallen nicht selten an bestimmten Stellen aus dem Rahmen, und dann wollen sie 
+nicht auch noch die sein, die „immer die Einsen einfahren“ . Das ist übrigens ganz häufig 
+auch ein weibliches Phänomen.
+Was ich auch oft erlebe ist, dass Kinder mit einer hohen Begabung aufgrund der Art und 
+Weise, wie Aufgaben gestellt sind, sagen: „Die Aufgabe wirkt ziemlich einfach, aber so ein-
+fach kann das nicht gedacht sein. Ich werde ja hier bewertet. “ Diese Kinder verstehen in 
+einer ganz anderen Tiefe, was Bewertung und Leistungsbeurteilung eigentlich heißen. Und 
+dann kann das doch da ja jetzt nicht so eine Pillepalle-Aufgabe sein. Die muss doch viel 
+komplizierter sein! Dann fangen sie an herumzuwurschteln, verheddern sich mit der Zeit 
+und bauen Fehler ein.
+Hochbegabte Kinder sind nicht wie Raketen. Und weil sie pro Aufgabe oft in verschie -
+denste Richtungen denken, dauert das alles manchmal länger. Sowas muss ich wissen, um 
+nicht zu sagen: „Ja, das waren jetzt zwanzig Minuten, deswegen ist es eine 4“ , obwohl es 
+mit zehn Minuten länger vielleicht eine 1 gewesen wäre.
+Ich bin ja selbst hochbegabt, und bei mir war das wirklich so: Ich habe manchmal so 
+kompliziert gedacht, und weil ich die Zeit nicht eingehalten habe, hatte ich auch nicht im-
+mer gute Noten und habe dann gedacht: „Naja, dann bin ich vielleicht doch nicht so schlau. “Hochbegabte Kinder sind nicht wie Raketen
+30
+Eigentlich sollen Noten ja den Zweck erfüllen, die eigenen Leistungen gut 
+einschätzen zu können. Es klingt so, als wäre das nicht der Fall, richtig?
+Kaum einem Kind gelingt es, Leistungsbewertung getrennt von sich als Person zu sehen. 
+Die würden nicht sagen: „Ich bin ein super Kind. Ja, Mathe ist vielleicht nicht mein Stär -
+kengebiet, aber was soll’s, dafür kann ich das und das. “ So ist es nicht. Viele Kinder sitzen 
+da, kriegen dieses Feedback und die Welt bricht für sie zusammen. Und besonders die 
+hochbegabten Kinder, die denken: „Na, ich weiß zwar nicht warum, aber wenigstens bin ich 
+schlau“ , für die bricht jedes Mal, wenn eine Leistungsbewertung das nicht bestätigt, ein 
+fundamentaler Aspekt ihres Selbst zusammen.
+Sie gehen dann mit diesem Mindset wieder rein – und mit mehr Angst. Mehr Angst 
+sorgt dafür, dass die Leistungen im schlimmsten Fall wieder nicht dem entsprechen, was 
+sie eigentlich leisten könnten – und dann ist man ganz schnell in einer Abwärtsspirale.
+Noten sorgen dafür, dass die Schüler:innen oft nicht mehr den Zusammenhang zwi -
+schen ihren Leistungspotenzialen und einem bestimmten Ergebnis sehen können. Gerade 
+bei hochbegabten Kindern merke ich: Die haben überhaupt keinen Bezug mehr zu ihrem 
+intellektuellen Vermögen und zu dem, was am Ende dabei herumkommt. Die fühlen sich 
+komplett ohnmächtig und denken: „Wenn ich eine gute Note hatte, dann passte die Auf -
+gabe vielleicht gerade zufällig. “
+Wie versuchst Du, das aufzufangen?
+Das erste ist auf jeden Fall zu begreifen, was Leistungsbewertung mit Kindern macht. Da 
+kann ich ansetzen und zeigen: Leistungsbewertung hat nicht den Fokus zu gucken, was ihr 
+alles nicht könnt. Leistungsrückmeldung und Feedback haben vor allen Dingen damit zu 
+tun, dass ihr euch umfassend kennenlernt, das heißt: Wo ihr gerade steht, was schon gut 
+gelingt, wie es weitergeht.
+Das zweite ist, diese ganze Beurteilungs-, Bewertungs-, Feedbacksache so transparent 
+wie irgend möglich zu machen. Kinder sollten ganz genau wissen: Was wird von mir erwar-
+tet? Was muss ich für eine bestimmte Rückmeldung oder ein bestimmtes Ergebnis tun? Je 
+transparenter das ist, umso mehr haben Kinder das Gefühl: Ich bin dieser Sache nicht 
+völlig ausgeliefert.
+Und ich versuche, Feedback aus möglichst verschiedenen Bereichen kommen zu lassen. 
+Kinder, die zum Beispiel eine Legasthenie haben, kriegen natürlich in diesem Bereich, der an 
+sehr vielen Stellen von Schule eine Rolle spielt, permanent das Feedback: „Naja, klappt halt 
+noch nicht so wie bei den anderen. “ Also muss man gut gucken, dass man genügend Feed-
+backbereiche hat, die zeigen: Hey, aber es gibt auch ganz viele Dinge, die schon gelingen.
+Außerdem arbeite ich mit einem kleinen Portfolio-Ordner. Zwischendurch, wenn zum 
+Beispiel eine Arbeit oder ein Arbeitsblatt im Unterricht richtig gut gelingt, kommt das dort 
+hinein. Das trainiert auch meinen Blick. Und darin ist auch ein Feedbackbogen mit den 
+folgenden Punkten: Das hat mir gut gefallen. Das würde ich mir das nächste Mal noch von 
+Frau Niechzial wünschen. Das habe ich gut gemacht. Hieran will ich noch weiterarbeiten. 
+Das würde ich noch wissen wollen.Hochbegabte Kinder sind nicht wie Raketen
+31
+All das ist da drin, sodass dieser Test-Moment bei den klassischen benoteten Tests nur 
+noch ein Moment von vielen ist und so dem Ganzen den Schrecken nimmt.
+Und ich baue in Klasse 1 auch die ganze Zeit kleine „Ich zeige, was ich kann“-Momente 
+ein. Wir haben einen kurzen Bogen, da wird nichts benotet, sondern nur gefragt: Wo bin ich 
+jetzt nach dieser Woche? Habe ich die Themen dieser Woche ganz gut umrissen? Damit 
+kann man sehen, an welcher Stelle die Schülerin oder der Schüler nächste Woche noch mal 
+ran muss.
+All diese Dinge greifen ineinander. Das sind so kleine Stellschräubchen, die man nach 
+und nach drehen kann. Die habe ich nicht alle auf einmal eingeführt, sondern das ist über 
+die Jahre immer ein Schrittchen weiter gegangen.
+Wenn Du einen idealen Rahmen insbesondere in Bezug auf Leistungsbewertung 
+hättest – wie würde der aussehen?
+Der ideale Rahmen kommt auf jeden Fall ohne Noten aus. Im idealen Rahmen haben wir 
+personelle und zeitliche Ressourcen, regelmäßig mit jedem Kind zu besprechen: Wo stehst 
+du gerade? Wie geht es dir gerade? Wie machen wir weiter? Wichtig ist dieser stetige ge -
+meinsame Reflexionsprozess: Ich gebe meine Beobachtung, das Kind gibt seine Beobach-
+tung. Ich glaube, dass das die Kinder am Ende wirklich kompetent macht. Dann gehen 
+Kinder nach ihrer Schulzeit raus und sagen: „Das bin ich, das kann ich, hier könnte ich 
+noch weiter üben, wenn ich möchte und daran Interesse habe. Wenn nicht: Vielleicht muss 
+ich auch nicht immer alles wollen und können. “
+Hast Du eigentlich den Eindruck, dass hochbegabte Kinder mit Themen wie 
+Beobachtung oder Selbstreflexion auf besondere Weise umgehen?
+Ich habe das Gefühl, dass hochbegabte Kinder einen Hauch mehr dazu neigen, sich selbst 
+unter Druck zu setzen und oft einen perfektionistischen Anspruch an sich haben. Je mehr 
+Sicherheit ich dann anbiete, sodass sie das Gefühl haben, sie haben wirklich eine reelle, 
+faire Chance das zu zeigen, was sie können, umso besser.
+Und was ich ganz spannend finde ist, dass es in der Tendenz hochbegabten Kindern 
+schwerfällt, über ihre Leistungen zu sprechen und auch Bezüge herzustellen, in Form von: 
+„Das habe ICH geleistet. Weil ICH etwas kann und mich angestrengt habe, ist DAS dabei 
+rausgekommen!“ Sie darin sicherer zu machen, darin steckt ein großes Potenzial.
+Du rätst im Kontext von Leistungsrückmeldung auch dazu, nicht nur die 
+Schüler:innen zur Reflexion anzuregen, sondern genauso die eigene Arbeit als 
+Lehrkraft in den Blick zu nehmen. Wieso ist das wichtig?
+Wir Lehrkräfte müssen an unserer Haltung arbeiten, wir müssen die Fehlerbrille absetzen 
+und immer wieder sagen, dass Bewertung nicht nur defizitär ist, sondern Bewertung, Rück-
+meldung und Feedback auch all das Gute in den Blick nehmen muss. In unserem Schul -
+system kommt das zu kurz und ich muss mich selbst – obwohl ich schon so weit bin in Hochbegabte Kinder sind nicht wie Raketen
+32
+diesem Prozess – immer wieder daran erinnern. Das heißt, es bleibt die ganze Zeit sehr 
+aktive Arbeit.
+Ich kann mir zum Beispiel vornehmen, ein einziges Kind mal zehn Minuten lang zu be-
+obachten und dabei zu schauen, was gerade so richtig gut gelingt. Etwa, dass er oder sie 
+ohne Murren in den Sitzkreis gekommen ist oder mit einer Aufgabe direkt angefangen hat. 
+Ein anderes Beispiel wäre, dass ich überlege, was ein Kind im Kopf eigentlich macht, wenn 
+eine bestimmte Aufgabe immer falsch gerechnet wird. Denn da steckt in 99 Prozent der 
+Fälle etwas sehr, sehr Kluges dahinter. Man muss sich selbst also immer wieder in eine of-
+fene Haltung bringen und Fehler dabei auch als Potenzial sehen.
+Immer wieder wird die „mangelhafte Aussagekraft traditioneller Leistungsbeurteilung“ 
+(1) festgestellt. Gleichzeitig hält sich die Notengebung aber recht beharrlich als ein 
+zentrales Element von Schule. Wampfler und Nolte vermuten: „Weil Lehrende Noten 
+setzen müssen und im System wesentliche Funktionen an Noten gebunden sind, 
+müssen Beteiligte ausblenden, wie problematisch die Notensetzung an sich ist“ (2). 
+Außerdem sind an die Abkehr von einem gewohnten und traditionell verankerten 
+System wie dem der Noten auch konkrete Befürchtungen gekoppelt. 
+Manchmal äußern Eltern die Sorge: „Wenn wir keine Noten mehr haben, wie soll das 
+überhaupt funktionieren? Woher weiß ich zum Beispiel, auf welche Schule das Kind 
+später gehen soll?“ Was würdest Du darauf antworten?
+Das Problem ist, dass man nicht einfach sagen kann: „Das eine Rädchen machen wir mal 
+weg und dann passt es schon. “ Dieses ganze System ist kulturell und gesellschaftlich ge -
+wachsen und greift so stark ineinander, dass es sich die ganze Zeit selbst erhält. Und dann 
+sagen Lehrkräfte: „Naja, ich könnte mir schon vorstellen, auf Noten zu verzichten, aber die 
+Eltern wollen doch Noten!“ Die Eltern wollen auch Noten, aber warum? Sicher nicht, weil 
+sie sagen: „Es ist so toll, wenn mein Kind mit einer 5 nach Hause kommt. Da freue ich mich 
+immer richtig!“
+Wenn man sagen würde: Wir machen das alles weg, diese ganzen Selektionsfunktionen, 
+wir schaffen andere Wege. Wenn wir endlich mal komplett infrage stellen würden, ob es 
+richtig sein kann, dass Kinder zitternd in Klasse 4 sitzen und Notenschnitte schaffen müs-
+sen, damit sie aufs Gymnasium gehen dürfen. Wenn sie 10 Jahre alt sind! Es gibt so viele 
+Kinder, die sich plötzlich in bestimmten Bereichen weiterentwickeln, und dann passt eine 
+kurz zuvor getroffene Schulgangsentscheidung gar nicht mehr.
+Wenn Eltern regelmäßig Rückmeldungen bekommen und einen guten Austausch mit 
+der Lehrkraft haben, wenn sie wissen, dass es andere Systeme gibt als Noten, würde kaum 
+jemand von ihnen sagen: „Ich finde diese sechs Zahlen trotzdem toll. “ Das hängt ja wirk-
+lich daran, DASS es momentan noch so ist, DASS es Schulwegsentscheidungen betrifft. 
+Und natürlich sitze ich dann als Elternteil da und denke mir: „Die Lehrkraft will jetzt auf 
+Noten verzichten, die Schule auch – ja, aber, wie soll das denn gehen?“ Diese Ängste ver-
+stehe ich. Und da müssten wir eigentlich gesamtsystemisch, wie an so vieles, ran.Hochbegabte Kinder sind nicht wie Raketen
+33
+Momentan resultiert für Dich als Lehrkraft daraus vermutlich wesentlich auch die 
+Aufgabe, Sicherheit zu vermitteln?
+Ja, zum jetzigen Zeitpunkt ist es wichtig, Eltern an die zu Hand geben, dass Noten vielleicht 
+in einem kurzen Moment Entscheidungskraft haben und natürlich auch ein BildungsUN -
+gerechtigkeitsfaktor sind, aber dass sich gleichzeitig mit einer Fünf in Mathe das Leben 
+nicht ändert. Ich bringe immer mein Zeugnis mit, einmal zum Elternabend, einmal bei den 
+Kindern, und da sind drei Fünfen drauf. Ich war versetzungsgefährdet. Und ich sage: 
+„Schaut mal, ich lebe noch!“
+Wenn Eltern sich Sorgen machen, sind das in der Regel Eltern, die ein Interesse daran 
+haben, ihre Kinder zu unterstützen, und dann kann man ganz gut beruhigen und sagen: 
+„Ja, jetzt haben wir diese Noten noch, und jetzt ist es so, aber SIE entscheiden, wie sie zu 
+Hause zu Leistung stehen. Und wenn es jetzt gerade nicht das Gymnasium ist, dann ist das 
+jetzt so. Zumal wir ohnehin infrage stellen können, ob das immer das Ziel sein muss. Blei-
+ben Sie dran, unterstützen Sie Ihr Kind gut, fangen Sie es auf. Dann ist es sehr wahrschein-
+lich, dass ziemlich viel möglich ist. “
+Es wird deutlich: Ein Blick auf Feedback und Bewertung in Schule ist zentral, wenn es 
+um Bildungs- und Begabungsgerechtigkeit geht. Und ganz praktisch gibt es viele 
+kleine Möglichkeiten, die sich für die Schaffung von konstruktiven und 
+individualisierten Formen der Leistungsbewertung nutzen lassen. Dabei sollten diese 
+einzelnen Möglichkeiten nicht isoliert betrachtet werden, sondern als Teil eines 
+Gesamtpakets – basierend auf Wissen, Haltung und Intention. Machen sich 
+Lehrkräfte auf den Weg, Schule und Unterricht mit dieser Perspektive zu gestalten, 
+tragen sie einen wichtigen Teil zu einem begabungsgerechteren Bildungssystem bei.
+Eine persönliche Frage zum Schluss: Was ist für Dich fair/Fairness?
+Es ist wichtig, sich selbst und seinen Schüler:innen bewusst zu machen, dass Fairness nicht 
+bedeutet, dass alle immer das Gleiche bekommen, sondern dass alle möglichst das bekom-
+men, was sie individuell brauchen.
+Saskia Niechzial  
+Was sagen Jugendliche dazu?
+Schulnoten sind meistens unfair und keine Repräsentation der Leistung von Schüler:in -
+nen. Es gibt viele Faktoren, die die Leistung einer Person beeinflussen, beispielsweise ist in 
+der letzten Stunde am Tag die Leistung nicht so gut wie in der ersten, aber die Schüler:in-
+nen werden trotzdem gleich bewertet. Für viele Schüler:innen ist das allgemeine Schul-
+system nicht ideal ausgelegt und ihre Stärken liegen außerhalb der Bewertungsskala.
+Milla, 17 JahreHochbegabte Kinder sind nicht wie Raketen
+34
+Zum Weiterlesen
+Miceli, N./Pauly, C. (2023): Individuelle Leistungsbewertung in der Begabungsförderung – Modelle 
+der Leistungsrückmeldung und -beurteilung. Publikationsreihe „Lernen verstehen – Kompetenzen 
+stärken“ . Stuttgart: Dr. Josef Raabe Verlag.
+Quellen
+1 Müller-Oppliger, V. (2021): Erweiterte Leistungsbeurteilung – Portfolio, Lernjournal, Kompetenzraster 
+& Co. In: Müller-Oppliger, V./Weigand, G. (Hrsg.) (2021): Handbuch Begabung. Weinheim, Basel: Beltz, 
+S. 429.
+2 Nölte, B./Wampfler, P . (2021): Eine Schule ohne Noten. Neue Wege zum Umgang mit Lernen und 
+Leistung. Bern: hep, S. 35.
+Unsere Interviewpartnerin
+Saskia Niechzial
+ist Grundschullehrkraft, Autorin und Podcasterin. Sie beschäftigt sich 
+mit Bildungsthemen wie Kommunikation, Elternzusammenarbeit, 
+Veränderung des Schulsystems und Neurodivergenz (inklusive 
+Hochbegabung).  
+(liniert-kariert.de – Schule auf Augenhöhe).
+Foto: Susann Koskowski
+Das Gespräch führte
+Dr. Claudia Pauly 
+hat Erziehungswissenschaften und Neuere deutsche Literatur studiert 
+und zum Thema E-Learning in der Erwachsenenbildung promoviert. Als 
+Projektleiterin in den Themenbereichen Schule und Digitales Lernen 
+der Karg-Stiftung liegen ihre inhaltlichen Schwerpunkte in der inklusi-
+ven Begabungs- und Begabtenförderung, im Einsatz innovativer Unter-
+richtskonzepte sowie in der Nutzung digitaler Möglichkeiten zum 
+Wissens- und Kompetenzerwerb.35
+Tanja G. Baudson
+1 In Ovids Metamorphosen war Pygmalion ein Bildhauer, der sich in eine seiner Statuen verliebte, 
+sodass die Götter Mitleid mit ihm hatten und das Objekt seiner Begierde zum Leben erweckten, 
+sodass die beiden glücklich miteinander leben konnten. Der Glaube kann also Berge versetzen 
+– und dann wird das Erhoffte vielleicht wahr.
+Wie wir Begabte besser finden können
+Persönliche Einstellungen von Lehrkräften beeinflussen, wen sie als 
+begabt wahrnehmen und wo sie Begabungen vermuten. Deshalb 
+sollten Lehrkräfte ihre subjektiven Erwartungen darüber, wie 
+Hochbegabte sind und wo man sie findet, selbstkritisch hinterfragen.
+Pygmalion geht in die Schule
+Vom „Pygmalion-Effekt“1 haben wahrscheinlich einige Leser:innen schon gehört. Die Kern-
+botschaft der Studie, die die US-amerikanischen Psychologen Robert Rosenthal und Lenore 
+Jacobson 1966 (1) publiziert haben, wird üblicherweise so oder so ähnlich kolportiert: Man 
+wählt zu Anfang des Schuljahrs zufällig eine Handvoll Grundschulkinder aus, sagt den Lehr-
+kräften, dass diese ein besonders hohes Potenzial hätten und – tadaa! – am Ende des Schul-
+jahrs zeigt sich, dass die Kinder tatsächlich intelligenter geworden sind.
+Auch wenn man berücksichtigt, dass der IQ im Kindesalter stärker schwankt als im spä-
+teren Verlauf des Lebens, verblüffen diese teilweise massiven Zugewinne. Spätere, kriti -
+schere Analysen identifizierten einige methodische Probleme der Studie – unter anderem, 
+dass der IQ zu Anfang teilweise extrem niedrig gelegen hatte, sodass Verbesserungen allein 
+schon statistisch wahrscheinlich waren. Auch wurde die Eignung des Tests für die Zielgrup-
+pe insbesondere bei den jüngeren Kindern hinterfragt; gerade die hatten besonders aus -
+geprägte IQ-Zuwächse zu verzeichnen.
+Auch nach mittlerweile mehreren Metaanalysen (Studien, die die Ergebnisse von Einzel-
+studien zusammenfassen) sind noch Fragen offen. Was feststeht: Die Originalstudie hatte 
+einige methodische Probleme. Insgesamt zeigt eine Metaanalyse von Jussim und Harber 
+(2005), dass die Auswirkungen von Lehrererwartungen gering ausfallen ( 2). Sobald Lehr-
+kräfte die Kinder länger als etwa zwei Wochen kennen, lassen sie sich nicht mehr so leicht 
+täuschen (3). Der Sozialpsychologe Lee Jussim, der sich intensiv mit dem Thema befasst 
+hat, kommt deshalb auch zu dem Schluss, dass Intelligenzsteigerungen im Wesentlichen 
+dadurch zustande kommen, dass das Urteil der Lehrkräfte über die Entwicklungsfähigkeit 
+ihrer Schüler:innen teilweise schlicht akkurat ist und nicht etwa eine sich selbst erfüllende 
+Prophezeiung.Wie wir Begabte besser finden können
+36
+Diagnostische Kompetenzen von Lehrkräften
+Den Lernstand und lernrelevante Merkmale ihrer Schüler:innen korrekt zu identifizieren, 
+ist eine der Kompetenzen, die Lehrkräfte im Laufe ihrer Ausbildung erwerben sollen. In 
+den Standards der Kultusministerkonferenz (4) ist eines der Ziele für die theoretischen Aus-
+bildungsabschnitte, dass die angehenden Lehrkräfte „Formen von Hoch- und Sonderbega-
+bungen [kennen]“. In der Praxis „erkennen [sie] Entwicklungsstände, Lernpotenziale, Lern-
+hindernisse und Lernfortschritte“ und „erkennen Begabungen und kennen Möglichkeiten 
+der Begabungsförderung“ (4, S. 11). Und das ist nur ein kleiner Ausschnitt dessen, was Lehr - 
+kräfte alles können sollen.
+In der Praxis zeigt sich: „Die“ diagnostische Kompetenz gibt es nicht. Je nachdem, wel-
+cher inhaltliche Bereich eingeschätzt werden soll und ob es um Niveau, Rangplatz oder das 
+Ausmaß an Vielfalt geht, schneiden Lehrkräfte ganz unterschiedlich gut ab (5). Und davon 
+abgesehen ist das akkurate Urteilen auch nicht jeder Lehrkraft in die Wiege gelegt. Manche 
+können das sehr gut – aber eben nicht alle. Immerhin jedoch hängen subjektive Einschät-
+zungen und tatsächliche Merkmalsausprägungen im Mittel positiv zusammen.
+Verschiedene Faktoren beeinflussen die Akkuratheit des Urteils. Gemäß einem heuris-
+tischen Rahmenmodell, das Anna Südkamp und Kolleg:innen 2012 entwickelt haben ( 6), 
+ergibt sich Urteilsakkuratheit an der Schnittstelle von Lehrkrafturteil und Schüler:innen -
+leistung. Sie hängt von Faktoren ab, die in der beurteilenden Person, in der beurteilten 
+Person, im Beurteilungsformat sowie im verwendeten Testverfahren liegen können. Diese 
+Faktoren können sich teilweise auch gegenseitig beeinflussen, etwa wenn bestimmte Lehr-
+kräfte Schüler:innen mit bestimmten Merkmalen systematisch über- oder unterschätzen.
+Wie gut erkennen Lehrkräfte Begabung?
+Bei der Metaanalyse von Südkamp et al. ( 6) ging es um die Leistung – und die erkennen 
+Lehrkräfte recht gut: Die mittlere Korrelation ist mit .63 als hoch einzustufen. Praktisch 
+bedeutet das, dass etwa 40 % der Unterschiede in der Lehrkrafteinschätzung auf Unter -
+schiede in der tatsächlichen Leistung zurückgehen – von einer perfekten Einschätzung ist 
+das allerdings noch ein Stück weit entfernt.
+Aber wie sieht es nun aus, wenn wir uns das Potenzial anschauen – oder zumindest das, 
+was näher dran liegt als die Schulleistung, nämlich den IQ? Hier gibt eine weitere Metaana-
+lyse von Machts und Kolleg:innen (2016) Aufschluss (7): Die Korrelation zwischen objektiv 
+gemessener und von Lehrkräften eingeschätzter Intelligenz liegt mit .50 etwas niedriger 
+als die zwischen Leistung und Lehrkrafteinschätzung. Das bedeutet, dass 25 % der Leis -
+tungsunterschiede auf Unterschiede in der Intelligenz zurückgehen, also 75 % andere Ursa-
+chen haben. Und wenn es darum geht, Hochbegabung direkt einzuschätzen, liegt der Zu-
+sammenhang im Mittel sogar nur bei etwa .36; lediglich 13 % der Unterschiede in der 
+Hochbegabungseinschätzung beruhen also auf Intelligenzunterschieden2. Schon das Mar-
+2 Diese sogenannte „Varianzaufklärung“ , also der Anteil an Unterschieden in der vorhergesagten Variable, 
+der durch die vorhersagende Variable erklärt wird, berechnet sich aus dem Quadrat der Korrelation.Wie wir Begabte besser finden können
+37
+burger Hochbegabtenprojekt konnte zeigen, dass Lehrkräfte Hochbegabte nur dann erken-
+nen, wenn ihre Leistungen erwartungsgemäß ausfallen – hochbegabte Underachiever ha -
+ben faktisch kaum Chancen, dass ihre Begabung erkannt wird (8).
+Was beeinflusst die Urteilsgenauigkeit?
+Zu dieser Frage liefert der Übersichtsartikel von Urhahne und Wijnia (2021) zahlreiche Er-
+kenntnisse, von denen ich einige exemplarisch referieren möchte (9): Aufseiten der Schü-
+ler:innen hat das Geschlecht einen eher geringen direkten Einfluss auf die Genauigkeit des 
+Urteils. Der Einfluss ist möglicherweise ein indirekter, weil Mädchen in der Regel ein ange-
+passteres und somit für die Lehrkraft wünschenswerteres Verhalten zeigen. Die Befunde 
+zur Ethnie und zum sozioökonomischen Status sind uneinheitlich. Möglicherweise liegt 
+dies aber auch daran, dass Lehrkräfte Minderheiten in ihrer Klasse besonders im Blick 
+ haben und deshalb sogar akkurater beurteilen. Hübsche Kinder werden positiver beurteilt, 
+aggressive und hyperaktive eher negativer. Interessanterweise scheint auf Lehrerseite die 
+quantitative Berufserfahrung kaum einen Einfluss auf die Urteilsakkuratheit zu haben. 
+ Intelligentere Lehrkräfte scheinen jedoch genauer zu urteilen.
+Aus den USA stammen Studien, die sich mit der Repräsentation von Schüler:innen un-
+terschiedlicher Ethnien in Begabtenförderprogrammen befasst haben. Hier zeigt sich seit 
+Jahrzehnten ein ungebrochener Trend der Unterrepräsentation insbesondere Schwarzer 
+Jungen3 in Begabtenförderprogrammen, oft bei gleichzeitiger Überrepräsentation in son -
+derpädagogischen Fördermaßnahmen. Ähnliches lässt sich für Hispanics beobachten (10). 
+Ursachen sehen die Autor:innen der Übersichtsstudie in unzureichend kultursensiblen Zu-
+gangsverfahren und in einem Defizitfokus des überwiegend weißen und weiblichen päda-
+gogischen Personals, das Abweichungen von der eigenen Norm als problematisch begreift.
+Die Rolle von impliziten Theorien über Hochbegabte
+Im Gegensatz zu den objektiveren, in der Regel gut operationalisierten expliziten Theorien, 
+wie wir sie aus der Wissenschaft kennen, spielen die sogenannten „impliziten Theorien“ – 
+subjektive Zusammenhänge – im Alltag für das praktische Handeln eine deutlich wichtige-
+re Rolle. In Deutschland herrscht ein Bild von Hochbegabten vor, das ihnen einerseits eine 
+höhere Leistungsfähigkeit zuschreibt, andererseits aber geringere soziale Kompetenzen 
+und emotionale Stabilität als durchschnittlich Begabten.
+Auf die Gesamtgruppe der Hochbegabten bezogen stimmt ersteres: Hochbegabte sind 
+im Mittel leistungsstärker als durchschnittlich Begabte (wenngleich es natürlich auch 
+hochbegabte Underachiever und durchschnittlich begabte Overachiever gibt – Ausnahmen 
+bestätigen die Regel). Für die angeblich geringeren sozialen und emotionalen Fähigkeiten 
+Hochbegabter gibt es indes keine empirischen Anhaltspunkte. Gleichwohl zeigen diverse 
+Studien, wie Menschen Hochbegabte einschätzen (z.  B. 11, 12, 13, 14, 15) sowie Unter -
+3 „Schwarz“ wird in diesem Zusammenhang groß geschrieben, um zu betonen, dass es sich um ein 
+soziales Konstrukt handelt, mit dem viel mehr verbunden ist als „nur“ eine Hautfarbe ( 20).Wie wir Begabte besser finden können
+38
+suchungen zur medialen Darstellung Hochbegabter (z.  B. 16), dass diese Zuschreibungen 
+stark sind: Eine Repräsentativstudie (13) zeigte, dass zwei Drittel der deutschen Erwachse-
+nen dieses „disharmonische“ Bild von Hochbegabten haben, nur ein Drittel eines, das mit 
+der Forschungslage übereinstimmt.
+Das hat Folgen für die Betroffenen, die das Etikett „hochbegabt“ teilweise sogar als 
+stigmatisierend wahrnehmen und entweder versuchen, bloß nicht in den Verdacht zu ge -
+raten, sie könnten besonders begabt sein, oder sich aber in einer Art „Flucht nach vorn“ 
+das Label zu eigen machen, um das Klischee zu erfüllen (vgl. 17 sowie die mittlerweile 
+zahlreichen Untersuchungen von Jennifer Cross, Tracy Cross und Kolleg:innen zum stigma 
+of giftedness ). Wie es kommt, dass allein schon die Zugehörigkeit zu einer stigmatisierten 
+Gruppe negative Auswirkungen auf die psychosoziale Gesundheit hat, erklärt das Minori -
+tätenstressmodell (18): Zusätzlich zum „normalen“ Alltagsstress erfahren Angehörige stig-
+matisierter Minderheiten „distalen“ Stress durch Vorurteile und Diskriminierung in der 
+Gesellschaft und „proximalen“ Stress dadurch, dass sie die Fremdsicht verinnerlichen und 
+so ein negatives Selbstbild entwickeln. Dass Letzteres bei Mitgliedern eines Hochbegabten-
+vereins abhängig vom Grad der Identitätsentwicklung ist, konnten Baudson und Ziemes 
+zeigen (19): Wer seine Hochbegabung als Teil seiner komplexen Gesamtpersönlichkeit be-
+greift, hat nicht nur ein positiveres Bild von Hochbegabten, sondern ist insgesamt auch 
+glücklicher und zufriedener. Die Zeit heilt also vielleicht nicht alle Wunden – aber immer-
+hin ein paar.
+Fazit
+Lehrkräfte vermuten bei Hochbegabten öfter soziale und emotionale Probleme. Sie erken-
+nen Hochbegabte vor allem dann, wenn sie „funktionieren“ – das heißt, wenn sie Leistun-
+gen erbringen, die zu ihrem hohen Potenzial passen, und sich auch sonst einigermaßen 
+benehmen – und wenn sie mit den subjektiven Vorstellungen übereinstimmen, die Lehr -
+kräfte von Hochbegabten haben. Bestimmte Gruppen werden daher schlechter erkannt 
+und/oder fehldiagnostiziert: Hochbegabte Schwarze Schüler werden beispielsweise eher 
+pathologisiert, als dass ihre Begabung erkannt wird; bei „twice-exceptional“-Schüler:innen 
+liegt der Interventionsfokus deutlich stärker auf den Defiziten als auf der Ressource Hoch-
+begabung.
+Fehleinschätzungen haben Folgen: für die Frage, wer als mutmaßlich hochbegabt er -
+kannt wird (in der Regel die gut funktionierenden Hochleister:innen aus den mittleren und 
+höheren gesellschaftlichen Schichten) und somit überhaupt eine Chance auf Förderung 
+erhält, aber auch für die hochbegabten Individuen selbst. Denn wenn zwei von drei Perso-
+nen einem hochbegabten Menschen aufgrund des Labels zu Unrecht soziale und emotio-
+nale Schwierigkeiten zuschreiben, macht das etwas mit den Betroffenen, die dann mög-
+licherweise versuchen, ihre Begabung zu verbergen oder selbst eine negative Einstellung 
+zur eigenen Begabung entwickeln – mit Folgen für das psychosoziale Wohlbefinden.
+Es lohnt sich also, in die diagnostische Kompetenz von Lehrkräften zu investieren: Was 
+sind tatsächlich valide Indikatoren für bestimmte Schüler:innenmerkmale? Was gängige Wie wir Begabte besser finden können
+39
+Stereotype? Wie komme ich meinen eigenen Urteilsverzerrungen auf die Spur? Wie bleibe 
+ich trotz allem optimistisch? Und wie gestalte ich meinen Unterricht auf Grundlage dieser 
+Erkenntnisse? Denn letztlich ist die Urteilsakkuratheit nur ein Element, das dazu beiträgt, 
+dass Kinder und Jugendliche ihr Potenzial auch umsetzen.
+Mehr Begabungsgerechtigkeit im Bildungssystem bedeutet also, ein Bewusstsein für Fak-
+toren zu schaffen, die die Begabungsentfaltung im Einzelfall be- oder sogar verhindern, und 
+diese dann anzugehen. Der englische Ausdruck „to level the playing field“ bringt es auf den 
+Punkt: Benachteiligte spielen immer bergauf und müssen viel mehr Kraft und Energie auf-
+wenden, um dieselbe Leistung zu erbringen – und niemand nimmt diese Zusatzbelastung 
+wahr. Von mehr Chancengerechtigkeit, von der Hebung der „Begabungsreserven“ , profitiert 
+die ganze Gesellschaft. Verluste müssen allenfalls diejenigen in Kauf nehmen, die von Privi-
+legien profitieren, die ihnen von vornherein niemals hätten zugestanden werden dürfen.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Fair bedeutet, dass für alle dieselben Regeln gelten und dass sich auch alle daran halten. 
+Formal ist dies durch unseren Rechtsstaat gegeben. Eine Herausforderung sind jedoch die 
+ungeschriebenen, informellen Regeln. Der Kampf für Chancengerechtigkeit setzt also ein 
+Bewusstsein für die vielen Faktoren voraus, die den Erwerb dieser Regeln behindern und so 
+das Individuum in der Entfaltung seiner Begabungen einschränken. Um Chancen zu er -
+greifen, muss man zunächst einmal verstehen, was eine echte Chance ist.
+Tanja G. Baudson
+Was sagen Jugendliche dazu?
+Die Bewertungen der Lehrer:innen sind oft geprägt von persönlichen  Meinungen über die 
+Schüler:innen.
+Außerdem haben Lehrer:innen auch Tage, an denen es ihnen schlechter geht, an denen sie 
+meistens nicht fair bewerten können.
+Karlotta, 15 Jahre
+Quellen
+1 Rosenthal, R./Jacobson, L. (1966): Teachers’ expectancies: Determinants of students’ IQ gains. In: 
+Psychological Reports,  19, S. 115–118.
+2 Jussim, L./Harber, Kent D. (2005): Teacher expectations and self-fulfilling prophecies: Knowns and 
+unknowns, resolved and unresolved controversies. In: Personality and Social Psychology Review , 9,  
+S. 131–155.
+3 Raudenbush, S. W. (1984): Magnitude of teacher expectancy effects on pupil IQ as a function of the 
+credibility of expectancy induction: A synthesis of findings from 18 experiments. In: Journal of 
+Educational Psychology , 76, S. 85–97.
+4 Kultusministerkonferenz der Bundesländer (KMK) (2004): Standards für die Lehrerbildung. 
+Bildungswissenschaften (Beschluss der Kultusministerkonferenz vom 16.12.2004 i. d. F . vom 
+16.05.2019). URL: https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschlues-
+se/2004/2004_12_16-Standards-Lehrerbildung.pdf (Abrufdatum:22.07.2025)Wie wir Begabte besser finden können
+40
+5 Spinath, B. (2005): Akkuratheit der Einschätzung von Schülermerkmalen durch Lehrer und das 
+Konstrukt der diagnostischen Kompetenz. In: Zeitschrift für Pädagogische Psychologie , 19, S. 85–95.
+6 Südkamp, A. et al. (2012): Accuracy of teachers’ judgments of students’ academic achievement:  
+A meta-analysis. In: Journal of Educational Research , 104, S. 743–762.
+7 Machts, N. et al. (2016): Accuracy of teachers’ judgments of students’ cognitive abilities:  
+A meta-analysis. In: Educational Research Review , 19, S. 85–103.
+8 Rost, D. H./Hanses, P . (1997): Wer nichts leistet, ist nicht begabt? Zur Identifikation hochbegabter 
+Underachiever durch Lehrkräfte. In: Zeitschrift für Entwicklungspsychologie und Pädagogische 
+Psychologie, 29, S. 167–177.
+9 Urhahne, D./Wijnia, L. (2021): A review on the accuracy of teacher judgments. In: Educational 
+Research Review, 32, S. 100374.
+10 Ford, D. Y. et al. (2023): Inequitable representation of Black boys in gifted and talented education, 
+advanced placement, and special education. In: Journal of Multicultural Counseling and Develop -
+ment, 51, S. 304–314.
+11 Baudson, T. G./Preckel, F . (2013): Teachers’ implicit personality theories about the gifted: An 
+experimental approach. In: School Psychology Quarterly , 28, S. 37–46.
+12 Baudson, T. G./Preckel, F . (2016): Teachers’ conceptions of gifted and average-ability students on 
+achievement-relevant dimensions. In: Gifted Child Quarterly , 60, S. 212–225.
+13 Baudson, T. G. (2016): The mad genius stereotype: Still alive and well. In: Frontiers in Psychology , 
+7, Article 368.
+14 Matheis, S. et al. (2017): Threat or challenge? Teacher beliefs about gifted students and their 
+relationship to teacher motivation. In: Gifted and Talented International , 32, S. 134–160.
+15 Preckel, F . et al. (2015): Gifted and maladjusted? Implicit attitudes and automatic associations 
+related to gifted children. In: American Educational Research Journal , 52, S. 1160–1184.
+16 Bergold, S. et al. (2021): Do mass media shape stereotypes about intellectually gifted individuals? 
+Two experiments on stigmatization effects from biased newspaper reports. In: Gifted Child Quarterly , 
+65, S. 75–94.
+17 Coleman, L. J. et al. (2021): Lived experience, mixed messages, and stigma. Handbook for 
+Counselors Serving Students with Gifts and Talents. 2. Auflage. New York: Routledge, S. 427–449.
+18 Frost, D. M. /Meyer, I. H. (2023): Minority stress theory: Application, critique, and continued 
+relevance. In: Current Opinion in Psychology , 51, S. 101579.
+19 Baudson, T. G./Ziemes, J. F . (2016): The importance of being gifted: Stages of gifted identity, their 
+correlates and predictors. In: Gifted and Talented International , 31, S. 19–32.
+20 Schearer, J./Haruna, H. (2013): Über Schwarze Menschen in Deutschland berichten. URL: https://
+isdonline.de/uber-schwarze-menschen-in-deutschland-berichten/ (Abrufdatum: 22.07.2025)
+Prof. Dr. Tanja G. Baudson
+ist Professorin für Psychologische Diagnostik, Differentielle Psychologie 
+und Psychologische Methoden an der Charlotte Fresenius Hochschule 
+in Wiesbaden, Begabungs- und Kreativitätsforscherin und Autorin 
+zahlreicher Publikationen. Neben ihrer beruflichen Tätigkeit engagiert 
+sie sich u. a. als Stiftungsrätin der Karg-Stiftung und als Vorstand von 
+Mensa in Deutschland e. V. 
+ 41
+Simone Welzien und Angelina Haupt 
+Netzwerken im Sozialraum ist Begabungsförderung
+In der Regel wünschen sich Eltern für ihr Kind das Aufwachsen in 
+einer Welt, die für jede und jeden von Anfang an gleichwertige 
+Chancen in allen Bereichen bereithält. Das gilt insbesondere für den 
+Zugang zu Bildungsangeboten. Aber was bedeutet „von Anfang an“?
+Wann beginnt Begabungsgerechtigkeit?
+Wann beginnt sie eigentlich – die Begabungsgerechtigkeit – in einem Land, in dem der 
+Bildungserfolg immer noch größtenteils vom Elternhaus abhängt? Mit dem systemischen 
+Blick lässt sich leicht erkennen, dass die Startchancen eines Menschen von Beginn der 
+Schwangerschaft an stark von Umgebungsfaktoren geprägt sind: Wo leben die werdenden 
+Eltern? Wie definiert sich ihr sozialer Status? Gibt es Unterstützersysteme im Sozialraum, 
+die junge Familien stärken, damit sie die neue Lebensphase selbstwirksam gestalten kön -
+nen? Und ganz praktisch: Wie weit ist es mit dem Kinderwagen zu einer Einrichtung, in der 
+sich junge Eltern treffen und kompetente Unterstützung und Beratung erfahren können?
+Wenn es auch banal klingt: Eine intakte Natur mit frischer Luft in einer Umgebung, in der 
+Musik, Bewegung und soziale Kontakte möglich sind, lassen die Chancen für eine spätere 
+Entfaltung von Begabung deutlich wachsen. Somit kommt dem spezifischen Sozialraum 
+eine große Bedeutung zu.
+Familie wird verstärkt als Bildungsort funktionalisiert und damit die Erwartung verbun-
+den, die Kinder – möglichst schon im Mutterleib – früh zu fördern. Damit Eltern die kom-
+plexen Anforderungen in ihrem Familienleben gelingend bewältigen können, kommt dem 
+sogenannten dritten Raum und den darin aktiv tätigen professionellen Netzwerkern eine 
+hohe Bedeutung zu.
+Netzwerken ist nichts Neues – doch ein professioneller und gezielter Aufbau zur Wis -
+sensvermittlung, der Kindern und jungen Menschen Kontakte ermöglicht, die sie in ihrem 
+persönlichen Umfeld nicht haben, stellt eine erweiterte Form der Begabungsförderung dar 
+und fördert somit Begabungsgerechtigkeit. Wir im Familienzentrum KESS (KESS steht für 
+Kinder, Eltern, Singles und Senioren) nennen das unser „Wissensnetz“ . Es steht allen 
+ Menschen im Sozialraum zur Verfügung und nicht nur „privilegierten Familien“ und er -
+möglicht eine eigenständige und selbstwirksame Persönlichkeitsentwicklung. Die darin 
+netzwerkenden Akteure können dabei auch zu „Rolemodels“ für begabte Kinder und Ju -
+gendliche werden.
+Wir möchten in diesem Beitrag aufzeigen, wie Begabungsförderung und Sozialraum 
+ineinandergreifen, sich aufeinander beziehen und ergänzen können.Netzwerken im Sozialraum ist Begabungsförderung
+42
+Sozialraum gestalten
+Was ist das eigentlich genau – der spezifische Sozialraum? Hier muss auf zwei Ebenen ge-
+dacht werden: Zunächst einmal definieren Menschen ihren Sozialraum selbst. Sie bezeich-
+nen ihn als „ihr Viertel, ihr Dorf, ihren Stadtteil, ihren Kiez“ und je länger sie dort beheima-
+tet sind, umso besser können sie ihn beschreiben, wichtige Einrichtungen und Akteure 
+benennen und umso leichter Zugang zu Unterstützersystemen erhalten. Frisch zugezoge-
+ne Familien haben es da schon schwerer.
+Auf der Verwaltungsebene definiert die öffentliche Jugendhilfeplanung den sogenann-
+ten „Sozialraum“ . Sie kennt relevante Akteure und hat den gesetzlichen Auftrag, im Bereich 
+der sogenannten Frühen Hilfen möglichst positive Umgebungsfaktoren für das Aufwach -
+sen von Kindern und Jugendlichen zu fördern.
+Ein gut aufgestellter Sozialraum ist durch Angebote in der sozialräumlichen Beratung 
+und der Familienbildung gekennzeichnet. Diese sollten jedoch Eltern aus allen Bildungs -
+schichten ansprechen. Als besonders wirksam haben sich kostenfreie und offene Familien-
+gruppen im ersten Lebensjahr des Kindes bewährt. Gekoppelt mit einer entsprechenden 
+Beratung zur Inanspruchnahme von BUT-Leistungen (Bildung-und-Teilhabe) können diese 
+dafür sorgen, dass erste positive Erfahrungen zu einem Einstieg in ein außerschulisches 
+Bildungssystem führen und so im späteren Bildungsverlauf auch kostenpflichtige Angebo-
+te als Option gesehen werden. Neben Aktivitäten in den Bereichen Musik, Kreatives oder 
+Sport können das auch außerschulische Nachhilfeangebote oder Kontakte zu ehrenamt -
+ichen Mentor:innen sein. Gerade diese individuellen Netzwerke tragen zur Entwicklung der 
+eigenen Persönlichkeit bei und lassen Interessen von Kindern und Jugendlichen sichtbar 
+werden. Und auch hier zeigt sich: Je stärker die Akteure im Sozialraum professionell unter-
+einander vernetzt sind, umso eher „fallen Kinder und Jugendliche mit besonderen Bega -
+bungen auf“ und erfahren Unterstützung.
+Mehrwert für die Weiterentwicklung im Netzwerk
+Nach Pierre Bourdieu umfasst soziales Kapital die „Gesamtheit der aktuellen und poten -
+ziellen Ressourcen, die mit der Teilhabe am Netz sozialer Beziehungen, gegenseitigen Ken-
+nens und Anerkennens verbunden sind“ (1).
+Es gibt Stadtviertel oder Orte in ländlicher Umgebung mit einer gut gewachsenen Bil -
+dungslandschaft und einem hohen „sozialen Kapital“ , aber auch Bezirke, in denen kaum 
+zivilgesellschaftliche Strukturen zu erkennen sind; Kindertagesstätten und Schulen sind 
+hier häufig die einzigen Anlaufstellen, die es der öffentlichen Jugendhilfe ermöglichen, 
+Strukturen aufzubauen. Dabei hat sich eine Erweiterung zu Familien- oder Kinderschutz -
+zentren, zu Familienstützpunkten oder -büros als wirkungsvoll erwiesen, wenn diese eine 
+zentrale Funktion in Netzwerken auf institutioneller und persönlicher Ebene einnehmen 
+(2). Das braucht Zeit, professionelles Personal und eine Haltung, die deutlich macht: „Wir 
+im Sozialraum“ sind mehr als die „Summe unserer Teile“ .
+Doch erst konstruktive Kooperationsprozesse von Institutionen lassen Netzwerke nach-
+haltig wachsen. Und das nur, wenn ein klarer Fokus auf anzustrebende Ziele gelegt wird. Netzwerken im Sozialraum ist Begabungsförderung
+43
+Und ebenso auf die zentrale Frage: Was macht uns denn selbst zu einem „nützlichen“ 
+Partner im Netzwerk?
+Wir vom Familienzentrum KESS unterscheiden in der praktischen Arbeit drei verschie-
+dene Typen von Netzwerken:
+1. Temporäre Netzwerke für die Dauer eines Projektes
+Jeder kennt sie – Netzwerkstrukturen, die aufgrund eines Projektantrages entstehen: Inner-
+halb der eigenen Organisation entsteht eine gute Idee, bei der Recherche nach Förder -
+geldern findet sich eine Projektförderung, die voraussetzt, dass mehrere Partner:innen im 
+Sozialraum ein gemeinsames Konzept einreichen.
+Im positiven Fall finden konstruktive Vorgespräche statt, die Beteiligten bringen ihre 
+jeweiligen Ressourcen ein, eine Steuerungsebene wird gebildet und ein kontinuierlicher 
+Arbeitsprozess startet, der auch über das Projekt hinaus Früchte trägt.
+Im negativen Fall finden sich Partner:innen, die jeweils nur den eigenen Vorteil erken-
+nen, die praktische Umsetzung verläuft eher schleppend und das Ergebnis steht mehr auf 
+dem Papier, als dass es in der Praxis gelebt wird.
+2. Strategische Netzwerke mit langfristiger Zielsetzung
+Ganz anders sieht es dagegen aus, wenn Netzwerke mit einer langfristigen und strategischen 
+Ausrichtung geplant werden. Um zu wissen, wer im Sozialraum zu wem und zur Verfolgung 
+welchen Zwecks passt, empfiehlt es sich, die Methode „Adlerblick“ einzusetzen und im wahrs-
+ten Sinn des Wortes „abzuheben“ und den Sozialraum aus der Vogelperspektive zu betrachten:
+• Wie gliedern sich Strukturen?
+• Wie sind soziale und wirtschaftliche Akteure miteinander verbunden?
+• Wo finden sich Ansprechpersonen in Politik und Verwaltung?
+• Welche Akteure sind im sozialen Bereich tätig?
+• Welche Ziele verfolgen diese?
+• Und wie werden sie finanziert?
+Durch die Perspektive des Adlers ergeben sich oft ganz neue Möglichkeiten: Gehören ne -
+ben den klassischen Bildungsakteuren auch Vereine, Initiativen oder die Kirchengemeinde 
+dazu, lassen sich Kooperationsverbünde wesentlich breiter aufstellen und ermöglichen Ein-
+blicke in andere soziokulturelle Kreise.
+Auch Akteure aus dem Bereich der Wirtschaft haben „soziale Anliegen“; entweder für 
+die privaten Belange des eigenen Personals oder auch im Sinne eines gemeinwesenorien-
+tierten Marketings, das die lokale Zugehörigkeit in den Mittelpunkt stellt.
+Eine häufige Fehlannahme besagt, dass Netzwerke nur mit dem Fokus auf die Bega -
+bungsförderung aufgebaut werden sollten. Doch gerade als Praktikerinnen wissen wir, dass 
+Verbünde eine gute Basis brauchen. So kann der mittelständische Handwerksbetrieb eine 
+ganz neue Bedeutung im Sozialraum erlangen, wenn er zum „Praxisort für Physik, Chemie Netzwerken im Sozialraum ist Begabungsförderung
+44
+oder Kommunikation“ wird und begabten Kindern und Jugendlichen Einblicke ermöglicht, 
+die der Öffentlichkeit nicht zur Verfügung stehen. Und vielleicht wächst daraus eine neue 
+Kooperation, die auch dem Unternehmen Vorteile bringt.
+Kooperationen setzen allerdings immer voraus, sich der eigenen Stärken bewusst zu 
+sein und eine eigene Entwicklungsstrategie erarbeitet zu haben:
+• Wohin soll sich die Organisation weiterentwickeln?
+• Welche Rahmenbedingungen gilt es zu beachten?
+• Lassen sich diese verändern?
+• Welchen Mehrwert bringen Veränderungen?
+3. „Das Grundrauschen“ – Netzwerken als Haltung
+Nennen wir es einfach „das Grundrauschen“ . Egal, wo sich Mitarbeitende innerhalb des 
+Sozialraums aufhalten – als Privatperson oder „in Funktion“ – sie werden in der Öffentlich-
+keit als Teil ihrer Organisation wahrgenommen. Jede Begrüßung, jede Meinungsbekun -
+dung, ob analog oder digital, jedwede Präsenz oder auch Nicht-Präsenz bei Veranstaltun -
+gen wird von anderen bewusst oder unbewusst wahrgenommen und bildet in Gänze die 
+Außenwirkung einer Einrichtung.
+Bezogen auf das Thema Begabungsförderung sollte Netzwerken idealerweise als Hal -
+tung verstanden werden, die sich in der professionellen Offenheit der Mitarbeitenden 
+zeigt. Diese ist als ein Teil einer „Visitenkarte“ der Institution zu verstehen und spielt eine 
+nicht unerhebliche Rolle bei der Wahl von Netzwerkpartnern. Die Aspekte Wertschätzung, 
+Ressourcenorientierung, Lösungsfokus, Eigenverantwortung und Bescheidenheit sind da -
+bei sowohl Ausgangspunkt als auch Resultat der Professionalität. Wenn es gelingt, diese 
+Grundhaltungen zu etablieren, beginnt in sozialen Systemen eine konstruktive Entwick -
+lungsspirale. In einer Organisation, die konstruktive Kooperationsprozesse auch innerhalb 
+ihrer Strukturen fördert, sollte das allen bewusst sein, wobei der Leitungsebene sicher eine 
+höhere Verantwortung obliegt als der Ebene der Mitarbeitenden.
+Bedeutung institutioneller Netzwerke
+Drei Beispiele auf unterschiedlichen Ebenen mögen verdeutlichen, welche große Bedeu -
+tung institutionellen Netzwerken zukommt:
+1. Familienzentrum KESS als lokaler Knotenpunkt des Wissens
+In unserem Familienzentrum KESS sind alle für den Sozialraum wichtigen Funktionen in -
+nerhalb unserer Organisation – gerade auch über Netzwerkkontakte – angesiedelt: Zahl -
+reiche Begegnungsangebote ermöglichen einen fußläufigen und niedrigschwelligen Kon -
+takt, qualifizierte Beratungsangebote vor Ort im kommunalen Familien- und Bildungsbüro 
+werden durch landkreisweite spezialisierte Angebote ergänzt und mit pädagogisch hoch -
+wertigen Betreuungsformaten verbunden.Netzwerken im Sozialraum ist Begabungsförderung
+45
+So ermöglichen regelmäßige Fortbildungen des Teams „Familienbildung“ in der Dia-
+gnostik entwicklungsschneller Kinder und Jugendlicher eine frühzeitige Wahrnehmung be-
+sonderer Begabungen schon im Krippen- und Kindergartenalter. Auch beim Übergang in 
+die Schule werden diese mit ihren Familien vom KESS-Beratungsteam begleitet. Als kom -
+munales Integrationsbüro ist das KESS auch für die Unterstützung von Kindern und Ju -
+gendlichen mit Migrationshintergrund und Behinderungen zuständig. Ebenso liegt der 
+Fokus auf einem interessengesteuerten Lernen und der Entfaltung von Begabungen.
+Die Netzwerke unseres Familienzentrums haben sich mittlerweile im internationalen 
+Raum weiterentwickelt. Regelmäßige Studienreisen in andere europäische Länder und 
+ gemeinsame Fachtage zum Wissenstransfer erweiterten den Horizont – auch in Bezug auf 
+die Begabungsförderung
+2. Kommunale Präventionskette in Salzgitter – analog – digital – lokal
+Gerade der Aufbau sogenannter Präventionsketten zeigt, wie Übergänge zwischen einzel -
+nen Lebensphasen gezielt und damit auch begabungsgerecht gestaltet werden können. 
+Diese benennen in jeder Lebensphase – beginnend mit der Schwangerschaft und endend 
+mit dem Übergang ins Berufsleben –, welche Akteure wo tätig und wie miteinander ver -
+netzt sind. Eine enge Kooperation zwischen den beiden kommunalen Fachbereichen – Kin-
+der, Jugend/Familie und Schule/Bildung – ist gerade für entwicklungsschnelle Kinder und 
+Jugendliche von großer Bedeutung, da Maßnahmen der Jugendhilfe häufig nicht mit Be -
+gabungsförderung in Zusammenhang gebracht werden.
+Um während des Übergangs von einer Lebensphase zur anderen einen möglichen In -
+formationsverlust zu vermeiden, wurde in der Stadt Salzgitter neben einer analogen Über-
+gangsmappe eine digitale Familien-App entwickelt seit dem 29. August 2024 online), die 
+auf Basis von FAQs arbeitet. Aus der Perspektive der Zielgruppe heraus werden Informatio-
+nen und weiterführende Kontakte vermittelt – es entsteht ein kommunales Wissensnetz: 
+Mit einem Klick lässt sich ein Termin in der Beratungsstelle anfragen, außerschulische 
+Bildungsangebote werden transparent dargestellt und Unterstützungsleistungen sichtbar.
+3. Das BEB-E-Learning-Programm vernetzt Akteure bundesweit
+Unter dem Titel „Bildungsbewegungen von Kindern und Jugendlichen begleiten“ haben 
+die Autorinnen ein E-Learning-Programm entwickelt, das neben der Wissensvermittlung 
+rund um das Thema Begabung ganz besonders den Sozialraum in den Fokus nimmt. An -
+hand der Metapher eines U-Bahn-Plans „erfahren“ die Nutzer:innen in den Zonen „Familie“ , 
+„Pädagoge“ , „Organisation“ und „Gesellschaft“ , welche Einflussfaktoren sich wie auf die 
+Begabungsentfaltung auswirken und erhalten einen Einblick in das komplexe System der 
+Begabungsförderung. Das Programm ist über die Seite des nifbe (Niedersächsisches Insti -
+tut für frühkindliche Bildung und Entwicklung) erreichbar und wird von der Karg-Stiftung 
+gefördert.Netzwerken im Sozialraum ist Begabungsförderung
+46
+Fazit
+Fest steht: Der Sozialraum hat einen umfassenden Einfluss auf die Entfaltung von Bega -
+bungen junger Menschen. Doch wenn wir in diesem Raum genau hinschauen und bewusst 
+Wissensnetze knüpfen, die allen zugutekommen, dann können wir damit Bildungschancen 
+gezielt beeinflussen. Das gilt insbesondere für Familien mit geringem Zugang zu Informa-
+tionen und Entscheidern. Bildung braucht dabei den Beziehungskontext, und die Beglei -
+tung von Bildung muss langfristig angelegt sein. Dabei müssen auch Institutionen Verant-
+wortung übernehmen, damit diese nicht in Einzelanstrengungen verbleibt, sondern zur 
+gesamtgesellschaftlichen Aufgabe wird.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Fairness ist wie ein gut ausbalanciertes Segelboot auf dem weiten Meer. Es erfordert die 
+richtige Menge an Wind, um voranzukommen, aber auch die Möglichkeit, die Segel zu 
+setzen, um gerecht und aufrecht zu bleiben.
+Simone Welzien
+Mit Fairness ist eine mögliche individuelle Ausgewogenheit aus Gerechtigkeit sowie Akzep-
+tanz mit gutem Augenmaß, Anständigkeit und Gleichbehandlung verbunden. Dabei können 
+diese vielen Faktoren Fairness allerdings auch zu einer Herausforderung werden lassen.
+Angelina Haupt
+Was sagen Jugendliche dazu?
+Gerechtigkeit ist dehnbar. Jeder Mensch, unabhängig vom Alter, strebt nach Glück und 
+Harmonie, jedoch fällt die Umsetzung aufgrund von Entscheidungen nicht hundertpro -
+zentig gerecht aus. Ungleichheit generell ist ungerecht. In diesem Zusammenhang ist es 
+sehr bedauerlich, dass Kinder und Jugendliche beim Schulstart sowie -verlauf aufgrund 
+unterschiedlicher (persönlicher) Rahmenbedingungen nur eine vermeintliche Chancen -
+gleichheit erleben.
+Elias, 18 Jahre
+Interessante Links
+Familien-App
+www.familienzentrum-KESS.de
+E-Learning: Bildung gestalten – Begabungen fördernNetzwerken im Sozialraum ist Begabungsförderung
+47
+Simone Welzien
+ist Dipl.-Oecotrophologin, systemische Beraterin und EEC-
+Multiplikatorin, Leitung eines Familienzentrums (zu dem kommunale 
+Familien-, Senioren-, Bildungs- und Integrationsbüros gehören) und 
+Autorin für Fachpublikationen (u. a. Autorinnenteam des BEB-E-
+Learning-Programms). Sie berät großer Jugendhilfe-Träger bei 
+Planungsprozessen und ist seit 30 Jahren Kommunalpolitikerin.
+Angelina Haupt
+ist Sozialpädagogin, systemische Beraterin und Fachberaterin für 
+Kindeswohl in einem Familienzentrum. Sie arbeitet als Leitung von zwei 
+kommunalen Familienbüros und Kindergroßtagespflegestellen.48
+Kathrin Schmitt
+Gerecht verteilt?  
+Gedanken zur psychotherapeutischen Versorgung 
+von Kindern und Jugendlichen
+Im folgenden Beitrag gibt die Kinder­ und Jugendlichenpsycho­
+therapeutin Dr. Kathrin Schmitt anhand eines Fallbeispiels einen 
+Einblick in ihren Praxisalltag und geht der Frage nach, was es heißt, 
+Psychotherapieplätze gerecht zu verteilen.
+In der Warteschleife: auf der Suche nach einem Therapieplatz
+Ein typischer Montagmorgen: Praxisräume aufschließen, schnell einen Kaffee machen und 
+den Computer hochfahren, um die E-Mails vom Wochenende zu checken. Wie immer suchen 
+gleich mehrere Familien händeringend einen Therapieplatz für ihr Kind. Einige E-Anfragen 
+schildern ausführlich die Problemlage, andere sind knapp gehalten, auf das Wesentliche 
+ reduziert. Die Kernbotschaft ist immer dieselbe: „Wir brauchen Hilfe. Und das am besten 
+sofort. “
+Ich bemühe mich stets, Hilfesuchenden so zeitnah wie möglich zu antworten – viel zu 
+oft mit folgenden Worten: „Leider kann ich aktuell keine neuen Patient:innen aufnehmen. 
+Ich führe eine Warteliste, muss jedoch darauf hinweisen, dass es mehrere Monate dauern 
+wird, bis ich mit neuen Therapien starten kann … “
+Durch den regelmäßigen Austausch mit anderen Therapeut:innen, weiß ich, dass es in 
+fast jeder psychotherapeutischen Praxis für Kassenpatient:innen derzeit ähnlich düster aus-
+sieht, was die Wartezeiten anbelangt. Globale Krisen wie die Corona-Pandemie, der fort -
+schreitende Klimawandel, die Kriegsgeschehnisse in und außerhalb von Europa hinterlassen 
+zunehmend psychische Spuren bei Jung und Alt. Es überrascht daher nicht, dass über die 
+letzten Jahre die Nachfrage nach psychotherapeutischen Behandlungen stark gestiegen ist.
+Mangelware Therapieplätze
+Therapieplätze sind vor diesem Hintergrund mehr denn je Mangelware. Ernüchternd ist 
+das. Kommen klinische Studien, die sich mit der Wirksamkeit von Psychotherapien ausein-
+andersetzen, doch alle zu einem ähnlichen Ergebnis: Je länger Hilfebedürftige auf einen 
+Therapiebeginn warten müssen, desto höher ist das Risiko einer Chronifizierung. Gerade in 
+der Arbeit mit Kindern und Jugendlichen wiegt diese Tatsache besonders schwer, denn Ent-
+wicklungsschritte, die in der Kindheit und Adoleszenz einmal verpasst sind, lassen sich 
+oftmals nicht so einfach nachholen.Gerecht verteilt? Gedanken zur psychotherapeutischen Versorgung von Kindern und Jugendlichen
+49
+Kurz vor Feierabend checke ich erneut meinen E-Mail-Account. Eine Mutter, der ich am 
+Morgen den Hinweis auf die Warteliste geschickt habe, antwortete: „Wir haben uns schon 
+gedacht, dass Sie unsere Tochter Anna nicht direkt zur Behandlung aufnehmen können. 
+Da wir uns gezielt auf die Suche nach einer Therapeutin gemacht haben, die sich mit dem 
+Themenfeld Hochbegabung auskennt, nehmen wir wohl oder übel auch etwas längere 
+Wartezeiten in Kauf. “
+Ich schlage einen Termin für ein unverbindliches Erstgespräch vor. So können Anna und 
+ich uns gegenseitig kennenlernen. Auch kann ich mir vor der Vergabe eines Wartelisten -
+platzes ein genaueres Bild von Annas aktuellen Belastungen machen.
+Chronische Unterforderung als psychischer Belastungsfaktor
+Zwei Wochen später sitzt Anna mit ihrer Mutter auf meiner Praxiscouch. Die Zwölfjährige 
+wirkt nervös. Nach einem kurzen Smalltalk steige ich sachte in die Exploration ein: „Ich 
+würde gerne mehr darüber erfahren, was Dich genau in meine Praxis geführt hat?“ Nach 
+ein paar Sekunden Stille beginnt die Mutter auszuführen: „Wir wissen, dass es viele Kinder 
+gibt, denen es in und außerhalb der Schule noch viel schlechter geht als unserer Anna. 
+Anna hat ja eigentlich Glück mit ihrer hohen Intelligenz. Und von den Noten her läuft es 
+nach wie vor prima. Trotzdem haben wir das Gefühl, dass es ihr schon seit Längerem nicht 
+gut geht und es ihr helfen würde, mal mit jemand Außenstehendem zu reden. “
+Ich lächle Anna aufmunternd an und frage nach: „Anna, kannst Du mal versuchen, mit 
+eigenen Worten zu beschreiben, warum es Dir zurzeit nicht so gut geht?“ Erst zögerlich 
+und dann immer offener beschreibt Anna ihren Schulalltag in der 7. Klasse eines Gymna -
+siums. Laut und chaotisch gehe es in vielen Schulstunden zu. Zwei ihrer Lehrerinnen seien 
+in diesem Halbjahr krankheitsbedingt für gleich mehrere Wochen ausgefallen. In ihrer Klas-
+se mit 28 Schüler:innen falle es Anna zunehmend schwer, sich auf den Unterricht zu kon-
+zentrieren. Sie mutmaßt selbst, dass dies damit zusammenhängen könne, dass es ihr oft 
+viel zu langsam vorangehe mit dem Unterrichtsstoff.
+Der Leistungsstand der Klasse sei für ein Gymnasium „erschreckend niedrig“ , führt 
+ Annas Mutter aus, was sicherlich auch Folge des coronabedingten Unterrichtsausfalls sei. 
+„Heutzutage Lehrer zu sein, ist nicht einfach. Bei fast dreißig Kindern in einer Klasse kann 
+nicht immer auf jeden eingegangen werden. Aber so langsam machen wir uns Sorgen, dass 
+Anna mit ihren Bedürfnissen so gar nicht gesehen wird. “
+In der Grundschule sei das noch anders gewesen. Hochmotiviert sei Anna, die bereits 
+vor der Einschulung flüssig gelesen und im Hunderterraum gerechnet habe, damals ge -
+wesen. Die Klassenlehrerin hätte sich von Beginn an große Mühe gegeben, Anna durch 
+„Spezialaufgaben“ hinreichend zu fördern. „Jetzt macht sich an der Schule leider niemand 
+mehr groß Gedanken darüber, wie man Anna etwas mehr fördern kann. Diese endlosen 
+Wiederholungen sind für Anna vor allem in ihrem Lieblingsfach Mathematik eine Qual. 
+Und auch in Deutsch und Englisch zieht sich der Unterricht wie Kaugummi. “Gerecht verteilt? Gedanken zur psychotherapeutischen Versorgung von Kindern und Jugendlichen
+50
+Hochbegabt, überangepasst … und depressiv?
+Was macht das psychisch mit Anna, möchte ich wissen. Anna berichtet: „Wenn ich abends 
+im Bett liege und an den nächsten Schultag denke, bekomme ich Bauchschmerzen. 
+Manchmal möchte ich morgens gar nicht aufstehen und lieber zu Hause bleiben. “ Die 
+Mutter ergänzt, dass Anna oftmals bedrückt wirke und bei Kleinigkeiten anfange zu wei -
+nen. Anna habe auch immer seltener Verabredungen am Nachmittag und ziehe sich mehr 
+und mehr zurück. In meinem Kopf formuliere ich erste Verdachtsdiagnosen. Zusammen -
+genommen könnten die von Mutter und Tochter geschilderten Symptome durchaus An -
+zeichen einer beginnenden Depression sein. Den Lehrkräften sei Annas negative Entwick-
+lung jedoch bislang nicht aufgefallen. „Anna gehört ja nach wie vor zu den Leistungsträgern 
+der Klasse. Immer höflich und ruhig. Überangepasst. Als ich beim Elternsprechtag ihrem 
+Klassenlehrer gegenüber vorsichtig angedeutet habe, wie es Anna geht, zeigte er sich über-
+rascht und mitfühlend. Gleichzeitig hat er uns wenig Hoffnung auf Änderung gemacht. Es 
+gäbe da im Klassenverband zu viele andere Kinder, die eine individualisierte Ansprache 
+noch viel dringender benötigten als Anna. “
+Die Schilderungen von Anna und ihrer Mutter lösen vielfältige Gefühle in mir aus. Ver-
+setze ich mich in Annas Lage, dann spüre ich Frust und eine zunehmende Schulunlust. Die 
+Sorgen von Annas Mutter kann ich gut nachempfinden. Es ist belastend zu beobachten, 
+wie die eigene Tochter immer stärker in Passivität verfällt. Aber auch in Annas derzeitigen 
+Klassenlehrer kann ich mich ohne viel Mühe hineinversetzen.
+Begabungsgerechtigkeit im Schulalltag
+Ich habe in meiner Praxis eine ganze Reihe von Kindern in Behandlung, die aufgrund ver-
+schiedenster Notlagen in ihrer Klasse ein „Störverhalten“ an den Tag legen, laut und auf-
+müpfig werden und leistungsmäßig weit unter dem Klassendurchschnitt bleiben. Solche 
+Kinder binden im Unterrichtsgeschehen fast zwangsläufig mehr Aufmerksamkeit als eine 
+„überangepasste“ Anna. Von Kindern wie Anna zu erwarten, im Schulalltag dann eben ein-
+fach „mitzulaufen“ , ist jedoch alles andere als fair. Begabungsgerechtigkeit in der Unter-
+richtspraxis hieße, die unterschiedlichen Lernbedürfnisse aller Schüler:innen gleicherma -
+ßen ernst zu nehmen. Werden die Bedürfnisse hochbegabter Schüler:innen dauerhaft 
+übergangen, kann das auch für sie ernste Folgen für ihre Entwicklung und psychische Ge-
+sundheit haben. Schon oft habe ich es in meiner psychotherapeutischen Arbeit mit hoch-
+begabten Kindern wie Anna hautnah erleben können, dass eine fortwährende kognitive 
+Unterforderung eine signifikante psychische Belastung nach sich zieht.
+Ressourcenverteilung in der Schule und in der Psychotherapie
+Angesichts der schlechten (personellen) Ausstattung von Schulen ist es für Lehrkräfte si -
+cher schwierig, immer begabungsgerecht zu handeln. Das ist für alle Beteiligten mehr als 
+frustrierend – vor allem für die betroffenen Schüler:innen. In den Sitzungen mit meinen 
+Patient:innen muss ich als Therapeutin zum Glück nicht strategisch planen, wie ich meine Gerecht verteilt? Gedanken zur psychotherapeutischen Versorgung von Kindern und Jugendlichen
+51
+Aufmerksamkeit verteile. Anders als im Regelschulbetrieb habe ich in der Einzeltherapie 
+einen vergleichsweisen großen Spielraum, individuell auf die Bedürfnisse der Kinder und 
+Jugendlichen einzugehen. So kann ich mir zu Anfang eines jeden Therapieprozesses aus -
+reichend Zeit für den Beziehungsaufbau nehmen und dann ein möglichst individualisier -
+tes Therapieprogramm konzipieren.
+Dennoch treiben auch mich in meinem Berufsalltag Fragen der Verteilungsgerechtig -
+keit um. Denn auch ich kann nur eine begrenzte Anzahl an Therapieplätzen anbieten. 
+Denn es gibt schlichtweg nicht genügend Therapieplätze. Um meine verfügbaren Behand-
+lungskapazitäten möglichst „gerecht“ zu verteilen, muss ich mitunter abwägen, ob die 
+Anliegen potenzieller Neupatient:innen „klinisch bedeutsam“ sind. Oder zugespitzt: ob es 
+den mir vorgestellten Kindern und Jugendlichen „schlecht genug“ für eine Therapie geht.
+Mehr Mittel für Prävention bereitstellen
+Es ist in meinen Augen ein Missstand, dass im psychotherapeutischen Setting Präventions-
+maßnahmen kein größerer Stellenwert zugeschrieben werden kann. Oftmals beginnen Be-
+handlungen deshalb viel zu spät. Auch Anna muss ich nach unserem Erstgespräch erst 
+einmal wieder nach Hause schicken. Ich setze sie auf die Warteliste und werde in einigen 
+Monaten erneut Kontakt mit ihrer Familie aufnehmen. Dann kann ich mit einer umfassen-
+den Diagnostik starten, um zu überprüfen, ob bei Anna tatsächlich eine Depression oder 
+eine andere psychische Störung vorliegt.
+Zu welchem Ergebnis ich hierbei kommen werde, bleibt abzuwarten. Grundsätzlich lässt 
+sich jedoch festhalten, dass die Schule einen bedeutsamen Einfluss auf die psychische 
+Gesundheit von Kindern und Jugendlichen hat. Und auch eine chronische Unterforderung 
+gehört dabei zu den Risikofaktoren. So hoffe ich für Anna, dass man in ihrer Schule trotz 
+aller Mittelknappheit vielleicht doch noch Möglichkeiten findet, besser auf ihre Begabung 
+einzugehen, sodass sie auch ohne eine Therapie wieder mit mehr Freude und Motivation 
+ihren Alltag erleben kann.
+Eine persönliche Frage zum Schluss: Was ist für Sie Gerechtigkeit?
+Was ist Gerechtigkeit? Wenn ich an meinen aktuellen psychotherapeutischen Arbeitsalltag 
+denke, dann fällt mir zu dieser Frage sofort ein, dass es gerecht wäre, wenn hier in Deutsch-
+land jede Person, die unter einer psychischen Erkrankung leidet und therapiemotiviert ist, 
+zeitnah einen Behandlungsplatz erhält. Unabhängig vom Schweregrad der Erkrankung, ob 
+die Person gesetzlich oder privat versichert ist oder ob sie auf dem Land wohnt oder in der 
+Stadt. Aktuell sieht die Realität ja leider anders aus. Aber ich gebe die Hoffnung nicht auf, 
+dass sich da gesundheitspolitisch in den kommenden Jahren vielleicht doch noch etwas 
+ändert.
+Kathrin SchmittGerecht verteilt? Gedanken zur psychotherapeutischen Versorgung von Kindern und Jugendlichen
+52
+Was sagen Kinder dazu?
+Gerecht ist, wenn sich um alle Kinder gleich gut gekümmert wird. Wenn zum Beispiel auf 
+einer Geburtstagsfeier ein Kind ganz viele Muffins bekommt und ein Kind kriegt gar keinen 
+Muffin, dann ist das sehr ungerecht.
+Layla, 5 Jahre
+Zum Weiterlesen
+Pressestelle der Universität Leipzig (2022): Wartezeiten für Therapie stark verlängert – Schlechtere 
+Qualität der Versorgung. Studie: Kinder von Pandemie besonders hart betroffen.  
+URL: https://kurzlinks.de/5z2l (Abrufdatum: 22.07.2025)
+Robert Bosch Stiftung (o. J.): Monitor Bildung und Psychische Gesundheit (BiPsy-Monitor).  
+URL: https://kurzlinks.de/nry5 (Abrufdatum: 22.07.2025)
+Deutsche Gesellschaft für Kinder- und Jugendpsychiatrie, Psychosomatik und Psychotherapie (2023): 
+Offener Brief an Bundesgesundheitsminister Prof. Lauterbach. URL: https://kurzlinks.de/bsfx 
+(Abrufdatum: 22.07.2025)
+Dr. Kathrin Schmitt
+ist Diplom-Psychologin und ausgebildete Kinder- und Jugendlichen-
+psycho  therapeutin mit einer verhaltenstherapeutischen Ausrichtung.  
+In ihrer Praxis in Berlin bietet sie psychotherapeutische Behandlungen 
+im Einzel- und Gruppensetting für Kinder, Jugendliche und junge 
+Erwachsene an. Darüber hinaus ist sie regelmäßig als Dozentin und 
+Supervisorin tätig. 53
+Nicole Miceli
+Schulentwicklung als Motor für mehr 
+Begabungsgerechtigkeit
+Ein systematischer Schulentwicklungsprozess kann dazu beitragen,  
+dass Kinder und Jugendliche interessengeleitet lernen und ihre 
+Begabungen entfalten können. Der folgende Blogbeitrag zeigt  
+anhand eines Fallbeispiels auf, wie Organisations­, Personal­ und 
+Unterrichtsentwicklung hierfür ineinandergreifen sollten.
+Warum ein begabungsfördernder Schulentwicklungsprozess?
+Kinder und Jugendliche in ihren persönlichen Lern- und Entwicklungsprozessen zu unter -
+stützen, ist ein Anliegen, das sicherlich alle Lehrkräfte antreibt. Und auch die meisten 
+ Eltern wünschen sich eine individuelle Förderung ihres Kindes. Besonders Eltern von Kin -
+dern mit hohen Begabungen sind für dieses Thema vermutlich sehr sensibilisiert. Auch die 
+UN-Kinderrechtskonvention von 1989 unterstreicht in Artikel 29, dass die Förderung von 
+Begabungen ein Recht aller Kinder und Jugendlichen ist. Dennoch stellt die Umsetzung 
+dieser Forderung heute für viele Schulen und Lehrkräfte immer noch eine Herausforde -
+rung dar (1).
+Neben der Knappheit von zeitlichen Ressourcen und voller Curricula führen unter -
+schiedliche institutionelle Hürden, beispielsweise die Orientierung an einer Klassennorm, 
+zu wenig gelebte Kultur- und Sprachsensibilität, Stereotypisierungen oder zu wenig Berück-
+sichtigung individueller Lernzugangsvoraussetzungen dazu, dass die Potenziale von Schü-
+ler:innen nicht immer gefördert werden und sie diese nicht voll entfalten können ( 2, 3, 4, 
+5, 6, 7).
+Wie aber kann Unterricht aussehen, wenn er begabungsfördernd gestaltet wird und wie 
+trägt eine begabungsfördernde Schulentwicklung zu mehr Bildungsgerechtigkeit bei? 
+Schauen wir uns hierzu zunächst ein Fallbeispiel an:
+Fallbeispiel
+Ein Blick in den Klassenraum der 5. Klasse eines Gymnasiums irgendwo in Deutschland am 
+Montagmorgen zeigt, dass Linus und Mara tief über ein Plakat gebeugt zusammensitzen 
+und leise diskutieren, wie sie die Informationen einer Rechercheaufgabe aufbereiten wol-
+len. Ucan, Leo und Sila sind in Aufgaben ihres individuellen Wochenplans vertieft, während 
+Cleo und Emma im Lernlabor einer Forschungsfrage nachgehen. Kerim und Meike sitzen 
+mit der Lehrkraft zusammen und besprechen mit ihr die Ergebnisse eines Experiments, Schulentwicklung als Motor für mehr Begabungsgerechtigkeit
+54
+das sie im Rahmen einer Projektarbeit durchgeführt haben. Mara besucht im Klassenzim-
+mer nebenan bereits den Physikunterricht der 6. Klassenstufe.
+Schulentwicklung in der Praxis
+Das Fallbeispiel zeigt eindrücklich, dass der Unterricht in einem Gymnasium an die indivi-
+duellen Lernbedürfnisse und -voraussetzungen der einzelnen Schüler:innen angepasst ist. 
+Damit ein solch individualisierter Unterricht möglich ist, hat sich das Gymnasium vor eini-
+gen Jahren auf den Weg eines begabungsförderlichen Schulentwicklungsprozesses ge -
+macht.
+Zunächst hat das Kollegium gemeinsam mit den Schüler:innen und deren Eltern eine 
+Situationsanalyse durchgeführt und ist den Fragen nachgegangen, welche begabungsför -
+dernden Maßnahmen die Schule bereits implementiert hat und welche Wünsche es für die 
+Zukunft noch gibt (8). Anschließend wurden anhand des „Drei-Wege-Modells“ von Rolff (9) 
+verschiedene Maßnahmen der Schulentwicklung eingeleitet.
+Schulentwicklung nach dem Drei-Wege-Modell
+Der Schulentwicklungsforscher Hans-Günter Rolff hat in seinem „Drei-Wege-Modell der 
+Schulentwicklung“ gezeigt, dass bei einem Schulentwicklungsprozess verschiedene Ebe -
+nen ineinandergreifen und sie sich – ähnlich wie in einem Zahnrad – gegenseitig bedingen:
+• Ebene der Organisation: Hiermit sind alle Aspekte gemeint, die sich auf der 
+ Ebene der Organisation Schule bewegen, unter anderem die organisatorischen 
+ Abläufe, Kommunikationswege, aber auch das Schulprogramm oder das Leitbild 
+der Schule.
+• Ebene des Unterrichts: Diese Ebene umfasst alle Entscheidungen, die den Unter-
+richt betreffen, etwa die Öffnung des Unterrichts, die Veränderung der Lernkultur 
+oder des Fachlernens, das Einführen eines Methodentrainings oder Maßnahmen 
+zur Steigerung der Selbstlernfähigkeit der Schüler:innen.
+• Ebene der Personalentwicklung: Im Kontext der Personalentwicklung stehen alle 
+Maßnahmen, die zum Aufbau der Kompetenzen im Kollegium unternommen wer-
+den. Hierzu können individuelle Fortbildungsangebote, zum Beispiel zum Thema 
+Begabungs- und Begabtenförderung, zu Feedbackgesprächen oder Zielvereinba-
+rungen zählen. Auch Hospitationen, kollegiale Fallberatungen sowie Supervisions- 
+und Coachingangebote können Teil der Personalentwicklung sein (9). 
+Um einen begabungsfördernden Schulentwicklungsprozess zu beginnen, sollten auf allen 
+Ebenen konkrete Maßnahmen der Entwicklung identifiziert und ergriffen werden (9, 10).
+Im folgenden Abschnitt schauen wir uns an, wie das Modell in dem Gymnasium aus 
+dem Fallbeispiel umgesetzt wurde.Schulentwicklung als Motor für mehr Begabungsgerechtigkeit
+55
+Wie gestaltet sich die konkrete Umsetzung im Schulalltag des Gymnasiums?
+Das Gymnasium hat durch die Auswertung der Situationsanalyse erkannt, dass vielen 
+Schüler:innen die Möglichkeit fehlt, innerhalb des Unterrichts interessengeleitet zu lernen 
+und Wissen zu vertiefen. Auch außerhalb ihrer Schule bleibt einigen von ihnen diese Op -
+tion verwehrt, unter anderem aufgrund mangelnder finanzieller Ressourcen oder Unter -
+stützung. Gemeinsam wurde im Kollegium daher beschlossen, dass ein Lernlabor einge -
+richtet werden soll, damit alle Kinder und Jugendlichen eigenen Themen und Forschungs-
+fragen nachgehen können. Im Anschluss wurden die drei Ebenen der Schulentwicklung 
+betrachtet, gemeinsam überlegt, was auf welcher Ebene für die Einrichtung des Lernlabors 
+notwendig ist und entsprechende Fragen gestellt:
+• Ebene der Organisationsentwicklung: Wie kann den Schüler:innen der Zugang 
+zum Lernlabor ermöglicht werden? Woher kommen die finanziellen Mittel für  
+die Materialien? Wie kann das Lernlabor barrierefrei gestaltet werden? Welchen 
+ Beitrag leistet das Lernlabor, damit unsere Schule noch bildungsgerechter wird?
+• Ebene der Unterrichtsentwicklung: Wie können die Schüler:innen an das 
+ Forschende Lernen herangeführt werden? Welche Möglichkeiten gibt es, um 
+Sprachbarrieren zu umgehen? Wie können Aufgaben und Hilfestellungen gestaltet 
+werden, damit alle Kinder und Jugendlichen zu ihrem jeweiligen Lern- und Ent-
+wicklungsstand passend erreicht werden?
+• Ebene der Personalentwicklung: Wer aus dem Kollegium hat vertiefte Kenntnisse 
+zu den Themen Projektlernen und Forschendes Lernen? Gibt es Fortbildungs-
+bedarf? Welche Kompetenzen und Interessen sind bei den Lehrkräften vorhanden 
+und können durch die Arbeit in Teams des Lernlabors gefördert werden? 
+Auf dieser Grundlage wurde das neue Lernlabor der Schule eingerichtet und die Nutzung 
+Schritt für Schritt ausgebaut. Alle Schritte wurden von einer kleinen Reflexionsgruppe aus 
+Kolleg:innen sowie Schüler:innen evaluiert. Dabei wurde sich erneut an den drei Ebenen 
+der Schulentwicklung orientiert und beispielsweise auf Organisationsebene überprüft, in -
+wiefern die Öffnungszeiten passend gewählt sind. Auf der Ebene der Unterrichtsentwick -
+lung wurde danach gefragt, welche Materialien die Schüler:innen sich noch wünschen. Und 
+auf der Ebene der Personalentwicklung, inwiefern die Lehrkräfte, die das Lernlabor betreu-
+en, sich für diese Aufgabe gewappnet fühlen. Die Ergebnisse dieser Evaluation haben zu 
+einer stetigen Anpassung und Verbesserung der Organisation und Nutzung des neuen 
+Lernlabors der Schule geführt, sodass noch mehr Kinder und Jugendliche dieses Gymna -
+siums davon profitieren können.
+Fazit
+Das Beispiel des Gymnasiums zeigt, wie Maßnahmen im Rahmen der begabungsfördern -
+den Schulentwicklung einen Beitrag zu mehr Bildungsgerechtigkeit leisten können. So 
+führt im oben dargestellten Fall die Einrichtung eines Lernlabors dazu, dass alle Schüler:in-Schulentwicklung als Motor für mehr Begabungsgerechtigkeit
+56
+nen unabhängig von unterschiedlichen Heterogenitätsdimensionen (wie beispielsweise 
+Geschlecht, Sprache oder soziale Herkunft) entsprechend ihres jeweiligen Lern- und Ent -
+wicklungsstandes ihre Begabungen ausleben und Potenziale freisetzen können. Die Identi-
+fikation von Hemmnissen in der Potenzialentfaltung, die Entwicklung von Möglichkeiten, 
+wie diesen auf institutioneller Ebene begegnet werden kann, sowie ein strukturierter und 
+systemischer Schulentwicklungsprozess sind hierfür die Voraussetzung.
+Eine persönliche Frage zum Schluss:Was ist für Sie fair/Fairness?
+Im Bildungskontext bedeutet Fairness für mich, dass alle Kinder und Jugendlichen den 
+gleichen Zugang zu Möglichkeiten und Mitteln erhalten, um ihre individuellen Begabun -
+gen entfalten zu können. Der sensible Umgang mit und der Abbau von institutionellen 
+Hürden sowie die Unterstützung der Heranwachsenden entsprechend ihren jeweiligen Be-
+darfen spielt dabei eine wichtige Rolle.
+Nicole Miceli
+Was sagen Jugendliche dazu?
+In einer Schule, in der jeder lernen kann, was ihm gut liegt, wäre die Zufriedenheit höher. 
+Alle könnten zeigen, was sie interessiert, und hätten einen Ausgleich, wenn es in manchen 
+Fächern nicht so gut läuft.
+Justus, 13 Jahre
+Quellen
+1 UN-Generalversammlung (1989): UN-Kinderrechtskonvention, Artikel 29. URL: https://kurzlinks.
+de/5ufa (Abrufdatum: 22.07.2025)
+2 Miceli, N./Lotze, M./Kiso, C. (2024): Begabungsgerechtigkeit: Alle Schüler:innen mit ihren Potenzia-
+len sehen und fördern!? Frankfurt am Main: Karg-Stiftung. URL: https://www.fachportal-hochbega-
+bung.de/oid/10153/ (Abrufdatum: 22.07.2025)
+3 Miceli, N. (2023): Begabungsfördernde Schulentwicklung als Beitrag zur Bildungsgerechtigkeit. 
+Definitorische Einordnung – Gestaltung des Schulentwicklungsprozesses – Rolle der Schulleitung. In: 
+Miceli, N. (Hrsg.) (2023): Praxisbuch Begabungsfördernde Schulentwicklung. Weinheim, Basel: Beltz, 
+S. 9–23.
+4 Stamm, M. (2009): Begabte Minoritäten. Wiesbaden: Springer VS.
+5 Stamm, M. (2021): Der fehlende Blick auf begabte Minoritäten. In: Müller-Oppliger, V./Weigand, G. 
+(Hrsg.) (2021): Handbuch Begabung. Weinheim, Basel: Beltz, S. 576–587.
+6 Müller-Oppliger, V. (2021): Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In: Müller- 
+Oppliger, V./Weigand, G. (Hrsg.) (2021): Handbuch Begabung. Weinheim, Basel: Beltz, S. 32–45.
+7 Baudson, T. G. (2021): Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken. In: 
+Müller-Oppliger, V./Weigand, G. (Hrsg.) (2021): Handbuch Begabung. Weinheim, Basel: Beltz,  
+S. 115–132.
+8 Fiebeler, A. (2023): Schulentwicklung und Prozessbegleitung. In: Miceli, N. (Hrsg.) (2023): Praxis-
+buch Begabungsfördernde Schulentwicklung. Weinheim, Basel: Beltz, S. 82–92.Schulentwicklung als Motor für mehr Begabungsgerechtigkeit
+57
+9 Rolff, H.-G. (2007): Studien zu einer Theorie der Schulentwicklung. Weinheim, Basel: Beltz.
+10 Solzbacher, C./Kuhl, J. (2023): Begabung – Begriffsvielfalt, Konstrukte, Modelle. In: Miceli, N. 
+(Hrsg.) (2023): Praxisbuch Begabungsfördernde Schulentwicklung. Weinheim, Basel: Beltz, S. 26–42.
+Dr. Nicole Miceli 
+ist Projektleiterin im Team Schule der Karg-Stiftung. Im Rahmen ihrer 
+Arbeit konzipiert und leitet sie Projekte zur Qualifizierung von 
+Lehrkräften, zur Schulentwicklung und zur Netzwerkbildung im Kontext 
+der Begabungs- und Begabtenförderung. Neben der Durchführung von 
+Fortbildungen berät sie Schulen aller Schulformen bei 
+begabungsfördernden Schulentwicklungsprozessen. 58
+Oskar und Claudia Pauly
+Wenn der Kopf schneller ist als die Hand –  
+ein Interview über Hochbegabung, LRS und mehr
+In einer Sache besteht große Einigkeit – hohe Begabung bedeutet 
+hohes Potenzial. Das heißt, hochbegabte Kinder und Jugendliche 
+bringen jeweils individuelle Voraussetzungen mit, um hohe 
+Leistungen zu erbringen. Manchmal führen allerdings äußere 
+Umstände dazu, dass diese Potenziale nicht ausgeschöpft werden 
+können. Und manchmal sind es auch persönliche Dispositionen, die 
+es schwerer machen, an den eigenen Schatz von Möglichkeiten 
+heranzukommen. Dies betrifft beispielsweise Menschen, die neben 
+ihrer Hochbegabung eine Lernstörung oder AD(H)S mitbringen. Hier 
+spricht man dann auch von „twice exceptional“ , also doppelt 
+außergewöhnlich.
+Gerade im Schulsystem ist für Kinder und Jugendliche mit diesen zweifach ungewöhn-
+lichen Voraussetzungen ein begabungsgerechter Bildungsweg selten selbstverständlich. 
+Oftmals kämpfen sie nicht nur mit Schwierigkeiten im Lesen, Schreiben, Rechnen oder mit 
+der Aufmerksamkeitssteuerung, sondern auch mit Unverständnis und ungerechten Bedin-
+gungen.
+Wir haben dazu mit Oskar gesprochen. Er ist 21 Jahre alt, hochbegabt und kann als 
+„twice exceptional“ bezeichnet werden – denn er hat in seiner Kindheit zusätzlich die Dia-
+gnosen „Lese-Rechtschreibschwäche (LRS)“ und „AD(H)S“ erhalten. Inzwischen studiert er 
+und steht kurz vor dem Bachelor-Abschluss. Ohne umfangreiche Unterstützung von allen 
+Seiten wäre dies vielleicht nicht möglich geworden.
+Im Gespräch berichtet Oskar, wie er seine Schulzeit erlebt hat, was problematisch war, 
+aber auch, was ihm geholfen hat. Seine Geschichte zeigt, wie wichtig es ist, dass allen 
+Schüler:innen, egal welche Herkunft, Hautfarbe, Einschränkungen sie haben, im Schulsys-
+tem eine Chance gegeben wird, damit sie ihre Potenziale entfalten können. Potenziale, auf 
+die unsere Gesellschaft nicht verzichten kann.Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung, LRS und mehr
+59
+Oskar, kannst Du Dich erinnern, wie Du Deine Schulzeit – insbesondere in Bezug auf 
+die Hochbegabung, die LRS und die AD(H)S – erlebt hast?
+In der Grundschule hatte ich damals das Glück, dass ich eine sehr nette, mir recht wohl -
+gesonnene Klassenlehrerin hatte, die auch bei allen ein gutes Gemeinschaftsgefühl ge -
+schaffen hat. Ich hatte dort eine super Klasse mit Freunden und meine feste Clique, mit 
+der ich immer lustige Sachen gemacht habe. Privat ging es mir dort also immer recht gut.
+Nur ging es dann natürlich irgendwann los mit der LRS, und dass man das erste Mal 
+gemerkt hat: Ich schreibe schlechter als die anderen. Ich hatte auch einfach nie besonders 
+viel Spaß daran zu schreiben oder zu lesen. Außerdem hatte ich zu dieser Zeit zusätzlich 
+Probleme mit den Augen, sodass sie zum Beispiel beim Lesen nach kurzer Zeit gebrannt 
+haben. Das hat ziemlich viel Energie geraubt. Man hat die Schwierigkeiten auch daran be-
+merkt, dass meine Noten deutlich schlechter waren als die von vielen anderen. Sie waren 
+nicht katastrophal, weil meine Eltern mich wirklich sehr lieb unterstützt haben, was ich bis 
+heute auch sehr zu schätzen weiß, aber auch nicht gut. Für das Gymnasium hat es dann 
+gerade noch so gereicht – wobei meine Mutter sich auch sehr dafür eingesetzt hat.
+Die Grundschulzeit habe ich also trotz der LRS weitestgehend unbeschadet überstanden.
+Beim Wechsel auf das Gymnasium wurde es dann aber schwieriger?
+Man ist ja noch blutjung in der fünften Klasse. Dort wurde uns aber nicht das Gefühl ver -
+mittelt von: „Willkommen auf der neuen Schule! Wir wissen, das ist ein großer Schritt, 
+kommt erst mal an“ . Es war unter anderem auch deshalb sehr schwierig für mich, weil die 
+Lehrer dieses ganze Thema LRS nicht wirklich anerkannt haben. Mein Gefühl war: Die 
+wussten nicht so richtig, wie man damit umgehen soll. LRS ist natürlich ein viel komplexe-
+res Thema, als nicht schreiben zu können, und hat immer ganz verschiedene Hintergründe, 
+und das geht ja auch im Leben nie so 100 % weg, nur man kann halt lernen, damit besser 
+umzugehen. Außerdem bin ich niemand, der besonders gerne besonders viel lernt. Ich 
+glaube, meine Mutter ist manchmal ein bisschen an mir verzweifelt, weil da doch eine ge-
+wisse … Lethargie war.
+Auf sozialer Ebene lief es am Anfang zwar recht gut, aber insgesamt bin ich auf diesem 
+Gymnasium nie so richtig glücklich geworden. Die Schule gilt eher als elitär. Da war schon 
+eine hohe Dichte an Leuten, die denken können, die aber auch, ich sage mal, aus „besse-
+ren“ Elternhäusern kommen, wo du halt merkst, da ist vielleicht doch noch mal mehr Geld 
+für den Nachhilfelehrer da, was sich natürlich am Ende auch positiv auf die Noten aus -
+wirkt. Erst als ich dann später die Schule gewechselt habe, habe ich gemerkt: Schlaue 
+Leute hast du überall.
+Das erste Gymnasium war ein sehr kompetitives Umfeld, in dem gefühlt nicht akzeptiert 
+wurde, dass jemand auch mal länger für irgendetwas braucht, oder wo viele gar nicht bereit 
+waren, auch mal nach links und rechts zu gucken. Das hat bei mir irgendwann zu einer Ab-
+wehrhaltung geführt. Und weil man durch die ganzen Themen natürlich auch verunsichert 
+ist, habe ich mich immer total schnell angegriffen gefühlt, auch wenn Sachen vielleicht gar 
+nicht mal böse gemeint waren. Mittlerweile kann ich damit viel besser umgehen.Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung, LRS und mehr
+60
+Ich bin dann also zur Oberstufe an ein anderes Gymnasium und dabei von G8 auf G9 
+gewechselt. Und das war für mich die völlig richtige Entscheidung. Ich habe dort einfach 
+noch mal eine ganz neue Chance bekommen. Dort hatte ich ein sehr akzeptierendes Um-
+feld für mich und Leute, die einen mehr angenommen haben. Dort habe ich wirklich tolle 
+Freunde gefunden, die mir heute noch sehr nahestehen – die super schlau sind und jetzt 
+an tollen Unis studieren, für die es aber in Ordnung ist, wenn man Probleme mit dem 
+ Lesen oder Schreiben hat.
+Und wie lief es an der neuen Schule mit diesen Problemen?
+Das Thema LRS war wieder schwierig. Irgendwann hatten wir ein Gespräch mit dem Klas -
+senlehrer, bei dem er meinte: „Ist ja schön und gut, aber hier schreiben viele schlecht, und 
+die anderen können sich eben keine teuren Therapeuten leisten. “ Man muss fairerweise 
+sagen: Der Klassenlehrer war davon abgesehen toll – ich bin froh, dass ich ihn hatte. Aber 
+ich habe ihm auch gesagt: „Ja, mag sein, aber ich habe mir das nicht ausgesucht, und es ist 
+nicht so, dass ich zu Therapeuten renne und mir das für viel Geld attestieren lasse, damit 
+ich 2 Punkte mehr bekomme und keinen Rechtschreibabzug. Sondern ich habe wirklich ein 
+von der WHO anerkanntes Problem, und das kriege ich auch nicht ganz weg. “ Nach einer 
+Weile hat er ein besseres Verständnis dafür entwickelt und auch sein Bild von mir geändert.
+Generell musste man jeder neuen Lehrkraft das mit der LRS erst einmal von vorne er -
+klären: „Ich bin nicht völlig blöd, ich weiß zum Beispiel nur nicht, wann ich das mit einem 
+oder mit zwei s schreibe. “ Und das ist natürlich einfach immer doof. Du kannst nicht an-
+kommen und bist erst mal akzeptiert als Person, sondern du musst erst mal für dich durch-
+kämpfen, dass du quasi einen „normalen“ Status hast. Ein Lehrer, der mir in der Hinsicht 
+fast am besten gefallen hat, war eigentlich vom Typ her so ein Soldat, Physiker, halt nicht 
+so besonders empathisch – aber der hat gesagt: „Ok, ich kann das vielleicht nicht ganz 
+nachvollziehen, aber das wird ja seine Berechtigung haben. Welchen Nachteilsausgleich 
+bekommst Du?“ Selbst wenn er nicht hundertprozentig im Thema drin war und es ver -
+standen hat, hat er das doch akzeptiert und ist dann da eben darauf eingegangen. Und 
+selbst dieser total einfache Schritt war oft ein längerer Kampf.
+Wie hat sich die Situation mit der LRS denn dann weiterentwickelt?
+Irgendwann hatte ich ein bisschen aufgegeben, weil ich zum einen wirklich keine Lust zum 
+Lernen hatte, aber auch weil ich dachte: Selbst, wenn ich mich Stunden länger hinsetze als 
+alle anderen – in der Arbeit geht es eh wieder schief! Warum soll ich mir dann überhaupt 
+noch Mühe geben? Aber kurz bevor ich die Schule gewechselt habe, war bei mir der Punkt, 
+wo ich gesagt habe: „Es nervt mich brutal, die ganze Zeit schlechte Noten zu schreiben und 
+der ganze Mist hier, ich will das jetzt mal in den Griff kriegen. “
+Ein großer Schritt ist, erst mal zu akzeptieren, dass man da eben einen Nachteil hat. Ich 
+hatte damals einen sehr tollen LRS-Therapeuten, der mir viel geholfen hat – auch in Bezug 
+auf die persönliche Einstellung. Dass man nicht immer sagt: „Ich will lieber so sein wie die 
+anderen. “ Sondern bereit ist, gezielt an den Problemstellen zu arbeiten und zu erkennen: Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung, LRS und mehr
+61
+„Okay, ich habe da ein Problem, und ich bin bereit, mich damit auseinanderzusetzen“ . Zum 
+einen war das also ein Thema von persönlichem Wachstum, was bei mir ganz stark gehol-
+fen hat, da viel zu überwinden. Und zum anderen war es das äußere Umfeld, was mir dann 
+viel Sicherheit und viel Wohlbefinden gegeben hat.
+Was mir damals mein Therapeut auch gesagt hat: Teilweise war ich im Kopf schon drei 
+Sätze weiter und hatte das noch gar nicht mit der Hand aufgeschrieben. Ich habe mal eine 
+alte Arbeit gefunden, darin waren teilweise Sätze, die gar nicht so richtig Sinn ergeben 
+haben. Oder zum Beispiel: „A durch B ist gleich C. “ Dann habe ich A aufgeschrieben, war 
+im Kopf aber schon bei C, habe C aufgeschrieben und B quasi völlig vergessen.
+Siehst Du da einen Zusammenhang mit Deiner Hochbegabung?
+Ich finde, Hochbegabung ist schwer zu greifen. Aber ich habe schon das Gefühl, dass in 
+meinem Kopf Sachen relativ schnell passieren – die dann aber wiederum auch relativ 
+schnell abgehakt sind. Meine Mutter nennt es manchmal „Gedankenrasen“ . Durch die 
+Hochbegabung ist es so, dass der Kopf relativ schnell rattert und, wenn man so will, beim 
+Schreiben der Körper nicht schnell genug mitgekommen ist.
+Hochbegabung bedeutet für mich gleichzeitig: Mir fallen manche Sachen auch wesent-
+lich einfacher. Wenn ich mich mal durchgerungen und ein Verständnis für irgendetwas habe, 
+dann merke ich schon, dass der Kopf schneller funktioniert, und dass man auch in Sachen 
+Kreativität – das soll jetzt gar nicht abgehoben klingen – anderen deutlich überlegen ist.
+Wenn ich einmal so richtig in meinem Fokus bin und die Gedanken geordnet habe, 
+dann bin ich relativ schnell und gut in dem, was ich tue. Ich lerne auch schnell. Auswendig-
+lernen hasse ich zwar immer noch, aber gerade wenn ich etwas interaktiv mache, brauche 
+ich wirklich nicht besonders lange, bis sich etwas gefestigt hat.
+Hat die Hochbegabung für Dich während der Schulzeit in irgendeiner Form eine 
+Rolle gespielt?
+Ja. Irgendwann war ich relativ verzweifelt. Einmal bin ich ins Bad gegangen und habe mir 
+groß „dumm“ auf die Stirn geschrieben, weil ich einfach nicht mehr klargekommen bin 
+mit allem, dass ich irgendwie nur Müll produziere. Da haben mir meine Eltern erklärt: „Du 
+bist nicht dumm. Du bist hochbegabt. “ Das war für mich immer etwas, woran ich mich ein 
+bisschen festhalten konnte, weil ich dann dachte: „Okay, es ist nicht so, dass du völlig blöd 
+im Kopf bist, sondern du kannst das eigentlich. Du hast das Potenzial zu allem, was du 
+willst. Das liegt bei dir an anderen Faktoren. “
+War das manchmal frustrierend – zu merken, ich könnte an so viel rankommen, aber 
+ich schaffe es gerade nicht?
+Ja, noch heute. Ich bin mittlerweile der Meinung, man muss irgendwie seinen Weg gehen 
+und sich auch einfach mal freuen und akzeptieren, was man hat. Und auch mal stolz sein 
+auf die Dinge, die man tut. Manchmal fällt das aber auch schwer.Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung, LRS und mehr
+62
+Weißt Du noch, wann Du Deine Diagnosen erhalten hast?
+Ich glaube, dass war ungefähr im gleichen Zeitraum, wo alles mal getestet wurde, in der 
+Mitte der Grundschulzeit. Da habe ich auch mal eine Arbeit einfach falsch herum geschrie-
+ben – also nicht von links nach rechts, sondern von rechts nach links. Die Lehrerin hat sich 
+das angeguckt und meinte: „Was zur Hölle ist das?“ Und meine Mutter meinte: „Halten Sie 
+das mal gegen das Licht!“
+Das war, glaube ich, einer der Punkte, wo man gemerkt hat: Mein Kopf funktioniert 
+anders. Ich bin gar nicht doof, sondern der Kopf arbeitet irgendwie ganz schnell in sehr, 
+sehr vielen unterschiedlichen Mustern, und manchmal ist es dann halt super schwer, die 
+Gedanken zu konzentrieren.
+Du hast erwähnt, dass Du neben LRS und Hochbegabung auch die Diagnose AD(H)S hast?
+Ja. Das hat sich bei mir aber ganz gut rausgewachsen, und zum anderen ist es so, dass ich, 
+wenn ich mich hinsetze, dann wirklich alles ausblende, das Handy ganz weit weglege und 
+dann nur noch meinen Schreibtisch vor mir habe. Und dann geht das schon ganz gut. 
+Dann setze ich mich immer vor eine weiße Wand, dass da auch nicht zu viel spannendes 
+Zeug passiert. Aber ich merke schon auch: Da läuft irgendwo ein Eichhörnchen lang – und 
+dann ist der Fokus relativ schnell weg. Das war früher noch wesentlich extremer.
+Spielen die LRS und die Hochbegabung aktuell eine große Rolle für Dich – auch im 
+Vergleich zur Schulzeit?
+Im Vergleich zur Schulzeit tatsächlich deutlich weniger. Die LRS ist dadurch, dass man auf 
+dem Laptop schreibt, relativ weg. Wenn ich mich nicht konzentriere, merke ich allerdings 
+schon, dass ich dann gelegentlich ein bisschen Kraut und Rüben schreibe. Insofern muss 
+beim Schreiben dann noch mal ein höherer Fokus da sein.
+Und die Hochbegabung: Wenn man zum Beispiel mal eine schlechte Klausur hatte, was 
+ja an ganz vielen Faktoren liegen kann, dann ist das immer wie ein sicherer Anker – dass 
+ich weiß: Du kannst das eigentlich auch alles, du brauchst jetzt nicht beeindruckt sein, weil 
+einer schneller als du 4 + 4 rechnet. In diesem Sinne ist das etwas, was mir ein bisschen 
+Selbstsicherheit gibt.
+Zum Abschluss: Gibt es Dinge, die Du Dir in Bezug auf das Schulsystem wünschen 
+würdest, damit es gerecht für alle ist? Insbesondere für Schüler:innen zum Beispiel 
+mit einer LRS?
+Im Schulsystem generell muss für Themen wie LRS erst mal ganz grundlegend noch viel 
+mehr Verständnis her bei den Lehrkräften. Mehr Awareness ist ein wichtiger Punkt; dass 
+die Leute dem Thema offener gegenüberstehen.
+Und: Als Schüler:in vergleicht man sich unfreiwillig immer mit allen anderen, und man 
+fühlt sich dann oft den anderen unterlegen oder schlechter, wenn man mal eine schlech -Wenn der Kopf schneller ist als die Hand – ein Interview über Hochbegabung, LRS und mehr
+63
+tere Note hat. Und da ist vielleicht ein wesentlicher Punkt: Wie kann man es als Lehrkraft 
+schaffen, dass dann trotzdem noch ein Zusammenhalt in der Klassengemeinschaft 
+ besteht? LRS und anderes sind ja immer Individualfälle – wie gehst du mit der Person so 
+um, dass sie trotzdem integriert bleibt?
+Glaubst Du, es würde etwas ändern, wenn man Leistungsüberprüfungen anders 
+gestalten würde, zum Beispiel weniger in Form von Noten?
+Ich glaube, wenn man diversifizierte Tests machen würde – dass man einfach mal, anstatt 
+zum Beispiel eine Klausur zu schreiben, sich 20 Minuten etwas mündlich erklären lässt. 
+Dann würde viel klarer, ob jemand etwas wirklich verstanden hat, oder nur zehn Fragen 
+auswendig gelernt hat. Und zum anderen gibt das Leuten, die vielleicht schriftlich nicht so 
+stark sind, die Möglichkeit, sich trotzdem zu beweisen, indem man dadurch ihre Schwä -
+chen ein bisschen aushebelt.
+Das wäre etwas, was ich mir gut vorstellen könnte und mir damals auch viel geholfen 
+hätte.
+Was bedeutet für Dich fair bzw. gerecht?
+Für mich bedeutet fair eigentlich immer Chancengleichheit. Und Chancengleichheit resul-
+tiert daraus, dass man auf Menschen eingeht und sich anschaut: Welche Chancen hat jede 
+einzelne Person? Wenn jemand zum Beispiel nicht lesen kann, ist es natürlich nicht fair, sie 
+bzw. ihn mit jemandem in einem Lesewettbewerb zu vergleichen.
+Oskar, 21 Jahre
+Das Gespräch führte
+Dr. Claudia Pauly 
+hat Erziehungswissenschaften und Neuere deutsche Literatur studiert 
+und zum Thema E-Learning in der Erwachsenenbildung promoviert. Als 
+Projektleiterin in den Themenbereichen Schule und Digitales Lernen 
+der Karg-Stiftung liegen ihre inhaltlichen Schwerpunkte in der 
+inklusiven Begabungs- und Begabtenförderung, im Einsatz innovativer 
+Unterrichtskonzepte sowie in der Nutzung digitaler Möglichkeiten zum 
+Wissens- und Kompetenzerwerb.64
+Christine Koop 
+Die Herkunft entscheidet zu oft über die Chancen
+Noch immer sind Kinder mit Migrationshintergrund und aus armen 
+Familien in der Begabtenförderung unterrepräsentiert. Mit welchen 
+Herausforderungen wir es in der schulischen Begabungsdiagnostik  
+zu tun haben und was wir anders machen können, damit es fairer 
+zugeht, beschreibt der folgende Artikel.
+Amina ist 10 Jahre alt und mit ihren Eltern und drei Geschwistern vor einigen Jahren aus 
+Syrien geflohen. Seither hat sie an verschiedenen Orten gelebt, konnte keinen Kinder -
+garten – und die Schule nur unregelmäßig – besuchen. Die Mutter ist arbeitslos; der Vater 
+jobbt im Niedriglohnsektor.
+Pascal ist 8 Jahre alt. Er hat eine 4-jährige Schwester. Seine Mutter ist alleinerziehend 
+und geht arbeiten. Die Familie verfügt über wenig Geld. Pascal besucht eine Grundschule 
+in einem „Brennpunktviertel“ . In seiner Freizeit spielt er viel mit den Nachbarskindern auf 
+dem Spielplatz.
+Fabian ist 12 Jahre alt. Seine Eltern arbeiten beide im akademischen Bereich. Fabian 
+lernt ein Musikinstrument und trainiert in einem Sportverein. In den Ferien reist die Fami-
+lie viel ins europäische Ausland.
+Amina, Pascal und Fabian machen in ihrem Leben sehr unterschiedliche Lern- und 
+Bildungserfahrungen. Es würde uns nicht überraschen, wenn wir erführen, dass Fabian sich 
+ungefährdet seine Gymnasialempfehlung gesichert hat und regelmäßig an Angeboten wie 
+der Digitalen Drehtür teilnimmt, während Pascal und Amina in ihrer Schule nicht für För-
+dermaßnahmen in Betracht gezogen werden.
+Trotz gewachsener Sensibilität für Herkunftseffekte sind Kinder mit Migrationshinter -
+grund und aus armen Familien in der Begabtenförderung unterrepräsentiert. Ein häufiger 
+Grund dafür ist, dass Lehrkräfte sich zu sehr daran orientieren, wie gut Schüler:innen den 
+Lernstoff bewältigen und welche familiären Unterstützungsmöglichkeiten sie wahrneh -
+men. Weitere Gründe, weshalb wesentliche Begabungsindikatoren oft außer Acht gelassen 
+werden, sind:
+• falscher Fokus: Lehrkräfte beurteilen die Fähigkeiten ihrer Schüler:innen auf der 
+Basis des Lernstoffs, nicht auf der Basis von spezifischen Merkmalen für beispiels-
+weise eine mathematische oder musikalische Begabung. Auch Checklisten oder 
+Beobachtungsinstrumente erfragen häufig eher Interessen oder Vorlieben und 
+ weniger domänenspezifische Indikatoren für Begabung.Die Herkunft entscheidet zu oft über die Chancen
+65
+• Interaktionseffekte: Lehrkräfte sind Bestandteil der Lehr-Lern-Begleitung ihrer 
+Schüler:innen; sie gestalten die Lernumgebung maßgeblich mit und können oft 
+nur teilnehmend beobachten. Das führt (unbeabsichtigt) zu verschiedenen Beob-
+achtungs- und Beurteilungsfehlern.
+• Sprachabhängigkeit: Viele Verfahren der pädagogischen Diagnostik setzen auf 
+ reflektierte (Selbst-)Auskünfte der Schüler:innen und/oder Eltern, die entweder mit 
+Fragebögen oder im Dialog erhoben werden. Das stellt hohe Anforderungen an 
+Sprachverständnis und Ausdrucksvermögen.
+Sind Intelligenzscreenings fairer als Lehrkräfte? 
+Um kein Kind zu übersehen, werden vermehrt Intelligenzscreenings vorgeschlagen. Sie 
+gelten als fair, weil sie standardisiert und somit objektiv seien. Statt nur wenige Kinder an-
+lassbezogen zu testen, wird mithilfe von schnell durchzuführenden Screeningtests die In -
+telligenz von Kindern zu bestimmten Zeitpunkten in der Bildungsbiografie flächendeckend 
+erhoben, zum Beispiel für ganze Klassen oder Jahrgangsstufen. Auf diese Weise sollen 
+Kinder mit überdurchschnittlichen intellektuellen Fähigkeiten sicherer identifiziert wer -
+den. Und tatsächlich hat sich gezeigt, dass die Verwendung von Screeningtests dazu führen 
+kann, dass Kinder aus bislang unterrepräsentierten Gruppen häufiger in Begabtenförder -
+programme aufgenommen werden als bei Nominierungen durch Lehrkräfte (1).
+Doch gerade mit Blick auf Kinder wie Amina und Pascal stößt auch dieses Vorgehen an 
+Grenzen: Unzureichende Deutsch-Kenntnisse, limitierte schulische Vorerfahrungen und 
+auch psychische Belastungen können Intelligenzscreenings negativ beeinflussen oder ihre 
+Interpretation erschweren ( 2). Die Bildungsbiografie von Kindern mit Fluchterfahrungen 
+beispielsweise ist von Brüchen und Inkonsistenzen gekennzeichnet. Und auch für Kinder 
+aus armen Familien tut sich aufgrund geringerer informeller Bildungserfahrungen schon 
+früh eine Lücke auf, die bereits im Kindergartenalter beginnt und sich im Laufe der Zeit 
+noch vergrößert. Dieses „Achievement Gap“ verhindert, dass sich möglicherweise vorhan-
+dene Potenziale in hohen Leistungen niederschlagen (1).
+Sind sprachfreie Tests der Schlüssel zu mehr Fairness? 
+Können hier nicht sprachfreie und „kulturfaire“ Tests weiterhelfen? Sie liefern hilfreiche 
+Informationen zum kognitiven Potenzial der Testperson, meistens der Fähigkeit zu abs -
+trakt-logischem Denken, und verwenden dafür nur figurale oder numerische Aufgabenfor-
+mate. Ihre Ergebnisse gelten als guter Indikator für die fluide Intelligenz, das heißt den Teil 
+von Denkprozessen, der unabhängiger von Bildungserfahrungen ist. Doch auch hier gibt es 
+Einschränkungen:
+• Einige Studien konnten zeigen, dass auch in sprachfreien Tests die Leistungen von 
+Nicht-Muttersprachler:innen hinter denen von Muttersprachler:innen zurückblie-
+ben – selbst wenn die Kinder in vergleichbaren sozioökonomischen Verhältnissen 
+aufgewachsen sind (3).Die Herkunft entscheidet zu oft über die Chancen
+66
+• Auch für Kinder aus Familien mit niedrigem sozioökonomischen Status zeigen 
+sich bei sprachfreien Tests teils erhebliche Unterschiede (1).
+• Die meisten Testverfahren weisen – trotz gestiegenem Anteil in der Bevölkerung – 
+die Normen für Muttersprachler:innen und Nicht-Muttersprachler:innen nicht ge-
+trennt aus, sodass die Testdurchführenden mögliche Einschränkungen für Nicht-
+Muttersprachler:innen nicht beurteilen können.
+• Viele sprachfreie Tests verwenden nur figurale Aufgaben (z. B. Matrizen). Für Schul-
+laufbahnentscheidungen haben jedoch verbale und numerische Fähigkeiten eine 
+besondere Aussagekraft. Und auch Entwicklungspotenziale für weitere, weniger 
+akademische Talente lassen sich nicht abbilden. 
+Nonverbale Tests können den sprachlichen und kulturellen Einfluss auf Testergebnisse also 
+nur eingrenzen, aber nicht gänzlich aufheben. Die Gründe hierfür sind vielfältig. Beispiels-
+weise stellt eine ungewohnte Leserichtung selbst bei einem „kulturfairen“ Matrizentest 
+eine zusätzliche Herausforderung dar. Zudem ist auch das Denken in Symbolsystemen von 
+Sprache und Kultur beeinflusst, etwa wenn abstrakte Dinge Kategorien zugeordnet werden 
+(4). Sich also ausschließlich auf Intelligenzscreenings zu verlassen, erscheint auch nicht als 
+Königsweg. Sie sollten durch pädagogische Verfahren ergänzt werden.
+Wie kann die pädagogische Diagnostik zu mehr Fairness beitragen? 
+Dass die pädagogische Diagnostik einen wichtigen Beitrag zur Identifizierung von Talenten 
+und Begabungen der Schüler:innen leisten kann, ist unbestritten. Zur Wahrheit gehört aber 
+auch, dass sie noch zu selten systematisch eingesetzt wird. Stattdessen erfolgt die Auswahl 
+für Förderprogramme vielfach über Empfehlungen durch Lehrkräfte, die sich ohne spezi -
+fische Kenntnisse häufig durch falsche Annahmen leiten lassen: Lehrkräfte orientieren sich 
+stark an gezeigten Schulleistungen und treffen prognostische Annahmen zur weiteren Ent-
+wicklung von Kindern in Abhängigkeit von deren Herkunft.
+Dabei kann auch in der pädagogischen Diagnostik auf zahlreiche Verfahren zurückgegrif-
+fen werden: Schulleistungstests, verlaufsdiagnostische Verfahren, Fragebögen, Beobachtungs-
+instrumente und viele mehr. Die einen stellen Lernergebnisse fest, während andere den indi-
+viduellen Lernprozess und Lernzuwachs abbilden. Wird dabei der Fokus auf individuelle 
+Stärken und Entwicklungsmöglichkeiten gesetzt, spricht man von einer potenzialorientierten 
+Diagnostik. Hier werden Interessen, Engagement und Motivation von Schüler:innen sehr 
+ offen exploriert, um Fördermaßnahmen auszuwählen oder gar individuell zuzuschneiden.
+Für Kinder wie Amina und Pascal ist es bedeutsam, dass bei ihnen überhaupt eine sol-
+che systematische Begabungsdiagnostik initiiert wird, damit sie in den Genuss von Förder-
+maßnahmen kommen können. Schulen in „herausfordernden Lagen“ unterliegen noch zu 
+häufig der Fehlannahme, dass bei ihnen keine Kinder mit besonderen Begabungen zu fin-
+den seien. Das Leistungsniveau ist oft insgesamt niedrig, die Anforderungen orientieren 
+sich an dem entsprechenden Leistungsdurchschnitt.
+Die Gelegenheiten, spezifische Begabungsmerkmale zu zeigen und zu entwickeln, sind 
+somit für die Kinder nicht nur in Familie und Freizeit, sondern auch im schulischen Kon -Die Herkunft entscheidet zu oft über die Chancen
+67
+text reduziert. Doch es braucht sowohl Gelegenheiten, bei denen Kinder ihre Talente und 
+Begabungen zeigen können, als auch eine Sensibilität aufseiten der Lehrkräfte, diese Po -
+tenziale zu erkennen. Bestimmte Aspekte können dieses Erkennen von Begabungen ein -
+schränken – zum Beispiel ein ungeeignet gewählter diagnostischer Fokus, Interaktions-  
+effekte und die Sprachabhängigkeit auch vieler Verfahren der pädagogischen Diagnostik, 
+wie eingangs schon näher beschrieben.
+Vorschläge für mehr Fairness in der Begabungsdiagnostik
+Mit Blick auf das Ziel, bislang unterrepräsentierte Gruppen stärker in der schulischen Be -
+gabtenförderung zu berücksichtigen, stößt das bislang erprobte diagnostische Vorgehen 
+also an Grenzen. Für mehr Fairness müssen wir aber nicht nur die jeweiligen Stärken und 
+Grenzen einzelner Verfahren kennen, sondern vielmehr unsere Grundannahmen und un -
+ser diagnostisches Vorgehen reflektieren.
+Die schulische Begabtenförderung sollte beides leisten: sowohl diejenigen angemessen 
+fördern, die bereits außergewöhnliche Leistungsniveaus erreicht haben, als auch jene unter-
+stützen, deren Potenziale bislang aufgrund von Herkunftseffekten noch nicht zur Entfaltung 
+gekommen sind. Das erfordert zum einen eine Angebotsvielfalt: Schulen sollten ihre Be -
+gabtenförderung nicht auf eine Maßnahme beschränken, sondern die unterschiedlichen 
+Bedürfnisse der Schüler:innen mit verschiedenen Angeboten berücksichtigen. Zusätzlich ist 
+auch eine variable diagnostische Perspektive notwendig. Statt die „passendsten“ Schüler:in-
+nen für das eine verfügbare Programm zu finden, sollten vielmehr hilfreiche Verfahren eta-
+bliert werden, mit denen individuell passende Angebote gefunden werden können.
+Hierfür bedarf es gut fortgebildeter Lehrkräfte, die Talent und Begabung in verschiede-
+nen Bereichen nicht nur an hohen Schulleistungen erkennen, sondern auch wirksame 
+Möglichkeiten zur Talententwicklung schaffen. Zudem müssen sie kultur- und armuts-
+sensibel sein, um möglichst vielfältige Ausdrucksformen und Indikatoren für Begabungen 
+erkennen zu können. Darüber hinaus sollten folgende Aspekte leitend sein:
+• Die diagnostischen Verfahren sollten Merkmale der Begabungen erfassen, die 
+durch die geplanten Maßnahmen gefördert werden sollen.
+• Screenings sollten nicht eindimensional sein, sondern möglichst mehrere Bega-
+bungsdimensionen abdecken.
+• Pädagogische Verfahren sollten neben Interesse, Motivation und Ausdauer auch 
+Aufschluss über fachspezifische Begabungsindikatoren (z. B. für Mathematik, 
+ Sprachen, Kunst) geben.
+• Die Verwendung von (Intelligenz-)Screenings und Nominierungen durch Lehrkräfte 
+ist dem jeweils isolierten Einsatz nur eines dieser Verfahren überlegen.
+• Um Benachteiligungseffekte zu reduzieren, sollten die Ergebnisse in Screenings 
+möglichst mit denen anderer Kinder verglichen werden, die unter ähnlichen Be-
+dingungen aufgewachsen sind (Verwendung von Normgruppen mit vergleichbaren 
+demografischen Merkmalen oder schul-/stadtteilspezifische Normen). Die Herkunft entscheidet zu oft über die Chancen
+68
+Speziell wenn sich die Frage stellt, ob Schüler:innen ihr Leistungspotenzial bisher wegen 
+fehlender Lerngelegenheiten noch nicht ausschöpfen können, sollten Schulen zudem bei 
+der Festlegung von Schwellenwerten für die Zuweisung zu Fördermaßnahmen großzügig 
+sein. So könnten in einem ersten Schritt 15 bis 20 % der Kinder für eine begabungsspezi-
+fische Fördermaßnahme ausgewählt werden. Die Fördermaßnahme selbst kann dann dia-
+gnostische Erkenntnisse liefern, welche Kinder für weitere Maßnahmen der Begabtenför -
+derung infrage kommen. So gelingt es eher, das Lernpotenzial und Talent der Schüler:innen 
+zu bewerten und nicht ihr aktuelles Leistungsniveau. Und das ist ein wichtiger Schlüssel zu 
+mehr Begabungsgerechtigkeit.
+Eine persönliche Frage zum Schluss: Was ist für Sie fair/Fairness?
+Fairness hat für mich immer etwas damit zu tun, sich um einen Chancenausgleich zu be-
+mühen. Das gilt insbesondere dann, wenn die jeweiligen Chancen von nicht beeinfluss-
+baren Faktoren abhängen, wie Glück oder Zufall. Fair ist, wenn jemand die Chance dazu 
+erhält, seines eigenen Glückes Schmied zu sein.
+Mir gefällt aber auch ein Zitat des österreichischen Komponisten Gerhard Bronner (1922–
+2007): „Fairness ist die Kunst, sich in den Haaren zu liegen, ohne dabei die Frisur zu zer -
+stören. “
+Christine Koop
+Quellen
+1 Lakin, J. (2020): Micro-Identification Processes. In: Stambaugh, T./Olszewski-Kubilius, P . (2020): 
+Unlocking Potential. Identifying and Serving Gifted Students From Low-Income Households. Waco, 
+TX: Prufrock Press, S. 79–108.
+2 Bachmann, G./von Hagen, A./Wegerer, J. (2022): Einsatz des „Cognitive Abilities Profile-Beratungs-
+instruments“ zur Einschätzung des Lernpotentials von neu zugewanderten Schülerinnen und 
+Schülern: Beschreibung des aktuellen Stands auf der Suche nach einer Best-Practice-Lösung. KSH 
+Newsletter 16/2022. URL: https://www.uni-frankfurt.de/142464665/BachmannEtAl_CAP .pdf 
+(Abrufdatum: 22.07.2025)
+3 Lohman, D. F ./Korb, K. A./Lakin, J. M. (2008): Identifying Academically Gifted English-Language 
+Learners Using Nonverbal Tests. A Comparison of the Raven, NNAT, and CogAT. In: Gifted Child 
+Quarterly, 52(4), S. 275–296. URL: http://dx.doi.org/10.1177/0016986208321808 (Abrufdatum: 
+22.07.2025)
+4 Röder, M./Guderjahn, L./Fingerle, M./Büttner, G. (2021): Diagnostik im Kontext von Fluchterfahrun-
+gen: Eine kritische Betrachtung des dynamischen Testens als Möglichkeit zur Verbesserung von 
+Bildungsteilhabechancen auf Basis eines Rapid Reviews der Literatur. In: Empirische Sonder- 
+pädagogik, 1, S. 21–33. URL: https://doi.org/10.25656/01:23569 (Abrufdatum: 22.07.2025)Die Herkunft entscheidet zu oft über die Chancen
+69
+Christine Koop  
+ist Psychologin und Kinder- und Jugendlichen-Psychotherapeutin und 
+arbeitete viele Jahre als Programmleitung Beratung in der Karg-Stiftung 
+(2008–2025). Ihre Arbeitsschwerpunkte liegen in der Entwicklung und 
+Realisierung von Modellprojekten sowie im Aufbau von Beratungs-
+strukturen und Netzwerken, insbesondere in der Schulpsychologie.70
+Claudia Pauly
+It’s beginning to look a lot like fairness
+Everywhere we go … Ja, das wäre schön. Während Weihnachten in 
+jedem Fall kommt, ist das mit der Fairness, respektive der Begabungs­
+gerechtigkeit, so eine Sache. Überraschend unter dem Christbaum 
+liegen wird sie wieder eher nicht. Also haben wir uns direkt zu Beginn 
+des Jahres 2024 auf die Suche nach ihr gemacht. Dabei haben uns 
+zwei Fragen geleitet: Wie können sich hochbegabte Kinder und 
+Jugendliche gut entfalten? Und an welchen Stellen wird das durch 
+ungerechte gesellschaftliche und (bildungs­)politische Strukturen 
+verhindert?
+Diese Fragen sind essenziell, denn alle Menschen haben einen Anspruch darauf, sich ent-
+sprechend ihrer Begabungen entwickeln zu können – ganz unabhängig von Faktoren wie 
+sozialem Kontext, Geschlecht oder Ethnizität. Die Förderung von Begabungen stellt damit 
+einen bildungsdemokratischen Grundwert dar, wie Ingmar Ahl im Januar verdeutlicht hat. 
+Ob und wie dieser Grundwert tatsächlich Raum findet, hängt allerdings von vielen verschie-
+denen Faktoren ab – unter anderem davon, wo Kinder und Jugendliche aufwachsen, mit 
+wem, und an welcher Stelle sie Unterstützung bekommen.
+Gut beschreiben lässt sich das mit Bezug auf den Sozialraum, wie es Simone Welzien 
+und Angelina Haupt in ihrem Beitrag tun. Sie erklären, wie wichtig es ist, in der Sozialraum-
+arbeit in Netzwerken zu denken und zu handeln, und stellen dabei fest: „Wenn wir in die-
+sem Raum genau hinschauen und bewusst Wissensnetze knüpfen, die allen zugutekom -
+men, dann können wir damit Bildungschancen gezielt beeinflussen. “
+Eine hohe Relevanz hat in diesem Zusammenhang die Ermöglichung von Teilhabe, also 
+die Einbezogenheit von Menschen in soziale Kontexte und die Chance, sich dabei frei ent-
+wickeln zu können. Teilhabe kann durch unterschiedliche Faktoren beeinträchtigt sein – 
+ein sehr relevanter ist die Einkommensarmut. Nadine Seddig geht im Februar auf die kom-
+plexen Zusammenhänge ein und zeigt, was es konkret bedeutet, von Möglichkeiten 
+ausgeschlossen zu sein, die andere selbstverständlich nutzen können.
+Im Kontext von Armut wird Bildungsungerechtigkeit schnell offensichtlich; manchmal 
+kommt sie aber auch auf leisen Sohlen daher, beispielsweise als Adultismus. Kurzgefasst 
+versteht man darunter: Erwachsene agieren oft in der impliziten Annahme, es sei in  Ordnung, 
+wenn sie für Kinder Entscheidungen treffen. Ausführlicher erläutert es Gesa Hartenbach in 
+ihrem Beitrag vom März. Sicher, niemand würde sein Kind farbenfrohen Haushaltsreiniger 
+trinken lassen, weil es das gerade für eine hervorragende Idee hält. Aber oft entscheiden It’s beginning to look a lot like fairness
+71
+Erwachsene Dinge für Kinder, die diese eigentlich gut selbst bestimmen könnten. Hoch -
+begabte Kinder werden so nicht selten ausgebremst und dadurch in ihren Möglichkeiten 
+beschnitten. Das ist zwar meist gut gemeint (oder, seien wir mal ehrlich, Zeitnot oder Stress 
+geschuldet) – aber eben ungerecht.
+Apropos Stress: Das aktuelle Schulbarometer der Robert Bosch Stiftung zeigt, dass 
+Stress auch bei Schüler:innen allgegenwärtig ist. Wie der sich auf Bildungschancen aus -
+wirkt, hat Wiebke Evers im April genauer beleuchtet. Von ihr erfährt man, was Mobbing mit 
+der Amygdala zu tun hat und warum Stress „nicht nur die Entdeckung und Entwicklung 
+von Begabungen behindern, sondern auch den Zugang zu Bildungs- und Fördermöglich -
+keiten verwehren“ kann.
+Wenn Stress –  zum Beispiel durch unterfordernde Schulsituationen oder Mobbing –   
+für hochbegabte Kinder und Jugendliche zur Dauerbelastung wird, setzt sich die Ungerech-
+tigkeit dort fort, wo sie in dem Moment besonders schmerzt: bei den therapeutischen 
+Unterstützungsangeboten. Denn Therapieplätze sind rar, und Therapeut:innen müssen bei 
+der Vergabe, so beschreibt es Kathrin Schmitt eindrücklich in ihrem August-Beitrag, nicht 
+selten die paradoxe Überlegung anstellen, ob es betroffenen Kindern und Jugendlichen 
+„schlecht genug“ für eine Therapie geht.
+Überhaupt – wie geht es hochbegabten Kindern und Jugendlichen eigentlich damit, 
+wenn sie Begabungsungerechtigkeit erleben? Das haben wir im Gespräch mit Oskar  er-
+fahren. Er ist „twice exceptional“ – hochbegabt mit einer LRS und AD(H)S. Mittlerweile ist 
+er Student, erinnert sich aber noch gut an seine Schulzeit. Im Interview reflektiert er, wa-
+rum es mit besonderen Voraussetzungen in unserem Schulsystem oft eine große Heraus -
+forderung ist, erfolgreich zu lernen und psychisch gesund zu bleiben, und welche Faktoren 
+dazu beitragen können, dass es in diesem Kontext oft nicht gerecht zugeht. Einer davon ist, 
+wenig überraschend, die klassische Form der Leistungsbewertung, also vor allem die guten 
+alten Ziffernnoten.
+Generell können Noten ganz schön stressig werden, das wissen wir alle noch. Und ja, 
+auch für die Hochbegabten. Mit Saskia Niechzial, selbst hochbegabt und Lehrkraft, haben 
+wir im Mai darüber gesprochen, warum das so ist und welche gerechteren Bewertungsmög-
+lichkeiten es gibt. Im Idealfall geht es dabei dann nicht mehr nur um Leistungsrückmeldung 
+allein, sondern um deren Verschränkung mit dem Fördern und Erkennen von Potenzialen.
+Letzteres gelingt Lehrkräften laut Studien übrigens ganz gut. Deutlich Luft nach oben 
+ist aber immer noch. Tanja G. Baudson schlüsselt in ihrem Juni-Beitrag auf, warum Bega-
+bungen durch Lehrkräfte manchmal nicht ausreichend erkannt werden und welche Rolle 
+Stereotype und Urteilsverzerrungen dabei spielen. Man könnte sich ja fragen, ob man vor 
+diesem Hintergrund nicht lieber auf standardisierte Verfahren statt auf menschliche Urtei-
+le setzen sollte.
+Zum Teil keine schlechte Idee, sagt Christine Koop, die sich im November mit den 
+ Herausforderungen schulischer Begabungsdiagnostik befasst. Aber auch Screenings und 
+Intelligenztests haben ihre Grenzen und können aus unterschiedlichsten Gründen keine 
+einflussfreie und komplett begabungsgerechte Diagnostik garantieren. Am sinnvollsten 
+ erscheint deshalb letztlich ein breiter und vor allem reflektierter Einsatz von Diagnostik -
+instrumenten.It’s beginning to look a lot like fairness
+72
+Der Einblick in die verschiedenen Beiträge des vergangenen Jahres zeigt: Begabungs -
+ungerechtigkeiten manifestieren sich häufig auf systemischer Ebene. Zum Beispiel im 
+„großen“ Bildungssystem, aber auch im „kleinen“ System der einzelnen Schule. Dass das 
+nicht einfach hingenommen werden muss, zeigt Nicole Miceli in ihrem September-Beitrag, 
+der sich mit gelingenden Schulentwicklungsprozessen befasst. Sie erklärt, wie Schulen sich 
+systematisch so entwickeln können, dass „alle Schüler:innen unabhängig von unterschied-
+lichen Heterogenitätsdimensionen entsprechend ihrem jeweiligen Lern- und Entwick -
+lungsstand ihre Begabungen ausleben und Potenziale freisetzen können. “
+Wäre das überall der Fall, könnte man tatsächlich besinnlich den Titel dieses Beitrags 
+anstimmen. Realistisch betrachtet sind wir noch ein ganzes Stück davon entfernt, denn 
+Begabungsungerechtigkeit findet sich derzeit an vielen verschiedenen Orten. Genauso gibt 
+es aber, das haben die Autor:innen und Interviewpartner:innen in diesem Jahr ebenfalls 
+aufgezeigt, viele Chancen, das zu ändern.
+Um den Blick für diese Möglichkeiten zu schärfen, enden wir in diesem Blog, wie sollte 
+es kurz vor Weihnachten anders sein, mit einem Wunschzettel für mehr Begabungsgerech-
+tigkeit.
+ Grafik: Dr. Claudia Pauly
+Wünsche bewegen sich vielleicht nicht immer besonders nah an der Realität. Gerade das 
+verleiht ihnen aber die Kraft, Ziele nicht aus dem Blick zu verlieren. Und vielleicht können 
+wir uns der Erfüllung des ein oder anderen Wunsches ja zumindest in kleinen Schritten 
+annähern. Theodor Fontane schrieb: „Die Erfüllung eines Lieblingswunsches, sei der Wunsch 
+selber, was er wolle, berührt uns wie eine Weihnachtsfreude. “
+Welcher wäre Ihr Lieblingswunsch?It’s beginning to look a lot like fairness
+73
+Dr. Claudia Pauly
+hat Erziehungswissenschaften und Neuere deutsche Literatur studiert 
+und zum Thema E-Learning in der Erwachsenenbildung promoviert. Als 
+Projektleiterin in den Themenbereichen Schule und Digitales Lernen 
+der Karg-Stiftung liegen ihre inhaltlichen Schwerpunkte in der 
+inklusiven Begabungs- und Begabtenförderung, im Einsatz innovativer 
+Unterrichtskonzepte sowie in der Nutzung digitaler Möglichkeiten zum 
+Wissens- und Kompetenzerwerb.
