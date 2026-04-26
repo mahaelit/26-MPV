@@ -1,7 +1,7 @@
 # Verifizierte Zitate – lemas2023begriffsklaerung
 
 **Quelle:** Leistung macht Schule (2023). Begriffsklärung von Begabungs-, Begabten-, Potenzial- und Talentförderung.
-**Swisscovery/Verifikationslink:** https://web.archive.org/web/*/https://www.leistung-macht-schule.de/files/241205_Leistung-macht-Schule-Begriffsklaerung.pdf
+**Swisscovery/Verifikationslink:** https://www.leistung-macht-schule.de/files/241205_Leistung-macht-Schule-Begriffsklaerung.pdf
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 

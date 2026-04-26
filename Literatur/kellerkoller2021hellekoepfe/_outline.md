@@ -1,6 +1,6 @@
 # Volltext: `kellerkoller2021hellekoepfe`
 
-Quelle: Keller-Koller, Irène (2025). *Helle Köpfe mit Migrationshintergrund: warum sie oft unerkannt bleiben.* In Huser, Joëlle (Hrsg.), *Lichtblick für helle Köpfe: Ein Wegweiser zur Erkennung und Förderung von hohen Fähigkeiten bei Kindern und Jugendlichen auf allen Schulstufen* (3. Aufl., S. 76--78). Zürich: Lehrmittelverlag Zürich.
+Quelle: Keller-Koller, Isabella (2025). *Helle Köpfe mit Migrationshintergrund: warum sie oft unerkannt bleiben.* In Huser, Joëlle (Hrsg.), *Lichtblick für helle Köpfe: Ein Wegweiser zur Erkennung und Förderung von hohen Fähigkeiten bei Kindern und Jugendlichen auf allen Schulstufen* (3. Aufl., S. 76--78). Zürich: Lehrmittelverlag Zürich.
 
 ## Wo der Volltext liegt
 
