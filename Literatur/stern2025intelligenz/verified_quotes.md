@@ -1,7 +1,7 @@
 # Verifizierte Zitate – stern2025intelligenz
 
 **Quelle:** Stern, Elsbeth (2025). Die Intelligenz kann sich im Schulalter noch verändern. Bildung Schweiz: Zeitschrift des LCH.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Stern,%20Elsbeth%20Die%20Intelligenz%20kann%20sich%20im%20Schulalter%20noch%20ver%C3%A4ndern&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
+**Swisscovery/Verifikationslink:** https://www.bildungschweiz.ch/detail/die-intelligenz-kann-sichim-schulalter-noch-veraendern
 **Identifikator:** –
 **Lokaler Pfad:** `source.pdf`
 
