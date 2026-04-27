@@ -392,8 +392,15 @@
   annotation = {14\,S. Peer-reviewed Kapitel. Teil B \enquote{Entwicklung der Schreibkompetenz} des Forschungshandbuchs. Zentrale Forschungssynthese zur Graphomotorik (Chunking, Automatisierung, Alterstrajektorien).},
 }
 
-% --- Frage 3 Peer-Beziehung: nur baumert2022freundschaftwerte zitiert,
-%     Eltern-/Schwester-Einträge des PFLB-Pakets entfernt ---------
+% ══════════════════════════════════════════════════════════════
+%  Frage 3 Peer-Beziehung – komplettes Quellenpaket (Stand 2026-04-27)
+%  Vorbild: FRAGE3_UEBERSICHT.md
+%  3 Sammelwerke + 4 PFLB-Beiträge + 3 SZH-Beiträge + 1 Lehrbuchkapitel
+%  + 2 ZfPP-Einzelartikel = 12 BibKeys.
+%  Volltexte (komprimiert) und JSON-Metadaten in Literatur/<key>/.
+% ══════════════════════════════════════════════════════════════
+
+% ── A · Sammelwerke / Themenhefte ────────────────────────────
 
 @periodical{zimmersteinboesing2022pflbfreundschaften,
   editor    = {Zimmer, Veronika and Stein, Margit and Bösing, Eike},
@@ -402,9 +409,65 @@
   year      = {2022},
   volume    = {4},
   number    = {5},
-  note      = {Themenheft. Open Access, BieJournals, Universität Bielefeld.},
+  note      = {Themenheft, 247\,S. Open Access, BieJournals, Universität Bielefeld.},
   url       = {https://www.pflb-journal.de},
-  annotation = {Crossref-Parent für baumert2022freundschaftwerte (Frage~3).},
+  annotation = {Crossref-Parent für boosnuenning2022interethnisch,
+                baumert2022freundschaftwerte, zimmerstein2022schulischeswohlbefinden,
+                wernkemeyer2022feedbackfreunde (Frage~3, PFLB-Paket).
+                Hinweis: source.pdf in Literatur/zimmersteinboesing2022pflbfreundschaften/
+                enthält den Einführungsbeitrag Stein/Zimmer (S.\,1--20,
+                DOI 10.11576/pflb-5981); Metadaten dazu in
+                _metadata_einfuehrung.json.},
+}
+
+@periodical{szh2022heftfreundschaftenmobbing,
+  title     = {Freundschaften und {Mobbing}},
+  journaltitle = {Schweizerische {Zeitschrift} für {Heilpädagogik}},
+  year      = {2022},
+  volume    = {28},
+  number    = {9},
+  publisher = {Edition SZH/CSPS},
+  address   = {Bern},
+  issn      = {1664-8595},
+  note      = {Themenheft, 64\,S.},
+  annotation = {Crossref-Parent für stalder2022editorialfreundschaften,
+                gysinscherzinger2022freundschaftenwertvoll,
+                tschoppgruetterbuholzer2022intergruppenkontakt (Frage~3, SZH-Paket).
+                Volltext (Heft komplett, 5.4\,MB) in
+                Literatur/szh2022heftfreundschaftenmobbing/.},
+}
+
+@book{wildmoeller2020paedagogischepsychologie,
+  editor    = {Wild, Elke and Möller, Jens},
+  title     = {Pädagogische {Psychologie}},
+  year      = {2020},
+  edition   = {3},
+  publisher = {Springer},
+  address   = {Berlin und Heidelberg},
+  isbn      = {978-3-662-61403-7},
+  doi       = {10.1007/978-3-662-61403-7},
+  pagetotal = {474},
+  annotation = {Lehrbuch, 3.\,Aufl.\ 2020. Volltext liegt komprimiert
+                (17.3\,MB; Original 19\,MB als source\_uncompressed.pdf
+                gesichert) in Literatur/wildmoeller2020paedagogischepsychologie/.
+                Hinweis: Das Kessels/Hannover-Kapitel »Gleichaltrige« in
+                unserem Korpus stammt aus der 2.\,Aufl.\ 2015
+                (kesselshannover2015gleichaltrige).},
+}
+
+% ── B · Einzelbeiträge aus dem PFLB-Themenheft 4(5) 2022 ─────
+
+@incollection{boosnuenning2022interethnisch,
+  author    = {Boos-Nünning, Ursula},
+  title     = {Interethnische {Freundschaften} unter den {Bedingungen} sozialräumlicher und institutioneller {Segregation}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {51--71},
+  doi       = {10.11576/pflb-5882},
+  license   = {CC BY-SA 4.0},
+  annotation = {21\,S. (S.\,51--71). Strukturanalyse zu Bedingungen
+                interethnischer Freundschaften (Wohnort, Schule,
+                Institutionen). Frage~3-Kerntext (Migration + Peer-Kontakte).
+                verified\_quotes.md vorliegend.},
 }
 
 @incollection{baumert2022freundschaftwerte,
@@ -412,9 +475,125 @@
   title     = {\enquote{Man kann nicht leben, wenn man keine {Freunde} hat}: {Wertezuschreibungen} {Jugendlicher} mit und ohne {Fluchterfahrung} im {Themenbereich} {Freundschaft}},
   crossref  = {zimmersteinboesing2022pflbfreundschaften},
   pages     = {36--50},
+  doi       = {10.11576/pflb-5878},
   affiliation = {Universität Vechta},
   license   = {CC BY-SA 4.0},
-  annotation = {15\,S. Empirische Studie zu Freundschaftswerten bei Jugendlichen mit/ohne Fluchterfahrung. Direkter Bezug zu Frage~3 (Migration + Peer-Beziehungen).},
+  annotation = {15\,S. Empirische Studie zu Freundschaftswerten bei
+                Jugendlichen mit/ohne Fluchterfahrung. Direkter Bezug zu
+                Frage~3 (Migration + Peer-Beziehungen). verified\_quotes.md
+                vorliegend (Status~4).},
+}
+
+@incollection{zimmerstein2022schulischeswohlbefinden,
+  author    = {Zimmer, Veronika and Stein, Margit},
+  title     = {Schulisches {Wohlbefinden} und {Freundschaften}: {Ein} {Vergleich} zwischen jungen {Menschen} mit und ohne {Migrationshintergrund}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {135--151},
+  doi       = {10.11576/pflb-5983},
+  license   = {CC BY-SA 4.0},
+  annotation = {17\,S. (S.\,135--151). Vergleichsstudie zum schulischen
+                Wohlbefinden M± Migrationshintergrund; Generationen-Effekt
+                + identitäre Mediation. Frage~3-Kerntext.
+                verified\_quotes.md vorliegend.},
+}
+
+@incollection{wernkemeyer2022feedbackfreunde,
+  author    = {Wernke, Stephan and Meyer, Martin Johannes},
+  title     = {Feedback unter {Freund*innen}: {Einflüsse} von {Freundschaften} auf das schulische {Lernen} und {Möglichkeiten} der {Feedback-Praxis}},
+  crossref  = {zimmersteinboesing2022pflbfreundschaften},
+  pages     = {119--134},
+  doi       = {10.11576/pflb-5734},
+  license   = {CC BY-SA 4.0},
+  annotation = {16\,S. (S.\,119--134). Empirisch-konzeptioneller Beitrag
+                zur Feedback-Funktion in Peer-Freundschaften.},
+}
+
+% ── C · Einzelbeiträge aus dem SZH-Heft 28(9) 2022 ───────────
+
+@incollection{stalder2022editorialfreundschaften,
+  author    = {Stalder, Daniel},
+  title     = {Freundschaften mit {Aussenseitern}},
+  crossref  = {szh2022heftfreundschaftenmobbing},
+  pages     = {3},
+  annotation = {Editorial (1\,S., S.\,3). Hinführung zum SZH-Themenheft.},
+}
+
+@incollection{gysinscherzinger2022freundschaftenwertvoll,
+  author    = {Gysin, Stefanie and Scherzinger, Marion},
+  title     = {Freundschaften machen das {Leben} wertvoll},
+  crossref  = {szh2022heftfreundschaftenmobbing},
+  pages     = {8--12},
+  annotation = {5\,S. (S.\,8--12). Schweizer Beitrag zur Bedeutung von
+                Freundschaften für Wohlbefinden. Volltext-Auszug in
+                Literatur/gysinscherzinger2022freundschaftenwertvoll/source.pdf
+                (Seiten 8--12 aus dem Heft extrahiert).},
+}
+
+@incollection{tschoppgruetterbuholzer2022intergruppenkontakt,
+  author    = {Tschopp, Cécile and Grütter, Jeanine and Buholzer, Alois},
+  title     = {Soziale {Teilhabe} durch {Intergruppenkontakt}: {Wie} {Freundschaften} von {Kindern} mit heilpädagogischem {Förderbedarf} unterstützt werden können},
+  crossref  = {szh2022heftfreundschaftenmobbing},
+  pages     = {35--41},
+  annotation = {7\,S. (S.\,35--41). Schweizer Forschungsbeitrag zum
+                Intergruppenkontakt-Effekt für Freundschaften bei
+                SPF-Kindern; Allport + PHLU-Programm. verified\_quotes.md
+                vorliegend.},
+}
+
+% ── D · Lehrbuchkapitel + peer-reviewed Einzelartikel ────────
+
+@incollection{kesselshannover2015gleichaltrige,
+  author    = {Kessels, Ursula and Hannover, Bettina},
+  title     = {Gleichaltrige},
+  booktitle = {Pädagogische {Psychologie}},
+  editor    = {Wild, Elke and Möller, Jens},
+  year      = {2015},
+  edition   = {2},
+  publisher = {Springer},
+  address   = {Berlin und Heidelberg},
+  pages     = {283--301},
+  isbn      = {978-3-642-41291-2},
+  doi       = {10.1007/978-3-642-41291-2_12},
+  annotation = {19\,S. (S.\,283--301). Kapitel~12 in Wild/Möller (Hrsg.)
+                2015 (2.\,Aufl., \emph{nicht} 3.\,Aufl.\ 2020).
+                Konzeptioneller Beitrag zu Peers, Beliebtheit, Freundschaft,
+                Homophilie, Bullying, sozialer Identität.
+                Frage~3-Standardreferenz. Achtung Auflagen-Verifikation
+                vor Abgabe.},
+}
+
+@article{schwab2016partizipation,
+  author    = {Schwab, Susanne},
+  title     = {Erfassung von sozialer {Partizipation} -- {Übereinstimmung} zwischen {Selbst-} und {Fremdsicht} von {Schülern} mit und ohne sonderpädagogischen {Förderbedarf}},
+  journal   = {Zeitschrift für {Pädagogische} {Psychologie}},
+  year      = {2016},
+  volume    = {30},
+  number    = {4},
+  pages     = {227--236},
+  doi       = {10.1024/1010-0652/a000187},
+  publisher = {Hogrefe},
+  annotation = {10\,S. Empirische Studie zu sozialer Partizipation,
+                Selbst-/Fremdwahrnehmung bei SPF. Frage~3 (Peer-Inklusion,
+                diagnostische Erfassung).},
+}
+
+@article{wiemannlohaus2024bullying,
+  author    = {Wiemann, Ann-Katrin and Lohaus, Arnold},
+  title     = {Verfügbare {Ressourcen} und {Bullyingerfahrungen} von {Schülern} und {Schülerinnen} mit und ohne sonderpädagogischen {Förderbedarf}: {Eine} {Pilotstudie} im {Inklusionskontext}},
+  journal   = {Zeitschrift für {Pädagogische} {Psychologie}},
+  year      = {2024},
+  volume    = {38},
+  number    = {1-2},
+  pages     = {85--98},
+  doi       = {10.1024/1010-0652/a000325},
+  publisher = {Hogrefe},
+  note      = {OnlineFirst 2021; Print 2024.},
+  annotation = {⭐ Peer-reviewed Pilotstudie zu Bullying bei SPF vs. Peers.
+                Frage~3-Kerntext (Schutz-Mechanismen, Inklusion + Bullying).
+                Volltext: Print~2024 als source.pdf, OnlineFirst~2021 als
+                source\_onlinefirst2021.pdf in
+                Literatur/wiemannlohaus2024bullying/. verified\_quotes.md
+                vorliegend.},
 }
 
 % ── Frage 3: Person, Beziehung, Emotion ───────────────────
