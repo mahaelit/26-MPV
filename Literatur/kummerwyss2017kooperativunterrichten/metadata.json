@@ -1,0 +1,92 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Kooperativ unterrichten",
+      "autoren": [
+        {
+          "nachname": "Kummer Wyss",
+          "vorname": "Annemarie",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2017,
+      "verlag": "nicht angegeben",
+      "erscheinungsort": "nicht angegeben",
+      "quellentyp": "Sammelbandbeitrag",
+      "seitenzahlen": "S. 151–161",
+      "gesamtseitenzahl": 11,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "nicht angegeben (Sammelband zum Umgang mit Heterogenität)",
+      "band_heft": null,
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Sammelband"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text befasst sich mit der Bedeutung und Umsetzung von kooperativem Lehren im Kontext von heterogenen Lerngruppen. Es wird untersucht, wie die Zusammenarbeit von Lehrkräften auf Schul- und Unterrichtsebene gestaltet werden kann, um der Vielfalt der Lernenden gerecht zu werden. Dabei werden theoretische Modelle, Hürden, Gelingensbedingungen sowie konkrete Beispiele für kooperatives Lehren vorgestellt.",
+      "zentrale_thesen": [
+        {
+          "these": "Ein erfolgreicher Umgang mit Heterogenität verlangt Kooperation auf Schul- und Unterrichtsebene.",
+          "seitenverweis": "S. 151"
+        },
+        {
+          "these": "Pädagogische Teamarbeit steigert die Effektivität und Qualität schulischer Leistungen und fördert eine humane Schule.",
+          "seitenverweis": "S. 151"
+        },
+        {
+          "these": "Die Zusammenarbeit von Lehrkräften durchläuft typische Phasen (Forming, Storming, Norming, Performing), wobei Konflikte als Teil des Prozesses verstanden werden sollten.",
+          "seitenverweis": "S. 153"
+        },
+        {
+          "these": "Die zellulare Struktur der Schule und das Bedürfnis nach Autonomie stehen der Teamarbeit oft entgegen.",
+          "seitenverweis": "S. 154–156"
+        },
+        {
+          "these": "Erfolgreiches Teamteaching erfordert eine positive Einstellung, Rollenklärung, gemeinsame Verantwortung und institutionelle Unterstützung.",
+          "seitenverweis": "S. 157–158"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Kooperatives Lehren",
+          "definition": "Prozess der Zusammenarbeit von Lehrkräften in einem Unterrichtsteam, um pädagogische Handlungsspielräume zu erweitern und allen Lernenden einen optimalen Lern- und Entwicklungsraum zu bieten.",
+          "seitenverweis": "S. 151"
+        },
+        {
+          "begriff": "Unterrichtsteam",
+          "definition": "Eine kleine Gruppe von Lehrkräften, deren Kompetenzen sich ergänzen, um den Unterricht gemeinsam zu planen, durchzuführen und auszuwerten.",
+          "seitenverweis": "S. 152"
+        },
+        {
+          "begriff": "Teamteaching",
+          "definition": "Wenn zwei oder mehr Lehrkräfte zur gleichen Zeit dieselbe Lerngruppe mit vielfältigen methodisch-didaktischen Zugängen flexibel unterrichten.",
+          "seitenverweis": "S. 159"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Einleitung",
+        "2. Theoretische Einordnung und ein Modell zur schulischen Zusammenarbeit",
+        "3. Hürden und Gelingensbedingungen für kooperatives Lehren",
+        "4. Beispiele für kooperatives Lehren und schulische Zusammenarbeit",
+        "   4.1 Integrative Zusammenarbeit",
+        "   4.2 Teamteaching",
+        "   4.3 Schulische Standortgespräche oder Förderkonferenzen"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag)",
+      "ergebnisse_schlussfolgerungen": "Kooperatives Lehren ist eine wesentliche Voraussetzung für den erfolgreichen Umgang mit heterogenen Lerngruppen. Es erfordert eine stabile Beziehungsbasis, Rollenklärung und gemeinsame pädagogische Konzepte. Trotz struktureller Hürden wie der zellularen Struktur der Schule kann Teamteaching zu einer Entlastung der Lehrkräfte und einer besseren individuellen Förderung der Lernenden führen. Gelingensbedingungen umfassen ein gutes Teamklima, institutionelle Unterstützung und eine positive Einstellung zur Zusammenarbeit.",
+      "theoriebezuege": [
+        "Tuckman (1965): Phasen-Modell der Gruppenentwicklung (Forming, Storming, Norming, Performing)",
+        "Cohn (1994): Themenzentrierte Interaktion (TZI)",
+        "Wocken (1988): Integrative Kooperation",
+        "Schley (1989a, 2001): Dimensionen der Zusammenarbeit",
+        "Riemann (2006): Dimensionen der Zusammenarbeit",
+        "Bächtold et al. (1992): Schulische Zusammenarbeit",
+        "Bauer (2008): Teamarbeit",
+        "Schratz (2003): Schulentwicklung",
+        "Achermann (2005): Kooperatives Lehren",
+        "Altrichter/Messner (2004): Zusammenarbeit"
+      ]
+    }
+  },
+  "dateiname_original": "2017_KummerWyss_Kooperativunterrichten.pdf"
+}

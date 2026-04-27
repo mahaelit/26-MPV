@@ -1,0 +1,119 @@
+{
+  "quelldatei": "SOzialeTeilhabedurchIntergruppenkontakt_PDF_z2022-09-05.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Tschopp",
+        "vorname": "Cécile",
+        "institution": "Pädagogische Hochschule Luzern"
+      },
+      {
+        "nachname": "Grütter",
+        "vorname": "Jeanine",
+        "institution": "Pädagogische Hochschule Luzern"
+      },
+      {
+        "nachname": "Buholzer",
+        "vorname": "Alois",
+        "institution": "Pädagogische Hochschule Luzern"
+      }
+    ],
+    "titel": "Soziale Teilhabe durch Intergruppenkontakt",
+    "untertitel": "Wie Freundschaften von Kindern mit heilpädagogischem Förderbedarf unterstützt werden können",
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "Schweizerische Zeitschrift für Heilpädagogik",
+    "jahrgang": 28,
+    "heft": "9/2022",
+    "seitenzahlen_im_band": "35-41",
+    "seitenzahl_pdf": 7,
+    "doi": null,
+    "issn": "1420-1607",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "",
+      "titel": "Zusammenfassung / Résumé",
+      "seite": 35
+    },
+    {
+      "nr": "",
+      "titel": "Einleitung",
+      "seite": 35
+    },
+    {
+      "nr": "",
+      "titel": "Bedeutung von Intergruppenkontakten für die soziale Teilhabe",
+      "seite": 36
+    },
+    {
+      "nr": "",
+      "titel": "Vertrauen als Grundlage positiver Interaktionen",
+      "seite": 36
+    },
+    {
+      "nr": "",
+      "titel": "Programm 'Freundschaften fördern in heterogenen Lerngruppen'",
+      "seite": 37
+    },
+    {
+      "nr": "",
+      "titel": "Schwerpunkte des Programmes",
+      "seite": 37
+    },
+    {
+      "nr": "",
+      "titel": "Rolle der Lehrperson während des Programmes",
+      "seite": 39
+    },
+    {
+      "nr": "",
+      "titel": "Erste Ergebnisse, Zugang zum Material und Ausblick",
+      "seite": 39
+    },
+    {
+      "nr": "",
+      "titel": "Literatur",
+      "seite": 40
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Das Ziel der Arbeit ist es aufzuzeigen, wie die soziale Teilhabe von Kindern mit heilpädagogischem Förderbedarf in heterogenen Lerngruppen durch Intergruppenkontakte und Freundschaften gefördert werden kann. Insbesondere wird das Interventionsprogramm 'Freundschaften fördern in heterogenen Lerngruppen' vorgestellt.",
+    "theoretischer_hintergrund": "Der theoretische Hintergrund stützt sich auf die Bedeutung von Freundschaften für die sozio-emotionale und kognitive Entwicklung (Wygotski, 1978). Ein zentrales Konzept ist die Kontakthypothese (Allport, 1954), wonach Intergruppenkontakte Vorurteile abbauen können, wenn sie kooperativ sind und gemeinsame Ziele verfolgen. Zudem wird das Konzept des Vertrauens in den Kontakt (Turner & Cameron, 2016) herangezogen.",
+    "methodik": "Vorstellung und erste Evaluation eines Interventionsprogramms; Evaluation in 67 Schulklassen (keine vollständige empirische Studie im klassischen Sinne).",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Kinder mit heilpädagogischem Förderbedarf nehmen in der Klasse häufig tiefere soziale Positionen ein und sind weniger beliebt.",
+        "seitenverweis": "S. 35-36"
+      },
+      {
+        "befund": "Freundschaften zwischen Kindern mit und ohne Förderbedarf führen zu einer höheren Integrationsbereitschaft, mehr Mitgefühl und Vertrauen.",
+        "seitenverweis": "S. 36"
+      },
+      {
+        "befund": "Das Vertrauen in den Kontakt mit anderen sozialen Gruppen kann durch gezielte Förderung von Selbstvertrauen, Perspektivenübernahme und Mitgefühl gestärkt werden.",
+        "seitenverweis": "S. 36-37"
+      },
+      {
+        "befund": "Das Programm nutzt einen Kinderkrimi als Modell für Intergruppenfreundschaften und bearbeitet Themen wie Umgang mit Anders-Sein, Gruppenzugehörigkeit, Freundschaftsqualität und Diskriminierung.",
+        "seitenverweis": "S. 37-38"
+      },
+      {
+        "befund": "Erste Evaluationsergebnisse aus 67 Schulklassen zeigen, dass das Programm bedeutsame Lernprozesse auslöst und die soziale Teilhabe erhöht.",
+        "seitenverweis": "S. 39"
+      }
+    ],
+    "schlussfolgerungen": "Freundschaften zwischen Kindern mit und ohne heilpädagogischen Förderbedarf haben positive Auswirkungen auf alle Kinder. Lehrpersonen spielen eine zentrale Rolle bei der Steuerung der Klassendynamik und der Förderung eines inklusiven Klimas. Das vorgestellte Programm zeigt in ersten Evaluationen, dass es bedeutsame Lernprozesse auslöst."
+  },
+  "schluesselbegriffe": [
+    "soziale Teilhabe",
+    "Intergruppenkontakt",
+    "Freundschaften",
+    "heilpädagogischer Förderbedarf",
+    "Inklusion",
+    "Kontakthypothese",
+    "Vertrauen",
+    "heterogene Lerngruppen"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Die Universal-Design-for-Learning-Leitlinien",
+      "titel_original": "Universal Design for Learning Guidelines",
+      "autoren": [
+        {
+          "name": "CAST, Inc.",
+          "rolle": "Herausgeber / Organisation"
+        }
+      ],
+      "jahr": 2024,
+      "verlag": "CAST, Inc.",
+      "erscheinungsort": "Lynnfield, MA (USA)",
+      "quellentyp": "Leitlinien / Framework-Dokument",
+      "seitenzahlen": "S. 1 (Übersichtsdarstellung)",
+      "gesamtseitenzahl": 1,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": null,
+      "band_heft": "Version 3.0",
+      "auflage": "Version 3.0 (2024)",
+      "sprache": "Deutsch (Übersetzung)",
+      "zugang": "http://udlguidelines.cast.org"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Das Dokument präsentiert die Universal-Design-for-Learning-Leitlinien (UDL) in Version 3.0. Das zentrale Ziel sind selbstgesteuerte Lernaktivitäten, die zielstrebig, reflektiert, einfallsreich, authentisch, strategisch und handlungsorientiert sind. Die Leitlinien bieten ein strukturiertes Framework zur Gestaltung inklusiver Lernumgebungen.",
+      "zentrale_thesen": [
+        {
+          "these": "Lernengagement soll durch Optionen zur Berücksichtigung individueller Interessen, Aufrechterhaltung von Anstrengung und Förderung emotionaler Kompetenz entwickelt werden.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "these": "Informationen sollen durch Optionen für Wahrnehmung, Verständnis von Sprache/Symbolen und Wissensaufbau dargestellt werden.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "these": "Die Informationsverarbeitung und Darstellung von Lernergebnissen soll durch Optionen für Zugang, Ausdruck/Kommunikation und Strategieentwicklung gefördert werden.",
+          "seitenverweis": "S. 1"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Universal Design for Learning (UDL)",
+          "definition": "Ein Ansatz für selbstgesteuerte Lernaktivitäten, die zielstrebig, reflektiert, einfallsreich, authentisch, strategisch und handlungsorientiert sind.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "begriff": "Förderung von Lernengagement",
+          "definition": "Bereich des UDL-Frameworks, der Optionen für Interesse, Anstrengung/Ausdauer und emotionale Kompetenz umfasst.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "begriff": "Darstellung von Informationen",
+          "definition": "Bereich des UDL-Frameworks, der Optionen für Wahrnehmung, Sprache/Symbole und Wissensaufbau umfasst.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "begriff": "Informationsverarbeitung und Darstellung von Lernergebnissen",
+          "definition": "Bereich des UDL-Frameworks, der Optionen für Zugang, Ausdruck/Kommunikation und Strategieentwicklung umfasst.",
+          "seitenverweis": "S. 1"
+        }
+      ],
+      "kapitelstruktur": [
+        "Förderung von Lernengagement",
+        "   - Optionen für Interesse berücksichtigen",
+        "   - Optionen für Anstrengung und Ausdauer bereitstellen",
+        "   - Optionen für emotionale Kompetenz anbieten",
+        "Darstellung von Informationen",
+        "   - Optionen für Wahrnehmung bieten",
+        "   - Optionen für Sprache und Symbole anbieten",
+        "   - Optionen für Wissensaufbau bereitstellen",
+        "Informationsverarbeitung und Darstellung von Lernergebnissen",
+        "   - Optionen für Zugang ermöglichen",
+        "   - Optionen für Ausdruck und Kommunikation bereitstellen",
+        "   - Optionen für Strategieentwicklung anbieten"
+      ],
+      "methodik": "Nicht zutreffend (normatives Framework basierend auf neurowissenschaftlicher Forschung)",
+      "ergebnisse_schlussfolgerungen": "Die UDL-Leitlinien bieten ein strukturiertes Framework zur Gestaltung inklusiver Lernumgebungen. Sie gliedern sich in die drei Hauptbereiche Lernengagement, Darstellung von Informationen sowie Informationsverarbeitung und Darstellung von Lernergebnissen. Durch die Umsetzung der verschiedenen Optionen sollen Barrieren abgebaut und selbstgesteuertes Lernen für alle ermöglicht werden.",
+      "theoriebezuege": [
+        "CAST: Universal Design for Learning (UDL) Framework",
+        "Neurowissenschaftliche Lernforschung (affektive, kognitive und strategische Netzwerke)"
+      ]
+    }
+  },
+  "dateiname_original": "UDLGuidelines2024.pdf"
+}

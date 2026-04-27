@@ -11,7 +11,13 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:331]** }] Pädagogische Diagnostik: Förder- vs. Statusdiagnostik, Phasenmodell. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,224--235 (12\,S.) \item[ **`\cite{stahl2021mbet}`** ] mBET als multifunktionales Förderdiagnostik-Tool. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,252--258 (7\,S.) \item[\cite{baumschader2021
+
+2. **[L:977]** Das \textit{multidimensionale Begabungs-Entwicklungs-Tool} (mBET) des ÖZBF etabliert eine strukturierte Triangulation zwischen Lehrperson, Eltern und Lernenden **`\parencite[S.\,252--259]{stahl2021mbet}`** (post="S.\,252--259") . Im Fall~S.\ wäre mBET, kombiniert mit nonverbalen Testanteilen und einer dolmetschergestützten Elternrückmeldung, ein Beispiel dafür, wie eine schulpsychologi
+
+3. **[L:1105]** weizer Screening, mBET, DBE), empirische Wahrnehmungsfehler, SHP-Rolle. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,224--238 (15\,S.) \item[ **`\cite{stahl2021mbet}`** ] mBET als multifunktionales Förderdiagnostik-Tool. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,252--258 (7\,S.) \item[\cite{baumschader2021
 
 <!-- CLAIMS-END -->
 

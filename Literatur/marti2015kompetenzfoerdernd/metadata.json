@@ -1,0 +1,117 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Acht Merkmale eines kompetenzfördernden Unterrichts",
+      "autoren": [
+        {
+          "name": "Fachbereich Bildungswissenschaften, Pädagogische Hochschule Luzern",
+          "rolle": "Herausgeber"
+        }
+      ],
+      "jahr": 2015,
+      "verlag": "Pädagogische Hochschule Luzern",
+      "erscheinungsort": "Luzern",
+      "quellentyp": "Arbeitspapier / Handreichung",
+      "seitenzahlen": "S. 1–7",
+      "gesamtseitenzahl": 7,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": null,
+      "band_heft": null,
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Internes Dokument PH Luzern"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text behandelt die Frage, was einen kompetenzfördernden Unterricht ausmacht. Er definiert acht zentrale Merkmale eines solchen Unterrichts und stellt dazu passende Reflexionsfragen für Lehrpersonen bereit. Das Dokument baut auf den zehn Merkmalen guten Unterrichts von Hilbert Meyer auf und ergänzt diese um kompetenzorientierte Aspekte.",
+      "zentrale_thesen": [
+        {
+          "these": "Kompetenzfördernder Unterricht baut auf den zehn Merkmalen guten Unterrichts von Hilbert Meyer auf und erweitert diese um kompetenzspezifische Aspekte.",
+          "seitenverweis": "S. 3"
+        },
+        {
+          "these": "Authentische Anforderungssituationen mit Lebensweltbezug sind zentral für den Kompetenzerwerb.",
+          "seitenverweis": "S. 3"
+        },
+        {
+          "these": "Schülerinnen und Schüler müssen Erfolgserlebnisse durch überprüfbares Wissen und Können erfahren.",
+          "seitenverweis": "S. 4"
+        },
+        {
+          "these": "Instruktion und Konstruktion müssen verknüpft werden, um aktives Lernen zu fördern.",
+          "seitenverweis": "S. 4"
+        },
+        {
+          "these": "Leistungserwartungen müssen transparent kommuniziert werden.",
+          "seitenverweis": "S. 5"
+        },
+        {
+          "these": "Binnendifferenzierung und Individualisierung sind essenziell für niveauangepasstes Lernen.",
+          "seitenverweis": "S. 5"
+        },
+        {
+          "these": "Kompetenzaufbau erfolgt kumulativ durch Anknüpfen an Vorwissen.",
+          "seitenverweis": "S. 6"
+        },
+        {
+          "these": "Feedback, insbesondere Peerfeedback und formative Beurteilung, ist zentral für den Lernerfolg.",
+          "seitenverweis": "S. 6"
+        },
+        {
+          "these": "Reflexion ermöglicht neue Erkenntnisse und fördert die Eigenverantwortung der Lernenden.",
+          "seitenverweis": "S. 6"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Authentische Anforderungssituation",
+          "definition": "Lebensweltbezug der Schülerinnen und Schüler; fachlich und lebensweltlich bedeutsame Inhalte, die zum Kompetenzerwerb beitragen.",
+          "seitenverweis": "S. 3"
+        },
+        {
+          "begriff": "Verknüpfung von Instruktion und Konstruktion",
+          "definition": "Kommunikations- und Kooperationsprozesse, bei denen die Schülerinnen und Schüler eine aktiv-konstruierende Rolle einnehmen.",
+          "seitenverweis": "S. 4"
+        },
+        {
+          "begriff": "Binnendifferenzierung und Individualisierung",
+          "definition": "Niveauangepasstes Lernangebot mit individuellen Lernwegen.",
+          "seitenverweis": "S. 5"
+        },
+        {
+          "begriff": "Kumulativer Kompetenzaufbau",
+          "definition": "Nutzung des Vorwissens für den systematischen Aufbau von neuem Wissen und Können.",
+          "seitenverweis": "S. 6"
+        },
+        {
+          "begriff": "Feedback",
+          "definition": "Peerfeedback sowie formative und summative Beurteilung als Instrumente zur Lernförderung.",
+          "seitenverweis": "S. 6"
+        },
+        {
+          "begriff": "Erkenntnisse durch Reflexion",
+          "definition": "Nachdenken über Sachzusammenhänge und das eigene Lernen zur Förderung der Eigenverantwortung.",
+          "seitenverweis": "S. 6"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Authentische Anforderungssituation",
+        "2. Erfolgserlebnisse ermöglichen",
+        "3. Verknüpfung von Instruktion und Konstruktion",
+        "4. Transparenz der Leistungserwartungen",
+        "5. Binnendifferenzierung und Individualisierung",
+        "6. Kumulativer Kompetenzaufbau",
+        "7. Feedback",
+        "8. Erkenntnisse durch Reflexion"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag / praxisorientierte Handreichung)",
+      "ergebnisse_schlussfolgerungen": "Der Text liefert eine praxisorientierte Handreichung zur Umsetzung eines kompetenzfördernden Unterrichts. Er definiert acht zentrale Merkmale, die Lehrpersonen als Orientierung dienen sollen. Zu jedem Merkmal werden konkrete Reflexionsfragen formuliert, die zur Überprüfung und Weiterentwicklung des eigenen Unterrichts genutzt werden können. Ziel ist es, die Unterrichtsqualität im Hinblick auf den Kompetenzerwerb der Schülerinnen und Schüler zu steigern.",
+      "theoriebezuege": [
+        "Hilbert Meyer: Zehn Merkmale guten Unterrichts (S. 3)",
+        "Hattie: Studie zur Wichtigkeit des Feedbacks (S. 6)",
+        "Klaus Joller-Graf (2015): Wie Wissen wirksam wird – Merkmale eines kompetenzfördernden Unterrichts (S. 1)",
+        "A. Sehrer (2016): Fitness Check Lehrpersonen (S. 1)"
+      ]
+    }
+  },
+  "dateiname_original": "2015_Marti_AchtMerkmaleeineskompetenzförderndenUnterrichts.pdf"
+}

@@ -11,17 +11,19 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[L:531]** ial verstanden, das einer prozessorientierten Diagnostik bedarf. Eine einmalige Statusdiagnostik per Intelligenztest genügt dieser Definition ausdrücklich nicht **`\parencite{lemas2023begriffsklaerung}`** . \subsection{Warum Potenziale bei Kindern mit Migrationsgeschichte verdeckt bleiben} \textcite{stamm2021fehlenderblick} identifiziert \enquote{begabte Minoritä
+1. **[L:667]** verstanden, das einer prozessbezogenen Diagnostik bedarf. Eine einmalige Statusdiagnostik per Intelligenztest reicht dieser Definition zufolge allein nicht aus **`\parencite{lemas2023begriffsklaerung}`** . Stadelmann unterfüttert dieses dynamische Verständnis neurobiologisch: Epigenetische Regulation und Hirnplastizität binden die Begabungsentwicklung an Erfahru
 
-2. **[L:766]** iert den Grundsatz, dass Begabung als entwicklungsfähiges Potenzial einer prozessorientierten Diagnostik bedarf und eine einmalige Statusdiagnostik nicht genügt **`\parencite{lemas2023begriffsklaerung}`** . In der konkreten Situation von S. würde dies bedeuten, den Testbefund als einen Mosaikstein zu behandeln und ihn mit den Beobachtungsdaten aus anderen Kontext
+2. **[L:1169]** iert den Grundsatz, dass Begabung als entwicklungsfähiges Potenzial einer prozessorientierten Diagnostik bedarf und eine einmalige Statusdiagnostik nicht genügt **`\parencite{lemas2023begriffsklaerung}`** . In der konkreten Situation von S. würde dies bedeuten, den Testbefund als einen Mosaikstein zu behandeln und ihn mit den Beobachtungsdaten aus anderen Kontext
 
-3. **[L:2747]** ec:frage1} dargestellte Kritik an sprachlastiger Diagnostik \parencite{maehler2018diagnostik} und die Forderung nach prozessorientierter, dynamischer Diagnostik **`\parencite{preckel2013hochbegabung,lemas2023begriffsklaerung}`** . Die DISCOVER-Studie und die dynamische NNAT-Modifikation liefern empirische Evidenz für genau jene multiperspektivischen Verfahren, die im Lernskript geforder
+3. **[L:3670]** llte Kritik an sprachlastiger Diagnostik \parencite[S.\,93,\,169--172]{maehler2018diagnostik} und die Forderung nach prozessorientierter, dynamischer Diagnostik **`\parencite{lemas2023begriffsklaerung}`** . Die DISCOVER-Studie und die dynamische NNAT-Modifikation liefern empirische Evidenz für genau jene multiperspektivischen Verfahren, die im Lernskript geforder
 
-4. **[L:2924]** stischen Prinzip in Abschnitt~\ref{sec:frage1} (dynamische, prozessorientierte Diagnostik). Es bestätigt empirisch, dass einmalige Statusdiagnostik nicht genügt **`\parencite{lemas2023begriffsklaerung}`** und dass wiederholte Erhebungen bei Kindern im Zweitspracherwerb nötig sind. Im Fall S. ist die schulpsychologische Testung auf Englisch ein solcher erster Scre
+4. **[L:3783]** denz für die Überlegenheit prozessorientierter gegenüber statischer Diagnostik. Das stützt \textcite[S.\,274--303]{preckel2021tad} und die LemaS-Begriffsklärung **`\parencite{lemas2023begriffsklaerung}`** . \item Die \textbf{565\%-Steigerung im Young-Scholars-Modell} (Horn 2015) zeigt, dass systemische Veränderungen der Identifikationspraxis messbar mehr unterrep
 
-5. **[L:3179]** B. mathematische Aufgaben mit gestufter Unterstützung) würde sein Potenzial vermutlich noch deutlicher zeigen. Die Forderung nach prozessorientierter Diagnostik **`\parencite{lemas2023begriffsklaerung,preckel2013hochbegabung}`** wird hier experimentell belegt. \subsubsection*{Wahrnehmungsprofil: Auditive Schwächen dominieren} Die 2E-Kinder liessen sich in vier Subgruppen einteilen: 40\%
+5. **[L:3852]** stischen Prinzip in Abschnitt~\ref{sec:frage1} (dynamische, prozessorientierte Diagnostik). Es bestätigt empirisch, dass einmalige Statusdiagnostik nicht genügt **`\parencite{lemas2023begriffsklaerung}`** und dass wiederholte Erhebungen bei Kindern im Zweitspracherwerb nötig sind. Im Fall S. ist die schulpsychologische Testung auf Englisch ein solcher erster Scre
+
+6. **[L:4107]** B. mathematische Aufgaben mit gestufter Unterstützung) würde sein Potenzial vermutlich noch deutlicher zeigen. Die Forderung nach prozessorientierter Diagnostik **`\parencite{lemas2023begriffsklaerung}`** wird hier experimentell belegt. \subsubsection*{Wahrnehmungsprofil: Auditive Schwächen dominieren} Die 2E-Kinder liessen sich in vier Subgruppen einteilen: 40\%
 
 <!-- CLAIMS-END -->
 

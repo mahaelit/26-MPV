@@ -1,0 +1,112 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Kokonstruktive Kooperation zwischen Lehrkräften: Aktualisierung und Erweiterung der Kokonstruktionstheorie sowie deren Anwendung am Beispiel schulischer Inklusion",
+      "autoren": [
+        {
+          "nachname": "Grosche",
+          "vorname": "Michael",
+          "rolle": "Autor"
+        },
+        {
+          "nachname": "Fussangel",
+          "vorname": "Kathrin",
+          "rolle": "Autorin"
+        },
+        {
+          "nachname": "Gräsel",
+          "vorname": "Cornelia",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2020,
+      "verlag": "Beltz Juventa",
+      "erscheinungsort": "Weinheim",
+      "quellentyp": "Zeitschriftenartikel",
+      "seitenzahlen": "S. 461–479",
+      "gesamtseitenzahl": 19,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "Zeitschrift für Pädagogik (Z.f.Päd.)",
+      "band_heft": "66. Jahrgang, Heft 4",
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Zeitschrift für Pädagogik"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text aktualisiert und erweitert die Kokonstruktionstheorie von Gräsel, Fussangel und Pröbstel (2006) und wendet sie auf die schulische Inklusion an. Im Zentrum steht die Präzisierung der kokonstruktiven Kooperation zwischen sonder- und regelpädagogischen Lehrkräften. Es wird ein theoretisches Modell der Kokonstruktion aufgestellt, das Rahmenbedingungen, Vorbedingungen, Handlungen sowie proximale und distale Folgen beschreibt.",
+      "zentrale_thesen": [
+        {
+          "these": "Die Umsetzung von Inklusion erfordert interdisziplinäre Kooperation zwischen Regelschul- und sonderpädagogischen Lehrkräften.",
+          "seitenverweis": "S. 461"
+        },
+        {
+          "these": "Kokonstruktion ist die intensivste Form der Kooperation und notwendig für komplexe Innovationen wie Inklusion.",
+          "seitenverweis": "S. 463"
+        },
+        {
+          "these": "Es gibt drei Formen der Kooperation: Austausch, arbeitsteilige Kooperation und Kokonstruktion.",
+          "seitenverweis": "S. 463"
+        },
+        {
+          "these": "Kokonstruktive Handlungen sind interdependent, intensiv, langfristig und auf geteilte Ziele bezogen.",
+          "seitenverweis": "S. 471"
+        },
+        {
+          "these": "Spezifische soziale Vorbedingungen für Kokonstruktion sind interpersonale Zielinterdependenz, Vertrauen, Egalität, Reziprozität und die Bereitschaft zur Deprivatisierung.",
+          "seitenverweis": "S. 469–471"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Kokonstruktive Handlungen",
+          "definition": "Fortwährende und zyklische Aushandlungen und Reflexionen von Konkretisierungen einer Innovation.",
+          "seitenverweis": "S. 471"
+        },
+        {
+          "begriff": "Deprivatisierung",
+          "definition": "Bereitschaft, die eigenen Arbeitsweisen offenzulegen und sich Unterstützung und Feedback einzuholen.",
+          "seitenverweis": "S. 471"
+        },
+        {
+          "begriff": "Austausch",
+          "definition": "Lehrkräfte tauschen berufsbezogene Informationen untereinander aus zur schnellen und effizienten Bearbeitung von Routineaufgaben.",
+          "seitenverweis": "S. 463"
+        },
+        {
+          "begriff": "Arbeitsteilige Kooperation",
+          "definition": "Lehrkräfte stimmen gemeinsame Ziele ab, bearbeiten Arbeitspakete aber individuell.",
+          "seitenverweis": "S. 463"
+        },
+        {
+          "begriff": "Zielinterdependenz",
+          "definition": "Kooperationspartner erkennen ihre gegenseitige Abhängigkeit bei der Erreichung gemeinsamer Ziele an.",
+          "seitenverweis": "S. 469"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Interdisziplinäre Kooperation von Lehrer*innen im Kontext schulischer Inklusion",
+        "2. Drei Formen der Kooperation und ihre Rolle bei der Umsetzung von Inklusion",
+        "3. Modell der Kokonstruktion",
+        "   3.1 Rahmenbedingungen",
+        "   3.2 Spezifische soziale Vorbedingungen",
+        "   3.3 Kokonstruktive Handlungen",
+        "   3.4 Proximale Folgen",
+        "   3.5 Distale Folgen",
+        "   3.6 Reflexion",
+        "4. Fazit: Lehrkräfte zur Kooperation anregen – noch immer eine Aufgabe für Sisyphos?"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag / Theorieentwicklung)",
+      "ergebnisse_schlussfolgerungen": "Kokonstruktive Kooperation ist anspruchsvoll und aufwändig, führt aber langfristig zu positiven Ergebnissen, die mit anderen Kooperationsformen nicht erreicht werden können. Durch Kokonstruktion kann ein gemeinsames Verständnis der Innovation erarbeitet werden und Lehrkräfte fühlen sich gemeinsam verantwortlich. Es wird betont, dass Kokonstruktion nicht als Normalfall betrachtet werden sollte, sondern als Ziel, das unter bestimmten Bedingungen angestrebt werden kann.",
+      "theoriebezuege": [
+        "Gräsel, Fussangel & Pröbstel (2006): Ursprüngliche Kokonstruktionstheorie",
+        "Lütje-Klose & Urban (2014): Definition von Kooperation",
+        "Spieß (2004): Kernelemente der Kooperationsdefinition",
+        "Armstrong (2015): Vertrauen in Kooperationsbeziehungen",
+        "Bonsen & Rolff (2006): Professionelle Lerngemeinschaften",
+        "Holtappels (2013): Deprivatisierung",
+        "Lortie (1972): Zellulare Struktur der Schule"
+      ]
+    }
+  },
+  "dateiname_original": "2020_Groscheetal._ZfP_KokonstruktiveZA-Inklusion-2.pdf"
+}

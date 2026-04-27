@@ -76,6 +76,29 @@ deutschsprachigen Raum gegenüber dem Englischen ein Desiderat darstellt.
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:377]** ge 2} \begin{description} \item[\cite{sturm2016graphomotorik}] Zur Bedeutung der graphomotorischen Prozesse beim Schreiben(lernen). S.\,183--198 (16\,S.) \item[ **`\cite{hurschler2020handschriftbeurteilung}`** ] Differenzierende Beurteilung der Handschrift -- ein Bestandteil der Schreibförderung. Leserlichkeit, Geläufigkeit, DASH-Lücke im deutschsprachigen Raum. \text
+
+2. **[L:1319]** te sensomotorische Grundlagen hin, die das Schreiben zu einer kognitiv hochbelastenden Tätigkeit machen und damit Ressourcen für inhaltliches Denken blockieren. **`\textcite[S.\,3]{hurschler2020handschriftbeurteilung}`** (post="S.\,3") formuliert diesen Mechanismus präzise: \enquote{Je geläufiger die Schüler*innen verschriften, desto weniger Aufmerksamkeit muss auf die schreibmotorischen Aspek
+
+3. **[L:1363]** orische Fertigkeit, sondern ein vielschichtiger Vorgang, der sensorische Wahrnehmung, motorische Ausführung und kognitive Verarbeitung gleichzeitig beansprucht. **`\textcite[S.\,2--3]{hurschler2020handschriftbeurteilung}`** (post="S.\,2--3") zeigt auf, dass es sich beim Erwerb der Schreibbewegungen um prozedurale Lernprozesse komplexer Teilfertigkeiten handelt, die sowohl das zuverlässige Abrufen or
+
+4. **[L:1396]** Transkription und exekutive Funktionen entwickeln. Bei S.\ ist diese gleichzeitige Anforderung in beiden Schriftsprachen (Deutsch und Englisch) nicht erfüllbar. **`\textcite[S.\,3,\,11]{hurschler2020handschriftbeurteilung}`** (post="S.\,3,\,11") systematisiert die zentralen diagnostischen Hauptkriterien der Handschriftbeurteilung in zwei Achsen: \textit{Leserlichkeit} und \textit{Geläufigkeit}. Beide Ko
+
+5. **[L:1405]** f kriteriengestützte Beobachtung, prozessdiagnostische Beurteilungsbögen und im Volksschulkontext zunehmend auch auf digitale Handschriftanalysen angewiesen ist **`\parencite[S.\,11]{hurschler2020handschriftbeurteilung}`** (post="S.\,11") . Im Schweizer Kontext steht mit GRAFOS \parencite{saegessereckhart2016grafos} ein entwicklungsorientiertes Screening- und Differentialdiagnostikinstrument zur
+
+6. **[L:1433]** tt-Analysen erfassen, wie \textcite{hurschlerlichtsteiner2024handschriftanalysen} an Daten aus Schweizer Primarklassen zeigt und differenzierend beurteilen, wie **`\textcite[S.\,3,\,11]{hurschler2020handschriftbeurteilung}`** (post="S.\,3,\,11") am Beispiel der Kriterien Leserlichkeit und Geläufigkeit darlegt; entscheidend für den Förderprozess ist nicht die apparative Messung, sondern die kriteriengest
+
+7. **[L:1656]** gietraining, motivationale Unterstützung und passungssensible Anforderungsdosierung integriert. \subsection{Kernliteratur zu Frage 2} \begin{description} \item[ **`\cite{hurschler2020handschriftbeurteilung}`** ] Differenzierende Beurteilung der Handschrift -- ein Bestandteil der Schreibförderung. Leserlichkeit, Geläufigkeit, DASH-Lücke im deutschsprachigen Raum. \text
+
+<!-- CLAIMS-END -->
+
 ## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
 
 **Geprüfte Locator:** `S.\,3`, `S.\,11`, `S.\,3,\,11`

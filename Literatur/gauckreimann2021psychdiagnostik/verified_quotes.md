@@ -11,10 +11,19 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **2**-mal im Lerndokument zitiert (Stand 2026-04-26, nach Eingriff 2)._
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[L:≈845]** Gauck/Reimann betonen, dass eine auf ein bis zwei Termine beschränkte Testdurchführung „bestenfalls eine Momentaufnahme des aktuellen Potenzials" darstellt; Testminderleistung bei belasteten Kindern.
-2. **[L:≈858]** Gauck/Reimann schlagen Prozessdiagnostik statt Statusdiagnostik vor; Response-to-Intervention.
+1. **[A:323]** d (Hoch-)Begabte denken: individuelle und soziokulturelle Perspektiven. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,115--128 (14\,S.) \item[ **`\cite{gauckreimann2021psychdiagnostik}`** ] Psychologische Diagnostik der Begabung. Vier-Schritte-Prozess, Aisha- und Lea-Vignetten. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,239--
+
+2. **[L:787]** bungserkennung als überlagernde Filter -- eine Beobachtung, die das Risiko im Fall S.\ unmittelbar konkretisiert. \subsection{Grenzen sprachlastiger Diagnostik} **`\textcite[S.\,239--251]{gauckreimann2021psychdiagnostik}`** (post="S.\,239--251") dokumentieren an den deutschsprachigen Fallvignetten Aisha und Lea einen vierschrittigen psychodiagnostischen Prozess, in dem sprachliche Unsicherheit, Deckenef
+
+3. **[L:870]** Perspektive ist die psychologische Einzelabklärung. Auch sie hat systematische Grenzen, die gerade bei belasteten und mehrsprachigen Kindern zum Tragen kommen: **`\textcite[S.\,239--251]{gauckreimann2021psychdiagnostik}`** (post="S.\,239--251") betonen, dass eine auf ein bis zwei Termine beschränkte Testdurchführung \enquote{bestenfalls eine Momentaufnahme des aktuellen Potenzials} darstellt und das Ve
+
+4. **[L:883]** ertraute Testsituation -- Bedingungen, unter denen ein einzelner Abklärungstermin nicht die kognitive Kapazität, sondern den Belastungsgrad am Testtag abbildet. **`\textcite[S.\,239--251]{gauckreimann2021psychdiagnostik}`** (post="S.\,239--251") schlagen deshalb vor, bei Kindern, die ihr Potenzial in einer einmaligen Abklärung nicht zum Ausdruck bringen können, anstelle einer Statusdiagnostik eine \text
+
+5. **[L:929]** rngespräch zunächst nur über eine Bekannte der Familie möglich; ein professionell begleitetes Gespräch mit Dolmetscherin fand erst auf Initiative der SHP statt. **`\textcite[S.\,239--247]{gauckreimann2021psychdiagnostik}`** (post="S.\,239--247") dokumentieren an deutschsprachigen Fallvignetten (Aisha, Lea), wie diese Elternperspektive methodisch in einen vier­schrittigen psychodiagnostischen Prozess ein
+
+6. **[L:1095]** d (Hoch-)Begabte denken: individuelle und soziokulturelle Perspektiven. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,115--128 (14\,S.) \item[ **`\cite{gauckreimann2021psychdiagnostik}`** ] Psychologische Diagnostik der Begabung. Vier-Schritte-Prozess, Aisha- und Lea-Vignetten. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,239--
 
 <!-- CLAIMS-END -->
 

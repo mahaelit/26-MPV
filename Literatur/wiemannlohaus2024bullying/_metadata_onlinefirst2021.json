@@ -1,0 +1,138 @@
+{
+  "quelldatei": "wiemann-lohaus-2021-verfügbare-ressourcen-und-bullyingerfahrungen-von-schülern-und-schülerinnen-mit-und-ohne.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Wiemann",
+        "vorname": "Ann-Katrin",
+        "institution": "Universität Bielefeld"
+      },
+      {
+        "nachname": "Lohaus",
+        "vorname": "Arnold",
+        "institution": "Universität Bielefeld"
+      }
+    ],
+    "titel": "Verfügbare Ressourcen und Bullyingerfahrungen von Schülern und Schülerinnen mit und ohne sonderpädagogischen Förderbedarf",
+    "untertitel": "Eine Pilotstudie im Inklusionskontext",
+    "erscheinungsjahr": 2021,
+    "erscheinungsjahr_print": 2024,
+    "zeitschrift": "Zeitschrift für Pädagogische Psychologie",
+    "band": 38,
+    "heft": "1-2",
+    "seitenzahlen_im_band": "85-98",
+    "seitenzahl_pdf": 14,
+    "doi": "10.1024/1010-0652/a000325",
+    "issn": "1010-0652",
+    "verlag": "Hogrefe",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel (empirisch, quantitativ)",
+    "open_access": true,
+    "lizenz": "CC BY 4.0",
+    "hinweis": "Online-Erstveröffentlichung 2021, Print-Erscheinung im Band 38 (2024), Heft 1-2."
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "",
+      "titel": "Zusammenfassung / Abstract",
+      "seite": 85
+    },
+    {
+      "nr": "",
+      "titel": "Bullying und Inklusion",
+      "seite": 86
+    },
+    {
+      "nr": "",
+      "titel": "Personale und umgebungsbezogene Ressourcen",
+      "seite": 86
+    },
+    {
+      "nr": "",
+      "titel": "Fragestellungen und Hypothesen",
+      "seite": 87
+    },
+    {
+      "nr": "",
+      "titel": "Methode",
+      "seite": 88
+    },
+    {
+      "nr": "",
+      "titel": "Stichprobe",
+      "seite": 88
+    },
+    {
+      "nr": "",
+      "titel": "Durchführung",
+      "seite": 88
+    },
+    {
+      "nr": "",
+      "titel": "Messinstrumente",
+      "seite": 88
+    },
+    {
+      "nr": "",
+      "titel": "Statistische Analysen",
+      "seite": 89
+    },
+    {
+      "nr": "",
+      "titel": "Ergebnisse",
+      "seite": 90
+    },
+    {
+      "nr": "",
+      "titel": "Diskussion",
+      "seite": 92
+    },
+    {
+      "nr": "",
+      "titel": "Limitationen und Ausblick",
+      "seite": 94
+    },
+    {
+      "nr": "",
+      "titel": "Literatur",
+      "seite": 95
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Die Pilotstudie untersucht, ob sich die Bullyingerfahrungen und die verfügbaren personalen und umgebungsbezogenen Ressourcen von Schülern und Schülerinnen mit und ohne sonderpädagogischen Förderbedarf (SPF) im Inklusionskontext unterscheiden. Zudem wird explorativ geprüft, ob es eine Interaktion zwischen Bullyingerfahrungen und dem SPF hinsichtlich der Ressourcen gibt.",
+    "theoretischer_hintergrund": "Der theoretische Hintergrund basiert auf dem Risiko- und Schutzfaktorenkonzept (Scheithauer, Niebank & Petermann, 2000), welches personale (z.B. Selbstwert, Selbstwirksamkeit) und umgebungsbezogene Ressourcen (z.B. elterliche Unterstützung, Integration in die Peergroup) als Schutzfaktoren bei der Bewältigung von Herausforderungen wie Bullying betrachtet. Bullying wird nach Olweus (1993) als wiederkehrende negative Handlungen mit Schädigungsabsicht und Machtungleichgewicht definiert.",
+    "methodik": "Fragebogendaten von N = 420 Schülern und Schülerinnen der 3. bis 10. Klasse an 11 Inklusionsschulen in Nordrhein-Westfalen. Erfassung der Bullying-Involvierung mit dem Bullying Screener für die Praxis (Wolke, 2019). Erfassung der Ressourcen mit dem FRKJ 8-16 (Lohaus & Nussbeck, 2016). Mittels Propensity Score Matching wurden n = 45 Schüler ohne SPF mit n = 45 Schülern mit SPF verglichen. Auswertung mit Chi-Quadrat-Tests, Mehrebenenanalysen und multivariaten Varianzanalysen (MANOVA).",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Kein signifikanter Unterschied in der Häufigkeit von Bullyingerfahrungen zwischen Schülern mit und ohne SPF (Chi-Quadrat-Test: χ²(1) = .86, p = .35, φ = .05).",
+        "seitenverweis": "S. 90"
+      },
+      {
+        "befund": "Schüler, die von Bullying betroffen waren, verfügten über signifikant weniger umgebungsbezogene Ressourcen als unbeteiligte Schüler (β = -.82, p = .04).",
+        "seitenverweis": "S. 90-91"
+      },
+      {
+        "befund": "Signifikant geringere personale Ressourcen bei betroffenen Schülern: Selbstwirksamkeit (p = .04, η²p = .05), Selbstwertschätzung (p < .01, η²p = .14), Optimismus (p < .01, η²p = .09), Selbstkontrolle (p = .03, η²p = .05).",
+        "seitenverweis": "S. 91"
+      },
+      {
+        "befund": "Signifikant geringere umgebungsbezogene Ressourcen bei betroffenen Schülern: Integration in die Peergroup (p < .01, η²p = .12), schulische Integration (p < .01, η²p = .22), elterliche Unterstützung (p = .04, η²p = .05).",
+        "seitenverweis": "S. 91-92"
+      },
+      {
+        "befund": "Keine signifikante Interaktion zwischen Bullyingerfahrungen und SPF hinsichtlich der Ressourcen.",
+        "seitenverweis": "S. 91"
+      }
+    ],
+    "schlussfolgerungen": "Bullying findet auch an inklusiven Schulen statt, jedoch sind Schüler mit SPF nicht signifikant häufiger betroffen als ihre Mitschüler ohne SPF. Besonders relevant ist die geringere Verfügbarkeit von umgebungsbezogenen Ressourcen bei von Bullying betroffenen Schülern. Präventions- und Interventionsprogramme sollten neben personalen Ressourcen verstärkt umgebungsbezogene Ressourcen im schulischen und familiären Kontext einbeziehen."
+  },
+  "schluesselbegriffe": [
+    "Bullying",
+    "Ressourcen",
+    "schulische Inklusion",
+    "sonderpädagogischer Förderbedarf",
+    "Propensity Score Matching",
+    "Risiko- und Schutzfaktoren",
+    "Peergroup"
+  ]
+}

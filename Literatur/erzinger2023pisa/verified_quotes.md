@@ -11,17 +11,13 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **1**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
 **7 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[A:164]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
+1. **[A:164]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa}`** ,\parencite[S.\,576--580]{stamm2021fehlenderblick},\parencite{bfs2022migration}. Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in
 
-   → Beleg-Vorschlag [1] (score 0.10): [`005_uebersichtsseite_05.pdf`](excerpts/005_uebersichtsseite_05.pdf) S. 98-106 · Übersichtsseite 05
-
-2. **[L:330]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
-
-   → Beleg-Vorschlag [1] (score 0.10): [`005_uebersichtsseite_05.pdf`](excerpts/005_uebersichtsseite_05.pdf) S. 98-106 · Übersichtsseite 05
+   → Beleg-Vorschlag [1] (score 0.11): [`005_uebersichtsseite_05.pdf`](excerpts/005_uebersichtsseite_05.pdf) S. 98-106 · Übersichtsseite 05
 
 <!-- CLAIMS-END -->
 

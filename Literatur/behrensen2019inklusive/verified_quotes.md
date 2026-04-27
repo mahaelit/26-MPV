@@ -11,29 +11,44 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **11**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
 **10 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[A:327]** und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung und Fluchtmigration. (ca.~12\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite
+1. **[A:244]** same Konstellation aus früher Zweitspracherwerbsphase, schulischer Anschlussunsicherheit, möglicher biographischer Belastung und defizitorientierter Wahrnehmung **`\parencite{behrensen2019inklusive,stamm2021fehlenderblick}`** . \paragraph{Erkenntnisinteresse.} Die vorliegende Vertiefungsarbeit untersucht am Fall von S. exemplarisch, wie verdeckte Potenziale bei Schüler:innen mit Migr
 
-   → Beleg-Vorschlag [1] (score 0.27): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
-   → Beleg-Vorschlag [2] (score 0.27): [`010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf`](excerpts/010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf) S. 11-13 · 4 Inklusive Begabungsförderung als Gebot der Stunde:
+2. **[A:414]** Wyss. S.\,87--95 (9\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. PSI-Theorie in der pädagogischen Beziehung. S.\,35--57 (23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration. Kumulative Belastung. S.\,86--98 (13\,S.) \item[\cite{bo
 
-2. **[L:1281]** n im Herkunftsland, die sprachliche Isolation in der neuen Umgebung und die fehlende schulische Anschlussfähigkeit wirken kumulativ auf die Begabungsentwicklung **`\parencite{behrensen2019inklusive,stamm2012migranten}`** . Die spezifische Benachteiligung von S. ergibt sich dabei nicht aus der Summe einzelner Faktoren, sondern aus deren Verschränkung: Migrationsgeschichte, sprach
+   → Beleg-Vorschlag [1] (score 0.29): [`001_1_einleitung_entwicklung_der_idee_inklusiver.pdf`](excerpts/001_1_einleitung_entwicklung_der_idee_inklusiver.pdf) S. 1-2 · 1 Einleitung: Entwicklung der Idee inklusiver
+   → Beleg-Vorschlag [2] (score 0.24): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
 
-3. **[L:1369]** ch zurück. Die Sichtbarkeit seiner Begabung ist kein Merkmal seiner Person, sondern eine Funktion des Kontextes. \subsection{Migration als kumulative Belastung} **`\textcite{behrensen2019inklusive}`** analysiert die Bildungssituation von Kindern mit Fluchtmigration und identifiziert eine Reihe von Faktoren, die Begabungsentwicklung beeinträchtigen können, ohn
+3. **[L:1840]** ch gelesen fühlt, dann kann es seine Stärken oft gar nicht mehr zeigen. Das Kapitel arbeitet mit Anerkennungstheorie, der Perspektive kumulativer Belastung nach **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") und Inklusionsverständnis: Verhalten wie Rückzug, Weinen, Erstarren oder Verweigerung muss nicht als Trotz gelesen werden, sondern kann ein \textbf{Schutzmechan
+
+4. **[L:1844]** nalen und strukturellen Bedingungen ermöglichen, dass ein Potenzial sichtbar wird? Die Antwort arbeitet mit Anerkennung, Teilhabe und kumulativer Belastung nach **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") , nicht mit individueller Pathologisierung. \end{kapitelueberblick} % ------------- Frage/Antwort-Box: Frage 3 (Mintgrün) \definecolor{fragedreibg}{RGB}{200,232
+
+5. **[L:1926]** tivem Potenzial, emotionaler Belastung und sozialer Isolation, ohne eine Diagnose zu stellen. Die Migrationserfahrung bringt kumulative Belastungen im Sinne von **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") mit sich: nicht individuelle Pathologie des Kindes, sondern Überlagerung strukturell-biographischer Faktoren wie Verlust sozialer Netzwerke, mögliche belastende
+
+6. **[L:2018]** ch zurück. Die Sichtbarkeit seiner Begabung ist kein Merkmal seiner Person, sondern eine Funktion des Kontextes. \subsection{Migration als kumulative Belastung} **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") analysiert die Bildungssituation von Kindern mit Fluchtmigration und identifiziert eine Reihe von Faktoren, die Begabungsentwicklung beeinträchtigen können, ohn
 
    → Beleg-Vorschlag [1] (score 0.10): [`001_1_einleitung_entwicklung_der_idee_inklusiver.pdf`](excerpts/001_1_einleitung_entwicklung_der_idee_inklusiver.pdf) S. 1-2 · 1 Einleitung: Entwicklung der Idee inklusiver
 
-4. **[L:1512]** und Unterschiedliches anerkennen. In: Buholzer \& Kummer Wyss. (ca.~10\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. (ca.~23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung und Fluchtmigration. (ca.~12\,S.) \item[\cite{booth2019index}] Index für Inklusion. Dimensionen A und B. (ca.~60\,S.) \item[\cite
+7. **[L:2027]** nen und eingeschränkte elterliche Unterstützungsmöglichkeiten addieren sich zu einer Gesamtbelastung, die den Zugang zu den eigenen Ressourcen massiv erschwert. **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") argumentiert, dass inklusive Begabungsförderung gerade für diese Kinder eine Antwort auf Bildungsherausforderungen darstellt, weil sie den Fokus von Defizitausg
 
-   → Beleg-Vorschlag [1] (score 0.27): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
-   → Beleg-Vorschlag [2] (score 0.27): [`010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf`](excerpts/010_4_inklusive_begabungsfoerderung_als_gebot_der_stun.pdf) S. 11-13 · 4 Inklusive Begabungsförderung als Gebot der Stunde:
+   → Beleg-Vorschlag [1] (score 0.21): [`006_3_gefluechtete_ein_besonderer_fokus_fuer_inklusive.pdf`](excerpts/006_3_gefluechtete_ein_besonderer_fokus_fuer_inklusive.pdf) S. 6-10 · 3 Geflüchtete: Ein besonderer Fokus für inklusive
+   → Beleg-Vorschlag [2] (score 0.18): [`001_1_einleitung_entwicklung_der_idee_inklusiver.pdf`](excerpts/001_1_einleitung_entwicklung_der_idee_inklusiver.pdf) S. 1-2 · 1 Einleitung: Entwicklung der Idee inklusiver
 
-5. **[L:1597]** . Was als Verweigerung erscheint, ist in vielen Fällen das Ergebnis einer Überforderung, die das Kind nicht verbalisieren kann, weil ihm die Sprache dafür fehlt **`\parencite{behrensen2019inklusive}`** . Für ein Standortgespräch würde ich drei konkrete Alternativen vorschlagen, die jeweils auf einen der diagnostizierten Mechanismen zielen. Die \textit{erste Al
+8. **[L:2121]** hlt die Grundlage, sich als Person mit eigenen Stärken zu zeigen, weil die Umgebung primär Defizite spiegelt. Aus der Perspektive der kumulativen Belastung nach **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") übersteigt die Gesamtanforderung, neue Sprache, neue Schule, neue Peers, fehlende familiäre Brücken, die Bewältigungsressourcen des Kindes. \textcite[S.\,22--23
 
-6. **[L:3428]** en), fehlende Erfahrung mit schulischen Leistungssettings. \textit{Bezug zu Frage~3:} Die Beschreibung der kumulativen Belastungen geflüchteter Kinder bestätigt **`\textcite{behrensen2019inklusive}`** Analyse der Fluchtmigration als kumulative Belastung, erweitert sie aber um die institutionelle Dimension: Nicht nur die individuellen Belastungen maskieren Beg
+   → Beleg-Vorschlag [1] (score 0.10): [`005_2_3_ressourcenorientierung.pdf`](excerpts/005_2_3_ressourcenorientierung.pdf) S. 5-5 · 2.3 Ressourcenorientierung
+
+9. **[L:2201]** Wyss. S.\,87--95 (9\,S.) \item[\cite{kuhl2019diversitaet}] Diversität und Persönlichkeit. PSI-Theorie in der pädagogischen Beziehung. S.\,35--57 (23\,S.) \item[ **`\cite{behrensen2019inklusive}`** ] Inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration. Kumulative Belastung, Kap.\,5. S.\,86--103 (18\,S.) \ite
+
+   → Beleg-Vorschlag [1] (score 0.29): [`001_1_einleitung_entwicklung_der_idee_inklusiver.pdf`](excerpts/001_1_einleitung_entwicklung_der_idee_inklusiver.pdf) S. 1-2 · 1 Einleitung: Entwicklung der Idee inklusiver
+   → Beleg-Vorschlag [2] (score 0.24): [`002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf`](excerpts/002_2_annaeherungen_inklusive_begabungsfoerderung_als.pdf) S. 3-5 · 2 Annäherungen: Inklusive Begabungsförderung als
+
+10. **[L:2286]** {nichts} oder \enquote{verweigert Aufgaben}. Das heisst: Die Sanktion reagiert nicht auf eine Regelverletzung, sondern auf das Fehlen einer erwarteten Leistung. **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") beschreibt, dass bei Kindern mit Migrations- und Fluchterfahrung die kumulative Belastung die Bewältigungsressourcen übersteigen kann. Was als Verweigerung ersc
+
+11. **[L:4356]** en), fehlende Erfahrung mit schulischen Leistungssettings. \textit{Bezug zu Frage~3:} Die Beschreibung der kumulativen Belastungen geflüchteter Kinder bestätigt **`\textcite[S.\,86--98]{behrensen2019inklusive}`** (post="S.\,86--98") Analyse der Fluchtmigration als kumulative Belastung, erweitert sie aber um die institutionelle Dimension: Nicht nur die individuellen Belastungen maskieren Beg
 
 <!-- CLAIMS-END -->
 

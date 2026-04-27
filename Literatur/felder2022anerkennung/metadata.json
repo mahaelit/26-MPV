@@ -1,0 +1,90 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Anerkennung",
+      "autoren": [
+        {
+          "nachname": "Felder",
+          "vorname": "Franziska",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2022,
+      "verlag": "UTB / Julius Klinkhardt (vermutet basierend auf Hedderich et al.)",
+      "erscheinungsort": "Bad Heilbrunn",
+      "quellentyp": "Sammelbandbeitrag (Kapitel 15)",
+      "seitenzahlen": "S. 98–103",
+      "gesamtseitenzahl": 6,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "Handbuch Inklusion und Sonderpädagogik (Hedderich, Ingeborg; Biewer, Gottfried; Hollenweger, Judith; Markowetz, Reinhard, Hrsg.)",
+      "band_heft": "2. Auflage",
+      "auflage": "2. Auflage (2022)",
+      "sprache": "Deutsch",
+      "zugang": "Sammelband"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text behandelt das Konzept der Anerkennung, insbesondere im Kontext von Behinderung und Sonderpädagogik. Es werden verschiedene Formen der Anerkennung diskutiert und deren Bedeutung für die Identität und gesellschaftliche Teilhabe von Menschen mit Behinderung analysiert.",
+      "zentrale_thesen": [
+        {
+          "these": "Anerkennung ist konstitutiv für die Identität und den moralischen Status innerhalb einer Gesellschaft.",
+          "seitenverweis": "S. 99"
+        },
+        {
+          "these": "Es gibt verschiedene Formen der Anerkennung: Liebe/Fürsorge, Respekt, soziale Wertschätzung und Rücksicht.",
+          "seitenverweis": "S. 99–100"
+        },
+        {
+          "these": "Die Anerkennungstheorie von Honneth führt alle Gerechtigkeitsfragen auf Anerkennungsfragen zurück, während Fraser einen Dualismus von Umverteilung und Anerkennung vorschlägt.",
+          "seitenverweis": "S. 100–101"
+        },
+        {
+          "these": "Für Menschen mit Behinderung ist besonders die soziale Wertschätzung problematisch, da sie oft marginalisiert werden und wenig Einfluss auf kulturelle Wertmuster haben.",
+          "seitenverweis": "S. 101–102"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Anerkennung",
+          "definition": "Ein vielschichtiges Phänomen, das eine dreistellige Relation beschreibt (X wird von Y als Z anerkannt) und normative sowie psychologische Dimensionen hat.",
+          "seitenverweis": "S. 98–99"
+        },
+        {
+          "begriff": "Liebe/Fürsorge",
+          "definition": "Eine Form der Anerkennung, die sich auf elementare Bedürfnisse in Nahbeziehungen richtet und Selbstvertrauen absichert.",
+          "seitenverweis": "S. 100"
+        },
+        {
+          "begriff": "Respekt",
+          "definition": "Eine Form der Anerkennung, die sich auf universelle Werte wie die gleiche Würde richtet und Rechte absichert.",
+          "seitenverweis": "S. 100"
+        },
+        {
+          "begriff": "Soziale Wertschätzung/Solidarität",
+          "definition": "Eine Form der Anerkennung, über die das Selbstwertgefühl abgesichert wird.",
+          "seitenverweis": "S. 100"
+        },
+        {
+          "begriff": "Rücksicht",
+          "definition": "Eine Form der Anerkennung, die einfühlend auf Besonderheiten konkreter Anderer eingeht.",
+          "seitenverweis": "S. 100"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Die Semantik der Anerkennung",
+        "2. Formen der Anerkennung",
+        "3. Die Debatte zwischen Honneth und Fraser",
+        "4. Kritik an der Anerkennungstheorie Honneths",
+        "5. Anerkennung und Behinderung",
+        "Literatur"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag / philosophische Analyse)",
+      "ergebnisse_schlussfolgerungen": "Anerkennung ist ein zentrales Konzept für Menschen mit Behinderung, da sie oft Marginalisierung und mangelnden Respekt erfahren. Besonders die soziale Wertschätzung ist problematisch, da Leistung oft abgewertet wird. Mangelnde Anerkennung ist mit statusbedingter Benachteiligung verbunden. Um dies zu bekämpfen, müssen Menschen mit Behinderung an Machtstrukturen und der Bildung kultureller Wertmuster beteiligt werden.",
+      "theoriebezuege": [
+        "Axel Honneth: Anerkennungstheorie (drei Formen der Anerkennung: Liebe, Recht, Solidarität)",
+        "Nancy Fraser: Debatte um Umverteilung und Anerkennung, partizipatorische Parität",
+        "G.W.F. Hegel und J.G. Fichte: Historische Ursprünge der Anerkennungstheorien"
+      ]
+    }
+  },
+  "dateiname_original": "Hedderichetal.2022-Felder-anerkennung-kpt15(2).pdf"
+}

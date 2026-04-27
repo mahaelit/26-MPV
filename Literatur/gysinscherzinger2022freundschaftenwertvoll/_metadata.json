@@ -1,0 +1,115 @@
+{
+  "quelldatei": "SZFHFreudnschaftenundMobbing110-22-PB.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Gysin",
+        "vorname": "Stefanie",
+        "institution": "Pädagogische Hochschule Bern"
+      },
+      {
+        "nachname": "Scherzinger",
+        "vorname": "Marion",
+        "institution": "Pädagogische Hochschule Bern"
+      }
+    ],
+    "titel": "Freundschaften machen das Leben wertvoll",
+    "untertitel": null,
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "Schweizerische Zeitschrift für Heilpädagogik",
+    "jahrgang": 28,
+    "heft": "9/2022",
+    "seitenzahlen_im_band": "8-12",
+    "seitenzahl_pdf": 5,
+    "doi": null,
+    "issn": "1420-1607",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "",
+      "titel": "Zusammenfassung / Résumé",
+      "seite": 8
+    },
+    {
+      "nr": "",
+      "titel": "Was ist Freundschaft?",
+      "seite": 8
+    },
+    {
+      "nr": "",
+      "titel": "Freundschaften entwickeln sich",
+      "seite": 9
+    },
+    {
+      "nr": "",
+      "titel": "Bedeutung für die soziale und kognitive Entwicklung",
+      "seite": 9
+    },
+    {
+      "nr": "",
+      "titel": "Bedeutung für Gesundheit und Wohlbefinden",
+      "seite": 9
+    },
+    {
+      "nr": "",
+      "titel": "Freundschaften schützen vor Mobbing",
+      "seite": 10
+    },
+    {
+      "nr": "",
+      "titel": "Stärkung des Selbstwerts",
+      "seite": 10
+    },
+    {
+      "nr": "",
+      "titel": "Soziale Beziehungen und Freundschaften fördern",
+      "seite": 11
+    },
+    {
+      "nr": "",
+      "titel": "Literatur",
+      "seite": 11
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Der Beitrag untersucht die Bedeutung von Freundschaften für das Wohlbefinden von Kindern und Jugendlichen. Zudem wird aufgezeigt, wie das Wohlbefinden durch die Förderung von Freundschaften in der Schule als wichtiger Ort sozialer Begegnungen gestärkt werden kann.",
+    "theoretischer_hintergrund": "Freundschaft wird als enge positive Beziehung definiert, die durch Sympathie, emotionale Nähe und Vertrauen geprägt ist. Ein zentraler Faktor ist Reziprozität bzw. Gegenseitigkeit. Freundschaftskonzepte verändern sich mit der Entwicklung, wobei Vertrautheit immer mehr an Bedeutung gewinnt.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; Übersichtsartikel zum Forschungsstand.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Freundschaften sind zentral für die Gesundheit und das Wohlbefinden von Kindern und Jugendlichen; sie bieten emotionale Unterstützung und Sicherheit.",
+        "seitenverweis": "S. 9-10"
+      },
+      {
+        "befund": "Freundschaften haben einen Puffereffekt gegen unangenehme Erfahrungen wie sozialen Ausschluss oder Hänseleien und schützen vor Viktimisierung durch Gleichaltrige.",
+        "seitenverweis": "S. 10"
+      },
+      {
+        "befund": "Kinder und Jugendliche mit guten Freundschaftsbeziehungen können sozialen Stress besser bewältigen.",
+        "seitenverweis": "S. 10"
+      },
+      {
+        "befund": "Freundschaften stärken das Selbstkonzept und den Selbstwert, wobei nicht die Anzahl der Freundschaften entscheidend ist, sondern die Qualität.",
+        "seitenverweis": "S. 10"
+      },
+      {
+        "befund": "Die Schule leistet bei der Förderung positiver Interaktionen und Beziehungen einen wichtigen Beitrag durch wiederholt gemeinsame positive Erlebnisse.",
+        "seitenverweis": "S. 11"
+      }
+    ],
+    "schlussfolgerungen": "Ein gutes Schul- und Klassenklima ist im Hinblick auf die Prävention von sozialen Problemen wie Mobbing von zentraler Bedeutung. Zentral für den Aufbau von Beziehungen sind wiederholt gemeinsame positive Erlebnisse, Aktivitäten und Interaktionen."
+  },
+  "schluesselbegriffe": [
+    "Freundschaft",
+    "Wohlbefinden",
+    "soziale Entwicklung",
+    "kognitive Entwicklung",
+    "Mobbing",
+    "Selbstwert",
+    "Schule",
+    "Peer-Beziehungen",
+    "Puffereffekt"
+  ]
+}

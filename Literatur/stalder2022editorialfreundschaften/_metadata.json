@@ -1,0 +1,70 @@
+{
+  "quelldatei": "Freundschaftenmitaussenseiterns_PDF_z2022-09-00.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Stalder",
+        "vorname": "Daniel",
+        "institution": "Schweizerische Zeitschrift für Heilpädagogik"
+      }
+    ],
+    "titel": "Freundschaften mit Aussenseitern",
+    "untertitel": null,
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "Schweizerische Zeitschrift für Heilpädagogik",
+    "jahrgang": 28,
+    "heft": "9/2022",
+    "seitenzahlen_im_band": "3",
+    "seitenzahl_pdf": 1,
+    "doi": null,
+    "issn": "1420-1607",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Editorial",
+    "open_access": false
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "",
+      "titel": "Editorial",
+      "seite": 3
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Das Editorial führt in das Schwerpunktthema der Ausgabe ein und hebt die Bedeutung von Freundschaften für Kinder und Jugendliche hervor, insbesondere für solche mit besonderen Bedürfnissen. Es schärft das Bewusstsein für die Risiken von sozialem Ausschluss und Mobbing und betont die Rolle von Lehrpersonen bei der Förderung positiver Peer-Interaktionen.",
+    "theoretischer_hintergrund": "Freundschaften fördern die Entwicklung sozialer, emotionaler und kommunikativer Kompetenzen. Sie sind entscheidend für das Wohlbefinden und die aktive Teilhabe in der Schule. Kinder mit besonderen Bedürfnissen haben ein höheres Risiko, eine Außenseiterrolle einzunehmen, was negative Folgen für ihre sozio-emotionale Entwicklung haben kann.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; Editorial als Einführung in das Schwerpunktthema.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Freundschaften begünstigen die Entwicklung sozialer, emotionaler und kommunikativer Kompetenzen.",
+        "seitenverweis": "S. 3"
+      },
+      {
+        "befund": "Kinder mit besonderen Bedürfnissen haben ein größeres Risiko, in die Außenseiterrolle zu geraten, da sie oft einen niedrigeren sozialen Status haben und weniger beliebt sind.",
+        "seitenverweis": "S. 3"
+      },
+      {
+        "befund": "Begegnungen und Beziehungsanbahnungen müssen manchmal von Lehrpersonen angeleitet werden, besonders bei hohem Konfliktpotenzial.",
+        "seitenverweis": "S. 3"
+      },
+      {
+        "befund": "Die Entwicklung von Empathie und Rollenbewusstsein (Opfer, Täter, Mitläufer, Bystander) ist notwendig, um bei Mobbing einschreiten zu können.",
+        "seitenverweis": "S. 3"
+      },
+      {
+        "befund": "Eine erfolgreiche soziale Integration wirkt negativen Folgen wie geringem Engagement, Depressionen oder Angststörungen entgegen.",
+        "seitenverweis": "S. 3"
+      }
+    ],
+    "schlussfolgerungen": "Die Förderung von Freundschaften und positiven Peer-Interaktionen ist essenziell, um Kinder vor Diskriminierung und Mobbing zu schützen. Lehrpersonen und Heilpädagogen spielen eine Schlüsselrolle bei der Schaffung von Gelegenheiten für Beziehungsanbahnungen."
+  },
+  "schluesselbegriffe": [
+    "Freundschaften",
+    "Aussenseiter",
+    "Mobbing",
+    "sozialer Ausschluss",
+    "Inklusion",
+    "Peer-Beziehungen",
+    "soziale Integration",
+    "Heilpädagogik"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Grundmodelle der Kooperation – Themenzentrierte Interaktion (Ruth Cohn)",
+      "autoren": [
+        {
+          "name": "Pädagogische Hochschule Luzern (nicht namentlich angegeben)",
+          "rolle": "Herausgeber"
+        }
+      ],
+      "jahr": 2017,
+      "verlag": "Pädagogische Hochschule Luzern",
+      "erscheinungsort": "Luzern",
+      "quellentyp": "Arbeitspapier / Lehrmaterial",
+      "seitenzahlen": "S. 1–4",
+      "gesamtseitenzahl": 4,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": null,
+      "band_heft": "ZB01.01",
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Internes Dokument PH Luzern"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text behandelt das Konzept der Themenzentrierten Interaktion (TZI) nach Ruth Cohn als Grundmodell der Kooperation. Es dient als Analyseinstrument und Kompass für die Planung und Leitung von Gruppen, Arbeitsteams und Unterrichtseinheiten sowie zur Förderung ganzheitlicher Kommunikation.",
+      "zentrale_thesen": [
+        {
+          "these": "Die TZI basiert auf einem dynamischen Gleichgewicht zwischen Ich, Wir, Es (Thema) und dem Globe (Umfeld).",
+          "seitenverweis": "S. 2"
+        },
+        {
+          "these": "Die Werte und das Menschenbild der TZI stützen sich auf drei Axiome: existenziell-anthropologisch, ethisch-sozial und pragmatisch-politisch.",
+          "seitenverweis": "S. 3"
+        },
+        {
+          "these": "Zwei zentrale Postulate leiten das Handeln: 'Be your own chairperson!' (Selbstleitung und Verantwortung) und 'Störungen haben Vorrang!' (Anerkennung von Hindernissen als Realität).",
+          "seitenverweis": "S. 4"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "TZI-Dreieck",
+          "definition": "Modell bestehend aus Ich (Einzelperson), Wir (Gruppe), Es (Thema) und Globe (Umfeld), die in dynamischer Balance gehalten werden sollen.",
+          "seitenverweis": "S. 2"
+        },
+        {
+          "begriff": "Axiome der TZI",
+          "definition": "Grundwerte und Menschenbild der TZI, unterteilt in: (1) Existenziell-anthropologisches Axiom: Der Mensch ist eine psycho-biologische Einheit und Teil des Universums; (2) Ethisch-soziales Axiom: Ehrfurcht gebührt allem Lebendigen; (3) Pragmatisch-politisches Axiom: Freie Entscheidung geschieht innerhalb bedingender innerer und äusserer Grenzen.",
+          "seitenverweis": "S. 3"
+        },
+        {
+          "begriff": "Postulate",
+          "definition": "Existenzielle Handlungsgrundsätze: (1) 'Be your own chairperson!' – Sei deine eigene Chairperson, übernimm Selbstleitung und Verantwortung; (2) 'Störungen haben Vorrang!' – Störungen und leidenschaftliche Gefühle blockieren die Arbeit und müssen anerkannt werden.",
+          "seitenverweis": "S. 4"
+        },
+        {
+          "begriff": "Hilfsregeln",
+          "definition": "Anleitungen zur Verwirklichung der Postulate, z.B. 'Vertritt dich selbst in deinen Aussagen', 'Seitengespräche haben Vorrang'.",
+          "seitenverweis": "S. 2, 4"
+        }
+      ],
+      "kapitelstruktur": [
+        "Titel und Quellenangaben",
+        "Themenzentrierte Interaktion von Ruth Cohn (Handlungskonzept, Hilfsregeln, TZI-Dreieck)",
+        "1. Themenzentrierte Interaktion: Grundmodell – 3 Axiome für die Grundhaltung",
+        "2. Postulate und Hilfsregeln"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag / Darstellung eines Handlungskonzepts)",
+      "ergebnisse_schlussfolgerungen": "Die Themenzentrierte Interaktion ist ein professionelles Handlungskonzept zur optimalen Beratung und Leitung von Gruppen. Durch die Beachtung der drei Axiome und die Anwendung der zwei Postulate ('Be your own chairperson' und 'Störungen haben Vorrang') wird die Handlungsfähigkeit des Einzelnen und der Gruppe gefördert. Hilfsregeln unterstützen diesen Prozess in der Praxis, dürfen aber nicht als starre Gesetze verstanden werden.",
+      "theoriebezuege": [
+        "Ruth Cohn: Begründerin der Themenzentrierten Interaktion",
+        "Barbara Langmaack (2017): Einführung in die themenzentrierte Interaktion",
+        "Ruth Cohn Institute for TZI"
+      ]
+    }
+  },
+  "dateiname_original": "ZB_TZI.pdf"
+}

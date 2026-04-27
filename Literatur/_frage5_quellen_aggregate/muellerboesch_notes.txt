@@ -1,0 +1,60 @@
+Müller Bösch & Schaffner Menn (2021) - Inklusiver Unterricht: Lernen in einem universellen Design am gemeinsamen Gegenstand
+
+METADATEN:
+- Titel: Inklusiver Unterricht: Lernen in einem universellen Design am gemeinsamen Gegenstand
+- Autorinnen: Müller Bösch, Cornelia; Schaffner Menn, Anita
+- Jahr: 2021
+- Sammelband: Inklusive Pädagogik und Didaktik (Hrsg.: Müller Bösch, Cornelia; Schaffner Menn, Anita)
+- Verlag: hep Verlag
+- Herausgeber des Sammelbands: Müller Bösch, Cornelia; Schaffner Menn, Anita (Hrsg.)
+- Hinweis: Der Sammelband heisst 'Inklusive Pädagogik und Didaktik' (2. Auflage 2021), Publikationsstelle PHZH erwähnt in Literaturverzeichnis S. 119
+- Früherer Beitrag der Autorinnen: Müller Bösch, C. & Schaffner Menn, A. (2014). Individuelles Lernen in Kooperation am Gemeinsamen Gegenstand im inklusiven Unterricht. In Luder, R., Kunz, A. & Müller Bösch, C. (Hrsg.), Inklusive Pädagogik und Didaktik (S. 75-116). Publikationsstelle PHZH.
+- Seitenzahlen: S. 93-119 (27 Seiten, Paginierung beginnt bei 93)
+- Quellentyp: Sammelbandbeitrag / Buchkapitel
+
+KAPITELSTRUKTUR:
+1. Einleitung mit Grundbegriffen (Lernen in Kooperation am gemeinsamen Gegenstand, UDL)
+2. Gegenstandsbereiche der inklusiven Didaktik (Entwicklungsorientierung, sozial-konstruktivistisches Lernverständnis)
+3. Inklusion im Unterricht (selektive Funktion, Tabelle 1: Elemente der Umsetzung)
+4. 3P-Modell: Qualitätsstufen für die Gestaltung des Lernens in einem universellen Design
+   - Stufe der Präsenz: Zugang, Platzierung und Akzeptanz
+   - Stufe der Partizipation: soziale Teilhabe, Anerkennung
+   - Stufe der Pädagogik: Kooperatives Lernen am gemeinsamen Gegenstand
+5. Das Handlungsfeld von Lehrpersonen im inklusiven Unterricht (didaktisches Dreieck)
+   - Ziel- und Stoffkultur
+   - Wissens- und Lernkultur
+   - Beziehungs- und Unterstützungskultur
+6. Lernaufgaben in einem universellen Design (UDL-Guidelines, CAST)
+
+ZENTRALE THESEN:
+- Jedes Kind kann lernen und partizipieren (S. 93)
+- Zwei Konzepte werden besonders beleuchtet: Lernen in Kooperation am gemeinsamen Gegenstand (Feuser) und Universal Design for Learning (Meyer, Rose & Gordon) (S. 93-94)
+- Inklusive Didaktik ist allgemeine Didaktik unter spezifischer Berücksichtigung von Heterogenität und Beeinträchtigung (S. 95)
+- Zone der proximalen Entwicklung (Vygotskij) als zentrales Konzept (S. 98)
+- Lehrpersonen müssen der Selektion im Unterricht entgegenwirken (S. 99)
+- 3P-Modell (Markowetz, 2016): Präsenz, Partizipation, Pädagogik (S. 100)
+- Didaktisches Dreieck (Reusser & Pauli, 2010, erweitert) mit drei Qualitätsaspekten (S. 101)
+- Bildung im Medium des Allgemeinen (Klafki, 2007) (S. 102)
+- UDL-Guidelines (CAST, 2011): drei Prinzipien - Repräsentation, Handlung/Ausdruck, Lernengagement (S. 103)
+
+WICHTIGE BEGRIFFE:
+- Gemeinsamer Gegenstand: Erkenntnis/fachlicher Kerngedanke, der zur Entwicklung jedes Kindes beiträgt (Feuser, 2005) (S. 93)
+- Universal Design for Learning (UDL): Ansatz zur Gestaltung von Lernumgebungen für unterschiedliche Lernbedürfnisse (Meyer, Rose & Gordon, 2014) (S. 94)
+- Entwicklungslogik: prozessuale Veränderungsdynamik des Menschen (Feuser, 2005) (S. 96)
+- Zone der proximalen Entwicklung: Bereich zwischen selbständigem und unterstütztem Können (Vygotskij, 2002) (S. 98)
+- 3P-Modell: Qualitätsstufen Präsenz, Partizipation, Pädagogik (Markowetz, 2016) (S. 100)
+- Didaktisches Dreieck: Gegenstand, Lehrpersonen in multiprofessionellen Teams, Lernende in heterogenen Lerngruppen (S. 101)
+
+THEORIEBEZÜGE:
+- Feuser (2005, 2013): Lernen in Kooperation am gemeinsamen Gegenstand
+- Meyer, Rose & Gordon (2014): Universal Design for Learning
+- Vygotskij (2002): Zone der proximalen Entwicklung
+- Klafki (2007): Bildung im Medium des Allgemeinen
+- Markowetz (2016): 3P-Modell
+- Reusser & Pauli (2010): Didaktisches Dreieck
+- CAST (2011, 2018): UDL-Guidelines
+- Tomasevski (2004), Ainscow (2005, 2007): Stufen der Inklusion
+- Wocken (2015): Kultur von Vielfalt
+- Joller-Graf (2019): überfachliche Kompetenzen
+- Trautner (1992) / Lohaus & Vierhaus (2015): Entwicklungsdefinition
+- Jantzen (1996): Autonomie unter komplizierten Bedingungen

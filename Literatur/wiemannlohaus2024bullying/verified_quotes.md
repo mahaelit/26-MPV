@@ -1,3 +1,11 @@
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
+
 # Verified Quotes — wiemannlohaus2024bullying
 
 **Volltext geprüft:** ja (PDF, 14 S., Zeitschrift für Pädagogische Psychologie 38 (1–2), 2024, S. 85–98)

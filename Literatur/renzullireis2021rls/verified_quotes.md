@@ -11,7 +11,19 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:447]** errichtsformaten bei Schüler:innen mit Migrationserfahrung leicht verdeckt bleiben? \end{quote} \subsection{Kernliteratur zu Frage 4} \begin{description} \item[ **`\cite{renzullireis2021rls}`** ] Renzulli-Lernsystem, Enrichment-Typen, Drehtürmodell. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,444--454 (11\,S.) \item[\cite{weigand202
+
+2. **[L:2517]** (SEM) stellt der selektionsorientierten Begabtenförderung ein partizipatives Modell gegenüber, das Begabungsförderung als Aufgabe der gesamten Schule versteht. **`\textcite[S.\,444--454]{renzullireis2021rls}`** (post="S.\,444--454") beschreiben die drei Enrichment-Typen des SEM im Kontext des deutschsprachigen Raums. Typ-I-Enrichment umfasst explorative Angebote, die allen Kindern ermöglich
+
+3. **[L:2684]** ng und der professionsübergreifenden Kooperation, nicht zu einer Frage der externen Spezialisierung. \subsection{Begabungsförderung als Schulentwicklungsimpuls} **`\textcite[S.\,444--454]{renzullireis2021rls}`** (post="S.\,444--454") beschreiben das Schoolwide Enrichment Model (SEM) als Schulentwicklungsansatz: Es gelingt nicht als Projekt einzelner Lehrpersonen, sondern braucht strukturelle
+
+4. **[L:2743]** alternative Beurteilungsformen, schrittweise in die Alltagspraxis der Schule überführt werden. \subsection{Kernliteratur zu Frage 4} \begin{description} \item[ **`\cite{renzullireis2021rls}`** ] Renzulli-Lernsystem, Enrichment-Typen, Drehtürmodell. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,444--454 (11\,S.) \item[\cite{weigand202
+
+5. **[L:2896]** Auf der \textit{Ebene der Schule} stellt sich die Frage, wie das Pilotprojekt SOLUX über den Einzelfall hinaus als Schulentwicklungsimpuls genutzt werden kann. **`\textcite[S.\,444--454]{renzullireis2021rls}`** (post="S.\,444--454") beschreiben das Renzulli-Lernsystem und die Enrichment-Logik als schoolwide angelegte Begabungsförderung. Für die schulische Verankerung solcher Ansätze sind da
+
+6. **[L:3731]** ration oder frühzeitige AP-Kurse. Die Tier-Logik ist mit dem SEM und mit dem Grundsatz \enquote{Förderung geht der Identifikation voraus} strukturell kompatibel **`\parencite[S.\,444--454]{renzullireis2021rls}`** (post="S.\,444--454") . \textit{Bezug zu Frage~4 und~5:} Das Young-Scholars-Modell liefert Langzeitevidenz für die Wirksamkeit systematischer, schulweiter Begabungsförderung bei unte
 
 <!-- CLAIMS-END -->
 

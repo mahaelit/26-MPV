@@ -1,0 +1,107 @@
+{
+  "quelldatei": "mankannichtlebenwennmankeineFreundehatPFLB_4_5_36-50_Baumert_Beitrag.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Baumert",
+        "vorname": "Britta",
+        "institution": "Universität Vechta"
+      }
+    ],
+    "titel": "„Man kann nicht leben, wenn man keine Freunde hat“",
+    "untertitel": "Wertezuschreibungen Jugendlicher mit und ohne Fluchterfahrung im Themenbereich Freundschaft",
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)",
+    "band": 4,
+    "heft": 5,
+    "seitenzahlen_im_band": "36-50",
+    "seitenzahl_pdf": 15,
+    "doi": "10.11576/pflb-5878",
+    "issn": "2629-5628",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel (empirisch, qualitativ)",
+    "open_access": true,
+    "lizenz": "CC BY-SA 4.0"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "1",
+      "titel": "Einleitung",
+      "seite": 37
+    },
+    {
+      "nr": "2",
+      "titel": "Freundschaft – ein variantenreicher Begriff",
+      "seite": 37
+    },
+    {
+      "nr": "3",
+      "titel": "Vorstellung der Studie",
+      "seite": 40
+    },
+    {
+      "nr": "3.1",
+      "titel": "Erhebungsmethode",
+      "seite": 42
+    },
+    {
+      "nr": "3.2",
+      "titel": "Auswertungsmethode",
+      "seite": 42
+    },
+    {
+      "nr": "3.3",
+      "titel": "Ergebnisse",
+      "seite": 43
+    },
+    {
+      "nr": "4",
+      "titel": "Fazit",
+      "seite": 48
+    },
+    {
+      "nr": "",
+      "titel": "Literatur und Internetquellen",
+      "seite": 49
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Die Studie untersucht das Freundschaftsverständnis von Jugendlichen im Teenageralter. Dabei wird insbesondere der Frage nachgegangen, ob es kulturelle Unterschiede im Verständnis von Freundschaft zwischen Jugendlichen deutscher Herkunftsfamilien und Jugendlichen mit Fluchterfahrung gibt und welchen Einfluss Fluchterfahrungen auf das Freundschaftsverständnis haben.",
+    "theoretischer_hintergrund": "Der theoretische Bezugsrahmen stützt sich maßgeblich auf den Freundschaftsbegriff von Aristoteles, der drei Formen der Freundschaft unterscheidet: die Freundschaft um des Nutzens willen (Philia chrestike), die Freundschaft um der Lust/des Angenehmen willen (Philia hêdonê) und die wahre Freundschaft der Tugendhaften (ton agathon Philia). Zudem werden aktuelle Erkenntnisse der empirischen Bildungsforschung und sozialwissenschaftliche Diskurse zu Peer-Beziehungen und Werten im Jugendalter herangezogen.",
+    "methodik": "Qualitative Interviewstudie mit 21 Jugendlichen im Alter von 13 bis 17 Jahren (10 mit Fluchterfahrung, 11 ohne Migrationshintergrund). Die teilstrukturierten Interviews wurden inhaltsanalytisch nach Mayring ausgewertet (Mixed Methods: deduktive Kategoriengewinnung und induktive Subkategorienbildung).",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Vertrauen wird von beiden Gruppen als zentraler Wert genannt: 80% bei Jugendlichen mit Fluchthintergrund, 72,73% bei Jugendlichen ohne Migrationshintergrund.",
+        "seitenverweis": "S. 43-44"
+      },
+      {
+        "befund": "80% der Jugendlichen mit Fluchthintergrund nennen Hilfe als zentrales Merkmal von Freundschaft, während dies nur 36,36% der Jugendlichen ohne Migrationshintergrund tun.",
+        "seitenverweis": "S. 44-45"
+      },
+      {
+        "befund": "Gleiche Interessen spielen für 27,27% der Jugendlichen ohne Migrationshintergrund eine Rolle, werden aber von Jugendlichen mit Fluchthintergrund nicht genannt.",
+        "seitenverweis": "S. 45"
+      },
+      {
+        "befund": "Für 50% der Jugendlichen mit Fluchthintergrund ist Freundschaft existenziell, im Vergleich zu nur 9,09% der Vergleichsgruppe.",
+        "seitenverweis": "S. 46"
+      },
+      {
+        "befund": "Die situative Bedingtheit führt bei geflüchteten Jugendlichen zu einem stärkeren Fokus auf den Nutzen von Freundschaften (Philia chrestike) zur Inkulturation.",
+        "seitenverweis": "S. 47"
+      }
+    ],
+    "schlussfolgerungen": "Der Stellenwert von Freundschaft und die Ansprüche an wahre Freundschaften sind unabhängig von sozialem oder kulturellem Hintergrund konstant. Die Grundtypologie von Freundschaft nach Aristoteles trägt auch heute noch. Fluchterfahrungen haben zwar einen Einfluss auf die Bildung von Freundschaften (stärkerer Fokus auf Nutzen zur Inkulturation), diese Unterschiede sind jedoch situativ und kontextuell bedingt, nicht kulturell oder ethnisch."
+  },
+  "schluesselbegriffe": [
+    "Freundschaft",
+    "Werte",
+    "Jugendliche",
+    "Flucht",
+    "Migration",
+    "Aristoteles",
+    "Peer-Beziehungen",
+    "qualitative Forschung",
+    "Inkulturation"
+  ]
+}

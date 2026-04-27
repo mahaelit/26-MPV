@@ -11,11 +11,7 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
-
-1. **[L:462]** onskontexten werden aufgrund sprachlicher Hürden, sozioökonomischer Benachteiligung und stereotyper Zuschreibungen signifikant seltener als begabt identifiziert **`\parencite{stamm2021fehlenderblick,stamm2014handbuch}`** . Keller-Koller zeigt, dass gerade die Kombination von Migrationshintergrund und schulischem Underachievement dazu führt, dass Potenziale verdeckt bleiben, weil
-
-2. **[L:575]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite{stamm2014mirage,stamm2014handbuch}`** . \subsection{Grenzen sprachlastiger Diagnostik} Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children) erheben den Anspruch,
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
 
 <!-- CLAIMS-END -->
 

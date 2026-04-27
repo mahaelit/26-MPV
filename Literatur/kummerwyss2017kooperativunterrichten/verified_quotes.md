@@ -1,3 +1,13 @@
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **1**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:3450]** rahme ich das Ergebnis nicht als \enquote{Ich hatte recht}, sondern als \enquote{Wir haben jetzt ein vollständigeres Bild, das neue Handlungsoptionen eröffnet}. **`\textcite[S.\,151--160]{kummerwyss2017kooperativunterrichten}`** (post="S.\,151--160") betont, dass kooperatives Unterrichten ein gemeinsames Nachdenken über Kinder voraussetzt, nicht einen Wettbewerb um die richtige Diagnose. Das zweite Prinzip i
+
+<!-- CLAIMS-END -->
+
 # Verifizierte Zitate - kummerwyss2017kooperativunterrichten
 
 ## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`

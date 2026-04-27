@@ -15,13 +15,15 @@ _Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 
 **8 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[L:575]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite{stamm2014mirage,stamm2014handbuch}`** . \subsection{Grenzen sprachlastiger Diagnostik} Standardisierte Intelligenztests wie der WISC (Wechsler Intelligence Scale for Children) erheben den Anspruch,
+1. **[L:775]** Die MIRAGE-Studie belegt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht schulisch erkannt worden **`\parencite[S.\,102--115]{stamm2014mirage}`** (post="S.\,102--115") . Diese Beobachtung bestätigt sich auch jenseits des Migrationskontexts: \textcite{stamm2025vonuntennachoben} zeigt anhand biographischer Interviews mit Arbeite
 
-2. **[L:1406]** abungsreserven in der Migrationsbevölkerung systematisch ungenutzt bleiben, nicht weil die Potenziale fehlten, sondern weil die Institutionen sie nicht erkennen **`\parencite{stamm2014mirage}`** . \subsection{Teilhabe als Voraussetzung für Sichtbarkeit} Booth und Ainscow entwickeln im Index für Inklusion einen Teilhabebegriff, der über physische Anwesen
+2. **[L:2059]** alitativer Interviews dokumentiert; sie verweisen darauf, dass Anerkennungsdynamiken weniger an Migrationsstatus als an institutionelle Rahmungen gebunden sind. **`\textcite{stamm2014mirage}`** ergänzt diese Perspektive durch empirische Befunde aus der Schweiz. Die MIRAGE-Studie zeigt, dass Migrant:innen, die trotz widriger Ausgangsbedingungen beruflic
 
-3. **[L:2490]** eiben, und die MIRAGE-Studie zeigt, dass erfolgreiche Migrant:innen retrospektiv häufig berichten, ihre Potenziale seien erst spät oder gar nicht erkannt worden **`\parencite{stamm2014mirage}`** . S. steht in der 5. Klasse; der Übertritt in die Sekundarstufe rückt näher. Jeder Monat, in dem sein Potenzial undokumentiert bleibt, verringert die Wahrschein
+   → Beleg-Vorschlag [1] (score 0.10): [`004_briefing_paper3_das_projekt_mirage.pdf`](excerpts/004_briefing_paper3_das_projekt_mirage.pdf) S. 22-22 · Briefing Paper3: Das Projekt MIRAGE
 
-   → Beleg-Vorschlag [1] (score 0.09): [`004_briefing_paper3_das_projekt_mirage.pdf`](excerpts/004_briefing_paper3_das_projekt_mirage.pdf) S. 22-22 · Briefing Paper3: Das Projekt MIRAGE
+3. **[L:3406]** Hürden. Eine differenzierte Diagnostik muss beides gleichzeitig erfassen. Drittens birgt das Abwarten ein konkretes \textit{Risiko für die Bildungsbiographie}. **`\textcite{stamm2014mirage}`** dokumentiert, dass Begabungsreserven bei Kindern mit Migrationshintergrund systematisch ungenutzt bleiben und die MIRAGE-Studie zeigt, dass erfolgreiche Migrant
+
+   → Beleg-Vorschlag [1] (score 0.12): [`004_briefing_paper3_das_projekt_mirage.pdf`](excerpts/004_briefing_paper3_das_projekt_mirage.pdf) S. 22-22 · Briefing Paper3: Das Projekt MIRAGE
 
 <!-- CLAIMS-END -->
 

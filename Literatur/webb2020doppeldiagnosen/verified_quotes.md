@@ -11,21 +11,19 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **6**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[A:277]** ochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~1--2, 10. (ca.~25\,S.) \end{description} \textit{Geschätzter Umfang Frage~1: ca.~295\,Seiten.} % ════
+1. **[A:349]** 1hellekoepfe}] Helle Köpfe mit Migrationshintergrund: warum sie oft unerkannt bleiben. In: Huser, \textit{Lichtblick für helle Köpfe}. S.\,76--78 (3\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~2 (Kernabschnitt Maskierung). 3\,S. \item[\cite{stern2025intelligenz}] Die Intelligenz kann sich im S
 
-2. **[A:332]** g mit migrationsbedingter Heterogenität. In: Buholzer \& Kummer Wyss. (ca.~15\,S.) \item[\cite{stamm2012migranten}] Migranten mit Potenzial. (ca.~15\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~1--2 (Maskierung, Fehldiagnosen). (bereits bei Fr.~1 gezählt) \end{description} \textit{Geschätzter U
+2. **[L:729]** ie abgebende Lehrperson ihn als \enquote{eher auffällig, sehr weinerlich und etwas störend}; eine Beschreibung, die kognitive Ressourcen vollständig ausblendet. **`\textcite[S.\,87--94]{webb2020doppeldiagnosen}`** (post="S.\,87--94") beschreiben allgemein, dass Verhaltensweisen Hochbegabter als Störung fehlgedeutet werden können. Bei Kindern mit Migrationshintergrund verschärfen sprachliche
 
-3. **[L:665]** keit erkannt wird, weil sich beide Aspekte gegenseitig maskieren: Die Begabung kompensiert teilweise die Schwierigkeit, die Schwierigkeit verdeckt die Begabung. **`\textcite{webb2020doppeldiagnosen}`** systematisieren dieses Phänomen und dokumentieren, dass hochbegabte Kinder häufig Fehldiagnosen erhalten: Verhaltensweisen, die aus der Diskrepanz zwischen Pote
+3. **[L:997]** tärken und Schwächen einander gegenseitig verdecken können: Die Begabung kompensiert teilweise die Beeinträchtigung, die Beeinträchtigung maskiert die Begabung. **`\textcite[S.\,87--94]{webb2020doppeldiagnosen}`** (post="S.\,87--94") systematisieren dieses Phänomen und dokumentieren, dass hochbegabte Kinder häufig Fehldiagnosen erhalten, weil Verhaltensweisen, die aus der Diskrepanz zwischen
 
-4. **[L:724]** ochbegabung und Migrationshintergrund. (ca.~15\,S.) \item[\cite{ipege2009professionelle}] Professionelle Begabtenförderung. Kap. Diagnostik. (ca.~20\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~1--2, 10. (ca.~25\,S.) \end{description} \textit{Geschätzter Umfang Frage~1: ca.~295\,Seiten.} % ════
+4. **[L:1128]** \& Leistungsschwierigkeiten. Integratives Begabungs- und Lernprozessmodell. In: Stamm (Hrsg.), \textit{Handbuch Talententwicklung.} S.\,393--404 (12\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~2 (Kernabschnitt Maskierung). 3\,S. \end{description} \textit{Umfang Frage~1: 122\,Seiten.} % ═══════
 
-5. **[L:1462]** n, leistungsnormierten Setting kann er schlicht nicht zeigen, was er kann. Die Maskierung ist keine individuelle Strategie, sondern ein institutioneller Effekt. **`\textcite{webb2020doppeldiagnosen}`** bezeichnen diese Konstellation als diagnostische Falle: Wird das Verhalten eines Kindes ausschliesslich durch die sichtbaren Schwierigkeiten erklärt, entsteht e
+5. **[L:2148]** n, leistungsnormierten Setting kann er schlicht nicht zeigen, was er kann. Die Maskierung ist keine individuelle Strategie, sondern ein institutioneller Effekt. **`\textcite[S.\,87--94]{webb2020doppeldiagnosen}`** (post="S.\,87--94") bezeichnen diese Konstellation als diagnostische Falle: Wird das Verhalten eines Kindes ausschliesslich durch die sichtbaren Schwierigkeiten erklärt, entsteht e
 
-6. **[L:1517]** g mit migrationsbedingter Heterogenität. In: Buholzer \& Kummer Wyss. (ca.~15\,S.) \item[\cite{stamm2012migranten}] Migranten mit Potenzial. (ca.~15\,S.) \item[ **`\cite{webb2020doppeldiagnosen}`** ] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~1--2 (Maskierung, Fehldiagnosen). (bereits bei Fr.~1 gezählt) \end{description} \textit{Geschätzter U
-
-7. **[L:3279]** rt. Das stützt das 2E-Konzept, das im Lernskript als Deutungsrahmen für S. dient (vgl. Abschnitt~\ref{subsec:2e}), und zwar nicht nur als theoretische Heuristik **`\parencite{webb2020doppeldiagnosen}`** , sondern mit quantitativen Daten. \item Die Studie demonstriert die \textbf{Notwendigkeit eines multidimensionalen Assessments}, das verschiedene Instrumente k
+6. **[L:4206]** hrt. Das stützt das 2E-Konzept, das im Lernskript als Deutungsrahmen für S. dient (vgl. Abschnitt~\ref{subsec:2e}) und zwar nicht nur als theoretische Heuristik **`\parencite{webb2020doppeldiagnosen}`** , sondern mit quantitativen Daten. \item Die Studie demonstriert die \textbf{Notwendigkeit eines multidimensionalen Assessments}, das verschiedene Instrumente k
 
 <!-- CLAIMS-END -->
 

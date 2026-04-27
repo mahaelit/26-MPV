@@ -7,6 +7,21 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:334]** [\cite{stahl2021mbet}] mBET als multifunktionales Förderdiagnostik-Tool. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,252--258 (7\,S.) \item[ **`\cite{baumschader2021twice}`** ] Twice Exceptionality als Deutungsrahmen. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,588--601 (14\,S.) \item[\cite{preckel2013hochbegabung
+
+2. **[L:993]** der, bei denen hohe kognitive Fähigkeiten mit einer diagnostizierbaren Beeinträchtigung koexistieren -- etwa Legasthenie, ADHS oder Autismus-Spektrum-Störungen. **`\textcite[S.\,588--600]{baumschader2021twice}`** (post="S.\,588--600") entfalten dieses Konstrukt und zeigen, dass bei solchen Kindern Stärken und Schwächen einander gegenseitig verdecken können: Die Begabung kompensiert teilweise
+
+3. **[L:1108]** [\cite{stahl2021mbet}] mBET als multifunktionales Förderdiagnostik-Tool. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,252--258 (7\,S.) \item[ **`\cite{baumschader2021twice}`** ] Twice Exceptionality als methodologische Analogie. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,588--600 (13\,S.) \item[\cite{preckel2013ho
+
+<!-- CLAIMS-END -->
+
 ## Verwendung in mpv.tex (Stand 2026-04-26)
 
 ### Stelle 1: Definition 2E und gegenseitige Maskierung (Z. ≈968–971)

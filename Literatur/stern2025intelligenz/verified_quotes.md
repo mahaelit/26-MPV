@@ -11,9 +11,13 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **1**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[L:493]** dung von Potenzial und Performanz durchzieht die gesamte aktuelle Diskussion (vgl. \textcite{preckel2013hochbegabung}; \textcite{trautmann2016einfuehrung}). E.~ **`\textcite{stern2025intelligenz}`** bestätigt diese Perspektive aus aktueller kognitionspsychologischer Forschung: Intelligenz kann sich im Schulalter noch substanziell verändern, was die Fixierun
+1. **[A:222]** kenntnisinteresse und Fragestellungen} \paragraph{Begriffsklärung: Begabung und Potenzial.} In dieser Arbeit werden \textit{Begabung} und \textit{Potenzial} mit **`\textcite{stern2025intelligenz}`** sowie \textcite{muelleroppliger2021handbuch} als entwicklungsfähige Möglichkeiten zur Leistung verstanden, nicht als statische Eigenschaften. Diese Lesart hebt
+
+2. **[A:351]** e}. S.\,76--78 (3\,S.) \item[\cite{webb2020doppeldiagnosen}] Doppeldiagnosen und Fehldiagnosen bei Hochbegabung. Kap.~2 (Kernabschnitt Maskierung). 3\,S. \item[ **`\cite{stern2025intelligenz}`** ] Die Intelligenz kann sich im Schulalter noch verändern. Interview in \textit{Bildung Schweiz} 3/2025 (LCH-Zeitschrift). 4\,S. \end{description} \textit{Umfang
+
+3. **[L:621]** rmanz durchzieht die gesamte aktuelle Diskussion (vgl. \textcite[Kap.\,1.1--1.2]{preckel2013hochbegabung}; \textcite[S.\,34--41]{trautmann2016einfuehrung}). E.~ **`\textcite{stern2025intelligenz}`** markiert die Grenzen einer rein punktwertbasierten Diagnostik aus aktueller Lehr-Lern-Forschung: Intelligenztests variieren über Erhebungen hinweg und Intellige
 
 <!-- CLAIMS-END -->
 

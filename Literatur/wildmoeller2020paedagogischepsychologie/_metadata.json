@@ -1,0 +1,202 @@
+{
+  "quelldatei": "978-3-662-61403-7.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Wild",
+        "vorname": "Elke",
+        "institution": "Universität Bielefeld"
+      },
+      {
+        "nachname": "Möller",
+        "vorname": "Jens",
+        "institution": "Universität Kiel"
+      }
+    ],
+    "titel": "Pädagogische Psychologie",
+    "untertitel": null,
+    "erscheinungsjahr": 2020,
+    "verlag": "Springer",
+    "ort": "Berlin, Heidelberg",
+    "auflage": "3., vollständig überarbeitete und aktualisierte Auflage",
+    "seitenzahl_pdf": 474,
+    "doi": "10.1007/978-3-662-61403-7",
+    "isbn_print": "978-3-662-61402-0",
+    "isbn_ebook": "978-3-662-61403-7",
+    "herausgeber": [
+      {
+        "nachname": "Wild",
+        "vorname": "Elke"
+      },
+      {
+        "nachname": "Möller",
+        "vorname": "Jens"
+      }
+    ],
+    "sprache": "Deutsch",
+    "dokumenttyp": "Lehrbuch",
+    "reihe": "Springer-Lehrbuch"
+  },
+  "kapitelstruktur": [
+    {
+      "teil": "I",
+      "titel": "Lernen",
+      "seite": 3
+    },
+    {
+      "nr": "1",
+      "titel": "Wissenserwerb",
+      "seite": 3
+    },
+    {
+      "nr": "2",
+      "titel": "Intelligenz und Vorwissen",
+      "seite": 25
+    },
+    {
+      "nr": "3",
+      "titel": "Selbstregulation und selbstreguliertes Lernen",
+      "seite": 45
+    },
+    {
+      "teil": "II",
+      "titel": "Lehren",
+      "seite": 69
+    },
+    {
+      "nr": "4",
+      "titel": "Unterricht",
+      "seite": 69
+    },
+    {
+      "nr": "5",
+      "titel": "Klassenführung",
+      "seite": 119
+    },
+    {
+      "nr": "6",
+      "titel": "Medien",
+      "seite": 133
+    },
+    {
+      "teil": "III",
+      "titel": "Motivieren",
+      "seite": 163
+    },
+    {
+      "nr": "7",
+      "titel": "Motivation",
+      "seite": 163
+    },
+    {
+      "nr": "8",
+      "titel": "Selbstkonzept",
+      "seite": 187
+    },
+    {
+      "nr": "9",
+      "titel": "Emotionen",
+      "seite": 211
+    },
+    {
+      "teil": "IV",
+      "titel": "Interagieren",
+      "seite": 237
+    },
+    {
+      "nr": "10",
+      "titel": "Familie",
+      "seite": 237
+    },
+    {
+      "nr": "11",
+      "titel": "Lehrkräfte",
+      "seite": 269
+    },
+    {
+      "nr": "12",
+      "titel": "Gleichaltrige",
+      "seite": 289
+    },
+    {
+      "teil": "V",
+      "titel": "Diagnostizieren und Evaluieren",
+      "seite": 311
+    },
+    {
+      "nr": "13",
+      "titel": "Pädagogisch-psychologische Diagnostik",
+      "seite": 311
+    },
+    {
+      "nr": "14",
+      "titel": "Evaluation pädagogisch-psychologischer Maßnahmen",
+      "seite": 335
+    },
+    {
+      "nr": "15",
+      "titel": "Nationale und internationale Schulleistungsstudien",
+      "seite": 349
+    },
+    {
+      "teil": "VI",
+      "titel": "Intervenieren",
+      "seite": 375
+    },
+    {
+      "nr": "16",
+      "titel": "Prävention und Intervention im Vorschulalter",
+      "seite": 375
+    },
+    {
+      "nr": "17",
+      "titel": "Trainings bei Lern- und Leistungsstörungen",
+      "seite": 399
+    },
+    {
+      "nr": "18",
+      "titel": "Die Förderung psychosozialer Kompetenzen im Schulalter",
+      "seite": 425
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Das Lehrbuch zielt darauf ab, die Pädagogische Psychologie in ihrer ganzen Breite darzustellen. Es führt in den Gegenstandsbereich pädagogisch-psychologischer Forschung ein und liefert einen gut verständlichen Überblick über zentrale Konstrukte, Theorien und Befunde des Fachs für Studierende der Psychologie, Lehramtsstudierende und Studierende verwandter Fächer.",
+    "theoretischer_hintergrund": "Das Buch basiert auf aktuellen Erkenntnissen der pädagogisch-psychologischen Forschung und behandelt klassische Kernthemen des Lernens und Lehrens sowie Themenfelder wie Motivation, Interaktion, Diagnostik und Intervention. Zentrale Konzepte umfassen menschliche Informationsverarbeitung, Selbstregulation, Motivation, Selbstkonzept, Emotionen und soziale Interaktionen.",
+    "methodik": "Lehrbuch mit systematischer Darstellung des Forschungsstandes; keine eigene empirische Studie.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Lernen wird wesentlich durch kognitive, motivationale und selbstregulative Fähigkeiten des Lernenden bestimmt.",
+        "seitenverweis": "Teil I"
+      },
+      {
+        "befund": "Intelligenz und Vorwissen sind entscheidend für den Erwerb kumulativen Wissens.",
+        "seitenverweis": "Kap. 2"
+      },
+      {
+        "befund": "Effektive Klassenführung und guter Unterricht tragen zur optimalen Nutzung der Lernzeit bei.",
+        "seitenverweis": "Kap. 4-5"
+      },
+      {
+        "befund": "Familie, Lehrkräfte und Gleichaltrige haben einen signifikanten Einfluss auf Bildungslaufbahn und Persönlichkeitsentwicklung.",
+        "seitenverweis": "Teil IV, Kap. 10-12"
+      },
+      {
+        "befund": "Kapitel 12 'Gleichaltrige' behandelt die Bedeutung von Peer-Beziehungen, Beliebtheit, Freundschaft, Homophilie, Konformität, kooperatives Lernen und Bullying.",
+        "seitenverweis": "S. 289-309"
+      }
+    ],
+    "schlussfolgerungen": "Das Lehrbuch bietet eine umfassende Einführung in die Pädagogische Psychologie und zeigt auf, dass Bildung sich nicht in der Vermittlung von Fachkenntnissen erschöpft, sondern auch die Förderung lernrelevanter Einstellungen und psychosozialer Kompetenzen einschließt."
+  },
+  "schluesselbegriffe": [
+    "Pädagogische Psychologie",
+    "Lernen",
+    "Lehren",
+    "Motivation",
+    "Selbstkonzept",
+    "Gleichaltrige",
+    "Diagnostik",
+    "Intervention",
+    "Bullying",
+    "Peer-Beziehungen"
+  ]
+}

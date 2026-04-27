@@ -1,0 +1,142 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Inklusiver Unterricht: Lernen in einem universellen Design am gemeinsamen Gegenstand",
+      "autoren": [
+        {
+          "nachname": "Müller Bösch",
+          "vorname": "Cornelia",
+          "rolle": "Autorin"
+        },
+        {
+          "nachname": "Schaffner Menn",
+          "vorname": "Anita",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2021,
+      "verlag": "hep Verlag",
+      "erscheinungsort": "Bern",
+      "quellentyp": "Sammelbandbeitrag / Buchkapitel",
+      "seitenzahlen": "S. 93–119",
+      "gesamtseitenzahl": 27,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "Inklusive Pädagogik und Didaktik",
+      "herausgeber_sammelband": "Müller Bösch, Cornelia; Schaffner Menn, Anita (Hrsg.)",
+      "band_heft": "2. Auflage",
+      "auflage": "2. Auflage (2021)",
+      "sprache": "Deutsch",
+      "zugang": "hep Verlag"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Beitrag stellt theoretisch und praktisch dar, wie Lehrpersonen Situationen im inklusiven Unterrichtsalltag gestalten und weiterentwickeln können, damit sich alle Lernenden unabhängig von ihren motorischen, wahrnehmungsbezogenen, kognitiven oder sozialen Möglichkeiten entwickeln und ihre fachlichen und überfachlichen Kompetenzen erweitern können. Dabei werden zwei Konzepte besonders beleuchtet: das Lernen in Kooperation am gemeinsamen Gegenstand (Feuser) und das Universal Design for Learning (UDL).",
+      "zentrale_thesen": [
+        {
+          "these": "Jedes Kind, jeder und jede Jugendliche kann lernen und partizipieren.",
+          "seitenverweis": "S. 93"
+        },
+        {
+          "these": "Inklusive Didaktik ist allgemeine Didaktik unter spezifischer Berücksichtigung von Heterogenität und Beeinträchtigung.",
+          "seitenverweis": "S. 95"
+        },
+        {
+          "these": "Der gemeinsame Gegenstand meint eine Erkenntnis, einen fachlichen Kerngedanken, der zur Entwicklung jedes einzelnen Kindes unabhängig von seinem Leistungsvermögen beiträgt.",
+          "seitenverweis": "S. 93"
+        },
+        {
+          "these": "UDL fragt nach der Überwindung von situativen Barrieren im Unterricht in drei Bereichen: Wahrnehmung, Lernstrategien und Motivation.",
+          "seitenverweis": "S. 94"
+        },
+        {
+          "these": "Lehrpersonen müssen der Selektion im Unterricht entgegenwirken.",
+          "seitenverweis": "S. 99"
+        },
+        {
+          "these": "Das 3P-Modell (Markowetz) beschreibt Qualitätsstufen der Inklusion: Präsenz, Partizipation, Pädagogik.",
+          "seitenverweis": "S. 100"
+        },
+        {
+          "these": "Das didaktische Dreieck (Reusser & Pauli, erweitert) strukturiert das Handlungsfeld der Lehrpersonen im inklusiven Unterricht.",
+          "seitenverweis": "S. 101"
+        },
+        {
+          "these": "Entwicklung folgt einer dem System immanenten, selbst organisierten Logik (Entwicklungslogik nach Feuser).",
+          "seitenverweis": "S. 96"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Gemeinsamer Gegenstand",
+          "definition": "Eine Erkenntnis, ein fachlicher Kerngedanke, der zur Entwicklung jedes einzelnen Kindes oder Jugendlichen unabhängig von seinem Leistungsvermögen oder seiner Beeinträchtigung beiträgt (Feuser, 2005).",
+          "seitenverweis": "S. 93"
+        },
+        {
+          "begriff": "Universal Design for Learning (UDL)",
+          "definition": "Ein Ansatz, der sich auf neurowissenschaftliche Forschung stützt und digitale Technologie nutzt, um Lernumgebungen für unterschiedliche Lernbedürfnisse zu entwerfen. Drei Bereiche: Steuerung der Wahrnehmung, Organisations-/Lern-/Kommunikationsstrategien, Emotions- und Motivationssteuerung (Meyer, Rose & Gordon, 2014).",
+          "seitenverweis": "S. 94"
+        },
+        {
+          "begriff": "Entwicklungslogik",
+          "definition": "Die prozessuale Veränderungsdynamik des Menschen, die einer dem System immanenten, von sich selbst organisierten Logik folgt (Feuser, 2005, S. 121).",
+          "seitenverweis": "S. 96"
+        },
+        {
+          "begriff": "Zone der proximalen Entwicklung",
+          "definition": "Der Bereich zwischen dem, was ein Lernender alleine erfolgreich tun und verstehen kann, und dem, was er mit Hilfe und Anleitung leisten kann (Vygotskij, 2002, S. 327).",
+          "seitenverweis": "S. 98"
+        },
+        {
+          "begriff": "3P-Modell",
+          "definition": "Qualitätsstufen für die Gestaltung des Lernens in einem universellen Design: Stufe der Präsenz (Zugang, Platzierung, Akzeptanz), Stufe der Partizipation (soziale Teilhabe, Anerkennung), Stufe der Pädagogik (kooperatives Lernen am gemeinsamen Gegenstand) (Markowetz, 2016).",
+          "seitenverweis": "S. 100"
+        },
+        {
+          "begriff": "Didaktisches Dreieck (erweitert)",
+          "definition": "Modell mit den Ecken Gegenstand, Lehrpersonen in multiprofessionellen Teams und Lernende in heterogenen Lerngruppen; Kanten: Ziel- und Stoffkultur, Wissens- und Lernkultur, Beziehungs- und Unterstützungskultur (Reusser & Pauli, 2010, erweitert).",
+          "seitenverweis": "S. 101"
+        },
+        {
+          "begriff": "Anerkennung",
+          "definition": "Sichtweise auf den Menschen und seine Entwicklungsmöglichkeiten: Jeder Mensch will lernen, partizipieren und mit seinen Möglichkeiten Autonomie erleben.",
+          "seitenverweis": "S. 96"
+        }
+      ],
+      "kapitelstruktur": [
+        "Einleitung mit Grundbegriffen (Lernen in Kooperation am gemeinsamen Gegenstand, UDL)",
+        "Gegenstandsbereiche der inklusiven Didaktik",
+        "   - Entwicklungsorientierung",
+        "   - Sozial-konstruktivistisches Entwicklungs- und Lernverständnis",
+        "Inklusion im Unterricht",
+        "   - Tabelle 1: Elemente der Umsetzung einer inklusiven, entwicklungslogischen Didaktik",
+        "3P-Modell: Qualitätsstufen für die Gestaltung des Lernens in einem universellen Design",
+        "   - Stufe der Präsenz",
+        "   - Stufe der Partizipation",
+        "   - Stufe der Pädagogik",
+        "Das Handlungsfeld von Lehrpersonen im inklusiven Unterricht",
+        "   - Ziel- und Stoffkultur",
+        "   - Wissens- und Lernkultur",
+        "   - Beziehungs- und Unterstützungskultur",
+        "Lernaufgaben in einem universellen Design",
+        "Literatur"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag mit Praxisbeispielen)",
+      "ergebnisse_schlussfolgerungen": "Inklusiver Unterricht erfordert keine neue Didaktik, sondern eine gute, wirksame Didaktik unter spezifischer Berücksichtigung von Heterogenität. Das Lernen in Kooperation am gemeinsamen Gegenstand und das Universal Design for Learning bieten komplementäre Rahmen für die Gestaltung inklusiver Lernsituationen. Lehrpersonen gestalten und evaluieren inklusiven Unterricht auf zwei Ebenen: Anpassung des grundlegenden Designs der didaktischen Gestaltung und Massnahmen für die differenzierte, adaptive Lernbegleitung. Die UDL-Guidelines bieten dabei konkrete Orientierung für die Überwindung situativer Barrieren.",
+      "theoriebezuege": [
+        "Feuser (2005, 2013): Lernen in Kooperation am gemeinsamen Gegenstand",
+        "Meyer, Rose & Gordon (2014): Universal Design for Learning",
+        "Vygotskij (2002): Zone der proximalen Entwicklung",
+        "Klafki (2007): Bildung im Medium des Allgemeinen",
+        "Markowetz (2016): 3P-Modell (Präsenz, Partizipation, Pädagogik)",
+        "Reusser & Pauli (2010): Didaktisches Dreieck",
+        "CAST (2011, 2018): UDL-Guidelines",
+        "Tomasevski (2004), Ainscow (2005, 2007): Stufen der Inklusion",
+        "Wocken (2015): Kultur von Vielfalt",
+        "Joller-Graf (2019): Überfachliche Kompetenzen",
+        "Trautner (1992) / Lohaus & Vierhaus (2015): Entwicklungsdefinition",
+        "Jantzen (1996): Autonomie unter komplizierten Bedingungen",
+        "Feuser & Meyer (1987): Integrativer Unterricht in der Grundschule"
+      ]
+    }
+  },
+  "dateiname_original": "2021_MüllerBösch_SchaffnerMenn_InklusiverUnterricht_UDL.pdf"
+}

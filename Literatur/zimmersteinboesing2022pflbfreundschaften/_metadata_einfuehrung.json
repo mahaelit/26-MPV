@@ -1,0 +1,189 @@
+{
+  "quelldatei": "1-20Freundschaftenundprozoszialepeerkontakte.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Stein",
+        "vorname": "Margit",
+        "institution": "Universität Vechta"
+      },
+      {
+        "nachname": "Zimmer",
+        "vorname": "Veronika",
+        "institution": "Universität Vechta"
+      }
+    ],
+    "titel": "Freundschaften und Peerkontakte in der Schule unter Pandemiebedingungen",
+    "untertitel": "Eine Einführung in das Themenheft",
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)",
+    "band": 4,
+    "heft": 5,
+    "seitenzahlen_im_band": "1-20",
+    "seitenzahl_pdf": 20,
+    "doi": "10.11576/pflb-5981",
+    "issn": "2629-5628",
+    "herausgeber_themenheft": [
+      {
+        "nachname": "Zimmer",
+        "vorname": "Veronika"
+      },
+      {
+        "nachname": "Stein",
+        "vorname": "Margit"
+      },
+      {
+        "nachname": "Bösing",
+        "vorname": "Eike"
+      }
+    ],
+    "sprache": "Deutsch",
+    "dokumenttyp": "Einführungsbeitrag/Editorial eines Themenheftes",
+    "open_access": true,
+    "lizenz": "CC BY-SA 4.0"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "1",
+      "titel": "Schule als Ort von Freundschaften und positiven Peerbeziehungen mit Gleichaltrigen",
+      "seite": 2
+    },
+    {
+      "nr": "1.1",
+      "titel": "Wichtigkeit von schulischen Freundschaften und positiven Peerbeziehungen im Lebensalter Kindheit und Jugend",
+      "seite": 3
+    },
+    {
+      "nr": "1.2",
+      "titel": "Schulische Freundschaften und Peerbeziehungen unter Pandemiebedingungen",
+      "seite": 5
+    },
+    {
+      "nr": "2",
+      "titel": "Voraussetzungen und Gelingensbedingungen für die Aufnahme von Freundschaften und positiven Peerbeziehungen",
+      "seite": 8
+    },
+    {
+      "nr": "2.1",
+      "titel": "Studien zu den psychologischen Voraussetzungen für Freundschaften",
+      "seite": 8
+    },
+    {
+      "nr": "2.2",
+      "titel": "Positiv konnotierte Eigenschaften und Werte bei Freunden als Gelingensbedingungen von Freundschaften aus Sicht Jugendlicher",
+      "seite": 8
+    },
+    {
+      "nr": "3",
+      "titel": "Umfang und Ausmaß von Freundschaften und Peerbeziehungen im Schulkontext",
+      "seite": 9
+    },
+    {
+      "nr": "3.1",
+      "titel": "Interethnische Segregation und interethnische Freundschaften",
+      "seite": 9
+    },
+    {
+      "nr": "3.2",
+      "titel": "Freundschaften und Peerbeziehungen von Geflüchteten im Schulkontext",
+      "seite": 10
+    },
+    {
+      "nr": "3.3",
+      "titel": "Freundschaften und Peerbeziehungen im Schulkontext zwischen Mädchen und Jungen",
+      "seite": 10
+    },
+    {
+      "nr": "4",
+      "titel": "Zusammenhänge zwischen (interethnischen und interreligiösen) Freundschaften und Peerkontakten in der Schule mit anderen Variablen",
+      "seite": 10
+    },
+    {
+      "nr": "4.1",
+      "titel": "Zusammenhänge zwischen schulischen Freundschaften und Peerkontakten und den Lernergebnissen",
+      "seite": 10
+    },
+    {
+      "nr": "4.2",
+      "titel": "Zusammenhänge zwischen schulischen Freundschaften, Peerkontakten und schulischem Wohlbefinden",
+      "seite": 11
+    },
+    {
+      "nr": "5",
+      "titel": "Der Blick der Lehrkräfte auf Freundschaften und Peerbeziehungen im Schulkontext und deren Förderung",
+      "seite": 12
+    },
+    {
+      "nr": "5.1",
+      "titel": "Der Blick der Lehrkräfte auf Freundschaftsbeziehungen zwischen Schüler*innen mit und ohne Migrationshintergrund",
+      "seite": 12
+    },
+    {
+      "nr": "5.2",
+      "titel": "Der Blick der Lehrkräfte auf Freundschaftsbeziehungen zwischen Schüler*innen mit sonderpädagogischem und ohne sonderpädagogischen Förderbedarf",
+      "seite": 12
+    },
+    {
+      "nr": "5.3",
+      "titel": "Förderung sozialen Lernens und freundschaftlicher Peerkontakte durch Lehrkräfte während der pandemiebedingten Schulschließungen",
+      "seite": 13
+    },
+    {
+      "nr": "6",
+      "titel": "Förderung von Freundschaften und positiven Peerkontakten in der Schule allgemein",
+      "seite": 13
+    },
+    {
+      "nr": "6.1",
+      "titel": "Förderung von interethnischen Freundschaften und Peerkontakten in der Schule allgemein",
+      "seite": 13
+    },
+    {
+      "nr": "6.2",
+      "titel": "Förderung von interreligiösen Freundschaften und positiven Peerkontakten im Religionsunterricht",
+      "seite": 14
+    },
+    {
+      "nr": "",
+      "titel": "Literatur und Internetquellen",
+      "seite": 15
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Der Beitrag führt in das Themenheft 'Freundschaften und prosoziale Peer-Kontakte in der Schule' ein. Ziel ist es, die soziale Funktion von Schule als Ort der jugendlichen Vergemeinschaftung, des sozialen Lernens und der Anbahnung sowie Pflege von Freundschaften zu beleuchten, insbesondere unter den erschwerten Bedingungen der Corona-Pandemie.",
+    "theoretischer_hintergrund": "Der theoretische Bezugsrahmen stützt sich auf die Sozialisationsfunktion der Schule nach Fend (2008), wonach Schule neben der Qualifikations- und Selektionsfunktion auch eine grundlegende Sozialisationsfunktion übernimmt. Zudem wird auf die Strukturentwicklungstheorie (Piaget, Kohlberg, Youniss) verwiesen, die die Rolle von Gleichaltrigen für die Entwicklung einer autonomen Moralität und sozialer Werte betont. Freundschaften werden als Beziehungen des offenen Feldes ('open field') verstanden, die komplementär zu familiären Beziehungen ('closed field') wirken.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; systematische Zusammenfassung und Einordnung der Beiträge des Themenheftes.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Schule ist für Jugendliche der Haupttreffpunkt und Entstehungsort für Freundschaften.",
+        "seitenverweis": "S. 2"
+      },
+      {
+        "befund": "Die Corona-Pandemie hat zu einer starken Einschränkung sozialer Kontakte geführt, was insbesondere für Jugendliche in marginalisierten Lebenslagen verheerend ist und zu Einsamkeit und Unzufriedenheit führt.",
+        "seitenverweis": "S. 5"
+      },
+      {
+        "befund": "Positive Peer-Kontakte und Freundschaften im Schulkontext korrelieren sowohl mit besseren Lernergebnissen als auch mit einem gesteigerten schulischen Wohlbefinden.",
+        "seitenverweis": "S. 10-11"
+      },
+      {
+        "befund": "Lehrkräfte spielen eine entscheidende Rolle bei der Förderung interethnischer und inklusiver Freundschaften.",
+        "seitenverweis": "S. 12"
+      },
+      {
+        "befund": "Didaktische Ansätze wie der Komplexe Unterricht oder interreligiöses Lernen bieten konkrete Möglichkeiten, soziales Lernen und Kooperation zu stärken.",
+        "seitenverweis": "S. 13-14"
+      }
+    ],
+    "schlussfolgerungen": "Die soziale Funktion der Schule, insbesondere die Förderung von Freundschaften und Peer-Kontakten, wird in der Bildungsforschung und -politik oft vernachlässigt. Die pandemiebedingten Einschränkungen haben diese Funktion stark beeinträchtigt. Anstrengungen zur Kompensation pandemiebedingter Defizite müssen nicht nur auf fachliche, sondern auch auf soziale und personale Kompetenzen abzielen."
+  },
+  "schluesselbegriffe": [
+    "Freundschaft",
+    "Peer-Beziehungen",
+    "Schule",
+    "Pandemie",
+    "Sozialisationsfunktion",
+    "soziales Lernen",
+    "Jugend"
+  ]
+}

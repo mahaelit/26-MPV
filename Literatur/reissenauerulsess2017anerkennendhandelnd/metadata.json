@@ -1,0 +1,103 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Lehrerinnen und Lehrer handeln anerkennend: Ein Beitrag zur Subjektwerdung von Schülerinnen und Schülern",
+      "autoren": [
+        {
+          "nachname": "Reisenauer",
+          "vorname": "Cathrin",
+          "rolle": "Autorin"
+        },
+        {
+          "nachname": "Ulseß-Schurda",
+          "vorname": "Nadine",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2017,
+      "verlag": "StudienVerlag",
+      "erscheinungsort": "Innsbruck",
+      "quellentyp": "Zeitschriftenartikel",
+      "seitenzahlen": "S. 36–48",
+      "gesamtseitenzahl": 13,
+      "isbn_doi": "ISBN 978-3-7065-5616-3",
+      "zeitschrift_sammelband": "schulheft",
+      "band_heft": "166/2017",
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "StudienVerlag"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text untersucht die Wirkungen, Chancen und Risiken des pädagogischen Handelns von Lehrerinnen und Lehrern auf die Subjektwerdung von Schülerinnen und Schülern. Im Zentrum steht die Frage, wie Anerkennungspraktiken im schulischen Alltag wirken und wie sie die Identität und Selbstwahrnehmung der Lernenden beeinflussen.",
+      "zentrale_thesen": [
+        {
+          "these": "Anerkennung ist zentral für die Subjektwerdung in einer Demokratie und ermöglicht den Aufbau von Selbstvertrauen und Selbstachtung.",
+          "seitenverweis": "S. 36"
+        },
+        {
+          "these": "Pädagogisches Handeln ist grundsätzlich mit Fragen der Anerkennung verbunden, da Lehrende Schüler adressieren und sie dadurch zu jemandem machen.",
+          "seitenverweis": "S. 37"
+        },
+        {
+          "these": "Anerkennung ist ein machtvolles Geschehen, das sich in einer Triade abspielt (Anerkennungsgebende, Anerkennungsempfangende und Dritte wie Mitschüler oder Normen).",
+          "seitenverweis": "S. 38–39"
+        },
+        {
+          "these": "Sowohl Bestätigung als auch Versagung (z.B. Grenzensetzen) sind konstitutive Bestandteile pädagogischen Handelns.",
+          "seitenverweis": "S. 42–43"
+        },
+        {
+          "these": "Anerkennung ist ein identitätsstiftendes Geschehen, das Menschen primär hervorbringt und nicht nur beeinflusst.",
+          "seitenverweis": "S. 44"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Anerkennung (pädagogisch)",
+          "definition": "Ein Adressierungsgeschehen, das pädagogisches Handeln inkorporiert und nicht mit Wertschätzungshandeln gleichzusetzen ist.",
+          "seitenverweis": "S. 38"
+        },
+        {
+          "begriff": "Pädagogisches Handeln",
+          "definition": "Ein Handeln, bei dem Lehrende Schüler in bestimmter Weise ansprechen und adressieren, darin diese als jemanden wahrnehmen und zu jemandem machen.",
+          "seitenverweis": "S. 37"
+        },
+        {
+          "begriff": "Triade der Anerkennung",
+          "definition": "Die Erweiterung der Dyade aus Anerkennungsgebendem und -empfangendem durch Dritte wie Mitschüler, Normen und Diskurse.",
+          "seitenverweis": "S. 38"
+        },
+        {
+          "begriff": "Versagung",
+          "definition": "Ein notwendiges Moment anerkennenden Handelns, das sich z.B. im Grenzensetzen zeigt, ohne die Persönlichkeit zu beschädigen.",
+          "seitenverweis": "S. 43"
+        }
+      ],
+      "kapitelstruktur": [
+        "Einleitung (ohne Titel)",
+        "Anerkennung als Teil pädagogischen Handelns",
+        "Wirkmächtige Facetten pädagogischen Handelns",
+        "   - Die Triade",
+        "   - Vor den Mitschülerinnen und Mitschülern",
+        "   - Eingebettet in gesellschaftliche und kulturelle Diskurse und Normen",
+        "   - Ein machtvolles Geschehen",
+        "   - Bestätigung und Versagung",
+        "   - Ein identitätsstiftendes Geschehen",
+        "Schlussfolgerung",
+        "Literatur"
+      ],
+      "methodik": "Qualitative Studie mithilfe der Grounded Theory (Strauss & Corbin, 1996) und der Situationsanalyse (Clarke, 2012) zur Auswertung von Erinnerungsszenen von Schülerinnen und Schülern im Alter von 10–19 Jahren.",
+      "ergebnisse_schlussfolgerungen": "Lehrerinnen und Lehrer sind bedeutsame Andere für die Subjektwerdung von Schülerinnen und Schülern. Ihre Adressierungen wirken sich massgeblich auf das Lernen und die Selbstwahrnehmung aus. Da Lehrende nicht nicht anerkennen können, ist eine reflexive Haltung zentral, um die Wirkungen des eigenen Handelns zu hinterfragen. Anerkennung bildet den Grundstein einer Ethik des Klassenzimmers, die auf der Achtung der Menschenwürde basiert. Die pädagogische Absicht und die tatsächliche Wirkung sind dabei häufig nicht kongruent.",
+      "theoriebezuege": [
+        "Grounded Theory (Strauss & Corbin, 1996): Methodik",
+        "Situationsanalyse (Clarke, 2012): Methodik",
+        "Ricken (2009) und Balzer & Ricken (2010): Pädagogisches Handeln und Anerkennung",
+        "Butler (2003, 2009): Anerkennung als Medium der Subjektwerdung und als Ort der Macht",
+        "Max Weber (1984): Definition von Handeln",
+        "Honneth (1992): Anerkennung und Bildung eines positiven Selbstverhältnisses",
+        "Benjamin (1990): Versagung als notwendiges Moment"
+      ]
+    }
+  },
+  "dateiname_original": "ReissenauerUlsess-Schurda(2017)_LPhandelnanerkennend-2.pdf"
+}

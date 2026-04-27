@@ -1,0 +1,183 @@
+{
+  "quelldatei": "KesselsHannover_2015_Gleichaltrige.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Kessels",
+        "vorname": "Ursula",
+        "institution": "Freie Universität Berlin"
+      },
+      {
+        "nachname": "Hannover",
+        "vorname": "Bettina",
+        "institution": "Freie Universität Berlin"
+      }
+    ],
+    "titel": "Gleichaltrige",
+    "untertitel": null,
+    "erscheinungsjahr": 2015,
+    "verlag": "Springer",
+    "ort": "Berlin, Heidelberg",
+    "sammelband_titel": "Pädagogische Psychologie",
+    "sammelband_herausgeber": [
+      {
+        "nachname": "Wild",
+        "vorname": "Elke"
+      },
+      {
+        "nachname": "Möller",
+        "vorname": "Jens"
+      }
+    ],
+    "auflage": "2. Auflage",
+    "kapitel_nr": 12,
+    "seitenzahlen_im_band": "283-301",
+    "seitenzahl_pdf": 20,
+    "doi": "10.1007/978-3-642-41291-2_12",
+    "isbn": "978-3-642-41291-2",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Buchkapitel in Sammelband/Lehrbuch"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "12.1",
+      "titel": "Bedeutung und Funktion der Gleichaltrigengruppe",
+      "seite": 284
+    },
+    {
+      "nr": "12.2",
+      "titel": "Beliebtheit und Freundschaft",
+      "seite": 286
+    },
+    {
+      "nr": "12.2.1",
+      "titel": "Beliebtheit",
+      "seite": 286
+    },
+    {
+      "nr": "12.2.2",
+      "titel": "Freundschaft",
+      "seite": 287
+    },
+    {
+      "nr": "12.3",
+      "titel": "Merkmale von Kindern und Jugendlichen mit unterschiedlichem Peer-Status",
+      "seite": 288
+    },
+    {
+      "nr": "12.3.1",
+      "titel": "Beliebtheit als soziale Akzeptanz",
+      "seite": 288
+    },
+    {
+      "nr": "12.3.2",
+      "titel": "Beliebtheit als Reputation",
+      "seite": 288
+    },
+    {
+      "nr": "12.3.3",
+      "titel": "Ursachen für die positiven Korrelationen zwischen sozialer Akzeptanz und Schulleistungen",
+      "seite": 289
+    },
+    {
+      "nr": "12.4",
+      "titel": "Beziehungen zwischen Gruppen von Gleichaltrigen",
+      "seite": 290
+    },
+    {
+      "nr": "12.4.1",
+      "titel": "Gruppenzugehörigkeit als Teil der eigenen Identität: Soziale Identität und Intergruppenbeziehungen",
+      "seite": 290
+    },
+    {
+      "nr": "12.4.2",
+      "titel": "Gleich und gleich gesellt sich gern: Homophilie",
+      "seite": 291
+    },
+    {
+      "nr": "12.4.3",
+      "titel": "Wie aus sozialen Normen Gruppendruck wird: Konformität",
+      "seite": 292
+    },
+    {
+      "nr": "12.5",
+      "titel": "Miteinander und voneinander lernen",
+      "seite": 293
+    },
+    {
+      "nr": "12.5.1",
+      "titel": "Überwindung von gruppenbedingten Feindseligkeiten durch kooperative Lernformen",
+      "seite": 293
+    },
+    {
+      "nr": "12.5.2",
+      "titel": "Peer Educator als Wissensvermittler",
+      "seite": 294
+    },
+    {
+      "nr": "12.6",
+      "titel": "Problematische Interaktionen unter Gleichaltrigen: Aggression und Bullying",
+      "seite": 294
+    },
+    {
+      "nr": "12.6.1",
+      "titel": "Aggression und Bullying",
+      "seite": 295
+    },
+    {
+      "nr": "12.6.2",
+      "titel": "Spezifische Defizite aggressiver Kinder in der sozialen Informationsverarbeitung",
+      "seite": 296
+    },
+    {
+      "nr": "12.6.3",
+      "titel": "Bullying als soziales Geschehen im Klassenkontext",
+      "seite": 297
+    },
+    {
+      "nr": "12.6.4",
+      "titel": "Maßnahmen gegen Aggression und Bullying an Schulen: Prävention und Intervention",
+      "seite": 298
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Das Kapitel untersucht die Bedeutung und Funktion von Gleichaltrigen (Peers) für Kinder und Jugendliche, insbesondere im Kontext von Schule und Lernen. Es beleuchtet die Besonderheiten von Peer-Beziehungen, die Entstehung von Beliebtheit und Freundschaften sowie deren Auswirkungen auf schulische Leistungen und die Identitätsentwicklung. Zudem werden problematische Interaktionen wie Bullying und entsprechende Interventionsmöglichkeiten dargestellt.",
+    "theoretischer_hintergrund": "Der theoretische Rahmen umfasst die Theorie der sozialen Identität (Tajfel & Turner), das Homophilie-Prinzip, Konformitätsforschung sowie Modelle der sozialen Informationsverarbeitung (Crick & Dodge). Peer-Beziehungen werden als zentral für die Identitätsentwicklung und das schulische Lernen verstanden.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; systematische Darstellung des Forschungsstandes als Lehrbuchkapitel.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Die soziale Akzeptanz im Klassenverband korreliert positiv mit schulischem Erfolg; abgelehnte Kinder zeigen häufiger schlechtere Leistungen und wiederholen öfter eine Klasse.",
+        "seitenverweis": "S. 288"
+      },
+      {
+        "befund": "Beliebtheit als Reputation (Popularität) kann mit weniger gut angepasstem Verhalten einhergehen, insbesondere wenn leistungsfeindliche Normen in der Peergruppe dominieren.",
+        "seitenverweis": "S. 288"
+      },
+      {
+        "befund": "Freundschaften zeichnen sich durch Homophilie aus: Kinder freunden sich bevorzugt mit Personen an, die ihnen in Merkmalen wie Geschlecht oder ethnischer Herkunft ähnlich sind.",
+        "seitenverweis": "S. 291"
+      },
+      {
+        "befund": "Bullying ist ein gruppendynamisches Geschehen mit verschiedenen Rollen (Täter, Opfer, Assistenten, Verstärker, Verteidiger, Außenstehende).",
+        "seitenverweis": "S. 297"
+      },
+      {
+        "befund": "Kooperative Lernformen wie das Gruppenpuzzle können helfen, Feindseligkeiten zwischen Gruppen abzubauen und das gemeinsame Lernen zu fördern.",
+        "seitenverweis": "S. 293"
+      }
+    ],
+    "schlussfolgerungen": "Die Interaktion mit Gleichaltrigen ist zentral für die soziale und kognitive Entwicklung. Die Position im Klassenverband beeinflusst sowohl das Wohlbefinden als auch die schulischen Leistungen maßgeblich. Präventive und intervenierende Maßnahmen an Schulen sind unerlässlich, um ein positives Lernklima zu fördern."
+  },
+  "schluesselbegriffe": [
+    "Peers",
+    "Gleichaltrige",
+    "Beliebtheit",
+    "Freundschaft",
+    "Homophilie",
+    "Konformität",
+    "Bullying",
+    "Aggression",
+    "soziale Identität",
+    "kooperatives Lernen"
+  ]
+}

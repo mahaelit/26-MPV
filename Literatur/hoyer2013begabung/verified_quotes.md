@@ -13,7 +13,33 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **8**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+**41 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
+
+1. **[L:576]** prachlich nicht zugängliche Domänen wie die logisch-mathematische, räumliche oder körperlich-kinästhetische Intelligenz \parencite{muelleroppliger2021handbuch}; **`\parencite[S.\,74--75]{hoyer2013begabung}`** (post="S.\,74--75") ; \parencite[S.\,34--41]{trautmann2016einfuehrung}. Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung zwischen kognitiven Prädiktoren,
+
+2. **[L:635]** n Settings wie SOLUX zeigen können, während sie im leistungsnormierten Regelunterricht unsichtbar bleiben \parencite[S.\,204--222]{muelleroppliger2021handbuch}; **`\parencite[S.\,94--103]{hoyer2013begabung}`** (post="S.\,94--103") . Gardners Theorie der Multiplen Intelligenzen hat den pädagogischen Diskurs erweitert, indem sie auf Domänen verweist, die sich sprachlicher Performanz entzieh
+
+3. **[L:641]** musikalische, körperlich-kinästhetische, interpersonale und intrapersonale Fähigkeiten. Die Theorie wird in der psychometrischen Forschung kontrovers diskutiert **`\parencite[S.\,73--75]{hoyer2013begabung}`** (post="S.\,73--75") , der heuristische Ertrag des Modells für die heilpädagogische Praxis bleibt davon unberührt: Es schärft den Blick dafür, dass schulische Beurteilung Potenziale
+
+4. **[L:1204]** nd Fachkompetenz zeigen, erweiterte Fördermöglichkeiten erhalten, unabhängig davon, ob ein formaler Testbefund vorliegt \parencite{muelleroppliger2021handbuch}; **`\parencite[S.\,104--105]{hoyer2013begabung}`** (post="S.\,104--105") ; \parencite[S.\,254--273]{fischer2020begabungsfoerderung}. S.' Teilnahme an SOLUX und die dort sichtbar gewordenen Stärken wären ausreichende Grundlage, um ver
+
+   → Beleg-Vorschlag [1] (score 0.09): [`030_7_1_das_schoolwide_enrichment_model_als_choreograf.pdf`](excerpts/030_7_1_das_schoolwide_enrichment_model_als_choreograf.pdf) S. 100-101 · 7.1 Das „Schoolwide Enrichment Model“ als Choreografie inklu
+   → Beleg-Vorschlag [2] (score 0.09): [`034_7_5_begabungsfoerderung_als_personale_kompetenz_un.pdf`](excerpts/034_7_5_begabungsfoerderung_als_personale_kompetenz_un.pdf) S. 112-115 · 7.5 Begabungsförderung als personale Kompetenz und soziales 
+
+5. **[L:1561]** isuell-räumliche Orientierung (Positionen auf dem Brett erfassen), Regelanwendung (Zugregeln einhalten) und vorausschauende Planung (Konsequenzen antizipieren). **`\textcite[S.\,112--113]{hoyer2013begabung}`** (post="S.\,112--113") betonen, dass Begabungsförderung dann wirksam ist, wenn sie an den \enquote{Stärken des Denkens} ansetzt und von dort aus Transferprozesse in andere Domänen erm
+
+6. **[L:1683]** on und Reaktionsmuster bei fehlender Anforderungspassung (S.\,546\,f.). In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,546--555 (10\,S.) \item[ **`\cite{hoyer2013begabung}`** ] Begabung: Eine Einführung. Stärken-des-Denkens-Prinzip in der Begabungsförderung (S.\,112--113). Mehrfachzuordnung mit Frage~1 (Multiple Intelligenzen, S.\,73
+
+   → Beleg-Vorschlag [1] (score 0.12): [`007_1_begabung_als_konstrukt_zum_werdegang_einer_kateg.pdf`](excerpts/007_1_begabung_als_konstrukt_zum_werdegang_einer_kateg.pdf) S. 10-13 · 1 Begabung als Konstrukt. Zum Werdegang einer Kategorie der 
+   → Beleg-Vorschlag [2] (score 0.12): [`016_4_2_begabung_und_hochbegabung.pdf`](excerpts/016_4_2_begabung_und_hochbegabung.pdf) S. 56-63 · 4.2 Begabung und Hochbegabung
+
+7. **[L:2452]** ombination aus Typ~I und Typ~III und verankert die Orientierung an Gardners Multiplen Intelligenzen als Zugangsstruktur \parencite{muelleroppliger2021handbuch}; **`\parencite[S.\,95--103]{hoyer2013begabung}`** (post="S.\,95--103") ; \parencite[S.\,34--41]{trautmann2016einfuehrung}. \textcite{buholzer2010allegleich} zeigen, dass Schule und Unterricht in der Schweiz weiterhin stark an Homog
+
+8. **[L:2529]** Interessensgebiet, in der Kinder allein oder in kleinen Gruppen als Forschende tätig werden und Expertenwissen aufbauen \parencite{muelleroppliger2021handbuch}; **`\parencite[S.\,101--104]{hoyer2013begabung}`** (post="S.\,101--104") . Entscheidend am SEM ist der Grundgedanke, dass nicht zuerst identifiziert und dann gefördert wird, sondern dass die Förderung selbst zur Identifikation beiträ
+
+   → Beleg-Vorschlag [1] (score 0.08): [`036_7_7_reflexive_auseinandersetzung_mit_individuellen.pdf`](excerpts/036_7_7_reflexive_auseinandersetzung_mit_individuellen.pdf) S. 118-118 · 7.7 Reflexive Auseinandersetzung mit individuellen Leistunge
 
 <!-- CLAIMS-END -->
 

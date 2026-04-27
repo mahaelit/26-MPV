@@ -1,0 +1,83 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Kooperation in multiprofessionellen Teams an inklusiven Schulen",
+      "autoren": [
+        {
+          "nachname": "Widmer-Wolf",
+          "vorname": "Patrik",
+          "rolle": "Autor"
+        }
+      ],
+      "jahr": 2018,
+      "verlag": "Verlag Barbara Budrich",
+      "erscheinungsort": "Opladen & Toronto",
+      "quellentyp": "Sammelbandbeitrag",
+      "seitenzahlen": "S. 299–313",
+      "gesamtseitenzahl": 15,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "Handbuch schulische Inklusion",
+      "band_heft": null,
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Sammelband (Verlag Barbara Budrich)"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Der Text befasst sich mit der Kooperation in multiprofessionellen Teams an inklusiven Schulen. Er untersucht die spezifischen Voraussetzungen, die interprofessionelle Zusammenarbeit strukturieren, und beleuchtet die Fachdiskurse entlang von vier Berufsfeldern: Sonderpädagogische Förderung, Schulsozialarbeit, Deutsch als Zweitsprache und Sprachförderung/Logopädie.",
+      "zentrale_thesen": [
+        {
+          "these": "Die Arbeitsteilung in multiprofessionellen Teams beruht auf Aushandlungsprozessen, die durch Überzeugungen, Haltungen und Strukturen geprägt sind.",
+          "seitenverweis": "S. 299"
+        },
+        {
+          "these": "Die multiprofessionelle Zusammenarbeit wird durch ein spezifisches Gefüge an Voraussetzungen gerahmt, das gezielte Reflexionen erfordert.",
+          "seitenverweis": "S. 300"
+        },
+        {
+          "these": "Die Wahrung der eigenen beruflichen Autonomie stellt eine Herausforderung dar, wobei Autonomie und Zusammenarbeit nicht als polare Dimensionen, sondern als zirkulär bedingende Aspekte betrachtet werden sollten.",
+          "seitenverweis": "S. 302–303"
+        },
+        {
+          "these": "Teamarbeit findet in einer Öffentlichkeit der Schülerschaft statt und hat Modellfunktion.",
+          "seitenverweis": "S. 303"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Multiprofessionelle Teams",
+          "definition": "Teams, die mit unterschiedlichen Berufsaufträgen im Hinblick auf Bildung und Erziehung agieren, in Abgrenzung zu kooperierenden Lehrkräften gleicher Profession.",
+          "seitenverweis": "S. 299"
+        },
+        {
+          "begriff": "Lose gekoppelte Kooperationen",
+          "definition": "Ergänzende, additive Gefässe ohne weitere Entwicklungsanstrengungen.",
+          "seitenverweis": "S. 300"
+        },
+        {
+          "begriff": "Advokatorische Funktion",
+          "definition": "Die Schulsozialarbeit übernimmt eine anwaltschaftliche Funktion für Schülerinnen und Schüler.",
+          "seitenverweis": "S. 305"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Definition multiprofessioneller Teams",
+        "2. Voraussetzungsgefüge multiprofessioneller Zusammenarbeit",
+        "3. Sonderpädagogische Förderung",
+        "4. Schulsozialarbeit",
+        "5. Deutsch als Zweitsprache",
+        "6. Sprachförderung – Logopädie",
+        "7. Aufgabe der inklusiven Schul- und Unterrichtsentwicklung",
+        "8. Perspektiven"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag)",
+      "ergebnisse_schlussfolgerungen": "Die Zusammenarbeit in multiprofessionellen Teams ist mehr als eine Addition unterschiedlicher Expertisen. Sie erfordert kontinuierliche Aufmerksamkeit, um Stigmatisierung und Ausschluss zu vermeiden. Investitionen in systematische Zusammenarbeit lohnen sich, da dadurch ein Ort für professionelles Lernen entsteht, was sich positiv auf die Lernentwicklung der Schülerinnen und Schüler auswirkt. Inklusion muss als Querschnittsaufgabe der verschiedenen Teildisziplinen verstanden werden.",
+      "theoriebezuege": [
+        "Werning/Löser (2010): Schulische Inklusion",
+        "Fussangel und Gräsel (2010, 2011): Kooperation von Lehrkräften",
+        "Helsper/Tippelt (2011): Lose gekoppelte Kooperationen",
+        "Maykus (2004): Macht und funktionale Abhängigkeit in Teams"
+      ]
+    }
+  },
+  "dateiname_original": "2018_Widmer-Wolf_KooperationinmultiprofessionellenTeams.pdf"
+}

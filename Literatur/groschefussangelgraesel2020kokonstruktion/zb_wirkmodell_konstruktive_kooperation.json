@@ -1,0 +1,109 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Kokonstruktive Kooperation zwischen Lehrkräften. Aktualisierung und Erweiterung der Kokonstruktionstheorie sowie deren Anwendung am Beispiel schulischer Inklusion (Zusammenfassung / Zusatzblatt)",
+      "autoren": [
+        {
+          "nachname": "Grosche",
+          "vorname": "Michael",
+          "rolle": "Autor"
+        },
+        {
+          "nachname": "Fussangel",
+          "vorname": "Kathrin",
+          "rolle": "Autorin"
+        },
+        {
+          "nachname": "Gräsel",
+          "vorname": "Cornelia",
+          "rolle": "Autorin"
+        }
+      ],
+      "jahr": 2020,
+      "verlag": "Beltz Juventa",
+      "erscheinungsort": "Weinheim",
+      "quellentyp": "Zusatzblatt / Zusammenfassung eines Zeitschriftenartikels",
+      "seitenzahlen": "S. 461–479 (Originalartikel)",
+      "gesamtseitenzahl_zusatzblatt": 5,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": "Zeitschrift für Pädagogik",
+      "band_heft": "66(4)",
+      "auflage": null,
+      "sprache": "Deutsch",
+      "zugang": "Zeitschrift für Pädagogik / PH Luzern Zusatzblatt"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Das Zusatzblatt fasst das zyklische Wirkmodell der konstruktiven Kooperation (Kokonstruktion) zusammen und stellt es als Arbeitsgrundlage dar. Es befasst sich mit der Kooperation von Lehrkräften im Kontext der schulischen Inklusion und präsentiert das aktualisierte und erweiterte Wirkmodell der Kokonstruktion.",
+      "zentrale_thesen": [
+        {
+          "these": "Kooperation ist nicht nur arbeitsteilig, sondern basiert auf Gleichwertigkeit, Vertrauen und gemeinsamen Zielen.",
+          "seitenverweis": "S. 2 (Zusatzblatt)"
+        },
+        {
+          "these": "Es gibt drei Formen der Kooperation: Austausch, arbeitsteilige Kooperation und Kokonstruktion.",
+          "seitenverweis": "S. 3 (Zusatzblatt)"
+        },
+        {
+          "these": "Austausch und arbeitsteilige Kooperation reichen für die Umsetzung von Inklusion oft nicht aus.",
+          "seitenverweis": "S. 3 (Zusatzblatt)"
+        },
+        {
+          "these": "Kokonstruktion ist die intensivste Form und erfordert gemeinsame Ziele, Vertrauen und die Bereitschaft zur Deprivatisierung.",
+          "seitenverweis": "S. 3–5 (Zusatzblatt)"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Kooperation",
+          "definition": "Ein auf demokratischen Werten basierendes, zielgerichtetes und gemeinsam verantwortetes Geschehen zur Schaffung bestmöglicher Entwicklungsbedingungen aller Kinder.",
+          "seitenverweis": "S. 2 (Zusatzblatt)"
+        },
+        {
+          "begriff": "Austausch",
+          "definition": "Lehrpersonen tauschen berufsbezogene Informationen aus, arbeiten aber unabhängig voneinander.",
+          "seitenverweis": "S. 3 (Zusatzblatt)"
+        },
+        {
+          "begriff": "Arbeitsteilige Kooperation",
+          "definition": "Lehrkräfte stimmen gemeinsame Ziele ab, bearbeiten Arbeitspakete aber individuell.",
+          "seitenverweis": "S. 3 (Zusatzblatt)"
+        },
+        {
+          "begriff": "Kokonstruktion",
+          "definition": "Erarbeitung neuer Konzepte oder Problemlösungen durch Aushandlung von Zielen und Arbeitsprozessen.",
+          "seitenverweis": "S. 3 (Zusatzblatt)"
+        },
+        {
+          "begriff": "Zielinterdependenz",
+          "definition": "Kooperationspartner erkennen ihre gegenseitige Abhängigkeit an.",
+          "seitenverweis": "S. 4 (Zusatzblatt)"
+        },
+        {
+          "begriff": "Deprivatisierung",
+          "definition": "Bereitschaft, eigene Arbeitsweisen offenzulegen und Feedback einzuholen.",
+          "seitenverweis": "S. 5 (Zusatzblatt)"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Interdisziplinäre Kooperation von Lehrer*innen im Kontext schulischer Inklusion",
+        "2. Drei Formen der Kooperation und ihre Rolle bei der Umsetzung von Inklusion",
+        "3. Zyklisches Wirkmodell der konstruktiven Kooperation",
+        "   3.1 Rahmenbedingungen",
+        "   3.2 Spezifische soziale Vorbedingungen der kokonstruktiven Kooperation"
+      ],
+      "methodik": "Nicht zutreffend (theoretischer Beitrag / Zusammenfassung)",
+      "ergebnisse_schlussfolgerungen": "Kokonstruktion ist die anspruchsvollste, aber auch wirksamste Form der Kooperation für komplexe Herausforderungen wie die Inklusion. Sie erfordert spezifische soziale Vorbedingungen wie Vertrauen, Egalität, Reziprozität und die Bereitschaft zur Deprivatisierung. Wenn diese Bedingungen erfüllt sind, kann Kokonstruktion zu adaptiver Implementation von Innovationen, emotionaler Entlastung der Lehrkräfte und positiven Wirkungen auf die Lernenden führen.",
+      "theoriebezuege": [
+        "Lütje-Klose & Urban (2014): Definition von Kooperation",
+        "Gräsel, Fussangel & Pröbstel (2006): Formen und Kernelemente von Kooperation",
+        "Spieß (2004): Kernelemente der Definition",
+        "Grosche et al. (2020): Kokonstruktive Kooperation (Originalartikel)",
+        "Arndt & Werning (2013), Scruggs et al. (2007): Arbeitsteilige Kooperation bei Inklusion",
+        "Armstrong (2015): Vertrauen",
+        "Bonsen & Rolff (2006), Holtappels (2013), Lortie (1972): Deprivatisierung und professionelle Lerngemeinschaften",
+        "Lütje-Klose et al. (2018): Gleichberechtigte Kooperation"
+      ]
+    }
+  },
+  "dateiname_original": "ZB_WirkmodellderkonstruktivenKooperation.pdf"
+}

@@ -11,41 +11,43 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **8**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
 **9 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[A:389]** nd in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei F
+1. **[A:498]** ndsaufnahme, Erwartungseffekte). 30\,S. \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. Ausgewählte Kapitel. 8\,S. \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Professionalisierung. S.\,160--171 (12\,S.) \end{description} \textit{Umfang Frage~5: 90\,Seiten.} \section*{Seitenbudget: Über
 
-   → Beleg-Vorschlag [1] (score 0.39): [`009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf`](excerpts/009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf) S. 12-13 · 6 Schritt: Transformatives Lernen im Kontext der Schule
-   → Beleg-Vorschlag [2] (score 0.31): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
+   → Beleg-Vorschlag [1] (score 0.39): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
+   → Beleg-Vorschlag [2] (score 0.39): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
 
-2. **[L:2145]** shintergrund in der Begabungsförderung systematisch unterrepräsentiert sind und dass dies auch an den Erwartungen und Wahrnehmungsmuster der Lehrpersonen liegt. **`\textcite{macha2019gender}`** betont die Notwendigkeit gender- und diversitätssensibler Professionalisierung in der Begabungsförderung. Kappus' Analyse der institutionellen Diskriminierung s
+2. **[L:1064]** eitschaft, diese Muster zu hinterfragen und institutionelle Strukturen, die eine solche Reflexion ermöglichen \parencite[S.\,576--585]{stamm2021fehlenderblick}; **`\parencite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") . Das vierte Prinzip betrifft die \textit{Klärung der diagnostischen Zuständigkeit}: Pädagogische Diagnostik und psychologische Abklärung sind komplementär, nic
+
+3. **[L:3059]** nshintergrund in der Begabungsförderung strukturell unterrepräsentiert sind und dass dies auch an den Erwartungen und Wahrnehmungsmuster der Lehrpersonen liegt. **`\textcite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") betont die Notwendigkeit gender- und diversitätssensibler Professionalisierung in der Begabungsförderung. Kappus' Analyse der institutionellen Diskriminierung s
 
    → Beleg-Vorschlag [1] (score 0.21): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
-   → Beleg-Vorschlag [2] (score 0.17): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
+   → Beleg-Vorschlag [2] (score 0.21): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
 
-3. **[L:2282]** t vorzuhalten (mangelnde Erfahrung mit Begabungserkennung bei mehrsprachigen Kindern), sondern darum, gemeinsam ein differenzierteres Bild von S. zu entwickeln. **`\textcite{macha2019gender}`** beschreibt die Anforderungen an eine diversitätssensible Professionalisierung in der Begabungsförderung. Sie betont, dass die Erkennung von Begabungen bei Kinde
+4. **[L:3197]** t vorzuhalten (mangelnde Erfahrung mit Begabungserkennung bei mehrsprachigen Kindern), sondern darum, gemeinsam ein differenzierteres Bild von S. zu entwickeln. **`\textcite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") beschreibt die Anforderungen an eine diversitätssensible Professionalisierung in der Begabungsförderung. Sie betont, dass die Erkennung von Begabungen bei Kinde
 
    → Beleg-Vorschlag [1] (score 0.15): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
    → Beleg-Vorschlag [2] (score 0.15): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
 
-4. **[L:2372]** ts ableiten. Und sie kann die Frage stellen, ob die bestehenden Zuweisungs- und Übertrittsverfahren Kinder mit Migrationshintergrund angemessen berücksichtigen. **`\textcite{macha2019gender}`** fasst diesen Anspruch als doppelte Professionalisierungsaufgabe: Zum einen müssen Fachpersonen in der Begabungsförderung individuelle Kompetenzen der diversität
+5. **[L:3285]** ts ableiten. Und sie kann die Frage stellen, ob die bestehenden Zuweisungs- und Übertrittsverfahren Kinder mit Migrationshintergrund angemessen berücksichtigen. **`\textcite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") fasst diesen Anspruch als doppelte Professionalisierungsaufgabe: Zum einen müssen Fachpersonen in der Begabungsförderung individuelle Kompetenzen der diversität
 
    → Beleg-Vorschlag [1] (score 0.11): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
    → Beleg-Vorschlag [2] (score 0.11): [`009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf`](excerpts/009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf) S. 12-13 · 6 Schritt: Transformatives Lernen im Kontext der Schule
 
-5. **[L:2413]** nd in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität. (bereits bei F
+6. **[L:3336]** ndsaufnahme, Erwartungseffekte). 30\,S. \item[\cite{kosoroklabhart2021voneltern}] Von Eltern mit Migrationshintergrund lernen. Ausgewählte Kapitel. 8\,S. \item[ **`\cite{macha2019gender}`** ] Gender und diversitätssensible Professionalisierung. S.\,160--171 (12\,S.) \end{description} \textit{Umfang Frage~5: 90\,Seiten.} % ══════════════════════════
 
-   → Beleg-Vorschlag [1] (score 0.39): [`009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf`](excerpts/009_6_schritt_transformatives_lernen_im_kontext_der_sc.pdf) S. 12-13 · 6 Schritt: Transformatives Lernen im Kontext der Schule
-   → Beleg-Vorschlag [2] (score 0.31): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
+   → Beleg-Vorschlag [1] (score 0.42): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
+   → Beleg-Vorschlag [2] (score 0.42): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
 
-6. **[L:2544]** de Fachstelle ihre Expertise einbringt. Macha beschreibt diversitätssensible Professionalisierung als Aufgabe des gesamten Systems, nicht einzelner Fachpersonen **`\parencite{macha2019gender}`** . Das dritte Prinzip ist die \textit{Einbindung der Eltern als Wissensträger}. Kosorok Labhart, Schöllhorn und Luginbühl betonen, dass professionelles Dolmetsch
+7. **[L:3462]** sie weiss, dass S. über Schach einen motivationalen Zugang hat? Die Förderplanung wird zum gemeinsamen Projekt, in dem jede Fachstelle ihre Expertise einbringt. **`\textcite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") beschreibt diversitätssensible Professionalisierung als Aufgabe des gesamten Systems, nicht einzelner Fachpersonen. Das dritte Prinzip ist die \textit{Einbindun
 
-   → Beleg-Vorschlag [1] (score 0.11): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
-   → Beleg-Vorschlag [2] (score 0.11): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
+   → Beleg-Vorschlag [1] (score 0.08): [`001_1_einleitung.pdf`](excerpts/001_1_einleitung.pdf) S. 1-2 · 1 Einleitung
+   → Beleg-Vorschlag [2] (score 0.08): [`005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf`](excerpts/005_3_2_gender_und_diversitygerechte_lehrerfortbildung.pdf) S. 8-8 · 3.2 Gender- und diversitygerechte Lehrerfortbildung
 
-7. **[L:3012]** ng nach einer doppelten Professionalisierungsaufgabe (individuelle Kompetenz + Strukturveränderung) und liefert konkretes Datenmaterial für das Prüfungsgespräch **`\parencite{macha2019gender}`** . \subsubsection*{Herausforderungen trotz erfolgreicher Praxis} Die Studie identifiziert vier persistierende Herausforderungen, auch an Schulen mit proportional
+8. **[L:3940]** ng nach einer doppelten Professionalisierungsaufgabe (individuelle Kompetenz + Strukturveränderung) und liefert konkretes Datenmaterial für das Prüfungsgespräch **`\parencite[S.\,161,\,163\psq]{macha2019gender}`** (post="S.\,161,\,163\psq") . \subsubsection*{Herausforderungen trotz erfolgreicher Praxis} Die Studie identifiziert vier persistierende Herausforderungen, auch an Schulen mit proportional
 
 <!-- CLAIMS-END -->
 

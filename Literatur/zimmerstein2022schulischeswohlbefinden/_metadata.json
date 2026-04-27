@@ -1,0 +1,130 @@
+{
+  "quelldatei": "schulischesWOhlbefindenundFreundschaftenPFLB_4_5_135-151_Zimmer_Stein_Beitrag.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Zimmer",
+        "vorname": "Veronika",
+        "institution": "Universität Vechta"
+      },
+      {
+        "nachname": "Stein",
+        "vorname": "Margit",
+        "institution": "Universität Vechta"
+      }
+    ],
+    "titel": "Schulisches Wohlbefinden und Freundschaften",
+    "untertitel": "Ein Vergleich zwischen jungen Menschen mit und ohne Migrationshintergrund in Abhängigkeit (inter)ethnischer Freundschaften",
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)",
+    "band": 4,
+    "heft": 5,
+    "seitenzahlen_im_band": "135-151",
+    "seitenzahl_pdf": 17,
+    "doi": "10.11576/pflb-5983",
+    "issn": "2629-5628",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel (empirisch, quantitativ)",
+    "open_access": true,
+    "lizenz": "CC BY-SA 4.0"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "1",
+      "titel": "Einleitung",
+      "seite": 136
+    },
+    {
+      "nr": "2",
+      "titel": "Theoretischer Hintergrund und Forschungsstand zu den Einflussfaktoren auf schulisches Wohlbefinden",
+      "seite": 136
+    },
+    {
+      "nr": "3",
+      "titel": "Studie zum Wohlbefinden in der Schule in Abhängigkeit interethnischer Freundschaften",
+      "seite": 137
+    },
+    {
+      "nr": "3.1",
+      "titel": "Studiendesign und Stichprobenbeschreibung",
+      "seite": 138
+    },
+    {
+      "nr": "3.2",
+      "titel": "Fragestellung",
+      "seite": 138
+    },
+    {
+      "nr": "3.3",
+      "titel": "Erhebungsinstrument",
+      "seite": 139
+    },
+    {
+      "nr": "4",
+      "titel": "Schulisches Wohlbefinden in Abhängigkeit der identitären Selbstverortung und interethnischer Freundschaften",
+      "seite": 140
+    },
+    {
+      "nr": "4.1",
+      "titel": "Zusammenhänge zwischen schulischem Wohlbefinden und Migrationshintergrund",
+      "seite": 140
+    },
+    {
+      "nr": "4.2",
+      "titel": "Schulisches Wohlbefinden in Abhängigkeit intermittierender Variablen",
+      "seite": 142
+    },
+    {
+      "nr": "4.3",
+      "titel": "Vermittelnde Rolle der identitären Verortung",
+      "seite": 144
+    },
+    {
+      "nr": "5",
+      "titel": "Fazit",
+      "seite": 147
+    },
+    {
+      "nr": "",
+      "titel": "Literatur und Internetquellen",
+      "seite": 149
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Die Studie untersucht das subjektive schulische Wohlbefinden von jungen Menschen mit und ohne Migrationshintergrund. Dabei wird insbesondere der Einfluss von sozioökonomischen, soziokulturellen und sozialen Faktoren, wie der identitären Selbstverortung und interethnischen Freundschaften, auf das Wohlbefinden analysiert.",
+    "theoretischer_hintergrund": "Schulisches Wohlbefinden wird als multidimensionales Konstrukt verstanden, das positive Emotionen und Kognitionen gegenüber der Schule umfasst. Theoretische Grundlage für die Untersuchung von Freundschaften ist die Kontakthypothese nach Allport, die besagt, dass interethnische Kontakte vorurteilsreduzierend wirken können.",
+    "methodik": "Quantitative Befragung (schriftlich und online) von 1.090 jungen Menschen zwischen 18 und 24 Jahren in Schulen im Nordwesten Niedersachsens. Die Stichprobe umfasst Personen mit und ohne Migrationshintergrund. Auswertung mittels bivariater Korrelationen, partieller Korrelationen und Mediationsanalysen (PROCESS von Hayes).",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Junge Menschen mit Migrationshintergrund (insbesondere der 1. Generation) fühlen sich in der Schule signifikant weniger wohl als Einheimisch-Deutsche und berichten häufiger über Diskriminierungserfahrungen.",
+        "seitenverweis": "S. 140-142"
+      },
+      {
+        "befund": "Das schulische Wohlbefinden wird stark durch die identitäre Selbstverortung mediiert: Wer sich stärker als Deutsche*r fühlt, weist ein höheres Wohlbefinden auf.",
+        "seitenverweis": "S. 144-147"
+      },
+      {
+        "befund": "Interethnische Freundschaften verbessern das Wohlbefinden von Migrant*innen signifikant (r = -,078 im Vergleich zu r = -,187 ohne diese Freundschaften).",
+        "seitenverweis": "S. 144"
+      },
+      {
+        "befund": "Der Bildungshintergrund der Eltern (z.B. fehlender Schulabschluss) korreliert negativ mit dem schulischen Wohlbefinden.",
+        "seitenverweis": "S. 143"
+      },
+      {
+        "befund": "Geschlechtsspezifische Unterschiede im Wohlbefinden konnten nicht festgestellt werden.",
+        "seitenverweis": "S. 148"
+      }
+    ],
+    "schlussfolgerungen": "Die Ergebnisse unterstreichen die Bedeutung der Förderung des schulischen Wohlbefindens als eigenständiges Bildungsziel. Interethnische Freundschaften können Vorurteile abbauen und das Wohlbefinden von Jugendlichen mit Migrationshintergrund steigern. Schulen sollten interethnische Kontakte und ein unterstützendes Klassenklima aktiv fördern."
+  },
+  "schluesselbegriffe": [
+    "schulisches Wohlbefinden",
+    "interethnische Freundschaft",
+    "Migrationshintergrund",
+    "Kontakthypothese",
+    "identitäre Selbstverortung",
+    "Diskriminierung",
+    "Mediationsanalyse"
+  ]
+}

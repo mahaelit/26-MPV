@@ -83,6 +83,21 @@ nicht an Herkunft, sondern an Anerkennung gebunden sind.
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:421]** ive Kulturen und Strukturen). 22\,S. \item[\cite{lehwald2017motivation}] Motivation trifft Begabung. Kap.~5--6 (Emotion, Anerkennung, Maskierung). 15\,S. \item[ **`\cite{baumert2022freundschaftwerte}`** ] \enquote{Man kann nicht leben, wenn man keine Freunde hat.} Wertezuschreibungen Jugendlicher mit und ohne Fluchterfahrung. PFLB 4(5), S.\,36--50 (15\,S.) \ite
+
+2. **[L:2048]** on, in der die Voraussetzungen für eine gelingende Begabungsentwicklung, Beziehungssicherheit, sprachliche Teilhabe, schulische Anerkennung, nicht gegeben sind. **`\textcite[S.\,40--49]{baumert2022freundschaftwerte}`** (post="S.\,40--49") dokumentiert empirisch, dass Jugendliche mit Fluchterfahrung Freundschaft als zentralen Wert benennen und auf Freundschaftsnormen zurückgreifen, die kulturüberg
+
+3. **[L:2209]** [\cite{lehwald2017motivation}] Motivation trifft Begabung. Fall Pawel: hochbegabter Underachiever, \enquote{Spirale der Enttäuschung} (S.\,57--63). 7\,S. \item[ **`\cite{baumert2022freundschaftwerte}`** ] \enquote{Man kann nicht leben, wenn man keine Freunde hat.} Wertezuschreibungen Jugendlicher mit und ohne Fluchterfahrung. PFLB 4(5), S.\,36--50 (15\,S.) \ite
+
+<!-- CLAIMS-END -->
+
 ## Nachprüfung 2026-04-25 - Seitenzahl-Audit `mpv.tex`
 
 **Geprüfter Locator:** `S.\,40--49`

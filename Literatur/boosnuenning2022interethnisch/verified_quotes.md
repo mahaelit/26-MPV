@@ -1,3 +1,11 @@
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
+
 # Verified Quotes — boosnuenning2022interethnisch
 
 **Volltext geprüft:** ja (PDF, 21 S., PFLB 4/5, 2022, S. 51–71)

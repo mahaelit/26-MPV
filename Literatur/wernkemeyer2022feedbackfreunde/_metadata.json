@@ -1,0 +1,151 @@
+{
+  "quelldatei": "FeedbackunterFreund.innenPFLB_4_5_119-134_Wernke_Meyer_Beitrag.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Wernke",
+        "vorname": "Stephan",
+        "institution": "Universität Oldenburg"
+      },
+      {
+        "nachname": "Meyer",
+        "vorname": "Martin Joh.",
+        "institution": "Universität Oldenburg"
+      }
+    ],
+    "titel": "Feedback unter Freund*innen",
+    "untertitel": "Einflüsse von Freundschaften auf das schulische Lernen und Möglichkeiten der didaktischen Nutzung des Freundschaftspotenzials",
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)",
+    "band": 4,
+    "heft": 5,
+    "seitenzahlen_im_band": "119-134",
+    "seitenzahl_pdf": 16,
+    "doi": "10.11576/pflb-5734",
+    "issn": "2629-5628",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel",
+    "open_access": true,
+    "lizenz": "CC BY-SA 4.0"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "1",
+      "titel": "Einleitung",
+      "seite": 120
+    },
+    {
+      "nr": "2",
+      "titel": "John Hatties Visible Learning und Effekte auf Lernleistungen",
+      "seite": 120
+    },
+    {
+      "nr": "2.1",
+      "titel": "Hattie, Lernleistung und Freundschaften?",
+      "seite": 121
+    },
+    {
+      "nr": "2.1.1",
+      "titel": "Einflüsse auf der Schulebene",
+      "seite": 122
+    },
+    {
+      "nr": "2.1.2",
+      "titel": "Einflüsse auf der Klassenebene",
+      "seite": 122
+    },
+    {
+      "nr": "2.1.3",
+      "titel": "Einflüsse auf der Ebene der Lernenden",
+      "seite": 123
+    },
+    {
+      "nr": "2.1.4",
+      "titel": "Einflüsse auf der Ebene der Lehrperson",
+      "seite": 124
+    },
+    {
+      "nr": "2.1.5",
+      "titel": "Einflüsse auf der Ebene des Unterrichts",
+      "seite": 125
+    },
+    {
+      "nr": "3",
+      "titel": "Der Faktor Feedback und das Potenzial von Freundschaften",
+      "seite": 126
+    },
+    {
+      "nr": "3.1",
+      "titel": "Ergebnisse aus der Feedbackforschung",
+      "seite": 126
+    },
+    {
+      "nr": "3.2",
+      "titel": "Ergebnisse zum Informationsinhalt und -umfang",
+      "seite": 126
+    },
+    {
+      "nr": "3.3",
+      "titel": "Ergebnisse zum Timing",
+      "seite": 128
+    },
+    {
+      "nr": "3.4",
+      "titel": "Ergebnisse zur Motivation",
+      "seite": 128
+    },
+    {
+      "nr": "3.5",
+      "titel": "Ergebnisse zu formativem vs. summativem Feedback",
+      "seite": 129
+    },
+    {
+      "nr": "4",
+      "titel": "Das Feedback im Sinne von Hattie und Timperley",
+      "seite": 130
+    },
+    {
+      "nr": "5",
+      "titel": "Fazit",
+      "seite": 132
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Die Arbeit untersucht das didaktische Potenzial von Freundschaften und sozialen Beziehungen für das schulische Lernen. Insbesondere wird der von John Hattie als hoch effektiv belegte Faktor Feedback unter dem Aspekt eines 'Feedbacks unter Freunden' beleuchtet, um Möglichkeiten der didaktischen Nutzung des Freundschaftspotenzials aufzuzeigen.",
+    "theoretischer_hintergrund": "Der theoretische Bezugsrahmen stützt sich maßgeblich auf John Hatties Studie 'Visible Learning' (2009, 2013) und dessen Synthese von Meta-Analysen zu Einflussfaktoren auf den schulischen Lernerfolg. Zudem wird das Feedbackmodell von Hattie und Timperley (2007) herangezogen, welches Feedback in die Dimensionen Feed Up, Feed Back und Feed Forward sowie die Ebenen Aufgabe, Prozess, Selbstregulation und Selbst unterteilt.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; systematische Analyse der Hattie-Daten unter dem Aspekt von Freundschaften.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Klassenzusammenhalt (d = 0,53) und Peer-Einflüsse (d = 0,53) haben einen überdurchschnittlich hohen positiven Effekt auf die Lernleistung.",
+        "seitenverweis": "S. 122"
+      },
+      {
+        "befund": "Schulwechsel (d = -0,34) und Nicht-Versetzung (d = -0,16) zeigen negative Effekte, was auf den Verlust von Freundschaften zurückgeführt werden kann.",
+        "seitenverweis": "S. 122"
+      },
+      {
+        "befund": "Kooperatives Lernen (d = 0,41) und Peer-Tutoring (d = 0,55) erweisen sich als lernförderlich.",
+        "seitenverweis": "S. 125"
+      },
+      {
+        "befund": "Feedback ist mit einer Effektstärke von d = 0,73 sehr wirksam, wobei formatives Feedback (d = 0,90) besonders hervorsticht.",
+        "seitenverweis": "S. 126"
+      },
+      {
+        "befund": "Feedback zum Selbst (Lob) hat nur geringe Effekte auf die Lernleistung, kann aber für die soziale Harmonie wichtig sein.",
+        "seitenverweis": "S. 130"
+      }
+    ],
+    "schlussfolgerungen": "Gutes Feedback muss informieren, sich auf den Arbeitsprozess richten und zeitnah erfolgen. Da Lehrkräfte dies nicht allein leisten können, bieten kooperative Lernformen unter Freunden großes Potenzial. Die Rolle von Freundschaften beim Feedback ist noch relativ unerforscht und bedarf weiterer, insbesondere qualitativer Studien."
+  },
+  "schluesselbegriffe": [
+    "Feedback",
+    "Freundschaft",
+    "Visible Learning",
+    "Hattie",
+    "Kooperation",
+    "Lernleistung",
+    "Peer-Tutoring",
+    "soziales Lernen"
+  ]
+}

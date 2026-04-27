@@ -11,19 +11,24 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
 **73 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[A:164]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
+1. **[A:164]** k von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen \parencite{erzinger2023pisa},\parencite[S.\,576--580]{stamm2021fehlenderblick}, **`\parencite{bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
 
-   → Beleg-Vorschlag [1] (score 0.10): [`037_g25_altersspezifische_geburtenziffern_2021.pdf`](excerpts/037_g25_altersspezifische_geburtenziffern_2021.pdf) S. 27-27 · G25	Altersspezifische Geburtenziffern, 2021
-   → Beleg-Vorschlag [2] (score 0.10): [`038_g26_zusammengefasste_geburtenziffer_2021.pdf`](excerpts/038_g26_zusammengefasste_geburtenziffer_2021.pdf) S. 27-27 · G26	Zusammengefasste Geburtenziffer, 2021
+   → Beleg-Vorschlag [1] (score 0.11): [`037_g25_altersspezifische_geburtenziffern_2021.pdf`](excerpts/037_g25_altersspezifische_geburtenziffern_2021.pdf) S. 27-27 · G25	Altersspezifische Geburtenziffern, 2021
+   → Beleg-Vorschlag [2] (score 0.11): [`038_g26_zusammengefasste_geburtenziffer_2021.pdf`](excerpts/038_g26_zusammengefasste_geburtenziffer_2021.pdf) S. 27-27 · G26	Zusammengefasste Geburtenziffer, 2021
 
-2. **[L:330]** iche Befunde zeigen indessen, dass Bildungschancen in der Schweiz weiterhin stark von sozialer Herkunft, Migrationsgeschichte und familiären Ressourcen abhängen **`\parencite{erzinger2023pisa,stamm2021fehlenderblick,bfs2022migration}`** . Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten; ihre
+2. **[A:239]** e und biographische Belastungen. Der gesellschaftliche Kontext der Schweizer Volksschule wird durch die Migrationsstatistik des Bundesamts für Statistik gerahmt **`\parencite{bfs2022migration}`** . Für die vorliegende Fragestellung steht nicht die rechtliche Migrationskategorie im Vordergrund, sondern die pädagogisch wirksame Konstellation aus früher Zwe
 
-   → Beleg-Vorschlag [1] (score 0.10): [`037_g25_altersspezifische_geburtenziffern_2021.pdf`](excerpts/037_g25_altersspezifische_geburtenziffern_2021.pdf) S. 27-27 · G25	Altersspezifische Geburtenziffern, 2021
-   → Beleg-Vorschlag [2] (score 0.10): [`038_g26_zusammengefasste_geburtenziffer_2021.pdf`](excerpts/038_g26_zusammengefasste_geburtenziffer_2021.pdf) S. 27-27 · G26	Zusammengefasste Geburtenziffer, 2021
+   → Beleg-Vorschlag [1] (score 0.09): [`028_2_5_erwerb_des_schweizer_buergerrechts.pdf`](excerpts/028_2_5_erwerb_des_schweizer_buergerrechts.pdf) S. 22-22 · 2.5	Erwerb des Schweizer Bürgerrechts
+   → Beleg-Vorschlag [2] (score 0.09): [`033_g22_staendige_schweizerische_wohnbevoelkerung_ab_1.pdf`](excerpts/033_g22_staendige_schweizerische_wohnbevoelkerung_ab_1.pdf) S. 25-25 · G22	Ständige schweizerische Wohnbevölkerung ab 15 Jahren mi
+
+3. **[L:412]** e und biographische Belastungen. Der gesellschaftliche Kontext der Schweizer Volksschule wird durch die Migrationsstatistik des Bundesamts für Statistik gerahmt **`\parencite[S.\,3,\,5]{bfs2022migration}`** (post="S.\,3,\,5") . Für die vorliegende Fragestellung steht nicht die rechtliche Migrationskategorie im Vordergrund, sondern die pädagogisch wirksame Konstellation aus früher Zwe
+
+   → Beleg-Vorschlag [1] (score 0.09): [`028_2_5_erwerb_des_schweizer_buergerrechts.pdf`](excerpts/028_2_5_erwerb_des_schweizer_buergerrechts.pdf) S. 22-22 · 2.5	Erwerb des Schweizer Bürgerrechts
+   → Beleg-Vorschlag [2] (score 0.09): [`033_g22_staendige_schweizerische_wohnbevoelkerung_ab_1.pdf`](excerpts/033_g22_staendige_schweizerische_wohnbevoelkerung_ab_1.pdf) S. 25-25 · G22	Ständige schweizerische Wohnbevölkerung ab 15 Jahren mi
 
 <!-- CLAIMS-END -->
 

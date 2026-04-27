@@ -1,0 +1,82 @@
+{
+  "quelle": {
+    "metadaten": {
+      "titel": "Fragebogen mit Indikatoren – Index für Inklusion",
+      "autoren": [
+        {
+          "nachname": "Booth",
+          "vorname": "Tony",
+          "rolle": "Autor"
+        },
+        {
+          "nachname": "Ainscow",
+          "vorname": "Mel",
+          "rolle": "Autor"
+        }
+      ],
+      "uebersetzer": "Boban, Ines; Hinz, Andreas (deutsche Übersetzung und Adaptation)",
+      "jahr": 2003,
+      "verlag": "Martin-Luther-Universität Halle-Wittenberg (MLU)",
+      "erscheinungsort": "Halle (Saale)",
+      "quellentyp": "Arbeitspapier / Evaluationsinstrument / Fragebogen",
+      "seitenzahlen": "S. 1–4",
+      "gesamtseitenzahl": 4,
+      "isbn_doi": "nicht angegeben",
+      "zeitschrift_sammelband": null,
+      "band_heft": null,
+      "auflage": "Deutsche Übersetzung",
+      "sprache": "Deutsch",
+      "zugang": "Martin-Luther-Universität Halle-Wittenberg"
+    },
+    "inhaltsangabe": {
+      "hauptthema": "Das Dokument ist ein Fragebogen mit Indikatoren zur Selbstevaluation und Entwicklung von Inklusion an Schulen. Es dient dazu, die aktuelle Situation an einer Schule in den Dimensionen Kulturen, Strukturen und Praktiken zu erfassen und Prioritäten für die Weiterentwicklung festzulegen.",
+      "zentrale_thesen": [
+        {
+          "these": "Inklusion an Schulen umfasst drei Hauptdimensionen: die Schaffung inklusiver Kulturen, die Etablierung inklusiver Strukturen und die Entwicklung inklusiver Praktiken.",
+          "seitenverweis": "S. 1"
+        },
+        {
+          "these": "Eine erfolgreiche inklusive Schulentwicklung erfordert die Einbeziehung aller Beteiligten (Lehrkräfte, Schüler, Eltern, Mitarbeiter) und die systematische Reflexion anhand konkreter Indikatoren.",
+          "seitenverweis": "S. 1–4"
+        }
+      ],
+      "begriffe_definitionen": [
+        {
+          "begriff": "Inklusive Kulturen",
+          "definition": "Umfasst zwei Bereiche: Gemeinschaft bilden und inklusive Werte verankern.",
+          "seitenverweis": "S. 1–2"
+        },
+        {
+          "begriff": "Inklusive Strukturen",
+          "definition": "Umfasst: Eine Schule für alle entwickeln und Unterstützung für Vielfalt organisieren.",
+          "seitenverweis": "S. 2–3"
+        },
+        {
+          "begriff": "Inklusive Praktiken",
+          "definition": "Umfasst: Lernarrangements organisieren und Ressourcen mobilisieren.",
+          "seitenverweis": "S. 3–4"
+        }
+      ],
+      "kapitelstruktur": [
+        "1. Prioritäten für die Entwicklung – Zusammenfassungsbogen",
+        "2. Dimension A: Inklusive Kulturen schaffen",
+        "   A.1 Gemeinschaft bilden",
+        "   A.2 Inklusive Werte verankern",
+        "3. Dimension B: Inklusive Strukturen etablieren",
+        "   B.1 Eine Schule für alle entwickeln",
+        "   B.2 Unterstützung für Vielfalt organisieren",
+        "4. Dimension C: Inklusive Praktiken entwickeln",
+        "   C.1 Lernarrangements organisieren",
+        "   C.2 Ressourcen mobilisieren",
+        "5. Prioritäten für die Entwicklung"
+      ],
+      "methodik": "Evaluationsinstrument (Fragebogen mit Likert-Skala: stimme voll zu / stimme eher zu / stimme eher nicht zu / stimme gar nicht zu / brauche mehr Informationen)",
+      "ergebnisse_schlussfolgerungen": "Das Dokument bietet eine strukturierte Möglichkeit für verschiedene Akteure (Lehrkräfte, Schüler, Eltern), den Stand der Inklusion an ihrer Schule einzuschätzen. Die Ergebnisse sollen helfen, Prioritäten für die Schulentwicklung festzulegen. Der Index für Inklusion ist ein international anerkanntes Instrument zur Förderung inklusiver Schulentwicklung.",
+      "theoriebezuege": [
+        "Booth, Tony & Ainscow, Mel: Index for Inclusion (Originalwerk)",
+        "Boban, Ines & Hinz, Andreas: Deutsche Übersetzung und Adaptation"
+      ]
+    }
+  },
+  "dateiname_original": "IndexfürInklusion_Indikatoren_ZB01.01.pdf"
+}

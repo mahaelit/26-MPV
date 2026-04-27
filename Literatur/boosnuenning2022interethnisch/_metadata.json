@@ -1,0 +1,100 @@
+{
+  "quelldatei": "interethnischeFreundschaftenunterbed.sozialräumlicherundinstitutionellerSegregationPFLB_4_5_51-71_Boos-Nuenning_Beitrag.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Boos-Nünning",
+        "vorname": "Ursula",
+        "institution": "Universität Duisburg-Essen"
+      }
+    ],
+    "titel": "Interethnische Freundschaften unter den Bedingungen sozialräumlicher und institutioneller Segregation",
+    "untertitel": null,
+    "erscheinungsjahr": 2022,
+    "zeitschrift": "PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)",
+    "band": 4,
+    "heft": 5,
+    "seitenzahlen_im_band": "51-71",
+    "seitenzahl_pdf": 21,
+    "doi": "10.11576/pflb-5882",
+    "issn": "2629-5628",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel",
+    "open_access": true,
+    "lizenz": "CC BY-SA 4.0"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "1",
+      "titel": "Einleitung: Interethnische Freundschaften",
+      "seite": 52
+    },
+    {
+      "nr": "2",
+      "titel": "Kinder und Jugendliche mit Migrationshintergrund unter den Bedingungen (sozial)räumlicher Segregation",
+      "seite": 53
+    },
+    {
+      "nr": "3",
+      "titel": "Segregierte Stadtteile – noch stärker segregierte Schulen",
+      "seite": 56
+    },
+    {
+      "nr": "4",
+      "titel": "Auswirkungen von räumlicher und institutioneller Segregation",
+      "seite": 60
+    },
+    {
+      "nr": "5",
+      "titel": "Lösungsmöglichkeiten zum Aufbrechen der Segregation: Was versucht wurde, was getan werden könnte",
+      "seite": 62
+    },
+    {
+      "nr": "6",
+      "titel": "Fazit",
+      "seite": 65
+    },
+    {
+      "nr": "",
+      "titel": "Literatur und Internetquellen",
+      "seite": 66
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Der Beitrag untersucht die strukturellen Barrieren, die interethnische Freundschaften zwischen einheimischen Kindern und Jugendlichen und solchen mit Migrationshintergrund in Deutschland verhindern oder erschweren. Ziel ist es, die Gründe für die zunehmende räumliche und institutionelle Trennung (Segregation) aufzuzeigen und Lösungsansätze zu diskutieren.",
+    "theoretischer_hintergrund": "Der theoretische Bezugsrahmen stützt sich auf Konzepte der sozialräumlichen und institutionellen Segregation. Es wird argumentiert, dass Freundschaften maßgeblich durch die Opportunitätsstrukturen im Wohnumfeld und in Bildungseinrichtungen geprägt werden. Die Trennung nach sozialem Status und Migrationshintergrund führt zu einer Reduzierung der Kontaktmöglichkeiten und erschwert das Einüben des Zusammenlebens in einer multiethnischen Gesellschaft.",
+    "methodik": "Theoretische/konzeptuelle Arbeit ohne eigene Empirie; Sekundäranalyse vorhandener Studien und Statistiken zur Segregation.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Ein erheblicher Anteil an Kindern und Jugendlichen mit Migrationshintergrund lebt in überwiegend migrantisch geprägten Quartieren, was die Chancen auf interethnische Kontakte reduziert.",
+        "seitenverweis": "S. 53"
+      },
+      {
+        "befund": "Die sozialräumliche Segregation wird durch die Wahl der Schulform und der konkreten Schule verstärkt, da einheimisch deutsche Eltern aus sozial gehobenen Schichten oft Schulen mit geringerem Migrantenanteil bevorzugen.",
+        "seitenverweis": "S. 56"
+      },
+      {
+        "befund": "Die schulische Segregation ist in vielen Städten stärker ausgeprägt als die räumliche Segregation.",
+        "seitenverweis": "S. 57"
+      },
+      {
+        "befund": "Die Auswirkungen der Trennung treffen nicht nur Kinder mit Migrationshintergrund, sondern auch einheimische Kinder, da das Zusammenleben in einer multiethnischen Gesellschaft erschwert wird.",
+        "seitenverweis": "S. 60"
+      },
+      {
+        "befund": "Lösungsansätze umfassen die Aufwertung von Schulen in benachteiligten Lagen durch bessere Ausstattung und Personal sowie die Förderung außerschulischer Lernorte.",
+        "seitenverweis": "S. 62-64"
+      }
+    ],
+    "schlussfolgerungen": "Die sozialräumliche und institutionelle Segregation stellt ein erhebliches Hindernis für interethnische Freundschaften dar. Es bedarf umfassender Maßnahmen wie der Verbesserung der Lernbedingungen an Schulen in deprivierten Quartieren, der Einbeziehung außerschulischer Lernorte und einer gezielten Ressourcenverlagerung zugunsten segregierter Schulen."
+  },
+  "schluesselbegriffe": [
+    "interethnische Freundschaft",
+    "Segregation",
+    "Migrationshintergrund",
+    "Schule",
+    "sozialräumliche Trennung",
+    "institutionelle Segregation",
+    "Bildungsungleichheit"
+  ]
+}

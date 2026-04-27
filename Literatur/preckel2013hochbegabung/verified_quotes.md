@@ -11,33 +11,21 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **13**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **7**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[A:272]** pfe mit Migrationshintergrund. (ca.~20\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,S.) \item[ **`\cite{preckel2013hochbegabung}`** ] Hochbegabung. Kap.~1--2 (Erkennen, Verstehen). (ca.~40\,S.) \item[\cite{muelleroppliger2021handbuch}] Handbuch Begabung. Kap. Begabungsbegriff, Diagnostik. (c
+1. **[A:337]** m[\cite{baumschader2021twice}] Twice Exceptionality als Deutungsrahmen. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,588--601 (14\,S.) \item[ **`\cite{preckel2013hochbegabung}`** ] Hochbegabung. Kap.~1 (Erkennen, Begabung als Potenzial). S.\,11--28 (18\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Ka
 
-2. **[L:449]** n Intelligenzen erweitert den Blick auf sprachlich nicht zugängliche Domänen wie die logisch-mathematische, räumliche oder körperlich-kinästhetische Intelligenz **`\parencite{muelleroppliger2021handbuch,trautmann2016einfuehrung,preckel2013hochbegabung}`** . Das Münchner Hochbegabungsmodell (Heller/Perleth) betont die Wechselwirkung zwischen kognitiven Prädiktoren, nicht-kognitiven Persönlichkeitsmerkmalen und Umw
+2. **[L:608]** tsprachliche Schwierigkeiten und belastende Vorerfahrungen. Dies erfordert eine diagnostische Haltung, die Stärken und Barrieren gleichzeitig in den Blick nimmt **`\parencite[Kap.\,2.2]{preckel2013hochbegabung}`** (post="Kap.\,2.2") . \subsection{Begabung als dynamisches Potenzial} Die Frage, ob und wie eine Begabung erkannt werden kann, setzt eine Klärung dessen voraus, was unter Begabung
 
-3. **[L:481]** hwierigkeiten und möglicherweise belastende Vorerfahrungen. Dies erfordert eine diagnostische Haltung, die Stärken und Barrieren gleichzeitig in den Blick nimmt **`\parencite{preckel2013hochbegabung,lehwald2017motivation}`** . \subsection{Begabung als dynamisches Potenzial} Die Frage, ob und wie eine Begabung erkannt werden kann, setzt eine Klärung dessen voraus, was unter Begabung
+3. **[L:619]** ngen Möglichkeiten zur Leistung seien, nicht Leistung selbst. Diese Unterscheidung von Potenzial und Performanz durchzieht die gesamte aktuelle Diskussion (vgl. **`\textcite[Kap.\,1.1--1.2]{preckel2013hochbegabung}`** (post="Kap.\,1.1--1.2") ; \textcite[S.\,34--41]{trautmann2016einfuehrung}). E.~\textcite{stern2025intelligenz} markiert die Grenzen einer rein punktwertbasierten Diagnostik aus aktuell
 
-4. **[L:492]** ngen Möglichkeiten zur Leistung seien, nicht Leistung selbst. Diese Unterscheidung von Potenzial und Performanz durchzieht die gesamte aktuelle Diskussion (vgl. **`\textcite{preckel2013hochbegabung}`** ; \textcite{trautmann2016einfuehrung}). E.~\textcite{stern2025intelligenz} bestätigt diese Perspektive aus aktueller kognitionspsychologischer Forschung: Intell
+4. **[L:660]** ve Faktoren können dazu führen, dass hohes Potenzial in Minderleistung mündet, ein Phänomen, das in der Literatur als \textit{Underachievement} beschrieben wird **`\parencite[Kap.\,2.2]{preckel2013hochbegabung}`** (post="Kap.\,2.2") ; \parencite[S.\,242--253]{fischer2020begabungsfoerderung}. Eine prozessbezogene Begriffsklärung, die für die vorliegende Fragestellung zentral ist, liefert das
 
-5. **[L:524]** ve Faktoren können dazu führen, dass hohes Potenzial in Minderleistung mündet, ein Phänomen, das in der Literatur als \textit{Underachievement} beschrieben wird **`\parencite{preckel2013hochbegabung,fischer2020begabungsfoerderung}`** . Die Initiative \textit{Leistung macht Schule} (LemaS) formuliert auf dieser Grundlage eine prozessbezogene Begriffsklärung, die für die vorliegende Fragestell
+5. **[L:1111]** umschader2021twice}] Twice Exceptionality als methodologische Analogie. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,588--600 (13\,S.) \item[ **`\cite{preckel2013hochbegabung}`** ] Hochbegabung. Kap.~1.1 (Was ist Hochbegabung?), Kap.~2.2 (Herausforderungen beim Erkennen Hochbegabter). \item[\cite{maehler2018diagnostik}] Diagnostik bei Mi
 
-6. **[L:650]** k das Lernpotenzial: Wie schnell lernt ein Kind hinzu, wenn es gezielte Unterstützung erhält? Wie reagiert es auf Hinweise, wie flexibel passt es Strategien an? **`\textcite{preckel2013hochbegabung}`** argumentieren, dass gerade bei Kindern, deren aktuelle Leistung ihr Potenzial nicht widerspiegelt, dynamische Verfahren diagnostisch überlegen sind. \subsection
+6. **[L:3397]** ive Exzellenz. Diese Stärken sind sprachunabhängig und verweisen auf ein überdurchschnittliches kognitives Profil, das diagnostisch nicht ignoriert werden darf. **`\textcite[Kap.\,2.2]{preckel2013hochbegabung}`** (post="Kap.\,2.2") beschreiben für Kinder mit Twice-Exceptionality-Profilen, dass häufig weder die Begabung noch die Schwierigkeit erkannt wird, weil sich beide gegenseitig maskie
 
-7. **[L:660]** , Entwicklungs- oder Verhaltensbesonderheiten koexistieren. Klassische Beispiele sind hochbegabte Kinder mit Legasthenie, ADHS oder Autismus-Spektrum-Störungen. **`\textcite{preckel2013hochbegabung}`** weisen darauf hin, dass bei \textit{2e}-Kindern häufig weder die Begabung noch die Schwierigkeit erkannt wird, weil sich beide Aspekte gegenseitig maskieren: Di
-
-8. **[L:719]** pfe mit Migrationshintergrund. (ca.~20\,S.) \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und Migranten. Kap.~1--3, 9--10. (ca.~80\,S.) \item[ **`\cite{preckel2013hochbegabung}`** ] Hochbegabung. Kap.~1--2 (Erkennen, Verstehen). (ca.~40\,S.) \item[\cite{muelleroppliger2021handbuch}] Handbuch Begabung. Kap. Begabungsbegriff, Diagnostik. (c
-
-9. **[L:790]** indern mit vermuteter Twice Exceptionality eine einzelne Testung häufig nicht ausreicht und wiederholte Erhebungen unter verbesserten Bedingungen angezeigt sind **`\parencite{preckel2013hochbegabung}`** . Ergänzend kämen nonverbale Verfahren in Betracht, die stärker auf figurale und räumliche Fähigkeiten abzielen und weniger sprachgebunden sind als der WISC. Dr
-
-10. **[L:2483]** tive Potenzial; wer nur die mathematischen Stärken sähe, übersähe die graphomotorischen Hürden. Eine differenzierte Diagnostik muss beides gleichzeitig erfassen **`\parencite{preckel2013hochbegabung}`** . Drittens birgt das Abwarten ein konkretes \textit{Risiko für die Bildungsbiographie}. Stamm dokumentiert, dass Begabungsreserven bei Kindern mit Migrationshin
-
-11. **[L:2747]** ec:frage1} dargestellte Kritik an sprachlastiger Diagnostik \parencite{maehler2018diagnostik} und die Forderung nach prozessorientierter, dynamischer Diagnostik **`\parencite{preckel2013hochbegabung,lemas2023begriffsklaerung}`** . Die DISCOVER-Studie und die dynamische NNAT-Modifikation liefern empirische Evidenz für genau jene multiperspektivischen Verfahren, die im Lernskript geforder
-
-12. **[L:3138]** ormativer als der Gesamt-IQ. Die grosse Streuung innerhalb des Profils (Stärke in nonverbalen Bereichen, Schwäche in sprachgebundenen) ist genau das Muster, das **`\textcite{preckel2013hochbegabung}`** für 2E-Kinder beschreiben und das bei S. zu erwarten wäre. \subsubsection*{Dynamische Diagnostik: Massiver Lernzuwachs nach Intervention} Das zentrale Ergebnis
-
-13. **[L:3179]** B. mathematische Aufgaben mit gestufter Unterstützung) würde sein Potenzial vermutlich noch deutlicher zeigen. Die Forderung nach prozessorientierter Diagnostik **`\parencite{lemas2023begriffsklaerung,preckel2013hochbegabung}`** wird hier experimentell belegt. \subsubsection*{Wahrnehmungsprofil: Auditive Schwächen dominieren} Die 2E-Kinder liessen sich in vier Subgruppen einteilen: 40\%
+7. **[L:4066]** ormativer als der Gesamt-IQ. Die grosse Streuung innerhalb des Profils (Stärke in nonverbalen Bereichen, Schwäche in sprachgebundenen) ist genau das Muster, das **`\textcite[Kap.\,2.2]{preckel2013hochbegabung}`** (post="Kap.\,2.2") für 2E-Kinder beschreiben und das bei S. zu erwarten wäre. \subsubsection*{Dynamische Diagnostik: Massiver Lernzuwachs nach Intervention} Das zentrale Ergebnis
 
 <!-- CLAIMS-END -->
 

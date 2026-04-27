@@ -1,0 +1,444 @@
+{
+  "_version": 1,
+  "splits": {
+    "001_front_cover.pdf": {
+      "title": "Front Cover",
+      "title_keywords": [
+        "front",
+        "cover"
+      ],
+      "text_keywords": [],
+      "page_start": 1,
+      "page_end": 1
+    },
+    "002_titel.pdf": {
+      "title": "Titel",
+      "title_keywords": [
+        "titel"
+      ],
+      "text_keywords": [],
+      "page_start": 2,
+      "page_end": 2
+    },
+    "003_impressum.pdf": {
+      "title": "Impressum",
+      "title_keywords": [
+        "impressum"
+      ],
+      "text_keywords": [],
+      "page_start": 3,
+      "page_end": 3
+    },
+    "004_inhalt.pdf": {
+      "title": "Inhalt",
+      "title_keywords": [
+        "inhalt"
+      ],
+      "text_keywords": [],
+      "page_start": 4,
+      "page_end": 5
+    },
+    "005_einleitung.pdf": {
+      "title": "Einleitung",
+      "title_keywords": [
+        "einleitung"
+      ],
+      "text_keywords": [],
+      "page_start": 6,
+      "page_end": 9
+    },
+    "006_aufbau_des_buches.pdf": {
+      "title": "Aufbau des Buches",
+      "title_keywords": [
+        "aufbau",
+        "buches"
+      ],
+      "text_keywords": [],
+      "page_start": 9,
+      "page_end": 9
+    },
+    "007_1_begabung_als_konstrukt_zum_werdegang_einer_kateg.pdf": {
+      "title": "1 Begabung als Konstrukt. Zum Werdegang einer Kategorie der sozialen Differenzierung",
+      "title_keywords": [
+        "begabung",
+        "konstrukt",
+        "werdegang",
+        "kategorie",
+        "sozialen",
+        "differenzierung"
+      ],
+      "text_keywords": [],
+      "page_start": 10,
+      "page_end": 13
+    },
+    "008_2_gluecksfaelle_der_natur_geschenke_des_himmels.pdf": {
+      "title": "2 Glücksfälle der Natur, Geschenke des Himmels",
+      "title_keywords": [
+        "gluecksfaelle",
+        "natur",
+        "geschenke",
+        "himmels"
+      ],
+      "text_keywords": [],
+      "page_start": 14,
+      "page_end": 25
+    },
+    "009_2_1_antike_natur_und_bildung.pdf": {
+      "title": "2.1 Antike: Natur und Bildung",
+      "title_keywords": [
+        "antike",
+        "natur",
+        "bildung"
+      ],
+      "text_keywords": [],
+      "page_start": 14,
+      "page_end": 18
+    },
+    "010_2_2_mittelalter_begnadet_und_begabt.pdf": {
+      "title": "2.2 Mittelalter: Begnadet und begabt",
+      "title_keywords": [
+        "mittelalter",
+        "begnadet",
+        "begabt"
+      ],
+      "text_keywords": [],
+      "page_start": 19,
+      "page_end": 25
+    },
+    "011_3_auf_die_anlagen_kommt_es_an_fruehe_neuzeit.pdf": {
+      "title": "3 Auf die Anlagen kommt es an – Frühe Neuzeit",
+      "title_keywords": [
+        "anlagen",
+        "fruehe",
+        "neuzeit"
+      ],
+      "text_keywords": [],
+      "page_start": 26,
+      "page_end": 49
+    },
+    "012_3_1_berufung_und_berechtigung.pdf": {
+      "title": "3.1 Berufung und Berechtigung",
+      "title_keywords": [
+        "berufung",
+        "berechtigung"
+      ],
+      "text_keywords": [],
+      "page_start": 26,
+      "page_end": 34
+    },
+    "013_3_2_talent_und_kraefte.pdf": {
+      "title": "3.2 Talent und Kräfte",
+      "title_keywords": [
+        "talent",
+        "kraefte"
+      ],
+      "text_keywords": [],
+      "page_start": 35,
+      "page_end": 49
+    },
+    "014_4_paradoxien_der_moderne.pdf": {
+      "title": "4 Paradoxien der Moderne",
+      "title_keywords": [
+        "paradoxien",
+        "moderne"
+      ],
+      "text_keywords": [],
+      "page_start": 50,
+      "page_end": 63
+    },
+    "015_4_1_begabungsgerechtigkeit_und_benachteiligung.pdf": {
+      "title": "4.1 Begabungsgerechtigkeit und Benachteiligung",
+      "title_keywords": [
+        "begabungsgerechtigkeit",
+        "benachteiligung"
+      ],
+      "text_keywords": [],
+      "page_start": 52,
+      "page_end": 55
+    },
+    "016_4_2_begabung_und_hochbegabung.pdf": {
+      "title": "4.2 Begabung und Hochbegabung",
+      "title_keywords": [
+        "begabung",
+        "hochbegabung"
+      ],
+      "text_keywords": [],
+      "page_start": 56,
+      "page_end": 63
+    },
+    "017_5_zeitgenoessische_perspektiven.pdf": {
+      "title": "5 Zeitgenössische Perspektiven",
+      "title_keywords": [
+        "zeitgenoessische",
+        "perspektiven"
+      ],
+      "text_keywords": [],
+      "page_start": 64,
+      "page_end": 85
+    },
+    "018_5_1_konzepte_und_modelle.pdf": {
+      "title": "5.1 Konzepte und Modelle",
+      "title_keywords": [
+        "konzepte",
+        "modelle"
+      ],
+      "text_keywords": [],
+      "page_start": 64,
+      "page_end": 74
+    },
+    "019_5_2_initiativen_und_foerderprogramme.pdf": {
+      "title": "5.2 Initiativen und Förderprogramme",
+      "title_keywords": [
+        "initiativen",
+        "foerderprogramme"
+      ],
+      "text_keywords": [],
+      "page_start": 75,
+      "page_end": 77
+    },
+    "020_5_3_heterogenitaet_und_diversitaet.pdf": {
+      "title": "5.3 Heterogenität und Diversität",
+      "title_keywords": [
+        "heterogenitaet",
+        "diversitaet"
+      ],
+      "text_keywords": [],
+      "page_start": 78,
+      "page_end": 85
+    },
+    "021_6_gifted_education_in_den_usa.pdf": {
+      "title": "6 Gifted Education in den USA",
+      "title_keywords": [
+        "gifted",
+        "education"
+      ],
+      "text_keywords": [],
+      "page_start": 86,
+      "page_end": 99
+    },
+    "022_6_1_gesellschaftliche_ambivalenz_und_begabungsvers.pdf": {
+      "title": "6.1 Gesellschaftliche Ambivalenz und Begabungsverständnis",
+      "title_keywords": [
+        "gesellschaftliche",
+        "ambivalenz",
+        "begabungsverstaendnis"
+      ],
+      "text_keywords": [],
+      "page_start": 86,
+      "page_end": 88
+    },
+    "023_6_2_fruehe_schulentwicklungen_zur_begabtenfoerderu.pdf": {
+      "title": "6.2 Frühe Schulentwicklungen zur Begabtenförderung",
+      "title_keywords": [
+        "fruehe",
+        "schulentwicklungen",
+        "begabtenfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 89,
+      "page_end": 89
+    },
+    "024_6_3_gifted_education_in_der_reformpaedagogischen_t.pdf": {
+      "title": "6.3 Gifted Education in der reformpädagogischen Tradition",
+      "title_keywords": [
+        "gifted",
+        "education",
+        "reformpaedagogischen",
+        "tradition"
+      ],
+      "text_keywords": [],
+      "page_start": 89,
+      "page_end": 90
+    },
+    "025_6_4_sputnikschock_und_konsequenzen.pdf": {
+      "title": "6.4 Sputnikschock und Konsequenzen",
+      "title_keywords": [
+        "sputnikschock",
+        "konsequenzen"
+      ],
+      "text_keywords": [],
+      "page_start": 91,
+      "page_end": 91
+    },
+    "026_6_5_lenkung_durch_den_staat_bildungspolitische_ans.pdf": {
+      "title": "6.5 Lenkung durch den Staat – bildungspolitische Anstrengungen",
+      "title_keywords": [
+        "lenkung",
+        "staat",
+        "bildungspolitische",
+        "anstrengungen"
+      ],
+      "text_keywords": [],
+      "page_start": 92,
+      "page_end": 92
+    },
+    "027_6_6_turning_point_das_three_ring_concept.pdf": {
+      "title": "6.6 Turning Point: Das „Three Ring Concept“",
+      "title_keywords": [
+        "turning",
+        "point",
+        "three",
+        "ring",
+        "concept"
+      ],
+      "text_keywords": [],
+      "page_start": 93,
+      "page_end": 95
+    },
+    "028_6_7_weitere_begabungsmodelle_und_konzepte.pdf": {
+      "title": "6.7 Weitere Begabungsmodelle und -konzepte",
+      "title_keywords": [
+        "weitere",
+        "begabungsmodelle",
+        "konzepte"
+      ],
+      "text_keywords": [],
+      "page_start": 96,
+      "page_end": 99
+    },
+    "029_7_schulentwicklung_und_didaktik_der_begabungsfoerd.pdf": {
+      "title": "7 Schulentwicklung und Didaktik der Begabungsförderung",
+      "title_keywords": [
+        "schulentwicklung",
+        "didaktik",
+        "begabungsfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 100,
+      "page_end": 120
+    },
+    "030_7_1_das_schoolwide_enrichment_model_als_choreograf.pdf": {
+      "title": "7.1 Das „Schoolwide Enrichment Model“ als Choreografie inklusiver Begabungs- und Begabtenförderung",
+      "title_keywords": [
+        "schoolwide",
+        "enrichment",
+        "model",
+        "choreografie",
+        "inklusiver",
+        "begabungs",
+        "begabtenfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 100,
+      "page_end": 101
+    },
+    "031_7_2_orte_der_begabungsfoerderung.pdf": {
+      "title": "7.2 Orte der Begabungsförderung",
+      "title_keywords": [
+        "orte",
+        "begabungsfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 102,
+      "page_end": 104
+    },
+    "032_7_3_methoden_der_begabungsfoerderung.pdf": {
+      "title": "7.3 Methoden der Begabungsförderung",
+      "title_keywords": [
+        "methoden",
+        "begabungsfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 105,
+      "page_end": 107
+    },
+    "033_7_4_lernpsychologische_grundlagen_der_begabtenfoer.pdf": {
+      "title": "7.4 Lernpsychologische Grundlagen der Begabtenförderung",
+      "title_keywords": [
+        "lernpsychologische",
+        "grundlagen",
+        "begabtenfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 108,
+      "page_end": 111
+    },
+    "034_7_5_begabungsfoerderung_als_personale_kompetenz_un.pdf": {
+      "title": "7.5 Begabungsförderung als personale Kompetenz und soziales Kapital",
+      "title_keywords": [
+        "begabungsfoerderung",
+        "personale",
+        "kompetenz",
+        "soziales",
+        "kapital"
+      ],
+      "text_keywords": [],
+      "page_start": 112,
+      "page_end": 115
+    },
+    "035_7_6_lernarrangements_differenzierender_begabungsfo.pdf": {
+      "title": "7.6 Lernarrangements differenzierender Begabungsförderung",
+      "title_keywords": [
+        "lernarrangements",
+        "differenzierender",
+        "begabungsfoerderung"
+      ],
+      "text_keywords": [],
+      "page_start": 116,
+      "page_end": 117
+    },
+    "036_7_7_reflexive_auseinandersetzung_mit_individuellen.pdf": {
+      "title": "7.7 Reflexive Auseinandersetzung mit individuellen Leistungen und Lernwegen – das Entwicklungsportfolio",
+      "title_keywords": [
+        "reflexive",
+        "auseinandersetzung",
+        "individuellen",
+        "leistungen",
+        "lernwegen",
+        "entwicklungsportfolio"
+      ],
+      "text_keywords": [],
+      "page_start": 118,
+      "page_end": 118
+    },
+    "037_7_8_dialogische_fachliche_und_ueberfachliche_lernb.pdf": {
+      "title": "7.8 Dialogische fachliche und überfachliche Lernberatung",
+      "title_keywords": [
+        "dialogische",
+        "fachliche",
+        "ueberfachliche",
+        "lernberatung"
+      ],
+      "text_keywords": [],
+      "page_start": 119,
+      "page_end": 120
+    },
+    "038_literatur.pdf": {
+      "title": "Literatur",
+      "title_keywords": [
+        "literatur"
+      ],
+      "text_keywords": [],
+      "page_start": 121,
+      "page_end": 131
+    },
+    "039_personenregister.pdf": {
+      "title": "Personenregister",
+      "title_keywords": [
+        "personenregister"
+      ],
+      "text_keywords": [],
+      "page_start": 132,
+      "page_end": 133
+    },
+    "040_sachregister.pdf": {
+      "title": "Sachregister",
+      "title_keywords": [
+        "sachregister"
+      ],
+      "text_keywords": [],
+      "page_start": 134,
+      "page_end": 135
+    },
+    "041_back_cover.pdf": {
+      "title": "Back Cover",
+      "title_keywords": [
+        "back",
+        "cover"
+      ],
+      "text_keywords": [],
+      "page_start": 136,
+      "page_end": 136
+    }
+  }
+}

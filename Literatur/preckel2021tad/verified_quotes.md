@@ -11,7 +11,13 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **3**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:2550]** in dem Talententwicklung als Prozess über vier aufeinander aufbauende Stationen beschrieben wird: Potenzial, Kompetenz, Expertise und aussergewöhnliche Leistung **`\parencite{preckel2021tad}`** . Für die Phase \enquote{Potenzial}, in der sich Kinder wie S.\ befinden, formuliert Preckel eine diagnostisch wie pädagogisch leitende Konsequenz: Am Anfang de
+
+2. **[L:2763]** oerderung}] Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit -- für alle! Forder-Förder-Kapitel (Evaluationsergebnisse Enrichment). 16\,S. \item[ **`\cite{preckel2021tad}`** ] Das TAD-Framework: Talententwicklung in vier Stationen (Potenzial, Kompetenz, Expertise, aussergewöhnliche Leistung). Diagnostische Implikation: \enquote{Erst
+
+3. **[L:3782]** sche NNAT-Modifikation} (Lidz/Macrine 2001) liefert experimentelle Evidenz für die Überlegenheit prozessorientierter gegenüber statischer Diagnostik. Das stützt **`\textcite[S.\,274--303]{preckel2021tad}`** (post="S.\,274--303") und die LemaS-Begriffsklärung \parencite{lemas2023begriffsklaerung}. \item Die \textbf{565\%-Steigerung im Young-Scholars-Modell} (Horn 2015) zeigt, dass system
 
 <!-- CLAIMS-END -->
 

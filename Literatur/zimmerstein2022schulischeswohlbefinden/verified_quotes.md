@@ -1,3 +1,11 @@
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
+
 # Verified Quotes — zimmerstein2022schulischeswohlbefinden
 
 **Volltext geprüft:** ja (PDF, 17 S., PFLB 4/5, 2022, S. 135–151)

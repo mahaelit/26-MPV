@@ -11,7 +11,33 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **13**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:327]** iagnostik der Begabung. Vier-Schritte-Prozess, Aisha- und Lea-Vignetten. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,239--247 (9\,S.) \item[ **`\cite{muelleroppliger2021paeddiagnostik}`** ] Pädagogische Diagnostik: Förder- vs. Statusdiagnostik, Phasenmodell. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,224--235 (12\,S.) \item[\
+
+2. **[L:599]** sichtigung von Erstsprachkompetenzen sowie (e) dynamische, prozessorientierte Diagnostik, die Potenzial auch unter ungünstigen Bedingungen sichtbar werden lässt **`\parencite[S.\,224--238]{muelleroppliger2021paeddiagnostik}`** (post="S.\,224--238") . Am Fall S. zeigt sich exemplarisch, wie eine schulpsychologische Testung auf Englisch statt Albanisch (Muttersprache) überdurchschnittliches Potenzial bestäti
+
+3. **[L:734]** en sprachliche Unsicherheiten diese Maskierung zusätzlich \parencite[S.\,576--587]{stamm2021fehlenderblick}. Diese Fehleinschätzungen sind empirisch gut belegt: **`\textcite[S.\,229]{muelleroppliger2021paeddiagnostik}`** (post="S.\,229") referiert, dass \enquote{40--50\,\% der begabten Kinder übersehen} werden, während \enquote{bis zu 70\,\% der nominierten Kinder nicht wirklich besonders begabt
+
+4. **[L:739]** klich besonders begabt} sind. Ein zentraler Mechanismus ist die Defizitorientierung: \enquote{Oft wird vor allem das wahrgenommen, was noch nicht vorhanden ist} **`\parencite[S.\,229]{muelleroppliger2021paeddiagnostik}`** (post="S.\,229") . Die Autorin fordert eine Umkehr der Wahrnehmungsrichtung: \begin{quote} \foreignlanguage{english}{\enquote{Teachers \textelp{} should be encouraged to identif
+
+5. **[L:745]** te{Teachers \textelp{} should be encouraged to identify characteristics that indicate giftedness, rather than to look for reasons why children are not gifted.}} **`\parencite[S.\,228]{muelleroppliger2021paeddiagnostik}`** (post="S.\,228") \end{quote} Bei S.\ wurde genau diese Dynamik wirksam: Er wurde als \enquote{eher auffällig, sehr weinerlich und etwas störend} beschrieben, nicht als potenzial
+
+6. **[L:899]** ierte Tests allein nicht ausreichen, stellt sich die Frage, welche alternativen oder ergänzenden Zugänge geeignet sind, verdeckte Potenziale sichtbar zu machen. **`\textcite[S.\,224--238]{muelleroppliger2021paeddiagnostik}`** (post="S.\,224--238") unterscheidet hierzu psychologische Diagnostik (standardisierte Verfahren, durchgeführt durch Psycholog:innen in einem ausserschulischen Setting) von pädagogisc
+
+7. **[L:946]** gen Kindern konsequent alle verfügbaren Sprachen einzubeziehen und Testungen wenn möglich in der stärksten Sprache durchzuführen. Fünftens schliesslich plädiert **`\textcite[S.\,224--238]{muelleroppliger2021paeddiagnostik}`** (post="S.\,224--238") für eine \textit{dynamische, prozessorientierte Diagnostik}. Im Unterschied zur statischen Statusdiagnostik, die den aktuellen Leistungsstand misst, erfasst dyn
+
+8. **[L:956]** piegelt, sind solche Verfahren diagnostisch aufschlussreicher als Momentaufnahmen. Um die fünf Strategien in eine strukturierte Diagnostik zu überführen, stellt **`\textcite[S.\,231--235]{muelleroppliger2021paeddiagnostik}`** (post="S.\,231--235") konkrete Instrumente und Screening-Verfahren vor. Das \textit{Renzulli Identification System} (RIS) ist das erste mehrfaktorielle Identifikationsverfahren: 50\,
+
+9. **[L:1069]** nzip betrifft die \textit{Klärung der diagnostischen Zuständigkeit}: Pädagogische Diagnostik und psychologische Abklärung sind komplementär, nicht austauschbar. **`\textcite[S.\,235--236]{muelleroppliger2021paeddiagnostik}`** (post="S.\,235--236") nennt als Indikation für eine psychologische Abklärung unter anderem: wenn \enquote{Potenziale nicht in wahrnehmbare Leistung umgesetzt werden können und system
+
+10. **[L:1081]** gerten die Begabung; und sein Verhalten wurde primär als Störung gerahmt. Die SPD-Abklärung war folglich nicht nur gerechtfertigt, sondern diagnostisch geboten. **`\textcite[S.\,230]{muelleroppliger2021paeddiagnostik}`** (post="S.\,230") benennt zudem die institutionelle Voraussetzung: \enquote{Idealerweise sollte sich eine in Begabungs- und Begabtenförderung explizit ausgebildete Fachperson im
+
+11. **[L:1099]** iagnostik der Begabung. Vier-Schritte-Prozess, Aisha- und Lea-Vignetten. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,239--247 (9\,S.) \item[ **`\cite{muelleroppliger2021paeddiagnostik}`** ] Pädagogische Diagnostik: Förder- vs. Statusdiagnostik, Phasenmodell, Screening-Verfahren (RIS, Schweizer Screening, mBET, DBE), empirische Wahrnehmungsfehler,
+
+12. **[L:1186]** chhaltevermögen. Diese Beobachtungen sind diagnostisch mindestens so aussagekräftig wie ein Testwert, wenn sie systematisch und kriteriengestützt erhoben werden **`\parencite[S.\,34--41]{trautmann2016einfuehrung,muelleroppliger2021paeddiagnostik}`** (post="S.\,34--41") . Zweitens würde ich eine \textit{Retestung zu einem späteren Zeitpunkt} anregen, idealerweise wenn S. sich im schulischen Umfeld sicherer fühlt und sein Zweits
+
+13. **[L:3165]** siko entgegen. Erstens stütze ich meine Beobachtungen auf kriteriengestützte Dokumentation, die an etablierten Indikatoren der Begabungserkennung orientiert ist **`\parencite[S.\,34--41]{trautmann2016einfuehrung,muelleroppliger2021paeddiagnostik}`** (post="S.\,34--41") . Zweitens schaffe ich durch Hospitationseinladungen Gelegenheiten für Fremdbeobachtung: Die Klassenlehrperson und weitere Fachpersonen erleben S. im SOLUX-Sett
 
 <!-- CLAIMS-END -->
 

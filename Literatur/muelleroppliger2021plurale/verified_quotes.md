@@ -11,11 +11,15 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Dieser BibKey wird **2**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+_Dieser BibKey wird **4**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[L:1861]** htigkeit erfordert, dass die Schule aktiv nach Potenzialen sucht, statt darauf zu warten, dass sie sich in den institutionell vorgesehenen Formen manifestieren. **`\textcite{muelleroppliger2021plurale}`** rahmt diese Forderung in den Kontext von Inklusion und pluraler Gesellschaft: Wenn Schule den Anspruch erhebt, alle Kinder in ihren Möglichkeiten zu fördern, mu
+1. **[A:457]** mak2021bildungsgerechtigkeit}] Begabtenförderung als Gerechtigkeitsfrage. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,65--76 (12\,S.) \item[ **`\cite{muelleroppliger2021plurale}`** ] Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,32--45 (14\,S.) \item[\cite{buholze
 
-2. **[L:2077]** Kinder in ihren Möglichkeiten fördern will, muss Begabungsförderung als gesamtschulische Aufgabe implementiert werden, nicht als Projekt einzelner Fachpersonen **`\parencite{muelleroppliger2021plurale}`** . Das Luzerner IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten den institutionellen Rahmen, in dem diese Forderung realisiert werden
+2. **[L:2650]** htigkeit erfordert, dass die Schule aktiv nach Potenzialen sucht, statt darauf zu warten, dass sie sich in den institutionell vorgesehenen Formen manifestieren. **`\textcite{muelleroppliger2021plurale}`** rahmt diese Forderung in den Kontext von Inklusion und pluraler Gesellschaft: Wenn Schule den Anspruch erhebt, alle Kinder in ihren Möglichkeiten zu fördern, mu
+
+3. **[L:2753]** mak2021bildungsgerechtigkeit}] Begabtenförderung als Gerechtigkeitsfrage. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,65--76 (12\,S.) \item[ **`\cite{muelleroppliger2021plurale}`** ] Plurale Gesellschaft, Inklusion und Bildungsgerechtigkeit. In: Müller-Oppliger \& Weigand, \textit{Handbuch Begabung}. S.\,32--45 (14\,S.) \item[\cite{buholze
+
+4. **[L:2917]** nte, durch regelmässige Enrichment-Fenster im Stundenplan und durch eine Übertrittsberatung, die Beobachtungen aus offenen Settings systematisch berücksichtigt. **`\textcite{muelleroppliger2021plurale}`** rahmt diesen Anspruch bildungspolitisch: Wenn Schule alle Kinder in ihren Möglichkeiten fördern will, muss Begabungsförderung als gesamtschulische Aufgabe imple
 
 <!-- CLAIMS-END -->
 

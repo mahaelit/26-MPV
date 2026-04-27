@@ -1,0 +1,90 @@
+{
+  "quelldatei": "Schwab_2016.pdf",
+  "metadaten": {
+    "autoren": [
+      {
+        "nachname": "Schwab",
+        "vorname": "Susanne",
+        "institution": "Universität Graz / Universität Bielefeld"
+      }
+    ],
+    "titel": "Erfassung von sozialer Partizipation – Übereinstimmung zwischen Selbst- und Fremdsicht von Schülern mit und ohne sonderpädagogischen Förderbedarf",
+    "untertitel": null,
+    "erscheinungsjahr": 2016,
+    "zeitschrift": "Zeitschrift für Pädagogische Psychologie",
+    "band": 30,
+    "heft": 4,
+    "seitenzahlen_im_band": "227-236",
+    "seitenzahl_pdf": 10,
+    "doi": "10.1024/1010-0652/a000187",
+    "issn": "1010-0652",
+    "sprache": "Deutsch",
+    "dokumenttyp": "Zeitschriftenartikel (empirisch, quantitativ)",
+    "verlag": "Hogrefe"
+  },
+  "kapitelstruktur": [
+    {
+      "nr": "",
+      "titel": "Theoretischer Hintergrund",
+      "seite": 227
+    },
+    {
+      "nr": "",
+      "titel": "Fragestellung",
+      "seite": 229
+    },
+    {
+      "nr": "",
+      "titel": "Methode",
+      "seite": 229
+    },
+    {
+      "nr": "",
+      "titel": "Ergebnisse",
+      "seite": 231
+    },
+    {
+      "nr": "",
+      "titel": "Diskussion",
+      "seite": 232
+    },
+    {
+      "nr": "",
+      "titel": "Literatur",
+      "seite": 234
+    }
+  ],
+  "inhaltsangabe": {
+    "forschungsfrage_und_ziel": "Ziel der Studie ist es, die Übereinstimmung zwischen Selbst- und Fremdsicht im Hinblick auf die soziale Partizipation von Schülern mit und ohne sonderpädagogischem Förderbedarf (SPF) zu untersuchen. Dabei werden die Selbsteinschätzungen von Interaktionen und Freundschaften mit den Fremdeinschätzungen der Peers verglichen.",
+    "theoretischer_hintergrund": "Soziale Partizipation wird in vier Subthemen unterteilt: Freundschaften, Interaktionen, Selbsteinschätzungen und Peerakzeptanz. Bisherige Studien zeigen oft eine geringere soziale Partizipation von Schülern mit SPF, wobei die Ergebnisse je nach Operationalisierung und Perspektive (Selbst- vs. Fremdeinschätzung) variieren.",
+    "methodik": "Analyse der Daten von 616 Schülern der 4. und 7. Schulstufe (darunter 129 mit SPF). Erfassung der sozialen Partizipation über soziometrische Ratings für Interaktionen (Häufigkeit von Pausenkontakten) und soziometrische Nominierungen für Freundschaften (maximal 5 beste Freunde). Auswertung mittels Mehrebenen-Regressionsanalysen und t-Tests.",
+    "zentrale_ergebnisse": [
+      {
+        "befund": "Schüler mit SPF erzielten sowohl in der Selbst- als auch in der Fremdeinschätzung geringere Werte für Interaktionen und Freundschaften als Schüler ohne SPF.",
+        "seitenverweis": "S. 231-232"
+      },
+      {
+        "befund": "Der SPF-Status klärt bei den Peerratings der Interaktionen etwa 10% der Varianz auf, bei den Freundschaften etwa 8%.",
+        "seitenverweis": "S. 232"
+      },
+      {
+        "befund": "Die Übereinstimmung zwischen Selbst- und Fremdeinschätzung war bei Schülern mit SPF in der 7. Schulstufe für Interaktionen signifikant geringer als bei Schülern ohne SPF (z = -1.66, p < .05).",
+        "seitenverweis": "S. 232"
+      },
+      {
+        "befund": "Schüler mit SPF nominierten mehr Mitschüler als Freunde, als sie selbst Nominierungen erhielten.",
+        "seitenverweis": "S. 232"
+      }
+    ],
+    "schlussfolgerungen": "Schüler mit SPF weisen eine geringere soziale Partizipation auf als ihre Peers ohne SPF. Die geringere Übereinstimmung zwischen Selbst- und Fremdeinschätzung bei Schülern mit SPF deutet darauf hin, dass diese ihre soziale Partizipation möglicherweise überschätzen. Bei Interventionen sollten nicht nur individuelle Aspekte, sondern auch die Klassenebene stärker berücksichtigt werden."
+  },
+  "schluesselbegriffe": [
+    "soziale Partizipation",
+    "Interaktionen",
+    "Freundschaften",
+    "sonderpädagogischer Förderbedarf",
+    "Inklusion",
+    "Soziometrie",
+    "Selbst- und Fremdeinschätzung"
+  ]
+}

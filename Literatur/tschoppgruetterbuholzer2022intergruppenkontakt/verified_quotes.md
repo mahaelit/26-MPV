@@ -1,3 +1,11 @@
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+
+<!-- CLAIMS-END -->
+
 # Verified Quotes — tschoppgruetterbuholzer2022intergruppenkontakt
 
 **Volltext geprüft:** ja (PDF, 7 S., Schweizerische Zeitschrift für Heilpädagogik 28/9, 2022)

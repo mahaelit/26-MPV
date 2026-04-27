@@ -12,6 +12,33 @@
 
 ---
 
+
+<!-- CLAIMS-START (automatisch durch cite_context.py erzeugt; nicht manuell editieren) -->
+
+## Zu verifizierende Behauptungen (aus TeX)
+
+_Dieser BibKey wird **9**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[A:319]** , ohne Sprachleistung, Anpassungsverhalten und Begabung miteinander zu verwechseln? \end{quote} \subsection{Kernliteratur zu Frage 1} \begin{description} \item[ **`\cite{baudson2021wasdenken}`** ] Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken: individuelle und soziokulturelle Perspektiven. In: Müller-Oppliger \& Weigand, \textit{Handbuch B
+
+2. **[L:829]** t vor diesem Hintergrund kein hinreichendes Kriterium für die Begabungsdiagnostik; er ist bestenfalls ein Mosaikstein in einem multiperspektivischen Gesamtbild. **`\textcite[S.\,117]{baudson2021wasdenken}`** (post="S.\,117") präzisiert die Grenzen eines harten IQ-Kriteriums in drei Punkten: Erstens stelle ein Testergebnis eine Momentaufnahme dar, deren Aussagekraft mit dem Alter des
+
+3. **[L:837]** werden, nicht an einem statistischen Grenzwert. Diese Argumente sprechen unmittelbar gegen die häufige Praxis, Förderzugang an einen IQ ${\geq}\,130$ zu koppeln **`\parencite[S.\,115]{baudson2021wasdenken}`** (post="S.\,115") . Wo flächendeckende Testungen fehlen, übernehmen Lehrpersonen eine zentrale Rolle bei der Nomination für Begabtenfördermassnahmen. Metaanalytisch zeigt sich zw
+
+4. **[L:845]** n Viertel der Urteilsvarianz durch Intelligenzunterschiede erklärt wird; drei Viertel entfallen auf andere Faktoren wie Motivation oder sozioökonomischen Status **`\parencite[S.\,118]{baudson2021wasdenken}`** (post="S.\,118") . Im Fall~S.\ wirkte genau dieser Mechanismus: Die abgebende Lehrperson nahm S.\ primär über Verhaltensauffälligkeiten und sprachliche Unsicherheit wahr, kognit
+
+5. **[L:852]** igkeiten als Indiz für kognitive Fähigkeiten lesen, weshalb gerade Kinder mit geringer Beherrschung der Unterrichtssprache aus dem Identifikationsraster fallen. **`\textcite[S.\,120]{baudson2021wasdenken}`** (post="S.\,120") fasst diesen Befund prägnant: \enquote{[W]er noch zu wenig Gelegenheit hatte, die Unterrichtssprache zu erlernen, fällt bei der Begabungsidentifikation folglich
+
+6. **[L:1091]** nd verweist auf die in Frage~5 vertiefte Fragestellung der multiprofessionellen Zusammenarbeit. \subsection{Kernliteratur zu Frage 1} \begin{description} \item[ **`\cite{baudson2021wasdenken}`** ] Was Menschen über (Hoch-)Begabung und (Hoch-)Begabte denken: individuelle und soziokulturelle Perspektiven. In: Müller-Oppliger \& Weigand, \textit{Handbuch B
+
+7. **[L:2657]** entwicklung verstanden werden, nicht als Zusatzangebot für eine selektierte Elite. Diese Forderung ist nicht neu, hat sich in der Praxis aber kaum durchgesetzt. **`\textcite[S.\,119]{baudson2021wasdenken}`** (post="S.\,119") stellt fest, dass die Inklusionsdebatte ihren \enquote{Handlungsschwerpunkt eher bei Schüler/innen mit Schwierigkeiten als mit besonderen Potenzialen} setze und
+
+8. **[L:2662]** ehnte vermutlich nichts geändert habe; und dies, obwohl die Salamanca-Erklärung der UNESCO bereits 1994 Begabung explizit als Diversitätsfaktor aufgenommen habe **`\parencite[S.\,119]{baudson2021wasdenken}`** (post="S.\,119") . Für das vorliegende Argumentationsfeld ergibt sich daraus eine doppelte normative Pointe: Inklusive Begabungsförderung folgt nicht nur dem Anspruch der Bildun
+
+9. **[L:4573]** , S.\,35--40.} \medskip Baudson systematisiert die Verzerrungen im Lehrkrafturteil und geht dabei über die im Kernkorpus bereits referierte Stereotypenforschung **`\parencite[S.\,115--120]{baudson2021wasdenken}`** (post="S.\,115--120") hinaus. Der hier relevante Zusatzbefund betrifft die intersektionale Dimension: Hochbegabte Schwarze Schüler werden in US-Studien eher pathologisiert als identi
+
+<!-- CLAIMS-END -->
+
 ## Struktur des Beitrags
 
 1. **Begriffliche Abgrenzungen** (S. 115)

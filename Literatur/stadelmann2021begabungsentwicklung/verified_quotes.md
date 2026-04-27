@@ -11,7 +11,9 @@
 
 ## Zu verifizierende Behauptungen (aus TeX)
 
-_Aktuell **nicht** im TeX zitiert._  Pruefen, ob der BibKey noch benoetigt wird oder entfernt werden kann.
+_Dieser BibKey wird **1**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
+
+1. **[L:672]** tion und Hirnplastizität binden die Begabungsentwicklung an Erfahrungsangebote, weshalb eine Diagnostik, die nur Momentaufnahmen erfasst, das Konstrukt verfehlt **`\parencite[S.\,133--147]{stadelmann2021begabungsentwicklung}`** (post="S.\,133--147") . Für S.\ bedeutet dies, dass Testwerte unter sprachlichen Erschwernissen nicht isoliert als stabile Abbildung seines Potenzials gelesen werden dürfen, sondern
 
 <!-- CLAIMS-END -->
 

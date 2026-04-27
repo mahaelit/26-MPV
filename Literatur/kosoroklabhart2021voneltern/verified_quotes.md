@@ -15,29 +15,30 @@ _Dieser BibKey wird **5**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Ler
 
 **11 Kapitel-Splits verfuegbar** unter [`excerpts/_outline.md`](excerpts/_outline.md). Pro Cite-Stelle sind (falls erkennbar) die 1-2 wahrscheinlichsten Splits als **Beleg-Vorschlag** angegeben (Keyword-Matching).
 
-1. **[A:388]** n, Diagnostik. (ca.~30\,S.) \item[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[
+1. **[A:496]** m[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--2 (Bestandsaufnahme, Erwartungseffekte). 30\,S. \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. Ausgewählte Kapitel. 8\,S. \item[\cite{macha2019gender}] Gender und diversitätssensible Professionalisierung. S.\
 
-   → Beleg-Vorschlag [1] (score 0.15): [`001_10_einleitung.pdf`](excerpts/001_10_einleitung.pdf) S. 5-6 · 10 Einleitung
-   → Beleg-Vorschlag [2] (score 0.15): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
+   → Beleg-Vorschlag [1] (score 0.14): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
+   → Beleg-Vorschlag [2] (score 0.14): [`004_20_wie_ist_das_buch_zu_lesen.pdf`](excerpts/004_20_wie_ist_das_buch_zu_lesen.pdf) S. 12-13 · 20 Wie ist das Buch zu lesen?
 
-2. **[L:2153]** osorok Labhart et al. zeigen, wie die Zusammenarbeit mit Eltern mit Migrationshintergrund gelingen kann, wenn sie als Expert:innen ihrer Kinder anerkannt werden **`\parencite{kosoroklabhart2021voneltern}`** . \subsection{Die Ausgangslage: Defizitorientierung als professionelle Gewohnheit} Die vorangegangenen Fragestellungen haben gezeigt, dass das Verdecktbleiben v
+2. **[L:3065]** HP-Aufgabe besteht nicht nur darin, einzelne Kinder zu fördern, sondern auch institutionelle Praktiken sichtbar zu machen, die Potenziale strukturell verdecken. **`\textcite{kosoroklabhart2021voneltern}`** zeigen, wie die Zusammenarbeit mit Eltern mit Migrationshintergrund gelingen kann, wenn sie als Expert:innen ihrer Kinder anerkannt werden. \subsection{Die Ausg
 
-   → Beleg-Vorschlag [1] (score 0.17): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
-   → Beleg-Vorschlag [2] (score 0.17): [`004_20_wie_ist_das_buch_zu_lesen.pdf`](excerpts/004_20_wie_ist_das_buch_zu_lesen.pdf) S. 12-13 · 20 Wie ist das Buch zu lesen?
+   → Beleg-Vorschlag [1] (score 0.14): [`004_20_wie_ist_das_buch_zu_lesen.pdf`](excerpts/004_20_wie_ist_das_buch_zu_lesen.pdf) S. 12-13 · 20 Wie ist das Buch zu lesen?
+   → Beleg-Vorschlag [2] (score 0.10): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
 
-3. **[L:2321]** enntnis des Schulsystems) definiert werden, plädieren die Autorinnen dafür, Eltern als Expert:innen für ihre Kinder anzuerkennen und ihr Wissen aktiv einzuholen **`\parencite{kosoroklabhart2021voneltern}`** . Im Fall S. ist die Zusammenarbeit mit den Eltern besonders anspruchsvoll. Die Eltern sprechen kein Englisch und kein Deutsch; ein Elterngespräch war zunächst
+3. **[L:3230]** auch im Umgang mit Kolleg:innen praktizieren \parencite[S.\,90\psq]{grossrieder2010anerkennung}. \subsection{Zusammenarbeit mit Eltern und externen Fachstellen} **`\textcite{kosoroklabhart2021voneltern}`** widmen sich der Frage, wie Schulen von Eltern mit Migrationshintergrund lernen können und kehren damit eine gängige Perspektive um. Statt Eltern als Adressat:in
 
-   → Beleg-Vorschlag [1] (score 0.10): [`010_38_themenfeld.pdf`](excerpts/010_38_themenfeld.pdf) S. 28-29 · 38 Themenfeld
-   → Beleg-Vorschlag [2] (score 0.10): [`011_40_themenfeld.pdf`](excerpts/011_40_themenfeld.pdf) S. 30-31 · 40 Themenfeld
+   → Beleg-Vorschlag [1] (score 0.14): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
+   → Beleg-Vorschlag [2] (score 0.14): [`004_20_wie_ist_das_buch_zu_lesen.pdf`](excerpts/004_20_wie_ist_das_buch_zu_lesen.pdf) S. 12-13 · 20 Wie ist das Buch zu lesen?
 
-4. **[L:2412]** n, Diagnostik. (ca.~30\,S.) \item[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--3. (ca.~60\,S.) \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. (ca.~30\,S.) \item[\cite{macha2019gender}] Gender und diversitätssensible Begabungsförderung. (ca.~13\,S.) \item[
+4. **[L:3334]** m[\cite{leikhof2021jugendliche}] Jugendliche mit Migrationshintergrund in der Begabungsförderung. Kap.~1--2 (Bestandsaufnahme, Erwartungseffekte). 30\,S. \item[ **`\cite{kosoroklabhart2021voneltern}`** ] Von Eltern mit Migrationshintergrund lernen. Ausgewählte Kapitel. 8\,S. \item[\cite{macha2019gender}] Gender und diversitätssensible Professionalisierung. S.\
 
-   → Beleg-Vorschlag [1] (score 0.15): [`001_10_einleitung.pdf`](excerpts/001_10_einleitung.pdf) S. 5-6 · 10 Einleitung
-   → Beleg-Vorschlag [2] (score 0.15): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
+   → Beleg-Vorschlag [1] (score 0.14): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
+   → Beleg-Vorschlag [2] (score 0.14): [`004_20_wie_ist_das_buch_zu_lesen.pdf`](excerpts/004_20_wie_ist_das_buch_zu_lesen.pdf) S. 12-13 · 20 Wie ist das Buch zu lesen?
 
-5. **[L:2550]** professionelles Dolmetschen und kulturvermittelnde Begleitung Grundvoraussetzungen für eine gelingende Zusammenarbeit mit Eltern mit Migrationshintergrund sind **`\parencite{kosoroklabhart2021voneltern}`** . Im Fall S. hat erst das ressourcenorientiert angelegte Elterngespräch mit Dolmetscherin Informationen zutage gefördert, die dem Team bisher nicht zugänglich w
+5. **[L:3467]** rofessionalisierung als Aufgabe des gesamten Systems, nicht einzelner Fachpersonen. Das dritte Prinzip ist die \textit{Einbindung der Eltern als Wissensträger}. **`\textcite[S.\,39]{kosoroklabhart2021voneltern}`** (post="S.\,39") betonen, dass professionelles Dolmetschen und kulturvermittelnde Begleitung Grundvoraussetzungen für eine gelingende Zusammenarbeit mit Eltern mit Migrationshin
 
-   → Beleg-Vorschlag [1] (score 0.10): [`005_22_wie_ist_das_buch_zu_lesen.pdf`](excerpts/005_22_wie_ist_das_buch_zu_lesen.pdf) S. 14-19 · 22 Wie ist das Buch zu lesen?
+   → Beleg-Vorschlag [1] (score 0.12): [`001_10_einleitung.pdf`](excerpts/001_10_einleitung.pdf) S. 5-6 · 10 Einleitung
+   → Beleg-Vorschlag [2] (score 0.12): [`003_14_einleitung.pdf`](excerpts/003_14_einleitung.pdf) S. 9-11 · 14 Einleitung
 
 <!-- CLAIMS-END -->
 

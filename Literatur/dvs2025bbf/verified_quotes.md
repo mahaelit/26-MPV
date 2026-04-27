@@ -13,13 +13,13 @@
 
 _Dieser BibKey wird **4**-mal zitiert._  Quellen-Kuerzel: **L** = `mpv.tex` (Lerndokument), **A** = `mpv_abgabedokument.tex` (Abgabedokument).
 
-1. **[A:176]** Leistungen. Gezielte Weiterbildungen zum Thema Begabungsförderung werden nur von einem Teil der Schulen angeboten, und das Thema hat insgesamt geringe Priorität **`\parencite{dvs2025bbf}`** . Der Fall S. ist damit nicht randständig, sondern hoch anschlussfähig an die aktuelle kantonale Lage. \subsection{Der Fall S.} S., 11 Jahre, ist seit Januar 20
+1. **[A:178]** n angeboten. Im schulischen Alltag, wie die vorliegende Fallbeobachtung zeigt, ist die Priorität in der Wahrnehmung der beteiligten Fachpersonen unterschiedlich **`\parencite{dvs2025bbf}`** . Der Fall S.\ ist damit nicht randständig, sondern hoch anschlussfähig an die aktuelle kantonale Lage. \subsection{Der Fall S.} S., 11 Jahre, ist seit Januar 2
 
-2. **[L:342]** Leistungen. Gezielte Weiterbildungen zum Thema Begabungsförderung werden nur von einem Teil der Schulen angeboten, und das Thema hat insgesamt geringe Priorität **`\parencite{dvs2025bbf}`** . Der Fall S. ist damit nicht randständig, sondern hoch anschlussfähig an die aktuelle kantonale Lage. \subsection*{Der Fall S.} S., 11 Jahre, ist seit Januar 2
+2. **[L:382]** n angeboten. Im schulischen Alltag, wie die vorliegende Fallbeobachtung zeigt, ist die Priorität in der Wahrnehmung der beteiligten Fachpersonen unterschiedlich **`\parencite{dvs2025bbf}`** . Der Fall S.\ ist damit nicht randständig, sondern hoch anschlussfähig an die aktuelle kantonale Lage. \subsection*{Der Fall S.} S., 11 Jahre, ist seit Januar
 
-3. **[L:2080]** Luzerner IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten den institutionellen Rahmen, in dem diese Forderung realisiert werden kann **`\parencite{dvs2025bbf}`** . Die Aufgabe der SHP besteht darin, diesen Rahmen am konkreten Fall zu füllen und die Erfahrungen aus SOLUX als Argument für eine nachhaltige Verankerung inklu
+3. **[L:2923]** Luzerner IBBF-Konzept und das Entwicklungsvorhaben \enquote{Schulen für alle} bieten den institutionellen Rahmen, in dem diese Forderung realisiert werden kann **`\parencite{dvs2025bbf}`** . Die Aufgabe der SHP besteht darin, diesen Rahmen am konkreten Fall zu füllen und die Erfahrungen aus SOLUX als Argument für eine nachhaltige Verankerung inklu
 
-4. **[L:3402]** sverfahren ganz fehlen -- eine Situation, die in abgeschwächter Form auch an S.' Schule besteht, wo Begabungsförderung \enquote{insgesamt geringe Priorität} hat **`\parencite{dvs2025bbf}`** . \subsubsection*{Thema 3: Identifikationsherausforderungen} Drei Ebenen von Herausforderungen werden identifiziert. Erstens \textit{Genauigkeitsprobleme} durch
+4. **[L:4330]** sverfahren ganz fehlen -- eine Situation, die in abgeschwächter Form auch an S.' Schule besteht, wo Begabungsförderung \enquote{insgesamt geringe Priorität} hat **`\parencite{dvs2025bbf}`** . \subsubsection*{Thema 3: Identifikationsherausforderungen} Drei Ebenen von Herausforderungen werden identifiziert. Erstens \textit{Genauigkeitsprobleme} durch
 
 <!-- CLAIMS-END -->
 
