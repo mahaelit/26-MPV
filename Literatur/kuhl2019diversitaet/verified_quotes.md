@@ -97,6 +97,43 @@ Trägt die Behauptung im Lerndokument (Frage 3, „Begabungsentwicklung als Bezi
 
 ---
 
+### Zitat 2 (S. 37, Abschnitt 2.2: „Selbstkompetenzen werden in Beziehungen gelernt")
+
+> „Bereits an dieser Stelle ist es nicht schwer zu verstehen, warum **Beziehungserfahrungen so wichtig für die Begabungsentfaltung** sind: Nicht nur die Entdeckung von Begabungen, sondern auch die **Entwicklung von Selbstkompetenzen** wie Selbstmotivierung und Selbstberuhigung **hängt maßgeblich von der Qualität der Beziehung** zwischen dem Kind und seinen Bezugspersonen ab (Eltern, Lehrpersonen, Verwandte, Freunde)." (S. 37)
+
+**Kontext / Paraphrase:**
+Woertlicher Beleg fuer die Kernaussage in mpv.tex Z. 2042–2045. Kuhl sagt „massgeblich", nicht „notwendig". Die Passage traegt die Behauptung, dass Beziehung nicht Kontext, sondern konstitutiv fuer Begabungsentfaltung ist.
+
+**Verwendet in:**
+- Lerndokument: Frage 3, „Begabungsentwicklung als Beziehungsgeschehen" (mpv.tex Z. 2042–2045)
+
+---
+
+### Zitat 3 (S. 37, Internalisierung braucht Beziehung)
+
+> „Hier liegt der psychologische (funktionsanalytische) Grund dafür, dass der **Erfolg aller noch so guten pädagogischen Maßnahmen** zur Förderung von Selbstkompetenzen **maßgeblich von der Qualität der Beziehung abhängt.**" (S. 37)
+
+**Kontext / Paraphrase:**
+Staerkster Einzelbeleg fuer die These, dass Beziehung nicht additiver Faktor, sondern Schluesselbedingung ist. Stützt mpv.tex Z. 2046–2048 (Internalisierung).
+
+**Verwendet in:**
+- Lerndokument: Frage 3, „Begabungsentwicklung als Beziehungsgeschehen" (mpv.tex Z. 2046–2048)
+
+---
+
+### Zitat 4 (S. 37, Verschliessen blockiert Integration)
+
+> „Wenn das Kind ‚sich' **verschließt**, können für den Moment noch so erfolgreiche Ermutigungs- oder Beruhigungsangebote **nicht ins Selbst integriert** werden und somit auch nicht zu einem späteren Zeitpunkt ‚von selbst', d.h. ohne fremde Unterstützung ausgelöst werden." (S. 37)
+
+**Kontext / Paraphrase:**
+Funktionsanalytische Begruendung: Ohne Selbstöffnung (= Beziehungserleben) keine Internalisierung. Traegt die Formulierung „das Kind bleibt auf externe Unterstuetzung angewiesen" in mpv.tex Z. 2047.
+
+**Verwendet in:**
+- Lerndokument: Frage 3, „Begabungsentwicklung als Beziehungsgeschehen" (mpv.tex Z. 2046–2048)
+- Lerndokument: Frage 3, „Rueckzug und Maskierung" (Extensionsgedaechtnis-Blockade)
+
+---
+
 ### Verifikationsnachweis
 
 - **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
