@@ -55,3 +55,7 @@ Literatur/**/*_uncompressed.pdf
 *~
 Thumbs.db
 .DS_Store
+
+# ---------- Python-Hilfsdateien ----------
+__pycache__/
+*.pyc

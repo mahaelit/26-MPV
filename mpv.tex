@@ -27,6 +27,8 @@
 \usepackage[style=apa, backend=biber, sortcites=true, sorting=nyt]{biblatex}
 \DeclareLanguageMapping{ngerman}{ngerman-apa}
 \addbibresource{Quellen.bib}
+\newcommand{\AbgabeQuelle}[5]{}
+\input{abgabe_korpus.tex}
 
 
 % ------------- Abbildungen mit Tikz erstellen
@@ -4797,28 +4799,7 @@ dritter Pfeiler der Trias.
 
 \section*{Seitenbudget: Übersicht}
 % ════════════════════════════════════════════════════════
- 
-\begin{tabularx}{\textwidth}{Xr@{\hspace{1.5em}}X}
-\toprule
-\textbf{Frage} & \textbf{S.} & \textbf{Schwerpunkt} \\
-\midrule
-Frage 1 (FW, KS/DG: Erkennen)   & 122 & Begabungstheorie, Diagnostik, 2e, Migration, integratives Modell \\
-Frage 2 (FW, MW/KS: Barrieren)  &  91 & Graphomotorik, Schriftsprache, GRAFINK \\
-Frage 3 (FW, PB: Beziehung)     &  88 & Anerkennung, Peer-Beziehung, Teilhabe \\
-Frage 4 (BW, DG/PV: Setting)    & 100 & Enrichment, Inklusion, Bildungsgerechtigkeit, Schweizer Volksschule \\
-Frage 5 (BW, ZB/PV: Profession) & 104 & Beratung, Kooperation, Profession \\
-\midrule
-\textbf{Summe}                  & \textbf{505} & \\
-\bottomrule
-\end{tabularx}
-
-\vspace{0.8em}
-\textit{Die pro Frage ausgewiesenen Seiten beziehen sich auf die jeweils
-fragespezifisch relevanten Kapitel und Abschnitte der aufgeführten Werke;
-die exakten Kapitel- und Seitenangaben sind in \texttt{Quellen.bib} im
-\texttt{annotation}-Feld pro Eintrag hinterlegt. Jede der 514~Seiten ist
-verifiziert gelesen, bearbeitet und im Prüfungsgespräch belegbar; es
-bestehen keine Pauschalabzüge oder Mehrfachzählungen.}
+\input{build/abgabe_seitenbudget.tex}
  
 \newpage
  
