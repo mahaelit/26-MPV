@@ -22,6 +22,18 @@
 \usepackage{etoolbox}
 
 \usepackage{enumitem}
+\newlist{litdesc}{description}{1}
+\setlist[litdesc]{
+  font        = \normalfont,
+  style       = sameline,
+  topsep      = 4pt,
+  itemsep     = 1pt,
+  parsep      = 0pt,
+  partopsep   = 0pt,
+  leftmargin  = 2em,
+  labelindent = 0pt,
+  labelsep    = 0.5em,
+}
 \usepackage{csquotes}
 \DeclareQuoteAlias{french}{ngerman}
 \usepackage[style=apa, backend=biber, sortcites=true, sorting=nyt]{biblatex}
@@ -64,8 +76,13 @@
 
 % ----- APA-7-Anpassungen für TeX Live 2024 -----
 \DefineBibliographyStrings{ngerman}{
-  nodate    = {o\adddot\,J\adddot},
-  retrieved = {Zugriff unter},
+  nodate    = {o\adddot\addabbrvspace J\adddot},
+  retrieved = {Abgerufen am},
+  from      = {von},
+}
+
+\DefineBibliographyExtras{ngerman}{%
+  \def\urldatecomma{\addcomma\space}%
 }
 
 %-------------- Ende allgemeine Angaben -----------------------------
@@ -89,8 +106,8 @@ Masterstudiengang Schulische Heilpädagogik \\
 \textit{Verdeckte Begabungen bei frühem\\
 Zweitspracherwerb}\\[12pt]}
 {\fontsize{16}{20}\selectfont
-Eine heilpädagogische Vertiefung zu\\
-Erkennung und Förderung im Projekt SOLUX\par}
+Chancen inklusiver Begabungsförderung\\
+im Rahmen des Projekt SOLUX (IBBF)\par}
  
 \vspace{2cm}
 Examinatorin: Sabine Tanner Merlo \\
@@ -169,16 +186,14 @@ Kinder aus sozioökonomisch benachteiligten oder zugewanderten Familien sind in
 anspruchsvolleren Bildungswegen und Förderangeboten häufig untervertreten. Ihre Potenziale
 bleiben nicht selten verdeckt, insbesondere dann, wenn sprachliche Unsicherheiten, belastende
 Lebensumstände oder auffälliges Verhalten die Wahrnehmung dominieren
-\parencites[S.\,76--78]{kellerkoller2025hellekoepfe}{leikhof2021jugendliche}.
+\parencites[S.\,76--78]{kellerkoller2025hellekoepfe}.
 
-Die kantonale Dienststelle Volksschulbildung stellt Umsetzungshilfen für die
-integrative Begabungs- und Begabtenförderung (IBBF) bereit, die Identifikation
-begabter Kinder läuft in der Praxis jedoch stark über schulpsychologische
-Abklärungen und schulische Leistungen. Im
-schulischen Alltag, wie die vorliegende Fallbeobachtung zeigt, ist die
-Priorität in der Wahrnehmung der beteiligten Fachpersonen unterschiedlich. 
-Der Fall S.\ ist anschlussfähig an die aktuelle kantonale Lage \parencite{dvs2025bbf}
-und eröffnet ein holistisches heilpädagogisches Vertiefungsfeld.
+Die Identifikation begabter Kinder läuft in der schulischen Praxis jedoch stark
+über schulpsychologische Abklärungen und schulische Leistungen. Im Alltag, wie
+die vorliegende Fallbeobachtung zeigt, setzen die beteiligten Fachpersonen
+unterschiedliche Prioritäten in der Wahrnehmung. Der Fall S.\ ist
+anschlussfähig an die kantonale Lage \parencite{dvs2025bbf} und eröffnet ein
+heilpädagogisches Vertiefungsfeld.
  
 \subsection*{Der Fall S.}
 S., 11 Jahre, ist seit Januar 2025 in der Schweiz und trat in die 4. Klasse ein.
@@ -195,15 +210,11 @@ Parallel dazu führe ich als schulische Heilpädagogin, DaZ-Lehrperson und Mento
 der Klassenlehrperson auf der Mittelstufe~2 das inklusive, ressourcenorientierte
 und an multiplen Intelligenzbereichen orientierte Begabungsförderungsprojekt SOLUX
 ein. SOLUX ist ein mehrwöchiges Enrichment-Setting, in dem alle Kinder ein eigenes
-Interessengebiet wählen, notenfrei daran arbeiten und ihre Fortschritte produkt-
-oder prozessorientiert dokumentieren. Meine Rolle als SHP, DaZ-Lehrperson und
+Interessengebiet wählen, notenfrei daran arbeiten und ihre Fortschritte dokumentieren
+und reflektieren können. Meine Rolle als SHP, DaZ-Lehrperson und
 SOLUX-Leiterin besteht darin, den Rahmen zu gestalten, Beobachtungen zu sichern
 und den Transfer ins Team vorzubereiten. Ziel ist, Stärken, Interessen, Denkwege,
-Selbstständigkeit und entstehende Projekte sichtbar zu machen. Didaktisch knüpft
-SOLUX an die Logik des
-Schoolwide Enrichment Model an: Förderung geht der endgültigen Identifikation
-voraus, damit begabtes Verhalten in offenen und sprachentlasteten Aufgaben sichtbar
-werden kann.
+Selbstständigkeit und entstehende Projekte sichtbar zu machen.
 
 Im Rahmen von SOLUX wird sichtbar, dass S. in Mathematik und Schach auffallend
 hohe kognitive Ressourcen und starkes Interesse zeigt. Er erkennt Muster schnell,
@@ -215,10 +226,10 @@ grundlegende Abläufe zunächst nicht automatisiert, die Leseflüssigkeit liegt 
 17 Wörtern pro Minute.
 
 Aufgrund dieser Beobachtungen, insbesondere aus SOLUX und der Arbeit in
-Kleingruppen, nahm ich früh Kontakt mit Fachstellen auf und hielt trotz anfänglicher
-Empfehlung der SPD zum Abwarten an einer interdisziplinären Abklärung fest. Die
-schulpsychologische Abklärung wurde damit fachlich begründet durchgesetzt und
-bestätigte ein überdurchschnittliches kognitives Potenzial. Nach der
+Kleingruppen, nahm ich früh Kontakt mit Fachstellen auf und hielt trotz der
+anfänglichen SPD-Empfehlung zum Abwarten an einer interdisziplinären Abklärung
+fest. Die Abklärung erfolgte dennoch und bestätigte ein überdurchschnittliches kognitives Potenzial. 
+Nach der
 SPD-Auswertung wurde eine PMT-Therapie initiiert; zusätzlich wurde eine
 KJPD-Abklärung eingeleitet, um Aspekte aus dem Autismus-Spektrum sorgfältig
 zu prüfen, ohne vorschnell eine Diagnose festzuschreiben. Erst im Januar 2026,
@@ -228,10 +239,9 @@ zunehmend zurück. Aus diesen Angaben ergab sich der Hinweis, dass
 ein regulärer Erwerb von Lesen und Schreiben möglicherweise kaum oder nur
 unterbrochen stattgefunden hatte. Diese Informationen waren weder beim
 Schuleintritt noch bei der SPD-Abklärung verfügbar und werden deshalb
-retrospektiv vorsichtig als Kontextfaktoren berücksichtigt. Die Förderarbeit im
-Bereich Buchstabenformen, Stifthaltung und Automatisierung zeigte Fortschritte;
-die Rückmeldung aus der PMT bestätigte, dass die bisherige SHP-Förderung diese
-Entwicklung unterstützt hat.
+retrospektiv als Kontextfaktoren berücksichtigt. Die Förderarbeit an
+Buchstabenformen, Stifthaltung und Automatisierung zeigte Fortschritte, die in
+der PMT-Rückmeldung bestätigt wurden.
  
 \subsection*{Heilpädagogischer Bezug}
  
@@ -241,12 +251,12 @@ migrationsbedingte Verdeckungsfaktoren, mögliche Lese- und Schreibschwierigkeit
 sensorisch-graphomotorische Auffälligkeiten, sozioemotionale Belastungen und
 biografische Belastungsfolgen. Die Konstellation wird deshalb als 2e-Profil im
 erweiterten Sinne verstanden, nicht als diagnostisch festschreibendes Etikett.
-In einer solchen Konstellation besteht die Gefahr von Under-Identification, 
+Damit besteht die Gefahr von Under-
+Identification, 
 defizitorientierten Zuschreibungen und institutionell verfestigter Benachteiligung
 \parencite[S.\,63--77]{kappus2010migration}. Hinweise auf biografische
-Belastungen werden nicht diagnostisch interpretiert, sondern als Kontextfaktoren
-berücksichtigt, die Sicherheitserleben, Lernverhalten und Teilhabe beeinflussen
-können.
+Belastungen wirken auf Sicherheitserleben, Lernverhalten und Teilhabe,
+werden aber nicht diagnostisch interpretiert.
 
 Aus der biopsychosozialen Perspektive der ICF wirken die normativen
 Sprachanforderungen des Regelunterrichts als Umweltbarrieren (Kontextfaktoren),
@@ -274,26 +284,23 @@ der zitierten Modelle (Renzulli, Heller/Perleth).
 Unter \textit{Migrationserfahrung} wird in dieser Arbeit nicht Migration als
 homogenes Merkmal verstanden, sondern eine schulisch relevante Konstellation:
 Neuzugang in ein Schulsystem mit anderer Unterrichtssprache, begrenzte
-Vertrautheit mit schulischen Codes, mögliche unterbrochene Bildungsbiographie
-und, im konkreten Fall S., Hinweise auf zusätzliche soziale und biographische
+Vertrautheit mit schulischen Codes, mögliche unterbrochene Bildungsbiografie
+und, im konkreten Fall S., Hinweise auf zusätzliche soziale und biografische
 Belastungen. Der gesellschaftliche Kontext der Schweizer Volksschule wird
 durch die Migrationsstatistik des Bundesamts für Statistik gerahmt
 \parencite{bfs2022migration}. Für die vorliegende Fragestellung steht nicht
 die rechtliche Migrationskategorie im Vordergrund, sondern die pädagogisch
-wirksame Konstellation aus früher Zweitspracherwerbsphase, schulischer
-Anschlussunsicherheit, möglicher biographischer Belastung und
+wirksame Gegebenheit aus früher Zweitspracherwerbsphase, schulischer
+Anschlussunsicherheit, möglicher biografischer Belastung und
 defizitorientierter Wahrnehmung
 \parencite{behrensen2019inklusive,stamm2021fehlenderblick}.
-Mit \enquote{früh} ist in dieser Arbeit nicht das Lebensalter des Kindes
-gemeint, sondern die frühe Phase des Erwerbs der Unterrichtssprache Deutsch
-nach der Zuwanderung.
+
 
 \paragraph{Erkenntnisinteresse.}
 Die vorliegende Vertiefungsarbeit untersucht am Fall von S. exemplarisch, wie verdeckte
-Potenziale bei Schüler:innen mit Migrationserfahrung erkannt, sichtbar gemacht und
-gefördert werden können. Die fünf leitenden Fragestellungen gliedern sich in drei
-fachwissenschaftliche (FW) und zwei bildungs- und sozialwissenschaftliche (BW) Zugänge.
-Die fünf Fragestellungen entfalten zwei verschränkte Achsen des Untertitels:
+Potenziale bei Schüler:innen mit Migrationserfahrung erkannt und
+gefördert werden können.
+Die fünf Fragestellungen entfalten verschränkte Achsen:
 die Erkennung verdeckter Potenziale, insbesondere über Diagnostik,
 Barrierenanalyse und SOLUX als diagnostisches Fenster, sowie die Förderung und
 Sichtbarmachung dieser Potenziale über Beziehung, Teilhabe, Enrichment und
@@ -307,8 +314,8 @@ soziale und institutionelle Barrieren verdeckt bleiben.
 
 \begin{enumerate}
   \item[\textbf{FW\,1}] Wie können verdeckte Begabungen bei neu zugewanderten, 
-  mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch 
-  und sprachsensibel erfasst werden?
+  mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch
+  erfasst werden?
   \item[\textbf{FW\,2}] Welche sensomotorischen und schriftsprachlichen
     Faktoren können dazu beitragen, dass kognitive Potenziale verdeckt bleiben
     und wie lassen sie sich 
@@ -335,15 +342,15 @@ und ressourcenorientiert erweitert werden?
  
 \begin{quote}\itshape
 Wie können verdeckte Begabungen bei neu zugewanderten, 
-mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch 
-und sprachsensibel erfasst werden?
+mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch
+ erfasst werden?
 \end{quote}
 
 \subsection{Kernliteratur zu Frage 1}
  
-\textbf{Gezählte Kernliteratur}
+\textbf{Gezählte Kernliteratur (137 Seiten)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{stamm2021fehlenderblick}] Der fehlende Blick auf begabte Minoritäten.
     In: \textit{Handbuch Begabung}.
     S.\,576--585 (10\,S.)
@@ -385,7 +392,7 @@ und sprachsensibel erfasst werden?
     In: Fischer et al., \textit{Begabungsförderung, Leistungsentwicklung, Bildungsgerechtigkeit -- für alle! II}.
     S.\,242--253 (12\,S.)
 
-  \item[\cite{kellerkoller2011erkennen}] Begabte mit Migrationshintergrund -- Erkennen und Fördern.
+  \item[\cite{kellerkoller2013erkennen}] Begabte mit Migrationshintergrund -- Erkennen und Fördern.
     Online/PDF. S.\,1--2 (2\,S.)
 
   \item[\cite{muelleroppliger2021paeddiagnostik}] Pädagogische Diagnostik, Potenzialerfassung und Förderdiagnostik.
@@ -395,11 +402,11 @@ und sprachsensibel erfasst werden?
   \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter Heterogenität.
     In: Buholzer \& Kummer Wyss, \textit{Alle gleich -- alle unterschiedlich}.
     S.\,63--70, 74 (9\,S.)
-\end{description}
+\end{litdesc}
 
 \textbf{Stützliteratur (nicht gezählt)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{baudson2021wasdenken}] Was Menschen über
     (Hoch-)Begabung und (Hoch-)Begabte denken. S.\,115--128.
 
@@ -429,9 +436,9 @@ und sprachsensibel erfasst werden?
 
   \item[\cite{maehler2018diagnostik}] Diagnostik bei Migrantinnen und
     Migranten. S.\,153--165, 187\,f.
-\end{description}
+\end{litdesc}
  
-\textit{Umfang Frage~1: 137\,Seiten gezählte Kernliteratur; Stützliteratur nicht eingerechnet.}
+
 
 
 % ════════════════════════════════════════════════════════
@@ -448,10 +455,10 @@ ressourcenorientiert bearbeiten?
 
 \subsection{Kernliteratur zu Frage 2}
  
-\textbf{Gezählte Kernliteratur}
+\textbf{Gezählte Kernliteratur (82 Seiten)}
 
-\begin{description}
-  \item[\cite{saegesserwyss2022grafinkrahmenmodell}] Grafomotorik und
+\begin{litdesc}
+  \item[\cite{saegesserwyss2021grafinkrahmenmodell}] Grafomotorik und
     schulische Inklusion. GRAFINK-Rahmenmodell.
     S.\,2--3, 6--11 (7\,S.)
   \item[\cite{nottbusch2017graphomotorik}] Graphomotorik.
@@ -469,11 +476,11 @@ ressourcenorientiert bearbeiten?
     S.\,70--72, 84--89 (9\,S.)
   \item[\cite{greiten2021underachievement}] Underachievement: Begriff
     und Konzept. In: \textit{Handbuch Begabung}. S.\,546--553 (8\,S.)
-\end{description}
+\end{litdesc}
 
 \textbf{Stützliteratur (nicht gezählt)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{baumschader2021twice}] Twice Exceptionality -- in
     zweifacher Hinsicht aussergewöhnlich. S.\,588--598.
   \item[\cite{warneckehauke2020bildungsgerechtigkeit}] Stärkung der
@@ -483,9 +490,9 @@ ressourcenorientiert bearbeiten?
     S.\,111--113.
   \item[\cite{sturm2016graphomotorik}] Zur Bedeutung der graphomotorischen
     Prozesse beim Schreiben(lernen). S.\,183--198.
-\end{description}
+\end{litdesc}
  
-\textit{Umfang Frage~2: 82\,Seiten gezählte Kernliteratur; Stützliteratur nicht eingerechnet.}
+
 
 
 % ════════════════════════════════════════════════════════
@@ -501,9 +508,9 @@ Teilhabe dabei?
 
 \subsection{Kernliteratur zu Frage 3}
  
-\textbf{Gezählte Kernliteratur}
+\textbf{Gezählte Kernliteratur (126 Seiten)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{grossrieder2010anerkennung}] Gleiches und Unterschiedliches
     anerkennen. In: Buholzer \& Kummer Wyss,
     \textit{Alle gleich -- alle unterschiedlich}. S.\,88--94 (7\,S.)
@@ -527,7 +534,7 @@ Teilhabe dabei?
     S.\,51--65 (15\,S.)
   \item[\cite{kesselshannover2015gleichaltrige}] Gleichaltrige.
     Peerbeziehungen und soziale Akzeptanz. S.\,288 (1\,S.)
-  \item[\cite{tschoppgruetterbuholzer2022intergruppenkontakt}]
+  \item[\cite{tschoppbuholzergruetter2022intergruppenkontakt}]
     Soziale Teilhabe durch Intergruppenkontakt. S.\,35--40 (6\,S.)
   \item[\cite{baumert2022freundschaftwerte}] \enquote{Man kann nicht leben,
     wenn man keine Freunde hat.} S.\,40--49 (10\,S.)
@@ -536,19 +543,19 @@ Teilhabe dabei?
     In: Pauly, \textit{Was ist fair?} S.\,21--27 (8\,S.)
   \item[\cite{lehwald2017motivation}] Motivation trifft Begabung.
     S.\,57--63 (7\,S.)
-\end{description}
+\end{litdesc}
  
 \textbf{Stützliteratur (nicht gezählt)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{baumschader2021twice}] Twice Exceptionality. S.\,588--598.
   \item[\cite{kappus2010migration}] Umgang mit migrationsbedingter
     Heterogenität. S.\,63--70, 74.
   \item[\cite{gysinscherzinger2022freundschaftenwertvoll}]
     Freundschaften machen das Leben wertvoll. S.\,8--12.
-\end{description}
+\end{litdesc}
  
-\textit{Umfang Frage~3: 126\,Seiten gezählte Kernliteratur; Stützliteratur nicht eingerechnet.}
+
 
 
 % ════════════════════════════════════════════════════════
@@ -564,9 +571,9 @@ im Regelunterricht systematisch übersehen werden?
 
 \subsection{Kernliteratur zu Frage 4}
  
-\textbf{Gezählte Kernliteratur}
+\textbf{Gezählte Kernliteratur (107 Seiten)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{buholzerkummerwyss2010reaktionen}] Zur Einführung:
     Reaktionen auf Heterogenität in Schule und Unterricht. S.\,78--85
     (8\,S.)
@@ -598,11 +605,11 @@ im Regelunterricht systematisch übersehen werden?
     Gerechtigkeitsfrage. In: \textit{Handbuch Begabung}. S.\,65--75 (11\,S.)
   \item[\cite{grossenbacher2014integrative}] Talent und Begabung in der
     Volksschule der deutschsprachigen Schweiz. S.\,317--325 (9\,S.)
-\end{description}
+\end{litdesc}
  
 \textbf{Stützliteratur (nicht gezählt)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{horvath2021elite}] Elite, Begabung und soziale
     Ungleichheit. S.\,77--87.
   \item[\cite{weigand2021person}] Begabung, Bildung und Person.
@@ -611,9 +618,9 @@ im Regelunterricht systematisch übersehen werden?
     (Hoch-)Begabung und (Hoch-)Begabte denken. S.\,119.
   \item[\cite{dvs2025bbf}] Integrative Begabungs- und
     Begabtenförderung. Online.
-\end{description}
+\end{litdesc}
  
-\textit{Umfang Frage~4: 107\,Seiten gezählte Kernliteratur; Stützliteratur nicht eingerechnet.}
+
 
 
 % ════════════════════════════════════════════════════════
@@ -630,9 +637,9 @@ und ressourcenorientiert erweitert werden?
 
 \subsection{Kernliteratur zu Frage 5}
  
-\textbf{Gezählte Kernliteratur}
+\textbf{Gezählte Kernliteratur (95 Seiten)}
 
-\begin{description}
+\begin{litdesc}
   \item[\cite{weigand2021person}] Begabung, Bildung und Person.
     Personenprinzip, anti-essentialistischer Begabungsbegriff und
     bildungstheoretische Grundlage der SHP-Trias. S.\,46--59 (14\,S.)
@@ -661,10 +668,10 @@ und ressourcenorientiert erweitert werden?
   \item[\cite{baudson2025besserfinden}] Wie wir Begabte besser finden
     können. Diagnostische Fairness, Grenzen des Lehrkrafturteils und
     unterrepräsentierte Gruppen. S.\,35--40 (6\,S.)
-\end{description}
+\end{litdesc}
 
 \textbf{Stützliteratur (nicht gezählt)}
-\begin{description}
+\begin{litdesc}
   \item[\cite{muelleroppliger2021paeddiagnostik}] Pädagogische
     Diagnostik, Potenzialerfassung und Förderdiagnostik.
     S.\,224--238.
@@ -682,9 +689,9 @@ und ressourcenorientiert erweitert werden?
     hemmende Wirkungsmechanismen im Klassenkontext. S.\,418--424.
   \item[\cite{kummerwyss2017kooperativunterrichten}] Kooperativ
     unterrichten. S.\,151--154, 156--160.
-\end{description}
+\end{litdesc}
  
-\textit{Umfang Frage~5: 95\,Seiten gezählte Kernliteratur; Stützliteratur nicht eingerechnet.}
+
 
 
 \section*{Seitenbudget: Übersicht}
@@ -704,21 +711,8 @@ Frage 5  & 95 & Beratung, Kooperation, Profession \\
 \bottomrule
 \end{tabularx}
 
-\vspace{0.8em}
-\textit{Die pro Frage ausgewiesenen Seiten beziehen sich auf die in den
-Quellenlisten sichtbar angegebenen Kapitel und Abschnitte. Jede der
-547~Seiten ist verifiziert gelesen, bearbeitet und im Prüfungsgespräch
-belegbar. Mehrfach gelistete Quellen werden nur einmal in das Seitenbudget
-eingerechnet; die jeweils zählende Frage ist im Dossier ausgewiesen.
-Stützliteratur dient der fachlichen Rahmung, wird jedoch nicht zum
-Seitenbudget gezählt. Amtliche und statistische Hintergrundquellen
-(Bundesamt für Statistik, Dienststelle Volksschulbildung Luzern,
-PISA-Konsortium, LUSTAT Statistik Luzern, SKBF Bildungsbericht Schweiz)
-werden in der Einleitung zur Kontextualisierung der
-Ausgangslage referenziert; sie zählen nicht zum wissenschaftlichen
-Studienkorpus und sind im Seitenbudget nicht ausgewiesen.}
  
-\newpage
+
  
 % ════════════════════════════════════════════════════════
 \printbibliography[title={Literaturverzeichnis}]
