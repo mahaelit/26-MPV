@@ -2,36 +2,25 @@
 
 - TeX-Quelle: `C:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung OneDrive\MPV\26-MPV\mpv.tex`
 - Bib-Quelle: `C:\Users\PascalSchmid\OneDrive - dxy\Kunden\fxyz\SHP\Masterarbeit Vertiefung OneDrive\MPV\26-MPV\Quellen.bib`
-- Korpus-Pruefsumme: `1ea2a3b7982894bf40cfb340509f8c4eb798c4bfa839236139564c220df0fe09`
-- Gezaehlte Eintraege: 56
-- Nicht gezaehlte Eintraege: 2
+- Korpus-Pruefsumme: `0e7bae4a7f5b356c121a36aec9e6b5d67f57a176f96d22cf049a6703c105d431`
+- Gezaehlte Eintraege: 50
+- Nicht gezaehlte Eintraege: 36
 
 ## Seitenbudget
 
 | Frage | Seiten |
 |---|---:|
-| F1 | 137 |
-| F2 | 100 |
-| F3 | 88 |
-| F4 | 100 |
-| F5 | 104 |
-| **Summe fragespezifisch** | **529** |
+| F1 | 124 |
+| F2 | 85 |
+| F3 | 115 |
+| F4 | 119 |
+| F5 | 95 |
+| **Summe fragespezifisch** | **538** |
 
 ## Mehrfach verwendete BibKeys
 
-- `baudson2021wasdenken`: F1/K 115--128 (14 S.), F4/K 119 (1 S.)
-- `gauckreimann2021psychdiagnostik`: F1/K 239--249 (11 S.), F5/K 244--247 (4 S.)
-- `lehwald2017motivation`: F2/K 70--72, 84--89 (9 S.), F3/S 57--63 (7 S.), F4/K 151--158 (8 S.)
-- `muelleroppliger2021paeddiagnostik`: F1/K 224--235 (12 S.), F5/K 224--238 (15 S.)
-- `muelleroppliger2021plurale`: F4/K 32--45 (14 S.), F5/S 40--42 (3 S.)
-- `reisrenzullimueller2021sem`: F4/K 333--347 (15 S.), F5/K 333--342 (10 S.)
-- `sedmak2021bildungsgerechtigkeit`: F4/K 65--76 (12 S.), F5/S 71--72 (2 S.)
+- `lehwald2017motivation`: F2/K 70--72, 84--89 (9 S.), F4/K 151--158 (8 S.)
 
 ## Parsebare Seitenueberlappungen
 
-- `baudson2021wasdenken`: F1 `115--128` und F4 `119` ueberlappen auf 1 parsebaren Seite(n).
-- `gauckreimann2021psychdiagnostik`: F1 `239--249` und F5 `244--247` ueberlappen auf 4 parsebaren Seite(n).
-- `muelleroppliger2021paeddiagnostik`: F1 `224--235` und F5 `224--238` ueberlappen auf 12 parsebaren Seite(n).
-- `muelleroppliger2021plurale`: F4 `32--45` und F5 `40--42` ueberlappen auf 3 parsebaren Seite(n).
-- `reisrenzullimueller2021sem`: F4 `333--347` und F5 `333--342` ueberlappen auf 10 parsebaren Seite(n).
-- `sedmak2021bildungsgerechtigkeit`: F4 `65--76` und F5 `71--72` ueberlappen auf 2 parsebaren Seite(n).
+Keine parsebaren Seitenueberlappungen gefunden.
