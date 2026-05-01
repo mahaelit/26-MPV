@@ -27,6 +27,7 @@
 \usepackage[style=apa, backend=biber, sortcites=true, sorting=nyt]{biblatex}
 \DeclareLanguageMapping{ngerman}{ngerman-apa}
 \addbibresource{Quellen.bib}
+\AtEveryBibitem{\clearfield{annotation}}
 \newcommand{\AbgabeQuelle}[5]{}
 \input{abgabe_korpus.tex}
 
@@ -657,7 +658,12 @@ personenbezogene Faktoren, Lerngelegenheiten und schulische
 Erwartungsstrukturen \parencite[S.\,204--219]{muelleroppliger2021begabungsmodelle}.
 Ein Testergebnis bleibt deshalb eine diagnostische Momentaufnahme und
 darf nicht als abschliessendes Urteil über Förderwürdigkeit oder
-Bildungsweg verstanden werden \parencite[S.\,115--118]{baudson2021wasdenken}.
+Bildungsweg verstanden werden
+\parencites[S.\,115--118]{baudson2021wasdenken}[S.\,15--18]{stern2025intelligenz}.
+\textcite[S.\,16]{stern2025intelligenz} betont in diesem Zusammenhang,
+dass sich Intelligenz im Schulalter noch substanziell verändern kann;
+ein einmaliger Testwert bildet daher nicht das stabile Potenzial eines
+Kindes ab, sondern den Stand unter den jeweiligen Testbedingungen.
 
 Renzullis Drei-Ringe-Modell macht deutlich, dass Begabung nicht nur
 aus überdurchschnittlichen Fähigkeiten besteht, sondern auch kreative
@@ -1078,7 +1084,7 @@ der multiprofessionellen Zusammenarbeit.
     S.\,68 (1\,S.)
 \end{description}
 
-\textit{Umfang Frage~1: 100\,Seiten.}
+\textit{Umfang Frage~1: 137\,Seiten.}
  
 
  

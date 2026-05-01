@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)",
+      "Bash(tesseract /tmp/buholzer_p0.png /tmp/buholzer_p0 -l eng)",
+      "Read(//tmp/**)",
+      "Bash(tesseract buholzer_p0.png buholzer_p0 -l eng)",
+      "Bash(awk '/\\\\\\\\section\\\\{Frage 4/,/\\\\\\\\section\\\\{Frage 5/' \"/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/mpv.tex\")",
+      "Bash(awk 'NR>=3046 && NR<=3635' mpv.tex)",
+      "Bash(awk 'NR>=3046 && NR<=3640' mpv.tex)",
+      "Bash(latexmk -xelatex -interaction=nonstopmode -halt-on-error mpv.tex)",
+      "Bash(xelatex -interaction=nonstopmode -halt-on-error mpv.tex)",
+      "Bash(rm -f mpv.aux mpv.bcf mpv.bbl mpv.blg mpv.run.xml mpv.toc mpv.glg mpv.fls mpv.fdb_latexmk mpv.log mpv.out mpv.xdv)",
+      "Bash(xelatex -interaction=nonstopmode -no-pdf mpv.tex)",
+      "Bash(latexmk -C mpv.tex)",
+      "Bash(biber mpv *)",
+      "Bash(xelatex -interaction=nonstopmode mpv.tex)",
+      "Bash(rm -f mpv.aux mpv.bbl mpv.bcf mpv.toc mpv.run.xml mpv.fls mpv.fdb_latexmk mpv.glg mpv.xdv mpv.log mpv.out mpv.blg)",
+      "Bash(latexmk -xelatex -interaction=nonstopmode mpv.tex)",
+      "Bash(awk 'NR>=1968 && NR<=1976' mpv.tex)",
+      "Bash(awk '/\\\\\\\\section\\\\{Frage 5/,/\\\\\\\\printbibliography/' \"/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/mpv.tex\")",
+      "Bash(sed -n '3048,4810p' \"/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/mpv.tex\")",
+      "Bash(grep -nF 'trautmann2021haltung *)"
+    ]
+  }
+}
