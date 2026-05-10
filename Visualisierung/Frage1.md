@@ -1,174 +1,209 @@
-## Warum die Chimäre genau hier hingehört
+## Bezug zum Zentrum: Frage 1 als optischer Einstieg in den Sichtbarkeitszirkel
 
-Im Zentrum ist die Chimäre wissenschaftlich vertretbar, weil das Zentrum die einzige Stelle ist, an der sie nicht als Ornament wirkt, sondern als Verkörperung der Hauptthese. Das Argument lautet: SOLUX ist der Erscheinungsraum, in dem die zusammengesetzte Wesenheit eines Kindes wie S. (kognitives Potenzial, schriftsprachliche Mühe, emotionale Komplexität) als Ganzes wahrgenommen werden darf, statt zerlegt in defizitäre Einzelaspekte. Die Chimäre ist hier nicht Comic-Figur und nicht Monster, sondern heraldisches Symbol für die 2e-Maskierungslogik (Baum/Schader 2021), die im Dossier explizit als methodologische Analogie eingeführt ist (Abschnitt subsec:2e). Genau diese Verbindung macht sie verteidigbar: Wenn die Examinatorin nachfragt, kann Inti sagen: *Die Figur ist mein bildlicher Anker für die Maskierungslogik nach Baum und Schader. Im Regelunterricht werden einzelne Anteile gesehen, im SOLUX-Setting erscheint das Wesen als Ganzes.*
+Frage 1 sitzt bei 12 Uhr und ist damit der Bereich, den die Examinator:innen als ersten sehen, sobald ihr Blick vom Zentrum nach aussen wandert. Diese Position trägt eine besondere Verantwortung: Sie etabliert die diagnostische Grundlage, auf der alle weiteren Bereiche aufbauen. Wenn die Examinatorin nicht überzeugt ist, dass Inti S.s Begabung methodisch sauber identifiziert hat, dann werden auch die didaktischen, relationalen und institutionellen Ableitungen in den anderen Bereichen schwächer. Frage 1 ist die methodische Bürgschaft des ganzen Plakats.
 
-In den Ringbereichen würde die Chimäre überstrapaziert. Im Zentrum genügt sie sich selbst.
+Genau deshalb hat Frage 1 eine andere Aufgabe als die anderen Ringbereiche. Sie zeigt nicht eine Wendung von Defizit zu Ressource, sondern eine **Erweiterung der Datenbasis**. Die Defizitsicht ist nicht eine falsche Sicht, sondern eine *unvollständige* Sicht. Das Mosaik macht visuell sichtbar, dass diagnostische Wahrheit nicht aus einem einzelnen Stein, sondern aus deren Verbund entsteht. Die Chimäre tritt in diesem Bereich nicht auf. Sie wohnt im Zentrum, wo das Bild bereits zusammengefügt ist. In Frage 1 wird dieses Bild erst durch das Zusammenlegen der Steine möglich.
 
-## Gesamtlayout des Zentrums
+## Gesamtlayout des Ringsegments
 
-Das Zentrum gliedert sich in fünf horizontale Schichten, die von oben nach unten gelesen werden. Diese Vertikalität ist wichtig, weil sie die Argumentation ordnet, statt sie radial zu zerstreuen.
+Position 12 Uhr, am oberen Rand des Donuts. Das Segment ist horizontal-bogig orientiert. Die Klappkante liegt am inneren Rand (zur SOLUX-Mitte hin), der Deckel klappt nach oben auf. Aussenkante also oben, Innenkante unten.
 
-**Schicht 1 (oben, ca. 4 cm Höhe): Titelblock.**
-Zwei Zeilen, gross, zentriert.
+Die Lesrichtung der freigelegten Fläche verläuft **vertikal**, da die Bogenform oben breiter, unten schmaler ist (das ist die geometrische Eigenheit eines 12-Uhr-Segments im Donut). Inti nutzt diese Form, indem sie das Mosaik **konzentrisch** anordnet: Die fünf Steine umkreisen ein zentrales Bild, sodass die Anordnung sich der Bogenform anschmiegt, statt gegen sie zu arbeiten.
 
-> 4. SICHTBAR MACHEN
-> SOLUX als diagnostisches Fenster
+Wie in den anderen Ringbereichen drei Schichten: Deckel-Aussensicht, Innenseite des Deckels, freigelegte Fläche.
 
-Die Ziffer 4 in der Farbe des Zentrumsbereichs (hellblau, passend zum Frage-4-Couvert in deinem Dossier). Der Untertitel kleiner, in Sans-Serif oder einer ruhigen Druckschrift.
+## Schicht A: Die Aussensicht des Deckels
 
-**Schicht 2 (Hauptbild, ca. 18-20 cm Höhe): Das Fenster mit der Chimäre.**
-Ein quadratisches Vier-Sprossen-Fenster (Sprossenkreuz in der Mitte), das den grössten Anteil der Fläche einnimmt. Die vier Quadranten tragen je ein Strukturmerkmal als Symbol und Stichwort. In der Mitte des Sprossenkreuzes, leicht erhöht durch das Sprossenkreuz hindurchragend, sitzt oder steht die Chimäre. Hinter ihr deutet ein Lichtschein an, dass sie *gerade jetzt* sichtbar wird.
+Die Defizitsicht in Frage 1 ist diagnostisch, nicht emotional. Sie zeigt, was passiert, wenn man S. nur durch ein einzelnes Verfahren betrachtet.
 
-**Schicht 3 (ca. 2 cm Höhe): Merksatz-Band.**
-Eine schmale Bandzeile, in einer dezenten hellblauen Tönung, mit dem Leitsatz:
+Oben gross: **1. ERKENNEN**, daneben oder darunter kleiner *Diagnostisches Mosaik*.
 
-> Begabung wird nicht erzeugt, sondern unter passenden Bedingungen sichtbar.
+Mittig im Deckel ein zentrales Defizitbild. Inti zeichnet ein leeres Testblatt mit der Überschrift *WISC-V (deutschsprachig)* und einem grossen schraffierten *X* darüber, das die Unbrauchbarkeit signalisiert. Daneben oder darunter, etwas kleiner: ein Sprachindikator *Deutsch A1*, ein durchgestrichener Punkteblock und das Wort *unauswertbar*.
 
-**Schicht 4 (ca. 4-5 cm Höhe): Portraits-Galerie.**
-Eine Reihe von fünf kleinen Köpfen (2-3 cm Durchmesser), nebeneinander oder leicht gebogen entlang der unteren Krümmung des Zentrums, mit Name darunter und einem Stichwort.
+Eine zweite Schicht im Deckel: drei Stichworte aus dem defizitorientierten Lehrer:innenurteil, in Anführungszeichen und etwas abgesetzt:
 
-**Schicht 5 (unten, ca. 3 cm Höhe): Kartenlasche.**
-Eine schmale Tasche aus Tonpapier, am unteren Rand des Zentrums angebracht, beschriftet *Q4 SOLUX-Karten*. Darin liegen die fünf Frage-4-Karten.
+> *auffällig, weinerlich, störend.*
 
-## Die Chimäre im Zentrum: konkrete Bildanweisung
+Diese drei Worte sind Intis Anker für die Defizitfalle. Sie belegen, dass das Lehrkrafturteil ohne diagnostisches Korrektiv eine Wahrnehmungsverengung bedeutet.
 
-Inti zeichnet die Chimäre ruhig und würdig, nicht aktionistisch. Die Figur sitzt oder steht in halber Profilansicht, schaut ruhig nach vorne oder leicht zur Seite, ohne Drohgebärde. Die drei Anteile sind erkennbar, aber harmonisch verbunden:
+Eine dritte kleine Bildelement: eine Lupe, die auf einen einzelnen Stein zeigt. Diese Lupe ist das Leitsymbol des Bereichs. Sie steht für den vereinzelten diagnostischen Zugriff, der allein nicht zum Bild führt.
 
-- **Löwenkopf** als Hauptkopf, ruhig, mit klaren Augen. Er steht für strategisches Denken, Würde, kognitive Stärke (Schach, Mathematik). Nicht brüllend.
-- **Ziegenleib oder Ziegenrücken**, dezent angedeutet (etwa durch ein zweites Hornpaar am Rücken oder eine zottelige Schulterpartie). Er steht für Beharrlichkeit, schulische Mühe, das Tragen schwieriger Bedingungen.
-- **Schlangenschwanz**, leicht gerollt oder ruhig liegend, nicht angreifend. Er steht für Verwandlungsfähigkeit, emotionale Komplexität, das Vermögen, sich in unterschiedlichen Settings unterschiedlich zu zeigen.
+Unten als breites Band der Leitsatz:
 
-Eine Pfote oder Klaue ruht auf einer Schachfigur (König oder Springer) oder auf einem Schachbrett-Ausschnitt. Das ist die fallbezogene Verankerung: Die Chimäre erscheint dort, wo S.s Stärke wohnt.
+> Kein Einzeltest hat das letzte Wort.
 
-Aus dem Maul der Chimäre kein Feuer, sondern ein zarter goldener Hauch oder Funke, der nach oben steigt. Diese Geste deutet das Potenzial an, ohne aggressiv zu wirken.
+Dieser Satz ist der methodische Imperativ des Bereichs. Er widerspricht nicht den standardisierten Verfahren, sondern verortet sie als *einen* Stein im Mosaik. Diese Differenz ist im Vortrag wichtig: Inti lehnt nicht Tests ab, sie ordnet sie ein.
 
-Stilistisch: Bleistift mit Aquarell, beschränkte Palette aus warmem Ocker, gedämpftem Rot und Goldbraun für den Funken, Grau für die Schatten. Der Lichtschein hinter der Chimäre kann als blasses warmes Gelb-Weiss aquarelliert sein.
+Auf dem Deckel oben rechts oder oben links das Couvert in gelbem Tonpapier (warmes Sonnengelb, nicht grell), beschriftet *Q1 Mosaik-Karten*.
 
-Die Chimäre darf nicht grösser sein als das Sprossenkreuz; sie sitzt *im* Fenster, nicht *vor* dem Fenster.
+## Schicht B: Die Innenseite des Deckels
 
-## Die vier Quadranten: Strukturmerkmale mit Symbol
+Wieder drei Zeilen, in gelbem oder ockerfarbenem Stift handschriftlich. Bei einem zu hellen Gelb wird die Lesbarkeit schwierig; ich empfehle einen warmen Ocker oder ein dunkleres Curry-Gelb.
 
-Jeder Quadrant trägt ein einzelnes Symbol und ein einzelnes Stichwort. Mehr nicht. Klarheit vor Vollständigkeit.
+> **Theorie:** Multiperspektivische Erfassung statt singulärer Testlogik.
+>
+> **Fall S.:** WISC auf Englisch positiv, Lehrerurteil defizitär, SOLUX-Beobachtung exzellent, Eltern erschliessen häusliche Stärken.
+>
+> **Handlung:** Standardisierte Tests, Beobachtung über Zeit, Elternwissen, Erstsprache, dynamische Diagnostik triangulieren.
 
-**Oben links: Notenfreiheit.**
-Symbol: Eine Ziffernreihe 1 bis 6, leicht verblasst, mit einer durchgezogenen ruhigen Linie quer hindurch (kein Streich, eher eine Beruhigung). Darunter klein das Wort *notenfrei*.
+## Schicht C: Die freigelegte Fläche, Hauptbild Diagnostisches Mosaik
 
-**Oben rechts: Interessenorientierung.**
-Symbol: Ein Schachbrett-Ausschnitt mit einer Eröffnungsstellung (e2-e4, e7-e5, das ist die offene italienische Eröffnung und ikonisch lesbar). Darunter klein das Wort *interessengeleitet*.
+Das Hauptbild hat fünf Elemente.
 
-**Unten links: Sprachentlastung.**
-Symbol: Eine offene Sprechblase, in der statt Worten eine Skizze oder ein Bauplan-Strich auftaucht (also: Ausdruck ohne Schriftsprache). Darunter klein das Wort *sprachentlastet*.
+**Element 1: Mosaikgrundform.**
+Inti zeichnet zuerst die Mosaikfläche als Bleistiftraster vor. Sie wählt eine konzentrische Anordnung: ein zentrales rundes oder hexagonales Feld in der Mitte, darum gruppiert fünf Mosaiksteine, jeder mit einer eigenen Form (rund, hexagonal, oval), aber zusammen ergeben sie ein gemeinsames Muster. Zwischen den Steinen feine Linien (Mörtelfugen), die die Trennung markieren, ohne sie absolut zu machen.
 
-**Unten rechts: Expertenrolle.**
-Symbol: Eine kleine Figur mit erhobenem Arm oder Zeigegestus, vor einer Halbgruppe (zwei oder drei kleinere Figuren als Zuhörer:innen). Darunter klein das Wort *Expertenrolle*.
+**Element 2: Die fünf diagnostischen Steine.**
+Jeder Stein trägt ein Symbol oben und eine Beschriftung am unteren Rand. Die Reihenfolge im Uhrzeigersinn beginnt bei 12 Uhr im Mosaik (also oben) und läuft im Uhrzeigersinn herum.
 
-Diese Symbole müssen nicht detailreich sein. Strichzeichnung mit zarter Aquarelltönung in der jeweiligen Quadrantenfarbe (oder einheitlich hellblau) reicht.
+> **Stein 1 (oben): Standardisierte Tests, sprachsensibel.**
+> Symbol: ein Testblatt mit Häkchen, daneben das Kürzel *EN* oder eine kleine englische Flagge. Beschriftung: *Standardisiert*. Mündlich: *Der WISC-V wurde auf Englisch durchgeführt, weil Englisch S.s aktive Zweitsprache ist. Auf dieser Basis bestätigte sich überdurchschnittliches kognitives Potenzial. Nonverbale Verfahren wie CFT oder NNAT wären eine Alternative gewesen.*
+>
+> **Stein 2 (oben rechts): Beobachtung über Zeit.**
+> Symbol: eine Uhr oder eine Folge von drei kleinen Augen-Symbolen (über Zeit). Beschriftung: *Prozess*. Mündlich: *Das SOLUX-Setting erlaubt Prozessdiagnostik über mehrere Wochen. S.s Reaktion auf anspruchsvolle Aufgaben ist in einem einzelnen Test nicht erfassbar.*
+>
+> **Stein 3 (unten rechts): Eltern als Wissensquelle.**
+> Symbol: zwei Köpfe mit Sprechblasen, dazwischen ein kleines Dolmetscher-Zeichen (zwei Pfeile in Gegenrichtung). Beschriftung: *Eltern*. Mündlich: *Das professionell begleitete Gespräch mit Dolmetscherin enthüllte die stundenlangen Schachanalysen zu Hause und die Vorgeschichte im Herkunftsland. Diese Information war kein Zusatz, sondern diagnostisch konstitutiv.*
+>
+> **Stein 4 (unten links): Erstsprache und mehrsprachige Diagnostik.**
+> Symbol: zwei oder drei sich überlappende Sprechblasen mit unterschiedlichen Buchstaben (a, sh, an oder ähnlich). Beschriftung: *Mehrsprachig*. Mündlich: *S. ist albanischsprachig, hat sich Englisch autodidaktisch angeeignet und lernt Deutsch erst seit gut einem Jahr. Eine sprachgebundene Diagnostik in einer dieser Sprachen allein liefert kein verlässliches Bild.*
+>
+> **Stein 5 (links): Dynamische Diagnostik.**
+> Symbol: ein Pfeil, der eine Treppe hinaufläuft, oder ein Gradient von hell zu dunkel. Beschriftung: *Dynamisch*. Mündlich: *Dynamische Diagnostik fragt nicht: was kann das Kind aktuell? sondern: wie reagiert es auf anspruchsvolle Angebote über Zeit? Im Drehtürmodell und in der SEM-Logik ist das die diagnostische Norm.*
 
-## Die fünf Autorenportraits: Auswahl und Beschriftung
+**Element 3: Zentrales Feld.**
+In der Mitte des Mosaiks ein rundes Feld mit einem Bild von S., halb sichtbar, mit einer Schachfigur in der Hand. S. ist hier nicht in voller Figur dargestellt, sondern nur als Porträtausschnitt, weil das Mosaik um ihn herum erst das vollständige Bild ergibt. Diese Geste ist die eigentliche Pointe der Komposition: Solange das Mosaik unvollständig ist, bleibt auch S. fragmentarisch sichtbar. Erst die fünf Steine zusammen ergeben den Kontext, in dem S. als Person mit Potenzial erscheint.
 
-Inti hat die Köpfe bereits illustriert. Für das Zentrum wähle ich fünf Personen, die zusammen die theoretische Architektur von Frage 4 tragen. Die Reihenfolge ist sinnstiftend: von der internationalen Theorie zur Schweizer Verankerung zur deutschsprachigen Synthese.
+In dem Zentralfeld setzt Inti einen winzigen Goldfunken auf die Schachfigur, als Echo zum Plakat-Zentrum. Das ist der einzige Ort in Frage 1, an dem das Goldfunken-Echo erscheint.
 
-**Portrait 1: Joseph S. Renzulli** (USA, *1936)
-Stichwort darunter: *Schoolwide Enrichment Model*
-Mündliche Anbindung: *Begründer des SEM, Drei-Ringe-Modell, Drehtürmodell. Förderung geht der Identifikation voraus.*
+**Element 4: Goldfaden zwischen den Steinen.**
+Inti zieht einen feinen Goldfaden, der die fünf Steine miteinander verbindet, durch das Zentralfeld hindurch und dann als geschlossene Linie zurück. Dieser Faden ist die methodische Pointe: Die Steine sind nicht nur nebeneinander, sondern *miteinander verwoben*. Triangulation als visuelle Geste. Wer das Mosaik betrachtet, sieht zunächst die fünf Steine, dann das Bild von S. in der Mitte, dann den Goldfaden, der alles zusammenhält. Diese Lesefolge ist genau die Argumentationsfolge der Frage 1.
 
-**Portrait 2: Sally M. Reis** (USA)
-Stichwort darunter: *Enrichment-Typen*
-Mündliche Anbindung: *Mit Renzulli Mitautorin des SEM, hat die drei Enrichment-Typen für den deutschsprachigen Raum operationalisiert.*
+**Element 5: Banner mit Merksatz.**
+Über dem Mosaik ein schmales gelbes Band mit dem Leitsatz *Kein Einzeltest hat das letzte Wort.* Inti kann optional unter dem Mosaik einen ergänzenden Subbanner setzen mit der methodischen Pointe *Triangulation als diagnostische Norm.* Dieser zweite Banner ist verzichtbar.
 
-**Portrait 3: Victor Müller-Oppliger** (Schweiz)
-Stichwort darunter: *Plurale Gesellschaft, Förderdiagnostik*
-Mündliche Anbindung: *Schweizer Hauptautor des Handbuchs Begabung, betont inklusive Begabungsförderung als Bestandteil der Schulentwicklung und liefert die pädagogisch-diagnostische Perspektive auf Setting wie SOLUX.*
+## Die fünf Autorenportraits
 
-**Portrait 4: Gabriele Weigand** (Deutschland)
-Stichwort darunter: *Inklusive Begabungsförderung, Personenprinzip*
-Mündliche Anbindung: *Personenprinzip als bildungstheoretische Grundlage; separative, integrative und inklusive Begabungsförderung als Kontinuum.*
+Die Auswahl folgt der diagnostischen Architektur der Frage 1: Schweizer Migrations- und Begabungsforschung als empirische Grundlage, Schweizer pädagogische Diagnostik als methodischer Rahmen, deutsche Lehrkrafturteils-Empirie als kritische Referenz, deutscher psychodiagnostischer Prozess als operatives Modell.
 
-**Portrait 5: Franzis Preckel** (Deutschland)
-Stichwort darunter: *Talent Development Framework*
-Mündliche Anbindung: *Vier Stationen der Talententwicklung: Potenzial, Kompetenz, Expertise, aussergewöhnliche Leistung. SOLUX schafft Beobachtungsraum für die Phase Potenzial.*
+**Portrait 1: Margrit Stamm** (Schweiz)
+Stichwort: *MIRAGE, begabte Minoritäten*
+Mündliche Anbindung: *Hat in der MIRAGE-Studie dokumentiert, dass Begabungsreserven bei Kindern mit Migrationshintergrund systematisch ungenutzt bleiben. Die Studie zeigt empirisch, dass erfolgreiche Migrant:innen ihr Potenzial häufig erst spät oder gar nicht erkannt sehen. Schweizer Hauptstimme für die Verbindung von Migration und Begabung.*
 
-Die Portraits sind klein (2-3 cm), einfarbig oder mit ganz reduzierter Tönung. Unter jedem Portrait stehen zwei Zeilen: Name (etwas grösser, Sans-Serif), Stichwort (kleiner, kursiv).
+**Portrait 2: Victor Müller-Oppliger** (Schweiz)
+Stichwort: *Pädagogische Diagnostik*
+Mündliche Anbindung: *Hat das Mehraugenprinzip etabliert: Lehrpersonen übersehen 40 bis 50 Prozent der begabten Kinder, während bis zu 70 Prozent der nominierten Kinder die Kriterien nicht erfüllen. Die Erklärung liegt in impliziten Theorien, die einseitig am Lehrstoff orientiert sind. Multiperspektivische Diagnostik als Korrektiv.*
 
-Falls Inti nur vier Portraits zur Verfügung hat, lasse Reis weg und nimm Renzulli, Müller-Oppliger, Weigand, Preckel. Reis und Renzulli werden in der Literatur oft gemeinsam zitiert; Renzulli allein trägt den SEM-Bezug.
+**Portrait 3: Tanja Gabriele Baudson** (Deutschland)
+Stichwort: *Lehrkrafturteil, Fairness*
+Mündliche Anbindung: *Hat in *Wie wir Begabte besser finden können* die diagnostische Fairness und die Grenzen des Lehrkrafturteils empirisch gerahmt. Unterrepräsentierte Gruppen erscheinen im Lehrkrafturteil systematisch seltener als begabt.*
 
-Wichtig: Die Portraits sind keine Dekoration, sondern Argumentationsanker. Im Vortrag kann Inti gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger.* Das wirkt fachlich seriös, fast wie eine sichtbar gemachte Bibliografie.
+**Portrait 4: Marion Gauck und Carolin Reimann** (Deutschland)
+Stichwort: *Psychodiagnostischer Prozess*
+Mündliche Anbindung: *Haben mit der Aisha-Vignette eine analoge Konstellation dokumentiert, in der bei einem Mädchen mit Migrationshintergrund ein ADHS-Verdacht eine Hochbegabung verdeckt. Plädieren für Prozessdiagnostik bei Kindern, die ihr Potenzial in einer einmaligen Abklärung nicht zeigen können. Der IQ-Cut-off von 130 sei eine willkürliche Forschungsgrenze.*
 
-## Die fünf Karten in der Lasche
+Doppelportrait, analog zu Booth/Ainscow.
 
-Die Karten der Frage 4 wurden in der vorhergehenden Konsolidierung skizziert. Hier die ausgereifte Endfassung:
+**Portrait 5: Haag** (Deutschland)
+Stichwort: *Leistungsstanddiagnostik*
+Mündliche Anbindung: *Standardisierte Verfahren der Leistungsstanddiagnostik als methodischer Anker, der mit pädagogischer und prozessualer Diagnostik trianguliert werden muss.*
 
-**Karte 4.1 Kurzantwort.**
-Vorderseite: Symbol *offenes Fenster* und Stichwort *60 Sekunden*. Rückseite:
-> SOLUX macht verdeckte Potenziale sichtbar, weil es Notenfreiheit, Interessenorientierung, Sprachentlastung und Expertenrolle kombiniert. Es ist damit nicht nur Förderung, sondern diagnostisches Fenster.
+Falls Inti Haag in ihrem Korpus nicht prominent verankert hat, kann sie diese fünfte Position auch mit **Albert Ziegler** (Aktiotop-Modell, dynamische Diagnostik) oder mit einer aktuellen Karg-Stiftung-Stimme besetzen. Die Architektur des Mosaiks bleibt dieselbe; entscheidend ist, dass die fünfte Person die *dynamische* oder *prozessuale* Diagnostik repräsentiert. Falls Inti unsicher ist, soll sie diesen fünften Stein lieber freilassen oder mit einem anonymen Symbol *standardisierte Verfahren* belegen, statt einen schwach belegten Namen aufzudrucken.
 
-**Karte 4.2 Theorieanker.**
-Vorderseite: Symbol *drei Ringe* (Renzulli) und Stichwort *Theorie*. Rückseite:
-> Schoolwide Enrichment Model nach Renzulli und Reis, drei Enrichment-Typen, Drehtürmodell. Förderung geht der Identifikation voraus (Reis, Renzulli, Müller-Oppliger 2021, S. 333-345). Talententwicklung in vier Stationen (Preckel 2021, S. 274-289).
+## Die fünf Karten in der gelben Lasche
 
-**Karte 4.3 Fallanker S.**
-Vorderseite: Symbol *Schachfigur* und Stichwort *Fall S.*. Rückseite:
-> Im SOLUX-Setting Mustererkennung, Strategieentwicklung, ausdauernde Konzentration im Schach. Erstmals positive Aufmerksamkeit der Peers. Ziel: Schachkurs für Mitschüler:innen. Diese Stärken bleiben im Regelunterricht unsichtbar.
+**Karte 1.1 Kurzantwort.**
+Vorderseite: Symbol *Mosaik* und Stichwort *60 Sekunden*. Rückseite:
+> S.s Begabung wäre durch ein einzelnes Verfahren nicht erkennbar geworden. Erst die Triangulation aus standardisiertem Test (auf Englisch), Beobachtung im SOLUX-Setting, Elterngespräch mit Dolmetscherin, Berücksichtigung der Mehrsprachigkeit und dynamischer Diagnostik ergab das vollständige Bild. Diagnostik als Mosaik, nicht als Einzelaufnahme.
 
-**Karte 4.4 Handlung.**
-Vorderseite: Symbol *Pfeil-Sequenz* und Stichwort *Handlung*. Rückseite:
-> Beobachtungen kriteriengestützt dokumentieren. Kompetenzportfolio für die Übertrittsberatung anlegen. Prinzipien (Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle) schrittweise in den Regelunterricht übersetzen.
+**Karte 1.2 Theorieanker.**
+Vorderseite: Symbol *Lupe* und Stichwort *Theorie*. Rückseite:
+> MIRAGE-Studie und unterrepräsentierte Gruppen (Stamm). Mehraugenprinzip und 40 bis 50 Prozent verkanntes Potenzial (Müller-Oppliger 2021). Lehrkrafturteil und diagnostische Fairness (Baudson 2025). Prozessdiagnostik bei Verdeckungsphänomenen (Gauck/Reimann 2021). Leistungsstanddiagnostik als ein Stein, nicht das ganze Bild (Haag).
 
-**Karte 4.5 Reflexionsjoker.**
+**Karte 1.3 Fallanker S.**
+Vorderseite: Symbol *Schachfigur im Mosaik* und Stichwort *Fall S.*. Rückseite:
+> WISC-V auf Englisch durchgeführt, überdurchschnittliches Potenzial bestätigt. Beobachtung in SOLUX zeigte strategisches Schachdenken, Mustererkennung, Konzentration. Elterngespräch (mit Dolmetscherin) erschloss stundenlange Schachanalysen zu Hause und schwierige Schulvorgeschichte im Herkunftsland. Lehrerurteil im Regelunterricht: defizitorientiert, *eher auffällig, sehr weinerlich, etwas störend*. Vier Quellen, ein Bild.
+
+**Karte 1.4 Handlung.**
+Vorderseite: Symbol *fünf Steine* und Stichwort *Handlung*. Rückseite:
+> Diagnostisches Mosaik in fünf Steinen. Erstens standardisierte Tests in der stärksten verfügbaren Sprache oder nonverbal (CFT, NNAT). Zweitens Beobachtung über Zeit in einem Setting, das anspruchsvolle Angebote ermöglicht (SOLUX). Drittens Eltern als Wissensquelle, mit professioneller Dolmetschbegleitung. Viertens Mehrsprachigkeit als diagnostischer Faktor, nicht nur als Hindernis. Fünftens dynamische Diagnostik, die Reaktion auf Anforderung erfasst. Triangulation aller fünf Steine, nicht Addition.
+
+**Karte 1.5 Reflexionsjoker.**
 Vorderseite: Symbol *Fragezeichen* und Stichwort *Joker*. Rückseite:
-> Frage: Was passiert nach SOLUX? Antwort in drei Punkten: Erkenntnisse in formalen Förder- und Übertrittsprozessen verankern, Wissen im Team teilen (Hospitation, Fallpräsentation), Prinzipien als didaktische Gestaltungsgrundsätze in den Regelunterricht übertragen. Sonst bleibt SOLUX eine Insel.
-
-Die Karten sind A6, beidseitig bedruckt (oder beidseitig handbeschriftet, falls Inti das von Hand macht), in der Couvertfarbe hellblau. Vorderseite mit Symbol und Stichwort als Schnellzugriff, Rückseite mit der Pointe.
+> Frage: Was, wenn kein Englisch-WISC möglich gewesen wäre? Antwort: Vier Alternativen. Erstens nonverbale Tests (CFT, NNAT, TONI), die kulturelle und sprachliche Verzerrungen reduzieren. Zweitens Beobachtungsdaten aus einem mehrwöchigen Enrichmentsetting wie SOLUX. Drittens Triangulation mit Elterninformation und Erstsprachenkompetenz, falls erstsprachliche Verfahren verfügbar. Viertens dynamische Diagnostik durch wiederholte Beobachtung der Reaktion auf anspruchsvolle Aufgaben. Kein einzelner Zugang ist ausreichend. Genau das ist die Pointe des Mosaiks.
 
 ## Schritt-für-Schritt-Handlungsanleitung
 
-Ich nehme an, das Zentrum hat etwa 35-40 cm Durchmesser. Wenn es kleiner oder grösser ist, skaliert Inti die Massangaben proportional.
+**Schritt 1: Vorzeichnung.**
+Inti zeichnet mit Bleistift die drei Schichten vor. Bei einem 12-Uhr-Segment ist die Aussenkante oben, die Innenkante unten. Sie achtet darauf, dass die Mosaikfläche zentral in der freigelegten Fläche liegt, etwa 14 cm Durchmesser, und dass die fünf Steine sich nicht zu nahe an die Bogenkanten drängen.
 
-**Schritt 1: Bleistift-Layout.**
-Inti zeichnet auf dem ausgeschnittenen Donut die fünf Schichten mit ganz dünnen Bleistiftlinien vor. Sie misst von oben:
-4 cm Titelblock, 19 cm Fenster, 2 cm Merksatzband, 5 cm Portraitsgalerie, 3 cm Bereich für Lasche. Die Linien werden später wegradiert oder durch die Endgestaltung verdeckt. Diese Vorzeichnung verhindert, dass am Ende eine Schicht zu wenig Platz hat.
+**Schritt 2: Materialvorbereitung Deckel.**
+Zuschnitt aus festem Karton in Segmentform. Scharnier am unteren Rand (zur Mitte hin), sodass der Deckel nach oben aufklappt. Couvert-Position oben am Deckel.
 
-**Schritt 2: Sprossenkreuz-Fenster.**
-Inti zeichnet ein quadratisches Fenster, das den horizontalen Raum maximal ausnutzt (etwa 18 cm breit und 19 cm hoch). Sie zieht ein Sprossenkreuz, das die Fläche in vier gleiche Quadranten teilt. Die Sprossen sind etwa 0.5 cm breit, in einem warmen Holzbraun aquarelliert. Der äussere Rahmen ist etwas kräftiger.
+**Schritt 3: Aussensicht des Deckels gestalten.**
+Inti gestaltet von oben nach unten:
+- Titel *1. ERKENNEN — Diagnostisches Mosaik*
+- Defizitbild des durchgekreuzten WISC mit Sprachindikator *Deutsch A1* und *unauswertbar*
+- Drei Stichworte aus dem Lehrer:innenurteil: *auffällig, weinerlich, störend*
+- Lupe als Leitsymbol, klein, am oberen Rand
+- Leitsatz-Band *Kein Einzeltest hat das letzte Wort.*
+- Couvert in warmem Gelb (Sonnengelb, nicht grell)
 
-**Schritt 3: Strukturmerkmale in den Quadranten.**
-Inti zeichnet pro Quadrant das jeweilige Symbol oben in der Mitte und schreibt das Stichwort darunter. Sie hält die Symbole bewusst reduziert, damit das Auge sofort lesen kann.
+Farbgebung der Aussensicht in gedämpften Tönen: Anthrazit, Grau, Sand, mit dezenten Gelbakzenten. Wichtig: Der durchgekreuzte WISC muss als *unbrauchbar in dieser Konstellation* erkennbar sein, nicht als generelle Ablehnung standardisierter Verfahren. Inti kann das verstärken, indem sie das Kreuz nicht über das ganze Testblatt zieht, sondern nur über die Sprachzeile.
 
-**Schritt 4: Chimäre einfügen.**
-Die Chimäre wird so positioniert, dass das Sprossenkreuz scheinbar hinter ihr verschwindet, also wirkt, als würde sie vor dem Kreuz stehen. Inti zeichnet sie zuerst leicht in Bleistift, prüft die Proportionen, dann erst aquarelliert sie. Wichtig ist die Ruhe der Figur. Falls Inti die Chimäre lieber separat auf dünnem Papier zeichnet und dann aufklebt, ist das auch eine gute Lösung, weil dann ein Misslingen der Zeichnung nicht das ganze Plakat zerstört.
+**Schritt 4: Innenseite des Deckels gestalten.**
+Inti dreht den Deckel und schreibt die drei Zeilen *Theorie, Fall S., Handlung* in einem warmen Ocker oder dunklem Curry-Gelb.
 
-**Schritt 5: Lichtschein.**
-Hinter der Chimäre wird ein zartes warmes Gelb-Weiss aquarelliert, das aus einer der oberen Ecken kommt (zum Beispiel oben rechts). Der Lichtschein darf nicht grell wirken, sondern wie aufgehende Tageshelligkeit. Er bricht durch die Sprossen wie durch ein echtes Fenster.
+**Schritt 5: Hauptbild vorzeichnen.**
+Inti zeichnet die konzentrische Mosaikgrundform: ein zentrales rundes Feld (etwa 5 cm Durchmesser) und um es herum die Konturen der fünf Steine, jeder mit eigener Form. Sie achtet auf gleichmässige Abstände und auf eine ruhige geometrische Wirkung.
 
-**Schritt 6: Titelblock.**
-Mit kräftiger Schrift (Edding oder breite Feder) schreibt Inti den Titel oben in zwei Zeilen. Die Ziffer 4 kann etwas grösser und in Hellblau ausgeführt werden, damit sie zur Couvertfarbe der Frage 4 korrespondiert.
+**Schritt 6: Die fünf Steine gestalten.**
+Im Uhrzeigersinn beginnend bei 12 Uhr im Mosaik:
+1. Stein 1 (oben): Testblatt mit Häkchen und EN-Marker, *Standardisiert*
+2. Stein 2 (oben rechts): Uhr oder drei Augen, *Prozess*
+3. Stein 3 (unten rechts): zwei Köpfe mit Dolmetscher-Zeichen, *Eltern*
+4. Stein 4 (unten links): überlappende Sprechblasen, *Mehrsprachig*
+5. Stein 5 (oben links): Treppenpfeil oder Gradient, *Dynamisch*
 
-**Schritt 7: Merksatzband.**
-Unter dem Fenster zieht Inti ein schmales Band (etwa 2 cm Höhe), das sie ganz dezent hellblau hinterlegt (verdünntes Aquarell). Hinein schreibt sie den Merksatz in einer ruhigen, gut lesbaren Druckschrift. Der Satz darf nicht zu eng gesetzt sein.
+Jeder Stein hat eine eigene Farbtönung in Pastellnuancen (helles Gelb, Sand, warmes Beige, Hellocker, Pfirsich). Damit wirkt das Mosaik als zusammengehörig, ohne monochrom zu werden.
 
-**Schritt 8: Portraits-Galerie.**
-Die fünf Portraits (oder vier, falls Reis weggelassen wird) werden in einer leicht gebogenen Reihe entlang der unteren Krümmung des Zentrums platziert, mit etwa 1.5 cm Abstand zueinander. Inti schneidet die Köpfe sauber aus, klebt sie mit Fotokleber oder doppelseitigem Klebeband auf. Unter jedem Portrait schreibt sie mit einer feinen Feder den Namen und das Stichwort. Wichtig: gleiche Augenhöhe der Portraits, damit die Reihe ruhig wirkt. Das prüft Inti durch eine ganz feine Bleistiftlinie, die als Augenhöhenrichtlinie dient und am Ende wegradiert wird.
+**Schritt 7: Zentralfeld mit S.**
+Im zentralen runden Feld zeichnet Inti ein Porträt-Detail von S., etwa Schulter und Kopf, mit einer Schachfigur in der Hand. Das Porträt darf bewusst skizzenhaft bleiben, weil das Mosaik den vollen Kontext liefert. Auf der Schachfigur ein winziger Goldfunken.
 
-**Schritt 9: Karten-Lasche.**
-Aus hellblauem Tonpapier schneidet Inti eine schmale Tasche, die maximal 12 cm breit und 4 cm hoch ist (sie muss A6-Karten aufnehmen können, also längsseitig orientiert). Sie klebt die Tasche mit dem unteren Rand und den Seiten auf das Plakat, lässt die obere Kante offen. Beschriftung: *Q4 SOLUX-Karten*.
+**Schritt 8: Goldfaden ziehen.**
+Mit einem feinen Goldstift oder dünner Goldfarbe zieht Inti einen Faden, der die fünf Steine miteinander verbindet. Der Faden läuft durch das Zentralfeld hindurch, sodass S. nicht ausserhalb des Mosaiks steht, sondern Teil seines Verbunds ist. Wichtig: Der Faden muss dünn bleiben, damit er die Steine nicht überlagert.
 
-**Schritt 10: Karten beschriften und einlegen.**
-Die fünf Karten werden ausgeschnitten oder gefaltet, beidseitig beschriftet, in die Lasche gelegt. Reihenfolge: 4.1 vorne, dann 4.2 bis 4.5.
+**Schritt 9: Banner mit Merksatz.**
+Inti setzt das Band über dem Mosaik mit dem Leitsatz *Kein Einzeltest hat das letzte Wort.* Optional unter dem Mosaik der Subbanner *Triangulation als diagnostische Norm.*
 
-**Schritt 11: Kontrollblick und Korrekturen.**
-Inti tritt zwei Meter zurück und prüft, ob die Reihenfolge der Schichten klar ist, die Chimäre ruhig wirkt, die Portraits leserlich beschriftet sind, das Sprossenkreuz nicht durch die Chimäre zerstört wird, der Merksatz auf einen Blick lesbar ist. Korrekturen jetzt. Später ist es schwerer.
+**Schritt 10: Portraits-Galerie.**
+Inti klebt die fünf Köpfe in einer leicht gebogenen Reihe entlang der oberen Kante der freigelegten Fläche, also nahe der Aussenkante des Donutsegments. Reihenfolge: Stamm, Müller-Oppliger, Baudson, Gauck/Reimann (Doppelportrait), Haag (oder Alternative). Unter jedem Portrait Name und Stichwort.
 
-**Schritt 12: Versiegelung (optional).**
-Falls Inti das Plakat öfter transportiert, kann sie es mit einer matten Mattlack-Spray-Schicht oder einer transparenten Schutzfolie versiegeln. Aquarell ist wischempfindlich. Wichtig: Vor dem Versiegeln die Couverts und die Lasche schützen, weil sie geöffnet werden müssen, also nicht versiegeln.
+Bei Position 12 Uhr ist die Reihe der Portraits oben sichtbar, was visuell den Effekt hat, dass die diagnostischen Autoritäten *über* dem Mosaik schweben und es bezeugen. Diese Anordnung ist im Vortrag eine elegante Geste: Inti deutet auf die Köpfe und sagt *Diese fünf diagnostischen Stimmen tragen das Mosaik.*
 
-## Eine Skizze als Layout-Anker
+**Schritt 11: Karten-Lasche und Karten.**
+Falls die Lasche auf dem Deckel sitzt: bereits in Schritt 3 angebracht. Karten beidseitig beschriften, einlegen.
 
-Hier eine schematische Übersicht, wie das fertige Zentrum proportional und in der Reihenfolge wirken soll:## Drei Hinweise zum Schluss
+**Schritt 12: Kontrollblick.**
+Inti tritt zwei Meter zurück und prüft:
+1. Erscheint das Mosaik als zusammengehörige Form, nicht als fünf getrennte Steine?
+2. Ist das Porträt von S. im Zentralfeld erkennbar, ohne dominant zu wirken?
+3. Verbindet der Goldfaden die fünf Steine deutlich, ohne sie zu überlagern?
+4. Sind die fünf Portraits ruhig in der oberen Reihe?
+5. Ist die Aussensicht (durchgekreuzter WISC) als methodische Kritik erkennbar, nicht als Tests-Ablehnung?
+6. Ist der Goldfunken auf der Schachfigur winzig genug, um nicht aufzufallen, aber gross genug, um das Echo zum Zentrum zu tragen?
 
-**Erstens, die Chimäre ist Intis künstlerische Signatur, nicht das Hauptargument.** Wenn die Examinatorin das Bild gar nicht thematisiert, muss Inti die Chimäre nicht aktiv erklären. Wenn die Examinatorin nachfragt, antwortet Inti in zwei Sätzen: *Die Figur ist mein bildlicher Anker für die 2e-Maskierungslogik nach Baum und Schader. Im Zentrum steht sie ganz, weil SOLUX der Erscheinungsraum ist, in dem die zusammengesetzte Wesenheit eines Kindes wahrgenommen werden darf.* Mehr ist nicht nötig. Die Argumentation trägt sich auch ohne sie.
+**Schritt 13: Probelauf.**
+Inti spielt die Aufdeckung mehrmals. Bei Frage 1 ist die Erzähllogik anders als in den anderen Bereichen: Inti zeigt zuerst den durchgekreuzten WISC und das Lehrer:innenurteil, hebt dann den Deckel und sagt: *Das war das Bild, das die Schule zuerst sah. Was sich darunter zeigt, ist nicht eine andere Wahrheit, sondern eine vollständigere.* Diese Formulierung ist diagnostisch präzise und macht im Vortrag einen guten Eindruck.
 
-**Zweitens, die Portraits sind der wissenschaftliche Anker.** Sie sind das, was die Visualisierung von einem schönen Plakat zu einer fachlichen Argumentationslandkarte macht. Inti kann im Vortrag gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger.* Das wirkt fachlich seriös und gibt der Visualisierung eine Tiefe, die Symbole allein nicht haben.
+## Layout-Skizze## Drei Hinweise zum Schluss
 
-**Drittens, das Zentrum darf nicht überfüllt sein.** Die fünf Schichten sind klar aufgeteilt, und jede Schicht hat ihre eigene Aufgabe. Wenn Inti versucht, in einer Schicht zu viel unterzubringen (etwa Strukturmerkmale plus Erklärungstexte plus Symbole plus Zitate), kippt die Lesbarkeit. Reduktion ist hier wissenschaftlich produktiv: Was nicht im Zentrum steht, steht in den Karten oder in den Ringbereichen oder in Intis Gedächtnis.
+**Erstens, Multiperspektivität ist nicht Test-Addition.** Die häufigste Fehldeutung der Frage 1 ist die Vorstellung, multiperspektivische Diagnostik bedeute, möglichst viele Verfahren nebeneinanderzulegen. Das ist nicht gemeint. Der Goldfaden im Mosaik trägt eine andere Pointe: Triangulation. Die fünf Quellen werden *miteinander verwoben*, nicht summiert. Wenn die Examinatorin nachfragt, was der methodische Unterschied zwischen Triangulation und Addition sei, hat Inti eine fertige Antwort: *Triangulation prüft, ob unterschiedliche Quellen einander stützen oder widersprechen, und nutzt Widersprüche als diagnostisches Material. Addition stapelt Verfahren, ohne ihre Verhältnisse zu reflektieren.* Genau dieses Verhältnis macht der Goldfaden visuell sichtbar.
 
-Wenn das Zentrum gebaut ist, können wir im nächsten Schritt entweder zum nächsten Bereich übergehen (Vorschlag: Ring 12 Uhr, Frage 1 *Diagnostisches Mosaik*, weil Inti das ohnehin zuerst entfaltet), oder ich erstelle Inti die fünf Frage-4-Karten als druckfertiges Markdown- oder PDF-File mit Vorder- und Rückseite, das sie nur noch ausschneiden muss.
+**Zweitens, der durchgekreuzte WISC ist eine methodische Geste, nicht eine Tests-Ablehnung.** Das ist die heikelste Stelle der Aussensicht. Wenn Inti die Geste falsch positioniert, entsteht der Eindruck, sie lehne standardisierte Verfahren grundsätzlich ab. Das wäre fachlich falsch und im Vortrag verteidigungsschwach. Die richtige Lesart ist: *Der WISC in der vorgegebenen sprachlichen Form ist in S.s Konstellation unbrauchbar, weil sprachgebunden. In englischer Sprache durchgeführt liefert er valide Daten und gehört als Stein 1 ins Mosaik.* Inti macht das deutlich, indem das Kreuz nur über die Sprachzeile gezogen wird, nicht über das ganze Testblatt. In der gezeigten Skizze ist das Kreuz noch zu gross; Inti reduziert es auf die Sprachzeile und behält den Rest des Testblatts intakt.
+
+**Drittens, Position 12 Uhr macht diesen Bereich zum visuellen Einstieg.** Wenn Inti im Vortrag mit der Eröffnung am ungeöffneten Plakat beginnt und dann zur ersten gewählten Frage übergeht, fällt der Blick der Examinator:innen zunächst auf den oberen Rand des Donuts. Frage 1 sitzt dort. Auch wenn Inti mit einer anderen Frage beginnt, ist dieser Bereich der erste, den die Examinator:innen *sehen* werden, sobald sie das Plakat betrachten. Das hat zwei Konsequenzen. Erstens: Die Aussensicht von Frage 1 muss besonders sorgfältig komponiert sein, weil sie der erste Eindruck des ganzen Plakats ist. Zweitens: Die Lupe als Leitsymbol auf dem Deckel funktioniert in dieser Position als Leseanweisung für das ganze Plakat. Die Lupe sagt: *Hier wird genau hingeschaut.* Diese Botschaft trägt nicht nur Frage 1, sondern den ganzen Sichtbarkeitszirkel.
+
+Damit ist die Plakatebene komplett. Das Zentrum (Frage 4) und die vier Ringbereiche (Fragen 1, 2, 3, 5) sind je in der Drei-Schicht-Architektur ausgearbeitet, mit fünf Karten pro Couvert, fünf Portraits pro Bereich, einem zentralen Hauptbild und einem dezenten Goldfunken-Echo, das die Ringbereiche mit dem Zentrum verbindet.
+
+Wenn Inti möchte, schlage ich für die nächsten Schritte zwei Optionen vor. Erstens: das **Joker-Couvert** mit fünf Ergänzungsfragen-Karten in neutralem Grau, das die fragenübergreifenden Themen abdeckt (Bildungsgerechtigkeit, empirische Evidenz für Enrichment, Übertritt in die Sekundarstufe, Twice Exceptionality, Stress und Lernen). Zweitens: eine **druckfertige Markdown- oder LaTeX-Zusammenstellung** aller 25 bereichsspezifischen Karten plus 5 Joker-Karten zum Ausdrucken und Ausschneiden. Beides ist möglich; sag mir, in welcher Reihenfolge Inti das gerne hätte.
