@@ -1,0 +1,685 @@
+
+--- Buchseite 183 (idx 0, len=2281) ---
+Zur Bedeutung der graphomotorischen Prozesse  
+beim Schreiben(lernen)  
+ 
+Angelika Speck-Hamdan/Peter Falmann/Stefan Heß/Eva 
+Odersky/Angelika Rüb 
+ 
+ 
+ 
+ 
+1. Einführung 
+ 
+Die Tätigkeit des Schreibens erfordert ein komplexes und sehr fein austariertes 
+Zusammenspiel miteinander zusammenhängender Einzelprozesse; dabei gehört 
+die Schreibbewegung zu den hierarchieniedrigen Komponenten (Tor-
+rance/Galbraith 2006), die oftmals als so selbstverständlich angesehen werden, 
+dass sie in den gängigen Modellen zum Schreibprozess entweder überhaupt kei-
+ne oder nur eine marginale Erwähnung finden (Flower/Hayes 1980, Hayes 2006, 
+Ludwig 1983, Philipp 2014). Die grundlegende Bedeutung der Handschreibfä-
+higkeiten darf jedoch gerade für den Grundschulunterricht nicht verkannt wer-
+den. Denn Schreibanfänger/innen müssen nicht nur lernen, ihre Gedanken in 
+Texte umzuformen, sondern sie müssen sich gleichzeitig die technischen Fertig-
+keiten des Schreibens mit der Hand aneignen. Zu Beginn des Schreiblernprozes-
+ses wird die Aufmerksamkeit der Schreibenden noch weit mehr von den hierar-
+chieniedrigen Prozessen in Anspruch genommen als später. Ziel des Schreiben-
+lernens in der Grundschule muss eine weitgehende Automatisierung der motori-
+schen Prozesse sein, damit Aufmerksamkeit für die hierarchiehöheren Prozesse 
+des Schreibens frei wird. Ist die Schreibbewegung unzureichend automatisiert, 
+kann dies Konsequenzen für den gesamten Schreibprozess haben und schließlich 
+auch zu weiter reichenden Frustrationserlebnissen führen (Graham/Weintraub 
+1996, Jones/Christensen 1999). Daher lohnt es sich, den Fokus auf die Anfänge 
+des Schreibens in der Grundschule zu lenken, bei dem es neben guter Leserlich-
+keit auch um das Einschleifen und Automatisieren von Schreibbewegungen, also 
+um die Geläufigkeit geht. 
+Die Beurteilung von Geläufigkeit ist schwierig, weil dabei der Prozess des 
+Schreibens erfasst werden muss. Am besten gelingt dies mithilfe einer digitalen 
+Aufzeichnungstechnik, die Einblicke in den präzisen Bewegungsablauf auf und 
+über dem Papier erlaubt, was durchaus überraschend sein kann. So entpuppen 
+sich manche „saubere“ Schriften als wenig geläufige Schriften, während andere 
+wenig verbundene Schriften durchaus geläufig sind. Sichtbar wird dies erst in
+
+--- Buchseite 184 (idx 1, len=2518) ---
+der Zusammenschau der Bewegungen auf dem Papier und derjenigen in der Luft. 
+Da anzunehmen ist, dass sich der Grad der Geläufigkeit im Lauf der Entwick-
+lung steigert, lohnt sich ein Blick auf verschiedene Schreibentwicklungsstadien, 
+wie ihn die beiden ersten hier vorgestellten Studien von Peter Falmann und Eva 
+Odersky erlauben. Mit Verzögerungen, die beim Schreiben bestimmter Wortbe-
+standteile auftreten, befasst sich die dritte der hier aufgeführten Studien (Stefan 
+Heß). Sie sind deshalb von Interesse, weil sie nicht nur Hinweise auf motorische, 
+sondern auch auf sprachliche Prozesse geben können, die beim Schreiben paral-
+lel ablaufen müssen. Für die Frage dieses Zusammenhangs ist ebenso die Leser-
+lichkeit von Bedeutung; denn sie unterstützt weitere wichtige Prozesse des 
+Schreibens, wie etwa das Überarbeiten eines Textes. Wie Leserlichkeit zuverläs-
+sig erfasst werden kann, beleuchtet die vierte Studie (Angelika Rüb). 
+ 
+ 
+2. Die schreibmotorische Entwicklung von Schulanfängern: 
+Ergebnisse aus einer Erhebung zur „Grundschrift“  
+ 
+Anlass zu dieser Studie gab die wissenschaftliche Begleitung der Erprobung der 
+so genannten „Grundschrift“ an sieben bayerischen Schulen im Schuljahr 
+2011/12. Die „Grundschrift“ ist eine Schriftvorgabe, die einer handgeschriebe-
+nen Druckschrift entspricht, aus der bewegungsökonomische Verbindungen 
+zwischen den Buchstaben direkt entwickelt werden. Im Gegensatz zu den gängi-
+gen Ausgangsschriften ist jedoch die Forderung nach einer durchgängigen Ver-
+bindung aufgehoben. Unterschiedliche Angebote des Verbindens von Buchsta-
+ben sollen jedes Kind dabei unterstützen, sich seinen optimalen Weg zu einer 
+flüssigen und leserlichen Handschrift individuell zu erarbeiten (Bartnitzky 2011).  
+ 
+ 
+2.1 Forschungsdesign 
+ 
+Unter der primären Zielsetzung, die Entwicklung der graphomotorischen Fähig-
+keiten der teilnehmenden Schüler/innen zu erfassen, wurden zwei Messzeitpunk-
+te angesetzt, einer am Ende des ersten und einer am Ende des zweiten Schul-
+jahrs. Beteiligt waren im ersten Jahr 301 Schüler/innen (1. und 2. Jahrgangsstu-
+fe) aus insgesamt 18 Klassen, wovon vier Klassen gemischte Eingangsstufen 
+waren. Im zweiten Erhebungsjahr waren zusätzlich zu den Grundschriftklassen 
+drei Parallelklassen der teilnehmenden Grundschulen beteiligt, deren Schü-
+ler/innen das Schreiben mit der Vereinfachten Ausgangsschrift (VA) erlernten. 
+Die Anzahl der VA schreibenden Schüler/innen betrug 57. Insgesamt nahmen im 
+zweiten Erhebungsjahr 370 Schüler/innen teil.
+
+--- Buchseite 185 (idx 2, len=2786) ---
+Die wichtigsten Fragestellungen der Studie betreffen zum einen die Flüs-
+sigkeit bzw. Geläufigkeit der Schriften insgesamt und zum anderen die Rolle der 
+verwendeten Ausgangsschrift. Zur Erhebung der Flüssigkeit der Schrift wird in 
+vielen Studien versucht, über das Schreibtempo durch Zählen der in vorgegebe-
+ner Zeit produzierten Buchstaben auf die Geläufigkeit zu schließen (Graham et 
+al. 1998, Bara/Morin 2013). Genauere Ergebnisse erhält man jedoch durch die 
+computerbasierte „kinematische Analyse von Schreibbewegungen“, wobei diese 
+in so genannte „strokes“ (Auf- und Abstriche) zerlegt werden (Mai/Marquardt 
+1995: 21). Die durch diese Analyse entstehenden Kennzahlen (z. B. zur Schreib-
+frequenz) bieten die Möglichkeit genauerer Vergleiche von Schriften. Die 
+Schreibfrequenz für eine ausreichend schnelle Handschrift wird mit vier bis 
+sechs Hertz (vgl. Mai et al. 1997) angegeben. Bei Schreibanfängern geht Mahr-
+hofer (2004) von einem Richtwert von drei Hertz aus, der auch hier zugrunde 
+gelegt wird. Die kinematische Analyse erlaubt zudem die Erfassung des Automa-
+tisierungsgrads einer Bewegung. In der Fachliteratur wird das „Maß für den 
+Automatisierungsgrad einer Bewegung“ als NIV (Number of Inversions in Ve-
+locity) beschrieben, die „bei je einem Auf- oder Abstrich der Anzahl der Rich-
+tungsinversionen in der Geschwindigkeit“ entspricht (Marquardt 2011: 383f.). 
+Dieser Wert ist im Optimalfall 1.0 (NIV = 1). Vorhandene Studien gehen von 
+einem Richtwert für automatisierte Bewegungen bei 1.5 aus (Quenzel 1994, 
+zit. nach Mahrhofer 2004: 282). Für die aktuelle Erhebung wurde die Analy-
+sesoftware CSWin (Version 2011) eingesetzt, die sich bereits als zuverlässiges 
+Forschungsinstrument erwiesen hatte (Mahrhofer 2004, Hurschler Lichtsteiner et 
+al. 2010, Wicki et al. 2014). Erhoben wurde die für CSWin entwickelte, zweck-
+gemäß angepasste Standarduntersuchung: Basierend auf den Grundelementen 
+der Schrift wurden die Fingerbewegungen, die Handgelenkbewegungen und die 
+kombinierten Finger- und Handgelenkbewegungen aufgenommen. Zusätzlich 
+wurden die verschiedenen Ebenen der Schrift (Buchstaben-, Wort- und Satzebe-
+ne) untersucht. 
+ 
+ 
+2.2 Ergebnisse zur ersten Erhebung (Querschnitt: 1. und 2. Jahrgangsstufe) 
+ 
+Die Mehrheit der Schüler/innen in der ersten Jahrgangsstufe (66,9 %) ist fähig, 
+graphomotorische Grundbewegungen flüssig auszuführen, der durchschnittliche 
+NIV liegt aber noch über dem Richtwert (M = 1.72, SD = 1.42). Etwas mehr 
+Schüler/innen der zweiten Jahrgangsstufe (86,0 %) verfügen über geläufige 
+Grundbewegungen, und der Durchschnitt der NIV-Werte liegt bereits im Norm-
+bereich (M = 1.23, SD = 0.68). Die Schreibfrequenz ist bei den Erstklässlern 
+unter dem Richtwert (M = 2.77; SD = 0.99), dafür sind die Zweitklässler durch-
+
+--- Buchseite 186 (idx 3, len=2711) ---
+schnittlich schon im Normbereich für Schreibanfänger (Mahrhofer 2004) 
+(M = 3.33, SD = 0.86). Insgesamt verfügt die Mehrheit der Erst- und Zweitkläss-
+ler über die für das Schreiben benötigten Grundfähigkeiten, wobei die Streubrei-
+te innerhalb der Klassen sehr groß ist und einzelne Klassen sich auch signifikant 
+voneinander unterscheiden, und zwar sowohl in der ersten (H1 = 74.82, 
+p < 0.001) als auch in der zweiten Jahrgangsstufe (H = 20.68, p < 0.05). Die 
+Untersuchung der Flüssigkeit (NIV) auf Wort- und Satzebene zeigt, dass weder 
+die Erstklässler (M = 2.28, SD = 1.41) noch die Zweitklässler (M = 1.66, 
+SD = 0.77) in der Lage sind, ihre vorhandenen Fähigkeiten optimal beim Schrei-
+ben einzusetzen. 80,9 % der Erstklässler und 63,5 % der Zweitklässler sind auch 
+– gemessen am Richtwert von 3 Hz – noch zu langsam. Diese Ergebnisse bestä-
+tigen die Befunde vorheriger Studien sowohl über die Probleme der Umsetzung 
+vorhandener motorischer Fähigkeiten beim Schreiben auf Wort- und Satzebene 
+als auch über die unabgeschlossene schreibmotorische Entwicklung bis zum 
+Ende der zweiten Jahrgangsstufe (Mahrhofer 2004). 
+ 
+ 
+2.3 Ergebnisse zur zweiten Erhebung (Längsschnitt) 
+ 
+Die Grundbewegungen der Schüler/innen im Lauf des Erhebungszeitraums (etwa 
+ein Jahr) werden insgesamt geläufiger, sowohl von der ersten (NIV: M = 1.72, 
+SD = 1.42) zur zweiten Jahrgangsstufe (M = 1.23, SD = 0.68) als auch von der 
+zweiten (M = 1.23, SD = 0.68) zur dritten Jahrgangsstufe (M = 1.16, SD = 0.37). 
+Auf der Ebene des Schreibens (Wörter und Sätze) findet ebenfalls eine entspre-
+chende Entwicklung statt. Von der ersten (M = 2.28, SD = 1.41) zur zweiten 
+Jahrgangsstufe (M = 1.57, SD = 0.67) werden die Schriften automatisierter, lie-
+gen aber genau wie die der Zweitklässler im Jahr davor durchschnittlich noch 
+außerhalb des Bereichs routinierter Schreiber. Von der zweiten (M = 1.66, 
+SD = 0.77) zur dritten Jahrgangsstufe (M = 1.37, SD = 0.39) findet eine markan-
+te Verbesserung statt. Die Streubreite innerhalb einzelner Klassen verringert sich 
+insbesondere in der dritten Jahrgangsstufe. Die Klasseneffekte bleiben aber so-
+wohl in der zweiten (H = 86.38, p < 0.001) als auch in der dritten Jahrgangsstufe 
+(H = 21.52, p < 0.001) erhalten. Die Schreibfrequenz und damit auch das 
+Schreibtempo steigen, wobei 60,9 % der Zweitklässler und 32,9 % der Dritt-
+klässler gegenüber dem Richtwert immer noch zu langsam sind. 
+ 
+ 
+                                                          
+1 Der nichtparametrische Kruskal Wallis Test (H-Test) wurde als robuste Alternative zur parametri-
+schen Varianzanalyse angewendet, da bei Prüfung der Datensätze nicht von einer Normalverteilung 
+ausgegangen werden konnte.
+
+--- Buchseite 187 (idx 4, len=2334) ---
+2.4 Vergleich der Grundschrift mit der Vereinfachten Ausgangsschrift 
+ 
+Beim Vergleich der beiden Ausgangsschriften ergeben sich keine signifikanten 
+Unterschiede in der zweiten Jahrgangsstufe, weder bezüglich der Geläufigkeit 
+(NIV: Grundschrift: M = 1.58, SD = 0.66; VA: M = 1.61, SD = 0.56) noch des 
+Tempos (Frequenz: Grundschrift: M = 2.83, SD = 0.73; VA: M = 2.74, 
+SD = 0.69). Diese Tendenz bestätigt sich in der dritten Jahrgangsstufe sowohl für 
+die Geläufigkeit der Schrift (Grundschrift: M = 1.38, SD = 0.38; VA: M = 1.34, 
+SD = 0.30) als auch für das Schreibtempo (Grundschrift: M = 3.32, SD = 0.77; 
+VA: M = 3.41; SD = 0.80). Die Streubreite ist in den VA-Klassen ähnlich groß 
+wie in den Grundschriftklassen. Insgesamt lässt sich bezüglich der Flüssigkeit 
+der Ausgangsschriften kein signifikanter Unterschied feststellen, wobei die ge-
+ringe Anzahl der VA schreibenden Klassen und Schüler/innen ebenso einen 
+Einfluss auf die Ergebnisse haben kann wie die noch nicht vorhandene Routine 
+der Lehrpersonen bei der Einführung der „Grundschrift“. 
+ 
+ 
+2.5 Fazit 
+ 
+Schulanfänger/innen verfügen über sehr unterschiedlich ausgeprägte feinmotori-
+sche Fähigkeiten und setzen diese beim Schreiben zudem nicht optimal ein. Die 
+graphomotorischen Fähigkeiten der Schüler/innen verbessern sich zwar von Jahr 
+zu Jahr, aber die schreibmotorische Entwicklung der Kinder ist am Ende der 
+dritten Jahrgangsstufe noch nicht abgeschlossen. Die schriftbezogenen Unter-
+schiede sind nicht signifikant, was darauf hindeutet, dass andere, unterrichtsbe-
+zogene Merkmale eine wichtigere Rolle bei der schreibmotorischen Entwicklung 
+spielen als die Ausgangschrift. 
+ 
+ 
+ 
+3. Evaluation der Handschriften und des Schreibens am Ende der 4. Klasse 
+ 
+Kinder, die als Schulanfänger zunächst die Druckschrift, dann in der 2. Klasse 
+eine Schreibschrift lernen, verwenden am Ende der 4. Jahrgangsstufe in der Re-
+gel auch eine Schreibschrift als ihre Handschrift – so die Vermutung. Untersu-
+chungen dazu gibt es in Deutschland jedoch nicht. 
+Graham et al. (1998) konnten in einer Studie mit 600 Kindern der 4. bis 
+9. Jahrgangsstufe, die ebenfalls zunächst Druckschrift, dann Schreibschrift ge-
+lernt hatten, zeigen, dass in der 4. Klasse (N = 100) 40 % der Kinder Druck-
+schrift, 25 % Schreibschrift und 35 % „gemischt“ (davon 21 % „mixed-mostly
+
+--- Buchseite 188 (idx 5, len=2772) ---
+manuscript“ und 14 % „mixed-mostly cursive“) schreiben. Dass sich die Druck-
+schrift als zuerst gelernte Schrift durchzusetzen scheint, bestätigt eine aktuellere 
+Studie von Bara/Morin (2013), in der von 58 kanadischen Viertklässlern aus 
+Québec über die Hälfte Druckschrift, 10 % Schreibschrift und etwa ein Drittel 
+„gemischt“ schreiben. Diesen Primäreffekt können die Autorinnen insbesondere 
+durch den Vergleich mit 50 französischen Kindern, die von Beginn an nur 
+Schreibschrift lernten, bestätigen: Keines der Kinder schrieb Druckschrift oder 
+„mixed, mostly manuscript“.  
+Weit verbreitet, aber weitgehend unhinterfragt ist die Annahme, schnelles 
+und flüssiges Schreiben sei nur mit verbundenen (Schreib-)Schriften möglich. In 
+oben erwähnten Studien wurde jeweils die Geschwindigkeit beim Abschreiben 
+eines Textes gemessen. Graham et al. (1998) stellen dabei fest, dass Mädchen 
+schneller schreiben als Jungen und dass „gemischte“ Schriften schneller ge-
+schrieben werden als reine Druck- oder Schreibschrift, die sich wiederum nicht 
+signifikant voneinander unterscheiden. Unter Anwendung derselben Methode 
+kommt die kanadisch-französische Vergleichsstudie zu dem Ergebnis, dass in 
+der 4. Klasse die Schrift am schnellsten geschrieben wird, die in der ersten Klas-
+se gelernt wurde, in der 5. Klasse jedoch „gemischte“ Schriften schneller sind als 
+entweder Druck- oder Schreibschrift. Insgesamt war auch hier die Schreibschrift 
+die langsamste Schriftform (Bara/Morin 2013). Beide Studien betonen die Be-
+deutung der „mixed“-Schriften, deren Anteil nach der 4. Klasse zunimmt und 
+deren Nutzung und Weiterentwicklung eine Voraussetzung für immer flüssigeres 
+Schreiben zu sein scheint. Das vermuten auch Mai/Marquardt (1995), die aus der 
+Analyse routinierter Erwachsenenschriften ableiten, dass der Teilverbundenheit 
+bei der Entwicklung einer individuellen Handschrift eine Schlüsselrolle zu-
+kommt. Anders als die vorgenannten Studien beruhen ihre Aussagen zur „Flüs-
+sigkeit“ von Schriften auf kinematischen Analysen, bei denen das Schreiben auf 
+einem Grafiktablett mit einer speziellen Software (hier: CSWin) aufgezeichnet 
+und ausgewertet wird (Mai et al. 1997). Die Daten zur Schreibfrequenz, zum 
+Automatisierungsgrad der Schrift, zum Schreibdruck usw., die man dabei erhält, 
+lassen deutlich fundiertere Analysen zu als das Zählen geschriebener Wörter pro 
+Zeiteinheit (Mai/Marquardt 1995, Wicki et al. 2014).  
+ 
+ 
+3.1 Anlage der Studie  
+ 
+Die Erhebungen erfolgten zwischen Mai und Juli 2014 in 23 vierten Klassen. 
+Insgesamt 336 Kinder nahmen an dieser Vollerhebung teil. Nur Kinder, deren 
+Eltern ihr Einverständnis nicht gaben, wurden ausgeschlossen. Beteiligt waren 
+182 Mädchen und 164 Jungen, 8,3 % der Kinder schrieben mit der linken Hand.
+
+--- Buchseite 189 (idx 6, len=2252) ---
+171 der Kinder lebten in einer Großstadt, 41 in deren Ballungsraum und 124 
+Kinder in ländlichen Gemeinden. Der Anteil mehrsprachig aufwachsender Kin-
+der lag bei einem Drittel. Alle Kinder hatten die Druckschrift als Erstschrift und 
+dann ab der 2. Jahrgangsstufe die Vereinfachte Ausgangsschrift gelernt. 
+ 
+ 
+3.2 Methode 
+ 
+Von jedem Kind wurden Schreibproben (Grundbewegungen, einzelne Wörter, 
+ein diktierter und ein abgeschriebener Satz, drei Aufgaben zum freien Schreiben) 
+im Programm CSWin 2012 aufgenommen, kinematisch analysiert und anschlie-
+ßend statistisch ausgewertet. Während der Aufnahmen erfassten die Versuchslei-
+ter kindbezogene Daten (Geschlecht, Händigkeit, Schriftart, Stifthaltung, Kör-
+perhaltung) auf einem Beobachtungsbogen. 
+ 
+ 
+3.3 Erste Ergebnisse zu den am Ende der 4. Klasse verwendeten Schriften 
+ 
+Von den 336 teilnehmenden Kindern schrieben 53,3 % in Schreibschrift, 36,3 % 
+in Druckschrift und 10,4 % nutzten teilverbundene Schriften. Die Einordnung 
+der Schriften in diese drei Kategorien erfolgte bisher nach Augenschein (Produkt 
+und Beobachtung während des Schreibprozesses); zurzeit werden insbesondere 
+die teilverbundenen Schriften genauer definiert und qualitativ analysiert. Denn 
+hinter diesen „mixed“-Schriften verbergen sich neben sehr ungelenken Schriften, 
+die Elemente beider Schriften willkürlich zu mischen scheinen, auch bewegungs-
+ökonomisch hervorragend entwickelte Handschriften, die entweder durch die 
+Verbindung einzelner Druckschriftbuchstaben oder durch die Auflösung von 
+Verbindungen der Schreibschrift entstanden sind. Interessant ist schon auf 
+Grundlage der bis jetzt vorliegenden Daten die Unterscheidung nach dem Ge-
+schlecht: 65,4 % der Jungen schrieben Schreibschrift, aber nur 42,0 % der Mäd-
+chen, Druckschrift hingegen nutzten 27,2 % der Jungen, aber 44,8 % der Mäd-
+chen, teilverbunden schrieben 7,4 % der Jungen und 13,2 % der Mädchen. Auch 
+der Unterricht bzw. die Vorgaben der Lehrkräfte, welche Schriften genutzt wer-
+den dürfen, spielen offensichtlich eine wichtige Rolle: In mehreren Klassen 
+schreiben über 80 % oder sogar 90 % der Kinder Schreibschrift, in anderen 75 % 
+Druckschrift, während in wieder anderen Klassen alle drei Schriften nahezu 
+gleich verteilt sind.
+
+--- Buchseite 190 (idx 7, len=1618) ---
+3.4 Erste Ergebnisse zur „Flüssigkeit“: Schreibfrequenz und Automatisierung 
+ 
+Routiniertes (erwachsenes) Schreiben erfolgt mit einer Schreibfrequenz zwi-
+schen vier und sechs Hertz (vgl. Mai et al. 1997). Richtwerte für Viertklässler 
+liegen bislang nicht vor, so dass hier ein Grenzwert von 3 Hertz, wie ihn Mahr-
+hofer (2004) in ihrer Studie mit Erst- und Zweitklässlern beschreibt, zugrunde 
+gelegt wird – wenn auch davon auszugehen ist, dass mit einer Schreibgeschwin-
+digkeit von 3 Hertz den Anforderungen weiterführender Schulen nicht immer 
+genügt werden kann. Unter 3 Hertz bleiben bei den Schreibproben 44,3 % der 
+Jungen und 33 % der Mädchen, wobei für jedes Kind der Mittelwert aller sieben 
+Schreibaufgaben berechnet wurde. 
+Große Unterschiede zeigen sich wiederum zwischen den Schriften: 
+ 
+Tabelle 1: Frequenz des Schreibens 
+ 
+Schreibgeschwindigkeit 
+unter 3 Hertz 
+über 3 Hertz 
+Druckschrift 
+18,9 %  
+81,1 % 
+Schreibschrift 
+53,8 % 
+46,2 % 
+Teilverbundene Schrift 
+28,6 % 
+71,4 % 
+ 
+Legt man als Grenzwert für die Automatisierung – wie in Kapitel 2 erläutert 
+– NIV = 1.5 fest (Mahrhofer 2004), so ergeben sich folgende Werte: 
+ 
+Tabelle 2: Automatisierungsgrad des Schreibens 
+ 
+Automatisierung 
+NIV < 1,5 
+NIV > 1,5 
+Druckschrift  
+91,4 % 
+8,6 % 
+Schreibschrift 
+71,6 % 
+28,4 % 
+Teilverbundene Schrift 
+92,7 % 
+7,3 %  
+ 
+Die Ergebnisse zu Frequenz und Automatisierung der Schriften von Viert-
+klässlern lassen schon zu diesem noch vorläufigen Stadium der Datenauswertung 
+den Schluss zu, dass nicht mehr davon ausgegangen werden kann, flüssiges 
+Schreiben sei nur mit verbundenen Schriften möglich.
+
+--- Buchseite 191 (idx 8, len=2721) ---
+4. Zur Größe kognitiver Verarbeitungseinheiten in der handschriftlichen 
+Wortproduktion deutscher Grundschulkinder  
+ 
+Um das Erinnern von Wortschreibungen zu optimieren, werden Wortbestandteile 
+in größere Blöcke gruppiert (sog. Chunks; Kandel et al. 2011). Da Chunks den 
+räumlich-zeitlichen Verlauf der handschriftlichen Wortproduktion regulieren 
+(Kandel et al. 2011), können mithilfe computergestützter Echtzeit-Analysen des 
+Schreibverhaltens auch sprachliche Strukturen und Prozesse untersucht werden. 
+Nach Rapp/Fischer-Baum (2014) wird orthographisches Wissen mental als abs-
+trakter Code repräsentiert, der in Buchstaben, Mehrgraphen und Morpheme 
+strukturiert ist. Die Repräsentation von Silben sowie die Verallgemeinerbarkeit 
+von Forschungsergebnissen über einzelne Schriftsysteme hinaus sind ungeklärt. 
+Verzögerungen im Schreibverhalten lassen sich an Silbengrenzen finden 
+(z. B. Weingarten 1998). Das erbringt Evidenz für silbengroße Chunks. Jedoch 
+ist die Vorkommenshäufigkeit derjenigen Buchstabenpaare (sog. Bigramme), die 
+Silbengrenzen in Wörtern bilden (z. B. MD in HEM-DEN), häufig geringer als 
+die Frequenz der restlichen Bigramme (z. B. HE, EM, DE oder EN in HEM-
+DEN). Es ist aus kognitiver Perspektive folglich möglich, dass Buchstabenketten 
+nicht auf linguistischer, sondern auf statistischer Grundlage wie hoher gemein-
+samer Vorkommenshäufigkeit im Schriftsystem in n-gramme gechunkt werden. 
+Seltene Bigramme dienen dann der Segmentierung von Buchstabenketten. 
+Aus Entwicklungs- sowie deutschdidaktischer Perspektive ist offen, wann 
+Verarbeitungseinheiten entstehen sowie ob und inwiefern die Entwicklung durch 
+Konzeptionen schriftsprachlichen Anfangsunterrichts beeinflusst werden kann. 
+Diese unterscheiden sich u. a. in den Einheiten der Schrift, die von Beginn an 
+transparent und für das Lesen- und Schreibenlernen nutzbar gemacht werden 
+sollen (z. B. Grapheme oder Silben). Wortschreibungen könnten zu gegebenen 
+Zeitpunkten unterschiedliche orthographische Repräsentationen zugrunde liegen. 
+Das vorliegende Sprachexperiment2 lieferte, an Kandel et al. (2011) an-
+knüpfend, einen ersten Beitrag zur Rolle von Bigrammfrequenzen und Silben-
+strukturen bei Grundschulkindern im Deutschen. 
+ 
+ 
+4.1 Methode 
+ 
+Die Stichprobe umfasste N = 23 Erst- bis Viertklässler deutscher Muttersprache 
+einer Leipziger Grundschule. Nach Lehrerangaben deckt sie in jeder Jahrgangs-
+stufe das gesamte Spektrum an Lese- und Rechtschreibfähigkeiten ab. 
+                                                          
+2 Die Untersuchung wurde im Rahmen eines „Schulbezogenen Forschungsprojektes“ vom Zentrum 
+für Lehrerbildung und Schulforschung der Universität Leipzig mit einem Zuschuss unterstützt.
+
+--- Buchseite 192 (idx 9, len=2728) ---
+Als Maß wurde aus den handschriftlichen Wortschreibungen die mittlere 
+Bigrammproduktionsgeschwindigkeit in Zentimeter pro Sekunde abgeleitet. Die 
+Handschreibungen wurden durch eine Abschreibaufgabe elizitiert: Die Kinder 
+schrieben Wörter, die ihnen visuell in Blockbuchstaben über einen Monitor prä-
+sentiert wurden, ebenfalls in Blockbuchstaben ab. 
+Kandel et al. (2011) folgend, bezogen sich die experimentellen Manipulati-
+onen auf (1) die Bigrammfrequenzen sowie (2) die Position des seltensten Bi-
+gramms. Daraus folgten zwei Worttypen: Im Worttyp Gleich koinzidierten Sil-
+bengrenze und seltenstes Bigramm an dritter Bigrammposition (z. B. MD in 
+HEM-DEN oder UK in SPU-KEN). Im Worttyp Verschieden stellte das dritte 
+Bigramm ebenfalls eine Silbengrenze dar (z. B. ND in HAN-DEL oder IN in 
+SPI-NAT). Das seltenste Bigramm befand sich jedoch an erster oder zweiter 
+Position (z. B. HA in HAN-DEL oder PI in SPI-NAT), d. h. innerhalb der ersten 
+Silbe. Weitere linguistische Eigenschaften beider Worttypen wurden gematcht. 
+Wortmaterial und Frequenzen stammten aus der Alpha-Version des child-
+Lex-Korpus (Schroeder et al. im Druck). Die Kinder schrieben 12 (Jahrgangsstu-
+fe 1 und 2) bzw. 24 Wörter (3 und 4) je Worttyp. 
+Die Handschreibungen wurden mithilfe eines Stift-Tablets (Wacom Intuos 
+4) und einer Software (Eye and Pen 2) erfasst: Die Kinder schrieben mit einem 
+kabellosen Stift, der Tinte ausgab, auf ein Blatt Papier, das auf dem Stift-Tablet 
+lag. Die Software zeichnete den Schreibprozess auf, indem sie im Abstand von 
+fünf Millisekunden die räumlichen Koordinaten der Stiftspitze registrierte. 
+Bei der Auswertung wurden die manipulierten Bigrammpositionen vergli-
+chen, d. h. Bigramme innerhalb der ersten Silbe (z. B. PI in SPI-NAT) und Bi-
+gramme zwischen den beiden Silben (z. B. IN in SPI-NAT). Unter der Annahme 
+begrenzter kognitiver Kapazitäten sollten sich bei kognitiver Verarbeitung zu-
+sätzlicher Merkmale Verzögerungen an den korrespondierenden Stellen zeigen. 
+ 
+ 
+4.2 Erste Ergebnisse 
+ 
+Insgesamt brachte die Erhebung N = 840 Wortschreibungen hervor. Davon gin-
+gen N = 659 Wortschreibungen in die vorliegende Datenanalyse ein. Die folgen-
+den ausgewählten Ergebnisse konzentrieren sich auf die Jahrgangsstufen 2 bis 4: 
+Beim Worttyp Gleich (z. B. HEM-DEN oder SPU-KEN) wurden in allen Jahr-
+gangsstufen der Stichprobe die Bigramme zwischen den Silben (dritte Position) 
+langsamer als die Bigramme innerhalb der ersten Silbe (erste oder zweite Positi-
+on) geschrieben. An der dritten Position koinzidierten Silbengrenze und seltens-
+tes Bigramm. Wurden wie beim Worttyp Verschieden diese beiden Merkmale 
+dissoziiert, unterschied sich das Schreibverhalten zwischen den Jahrgangsstufen.
+
+--- Buchseite 193 (idx 10, len=2588) ---
+In der Jahrgangsstufe 2 wurde in Verschieden das seltenste Bigramm 
+(z. B. PI in SPI-NAT) langsamer als das Bigramm an der Silbengrenze (z. B. IN 
+in SPI-NAT) produziert. Im Unterschied dazu wurde in der Jahrgangsstufe 4 das 
+Bigramm an der Silbengrenze langsamer als das seltenste Bigramm verschriftet. 
+In der Jahrgangsstufe 3 wurden beide Bigramme (z. B. sowohl PI als auch IN in 
+SPI-NAT) mit annähernd gleicher Geschwindigkeit produziert. 
+ 
+ 
+4.3 Diskussion 
+ 
+In der Stichprobe spielen sowohl Bigrammfrequenzen als auch Silbenstrukturen 
+eine Rolle. Außerdem liegt ein Unterschied im Schreibverhalten zwischen den 
+Jahrgangsstufen vor. Während in der Jahrgangsstufe 2 die seltensten Bigramme 
+auch unabhängig vom Vorhandensein einer Silbengrenze langsamer produziert 
+werden, verhält es sich in Jahrgangsstufe 4 umgekehrt: Silbengrenzen werden 
+unabhängig vom Vorhandensein eines seltenen Bigramms langsamer geschrie-
+ben. Dies deutet in der Jahrgangsstufe 2 auf einen Bigrammfrequenzeffekt hin, in 
+der Jahrgangsstufe 4 dagegen auf einen Silbenstruktureffekt. In der Stichprobe 
+markiert die Jahrgangsstufe 3 offensichtlich eine Übergangsphase, da weder 
+Bigrammfrequenzen noch Silbenstrukturen die Befunde allein erklären. 
+Dies unterstützt die Annahme, dass Grundschulkinder (spätestens) ab Jahr-
+gangsstufe 2 statistische orthographische Regularitäten, hier Häufigkeiten ge-
+meinsamen Vorkommens von Buchstaben, verarbeiten können und dass Silben-
+strukturen (spätestens) ab Jahrgangsstufe 3 eine Rolle spielen. Jedoch muss noch 
+geklärt werden, ob sich bezüglich Letzterem vielmehr eine beginnende Sensitivi-
+tät für Frequenzen größerer statistischer Chunks wie Trigramme zeigt. Ferner ist 
+eine Überprüfung der Befunde bei größerem Stichprobenumfang angezeigt. 
+ 
+ 
+ 
+5. Die Leserlichkeit der Handschrift im Anfangsunterricht und ihre 
+Bedeutung für die Schreibkompetenzentwicklung  
+ 
+Die Leserlichkeit3 der Handschrift – als ein Merkmal des Produkts von Hand-
+schreibfähigkeiten – wurde in ihrer Bedeutung für die Entwicklung zahlreicher 
+Facetten der Schreibkompetenz im Anfangsunterricht bislang nicht untersucht. 
+                                                          
+3 Der zentrale Begriff der „Leserlichkeit“ (engl.: legibility) darf nicht verwechselt werden mit dem 
+Begriff der „Lesbarkeit“ (engl.: readability). Im Gegensatz zu Leserlichkeit kann Lesbarkeit mehr 
+oder weniger mit Verständlichkeit gleichgesetzt werden. Sie ergibt sich nicht nur aus der Art, wie die 
+einzelnen Buchstaben geschrieben sind, sondern hängt auch von semantischen und syntaktischen
+
+--- Buchseite 194 (idx 11, len=2554) ---
+Zwar kann anhand der Leserlichkeit der Handschrift nicht auf die zugrunde-
+liegenden Handschreibfähigkeiten geschlossen werden (Hurschler Lichtsteiner et 
+al. 2014), doch ist eine leserliche Handschrift auf verschiedene Weise förderlich 
+für den Schreiblernprozess eines Kindes im Anfangsunterricht: 
+ 
+1. 
+Das Memorieren der Buchstabenformen wird unterstützt, indem die selbst 
+geschriebenen Graphe eindeutige Formen aufweisen, das heißt leserlich 
+sind (Augst 1989). 
+2. 
+Für die ablaufenden höheren Prozesse ist es unverzichtbar, dass das bereits 
+Geschriebene leserlich ist (Hughes et al. 1983). Nur so kann ein begonnener 
+Satz sinnvoll zu Ende gebracht oder der bereits produzierte Text überarbei-
+tet werden (Hasert 2010). 
+3. 
+Eine oberflächliche Attribuierung motorischer Schwierigkeiten (Connelly et 
+al. 2006), ständige Versagenserlebnisse beim Schreibprozess und kumulie-
+rende Kompetenzrückstände mindern die Motivation der Kinder (Gra-
+ham/Weintraub 1996) und führen zu Enttäuschungen und schließlich zu 
+Frustration (Feder/Majnemer 2007). Es ist nicht verwunderlich, dass be-
+troffene Schüler/innen das Schreiben zunehmend vermeiden und nach und 
+nach ein negatives Schreibselbstkonzept aufbauen (Berninger et al. 1991). 
+Kinder mit einer leserlichen Schrift dagegen erhalten mehr positive Rück-
+meldungen und entwickeln so ein günstigeres Schreibselbstkonzept (Berni-
+nger et al. 1991). 
+ 
+Trotz der Bedeutung der Leserlichkeit und der Forderung in den Bildungs-
+standards nach einer „lesbare[n]“ (präzise: leserlichen) Handschrift (Sekretariat 
+der KMK 2004) ist kein handhabbares und empirisch evaluiertes Instrument 
+bekannt, das die Leserlichkeit der Handschriften im Anfangsunterricht erfasst. 
+Das übergeordnete Ziel besteht daher darin, ein solches Instrument zu ent-
+wickeln und zu evaluieren. 
+ 
+ 
+5.1 Methode 
+ 
+Die Datengrundlage bilden 612 handgeschriebene Schülertexte (N = 612, 
+37 Klassen, 20 Schulen, ostdeutsche Bundesländer; Alter: 7;1 Jahre (SD = .40), 
+46,7 % Jungen) aus der Mitte der ersten Jahrgangsstufe der Videostudie im Fach 
+Deutsch des PERLE-Projekts (z. B. Faust et al. 2013). Zusätzlich kann auf um-
+fangreiche individuelle und familiäre Daten der Schülerinnen und Schüler (Ge-
+                                                                                                                                  
+Informationen ab (Gibson/Levin 1975). Sehr allgemein formuliert bedeutet nach Lamb/Frost (1971), 
+leserlich zu schreiben „to make one letter clearly distinguishable from the next“ (Lamb/Frost 1971).
+
+--- Buchseite 195 (idx 12, len=2564) ---
+schlecht, Alter und HISEI) sowie didaktisch schulbezogene Informationen 
+(Schriftart – Steinschrift, Druckschrift, Schulausgangsschrift (SAS) als verbun-
+dene Schrift oder eine gemischte Schrift –, Klasse und private vs. staatliche 
+Schule) zurückgegriffen werden. Das DFG-Projekt NaSch1 (Narrative Schreib-
+kompetenz in Klasse 1) untersuchte zudem die Textqualität eben dieser Schreib-
+produkte aus Klasse 1 (Kürzinger/Pohlmann-Rother 2014). 
+Induktiv-deduktiv wurde nach dem Vorbild von Mahrhofer (2004) und 
+Hurschler Lichtsteiner et al. (2008) ein hoch inferentes Ratingsystem zur holisti-
+schen (HE) und analytischen Erfassung (AE) der Leserlichkeit der Handschriften 
+im Anfangsunterricht entwickelt und angewandt (Hurschler Lichtsteiner et 
+al. 2008, Mahrhofer 2004). 
+ 
+ 
+5.2 Erste Ergebnisse 
+ 
+Die Evaluation des Instruments liefert zufriedenstellende Ergebnisse. Das Kon-
+strukt „Leserlichkeit“ weist durch die differenzierten Beurteilungskriterien des 
+analytischen Ratings eine interne Konsistenz auf (Cronbachs Alpha α .85 bis .92) 
+(Field 2013). Ob ein einzelnes Item als geeignet für die Beschreibung des Kon-
+strukts „Leserlichkeit“ gewertet werden kann, wurde durch die Itemanalyse er-
+fasst. Mittels der korrigierten Korrelation rit (Corrected Item-Total-Correlation) 
+wurde die Trennschärfe (r) der Items berechnet. Die Ergebnisse sind durchweg 
+brauchbar (rig-i ≥ .30). Sehr gute Ergebnisse (rig-i ≥ .7) können für die verbundene 
+Schrift (SAS) und die Druckschrift berichtet werden (Bortz/Döring 2007). Das 
+bedeutet, dass die Items gut zwischen einer leserlichen und einer unleserlichen 
+Schrift differenzieren. 
+Auf Basis der Übereinstimmungs- bzw. Reliabilitätsmaße prozentuale 
+Übereinstimmung, Cohens Kappa und relativer Generalisierbarkeitskoeffizient 
+(Lotz et al. 2013) kann die Objektivität sowie die Reliabilität der Ergebnisse 
+durch die Messung mit dem entwickelten Instrument bestätigt werden.  
+Die Ergebnisse der Ratings der Leserlichkeit der Handschriften durch die 
+holistische (HE) und durch die analytische Einschätzung (AE) sind miteinander 
+vergleichbar. Auch wenn sich die Beurteilungen im Detail unterscheiden, so 
+konnten beide Analyseverfahren in dieser Untersuchung – wie bereits in anderen 
+Studien (Mahrhofer 2004, Pohlmann-Rother et al. unveröffentlicht) – ihre Nutz-
+barkeit bestätigen. 
+Weiterführende Analysen sollen den Einfluss individueller und familiärer 
+Bedingungen sowie didaktischer und schulbezogener Voraussetzungen für die 
+Leserlichkeit der Handschriften im Anfangsunterricht durchleuchten. Weitere
+
+--- Buchseite 196 (idx 13, len=2794) ---
+Forschungsarbeiten sind nötig, um das Instrument zur Erfassung der Leserlich-
+keit für den praktischen Einsatz durch Lehrkräfte zu erproben.  
+ 
+ 
+ 
+Literatur 
+ 
+Augst, Gerhard (1989): Rechtschreibung zwischen Grundwortschatz und Duden. Läßt 
+sich ein Fundamentum abgrenzen? In: Praxis Deutsch 16 (95), 4–5 
+Bara, Florence/Morin Marie-France (2013): Does the handwriting style learned in first 
+grade determine the style used in the fourth and fifth grades and influence handwrit-
+ing speed and quality? A comparison between french and quebec children. In: Psy-
+chology in the Schools 50 (6), 601–617 
+Bartnitzky, Horst (2011): Grundschrift: Konzept und Begründungen. In: Bartnitzky, 
+Horst/Hecker, Ulrich/Mahrhofer-Bernt, Christina (Hrsg.): Grundschrift – damit Kin-
+der besser schreiben lernen. Frankfurt am Main: Grundschulverband: 12–30 
+Berninger, Virginia W./Mizokawa, Donald T./Bragg, Russell (1991): Scientific Practi-
+tioner. Theory-based diagnosis and remediation of writing disabilities. In: Journal of 
+school psychology 29 (1), 57–79 
+Bortz, Jürgen/Döring, Nicola (2007): Forschungsmethoden und Evaluation. Für Human- 
+und Sozialwissenschaftler. Berlin: Springer (4. Aufl.) 
+Connelly, Vincent/Campbell, Sonya/MacLean, Morag/Barnes, Jim (2006): Contribution 
+of lower order skills to the written composition of college students with and without 
+dyslexia. In: Developmental Neuropsychology 29 (1), 175–196 
+Faust, Gabriele/Lipowsky, Frank/Lotz, Miriam (Hrsg.): Dokumentation der Erhebungsin-
+strumente des Projekts „Persönlichkeits- und Lernentwicklung von Grundschülern“ 
+(PERLE). 3. Technischer Bericht zu den PERLE-Videostudien. Frankfurt am Main: 
+GFPF (Materialien zur Bildungsforschung, 23/3) 
+Feder, Katya P./Majnemer, Annette (2007): Handwriting development, competency, and 
+intervention. In: Developmental Medicine & Child Neurology 49 (4), 312–317  
+Field, Andy P. (2013): Discovering statistics using IBM SPSS statistics. And sex and 
+drugs and rock 'n' roll. Los Angeles: SAGE (4. Aufl.) 
+Flower, Linda S./Hayes, John R. (1980): The dynamics of composing: Making plans and 
+juggling constraints. In: Gregg, Lee W./Steinberg, Erwin R. (Hrsg.): Cognitive pro-
+cesses in writing. Hillsdale: Lawrence Erlbaum Associates: 32–50 
+Gibson, Eleanor J./Levin, Harry (1975): The psychology of reading. Cambridge: MIT 
+Press 
+Graham, Steve/Weintraub, Naomi (1996): A review of handwriting research: Progress and 
+prospects from 1980 to 1994. In: Educational Psychology Review 8 (1), 7–87  
+Graham, Steve/Berninger, Virginia W./Weintraub, Naomi (1998): The relationship be-
+tween handwriting style and speed and legibility. In: The Journal of Educational Re-
+search 91 (5), 290–296 
+Hasert, Jürgen W. (2010): Handschriftliches Schreibenlernen. In: Sache, Wort, Zahl 38 
+(110), 12–22
+
+--- Buchseite 197 (idx 14, len=2979) ---
+Hayes, John R. (2006): New directions in writing theory. In: MacArthur, Charles 
+A./Graham, Steve/Fitzgerald, Jill (Hrsg.): Handbook of Writing Research. New 
+York: The Guilford Press: 28–40 
+Hughes, David C./Keeling, Brian/Truck, Bryan F. (1983): Effects of achievement expec-
+tations and handwriting quality on scoring essays. In: Journal of Educational Measu-
+rement in Education 20 (1), 65–70  
+Hurschler Lichtsteiner, Sibylle/Saxer Geiger, Andrea/Wicki, Werner (2008): Schreibmo-
+torische Leistungen im frühen Primarschulalter in Abhängigkeit vom unterrichteten 
+Schrifttyp. 
+Online 
+im 
+Internet. 
+URL: 
+http://www.ollo.ch/paedagogik/schrifterwerb/SB_18_Basisschrift.pdf 
+[Stand: 
+28.11.2012] 
+Hurschler Lichtsteiner, Sibylle/Saxer Geiger, Andrea/Wicki, Werner (2010): Schreibmo-
+torische Leistungen im Primarschulalter in Abhängigkeit vom unterrichteten Schrift-
+typ (Forschungsbericht Nr. 24 der Pädagogischen Hochschule Zentralschweiz). Lu-
+zern: Hochschule Luzern 
+Jones, Dian/Christensen, Carol A. (1999): Relationship between automaticity in handwrit-
+ing and students’ ability to generate written text. In: Journal of Educational Psychol-
+ogy 91 (1), 44–49  
+Kandel, Sonia/Peereman, Ronald/Grosjacques, Géraldine/Fayol, Michel (2011): For a 
+psycholinguistic model of handwriting production. Testing the syllable-bigram con-
+troversy. In: Journal of Experimental Psychology. Human Perception and Perfor-
+mance 37 (4), 1310–1322 
+Kürzinger, Anja/Pohlmann-Rother, Sanna (2014): Kriterienkatalog Textkorpus 1. Ein 
+Instrument zur Bestimmung von Textqualität in Klasse 1. Bamberg: University of 
+Bamberg Press (Schriften aus der Fakultät Humanwissenschaften der Otto-
+Friedrich-Universität Bamberg, 16) 
+Lamb, Pose/Frost, Joseph L. (1971): Guiding children’s language learning. Dubuque: 
+W. C. Brown Co (Education series, 2. Aufl.) 
+Lotz, Miriam/Berner Nicole E./Gabriel, Katrin (2013): Auswertung der PERLE-
+Videostudien und Überblick über die Beobachtungsinstrumente. In: Faust, Gabrie-
+le/Lipowsky, Frank/Lotz, Miriam (Hrsg.): Dokumentation der Erhebungsinstrumen-
+te des Projekts „Persönlichkeits- und Lernentwicklung von Grundschülern“ (PER-
+LE). 3. Technischer Bericht zu den PERLE-Videostudien. Frankfurt am Main: 
+GFPF: 83–104 (Materialien zur Bildungsforschung, 23/3) 
+Ludwig, Otto (1983): Einige Gedanken zu einer Theorie des Schreibens. In: Grosse, 
+Siegfried (Hrsg.): Schriftsprachlichkeit. Düsseldorf: Pädagogischer Verlag Schwan: 
+37–73 
+Mahrhofer, Christina (2004): Schreibenlernen mit graphomotorisch vereinfachten 
+Schreibvorgaben. Eine experimentelle Studie zum Erwerb der verbundenen Aus-
+gangsschrift in der 1. und 2. Jahrgangsstufe. Bad Heilbrunn/Obb.: Klinkhardt 
+Mai, Norbert/Marquardt, Christian (1995): Schreibtraining in der neurologischen Rehabi-
+litation. Dortmund: Borgmann 
+Mai, Norbert/Marquardt, Christian/Quenzel, Irmina (1997): Wie kann die Flüssigkeit von 
+Schreibbewegungen gefördert werden? In: Balhorn, Heiko/Niemann, Heide (Hrsg.):
+
+--- Buchseite 198 (idx 15, len=1926) ---
+Sprachen werden Schrift. Mündlichkeit – Schriftlichkeit – Mehrsprachigkeit. Leng-
+wil am Bodensee: Libelle: 222–231 
+Marquardt, Christian (2011): Schreibanalyse. In: Nowak, Dennis A. (Hrsg.): Handfunkti-
+onsstörungen in der Neurologie. Berlin/New York/Heidelberg: Springer: 379–394 
+Philipp, Maik (2014): Grundlagen der effektiven Schreibdidaktik und der systematischen 
+schulischen Schreibförderung. Baltmannsweiler: Schneider Verlag Hohengehren 
+Pohlmann-Rother, Sanna/Schoreit, Edgar/Kürzinger, Anja (Hrsg.) (unveröffentlicht): 
+Schreibkompetenz in Klasse 1 – ein Vergleich zwischen holistischer und analyti-
+scher Auswertungsstrategie 
+Rapp, Brenda/Fischer-Baum, Simon (2014): Representation of Orthographic Knowledge. 
+In: Goldrick, Matthew/Ferreira, Victor/Miozzo, Michele (Hrsg.): The Oxford Hand-
+book of Language Production. New York: Oxford University Press: 338–357 (Ox-
+ford Library of Psychology) 
+Schroeder, Sascha/Würzner, Kay-Michael/Heister, Julian/Geyken, Alexander/Kliegl, 
+Reinhold (im Druck): childLex: A lexical data-base for german read by children. In: 
+Behavior Research Methods 
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik 
+Deutschland (Hrsg.) (2004): Bildungsstandards im Fach Deutsch für den Primarbe-
+reich (Jahrgangsstufe 4). München: Luchterhand 
+Torrance, Marc/Galbraith, David (2006): The processing demands of writing. In: MacAr-
+thur, Charles A./Graham, Steve/Fitzgerald, Jill (Hrsg.): Handbook of Writing Re-
+search. New York. The Guilford Press: 67–80  
+Weingarten, Rüdiger (1998): Schreibprozesse im Schriftspracherwerb. In: Weingarten, 
+Rüdiger/Günther, Hartmut (Hrsg.): Schriftspracherwerb. Baltmannsweiler: Schnei-
+der Verlag Hohengehren: 62–81 
+Wicki, Werner/Hurschler Lichtsteiner, Sibylle/Saxer Geiger, Andrea/Müller, Marianne 
+(2014): Handwriting fluency in children. Impact and correlates. In: Swiss Journal of 
+Psychology 73 (2), 87–96

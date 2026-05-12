@@ -1,0 +1,1447 @@
+
+================================================================================
+=== nottbusch S.125-138 | Literatur/nottbusch2017graphomotorik/source.pdf
+================================================================================
+# pages=18
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 4 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 5 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 6 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 7 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 8 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 9 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 10 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 11 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 12 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 13 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 14 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 15 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 16 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 17 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== hurschler S.1-24 | Literatur/hurschler2020handschriftbeurteilung/source.pdf
+================================================================================
+# pages=26
+--- idx 0 (len=2745) ---
+Online-Plattform für Literalität 
+ 
+www.leseforum.ch | www.forumlecture.ch | www.forumlettura.ch – 3/2020  
+ISSN 2624-7771 
+1 
+Differenzierende Beurteilung der Handschrift –  
+ein Bestandteil der Schreibförderung 
+Sibylle Hurschler Lichtsteiner 
+ 
+ 
+Abstract 
+Der Beitrag stellt eingangs die Bedeutung der Handschrift als Grundfertigkeit des Schreibens dar und ge-
+währt einen Überblick zum State of the Art der Handschriftforschung entlang der beiden Hauptkriterien 
+Leserlichkeit und Geläufigkeit. Am Beispiel der Studien von Hurschler Lichtsteiner, Saxer und Wicki (2008 
+und 2009), die im Zusammenhang mit der Deutschschweizer Handschriftreform durchgeführt wurden, 
+kann aufgezeigt werden, dass diese beiden Komponenten nicht notwendigerweise zusammenhängen.  
+Die Handschriftbeurteilung in der Forschung hat nicht nur Methoden, sondern auch Wissen hervorge-
+bracht, wie Handschrift förderorientiert beurteilt werden kann: Zunächst werden Verfahren zur Beurteilung 
+der Leserlichkeit erläutert, danach Methoden zur Untersuchung der Geläufigkeit diskutiert. Letztere umfas-
+sen ein breites Spektrum von prozess- und produktorientierten Verfahren, so etwa die digitale Handschrift-
+analyse zur Messung der Automatisierung, die Papier-Bleistift-basierte Geläufigkeitsmessung sowie die di-
+rekte Beobachtung des Schreibvorgangs. Über eine strukturierte Beobachtung ergeben sich für die 
+Lehrperson wichtige Hinweise für passende Förderimpulse, insbesondere bei Handschriftschwierigkeiten. 
+Schliesslich wird gezeigt, wie die Integration beider Kriterien – also der Lernstand in Bezug auf die Entwick-
+lung einer leserlichen und geläufigen persönlichen Handschrift – untersucht werden kann, um konkrete För-
+dervorschläge für verschiedene Leistungsgruppen zu definieren.  
+Damit der Handschriftunterricht erfolgreich ist, sollen zudem Elemente der Selbstbeurteilung und der Beur-
+teilung durch Peers eingesetzt werden. Hierzu werden Konzeptionen für zwei Praxisbeispiele erläutert. Der 
+Artikel schliesst mit Überlegungen zum Fähigkeitsselbstkonzept von Schreibnoviz*innen und zur mögli-
+chen präventiven Wirkung, indem den Schüler*innen Selbstwirksamkeitserlebnisse ermöglicht werden 
+durch eine differenzierende Handschriftbeurteilung. 
+ 
+ 
+Schlüsselwörter 
+Handschrift, Basisschrift, Leserlichkeit, Geläufigkeit, Automatisierung, Fähigkeitsselbstkonzept, 
+formative Beurteilung, Selbstbeurteilung 
+ 
+ 
+ 
+ 
+Þ Titre, chapeau et mots-clés se trouvent en français à la fin de l’article 
+Þ Titolo, riassunto e parole chiave in italiano e in francese alla fine dell'articolo 
+ 
+ 
+ 
+ 
+Autorin 
+Sibylle Hurschler Lichtsteiner, Pädagogische Hochschule Luzern, Forschungsgruppe Sprachen und Schrift, 
+Sentimatt 1, 6003 Luzern, sibylle.hurschler@phlu.ch
+--- idx 1 (len=4339) ---
+Sibylle Hurschler Lichtsteiner 
+2 
+Differenzierende Beurteilung der Handschrift –  
+ein Bestandteil der Schreibförderung 
+Sibylle Hurschler Lichtsteiner 
+ 
+«Das Urteil, das die Schule fällt, kann so wenig etwas Fertiges sein, als der Mensch in ihr fertig ist.» 
+Georg Wilhelm Friedrich Hegel (1770 – 1831), deutscher Philosoph 
+1 
+Handschreiben als Grundfertigkeit: Bemerkungen zum State of the Art  
+1.1 
+Zur Bedeutung des Schreibens von Hand 
+Wer im digitalen Zeitalter über Handschrift schreibt, gerät leicht unter Rechtfertigungsdruck: Warum ist 
+Handschrift für den Sprachunterricht heute noch wichtig, und was bedeutet dies für deren Beurteilung? 
+1. 
+Die Handschrift erhielt aufgrund der Forschungsergebnisse aus der kognitiven Schreibforschung 
+(Graham et al., 1997, Jones & Christensen, 1999) eine erweiterte Bedeutung im Sinne einer Grund-
+fertigkeit des Schreibens: Das Verfassen eines Textes ist ein komplexer Prozess und verlangt eine 
+Integration verschiedenster Teilbereiche. Hayes (2012) zeigt in seinem aktuellen Schreibprozessmo-
+dell auf, dass beim «Transkribieren», also beim Niederschreiben von Ideen, auch motorische Anteile 
+eine wichtige Rolle spielen: Diese können den Schreibprozess stören, wenn zu viel Aufmerksamkeit 
+darauf verwendet werden muss (2012: 371 f.). Begründet wird dies mit der begrenzten Kapazität 
+des Arbeitsgedächtnisses (Olive & Kellogg, 2002 ,Medwell, Strand & Wray, 2009). Berninger und 
+Swanson (1994) haben die Schreibprozesse von geübten Schreibenden und Schreibnoviz*innen 
+verglichen. So zeigten sie beispielsweise auf, dass für Kinder die Verfügbarkeit der Symbole noch 
+eingeschränkt ist. Dabei geht es um das zuverlässige Abrufen von Codes: einerseits von orthografi-
+schen Codes für die Buchstaben und andererseits um motorische Codes für die Bewegungen. Beide 
+Prozesse müssen optimal zusammenspielen und bedürfen der Übung. Es handelt sich beim Erwerb 
+der Schreibbewegungen um prozedurale Lernprozesse komplexer Teilfertigkeiten (Escher & Mess-
+ner, 2009), darum kann nicht mit einem Transfer von der einen motorischen Fertigkeit zur andern 
+gerechnet werden. Das bedeutet, wer von Hand schreiben lernt, erwirbt dadurch nicht zwangsläu-
+fig auch das Tastaturschreiben oder umgekehrt. Darum sollten beide Fertigkeiten bis zur soliden 
+Expertise geübt werden, damit die Lernenden früh über ausreichend automatisierte Bewegungs-
+muster von Buchstabenabläufen, Silben und gängigen Kurzwörtern verfügen.  
+Mit der Erörterung der Rolle der Transkriptionsfertigkeiten ist jedoch noch nicht geklärt, ob und 
+warum beide Techniken für Schüler*innen gleichermassen bedeutsam sind – aus Gründen der Effi-
+zienz könnte man ja leicht versucht sein, den Lernprozess für die Handschrift künftig wegzulassen. 
+Nun ist es aber gerade für Primarschüler*innen noch nicht möglich, mit den kleinen Fingern eine 
+Tastaturschrift auch nur ansatzweise geläufig und ohne Sichtkontrolle zu bedienen. In diesem Alter 
+bleibt die Handschrift das Hauptwerkzeug für das 
+[...trunc...]
+--- idx 2 (len=4836) ---
+Sibylle Hurschler Lichtsteiner 
+3 
+hinsichtlich Leserlichkeit und Geläufigkeit der Schrift. Es konnten auch mittlere bis hohe Effektstär-
+ken bezüglich Textlänge, -qualität und Schreibflüssigkeit1 nachgewiesen werden (Olinghouse & 
+Graham, 2009, Roth & Guinee, 2015). Der Zusammenhang wird durch die veränderte Beanspru-
+chung des Arbeitsspeichers erklärt: Je geläufiger die Schüler*innen verschriften, desto weniger 
+Aufmerksamkeit muss auf die schreibmotorischen Aspekte gerichtet werden und desto mehr kog-
+nitive Ressourcen werden frei für die hierarchiehöheren Prozesse des Schreibens. Dies äussert sich 
+u. a. darin, dass die Anzahl Wörter, die zwischen zwei Planungspausen geschrieben werden kön-
+nen, nach einem Handschrifttraining zunimmt. In ihrer Interventionsstudie mit portugiesischen 
+Zweitklässler*innen zeigten Alves et al. (2016) auf, dass Schüler*innen nach einem zehnwöchigen 
+Handschrifttraining längere Schreibeinheiten umsetzen konnten und eine bessere Textqualität auf-
+wiesen als die Vergleichsgruppen mit Tastatur- oder Rechtschreibetraining. Wie von Berninger und 
+Richards (2002) empfohlen, beinhaltete das Training nicht nur rein funktionelle graphomotorische 
+«Aufwärm»-Übungen, sondern es folgten zunehmend anspruchsvollere Aufgaben unter der Ver-
+wendung der trainierten Buchstaben in Wörtern, Sätzen und Geschichten.  
+Die festgestellten Effekte der handschriftlichen Fertigkeiten betreffen insbesondere auch Ler-
+nende mit Handschriftschwierigkeiten. Diese Gruppe zeigt denn auch vermehrt Beeinträchtigun-
+gen in der gesamten Textproduktion (Graham, 1990). Jedoch können gemäss Christensen (2005) 
+vor allem Schüler*innen mit unzureichenden handschriftlichen Voraussetzungen selbst noch in der 
+8. / 9. Klasse von einer Förderung der Handschrift profitieren.  
+Neuere Interventionsstudien, vor allem im angloamerikanischen Sprachraum, berücksichtigen die 
+unterschiedlichen Lernvoraussetzungen sowie den unterschiedlichen Förderbedarf und untersu-
+chen die Wirksamkeit sogenannter Response-to-Intervention-Verfahren (Berninger et al. 2006, Arri-
+mada, Torrance & Fidalgo, 2018). Dabei wird anstelle eines einheitlichen Trainings ein dreistufiges 
+Förderangebot umgesetzt: Stufe 1 umfasst einen qualitativ hochwertigen Unterricht nach empi-
+risch gesicherten Grundsätzen für die gesamte Klasse. Stufe 2 ist ein hochfrequentes zusätzliches 
+Förderangebot in einer Kleingruppe für Lernende mit einem früh erkannten Risiko von Lernschwie-
+rigkeiten, und Stufe 3 ist eine therapeutische Unterstützung zur intensiven Begleitung einzelner 
+Kinder mit erheblichen Schwierigkeiten. Um dieses Verfahren präventiv in der Schule anwenden zu 
+können, braucht es regelmässig Lernstandskontrollen, welche den Schüler*innen individuelle Fort-
+schritte sichtbar machen und den Lehrpersonen Hinweise über notwendige Massnahmen liefern. 
+Damit dies gelingt, muss in einer Lernstandskontrolle nicht nur summativ überprüft werden, ob 
+Teilziele erreicht worden sind, sondern diese soll mö
+[...trunc...]
+--- idx 3 (len=5235) ---
+Sibylle Hurschler Lichtsteiner 
+4 
+Weil Handschrift also im Primarschulalter eine unverzichtbare Grundfertigkeit des Schreibens ist, müssen 
+die Lernenden möglichst rasch geläufig und flexibel verschriften können. Zu diesem Zweck braucht es In-
+strumente, die handschriftliche Aspekte diagnostisch als Teil von Schreibkompetenz miterfassen, so dass 
+daraus geeignete Fördermassnahmen abgeleitet werden können. Der vorliegende Artikel stellt Verfahren 
+aus der empirischen Handschriftforschung vor und geht der Frage nach, welche Adaptionen in der Unter-
+richtspraxis angewandt werden können. Die Verfahren sollen valide Aussagen zum Lernstand der Schü-
+ler*innen ermöglichen und die Lehrperson darin unterstützen, die nächsten Lernschritte gemeinsam mit 
+den Lernenden anzugehen. Dies geschieht zunächst entlang der im Lehrplan 21 genannten drei Kompeten-
+zen. Ausgangspunkt für die folgenden Ausführungen ist dabei die Schriftdidaktik in der deutschsprachigen 
+Schweiz. 
+1.2 
+Handschrift im Lehrplan 21 
+Die Betrachtungsweise von Handschrift als Grundfertigkeit des Schreibens schlug sich auch in ihrer Veror-
+tung im Deutschschweizer Lehrplan 21 (D-EDK, 2016) nieder. «Schönschreiben» als Fach mit entsprechen-
+der Stundendotation war zwar schon Ende des 20. Jahrhunderts in vielen Kantonen abgesetzt worden (Lin-
+dauer & Manz, 2016), gleichwohl gab es bis zur Umstellung auf den Lehrplan 21 noch immer einen 
+separaten Lehrplan «Schrift» mit vielen Teilzielen und einer verbindlichen Benotung im Zeugnis (vgl. z. B. 
+den Lehrplan Schrift der Zentralschweizer Kantone, IEDK, 2003).3 
+Im Lehrplan 21 wird die Handschrift dem Fachbereich «Sprachen» zugeordnet und im Handlungsbereich 
+«Schreiben» als Grundfertigkeit aufgeführt. Es werden neu nur noch die drei Kompetenzen einer «leserli-
+chen, geläufigen und persönlichen Handschrift» (D-EDK 2016: 34) genannt und die kontinuierliche Umset-
+zung über alle Zyklen der Schulzeit ausgewiesen. Die Handschrift wie auch das gleichenorts aufgeführte 
+Tastaturschreiben haben dabei namentlich eine der Schreibflüssigkeit zudienende Funktion. Dies wird be-
+sonders im Grundanspruch für den 2. Zyklus (die 3. bis 6. Primarklasse) deutlich: Die Schüler*innen «können 
+in einem dem Formulieren dienlichen Tempo mit verschiedenen Schreibgeräten leserlich schreiben bzw. be-
+herrschen die dafür nötige Feinmotorik», heisst ein Grundanspruch der Primarstufe (D-EDK 2016: 34). Für die 
+Oberstufe lautet er: Die Schüler*innen «können ausreichend automatisiert (Handschrift und Tastatur) schrei-
+ben, um genügend Kapazität für die höheren Schreibprozesse zu haben (z. B. Ideen finden, planen, formulie-
+ren, überarbeiten)» (D-EDK 2016: 34). 
+Mit der Kompetenzorientierung erhöht sich auch der Anspruch an die förderdiagnostischen Kompetenzen: 
+Wie kann eine Lehrperson beurteilen, ob eine ausreichend automatisierte Schrift vorliegt? Dies lässt sich 
+nicht mehr direkt am Produkt ablesen. Es braucht also neue förderdiagnostische Kompetenzen der Lehr-
+personen.  
+Mi
+[...trunc...]
+--- idx 4 (len=3216) ---
+Sibylle Hurschler Lichtsteiner 
+5 
+andererseits die notwendigen Mindeststandards hinsichtlich der beiden anderen Kriterien – der Leserlich-
+keit und Geläufigkeit – einzufordern (Hurschler Lichtsteiner, 2013). 
+2 
+Kriterienorientiertes Beobachten und Beurteilen der Handschrift  
+2.1 
+Leserlichkeit und Geläufigkeit als zentrale Kriterien der Handschriftforschung 
+Anlässlich erster Schulversuche mit der neuen Basisschrift hatte sich die Frage gestellt, ob die Schüler*in-
+nen damit leserlicher und geläufiger schreiben lernen als mit der traditionellen Verbundenen Schweizer 
+Schulschrift. Die Frage war umso mehr berechtigt, als der Anstoss zur neuen Schrift von einem Schriftge-
+stalter ausgegangen war, welcher nicht ergonomische, sondern primär ästhetische Gründe für die 
+Schriftreform ins Feld geführt hatte (Meier, 2006).  
+In den Jahren 2008 und 2009 wurden die damals gelehrten Schulschrifttypen der deutschsprachigen 
+Schweiz (Verbundene Schweizer Schulschrift bzw. Basisschrift) in einer quasi-experimentellen Feldstudie 
+quer- und längsschnittlich untersucht (Wicki & Hurschler Lichtsteiner, 2014, Wicki et al., 2014). Die Stich-
+probe umfasste in der ersten Kohorte im Jahr 2008 je 48 Schüler*innen der 2. und 3. Primarklasse. An der 
+zweiten Untersuchung im Jahr 2009 nahmen 93 Schüler*innen der 4. Primarklasse teil. Für die längsschnitt-
+liche Auswertung wurden die Daten der an beiden Erhebungen beteiligten 41 Schüler*innen berücksichtigt. 
+Methodisch angelehnt an Mahrhofer (2004) wurden die Leserlichkeit und die Geläufigkeit als abhängige 
+Variablen je separat untersucht und das Selbstkonzept sowie die Freude am handschriftlichen Schreiben 
+erhoben. Die Ergebnisse belegten die Vorteile der neuen Schrift: Schüler*innen, denen die Basisschrift ver-
+mittelt wurde, schrieben leserlicher und geläufiger als jene, die Verbundene Schweizer Schulschrift gelernt 
+hatten. Viertklässler*innen, denen Basisschrift vermittelt wurde, hatten zudem mehr Freude am Schreiben 
+als Gleichaltrige, die mit der Verbundenen Schweizer Schulschrift schrieben. Die Ergebnisse hinsichtlich der 
+schreibmotorischen Leistungen deckten sich mit denjenigen von Graham et al. (1998b): Teil-verbundene 
+Schriften können leserlicher und geläufiger geschrieben werden als völlig verbundene oder ganz unverbun-
+dene. In Bezug auf Automatisierung und Schreibfrequenz wurde dieser Befund von Odersky (2018) auch für 
+deutsche Schulschriften bestätigt.  
+ 
+Abb. 1: Leserlichkeit und Geläufigkeit beim Abschreiben, N=93, 4. Kl. (Hurschler Lichtsteiner, Saxer Geiger & Wicki, 2009: 41) 
+Zudem fiel – unabhängig von den schrifttypen-abhängigen Ergebnissen – vor allem ein Aspekt auf: Am Ende 
+der vierten Klasse – also weit nach der Phase des ersten Schrifterwerbs – zeigte sich beim Textabschreiben 
+eine auffällig grosse Streuung der schreibmotorischen Leistungen, und zwar in beiden Dimensionen, der 
+Leserlichkeit und der Geläufigkeit. So ergab die Leserlichkeitsbewertung neben mittelmässigen Werten 
+auch we
+[...trunc...]
+--- idx 5 (len=4980) ---
+Sibylle Hurschler Lichtsteiner 
+6 
+Range = 139 Z. – 417 Z.). Der Zusammenhang zwischen den beiden Kriterien «Leserlichkeit» und «Menge der 
+abgeschriebenen Zeichen» war weder im Streudiagramm (Abb. 1) erkennbar noch statistisch signifikant. 
+Rund ein Viertel der Schüler*innen genügte überdurchschnittlich gut den Ansprüchen des Leserlichkeitsbe-
+wertung, arbeitete aber langsam (Quadrant links oben). Im Gegensatz dazu gab es Schüler*innen, welche 
+überdurchschnittlich schnell schrieben – dies jedoch auf Kosten der Leserlichkeit (Quadrant rechts unten). 
+Weiter bekundeten rund ein Viertel der Schüler*innen mit beiden Ansprüchen (Quadrant unten links) Mühe 
+– während doch auch einige mit dem Doppelanspruch, leserlich und geläufig zu schreiben, gut zurecht- 
+kamen (Quadrant oben rechts).  
+Bei der Auswertung bestätigten sich zudem die Erkenntnisse von Graham et al. (1998a), die mit einer quer-
+schnittlich angelegten Studie über die 2. – 9. Klasse (N=900) zeigen konnten, dass der Schrifterwerb im 
+mittleren Primarschulalter noch nicht abgeschlossen ist: Die Ergebnisse eines holistischen Leserlichkeits-
+ratings zeigten bei beiden Geschlechtern erst in der 6. Klasse die besten Werte. Bei der Geläufigkeit konnte 
+eine signifikante Steigerung bis zur 9. Klasse auf 119 Zeichen pro Minute belegt werden. Obwohl aufgrund 
+unterschiedlicher Messverfahren kein direkter Vergleich der Kennwerte zwischen der amerikanischen und 
+der Schweizer Studie möglich ist, können doch die Leistungen der Schweizer Viertklässler*innen dem Level 
+der amerikanischen Altersgruppe zugeordnet werden, und es wird offensichtlich, dass auch in höheren 
+Klassen noch ein deutlicher Zuwachs erreicht werden kann.  
+Beide Ergebnisse zusammen – der beschriebene heterogene Leistungsstand sowie die noch nicht abge-
+schlossene Entwicklung – regten dazu an, über die bisherige Didaktik des Handschriftunterrichts im 2. Zyk-
+lus nachzudenken. Eine individualisierende Arbeitsweise schien für die unterschiedlich ausgeprägten Leis-
+tungsprofile angezeigt. Wie jedoch Lindauer und Sturm (2016) ausführen, wurde seit Beginn eines neuen 
+Verständnisses des Deutschunterrichts als «Sprachhandeln» die Handschriftpflege (und damit auch die För-
+derung der Schreibflüssigkeit im übergeordneten Sinne) über den Anfangsunterricht hinaus weit weniger 
+gewichtet als früher. Anstösse aus dem englischen Sprachraum mit Hinweisen zu empirisch gesicherten 
+Unterrichtsmethoden (Troia & Graham, 2003) wie auch praktische Unterrichtsvorschläge für Jugendliche 
+mit Selbstbeurteilungsangeboten (Sassoon, 2006) fanden wenig Beachtung. Im deutschsprachigen Raum 
+wies Ossner (2006) jedoch explizit darauf hin, dass Lehrpersonen für den Handschriftunterricht neben fach-
+lichen und didaktisch-methodischen Kompetenzen auch eine Diagnose-, Beurteilungs- und Förderkompe-
+tenz benötigen.  
+Dabei gilt es dem Umstand Rechnung zu tragen, dass das Bedürfnis der Lehrperson nach Kontrolle insbe-
+sondere in denjenigen Schulen wächst (Dorow, in Br
+[...trunc...]
+--- idx 6 (len=4849) ---
+Sibylle Hurschler Lichtsteiner 
+7 
+grafomotorischen Fähigkeiten hinaus. So konnten Graham, Harris und Hebert (2011) belegen, dass die Beur-
+teilung eines handgeschriebenen Textes hinsichtlich der Textqualität selbst dann noch deutlich negativ ver-
+zerrt wurde, wenn die Beurteilenden ausdrücklich angehalten wurden, nicht auf die Leserlichkeit der Texte 
+zu achten. Weil die Reinschriften von Schüler*innentexten mit zunehmendem Alter in getippter Version 
+beurteilt werden, könnte sich beim oben genannten «Präsentationseffekt» eine Entschärfung in Bezug auf 
+den klassischen «Aufsatz» abzeichnen. Ein Urteil wird aber auch häufig bei kurzen Sachtexten im Alltag ge-
+fällt, so etwa bei Prüfungsantworten. Dies geschieht ab der Sekundarstufe zudem durch Fachlehrpersonen, 
+die gemeinhin nicht sprachdidaktisch geschult sind und sich darum der Rolle der Grafomotorik nicht be-
+wusst sind.  
+Nicht nur für mögliche Adressat*innen, sondern auch für die Schreibenden selbst kann eine unleserliche 
+Schriftprobe problematisch werden, ist sie doch im Vergleich zu anderen Leistungen ein überdauerndes 
+und stets gut sichtbares Produkt. Zu den Schwierigkeiten, die eigene Handschrift zu entziffern, können für 
+Schüler*innen mit unleserlicher Handschrift Aspekte der Scham, der Angst vor Blossstellung und Frustra-
+tion über die von erwachsenen Bezugspersonen oft unterstellte mangelnde Sorgfalt hinzukommen (Häus-
+ler, 2007). Dies mündet nicht selten in ungünstigen Strategien wie etwa dem Verfassen von «Kürzest»-Tex-
+ten oder gar dem Vermeiden von schriftlichen Arbeiten (Berninger, Mizokawa & Bragg, 1991). 
+Schüler*innen mit Handschriftschwierigkeiten sind denn auch überdurchschnittlich häufig von weiteren 
+Lernschwierigkeiten betroffen (Kastner & Petermann, 2010). Die Fähigkeit zur differenzierten Beurteilung 
+und Förderung der Leserlichkeit ist darum eine wichtige Diagnosekompetenz der Lehrperson.  
+Wie kann nun Leserlichkeit definiert und erfasst werden? Obwohl ein Alltagsbegriff, gibt es für die Leser-
+lichkeit als Ganzes keine allgemein anerkannte Definition. Sie stellt laut Graham (1986) eine Kombination 
+verschiedener Faktoren dar, deren Ausprägungen möglichst genau zu benennen sind.  
+2.2.1 Leserlichkeit: Verfahren zur Beurteilung  
+In vielen europäischen Ländern gibt es Tests zur Beurteilung der Handschriftqualität, so etwa den für meh-
+rere Sprachen normierten, ursprünglich niederländischen Test «BHK» von Hamstra-Bletz et al. (1987) oder 
+den belgischen «SOS» von Van Waelvelde et al. (2012). In Ländern mit lateinisch geprägten Schriften und 
+auch in den BENELUX-Staaten sind die Schulschriften verbundene Schriften und richten sich stärker nach 
+einer Norm aus, was die Testentwicklung erleichtert (Sassoon, 1999).  
+Im deutschsprachigen Raum wurden durch Mahrhofer (2004) und Rüb (2018) gründliche Darstellungen der 
+Leserlichkeitsmessung publiziert. Sie berücksichtigen den Umstand, dass sich auch die Kriterien der Beur-
+teilung verändern, wenn anstelle einer normierten 
+[...trunc...]
+--- idx 7 (len=3755) ---
+Sibylle Hurschler Lichtsteiner 
+8 
+• 
+gleichmässige Ausrichtung der Zeichen  
+• 
+Proportionalität der Wort- und Buchstabenabstände  
+• 
+Einhaltung der Lineatur 
+• 
+Proportionalität der Ober- und Unterlängen  
+• 
+Erkennbarkeit der Zeichen ohne Kontext  
+• 
+die Eindeutigkeit aller geschlossenen Formen  
+• 
+Vermeidung von störenden Korrekturen  
+Das Leserlichkeitsrating wurde auf eine Abschreibaufgabe innerhalb gegebener Zeit angewandt. Die analy-
+tischen Kriterien wurden mit einer holistischen Beurteilung samt Benchmark-Beispielen ergänzt und mittels 
+Faktorenanalyse auf innere Konsistenz geprüft (Hurschler Lichtsteiner et al., 2008: 21-23, nach Mahrhofer, 
+2004).  
+Für die beschriebene Untersuchung wurden noch keine neuen digitalen Verfahren zur Erfassung der Form-
+genauigkeit berücksichtigt, wie sie Rosenblum, Weiss und Parush (2004) erwähnen: Dies, weil damals noch 
+keine gesicherten Verfahren verfügbar waren, welche die Varianz bei nicht-normorientierten Schriften be-
+rücksichtigen. Für die Untersuchung des Schrifterwerbs ist es jedoch durchaus von Interesse, dass es zwi-
+schenzeitlich zur Ermittlung der Konsistenz der Schreibweise eines Buchstabens neue digitale Analysever-
+fahren gibt, welche nicht die Schulschriftnorm als Vorlage nehmen, sondern einen aus der Produktion des 
+Individuums berechneten Prototypen. Werden rund ein Dutzend Grapheme desselben Buchstabens in einer 
+Zeile niedergeschrieben, drückt die räumlich-zeitliche Abweichung vom «eigenen» Protoypen aus, wie re-
+gelmässig ein Buchstabe schon gelingt (Di Brina et al., 2008).  
+2.2.2 Leserlichkeit: Beurteilungsverfahren in der Schulpraxis 
+In diesem Abschnitt wird ein erster Versuch dargestellt, die Methoden der Leserlichkeitsforschung für die 
+Nutzung im Handschriftunterricht zugänglich zu machen. Die Konzeption verdeutlicht, dass dabei beson-
+ders Fragen der Praktikabilität im Vordergrund waren. Die Weiterentwicklung – unter Einbezug der Selbst-
+einschätzung und Einschätzung durch Peers – wird im Kap. 2.5 wieder aufgegriffen. 
+In den Interviews mit den an der Schulschriftstudie beteiligten Lehrpersonen (Hurschler Lichtsteiner,  
+2008: 41) wurden als Desiderate u. a. Hilfsmittel zur Schriftbeurteilung genannt. Die Frage kam auf, was an-
+gesichts der neuen didaktischen Vorgaben, welche die Basisschrift mit sich bringe, «schön» schreiben noch 
+bedeutet und ob es möglich sei, die verwendeten Beurteilungskriterien aus dem Forschungsprojekt für den 
+Gebrauch in der Schule bekannt zu machen und anzuwenden. 
+Weil im deutschen Sprachraum kein Beurteilungsverfahren bekannt war, welches sich auf empirisch ge-
+prüfte Kriterien stützt, entstand aus der Abschreibe-Aufgabe und der Kriterienliste von Hurschler Lichtstei-
+ner et al. (2008) eine erste unveröffentlichte Version für die Aus- und Weiterbildung von Primarlehrperso-
+nen. Bei der Wahl der Kriterien wurde auf folgende Aspekte geachtet:  
+• 
+Übernahme der Kriterien aus der Forschungsarbeit, aber falls nötig sprachliche Vereinfachung und 
+[...trunc...]
+--- idx 8 (len=4256) ---
+Sibylle Hurschler Lichtsteiner 
+9 
+Für einige Kriterien soll dies exemplarisch dargelegt werden: 
+Forschungskriterium  
+Praxiskriterium 
+Allgemeiner Eindruck 
+Die Schriftprobe kann ohne Zögern auf Distanz entziffert 
+werden. 
+Gleichmässige Ausrichtung der Zeichen 
+Die Schrift ist gleichmässig ausgerichtet. 
+Proportionalität der Wort- und Buchsta-
+benabstände 
+Der Abstand zwischen den Wörtern ist grösser als zwischen 
+den Buchstaben. 
+Einhaltung der Lineatur 
+Die Grundlinie wird eingehalten. 
+Erkennbarkeit der Zeichen ohne Kontext  
+Die Buchstaben sind auch ohne Kontext (d.h. losgelöst von 
+Wort und Satz) erkennbar. 
+Eindeutigkeit aller geschlossenen Formen  
+Die Kreis- und Blattformen sind geschlossen. 
+Tab. 1: Gegenüberstellung von Forschungs- und Praxiskriterien zur Beurteilung der Leserlichkeit 
+Nach der ersten Erprobung in der Weiterbildung von Lehrpersonen wurde eine Anpassung notwendig: Die 
+sechsteilige Skala war zu nuanciert und zudem missverständlich, weil die Ziffer 6 eine Analogie suggeriert 
+zwischen dem Ausprägungsgrad einer Skala und dem sechsstufigen Notensystem der Schweiz (mit der 6 
+als höchst möglicher Beurteilung), die so nicht zutrifft: Eine Ausprägung von zwei bis drei Stufen (entweder 
+dichotom «Teilkompetenz erreicht – noch nicht erreicht» oder etwas feiner abgestuft «erreicht – teilweise 
+erreicht – noch nicht erreicht») erlaubt eine effiziente und für formative Zwecke ausreichende Differenzie-
+rung. 
+2.3 
+Geläufigkeit 
+Im folgenden Abschnitt wird zunächst der Begriff der Geläufigkeit definiert, wie er auch im Lehrplan 21 als 
+zweites Kriterium der handschriftlichen Kompetenzen Verwendung findet. Danach wird er in Beziehung 
+zum übergeordneten Begriff der Schreibflüssigkeit gesetzt. Im daran anschliessenden Kapitel werden pro-
+dukt- und prozessorientierte Verfahren zur Geläufigkeitsmessung dargestellt.  
+Handschrift wird dann als geläufig bezeichnet, wenn die einzelnen Bewegungsabläufe so schnell und mühe-
+los abgerufen werden können, dass sie in ihren Bestandteilen nicht mehr bewusst wahrgenommen werden 
+(Mahrhofer, 2004: 84 ff.). Mahrhofer (2004) bezeichnet die geläufige Handschrift als «hochgradig routi-
+nierte» Tätigkeit, d. h. die einzelnen Buchstabenabläufe sind hierarchisch in grössere Bewegungspro-
+gramme eingebunden, welche im Langzeitgedächtnis gespeichert sind. Einmal erworben, können diese 
+Muster ohne Belastung des Arbeitsgedächtnisses abgerufen werden. Nottbusch (2017) wie auch Odersky 
+(2018) verweisen in diesem Zusammenhang darauf, dass der in deutschen Curricula analog zur «Geläufig-
+keit» verwendete Begriff der «flüssigen» Handschrift als Metapher unzutreffend ist, weil die Handschrift 
+routinierter Schreibender nicht gleichmässig wie ein Strom fliesst, sondern einen charakteristischen Ge-
+schwindigkeitsverlauf im Sinne einer dynamischen Pendelbewegung aufweist. Bewegungstypen dieser Art 
+werden als «automatisiert» bezeichnet, dies im Gegensatz zu kontrollierten Bewegungen, wie sie zu Beginn 
+eines Lernp
+[...trunc...]
+--- idx 9 (len=3003) ---
+Sibylle Hurschler Lichtsteiner 
+10 
+ 
+Abb. 2: Hierarchieniedrige Teilprozesse im Schreiben und ihre Komponenten (Sturm et al., 2017: 85) 
+2.3.1 Geläufigkeit: Messverfahren  
+Wer über eine geläufige Handschrift verfügt, kann mehr Zeichen pro Minute abrufen und wiedergeben, 
+also schneller verschriften als ungeübte Schreiber*innen. Es scheint daher naheliegend zu sein, die Geläu-
+figkeit der Handschrift produktorientiert zu messen, was in der Handschriftforschung über lange Zeit die 
+Standardmethode war. Dabei wurden verschiedene Verfahren angewandt (Odersky, 2018: 30 ff.): Bei Ver-
+wendung der sogenannten «Alphabet-Task», erstmals beschrieben durch Berninger et al. (1992), werden 
+die Proband*innen gebeten, über einen kurzen Zeitraum – meistens weniger als eine Minute – die Klein-
+buchstaben des Alphabets der Reihe nach aus der Erinnerung niederzuschreiben. Im Zentrum des Interes-
+ses steht das rasche Abrufen der Zeichen. Dabei werden je nach Autor*in (vgl. dazu die Meta-Analyse von 
+Kent & Wanzek, 2016) neben der Menge auch die korrekte Reihenfolge und Formung der Buchstaben be-
+wertet, woraus ein Score gebildet wird. In jüngster Zeit wird dieses Verfahren in mehrerlei Hinsicht kritisiert 
+(Odersky, 2018: 31):  
+• 
+Die Vergleichbarkeit der Ergebnisse der einzelnen Studien ist aufgrund der bei Kent und Wanzek 
+(2016) genannten unterschiedlichen Vorgehensweisen (z. B. hinsichtlich der Zeitdauer, der Anlei-
+tung und der Art der Bewertung) eingeschränkt. 
+• 
+Die Ergebnisse werden häufig durch weitere Einflüsse verzerrt, beispielsweise durch Unter-
+richtseinflüsse (z. B. das tägliche Auswendig-Singen des Alphabets). 
+• 
+Die Fokussierung auf die korrekte Wiedergabe des Alphabets gewichtet in einem zu hohen Mass 
+die kognitive Leistung in Bezug auf die Memorierfähigkeit der korrekten Sequenzwiedergabe an-
+stelle der effektiven Produktion in natürlichen Schreibsituationen. Diese Aufgabe misst etwas ande-
+res als die isolierte Schriftgeschwindigkeit (Pontart et al., 2013).  
+• 
+Vor allem wird die wichtige Fähigkeit, zunehmend längere Einheiten von Buchstabenverbindungen, 
+Silben und Kurzwörtern abzurufen, dabei aussen vor gelassen (Kandel et al., 2006).  
+Eine weitere Möglichkeit zur Erfassung der Schreibgeschwindigkeit ist die sogenannte «Copying»-Task. Die 
+Proband*innen werden gebeten, entweder mehrmals denselben Satz oder einen einfachen Text abzu-
+schreiben. Durch das Abschreiben werden die Herausforderungen, die sich durch das Verfassen eigener 
+Texte ergeben, ausgeschaltet. Längere Zeiteinheiten bilden dabei eher eine realistische Situation ab (wie 
+sie beispielsweise bei Prüfungen vorkommt), führen aber zu Konzentrations- und Ermüdungserscheinun-
+gen, so dass ein angegebener Durchschnitt (Zeichen pro Minute) immer auf die effektiv verlangte Arbeits-
+dauer kritisch zu hinterfragen ist. Textvorgabe und zeitlicher Rahmen variieren je nach Autor*in und er-
+schweren eine Vergleichbarkeit: So zählen beispielsweise Bara und Morin (2013) lediglich die Anz
+[...trunc...]
+--- idx 10 (len=4193) ---
+Sibylle Hurschler Lichtsteiner 
+11 
+geschriebener Buchstaben, während Connelly, Gee und Walsh (2007) einen Summenwert ausweisen, wel-
+cher korrekt geschriebene Wörter berücksichtigt.  
+Zwar wird durch das Abschreiben den Herausforderungen, die sich durch das Schreiben eigener Texte erge-
+ben, Rechnung getragen, dennoch gilt es zu bedenken, dass Abschreiben eine zu übende Technik ist und 
+der Schwierigkeitsgrad des vorgegebenen Textes hinsichtlich der optischen Lesbarkeit wie auch der inhalt-
+lichen Dichte das Ergebnis beeinflusst.  
+In englischsprachigen Ländern steht mit dem DASH (Barnett et al., 2007) ein standardisiertes Verfahren zur 
+Verfügung, welches als Folge der obengenannten Kritik die Geläufigkeit mehrdimensional über fünf Teilauf-
+gaben erfasst. Verlangt werden dabei:  
+1. 
+das wiederholte Abschreiben eines Satzes über zwei Minuten unter der Bedingung, so schön wie 
+möglich zu schreiben  
+2. das wiederholte Abschreiben desselben Satzes über zwei Minuten mit der Anweisung, so schnell 
+wie möglich zu schreiben  
+3. die Alphabet Task über eine Minute, unter Einhaltung der korrekten sequenziellen Abfolge 
+4. freies Schreiben über zehn Minuten nach einem vorgegebenen Thema  
+5. eine sprachfreie Aufgabe zum Abzeichnen von Zeichenfolgen 
+ 
+Bei allen Subtests wird eine mittlere Minutenleistung berechnet. Normen liegen für Schreiber*innen vor, 
+die zwischen 9 und 25 Jahre alt sind. 
+Die Vorteile produktorientierter Verfahren sind die einfache Umsetzung im Gruppenverband und die Eig-
+nung für Längsschnittuntersuchungen sowie für kombinierte Erhebungen von Leserlichkeit und Geläufig-
+keit. Durch die leichte Nachvollziehbarkeit ihrer Ergebnisse können auch die Proband*innen ihre individu-
+elle Leistung erfassen (Mahrhofer, 2004). 
+Allerdings ist die gemessene Leistung von der gewählten Aufgabe (ABC, Abschreiben, Diktat, freies Schrei-
+ben), von geübten Fertigkeiten und von der gewählten Zeiteinheit abhängig und lässt sich deshalb nicht 
+direkt mit Ergebnissen anderer Studien vergleichen. Für Untersuchungen von Beeinträchtigungen der 
+Handschrift ist dies unbefriedigend (Rosenblum et al., 2004), denn der Test lässt keine Ursachen für die ge-
+messene Schreibgeläufigkeit erkennen, wodurch die Gründe für starke oder schwache Leistungen unklar 
+bleiben.  
+Prozessorientierte Verfahren sind in der Lage, mit digitalen Geräten und entsprechender Software (z. B. 
+Neurosoft, Ductus, OASIS, CSwin) diverse räumliche sowie kinematische Kennwerte der Schrift zu erheben 
+(Odersky, 2018: 34 ff.). Tucha, Tucha und Lange (2008: 146) empfehlen die Software von Mai und Mar-
+quardt (1992), weil sie als einzige einen Parameter aufweist, welcher direkt die Automatisierung der Schrift 
+misst.  
+Bei der Methode der Schriftanalyse nach Mai und Marquardt (1992) handelt es sich um ein tabletbasiertes 
+Verfahren, welches zunächst im klinischen Bereich der Neuro-Rehabilitation mit erwachsenen Patienten 
+Anwendung fand. Mahrhofer erprobte es 2004 an sechs ersten Klassen (N=153)
+[...trunc...]
+--- idx 11 (len=2159) ---
+Sibylle Hurschler Lichtsteiner 
+12 
+ 
+Abb. 3: Das Setting während der Aufzeichnung mit dem Digitzer und dem Induktionsstift gemäss Handbuch CSwin  
+(Mai & Marquardt, 1992) (Foto aus der Studie von Hurschler Lichtsteiner et al., 2008)  
+Die Daten werden im angeschlossenen Notebook mit dem Programm CSWin analysiert. Die gewonnenen 
+Kennwerte erlauben u. a. Aussagen zum Druck des Stiftes auf die Schreibunterlage, zur Schreibgeschwin-
+digkeit (angegeben als Frequenz, d. h. die Auf- und Abbewegungen pro Sekunde) und zum Entwicklungs-
+stand hinsichtlich der Automatisierung. Weil letztere als Optimierungswert gegen den Wert 1 tendiert, lässt 
+sich auf diese Weise von jeder aufgezeichneten Bewegung bestimmen, wie automatisiert sie ist. Diese 
+Messmethode ist umso aufschlussreicher, als die Entwicklung der Geläufigkeit nicht einfach einen stetigen 
+und qualitativ gleichbleibenden Verlauf nimmt. Sie erreicht im Erwachsenenalter eine Geschwindigkeit von 
+maximal 4.5 bis 5.5 hz, ist also gegen oben begrenzt (Marquardt, 2011). Nach Abschluss der Untersuchung 
+werden die Ergebnisse für jedes untersuchte Item in einem Übersichtsprotokoll ausgegeben, was eine dif-
+ferenzierte Standortbestimmung in Bezug auf die Schriftentwicklung zulässt. 
+ 
+   
+Legende 
+Oben: Schriftspur, unten: Strichgeschwindigkeit (y-Achse) und Zeit (x-Achse) 
+Abb. 4a (links): Kontrollierte Bewegung, Wiedergabe einer Doppelschlaufe, fünf-jähriger Jungen mit NIV5 = 17  
+(Bildschirmaufzeichnung: Hurschler Lichtsteiner). 
+Abb. 4b (rechts): Automatisierte Bewegung: Wiedergabe einer Doppelschlaufe, erwachsene Person, mit NIV = 1  
+(Bildschirmaufzeichnung: Hurschler Lichtsteiner). 
+                                                             
+5 Für jeden automatisierten Strich gibt es im Idealfall nur je einen Anfahr- und Bremsimpuls und dazwischen eine Umkehr (In-
+version) der Geschwindigkeit. Der NIV-Kennwert gibt die Anzahl der Geschwindigkeitsumkehrungen pro Stricheinheit an und 
+verweist darauf, wie automatisiert eine Bewegung ist. Je näher der Wert bei eins liegt, desto automatisierter ist die Bewe-
+gung (Hurschler Lichtsteiner et al. 2009: 24, nach Marquardt, 2011).
+--- idx 12 (len=4620) ---
+Sibylle Hurschler Lichtsteiner 
+13 
+Mit dem Digitizer aufgezeichnete Bewegungsspuren offenbaren zwei unterschiedliche Steuerungsmodi 
+beim Schreiben, wie obige Beispiele zeigen. Während das Kind (Abb. 4a) die noch schwierige Doppel-
+schlaufe nur meistern kann, indem es langsam, visuell kontrolliert und von stetigen Beschleunigungs- und 
+Brems-Impulsen beeinflusst die Bewegung umsetzt, schreibt die erwachsene Person schneller und muss 
+pro Bewegungsimpuls nur einmal ihre Geschwindigkeit steigern und wieder abbremsen (NIV = 1). Das zuge-
+hörige Geschwindigkeitsprofil ist glatt und regelmässig und verweist somit auf eine gänzlich automatisierte 
+Bewegung. Mit den Aufzeichnungen lässt sich ferner belegen, dass sich der Übergang von der kontrollier-
+ten zur automatisierten Schreibbewegung weder an einem zufälligen Punkt noch kontinuierlich vollzieht, 
+sondern im Bereich einer Frequenz von 2 hz (Marquardt, Gentz & Mai, 1999). Marquardt (2011) weist darauf 
+hin, dass dieser Wechsel an die Augenfolgebewegungen gekoppelt ist, welche physiologisch bedingt nur 
+bis zu diesem Tempo engmaschig Bewegungen begleiten können. Bei höheren Tempi übernimmt die visu-
+elle Wahrnehmung vor allem die Organisation auf dem Blatt und die Anpassung der Schriftgrösse (Mar-
+quardt et al., 1999). Eine prozessorientierte Datenerhebung ermöglicht also eine Aussage darüber, wie au-
+tomatisiert die Proband*innen ihre Schreibbewegungen ausführen können, und darüber hinaus, ob sie 
+noch auf eine engmaschige visuelle Kontrolle ihrer Bewegung angewiesen sind.  
+Prozess- und produktbasierte Verfahren können auch kombiniert werden, wie dies Hurschler Lichtsteiner et 
+al. (2009) getan haben. Die Frequenz der Auf- und Abbewegungen und die Automatisierung beim Schrei-
+ben eines Satzes wurden – wie oben beschrieben – anhand eines Digitizers erfasst. Die Messung der 
+Schreibgeschwindigkeit erfolgte über eine fünfminütige Abschreibe-Aufgabe mit dem Kennwert «Anzahl 
+Buchstaben/Minute». In einem Strukturgleichungsmodell vermochten die digitalen Geläufigkeitskennwerte 
+als Prädiktoren für die Schreibgeschwindigkeit mit .49 einen erheblichen Anteil vorherzusagen, aber nicht 
+die ganze Varianz zu erklären (Wicki et al., 2014). Dies erscheint plausibel, weil beim Abschreiben weitere 
+Einflussfaktoren wie die Konzentration, die Ausdauer, die Abschreibtechnik sowie die orthografischen Fä-
+higkeiten eine Rolle spielen. Während also die produktorientierte Messung eine Aussage über die Bewälti-
+gung der Gesamtaufgabe macht, vermag die prozessorientierte Untersuchung die eigentliche Schrift-Geläu-
+figkeit zu analysieren.  
+2.3.2 Geläufigkeit: Beobachtungs- und Messverfahren in der Schulpraxis 
+So interessant und wichtig es ist, dass für Forschungszwecke die Geläufigkeit der Schrift genau gemessen 
+werden kann, so wenig darf für die Schulpraxis die Frage vernachlässigt werden, welche Informationen zur 
+Förderung relevant sind. Diese Grundsatzfrage wird zuerst angesprochen, bevor mehrere Optionen der Ge-
+
+[...trunc...]
+--- idx 13 (len=4945) ---
+Sibylle Hurschler Lichtsteiner 
+14 
+Bei einem unstrukturierten Vorgehen ist die Fülle möglicher Beobachtungen gross, und die Verbalisierung 
+ist anspruchsvoll. Zur Beobachtung der Basisschrift wurde deshalb Wert darauf gelegt, dass alle Beteiligten 
+in einem Schulhausteam (also Klassen-, Fachlehrperson, IF-Lehrperson, DaZ-Lehrperson und Psychomoto-
+riktherapeut*in) durch die Benützung eines einheitlichen Protokollbogens zur Lernstandserfassung auf die-
+selben Kriterien fokussieren und dabei eine einheitliche und wertschätzende Sprache mit korrekten Termini 
+finden (Jurt Betschart & Hurschler Lichtsteiner, 2019, Beobachtungsbogen im Begleitmaterial). Die vorge-
+gebene Struktur vereinfacht und lenkt den Prozess – also worauf geachtet werden soll – und bietet Formu-
+lierungshilfen, um Gesehenes einzuordnen, lässt aber gleichzeitig Raum für eigene Ergänzungen. Insge-
+samt werden mehr Kriterien aufgelistet als die normalerweise ins Auge springenden Defizite – so können 
+die Stärken wahrgenommen werden. Weiter wird die Art und Dauer des Schreibanlasses festgehalten6. Zu-
+dem werden wichtige Personenvariablen wie beispielsweise die Händigkeit oder eine bekannte Sehschwä-
+che mit erfasst. Zu Schluss des Protokolls werden erste Hypothesen und Fragen als Vorbereitung für ein 
+Gespräch mit Kind und Eltern notiert. 
+Eine Erweiterung mit einem quantitativen Messverfahren eignet sich, wenn die Lehrperson wissen 
+möchte, ob die Klasse insgesamt oder ob einzelne Schüler*innen ihr Schreibtempo nach einer bestimmten 
+Zeit steigern können, z. B. nach einer Trainingseinheit. Ein solches ersetzt nicht die Beobachtung, hilft aber, 
+gewisse subjektive Eindrücke und Verzerrungen zu korrigieren: Beispielsweise kann das Schreibtempo von 
+Schreibenden sehr langsam scheinen, weil der Durchschnitt der Klasse ausserordentlich geläufig schreibt, 
+der/die Betroffene wäre aber in einer anderen Klasse bei der mittleren Gruppe.  
+Messverfahren zur Geläufigkeit mittels eines Papier-Bleistift-basierten Abschreibe-Verfahrens (vgl. Copying-
+Task in Abschnitt 2.3.1) können in ähnlicher Weise auch in der Schule unter Verwendung eines altersent-
+sprechenden Textes zum Einsatz kommen. Anstelle einer Orientierung an der Gruppennorm (Lötscher et 
+al., 2005) kann den Lernenden aufgezeigt werden, wie sie ihre individuellen Fortschritte erkennen können, 
+indem das Verfahren über ein gewisses Zeitintervall (z. B. alle 4 Monate) mehrmals durchgeführt wird. Da-
+zwischen kann ein eigentliches Tempotraining eingesetzt werden (vgl. Intervall-Training «Tempo kann man 
+üben», Jurt & Hurschler Lichtsteiner, 2019, Broschüre 5./6. Klasse). Zur Auszählung der erreichten Anzahl 
+Zeichen kann der Text vorbereitend mit der Zeichen-Auszählfunktion des Textverarbeitungsprogramms 
+erfasst und pro Zeile in einer Tabelle dargestellt werden. Mit dieser Hilfe können die Lernenden ihre Aus-
+wertung selbst vornehmen. Vergleichswerte zur Schreibgeschwindigkeit beim Abschreiben liegen zwar für 
+die 2. – 9. Klasse aus e
+[...trunc...]
+--- idx 14 (len=4460) ---
+Sibylle Hurschler Lichtsteiner 
+15 
+Dies ist auf die unterschiedlichen Steuerungsmodi beim Schreiben zurückzuführen: Hohe Anforderungen 
+an die Präzision führen Schüler*innen dazu, mit grossem Anteil an visueller Kontrolle langsam zu «malen» 
+(Nottbusch, 2017). Erst routinierte Schreibende können beide Ansprüche mühelos bewältigen und sie der 
+Schreibsituation anpassen. Der Lernprozess umfasst also auch die Integration dieser gegensätzlichen An-
+sprüche. Für die Beurteilung heisst das, dass eigentlich eine Differenzierung hin zu «leserlich, aber trotzdem 
+geläufig» (und viceversa «geläufig, aber immer noch leserlich») erfolgen müsste.  
+Diese Differenzierung ist aus zwei Gründen für die weiterführende Förderung ab dem mittleren Primar-
+schulalter besonders wichtig:  
+1. 
+Die Ansprüche an die Handschrift als Grundfertigkeit des Schreibens nehmen zu: Sie muss auch un-
+ter erschwerten Bedingungen, beispielsweise in anderen Fächern und in Prüfungssituationen, ab-
+rufbar sein. Sie sollte denn auch täglich in kurzen Einheiten trainiert werden (Sturm, 2017). 
+2. Mit der Entwicklung einer persönlichen Handschrift treten die Schüler*innen in eine Phase, wo sie 
+sich mit ihrer Schrift individuell ausdrücken wollen. Sie wählen dafür sehr unterschiedliche Lösungs-
+wege. Dazu gehören experimentelle Phasen: Einerseits in Richtung eines Mehraufwandes im Sinne 
+von Verzierungen, andererseits auch in Richtung einer Ökonomisierung, um den erhöhten Ansprü-
+chen hinsichtlich des Schreibtempos zu genügen (Nottbusch, 2017). Die Schule hat die Aufgabe, 
+den Weg in die Freiheit persönlicher Handschrift zu begleiten. Hierzu dienen die bereits ausgeführ-
+ten beiden Kriterien der Leserlichkeit und Geläufigkeit als Leitplanken.  
+Die unter 2.2.2 vorgestellte kriterienorientierte Leserlichkeitsbeurteilung und die unter 2.3.2 vorgestellte 
+Messung der Geläufigkeit können jetzt für die Schulpraxis kombiniert bei einer Abschreibaufgabe über eine 
+bestimmte Zeit angewandt werden. Die Schüler*innen erhalten die Anweisung, über eine bestimmte Zeit 
+so leserlich und so schnell wie möglich einen Text abzuschreiben. Soll der Vorgang zur Verlaufskontrolle 
+mehrmals durchgeführt werden, wird stets dieselbe Zeiteinheit und derselbe Text vorgegeben. 
+Durch eine getrennte Auswertung nach den Kriterien der Leserlichkeit und der Geläufigkeit kann anschlies-
+send eine differenzierte Planung erfolgen. Für Lernende mit erheblichem Förderbedarf ist es zielführend, 
+zuerst nur auf eines der beiden Hauptkriterien – Leserlichkeit oder Geläufigkeit – zu fokussieren, weil die 
+Lernenden aufgrund der begrenzten Ressourcen des Arbeitsgedächtnisses ihre Aufmerksamkeit so besser 
+lenken können und schneller Erfolge erzielen: 
+• 
+Ist die Schriftprobe leserlich, aber kurz ausgefallen, wird ein Geläufigkeitstraining angesetzt. 
+• 
+Ist der Text lang genug, aber die Leserlichkeit beeinträchtigt, wird ein Förderangebot zur Leserlich-
+keit umgesetzt, indem aus der Liste der Leserlichkeitskriterien 1–2 Aspekte 
+[...trunc...]
+--- idx 15 (len=5115) ---
+Sibylle Hurschler Lichtsteiner 
+16 
+innerhalb dieses Rahmens Verantwortung für ihr Lernen übernehmen können (Black & Wiliam, 2006). Ge-
+mäss Hattie (2015: 53) wird die Selbsteinschätzung des eigenen Leistungsniveaus gar als einer der effekt-
+stärksten Einzelfaktoren (Effektstärke von d = 1,44) für erfolgreiches Lernen betrachtet. Nachfolgend wird 
+die Anwendung entsprechender Verfahren in Bezug auf die Handschriftbeurteilung thematisiert. 
+Santangelo und Graham (2015) konnten in ihrer Metastudie zur Effektivität von Handschriftunterricht im 
+Allgemeinen und zu ausgewählten Methoden im Speziellen eine moderate Wirkung der Selbsteinschätzung 
+als Teil des Handschriftunterrichts belegen. Allerdings zeigte sich die Wirkung eher in Bezug auf die Leser-
+lichkeit, und aufgrund der strengen Auswahlkriterien war die Zahl der integrierten Studien sehr niedrig.  
+Jongmans et al. (2003) haben die Auswirkung eines Handschriftunterrichts untersucht, welcher eine syste-
+matische Selbsteinschätzung nach jeder Aufgabe mit Zielsetzung für die nächstfolgende Trainingseinheit 
+vorsieht, und zwar auf den Erwerbslevels aus dem Schreibprozess-Modell von Van Galen (1991). Sowohl bei 
+den Schüler*innen aus der Primar- als auch bei jenen aus der Sonderschule ergaben sich positive Effekte 
+hinsichtlich der Leserlichkeit, jedoch nicht hinsichtlich des Schreibtempos. 
+Aufgrund der Überlegung, dass eine neue Schulschrift eher akzeptiert wird, wenn die Schüler*innen gerne 
+damit arbeiten und ihre schriftbezogenen Fähigkeiten positiv einschätzen, sah die Schulschriftstudie von 
+Hurschler Lichtsteiner et al. (2008) eine Erhebung des schriftbezogenen Fähigkeitskonzepts und eine Aus-
+sage zur Freude am Schreiben von Hand vor. Weil es noch keine diesbezügliche Literatur und passende Un-
+tersuchungsmaterialien gab, wurde – angeregt durch eine Publikation zum Beurteilen und Fördern von Löt-
+scher et al. (2005) – ein Einschätzbogen neu entwickelt, den die Kinder im Einzelsetting mit der Erhebungs-
+person ausfüllten (Hurschler Lichtsteiner et al., 2008: 56). Die Items entstanden aus Vereinfachungen der 
+Untersuchungsitems: Neben Angaben zur Einschätzung von Fähigkeiten in Teilbereichen der Leserlichkeit 
+(«leserlich», «schön», «mit richtigen Abläufen») und der Geläufigkeit («sicher», «zügig», «locker») enthielt 
+der Bogen zusätzlich ein Item zur Freude am Schreiben von Hand («Ich schreibe gerne»). Der Bogen wurde 
+in einem Pilotprojekt erprobt. Angesichts der gesamten Untersuchungsdauer wurden bewusst nur wenige 
+Einzelitems gewählt und auf eine Faktorenanalyse verzichtet. Die Einschätzung wies bezüglich der Leser-
+lichkeit eine signifikante Korrelation zur Fremdeinschätzung auf (Hurschler Lichtsteiner et al., 2009: 44).  
+2.5.2 Selbst- und Fremdbeurteilung im Unterricht  
+Eine aktive Beteiligung der Schüler*innen im Handschriftunterricht ist gerade auch für die Beurteilungskul-
+tur anzustreben: So weist Ruf (2003) darauf hin, dass für die Aufgabenwahl, die Entwicklung und Bewer-
+tung 
+[...trunc...]
+--- idx 16 (len=3769) ---
+Sibylle Hurschler Lichtsteiner 
+17 
+Sitzhaltung zusammenhängt. Für die Lehrperson ergeben sich nicht nur konkrete Förderansätze, sondern 
+darüber hinaus auch Hinweise, ob die Selbsteinschätzung der Schüler*innen adäquat ist. 
+Der in Abb. 5a und b vorgestellte Einschätzbogen wird zuerst zur Selbstbeurteilung durch die Schüler*in-
+nen eingesetzt (links), danach erfolgt eine Fremdeinschätzung durch die Lehrperson (rechts), die sich dar-
+überlegen und so eins zu eins vergleichen lässt. Im Gespräch werden das Ergebnis und insbesondere die 
+Abweichungen besprochen und auf dieser Basis 1–2 nächste Teilziele festgelegt. Die Kriterien sind den Teil-
+kompetenzen des Handschreibens (D4.1) sowie den überfachlichen Kompetenzen des Lehrplans 21 ent-
+nommen. Diese Sichtweise bezieht stärker noch die gestalterischen Aspekte («übersichtliche Darstellung») 
+ein und kann die Lehrperson zur Integration weiterer Aspekte anregen.  
+ 
+ 
+Abb. 5a und b: Selbst- und Fremdevaluation der Schriftkompetenzen (Jurt Betschart & Hurschler Lichtsteiner, 2019). Ausge-
+fülltes Beispiel, gelb: Junge, 6. Kl., grün: Lehrperson  
+ 
+Mahrhofer (2004) hat Vorschläge zu einer peer-orientierten Selbst- und Fremdeinschätzung mittels soge-
+nannter „Schreibgespräche“ (2004: 212) formuliert. Die Schüler*innen werden dabei angeleitet, zuneh-
+mend selbständiger in Kleingruppen an vorbereiteten Stationen kriterienorientiert ihre Schrift zu beurtei-
+len. Dabei einigen sie sich darauf, ob das Kriterium erfüllt ist oder nicht. Damit werden drei Ziele verfolgt: 
+Erstens unterstützt dies tatsächlich den Lernerfolg. So erwähnt Hattie (2015) hohe Effektstärken für Feed-
+back im Allgemeinen – und im Besonderen, wenn Peers als Tutor*innen eingesetzt werden: «Wenn also 
+Lernende für andere zu Lehrenden werden, so lernen die Unterrichtenden ebenso viel wie die Unterrichte-
+ten. Wenn sie über dieses Unterrichten Kontrolle oder Autonomie haben, sind die Effekte noch höher» 
+(2015: 222). Zweitens werden die Schüler*innen sich eher getrauen, kritisch zurückzufragen; sie werden ak-
+tiver, und sie können durch die Diskussion unter Peers auch für ihre Selbstbeurteilung profitieren. Drittens 
+ist durch die häufiger durchführbare Organisation des Austauschs ein unmittelbareres, regelmässigeres und 
+individuelleres Feedback möglich. So wird die Lehrperson entlastet und kann sich denjenigen Schüler*innen 
+widmen, die noch mehr Unterstützung beim Lernprozess brauchen (Topping, 2009).  
+Gerade weil Handschrift als Prozess so gut physisch erlebbar ist und als Produkt Veränderungen sichtbar 
+macht, eignet sie sich für einen förderorientierten Lernprozess, der von Anfang an auf Fremd- und Selbst-
+beurteilung setzt und den Dialog pflegt. Als Gelingensbedingung für diese Beurteilungsformen verweisen 
+Lötscher und Roos (im Druck) auf die von Wiliam und Thompson (2007) formulierten Strategien: So soll bei-
+spielsweise das zu erreichende Ziel nicht nur genau beschrieben, sondern auch möglichst gut visualisiert 
+werden, um sicher
+[...trunc...]
+--- idx 17 (len=2279) ---
+Sibylle Hurschler Lichtsteiner 
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Abb. 6a: Arbeitsblatt «12 goldene Regeln für eine leserliche Schrift» (Jurt Betschart & Hurschler Lichtsteiner, 2019).  
+Abb. 6b und c: Lernkarten zur Visualisierung der Leserlichkeits-Kriterien (Jurt Betschart & Hurschler Lichtsteiner, 2019) 
+3 
+Zusammenfassung und Diskussion  
+3.1 
+Erkenntnisse aus der Auseinandersetzung mit empirischen Verfahren der Beurteilung 
+In diesem Artikel wurde eingangs dargelegt, warum die Handschrift als Grundfertigkeit des Schreibens 
+wichtig ist: Die Transkriptionsfertigkeiten sollen früh automatisiert sein, damit Ressourcen für die hierar-
+chiehöheren Prozesse des Schreibens frei werden. Um den Lernstand der Schüler*innen zu erfassen, 
+braucht es folglich passende Beurteilungsmethoden.  
+Aus Forschungsverfahren weiterentwickelte Beispiele zur formativen Beurteilung der Handschrift im mittle-
+ren Primarschulalter wurden vorgestellt. Dies erfolgt vor dem Befund, dass die Heterogenität in Bezug auf 
+schreibmotorische Leistungen auf dieser Stufe nach wie vor gross und gleichzeitig der Schrifterwerb nicht 
+abgeschlossen ist. Darum werden eine differenzierende Beurteilung und Förderung benötigt.  
+Bei allen Kriterien zeigt sich, dass erprobte Forschungsmethoden zur Untersuchung der Handschrift nicht 
+direkt zur formativen Beurteilung genutzt werden können. Dies liegt nicht nur an der bekannten Komplexi-
+tät und Einseitigkeit metrischer Zugänge. In der Handschriftforschung zeigt sich zusätzlich ein interessan-
+tes Phänomen: Weil sich Studien hinsichtlich der Leserlichkeitsbeurteilung stets auf national vorgegebene 
+Schulschriften (und deren Normen) beziehen müssen, können daraus unterschiedliche Beurteilungsverfah-
+ren entstehen, die nicht direkt übertragbar sind, selbst wenn es sich um standardisierte Verfahren handelt.  
+Folgende Erkenntnisse lassen sich aus der Orientierung an empirisch gestützten Verfahren der Handschrift-
+forschung formulieren: 
+• 
+Ein erster Gewinn besteht darin, dass die einzelnen Beurteilungsbereiche bestimmt und die Be-
+griffe geklärt werden. Dies wurde hier anhand der im Lehrplan 21 festgelegten Kriterien «Leserlich-
+keit» und «Geläufigkeit» verdeutlicht. Diese Operationalisierung vollzieht somit auch eine Wende,
+--- idx 18 (len=4792) ---
+Sibylle Hurschler Lichtsteiner 
+19 
+weg vom unscharfen Begriff des «Schönschreibens» hin zu einem exakten Verständnis der Hand-
+schrift als wichtigem Hilfsmittel zur Verschriftlichung.  
+• 
+Aus dem Wissen, wie wichtig eine automatisierte Handschrift für die Textproduktion ist, sollte der 
+Beurteilung und Förderung der Geläufigkeit der Schrift mehr Gewicht verliehen werden. Umso 
+mehr soll hier als Desiderat erwähnt werden, dass für die deutsche Sprache Richtwerte zur Geläu-
+figkeit über alle Stufen immer noch fehlen. Die Angaben von Hurschler Lichtsteiner et al. (vgl.  
+Tab. 2, 2008, 2009) beziehen sich auf eine kleine Stichprobe der 2. – 4. Klasse aus den Anfängen der 
+Verwendung der Basisschrift. Daneben gibt es nur Kennwerte aus einer amerikanischen Studie 
+(Graham et al., 1998a) und aus dem englischen Geläufigkeitstest DASH (Barnett et al., 2007), die 
+aber unter anderen Konditionen entstanden sind. Die Lehrperson muss also weiterhin eine Grup-
+pennorm in Bezug auf die Rangreihenfolge innerhalb ihrer Klasse wählen und diese wenn möglich 
+breiter abstützen, beispielsweise durch eigene Datenvergleiche im Schulhaus oder mit der Klasse 
+des Vorjahres. 
+• 
+Die Beurteilung entlang der zwei Kriterien Leserlichkeit und Geläufigkeit darf nicht additiv verstan-
+den werden: Es wurde verdeutlicht, dass nach anfänglich je getrennter Betrachtung die Integration 
+zweier sich – möglicherweise diametral – entgegengesetzter Ansprüche mit einer differenzierend 
+angelegten Vertiefung gefördert werden soll. 
+• 
+Als Parallele zwischen Methoden der Forschungs- und der Schulpraxis lässt sich erkennen: Für ein 
+umfassendes Verständnis der Handschrift braucht es sowohl prozess- als auch produktorientierte 
+Zugänge. Das Beobachten des Schreibvorganges ist dabei der zentrale prozessorientierte Zugang 
+für die Schulpraxis. 
+• 
+Gelingt es, die Kriterien in eine altersgemässe Sprache zu übertragen und sie im besten Fall auch zu 
+visualisieren, können Lernende profitieren: Anhand der Kriterien werden nachvollziehbare und 
+leistbare Teilschritte aufgezeigt. Mit Formen der Selbstbeurteilung und der Beurteilung unter Peers 
+können Schüler*innen aktiv an der Entwicklung ihrer Handschrift arbeiten. Für Lehrpersonen ist die 
+Diagnosekompetenz Ausgangspunkt für eine differenzierte, effiziente und lustvolle Handschriftför-
+derung – auch auf der Mittel- und Oberstufe.  
+Eine differenzierende Beurteilung der Handschrift kann also im Fach Deutsch – wie auch im gesamten Un-
+terricht zu einer Entlastung beitragen, weil damit Probleme individueller, zielgerichteter und somit effizien-
+ter gelöst werden können. Zudem verstärkt diese Art der Beurteilung den Dialog zwischen Lernenden und 
+Lehrperson. Die sachlichen Kriterien «Leserlichkeit» und «Geläufigkeit» bieten eine Basis für das Gespräch 
+und ermöglichen positive Rückmeldungen.  
+3.2 
+Schriftbeurteilung als Stärkung des positiven Selbstkonzepts als Schreiber*in 
+Abschliessend soll hier noch ein Gedanke zum Selbstkonzept der Schreibnov
+[...trunc...]
+--- idx 19 (len=4012) ---
+Sibylle Hurschler Lichtsteiner 
+20 
+weist in seinen Ausführungen auf verschiedene Quellen der Selbstwirksamkeitserwartungen hin: Primär 
+tragen unmittelbare Erlebnisse, eine Aufgabe kognitiv gemeistert zu haben, entscheidend zur Zuversicht 
+bei, künftige Herausforderungen zu bewältigen. Als eine weitere Quelle nennt er auch die Verknüpfung von 
+physischen und emotionalen Befindlichkeiten. Weil Handschrift sich sehr deutlich im Körperlichen manifes-
+tiert, ist dies als Desiderat zu nennen: Es wäre interessant zu untersuchen, inwiefern sich die Zuschreibun-
+gen erfolgreicher Schreibender in dieser Hinsicht unterscheiden von weniger erfolgreichen – ob beispiels-
+weise die Wahrnehmung von Schwung und Vergnügen bzw. diejenige von körperlicher Mühe, Verspannung 
+und Frustration sich als körperliche Haltung in den Körper «eingraviert» und beim nächsten Schreibauftrag 
+wieder aktiviert und auf den ganzen Schreibprozess übertragen wird. Lindauer und Sturm (2016) greifen 
+diesen Gedanken auf mit dem Hinweis auf eine Studie von Limpo und Alves (2013), welche für Handschrift-
+training indirekte Effekte auf die Textqualität via Erfahrung der Selbstwirksamkeit belegen konnten: «Das 
+heisst, dass basale Fertigkeiten, insbesondere auch handschriftliche Fertigkeiten, die eigene Wahrnehmung 
+von Schreibkompetenzen beeinflussen und damit auch die Anstrengung, die Persistenz, die Wahl der Auf-
+gabe oder emotionale Reaktionen» (Lindauer & Sturm, 2016:9). 
+Die eingangs zitierte Aussage Hegels zur lebenslangen Entwicklung des Menschen trifft in hohem Masse 
+auch für die Handschrift zu: Sie wandelt sich stetig weiter. Lehrpersonen können sie weder abschliessend 
+vermitteln noch den weiteren Gebrauch bestimmen. Mit einer differenzierenden Beurteilung und Förde-
+rung kann aber der motorische Aspekt – die Automatisierung der Bewegungsabläufe – früh auf ein hand-
+werklich befriedigendes Niveau gebracht werden. Mittels Stärkung des Fähigkeitsselbstkonzeptes und der 
+Ermöglichung vieler Selbstwirksamkeitserfahrungen kann der Erwerb eines positiven Selbstkonzeptes hin-
+sichtlich der Handschrift und vielleicht sogar hinsichtlich des Schreibens im Allgemeinen unterstützt wer-
+den. 
+ 
+ 
+Tabellen 
+Tabelle 1: Gegenüberstellung von Forschungs- und Praxiskriterien zur Beurteilung der Leserlichkeit 
+Tabelle 2: Geläufigkeit im 2. Semester (Anzahl Zeichen in Basisschrift/Minute, bei Abschreiben über 5 Minuten)  
+(Hurschler Lichtsteiner et al., 2008, 2009) 
+ 
+Abbildungen 
+Abbildung 1: Leserlichkeit und Schreibtempo beim Abschreiben (N =93, 4. Kl.), (Hurschler Lichtsteiner, Saxer Geiger & Wicki, 
+2009:41) 
+Abbildung 2: Hierarchieniedrige Teilprozesse im Schreiben und ihre Komponenten (Sturm, Nänny & Wyss, 2017: 85) 
+Abbildung 3: Das Setting während der Aufzeichnung mit dem Digitzer und dem Induktionsstift. 
+Abbildung 4a: Kontrollierte Bewegung: Wiedergabe einer Doppelschlaufe eines fünf-jährigen Jungen, Bewegungsspur (oben) 
+und Geschwindigkeitsprofil (unten), mit NIV = 17 
+Abbildung 4b: 
+[...trunc...]
+--- idx 20 (len=5465) ---
+Sibylle Hurschler Lichtsteiner 
+21 
+Literatur 
+Alves, R. A., Limpo, T., Fidalgo, R., Carvalhais, L., Pereira, L. A., & Castro: L. (2016). The impact of promoting transcription on 
+early text production: Effects on bursts and pauses, levels of written language, and writing performance. Journal of Educa-
+tional Psychology, 108(5), 665–679. http://dx.doi.org/10.1037/edu0000089  
+Arrimada, M., Torrance, M., & Fidalgo, R. (2018). Supporting ﬁrst-grade writers who fail to learn: multiple single-case evalua-
+tion of a Response to Intervention approach. Reading and Writing, 31, 865–891. https://doi.org/10.1007/s11145-018-9817-x  
+Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191–215. 
+Bara, F. & Morin, M. (2013). Does the handwriting style learned in first grad determine the style used in the fourth and fifth 
+grades and influence handwriting speed and quality? A comparison between french and quebec children. Psychology in the 
+Schools, 50(6), 601–617. https://doi.org/10.1002/pits.21691  
+Barnett, A., Henderson: E., Scheib, B., & Schulz, J. (2007). Detailed assessment of speed of handwriting (DASH). London: Pear-
+son Assessment. 
+Berninger, V. W., Mizokawa, D., & Bragg, R. (1991). Theory-based diagnosis and remediation of writing disabilities. Journal of 
+School Psychology, 29, 57–97. 
+Berninger, V. W, Yates, C. M., Cartwright, A. C. Rutberg, J., Remy, E., & Abbott. R. D. (1992). Lower-level developmental skills 
+in beginning writing. Reading and Writing: An Interdisciplinary Journal, 4, 257–280, https://doi.org/10.1007/BF01027151  
+Berninger, V., & Swanson, H. L. (1994). Modifying Hayes and Flower's model of skilled writing to explain beginning and devel-
+oping writing. In E. Butterfield (ed.), Children's Writing: Toward a Process Theory of the Development of Skilled Writing (pp. 
+57–81). Greenwich: JAI Press.  
+Berninger, V. W., & Richards, T. L. (2002). Brain Literacy for Educators and Psychologists. Amsterdam: Academic Press.  
+Berninger , V. W., Rutberg, J. E., Abbott, R. D., Garcia N., Anderson-Youngstrom M., Brooks A., & Fulton, C. (2006) Tier 1 and 
+Tier 2 early intervention for handwriting and composing. Journal of School Psychology 44, 3–30. 
+https://doi.org/10.1016/j.jsp.2005.12.003  
+Black, P.; & Wiliam, D. (2009). Developing the theory of formative assessment. Educational Assessment, Evaluation and Ac-
+countability, 21, 5–31. https://doi.org/10.1007/s11092-008-9068-5  
+Christensen, C. A. (2005). The role of orthographic-motor integration in the production of creative and well-structured writ-
+ten text for students in secondary school. Educational Psychology, 22, 441–453. https://doi.org/10.1080/01443410500042076  
+Connelly, V., Gee, D., & Walsh, E. (2007). A comparison of keyboarded and handwritten compositions and the relationship 
+with transcription speed. The British Journal of Educational Psychology, 2, 479–492. 
+https://doi.org/10.1348/000709906X116768   
+Deutschschweizer 
+[...trunc...]
+--- idx 21 (len=5609) ---
+Sibylle Hurschler Lichtsteiner 
+22 
+Guilbert, J., Alamargot, D., & Morin, M.-F. (2019). Handwriting on a tablet screen: Role of visual and proprioceptive feedback 
+in the control of movement by children and adults. Human Movement Science, 65, 30–41. https://doi.org/10.1016/j.hu-
+mov.2018.09.001 
+Häusler, M. (2007). Spielen, zeichnen, schreiben. Grafomotorik – das Schreibenlernen verstehen, Lernschwierigkeiten behan-
+deln. In T. Buchmann, (Hrsg.), Psychomotorik-Therapie und individuelle Entwicklung (S. 25–28). Luzern: Ed. SZH/CSPS.  
+Hamstra-Bletz, E., De Bie, J., & Den Brinker, B. P. L. M. (1987). BHK. Beknopte beoor-delingsmethodevoor kinderhandschriften: 
+Experimentele versie [The concise assessment scale for children’shandwriting: Experimental version]. Lisse: Swets & Zeitlinger  
+Hattie, J. (2015). Lernen sichtbar machen. Hohengehren: Schneider. 
+Hayes, J. R. (2012). Modeling and Remodeling Writing. Written Communication, 29(3), 369–388. 
+https://doi.org/10.1177/0741088312451260. 
+Huber, C. & Grosche, M. (2012). Das response-to-intervention-Modell als Grundlage für einen inklusiven Paradigmenwechsel in 
+der Sonderpädagogik. Zeitschrift für Heilpädagogik, 8, 312–322. 
+Hurschler Lichtsteiner, Saxer Geiger, A. & Wicki, W. (2008). Schreibmotorische Leistungen im frühen Primarschulalter in Abhän-
+gigkeit vom unterrichteten Schrifttyp. Forschungsbericht Nr.18 der Pädagogischen Hochschule Zentralschweiz. Luzern: PHZ 
+Luzern. https://zenodo.org/record/30764#.X6k4DmhKhaQ (besucht am 9.11.2020). 
+Hurschler Lichtsteiner, Saxer Geiger, A., & Wicki, W. (2009). Schreibmotorische Leistungen im Primarschulalter in Abhängigkeit 
+vom unterrichteten Schrifftyp. Forschungsbericht Nr. 24 der Pädagogischen Hochschule Zentralschweiz. Luzern: PHZ Luzern. 
+https://zenodo.org/record/30787#.X6k4RmhKhaQ (besucht am 9.11.2020). 
+Hurschler Lichtsteiner (2013). Erfahrungen mit der Basisschrift. Eine grosse Erleichterung – und wie weiter? Die Grundschul-
+zeitschrift 265/266, 28–31. https://zenodo.org/record/3559741#.X6k6W2hKhaQ (besucht am 9.11.2020) 
+Hurschler Lichtsteiner & Wicki, W. (2017). Kinematische Untersuchung der Handschrift mit STREGA CSWin: Ein Verfahren zur 
+Förderplanung und zur Wirksamkeitsforschung. Empirische Sonderpädagogik, 4, 406–425. https://zenodo.org/re-
+cord/3559737#.X6k6tmhKhaQ (besucht am 9.11.2020). 
+Hurschler Lichtsteiner, Wicki, W. & Falmann, P. (2018). Impact of handwriting training on fluency, spelling and text quality 
+among third graders [online version]. Reading and Writing, 1–24. https://doi.org/10.1007/s11145-018-9825-x  
+Innerschweizer Erziehungsdirektorenkonferenz (IEDK) (2003, 4. Aufl.) Lehrpläne für die Primarschule: Schrift. Luzern: Bild-
+ungsplanung Zentralschweiz. 
+James, K. H., & Engelhardt, L. (2012). The effects of handwriting experience on functional brain development in pre-literate 
+children. Trends in Neuroscience and Education 1, 32–42. https://doi.org/10.1016/j.tine.2012.08.001  
+Jones, D., & Christensen, C. A. (1999). The
+[...trunc...]
+--- idx 22 (len=5277) ---
+Sibylle Hurschler Lichtsteiner 
+23 
+Mahrhofer, C. (2004). Schreibenlernen mit graphomotorisch vereinfachten Schreibvorgaben. Eine experimentelle Studie zum 
+Erwerb der verbundenen Ausgangsschrift in der 1. und 2. Jahrgangsstufe. Bad Heilbrunn: Klinkhardt. 
+Mai, N. & Marquardt, C. (1992). CS – Computer-Assisted Movement Analysis in Handwriting. Operational Manual. Munich: 
+MedCom Verlag. 
+Mai, N. Marquardt, C. & Quenzel, I. (1997). Wie kann die Flüssigkeit von Schreibbewegungen gefördert werden? In H. Balhorn 
+und H. Niemann (Hrsg.). Sprachen werden Schrift. Mündlichkeit – Schriftlichkeit – Mehrsprachigkeit (S. 222–231). Lengwil am 
+Bodensee: Libelle. 
+Marquardt, C., Gentz, W., & Mai, N. (1999). Visual control of automated handwriting movements. Experimental Brain Rese-
+arch, 128 (1), 224–228. https://doi.org/10.1007/s002210050841  
+Marquardt, C. (2011). Schreibanalyse. In D. Novak (Hrsg.) Handfunktionsstörungen in der Neurologie (S.379–394). Berlin: 
+Springer. 
+Medwell, J., Strand: & Wray, D. (2009). The links between handwriting and composing for Y6 children. Cambridge Journal of 
+Education, 39 (3), 327–342. https://doi.org/10.1080/03057640903103728  
+Meier, H. E. (2006). Schreiben lernen: Anleitung zu einer zeitgemässen Schulschrift mit Übungen für die erste und zweite Klasse. 
+Eigenverlag Glarus: Fridolin Druck. 
+Merkelbach, C. (Ed.). (2010). Plan d'études romand: Cycle 1 (Version 2.0, 27 mai 2010). Neuchâtel: Secrètariat général de la CIIP.  
+Merkelbach, C. (Ed.). (2010). Plan d'études romand: Cycle 2 (Version 2.0, 27 mai 2010). Neuchâtel: Secrètariat général de la CIIP.  
+Mueller, P.A., & Oppenheimer, D.M. (2014). The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop 
+Note Taking. Psychological Science, 25(6), 1159–1168. https://doi.org/10.1177/0956797614524581  
+Nottbusch, G. (2008). Handschriftliche Sprachproduktion. Sprachstrukturelle und ontogenetische Aspekte. Tübingen: Nie-
+meyer.  
+Nottbusch, G. (2017). Graphomotorik. In M. Becker-Mrotzek, J. Grabowski, & T. Steinhoff (Hrsg.), Forschungshandbuch empiri-
+sche Schreibdidaktik (S. 125–138). Münster: Waxmann. 
+Odersky, E. (2018). Handschrift und Automatisierung des Handschreibens. Eine Evaluation von Kinderschriften im 4. Schuljahr. 
+Berlin: J. B. Metzler. 
+Olinghouse, N. G., & Graham (2009).The Relationship between the Discourse Knowledge and the Writing Performance of 
+Elementary-Grade Students. Journal of Educational Psychology, 101(1), 37–50. https://doi.org/10.137/a0013462   
+Olive, T., & Kellogg, R.T. (2002). Concurrent activation of high- and low-level production processes in written composition. 
+Memory & Cognition, 30, 594–600. https://doi.org/10.3758/BF03194960  
+Ossner, J. (2006). Sprachdidaktik Deutsch. Paderborn: Schöningh UTB. 
+Philipp, M. (2019). Handschrift oder Tastaturschreiben? Wer erfolgreich kommunizieren will, muss beides können! Grundschul-
+unterricht Deutsch, 1, 10–13. 
+Pontart, V., Bidet-lldei, C., Lambert, E., Morisset, P., Flouret, L., & Alam
+[...trunc...]
+--- idx 23 (len=2935) ---
+Sibylle Hurschler Lichtsteiner 
+24 
+Sturm, A., Nänny, R. & Wyss, St. (2017). Entwicklung hierarchieniedriger Schreibprozesse. In M. Philipp (Hrsg.), Handbuch 
+Schriftspracherwerb und weiterführendes Lesen und Schreiben (S. 84–104). Weinheim: Beltz Juventa. 
+Sturm, A. (2017). Förderung hierarchieniedriger Schreibprozesse. In M. Philipp (Hrsg.), Handbuch Schriftspracherwerb und 
+weiterführendes Lesen und Schreiben (S. 266–284). Weinheim Basel: Beltz Juventa. 
+Ticino.Dipartimento dell’educazione, della cultura e dello sport. (2015). Piano di studio online. https://scuolalab.edu.ti.ch/te-
+mieprogetti/pds (besucht am 15.5.2020) 
+Topping, K. J. (2009). Peer Assessment. Theory Into Practice, 48(1), 20–27. https://doi.org/10.1080/00405840802577569   
+Troia, G., & Graham (2003). The Consultants Corner: Effective Writing Instruction Across the Grades: What Every Educational 
+Consultant Should Know. Journal of Educational and Psychological Consultation 14(1), 75–89. 
+https://doi.org/10.1207/S1532768XJEPC1401_04  
+Tucha, O., Tucha, L., & Lange, K. W. (2008). Graphonomics, automaticity and handwriting assessment. Literacy, 42(3), 145–155. 
+https://doi.org/10.1111/j.1741-4369.2008.00494.x  
+van Galen, G. P. (1991). Handwriting: Issues for a psychomotor theory. Human Movement Science, 10, 165–191. 
+https://doi.org/10.1016/0167-9457(91)90003-G  
+Van Waelvelde, H., Hellinckx, T., Peersman, W., & Smits-Engelsmann, B. C. (2012). SOS (Systematic Screening for Handwriting 
+Difficulties): a screening instrument to identify children with handwriting impairments. Phys Occup Ther Pediatr, 32(3), 306–
+319. https://doi.org/10.3109/01942638.2012.678971  
+Weingarten, R. (2014). Schreiben mit der Hand und Schreiben mit dem Computer. Chirographie, Typograhie und Diktiat. Osn-
+abrücker Beiträge zur Sprachtheorie (OBST), 85, 133–149. https://doi.org/10.1024/1421-0185/a000127 
+Wicki, W., Hurschler Lichtsteiner, Saxer Geiger, A., & Müller, M. (2014). Handwriting Fluency in Children: Impact and Corre-
+lates. Swiss Journal of Psychology, 72(2), 87–96. https://doi.org/10.1024/1421-0185/a000127  
+Wicki, W. & Hurschler Lichtsteiner (2014). Verbundene versus teilweise verbundene Schulschrift – Ergebnisse einer quasi-ex-
+perimentellen Feldstudie. Osnabrücker Beiträge zur Sprachtheorie (OBST), 85, 111–131.  
+Wiliam, D., & Thompson, M. (2007). Integrating Assessment with Learning: What Will It Take to Make It Work? In C. A. Dwyer 
+(Ed.), The Future of Assessment: Shaping Teaching and Learning (pp. 53-82). Mahwah, New Jersey: Lawrence Erlbaum 
+Associates. 
+ 
+ 
+ 
+ 
+Autorin 
+Sibylle Hurschler Lichtsteiner, Psychomotoriktherapeutin EDK, Dozentin für Psychomotorik und Schriftdi-
+daktik, Projektleiterin der Forschungsgruppe Sprachen und Schrift an der Pädagogischen Hochschule Lu-
+zern, Doktorandin an der Pädagogischen Hochschule Heidelberg 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dieser Beitrag wurde in der Nummer 3/2020 von leseforum.ch veröffentlicht.
+--- idx 24 (len=2700) ---
+Sibylle Hurschler Lichtsteiner 
+25 
+Évaluation différenciée de l’écriture manuscrite : un élément clé  
+du développement de l’écriture 
+Sibylle Hurschler Lichtsteiner 
+ 
+ 
+Chapeau 
+L’article commence par souligner l’importance de l’écriture manuscrite en tant que compétence scripturale 
+fondamentale et donne un aperçu de la recherche de pointe en matière d’écriture manuscrite selon les 
+deux critères définis comme centraux : la lisibilité et la fluidité. En prenant comme exemple les études de 
+Hurschler, Saxer et Wicki (2008, 2009) menées dans le cadre de la réforme de l’écriture en Suisse alé-
+manique, il est possible de démontrer que ces deux composantes ne sont pas nécessairement liées.  
+La recherche en matière d’évaluation de l’écriture manuscrite a permis de développer non seulement des 
+méthodes, mais aussi des connaissances pour définir de quelle manière l’écriture manuscrite peut être 
+évaluée et encouragée. L’article explique d’abord les procédures d’évaluation de la lisibilité avant de débat-
+tre des méthodes pour analyser la fluidité. Ces dernières comprennent un large éventail de techniques 
+axées sur les processus et les produits telles que l’analyse numérique de l’écriture manuscrite évaluant le 
+degré d’automatisme, la mesure de la fluidité du geste d’écriture au crayon gris sur papier et l’observation 
+du processus d’écriture en direct. L’observation structurée donne  à l’enseignant des indications précieuses 
+qui l’aideront à utiliser des approches pertinentes pour encourager l’écriture auprès de ses élèves, en par-
+ticulier ceux qui peinent à écrire à la main. Enfin, l’article décrit comment l’association des deux critères  
+(à savoir le degré de lisibilité et de fluidité atteints dans l’apprentissage et le développement d’une écriture 
+personnelle manuscrite) débouche sur des propositions concrètes destinées à encourager l’écriture à des 
+groupes de différents niveaux.  
+Par ailleurs, pour enseigner l’écriture manuscrite avec succès, il serait judicieux d’intégrer dans ces proposi-
+tions des aspects de l’auto-évaluation et de l’évaluation par les pairs. Deux exemples issus de la pratique 
+illustrent cette approche. L’article se conclut par une réflexion sur la perception que les novices ont de 
+leurs propres compétences en écriture et sur l'effet préventif de l’évaluation différenciée de l’écriture man-
+uscrite qui leur permet de renforcer leurs sentiments de compétence à écrire. 
+ 
+ 
+ 
+Mots-clés 
+écriture manuscrite, écriture fondamentale, lisibilité, fluidité, automatisme, perception de ses propres 
+compétences, évaluation formative, auto-évaluation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cet article a été publié dans le numéro 3/2020 de forumlecture.ch
+--- idx 25 (len=2562) ---
+Sibylle Hurschler Lichtsteiner 
+26 
+Valutazione differenziata della calligrafia – una componente della 
+promozione della scrittura 
+Sibylle Hurschler Lichtsteiner 
+ 
+ 
+Riassunto 
+L'articolo esordisce sottolineando l'importanza della calligrafia come abilità fondamentale della scrittura e 
+offre quindi una panoramica dello stato dell'arte della ricerca calligrafica lungo i due criteri principali della 
+leggibilità e della scorrevolezza. Sulla base dell'esempio degli studi di Hurschler, Saxer e Wicki (2008, 2009), 
+condotti in relazione alla riforma calligrafica svizzero-tedesca, è possibile dimostrare che queste due com-
+ponenti non sono necessariamente correlate tra loro.  
+La valutazione della calligrafia nella ricerca ha prodotto non solo metodi, bensì anche una conoscenza di 
+come la calligrafia può essere valutata in modo orientato alla promozione: in primo luogo, vengono illu-
+strate le procedure per valutare la leggibilità, per poi passare alla discussione dei metodi per esaminare la 
+scorrevolezza. Questi ultimi comprendono un ampio spettro di metodi orientati ai processi e ai prodotti, 
+come l'analisi digitale della calligrafia per misurare l'automazione, la misurazione della scorrevolezza basata 
+su carta e matita e l'osservazione diretta del processo di scrittura. L'osservazione strutturata fornisce all'in-
+segnante importanti informazioni sugli impulsi di supporto più adeguati, specialmente in caso di difficoltà 
+calligrafiche. Infine, viene mostrato come l'integrazione di entrambi i criteri – ossia il livello di apprendi-
+mento per quanto riguarda lo sviluppo di una calligrafia personale leggibile e fluente – possa essere esami-
+nata per definire suggerimenti concreti di promozione per i diversi gruppi di prestazioni.  
+Per garantire il successo dell’insegnamento della calligrafia, verranno utilizzati anche elementi di autovalu-
+tazione e di valutazione tra pari. A tal fine verranno spiegati i concetti per due esempi pratici. L'articolo si 
+conclude con una riflessione sul concetto di “Selbstfähigkeit” (esercizio autonomo delle proprie abilità) de-
+gli “scrittori esordienti” e sul possibile effetto preventivo, consentendo alle allieve e agli allievi di vivere 
+esperienze di autoefficacia attraverso una valutazione differenziata della calligrafia. 
+ 
+ 
+Parole chiave 
+calligrafia, scrittura di base, leggibilità, scorrevolezza, automatizzazione, concetto delle proprie abilità, valu-
+tazione formativa, autovalutazione 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Questo articolo è stato pubblicato nel numero 3/2020 di forumlettura.ch
+
+================================================================================
+=== gold S.50-53 | Literatur/gold2018lesenkannmanlernen/Gold2018 Migrationsprache S.50-53.pdf
+================================================================================
+# pages=4
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== gold S.62-66 | Literatur/gold2018lesenkannmanlernen/Gold2018 schwacheleser S62-66.pdf
+================================================================================
+# pages=5
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 4 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== gold S.67-88 | Literatur/gold2018lesenkannmanlernen/Gold2018lesenkannmanlernen S67-88.pdf
+================================================================================
+# pages=22
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 4 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 5 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 6 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 7 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 8 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 9 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 10 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 11 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 12 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 13 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 14 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 15 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 16 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 17 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 18 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 19 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 20 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 21 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== lehwald S.77-92 | Literatur/lehwald2017motivation/Lehwald 2017 motivation trifft begabung S.77-92.pdf
+================================================================================
+# pages=16
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 4 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 5 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 6 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 7 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 8 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 9 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 10 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 11 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 12 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 13 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 14 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 15 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== lehwald S.47-75 | Literatur/lehwald2017motivation/Lehwald 2017 motivation trifft begabung S. 47-75.pdf
+================================================================================
+# pages=24
+--- idx 0 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 1 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 2 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 3 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 4 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 5 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 6 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 7 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 8 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 9 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 10 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 11 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 12 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 13 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 14 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 15 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 16 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 17 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 18 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 19 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 20 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 21 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 22 (len=0) ---
+(leer — Bildscan ohne OCR)
+--- idx 23 (len=0) ---
+(leer — Bildscan ohne OCR)
+
+================================================================================
+=== hoyer S.111-113 | Literatur/hoyer2013begabung/source.pdf
+================================================================================
+# pages=136
+# auto-offset=0
+--- printed S.111 (idx 110, len=2265) ---
+7 Schulentwicklung und Didaktik der Begabungsförderung
+Blick auf den Aufbau neuen Wissens an dieser Stelle noch einmal auf die
+Bedeutung der Anschlussfähigkeit von Lernaufgaben und Lernherausforde-
+rungen an das individuell unterschiedliche jeweilige Vorwissen der Lernen-
+den hingewiesen. Dabei gehen wir davon aus, dass Lernaufgaben und Prob-
+lemstellungen innerhalb einer „Zone nächster Entwicklung“ von diesen als
+anspruchsvoll, herausfordernd und gleichzeitig erreichbar erlebt werden.
+Unter dieser Zone of proximal development (VYGOTSKY
+YGOTSKY 1978) ist diejenige
+Zone zu verstehen, die mit Hilfe und Unterstützung Fortgeschrittener auf
+der Basis ihres bisherigen Wissens in einer bestimmten Zeit erreichbar ist.
+Da diese Zone nächster Entwicklung bei allen Schülern an biografisch unter-
+schiedlichen (Lern-)Erfahrungen anschließt, sind mit monoton angelegten
+Lehranlässen nie alle Lernenden einer heterogenen Lerngemeinschaft glei-
+chermaßen erreichbar. Für die Unterrichtsentwicklung bedeutet dies, einer-
+seits Lernarrangements zu entwickeln, die vermögen, Schüler/innen auf
+unterschiedlichsten Lernniveaus, von Lernschwächeren bis hoch Begabten,
+anzusprechen und andererseits Lerndialoge zu inszenieren, in denen gegen-
+seitiges Lernen voneinander (kooperatives Lernen) als Lernprinzip wirksam
+werden kann.
+Im Zusammenhang mit der „kognitiven Wende“ wurden in den USA eine
+Reihe von Modellen und über ein Dutzend Programme für die explizite För-
+derung höherer Denkfertigkeiten entwickelt und mit Studien ihre Effektivität
+belegt. Im angloamerikanischen Raum zählt deshalb die Vermittlung von
+Higher Order Thinking Skills seit Jahrzehnten zum pädagogischen Standard;
+ganz besonders im Rahmen von Begabungsprogrammen (COLANGELO
+OLANGELO/DAVIS
+AVIS
+2002; COSTA
+OSTA 2002; VAN
+ANTASSEL
+ASSEL-BASKA
+ASKA/STAMBAUGH
+TAMBAUGH 2006). ROGERS
+OGERS (2002,
+S. 271) führt dazu aus:
+„No matter what forms of enrichment the teacher decides to use, the key
+to enrichment lies in the maxim „HOTS not MOTS“. In other words,
+whatever curriculum challenge the teacher offers, it must incorporate
+Higher Order Thinking Skills (HOTS) not More of the Same (MOTS).“
+112
+Abb. 4: Taxonomy of the Cognitive Domain (ANDERSON
+NDERSON/KRATHWOHL
+RATHWOHL 2001).
+Higher Order
+Thinking
+--- printed S.112 (idx 111, len=3128) ---
+7.4 Lernpsychologische Grundlagen
+Benjamin BLOOM
+LOOM (1956) entwickelte zur Zeit der kognitiven Wende mit
+einer Gruppe von Erziehungswissenschaftler/innen eine Klassifikation ko-
+gnitiver Lernstufen. Dabei wird unterstellt, dass höhere Lernstufen auf den
+darunterliegenden aufbauen und effektives höheres Lernen nur gegeben ist,
+wenn die basalen Fähigkeiten der jeweilig unteren Stufen gewährleistet
+sind. In den 1990er Jahren hat eine Gruppe von Kognitionspsychologen un-
+ter der Leitung von Lorin Anderson, einer früheren Studentin von Bloom, in
+Zusammenarbeit mit Krathwohl das Modell geringfügig überarbeitet und an-
+stelle der Evaluation, die Stufe des konstruktiven kreativen Schaffens als
+höchste Kompetenz definiert.
+Diese Taxonomiestufen für höhere Denkfähigkeiten stellen eine elemen-
+tare Orientierungslinie dar, Lernaufgaben und Problemstellungen, aber
+auch die an Lernprozesse anschließende Reflexion über das eigene Lernen
+für alle Lernenden (und insbesondere für Schüler/innen mit hohem Leis-
+tungspotenzial) herausfordernd und anspruchsvoll im Sinn ihrer jeweiligen
+Zone nächster Entwicklung zu gestalten. In den Worten von VAN
+AN TASSEL
+ASSEL-BAS-
+AS-
+KA
+KA (2003, S. 174): „to turn a gifted learner’s initial capacity for intellectual
+activity into mature competence for academic and professional accomplish-
+ment“.
+Anhand der vorangehenden Lerntheorien erschließt sich die Bedeutung
+des Lerndialogs und der Reflexion über das eigene Lernen und deren Effekte
+als Schlüsselstellen einer Begabungsförderung, die sich zum Ziel setzt, dass
+Begabte selbstbewusst und selbstgesteuert ihre Potenziale erkennen und in
+entsprechende Leistungen umsetzen können. Emotionen, Motivation, Den-
+ken und Reflektieren stehen in engem Zusammenhang mit dem Selbstbe-
+wusstsein der Lernenden, dem in der Begabungsförderung eine zentrale Be-
+deutung zukommt.
+Das Selbstkonzept kann als eine Gedächtnisstruktur definiert werden, die
+alle auf die eigene Person bezogenen Informationen beinhaltet. Es umfasst
+unter anderem das im Lauf des Lebens erworbene Wissen einer Person über
+ihre eigenen Kompetenzen, Bedürfnisse und Einstellungen (HANNOVER
+ANNOVER
+1997; WILD
+ILD 2006) und ist prägend für das Selbsterleben im Sinn von Persön-
+lichkeitszuschreibungen („Ich bin …“) und verhaltensbezogene Informatio-
+nen („Ich kann …“).
+Für Lernprozesse generell und insbesondere für Lernprozesse besonders
+begabter Kinder und Jugendlicher scheint deshalb unverzichtbar, das Lernen
+und die Reflexion des Lernens neben der Sach- und Fachausrichtung auch
+auf Aspekte der Lerneinstellungen, des Selbstverständnisses und der Persön-
+lichkeitsbildung zu erstrecken. Lernen wird so zu personalisiertem Lernen.
+7.5 Begabungsförderung als personale Kompetenz und
+soziales Kapital
+Die Ansätze innerhalb der Begabungsforschung mehren sich, die sich mit
+Gesichtspunkten zur Begabung jenseits einseitiger Eingrenzung auf aus-
+schließlich hohes kognitives Potenzial auseinandersetzen. Vermehrt finden
+affektive, personale und so
+[...trunc...]
+--- printed S.113 (idx 112, len=2241) ---
+7 Schulentwicklung und Didaktik der Begabungsförderung
+achtung als Voraussetzungen und Determinanten sich realisierender Bega-
+bung resp. Hochleistung. RENZULLI
+ENZULLI (2002, S. 33) bezeichnet diese Bedingun-
+gen als „intelligences outside the normal curve“ oder als „co-cognitive
+traits“.
+Co-kognitive Personenmerkmale können über deren Bedeutung für die in-
+dividuellen Lernprozesse des Einzelnen hinaus im Anschluss an Bourdieu
+und Passeron auch als „soziales Kapital“ betrachtet werden (BOURDIEU
+OURDIEU, P. &
+PASSERON
+ASSERON, L. C. 1986): als Vermögen von Mitgliedern einer Gesellschaft, zur
+Lösung von Problemen Einzelner oder der Gemeinschaft beizutragen. Sie
+sind dadurch untrennbar verbunden mit Wertefragen.
+Das soziale Kapital (neben intellektuellem und finanziellem Kapital) des
+Einzelnen und/oder einer Gesellschaft wird von RENZULLI
+ENZULLI (2002) als Bündel
+von immateriellen Werten oder personaler Ressourcen gefasst, die sich auf
+die kollektiven Bedürfnisse von Individuen und der Gesellschaft als Ganzes
+beziehen. Als Personenmerkmale werden diese sogenannten co-kognitiven
+Aspekte als Voraussetzung für sich entwickelndes (hoch-)begabtes Verhalten
+hervorgehoben. Es wird davon ausgegangen – und dies ist für Lernprozesse
+von hoher Relevanz –, dass co-kognitive Einstellungen mit den kognitiven
+Ressourcen von Menschen interagieren und deren Umsetzung in (Hoch-)
+Leistungen auf diese Weise erst ermöglichen oder auch behindern (RENZULLI
+ENZULLI
+2006, S. 18).
+Aufgrund einer breit angelegten Metaanalyse der zum Thema vorliegen-
+den Forschungsliteratur, verbunden mit der eigenen Forschung mittels zahl-
+reicher mehrstufiger Delphibefragungen, wurden vom NRC/GT (s. dazu
+S. 94) schließlich sechs hauptsächliche Komponenten oder Schlüsselmerk-
+male herausgearbeitet, auf die sich die weitere Forschung ausrichtet (REN-
+EN-
+ZULLI
+ZULLI 2002; SYTSMA
+YTSMA 2003):
+– Optimismus
+– Mut
+– Hingabe an ein Thema resp. Fach
+– Sensibilität für menschliche Belange
+– Körperliche und geistige Energie
+– Zukunftsvision und das Gefühl, eine Bestimmung zu haben
+114
+Abb. 5: Co-kognitive Personenmerkmale (RENZULLI
+ENZULLI 2002. Phi Delta Kappan 84(1), 33–40, 57–58).
+Sechs Schlüssel-
+merkmale
+Soziales Kapital
+Co-kognitive
+Personenmerkmale
+
+================================================================================
+=== sturm S.183-198 | Literatur/sturm2016graphomotorik/source.pdf
+================================================================================
+# pages=16
+# auto-offset=0
+--- printed S.183 (idx 182, len=14) ---
+[OUT OF RANGE]
+--- printed S.184 (idx 183, len=14) ---
+[OUT OF RANGE]
+--- printed S.185 (idx 184, len=14) ---
+[OUT OF RANGE]
+--- printed S.186 (idx 185, len=14) ---
+[OUT OF RANGE]
+--- printed S.187 (idx 186, len=14) ---
+[OUT OF RANGE]
+--- printed S.188 (idx 187, len=14) ---
+[OUT OF RANGE]
+--- printed S.189 (idx 188, len=14) ---
+[OUT OF RANGE]
+--- printed S.190 (idx 189, len=14) ---
+[OUT OF RANGE]
+--- printed S.191 (idx 190, len=14) ---
+[OUT OF RANGE]
+--- printed S.192 (idx 191, len=14) ---
+[OUT OF RANGE]
+--- printed S.193 (idx 192, len=14) ---
+[OUT OF RANGE]
+--- printed S.194 (idx 193, len=14) ---
+[OUT OF RANGE]
+--- printed S.195 (idx 194, len=14) ---
+[OUT OF RANGE]
+--- printed S.196 (idx 195, len=14) ---
+[OUT OF RANGE]
+--- printed S.197 (idx 196, len=14) ---
+[OUT OF RANGE]
+--- printed S.198 (idx 197, len=14) ---
+[OUT OF RANGE]
