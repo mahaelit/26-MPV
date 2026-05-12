@@ -1,6 +1,8 @@
-## Warum die Chimäre genau hier hingehört
+## Warum SOLUX als diagnostisches Fenster im Zentrum steht
 
-Im Zentrum ist die Chimäre wissenschaftlich vertretbar, weil das Zentrum die einzige Stelle ist, an der sie nicht als Ornament wirkt, sondern als Verkörperung der Hauptthese. Das Argument lautet: SOLUX ist der Erscheinungsraum, in dem die zusammengesetzte Wesenheit eines Kindes wie S. (kognitives Potenzial, schriftsprachliche Mühe, emotionale Komplexität) als Ganzes wahrgenommen werden darf, statt zerlegt in defizitäre Einzelaspekte. Die Chimäre ist hier nicht Comic-Figur und nicht Monster, sondern heraldisches Symbol für die 2e-Maskierungslogik (Baum/Schader 2021), die im Dossier explizit als methodologische Analogie eingeführt ist (Abschnitt subsec:2e). Genau diese Verbindung macht sie verteidigbar: Wenn die Examinatorin nachfragt, kann Inti sagen: *Die Figur ist mein bildlicher Anker für die Maskierungslogik nach Baum und Schader. Im Regelunterricht werden einzelne Anteile gesehen, im SOLUX-Setting erscheint das Wesen als Ganzes.*
+SOLUX ist ein enrichment-orientierter Beobachtungsraum. Es macht S.s Potenzial sichtbar, weil es die schulischen Standardbedingungen verändert: weniger Notendruck, mehr Interesse, mehr Offenheit, mehr adaptive Zugänge und mehr dokumentierte Beobachtung. Genau darin liegt die bildungsgerechte Pointe: Nicht das Kind muss zuerst in die Form des Regelunterrichts passen, sondern die Schule muss Bedingungen schaffen, unter denen verdeckte Potenziale überhaupt erkennbar werden.
+
+Die Chimäre ist im Zentrum wissenschaftlich vertretbar, weil das Zentrum die einzige Stelle ist, an der sie nicht als Ornament wirkt, sondern als heraldisches Symbol für das Kind, dessen zusammengesetzte Wesenheit — kognitives Potenzial, schriftsprachliche Mühe, emotionale Komplexität — erst unter veränderten Bedingungen als Ganzes wahrgenommen werden darf. Im Regelunterricht werden einzelne Anteile gesehen, im SOLUX-Setting erscheint das Wesen als Ganzes.
 
 In den Ringbereichen würde die Chimäre überstrapaziert. Im Zentrum genügt sie sich selbst.
 
@@ -50,17 +52,17 @@ Die Chimäre darf nicht grösser sein als das Sprossenkreuz; sie sitzt *im* Fens
 
 Jeder Quadrant trägt ein einzelnes Symbol und ein einzelnes Stichwort. Mehr nicht. Klarheit vor Vollständigkeit.
 
-**Oben links: Notenfreiheit.**
+**Oben links: Interessenorientierung.**
+Symbol: Ein Schachbrett-Ausschnitt mit einer Eröffnungsstellung (e2-e4, e7-e5, ikonisch lesbar). Darunter klein das Wort *interessengeleitet*.
+
+**Oben rechts: Notenfreiheit.**
 Symbol: Eine Ziffernreihe 1 bis 6, leicht verblasst, mit einer durchgezogenen ruhigen Linie quer hindurch (kein Streich, eher eine Beruhigung). Darunter klein das Wort *notenfrei*.
 
-**Oben rechts: Interessenorientierung.**
-Symbol: Ein Schachbrett-Ausschnitt mit einer Eröffnungsstellung (e2-e4, e7-e5, das ist die offene italienische Eröffnung und ikonisch lesbar). Darunter klein das Wort *interessengeleitet*.
+**Unten links: Adaptive Lernarchitektur.**
+Symbol: Mehrere verschieden grosse Bausteine oder Wege, die sich verzweigen (verschiedene Zugänge zum selben Ziel). Darunter klein das Wort *adaptiv*.
 
-**Unten links: Sprachentlastung.**
-Symbol: Eine offene Sprechblase, in der statt Worten eine Skizze oder ein Bauplan-Strich auftaucht (also: Ausdruck ohne Schriftsprache). Darunter klein das Wort *sprachentlastet*.
-
-**Unten rechts: Expertenrolle.**
-Symbol: Eine kleine Figur mit erhobenem Arm oder Zeigegestus, vor einer Halbgruppe (zwei oder drei kleinere Figuren als Zuhörer:innen). Darunter klein das Wort *Expertenrolle*.
+**Unten rechts: Dokumentation und Reflexion.**
+Symbol: Ein aufgeschlagenes Heft oder Portfolio mit einem Stift daneben. Darunter klein das Wort *dokumentiert*.
 
 Diese Symbole müssen nicht detailreich sein. Strichzeichnung mit zarter Aquarelltönung in der jeweiligen Quadrantenfarbe (oder einheitlich hellblau) reicht.
 
@@ -70,29 +72,27 @@ Inti hat die Köpfe bereits illustriert. Für das Zentrum wähle ich fünf Perso
 
 **Portrait 1: Joseph S. Renzulli** (USA, *1936)
 Stichwort darunter: *Schoolwide Enrichment Model*
-Mündliche Anbindung: *Begründer des SEM, Drei-Ringe-Modell, Drehtürmodell. Förderung geht der Identifikation voraus.*
+Mündliche Anbindung: *Begründer des SEM, Drei-Ringe-Modell. Im SEM gehen Förderung und Identifikation einander zirkulär bedingt voraus (Reis, Renzulli & Müller-Oppliger 2021, S. 333–345).*
 
 **Portrait 2: Sally M. Reis** (USA)
 Stichwort darunter: *Enrichment-Typen*
-Mündliche Anbindung: *Mit Renzulli Mitautorin des SEM, hat die drei Enrichment-Typen für den deutschsprachigen Raum operationalisiert.*
+Mündliche Anbindung: *Mit Renzulli Mitautorin des SEM und Entwicklerin der drei Enrichment-Typen. Die Schweizer und deutschsprachige Adaption verdankt sich Victor Müller-Oppliger, der in der Kernreferenz als dritter Mitautor erscheint.*
 
 **Portrait 3: Victor Müller-Oppliger** (Schweiz)
-Stichwort darunter: *Plurale Gesellschaft, Förderdiagnostik*
-Mündliche Anbindung: *Schweizer Hauptautor des Handbuchs Begabung, betont inklusive Begabungsförderung als Bestandteil der Schulentwicklung und liefert die pädagogisch-diagnostische Perspektive auf Setting wie SOLUX.*
+Stichwort darunter: *Plurale Gesellschaft, adaptive Lernarchitekturen*
+Mündliche Anbindung: *Schweizer Hauptautor des Handbuchs Begabung mit mehreren Kernkapiteln (Müller-Oppliger 2021a, 2021b, 2021c) sowie Mitautor der SEM-Referenz. Betont inklusive Begabungsförderung als Bestandteil der Schulentwicklung und liefert die pädagogisch-diagnostische Perspektive auf Settings wie SOLUX.*
 
-**Portrait 4: Gabriele Weigand** (Deutschland)
+**Portrait 4: Gabriele Weigand** (Deutschland, mit Maximilian Kaiser)
 Stichwort darunter: *Inklusive Begabungsförderung, Personenprinzip*
-Mündliche Anbindung: *Personenprinzip als bildungstheoretische Grundlage; separative, integrative und inklusive Begabungsförderung als Kontinuum.*
+Mündliche Anbindung: *Personenprinzip als bildungstheoretische Grundlage (Weigand 2021, S. 46–59). Separative, integrative und inklusive Begabungsförderung als Kontinuum (Weigand & Kaiser 2021, S. 290–298).*
 
-**Portrait 5: Franzis Preckel** (Deutschland)
-Stichwort darunter: *Talent Development Framework*
-Mündliche Anbindung: *Vier Stationen der Talententwicklung: Potenzial, Kompetenz, Expertise, aussergewöhnliche Leistung. SOLUX schafft Beobachtungsraum für die Phase Potenzial.*
+**Portrait 5: Schulteter Hardt et al.** (Deutschland)
+Stichwort darunter: *Forder-Förder-Projekt, stärkenorientierte Lernarchitekturen*
+Mündliche Anbindung: *Das Forder-Förder-Projekt (FFP) ist strukturell direkt analog zu SOLUX: ein stärkenorientiertes Enrichment-Setting mit individueller Potenzialentwicklung (Schulteter Hardt et al. 2020, S. 264–267). Empirische Spiegelung von SOLUX in der Forschungsliteratur.*
 
 Die Portraits sind klein (2-3 cm), einfarbig oder mit ganz reduzierter Tönung. Unter jedem Portrait stehen zwei Zeilen: Name (etwas grösser, Sans-Serif), Stichwort (kleiner, kursiv).
 
-Falls Inti nur vier Portraits zur Verfügung hat, lasse Reis weg und nimm Renzulli, Müller-Oppliger, Weigand, Preckel. Reis und Renzulli werden in der Literatur oft gemeinsam zitiert; Renzulli allein trägt den SEM-Bezug.
-
-Wichtig: Die Portraits sind keine Dekoration, sondern Argumentationsanker. Im Vortrag kann Inti gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger.* Das wirkt fachlich seriös, fast wie eine sichtbar gemachte Bibliografie.
+Wichtig: Die Portraits sind keine Dekoration, sondern Argumentationsanker. Alle fünf sind durch Frage-4-Kernliteratur gedeckt. Im Vortrag kann Inti gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger. Das FFP bei Schulteter Hardt zeigt, dass SOLUX kein Einzelfall ist.* Das wirkt fachlich seriös, fast wie eine sichtbar gemachte Bibliografie.
 
 ## Die fünf Karten in der Lasche
 
@@ -100,19 +100,19 @@ Die Karten der Frage 4 wurden in der vorhergehenden Konsolidierung skizziert. Hi
 
 **Karte 4.1 Kurzantwort.**
 Vorderseite: Symbol *offenes Fenster* und Stichwort *60 Sekunden*. Rückseite:
-> SOLUX macht verdeckte Potenziale sichtbar, weil es Notenfreiheit, Interessenorientierung, Sprachentlastung und Expertenrolle kombiniert. Es ist damit nicht nur Förderung, sondern diagnostisches Fenster.
+> SOLUX macht verdeckte Potenziale sichtbar, weil es Interessenorientierung, Notenfreiheit, adaptive Lernarchitektur und dokumentierte Beobachtung kombiniert. Es ist damit nicht nur Förderung, sondern diagnostisches Fenster.
 
 **Karte 4.2 Theorieanker.**
 Vorderseite: Symbol *drei Ringe* (Renzulli) und Stichwort *Theorie*. Rückseite:
-> Schoolwide Enrichment Model nach Renzulli und Reis, drei Enrichment-Typen, Drehtürmodell. Förderung geht der Identifikation voraus (Reis, Renzulli, Müller-Oppliger 2021, S. 333-345). Talententwicklung in vier Stationen (Preckel 2021, S. 274-289).
+> Schoolwide Enrichment Model nach Renzulli und Reis, drei Enrichment-Typen, im SEM-Umfeld auch das Drehtürmodell. Im SEM gehen Förderung und Identifikation einander zirkulär bedingt voraus (Reis, Renzulli & Müller-Oppliger 2021, S. 333–345). Stärkenorientierte Lernarchitekturen und Forder-Förder-Projekt als empirisches Pendant zu SOLUX (Schulteter Hardt et al. 2020, S. 264–267). Inklusive Begabungsförderung als Kontinuum separativ, integrativ, inklusiv (Weigand & Kaiser 2021, S. 290–298).
 
 **Karte 4.3 Fallanker S.**
 Vorderseite: Symbol *Schachfigur* und Stichwort *Fall S.*. Rückseite:
-> Im SOLUX-Setting Mustererkennung, Strategieentwicklung, ausdauernde Konzentration im Schach. Erstmals positive Aufmerksamkeit der Peers. Ziel: Schachkurs für Mitschüler:innen. Diese Stärken bleiben im Regelunterricht unsichtbar.
+> Im SOLUX-Setting zeigte S. mathematisches Verständnis und strategisches Schachdenken, Mustererkennung, eigenständige Strategien, ausdauernde Konzentration, nachvollziehbare Zugerklärungen und erstmals positive Aufmerksamkeit anderer Kinder. Diese Stärken bleiben im Regelunterricht unsichtbar.
 
 **Karte 4.4 Handlung.**
 Vorderseite: Symbol *Pfeil-Sequenz* und Stichwort *Handlung*. Rückseite:
-> Beobachtungen kriteriengestützt dokumentieren. Kompetenzportfolio für die Übertrittsberatung anlegen. Prinzipien (Notenfreiheit, Interessenorientierung, Sprachentlastung, Expertenrolle) schrittweise in den Regelunterricht übersetzen.
+> Beobachtungen kriteriengestützt dokumentieren. Kompetenzportfolio für die Übertrittsberatung anlegen. Prinzipien (Interessenorientierung, Notenfreiheit, adaptive Lernarchitektur, Dokumentation/Reflexion) schrittweise in den Regelunterricht übersetzen.
 
 **Karte 4.5 Reflexionsjoker.**
 Vorderseite: Symbol *Fragezeichen* und Stichwort *Joker*. Rückseite:
@@ -147,7 +147,7 @@ Mit kräftiger Schrift (Edding oder breite Feder) schreibt Inti den Titel oben i
 Unter dem Fenster zieht Inti ein schmales Band (etwa 2 cm Höhe), das sie ganz dezent hellblau hinterlegt (verdünntes Aquarell). Hinein schreibt sie den Merksatz in einer ruhigen, gut lesbaren Druckschrift. Der Satz darf nicht zu eng gesetzt sein.
 
 **Schritt 8: Portraits-Galerie.**
-Die fünf Portraits (oder vier, falls Reis weggelassen wird) werden in einer leicht gebogenen Reihe entlang der unteren Krümmung des Zentrums platziert, mit etwa 1.5 cm Abstand zueinander. Inti schneidet die Köpfe sauber aus, klebt sie mit Fotokleber oder doppelseitigem Klebeband auf. Unter jedem Portrait schreibt sie mit einer feinen Feder den Namen und das Stichwort. Wichtig: gleiche Augenhöhe der Portraits, damit die Reihe ruhig wirkt. Das prüft Inti durch eine ganz feine Bleistiftlinie, die als Augenhöhenrichtlinie dient und am Ende wegradiert wird.
+Die fünf Portraits werden in einer leicht gebogenen Reihe entlang der unteren Krümmung des Zentrums platziert, mit etwa 1.5 cm Abstand zueinander. Reihenfolge: Renzulli, Reis, V. Müller-Oppliger, Weigand (mit Kaiser), Schulteter Hardt et al. Inti schneidet die Köpfe sauber aus, klebt sie mit Fotokleber oder doppelseitigem Klebeband auf. Unter jedem Portrait schreibt sie mit einer feinen Feder den Namen und das Stichwort. Wichtig: gleiche Augenhöhe der Portraits, damit die Reihe ruhig wirkt. Das prüft Inti durch eine ganz feine Bleistiftlinie, die als Augenhöhenrichtlinie dient und am Ende wegradiert wird.
 
 **Schritt 9: Karten-Lasche.**
 Aus hellblauem Tonpapier schneidet Inti eine schmale Tasche, die maximal 12 cm breit und 4 cm hoch ist (sie muss A6-Karten aufnehmen können, also längsseitig orientiert). Sie klebt die Tasche mit dem unteren Rand und den Seiten auf das Plakat, lässt die obere Kante offen. Beschriftung: *Q4 SOLUX-Karten*.
@@ -165,9 +165,9 @@ Falls Inti das Plakat öfter transportiert, kann sie es mit einer matten Mattlac
 
 Hier eine schematische Übersicht, wie das fertige Zentrum proportional und in der Reihenfolge wirken soll:## Drei Hinweise zum Schluss
 
-**Erstens, die Chimäre ist Intis künstlerische Signatur, nicht das Hauptargument.** Wenn die Examinatorin das Bild gar nicht thematisiert, muss Inti die Chimäre nicht aktiv erklären. Wenn die Examinatorin nachfragt, antwortet Inti in zwei Sätzen: *Die Figur ist mein bildlicher Anker für die 2e-Maskierungslogik nach Baum und Schader. Im Zentrum steht sie ganz, weil SOLUX der Erscheinungsraum ist, in dem die zusammengesetzte Wesenheit eines Kindes wahrgenommen werden darf.* Mehr ist nicht nötig. Die Argumentation trägt sich auch ohne sie.
+**Erstens, die Chimäre ist Intis künstlerische Signatur, nicht das Hauptargument.** Wenn die Examinatorin das Bild gar nicht thematisiert, muss Inti die Chimäre nicht aktiv erklären. Wenn die Examinatorin nachfragt, antwortet Inti in zwei Sätzen: *Die Figur ist mein bildliches Symbol für das Kind, dessen zusammengesetzte Wesenheit erst unter veränderten Bedingungen als Ganzes sichtbar wird. Im Zentrum steht sie ganz, weil SOLUX der Erscheinungsraum ist, in dem das geschieht.* Mehr ist nicht nötig. Die Argumentation trägt sich auch ohne sie.
 
-**Zweitens, die Portraits sind der wissenschaftliche Anker.** Sie sind das, was die Visualisierung von einem schönen Plakat zu einer fachlichen Argumentationslandkarte macht. Inti kann im Vortrag gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger.* Das wirkt fachlich seriös und gibt der Visualisierung eine Tiefe, die Symbole allein nicht haben.
+**Zweitens, die Portraits sind der wissenschaftliche Anker.** Sie sind das, was die Visualisierung von einem schönen Plakat zu einer fachlichen Argumentationslandkarte macht. Alle fünf Portraits sind durch Frage-4-Kernliteratur gedeckt. Inti kann im Vortrag gezielt auf einen Kopf zeigen und sagen: *Wenn ich von SEM spreche, beziehe ich mich auf Renzulli und Reis. Die Schweizer Adaption verdankt sich Müller-Oppliger. Das Forder-Förder-Projekt bei Schulteter Hardt zeigt, dass SOLUX kein Einzelfall ist.* Das wirkt fachlich seriös und gibt der Visualisierung eine Tiefe, die Symbole allein nicht haben.
 
 **Drittens, das Zentrum darf nicht überfüllt sein.** Die fünf Schichten sind klar aufgeteilt, und jede Schicht hat ihre eigene Aufgabe. Wenn Inti versucht, in einer Schicht zu viel unterzubringen (etwa Strukturmerkmale plus Erklärungstexte plus Symbole plus Zitate), kippt die Lesbarkeit. Reduktion ist hier wissenschaftlich produktiv: Was nicht im Zentrum steht, steht in den Karten oder in den Ringbereichen oder in Intis Gedächtnis.
 

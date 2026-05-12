@@ -14,19 +14,19 @@ Wie in den anderen Ringbereichen gliedert sich das Segment in die drei bekannten
 
 ## Schicht A: Die Aussensicht des Deckels
 
-Die Defizitsicht in Frage 3 ist die schmerzhafteste der vier, weil sie nicht eine fachliche Schwierigkeit zeigt, sondern eine soziale Sanktion. Inti muss diese Sicht zeigen, ohne sie zu reproduzieren. Vier Elemente.
+Die Defizitsicht in Frage 3 ist die schmerzhafteste der vier, weil hier nicht eine fachliche Schwierigkeit gezeigt wird, sondern eine relationale Verdeckung. Inti muss diese Sicht zeigen, ohne sie zu reproduzieren. Vier Elemente.
 
 Oben gross: **3. ANERKENNEN**, daneben oder darunter kleiner *Anerkennungs-Trichter*.
 
-Mittig im Deckel das zentrale Defizitbild. Inti zeichnet eine Tür, die nach aussen weist, mit einer kleinen Figur, die hinausgewiesen wird. Die Tür steht halb offen, das Klassenzimmer dahinter ist hell und voll, der Korridor davor ist dunkler und leer. Die kleine Figur hat einen gesenkten Kopf. Daneben oder darunter, ganz klein, die Worte *Verweis, Strafarbeit, draussen*. Diese Triade darf nicht beschönigt werden. Sie ist die institutionelle Realität, gegen die die Frage 3 ihre Argumentation entwickelt.
+Darunter ein schmales Banner mit dem Lehrkrafturteil-Zitat: *eher auffällig, sehr weinerlich, etwas störend* (PDF Seite 3). Es trägt die Defizitsicht der abgebenden Lehrperson und kontrastiert später mit dem, was unter dem Deckel sichtbar wird.
 
-Eine zweite Schicht im Deckel, kleiner: drei Stichworte aus der Übergabe der vorherigen Lehrperson, in Anführungszeichen, leicht abgesetzt. *Eher auffällig, sehr weinerlich, etwas störend.* Diese Worte sind im Dossier wörtlich belegt und bilden den Sprachduktus der Defizitsicht ab. Sie gehören auf den Deckel, weil Inti sie im Vortrag direkt aufgreifen kann.
+Mittig im Deckel ein **Gemiedenwerden-Symbol**: eine Gruppe von Figuren, die einen Einzelnen ausschliesst. Beschriftung: *kaum Peer-Interaktion, mehrheitlich gemieden* (PDF Seite 3). Dieses Bild zeigt die relationale Verdeckung, die Frage 3 adressiert: S. wird nicht nur diagnostisch übersehen, sondern auch sozial unsichtbar.
 
 Unten als breites Band der Leitsatz:
 
 > Sicherheit macht Potenzial zeigbar.
 
-Drei Worte, die als Gegenthese zu allem, was darüber steht, funktionieren. Das ist die Pointe des Deckels: Was sich oben als Verweisungspraxis verdichtet, wird durch den Leitsatz unten in Frage gestellt, noch bevor Inti die Klappe öffnet.
+Drei Worte, die als Gegenthese zu allem, was darüber steht, funktionieren. Das ist die Pointe des Deckels: Was sich oben als Defizitsicht und Gemiedenwerden verdichtet, wird durch den Leitsatz unten in Frage gestellt, noch bevor Inti die Klappe öffnet.
 
 Auf dem Deckel oben rechts oder oben links das Couvert in Mintgrün-Tonpapier, beschriftet *Q3 Trichter-Karten*.
 
@@ -36,9 +36,9 @@ Wieder drei Zeilen. Sie folgen demselben Muster wie in Frage 2, ermöglichen Int
 
 > **Theorie:** Anerkennung, Affektregulation und Teilhabe machen Potenzial zeigbar.
 >
-> **Fall S.:** Im Regelunterricht Rückzug und Verweis, in SOLUX Strategie, Stimme, Peer-Interaktion.
+> **Fall S.:** Im Regelunterricht Rückzug, Gemiedenwerden, kaum Peer-Kontakte; in SOLUX Strategie, Stimme, erstmals positive Peer-Aufmerksamkeit.
 >
-> **Handlung:** Beziehung vor Anforderung. Anerkennungsgelegenheiten gestalten, Verweis durch Rückzugsort im Raum ersetzen.
+> **Handlung:** Beziehung vor Anforderung. Anerkennungsgelegenheiten gestalten, Peer-Anschluss strukturell ermöglichen.
 
 Inti schreibt diese Zeilen handschriftlich in mintgrünem Stift. Optional kann sie in der Mitte zwischen den Zeilen das Symbol einer offenen Hand oder eines kleinen Trichters setzen, aber das ist verzichtbar.
 
@@ -57,7 +57,7 @@ Die fünf Symbole sind:
 >
 > Mobbing-Vorerfahrung: ein angedeutetes Schulgebäude im Hintergrund mit einer kleinen, abgewandten Figur davor.
 >
-> Verweisungspraxis: eine Tür mit Pfeil nach aussen (Variation des Deckelmotivs, kleiner).
+> Gemiedenwerden durch Peers: eine Gruppe von Figuren, die einen Einzelnen ausschliesst (PDF Seite 3).
 >
 > Defizitorientierte Wahrnehmung: eine Lupe mit einer Liste, in der nur durchgestrichene Punkte erscheinen.
 
@@ -66,11 +66,11 @@ Innerhalb dieser Wolke, schemenhaft, die Silhouette eines Jungen (S.), erkennbar
 **Element 2: Mitte, der Filter.**
 Drei vertikale Filterscheiben oder Linsen, die nebeneinander stehen und gemeinsam eine Filterstrecke bilden. Jede Scheibe trägt ein Stichwort und ein einfaches Symbol. Inti zeichnet sie als runde oder ovale Linsen, leicht transparent, sodass das Auge erkennt, dass sie *durchlassend* sind, nicht blockierend.
 
-> Filter 1: PSI / Affektregulation. Symbol: ein Herz mit einer ruhigen Welle. Stichwort darunter: *Sicherheit*.
+> Filter 1: Affektregulation. Symbol: ein Herz mit einer ruhigen Welle. Stichwort darunter: *Sicherheit*.
 >
-> Filter 2: Anerkennung 2. Ordnung. Symbol: ein offenes Auge oder zwei einander zugewandte Profile. Stichwort darunter: *Anerkennung*.
+> Filter 2: Anerkennung. Symbol: zwei einander zugewandte Profile. Stichwort darunter: *Anerkennung*.
 >
-> Filter 3: Teilhabe / Index für Inklusion. Symbol: ein Kreis aus Figuren, die sich an den Händen halten oder zueinander gewandt stehen. Stichwort darunter: *Teilhabe*.
+> Filter 3: Teilhabe und Intergruppenkontakt. Symbol: ein Kreis aus Figuren, die sich an den Händen halten oder zueinander gewandt stehen. Stichwort darunter: *Teilhabe*.
 
 Wichtig ist die Geste, dass die Filterstrecke das Bild nicht verengt, sondern *klärt*. Inti kann das verstärken, indem sie zwischen den drei Linsen feine Lichtlinien zeichnet, die durch die Filter laufen und auf der rechten Seite heller herauskommen.
 
@@ -93,31 +93,29 @@ Inti kann unter dem Hauptbild einen einzelnen, sehr feinen Pfeil zeichnen, der v
 
 ## Die fünf Autorenportraits
 
-Die Auswahl folgt der Argumentationsarchitektur der Frage 3: PSI als affektregulatorische Grundlage, Anerkennung als Schweizer Verankerung, kumulative Belastung als migrationsspezifischer Rahmen, Teilhabe als inklusionspädagogische Perspektive, Stress als aktueller Begründungskontext.
+Die Auswahl folgt der Argumentationsarchitektur der Frage 3: Affektregulation als psychologische Grundlage, Anerkennung als Schweizer Verankerung, kumulative Belastung als migrationsspezifischer Rahmen, Teilhabe als inklusionspädagogische Perspektive, Begabungsbilder als wahrnehmungskritische Achse.
 
-**Portrait 1: Julius Kuhl** (Deutschland)
-Stichwort: *PSI, Affektregulation*
-Mündliche Anbindung: *Persönlichkeits-System-Interaktionen-Theorie. Selbstmotivierung und Selbstberuhigung als Kernkompetenzen der Begabungsentfaltung. Anhaltender negativer Affekt erschwert den Zugang zu integrierenden Selbstressourcen.*
+**Portrait 1: Julius Kuhl (mit Hofmann)** (Deutschland)
+Stichwort: *Affektregulation, PSI-Theorie*
+Mündliche Anbindung: *Persönlichkeits-System-Interaktionen-Theorie. Selbstmotivierung und Selbstberuhigung als Kernkompetenzen der Begabungsentfaltung. Anhaltender negativer Affekt erschwert den Zugang zu integrierenden Selbstressourcen (Kuhl 2021, S. 185–201; Kuhl und Hofmann 2019, S. 35–54).*
 
-**Portrait 2: Beat Grossrieder** (Schweiz)
-Stichwort: *Anerkennung 1. und 2. Ordnung*
-Mündliche Anbindung: *Anerkennung erster Ordnung als beobachtbares Lob, an Anpassung geknüpft. Anerkennung zweiter Ordnung als Grundhaltung, die den anderen als Person respektiert. Im Buholzer-Sammelband erschienen, hat im Schweizer Heilpädagogik-Diskurs starkes Gewicht.*
+**Portrait 2: I. Grossrieder** (Schweiz)
+Stichwort: *Anerkennung in pädagogischen Beziehungen*
+Mündliche Anbindung: *Anerkennung erster Ordnung als beobachtbares Lob, an Anpassung geknüpft. Anerkennung zweiter Ordnung als Grundhaltung, die den anderen als Person respektiert (Grossrieder 2010, S. 89–90, Audit-Status 4). Im Buholzer-Sammelband erschienen, hat im Schweizer Heilpädagogik-Diskurs starkes Gewicht.*
 
-**Portrait 3: Maren Behrensen** (Deutschland)
-Stichwort: *Kumulative Belastung*
-Mündliche Anbindung: *Inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten der Fluchtmigration. Belastungen wirken nicht additiv, sondern in Überlagerung.*
+**Portrait 3: B. Behrensen** (Deutschland)
+Stichwort: *Kumulative Belastung in Migrationskontexten*
+Mündliche Anbindung: *Inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten der Fluchtmigration. Belastungen wirken in Überlagerung strukturell-biographischer Faktoren, nicht additiv (Behrensen 2019, S. 86–98, Audit-Status 4).*
 
-**Portrait 4: Tony Booth und Mel Ainscow** (UK)
-Stichwort: *Index für Inklusion, Teilhabe*
-Mündliche Anbindung: *Teilhabe ist nicht physische Anwesenheit, sondern Erfahrung von Akzeptanz, Mitgestaltung und Wertschätzung. Drei Dimensionen: inklusive Kulturen, inklusive Strukturen, inklusive Praktiken.*
+**Portrait 4: C. Tschopp, A. Buholzer und J. Grütter** (PH Luzern, Schweiz)
+Stichwort: *Soziale Teilhabe durch Intergruppenkontakt*
+Mündliche Anbindung: *Kontakthypothese nach Allport: kooperative Kontakte zwischen Kindern unterschiedlicher sozialer Gruppen bauen Zuschreibungen und negative Haltungen ab. PH-Luzern-Programm «Freundschaften fördern in heterogenen Lerngruppen» mit Evaluationsdaten (Tschopp, Buholzer und Grütter 2022, S. 35–40, Audit-Status 4).*
 
-Booth und Ainscow erscheinen als **Doppelportrait** (zwei Köpfe nebeneinander unter einem gemeinsamen Stichwort), analog zur Renzulli-Reis-Lösung im Zentrum. Das spart Platz und reflektiert die gemeinsame Autorschaft.
+**Portrait 5: T. G. Baudson** (Deutschland)
+Stichwort: *Begabungsbilder und Stereotype*
+Mündliche Anbindung: *Sprachliche Fähigkeiten als wichtiges Indiz für Lehrkräfte bei der Begabungsidentifikation: Wer noch zu wenig Gelegenheit hatte, die Unterrichtssprache zu erlernen, fällt leichter durch das Raster (Baudson 2021, S. 120). Disharmonie-Stereotyp empirisch belegt, aber nur Stereotyp, nicht Realität (S. 122). Drittstärkste Kernquelle in Frage 3 mit 15 Seiten, Audit-Status 4.*
 
-**Portrait 5: Wiebke Evers** (Deutschland)
-Stichwort: *Stress als Dämpfer*
-Mündliche Anbindung: *Andauernder Stress beeinträchtigt Gedächtnis, Selbstregulation und Problemlösen. S.s Rückzug ist nicht Verweigerung, sondern Schutzreaktion unter Überforderung. Aktuelle Karg-Stiftung-Quelle, gibt der Argumentation empirische Frische.*
-
-Diese fünf Portraits decken die theoretische Architektur sauber ab. Falls Inti den fünften Kopf nicht hat, lässt sie Evers weg und nimmt stattdessen Lehwald (Spirale der Enttäuschung), aber Lehwald war bereits in Frage 2; eine Doppelung ist ungünstig. Besser ohne fünften Kopf als mit doppeltem.
+Alle fünf Portraits sind durch Frage-3-Kernliteratur gedeckt. Evers 2025 (Stress als Dämpfer) wandert in die mündliche Reserve, da die Quellenbilanz sie als funktional redundant mit Kuhls PSI-Theorie klassifiziert. Wagener 2021 (begabungsfördernde und hemmende Wirkungsmechanismen im Klassenkontext) erscheint nicht als Portrait, sondern in Karte 3.2 und 3.5.
 
 ## Die fünf Karten in der mintgrünen Lasche
 
@@ -127,21 +125,21 @@ Vorderseite: Symbol *offene Hand* und Stichwort *60 Sekunden*. Rückseite:
 
 **Karte 3.2 Theorieanker.**
 Vorderseite: Symbol *drei Linsen* und Stichwort *Theorie*. Rückseite:
-> PSI-Theorie und Affektregulation (Kuhl 2019). Anerkennung erster und zweiter Ordnung (Grossrieder 2010). Kumulative Belastung in der Fluchtmigration (Behrensen 2019). Teilhabe als Frage inklusiver Kulturen und Strukturen (Booth/Ainscow 2019).
+> PSI-Theorie und Affektregulation (Kuhl und Hofmann 2019). Anerkennung in pädagogischen Beziehungen (Grossrieder 2010). Kumulative Belastung in Migrationskontexten (Behrensen 2019). Soziale Teilhabe durch Intergruppenkontakt (Tschopp, Buholzer und Grütter 2022). Begabungsbilder und Stereotype (Baudson 2021). Begabungsfördernde und hemmende Wirkungsmechanismen im Klassenkontext (Wagener 2021).
 
 **Karte 3.3 Fallanker S.**
 Vorderseite: Symbol *zwei Settings* und Stichwort *Fall S.*. Rückseite:
-> Im Regelunterricht: Rückzug, Weinen, Verweis aus dem Unterricht, Strafarbeiten draussen, fehlende Peer-Anbindung. Im SOLUX-Setting: aufrechte Haltung, strategisches Schachdenken, Peers wollen mit ihm spielen, Expertenrolle. Dasselbe Kind in zwei Kontexten.
+> Im Regelunterricht Rückzug, kaum Peer-Interaktion, mehrheitliches Gemiedenwerden durch Gleichaltrige (PDF Seite 3). Defizitorientierte Klassenübergabe mit dem Wortlaut *eher auffällig, sehr weinerlich, etwas störend* (PDF Seite 3). Im Januar 2026 nachträglich bekannt: Mobbingerfahrungen im Herkunftsland über mehrere Jahre, zunehmender Rückzug (PDF Seite 4). Im SOLUX-Setting demgegenüber strategisches Schachdenken, aufrechte Haltung, erstmals positive Aufmerksamkeit der Peers (PDF Seite 3). Dasselbe Kind in zwei Kontexten.
 
 **Karte 3.4 Handlung.**
 Vorderseite: Symbol *Pfeil-Sequenz* und Stichwort *Handlung*. Rückseite:
-> Beziehung vor Anforderung. Anerkennungsgelegenheiten gezielt gestalten (Peer-Tutoring, Kleingruppen mit nonverbalem Beitrag, Sichtbarmachung der Projektergebnisse). Verweisungspraxis durch Rückzugsort im Raum ersetzen, nonverbales Pausensignal anbieten. Inklusive Strukturen anregen (Booth/Ainscow Dimension A und B).
+> Beziehung vor Anforderung. Anerkennungsgelegenheiten gezielt gestalten (Peer-Tutoring, Kleingruppen mit nonverbalem Beitrag, Sichtbarmachung der Projektergebnisse). Rückzugsort im Raum anbieten, nonverbales Pausensignal einführen. Peer-Anschluss strukturell ermöglichen durch Intergruppenkontakt und Kleingruppenarrangements (Tschopp, Buholzer und Grütter 2022; Wagener 2021).
 
 **Karte 3.5 Reflexionsjoker.**
 Vorderseite: Symbol *Fragezeichen* und Stichwort *Joker*. Rückseite:
-> Frage: Wie beurteilen Sie den Verweis aus dem Unterricht? Antwort in vier Schritten. Erstens: Der Verweis verstärkt den negativen Affekt, der den Rückzug erst erzeugt. Zweitens: Er sanktioniert das Fehlen einer Leistung, nicht eine Regelverletzung. Drittens: Er verletzt den Indikator, ob alle Schüler:innen als gleichwertige Mitglieder gelten (Booth/Ainscow). Viertens: Alternative ist UDL-Aufgabenanpassung, Rückzugsort im Raum, Nutzung der SOLUX-Stärken im Mathematikunterricht.
+> Frage: Wie reagieren Lehrkräfte angemessen, wenn ein Schüler wie S. sich im Unterricht zurückzieht? Antwort in vier Schritten. Erstens: Rückzug als Schutzreaktion unter kumulativer Belastung lesen, nicht als Verweigerung (Behrensen 2019). Zweitens: Beziehung vor Anforderung. Anerkennung als Grundhaltung, nicht als Lob für Anpassung (Grossrieder 2010). Drittens: Anerkennungsgelegenheiten im Setting öffnen, in denen S. seine Stärken in einer Sprache zeigen kann, die nicht Deutsch ist (Wagener 2021). Viertens: Peer-Anschluss strukturell ermöglichen durch Intergruppenkontakt und Kleingruppenarrangements (Tschopp, Buholzer und Grütter 2022). Ergänzend: Begabungsbilder reflektieren, weil S.s Verhalten nicht zum stereotypen Bild eines begabten Kindes passt (Baudson 2021).
 
-Die letzte Karte enthält bewusst die ausführlichste Pointe, weil die Verweisungsfrage die wahrscheinlichste Ergänzungsfrage zu Frage 3 darstellt. Inti hat damit eine fertige Vier-Punkte-Argumentation in der Hand.
+Die letzte Karte enthält bewusst die ausführlichste Pointe, weil die Frage nach dem Umgang mit Rückzug die wahrscheinlichste Ergänzungsfrage zu Frage 3 darstellt. Die Karte trägt alle fünf Portrait-Quellen in einem konkreten Argumentationsbogen. Inti hat damit eine fertige Fünf-Punkte-Argumentation in der Hand.
 
 ## Schritt-für-Schritt-Handlungsanleitung
 
@@ -154,8 +152,8 @@ Zuschnitt aus festem Karton (300 bis 400 g/m2) in Segmentform. Scharnier am inne
 **Schritt 3: Aussensicht des Deckels.**
 Inti gestaltet von oben nach unten:
 - Titel *3. ANERKENNEN — Anerkennungs-Trichter*
-- Mittelbild der hinausweisenden Tür mit der Figur, daneben die drei Worte *Verweis, Strafarbeit, draussen*
-- Drei Stichworte aus der Übergabe in Anführungszeichen *eher auffällig, sehr weinerlich, etwas störend*
+- Lehrkrafturteil-Banner: *eher auffällig, sehr weinerlich, etwas störend* (PDF Seite 3)
+- Gemiedenwerden-Symbol: Gruppe schliesst Einzelnen aus, Beschriftung *kaum Peer-Interaktion, mehrheitlich gemieden* (PDF Seite 3)
 - Leitsatz-Band *Sicherheit macht Potenzial zeigbar.*
 - Couvert in Mintgrün, oben rechts oder oben links
 
@@ -172,16 +170,16 @@ Inti zeichnet die fünf Belastungssymbole in einer überlappenden Wolke:
 1. Reisekoffer (Migration)
 2. Durchgestrichene Sprechblase (sprachliche Isolation)
 3. Schulgebäude im Hintergrund mit abgewandter Figur (Mobbing-Vorerfahrung)
-4. Tür mit Pfeil nach aussen (Verweis)
+4. Gruppe schliesst Einzelnen aus (Gemiedenwerden durch Peers, PDF Seite 3)
 5. Lupe mit durchgestrichener Liste (defizitorientierte Wahrnehmung)
 
 In der Wolke die Silhouette eines Jungen, schemenhaft, in Bleistift mit verwaschener Aquarell-Tönung. Die Konturen der Wolke verschwimmen am unteren Rand, sodass nicht eindeutig ist, wo die Wolke endet.
 
 **Schritt 7: Filterstrecke (Mitte).**
 Inti zeichnet drei vertikale Linsen oder ovale Filterscheiben, gleichmässig verteilt. Jede Linse leicht transparent in einer Pastelltönung (heller Mint, helles Gelb, helles Pfirsich), sodass das Licht hindurchgeht. Auf jede Linse ein Symbol und darunter ein Stichwort:
-1. Herz mit ruhiger Welle, *Sicherheit*
-2. Offenes Auge oder zwei Profile, *Anerkennung*
-3. Kreis aus Figuren, *Teilhabe*
+1. Herz mit ruhiger Welle, *Sicherheit* (Affektregulation)
+2. Zwei zugewandte Profile, *Anerkennung* (Grossrieder 2010)
+3. Kreis aus Figuren, *Teilhabe* (Tschopp, Buholzer und Grütter 2022)
 
 Zwischen den Linsen feine Lichtlinien, die durch die Filter laufen und auf der rechten Seite heller herauskommen.
 
@@ -198,7 +196,7 @@ Inti zieht über oder unter der Filterstrecke ein schmales mintfarbenes Band und
 Falls gewünscht, ein feiner Pfeil unter dem Bild von links nach rechts, mit Beschriftung *Unsichtbarkeit zu Sichtbarkeit*.
 
 **Schritt 12: Portraits-Galerie.**
-Inti klebt die fünf Köpfe in einer leicht gebogenen Reihe entlang der äusseren Bogenlinie des Segments. Reihenfolge von links nach rechts: Kuhl, Grossrieder, Behrensen, Booth/Ainscow (Doppelportrait), Evers. Unter jedem Portrait Name und Stichwort. Wichtig: Die Augenhöhe der Portraits liegt auf einer feinen Bleistift-Hilfslinie, die später wegradiert wird.
+Inti klebt die fünf Köpfe in einer leicht gebogenen Reihe entlang der äusseren Bogenlinie des Segments. Reihenfolge von links nach rechts: Kuhl, Grossrieder, Behrensen, Tschopp/Buholzer/Grütter, Baudson. Unter jedem Portrait Name und Stichwort. Wichtig: Die Augenhöhe der Portraits liegt auf einer feinen Bleistift-Hilfslinie, die später wegradiert wird.
 
 **Schritt 13: Karten-Lasche und Karten.**
 Wenn die Lasche auf dem Deckel sitzt: ist sie bereits in Schritt 3 angebracht. Andernfalls: Mintgrünes Tonpapier zuschneiden, am unteren Rand der freigelegten Fläche aufkleben, beschriften *Q3 Trichter-Karten*. Karten beidseitig beschriften, ausschneiden, einlegen.
@@ -210,7 +208,7 @@ Inti tritt zwei Meter zurück und prüft sechs Punkte:
 3. Ist die kumulative Wolke als Wolke erkennbar, nicht als fünf getrennte Symbole?
 4. Sind die fünf Portraits ruhig in einer Reihe?
 5. Ist der Goldfunken so dezent, dass er erst beim zweiten Hinsehen auffällt?
-6. Ist die Aussensicht (verwiesener Junge) emotional ernsthaft, ohne karikierend zu sein?
+6. Ist die Aussensicht (Gemiedenwerden-Symbol und Lehrkrafturteil) emotional ernsthaft, ohne karikierend zu sein?
 
 **Schritt 15: Probelauf.**
 Inti spielt die Aufdeckung mehrmals. Sie achtet besonders darauf, mit welcher Stimme sie den Übergang von der Aussensicht zur freigelegten Fläche vollzieht. Hier ist die emotionale Bandbreite am grössten. Inti spricht beim Aufdecken nicht laut, sondern langsamer, fast wie eine Wendung. Ein gut gesetzter Sprechrhythmus an dieser Stelle wirkt im Prüfungsgespräch sehr stark.
@@ -221,6 +219,6 @@ Inti spielt die Aufdeckung mehrmals. Sie achtet besonders darauf, mit welcher St
 
 **Zweitens, der Filter ist nicht eine Verengung.** Die häufigste Fehldeutung eines Trichters ist, dass er etwas reduziert. Bei der Frage 3 ist das Gegenteil gemeint: Die drei Filter (Sicherheit, Anerkennung, Teilhabe) sind durchlässig und wandeln Wahrnehmung. Sie *öffnen* den Blick auf das, was hinter der Belastungswolke liegt. Inti macht das visuell deutlich, indem die rechte Seite (Sichtbarkeitsraum) genauso gross ist wie die linke (Belastung), nicht kleiner. Wenn die rechte Seite optisch geringer wirkt, kippt die Botschaft. Im Vortrag formuliert Inti diese Differenz explizit: *Der Filter verengt nicht, er klärt.* Dieser eine Satz schützt sie vor der naheliegenden Rückfrage.
 
-**Drittens, die Verweisungspraxis ist die wahrscheinlichste Ergänzungsfrage.** Im Dossier hat Inti dieses Thema in der kritischen Reflexion zu Frage 3 ausführlich behandelt, mit einer Vier-Punkte-Argumentation (PSI, Anerkennung, Teilhabe, kumulative Belastung) und drei Alternativen (UDL-Aufgabenanpassung, Rückzugsort im Raum, Nutzung der SOLUX-Stärken im Mathematikunterricht). Diese Antwort sitzt schriftlich. In der mündlichen Prüfung wird sie in 2 bis 4 Minuten gefragt, also unter Zeitdruck. Inti sollte diesen Vier-Punkte-Argumentationsbogen mindestens einmal mündlich gegen die Uhr üben, damit er flüssig sitzt. Die Reflexionsjoker-Karte (Karte 3.5) ist die schriftliche Stütze für genau diesen Moment.
+**Drittens, der Umgang mit Rückzug ist die wahrscheinlichste Ergänzungsfrage.** Die Karte 3.5 trägt eine Fünf-Punkte-Argumentation (Behrensen: Schutzreaktion, Grossrieder: Anerkennung als Grundhaltung, Wagener: Anerkennungsgelegenheiten, Tschopp et al.: Peer-Anschluss, Baudson: Begabungsbilder reflektieren), die alle fünf Portrait-Quellen in einem konkreten Argumentationsbogen versammelt. In der mündlichen Prüfung wird diese Frage in 2 bis 4 Minuten gestellt, also unter Zeitdruck. Inti sollte diesen Fünf-Punkte-Bogen mindestens einmal mündlich gegen die Uhr üben, damit er flüssig sitzt. Die Reflexionsjoker-Karte (Karte 3.5) ist die schriftliche Stütze für genau diesen Moment.
 
 Wenn Frage 3 fertig gebaut ist, bleibt nur noch Frage 5 (Position 9 Uhr, SHP-Trias). Das wird der letzte Bereich, und er hat die Aufgabe, den Kreis zu schliessen, also die Sichtbarkeit aus den vorhergehenden drei Bereichen institutionell zu verankern. Wenn Inti dort angekommen ist, ist das Plakat in seiner Argumentationsfigur vollständig.

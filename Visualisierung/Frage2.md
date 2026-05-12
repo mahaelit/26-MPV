@@ -21,13 +21,16 @@ Diese Drei-Schicht-Logik wird auf allen vier Ringsegmenten identisch wiederholt.
 
 ## Schicht A: Die Aussensicht des Deckels
 
-Die Aussensicht trägt vier Elemente, die zusammen die Defizitwahrnehmung verdichten, ohne ihr nachzugeben.
+Die Aussensicht trägt fünf Elemente, die zusammen die Defizitwahrnehmung verdichten, ohne ihr nachzugeben.
 
 Oben in der Mitte, gross: **2. ENTLASTEN**. Das Verb ist der Schlüssel; *Entlasten* signalisiert sofort, dass es um die Reduktion einer Last geht und nicht um zusätzlichen Aufwand. Daneben oder darunter, etwas kleiner: *Schrift-Schach-Brücke*.
 
-Mittig im Deckel ein zentrales Defizitbild: eine stilisierte Hand mit verkrampftem Stift. Der Stift ist deutlich überzeichnet (zu fest gedrückt, fast brechend), die Buchstaben darunter sind in inkonsistenter Form gezeichnet. Drei verschiedene *a* in unterschiedlicher Grösse, Neigung und Form, eines davon halb angefangen und abgebrochen. Dieses Bild trägt die Aussage der abgebenden Lehrperson visuell: *eher auffällig, sehr weinerlich, etwas störend*. Es darf hässlich wirken, aber nicht karikierend.
+Darunter ein schmales Banner mit dem Lehrkrafturteil-Zitat: *eher auffällig, sehr weinerlich, etwas störend* (PDF Seite 3). Es trägt die Defizitsicht der abgebenden Lehrperson und kontrastiert später mit dem, was unter dem Deckel sichtbar wird.
 
-Daneben, in einem schmalen Schild oder Etikett: **17 WPM**. Diese Zahl ist diagnostisch zentral und gehört auf den Deckel, weil sie zeigt, wie weit die Defizitsicht von der altersgemässen Norm entfernt liegt.
+Mittig im Deckel ein **Doppel-Defizitfeld**, das die im PDF dokumentierte Doppelbelastung ehrlich abbildet und gleichzeitig die Pfeilerstruktur ankündigt:
+
+- **Defizitfeld oben (graphomotorisch):** Eine stilisierte Hand mit Stift, die Buchstaben darunter in inkonsistenter Form gezeichnet. Drei verschiedene *a* in unterschiedlicher Grösse, Neigung und Form, eines davon halb angefangen und abgebrochen. Beschriftung: *nicht automatisierte Abläufe*.
+- **Defizitfeld unten (leseflüssigkeitsbezogen):** Ein Buch- oder Lesesymbol mit der Beschriftung *Leseflüssigkeit 17 W/min*. Diese Zahl ist diagnostisch zentral (PDF Seite 3) und gehört auf den Deckel, weil sie zeigt, wie weit die Leseflüssigkeit von der altersgemässen Norm entfernt liegt.
 
 Unten, als breites Band, der Leitsatz:
 
@@ -41,9 +44,9 @@ Auf dem Deckel oben rechts oder oben links das Couvert in Pfirsich-Tonpapier, be
 
 Wenn Inti den Deckel hebt, sieht man auf der Innenseite drei kurze Zeilen. Diese Innenseite ist physisch klein, aber didaktisch wichtig. Sie ist der Scharniermoment, in dem die Defizitsicht in die Lösung kippt.
 
-> **Theorie:** Nicht automatisierte Graphomotorik bindet Arbeitsgedächtnis.
+> **Theorie:** Nicht automatisierte Graphomotorik bindet Steuerungsressourcen.
 >
-> **Fall S.:** 17 WPM, Stiftdruck, Absetzen, gleichzeitig strategisches Schachdenken.
+> **Fall S.:** Inkonsistente Buchstabenformen, Leseflüssigkeit 17 W/min, gleichzeitig strategisches Schachdenken.
 >
 > **Handlung:** Schachnotation als motivierender, reduzierter Schreibanlass.
 
@@ -54,7 +57,7 @@ Drei Sätze. Mehr nicht. Diese Drei-Zeilen-Architektur (Theorie, Fall, Handlung)
 Hier liegt die zentrale Visualisierung. Sie hat sechs Elemente, die ich von links nach rechts und von oben nach unten beschreibe.
 
 **Element 1: Linker Brückenkopf (Defizit-Ufer).**
-Am inneren Rand der Fläche (also zur SOLUX-Mitte hin) das gleiche Defizitbild wie auf dem Deckel, aber kleiner, gedämpfter, eher als Erinnerung. Die verkrampfte Hand mit Stift, einige inkonsistente Buchstaben. Farbgebung gedämpft Grau-Anthrazit. Dieses Ufer wirkt steil, wie ein Felsen oder eine schroffe Insel.
+Am inneren Rand der Fläche (also zur SOLUX-Mitte hin) das gleiche Defizitbild wie auf dem Deckel, aber kleiner, gedämpfter, eher als Erinnerung. Hand mit Stift, einige inkonsistente Buchstaben, ein kleines Buch-Symbol. Farbgebung gedämpft Grau-Anthrazit. Dieses Ufer wirkt steil, wie ein Felsen oder eine schroffe Insel.
 
 **Element 2: Brücke selbst.**
 Eine Bogenbrücke führt von links nach rechts (oder bei umgekehrter Lesrichtung von innen nach aussen). Der Brückenbelag besteht aus aneinandergereihten Notationsfeldern. Inti schreibt eine reale Eröffnung in algebraischer Notation auf den Brückenbelag, etwa:
@@ -75,10 +78,8 @@ Die Pfeiler sind so dargestellt, dass die Brücke ohne sie einstürzen würde. I
 **Element 4: Rechter Brückenkopf (Sichtbarkeits-Ufer).**
 Am äusseren Rand der Fläche (zum Plakatrand hin) das Gegenbild zum Defizit-Ufer. Ein stilisierter Schachstein, vorzugsweise ein Springer (weil sein L-förmiger Zug die Brückenmetapher visuell aufgreift, das Springen über Hindernisse), steht aufrecht. Daneben eine kleine Sprechblase mit dem Inhalt *Sf3!* oder *Lc4!*. Eine oder zwei kleinere Peer-Figuren stehen halb wartend, halb interessiert daneben. Farbgebung warm: Pfirsich, Goldocker, ein Hauch Hellbraun. Dieses Ufer ist offen, breit, hell.
 
-**Element 5: Antizipatorische Vermeidungsspirale unter der Brücke (optional aber empfehlenswert).**
-Unter dem mittleren Pfeiler ein kleiner Kreislauf in Form einer geschlossenen Spirale, beschriftet mit fünf Stationen:
-
-> Vermeidung → fehlende Übung → fehlende Automatisierung → Misserfolg → Vermeidung
+**Element 5: Sechsstufige Vermeidungsspirale unter der Brücke (optional aber empfehlenswert).**
+Unter dem mittleren Pfeiler ein kleiner Kreislauf in Form einer geschlossenen Spirale, beschriftet mit sechs Stationen nach Lehwald 2017 (S. 70–72). Inti übernimmt die sechs Stufen wörtlich aus dem Kapitel. Falls die sechs Stufen visuell zu eng werden, wird die Spirale auf Karte 2.5 verlagert und auf dem Plakat durch ein Spiralsymbol mit Beschriftung *Sechsstufige Spirale nach Lehwald 2017* ersetzt.
 
 Dieser Kreislauf ist klein gehalten, in dünner Strichzeichnung. Die Brücke darüber wirkt, als würde sie diesen Kreislauf durchbrechen. Wenn Inti das einbaut, hat sie eine starke didaktische Geste: Die Förderung greift nicht in den Kreislauf hinein (das wäre Defizittraining), sie *führt darüber hinweg* (das ist die Brücke).
 
@@ -96,17 +97,17 @@ Wenn Inti das Plakat als Ganzes verbinden will, kann sie auf einem einzigen Nota
 
 Wie im Zentrum sitzen die Portraits in einer Reihe, hier am unteren Rand der freigelegten Fläche. Je 2 bis 3 cm Durchmesser, unter jedem der Name und ein Stichwort.
 
-**Portrait 1: Andrea Sägesser** (Schweiz)
-Stichwort: *GRAFINK, GRAFOS*
-Mündliche Anbindung: *Schweizer Hauptreferenz für inklusive Grafomotorikförderung. Die GRAFINK-Logik begründet, dass interessengebundene Schreibanlässe wirksamer sind als isoliertes motorisches Training.*
+**Portrait 1: J. Sägesser Wyss, Sahli Lozano & Eckhart** (PH Bern, Schweiz)
+Stichwort: *GRAFINK-Rahmenmodell, GRAFOS-Screening*
+Mündliche Anbindung: *Erstautorin des GRAFINK-Rahmenmodells, gemeinsam mit Sahli Lozano und Eckhart entwickelt an der PH Bern. Die GRAFINK-Logik begründet, dass interessengebundene Schreibanlässe wirksamer sind als isoliertes motorisches Training (Sägesser Wyss et al. 2021, S. 6). GRAFOS als Schweizer Screening-Instrument für Grafomotorik.*
 
 **Portrait 2: Guido Nottbusch** (Deutschland)
 Stichwort: *kognitiv-linguistische Graphomotorik*
 Mündliche Anbindung: *Hat die drei Teilprozesse beschrieben, die im Schriftspracherwerb zusammenwirken: visuomotorische Koordination, kinästhetische Rückmeldung, Automatisierung motorischer Programme.*
 
-**Portrait 3: Anita Hurschler** (Schweiz)
+**Portrait 3: S. Hurschler Lichtsteiner** (PH Luzern, Schweiz)
 Stichwort: *Leserlichkeit und Geläufigkeit*
-Mündliche Anbindung: *Hat die Doppelachse der Handschriftbeurteilung etabliert und den Mangel eines deutschsprachigen DASH-Äquivalents diagnostiziert. Plädiert für kriteriengestützte Beobachtung.*
+Mündliche Anbindung: *Hat die Doppelachse der Handschriftbeurteilung (Leserlichkeit und Geläufigkeit) etabliert und den Mangel eines deutschsprachigen DASH-Äquivalents diagnostiziert. Plädiert für kriteriengestützte Beobachtung (Hurschler Lichtsteiner 2020, S. 3, 11).*
 
 **Portrait 4: Andreas Gold** (Deutschland)
 Stichwort: *Leseflüssigkeit als Brücke*
@@ -116,7 +117,7 @@ Mündliche Anbindung: *Stilles Lesen unter 40 Wörter pro Minute liegt im Frustr
 Stichwort: *Spirale ins Underachievement*
 Mündliche Anbindung: *Hat die sechsstufige Spirale beschrieben, in der aus motivationaler Nicht-Passung lernbezogene Angst wird. Flow-Erleben stabilisiert Lerntätigkeit nur bei Passung von Anforderung und Interesse.*
 
-Falls Inti die Portraits in einer leicht gebogenen Reihe entlang der unteren Krümmung des Donutsegments anordnet, sind sie über die ganze äussere Bogenlinie verteilt und wirken nicht überfüllt. Wenn der Platz knapp wird, lässt Inti einen Kopf weg, am ehesten Hurschler (da sich ihre Position teilweise mit Sägesser überlappt).
+Falls Inti die Portraits in einer leicht gebogenen Reihe entlang der unteren Krümmung des Donutsegments anordnet, sind sie über die ganze äussere Bogenlinie verteilt und wirken nicht überfüllt. Alle fünf Portraits sind durch Frage-2-Kernliteratur gedeckt. Greiten 2021 (Underachievement als Verdeckungsmechanismus) erscheint nicht als Portrait, sondern nur in Karte 2.2, da die Quellenbilanz sie als redundant mit Lehwald klassifiziert.
 
 ## Die fünf Karten in der pfirsichfarbenen Lasche
 
@@ -124,15 +125,15 @@ Die Karten haben dieselbe Architektur wie im Zentrum: Vorderseite mit Symbol und
 
 **Karte 2.1 Kurzantwort.**
 Vorderseite: Symbol *Stift mit Notationsfeld* und Stichwort *60 Sekunden*. Rückseite:
-> S.s Potenzial bleibt verdeckt, weil die nicht automatisierte Schreibhandlung Arbeitsgedächtnis bindet. Schachnotation bietet einen bedeutungsvollen, reduzierten Schreibanlass, der an seine Stärke anschliesst und den Arbeitsgedächtnis-Engpass durchbricht.
+> S.s Potenzial bleibt verdeckt, weil die nicht automatisierte Schreibhandlung Steuerungsressourcen bindet. Schachnotation bietet einen bedeutungsvollen, reduzierten Schreibanlass, der an seine Stärke anschliesst und die gebundenen Ressourcen freisetzt.
 
 **Karte 2.2 Theorieanker.**
 Vorderseite: Symbol *drei Pfeiler* und Stichwort *Theorie*. Rückseite:
-> Schriftspracherwerb als sensomotorisch-kognitiver Prozess (Nottbusch 2017). Arbeitsgedächtnis-Engpass bei nicht automatisierter Handschrift (Sägesser/Wyss 2021). Leseflüssigkeit als Brücke (Gold 2018). Antizipatorische Vermeidung als Underachievement-Spirale (Lehwald 2017).
+> Grafomotorik im inklusiven Rahmen, GRAFINK-Modell und GRAFOS-Screening (Sägesser Wyss et al. 2021). Schriftspracherwerb als kognitiv-linguistischer Prozess (Nottbusch 2017). Differenzierende Beurteilung von Leserlichkeit und Geläufigkeit (Hurschler Lichtsteiner 2020). Leseflüssigkeit als Brücke, Frustrationsniveau unter 40 W/min (Gold 2018). Sechsstufige Spirale ins Underachievement und Flow-Erleben (Lehwald 2017). Underachievement als Verdeckungsmechanismus (Greiten 2021).
 
 **Karte 2.3 Fallanker S.**
 Vorderseite: Symbol *Schachfigur* und Stichwort *Fall S.*. Rückseite:
-> 17 Wörter pro Minute, inkonsistente Buchstabenformen, erhöhter Stiftdruck, wiederholtes Absetzen. Sprachübergreifend, also auch im Englischen. Gleichzeitig strategisches Schachdenken, Mustererkennung, Erklärung von Zügen. Beide Befunde sind real und gehören gleichzeitig in den Blick.
+> Inkonsistente Buchstabenformen, nicht automatisierte Abläufe, Leseflüssigkeit 17 Wörter pro Minute (PDF Seite 3). Förderarbeit an Buchstabenformen, Stifthaltung und Automatisierung mit dokumentierten Fortschritten (PDF Seite 4). Gleichzeitig im SOLUX-Setting strategisches Schachdenken, Mustererkennung, Erklärung von Zügen. Beide Befunde sind real und gehören gleichzeitig in den Blick (2e-Profil im erweiterten Sinne, PDF Seite 4).
 
 **Karte 2.4 Handlung.**
 Vorderseite: Symbol *Pfeil-Sequenz* und Stichwort *Handlung*. Rückseite:
@@ -140,9 +141,9 @@ Vorderseite: Symbol *Pfeil-Sequenz* und Stichwort *Handlung*. Rückseite:
 
 **Karte 2.5 Reflexionsjoker.**
 Vorderseite: Symbol *Fragezeichen* und Stichwort *Joker*. Rückseite:
-> Frage: Warum schreibt S. in SOLUX, aber nicht im Regelunterricht? Antwort: andere Anforderungsstruktur, weniger Sprache, mehr Sinn, weniger Beschämung, höhere Selbstwirksamkeit. Im Regelunterricht überlagern sich Inhalt, Sprache und Motorik im Arbeitsgedächtnis. Bei der Notation entfallen zwei der drei Belastungen. Wichtig: Nahtransfer, nicht Ferntransfer. Schach heilt nicht.
+> Frage: Ist die Schrift-Schach-Brücke ein evidenzbasiertes Verfahren? Antwort: Nein. Sie ist im Frage-2-Korpus nicht literärisch verankert, weil sie keine Methode, sondern eine fallbezogene Übersetzung der drei Pfeiler-Prinzipien (Graphomotorik, Leseflüssigkeit, Motivation und Sicherheit) auf S.s Interessenstruktur ist. Sie wirkt als Nahtransfer in einem stärkenoffenen Setting, nicht als Ferntransfer in den Regelunterricht. Schach heilt nicht.
 
-Die Pointe der letzten Karte (*Schach heilt nicht*) ist absichtlich zugespitzt. Sie schützt Inti vor der häufigsten kritischen Nachfrage, ob sie hier nicht eine Wunderkur verkauft.
+Die Pointe der letzten Karte (*Schach heilt nicht*) ist absichtlich zugespitzt. Sie schützt Inti vor der häufigsten kritischen Nachfrage, ob sie hier ein evidenzbasiertes Verfahren verkauft. Die Karte benennt explizit, dass die Schrift-Schach-Brücke Intis didaktische Übersetzung ist, nicht ein in der Literatur verankertes Standardverfahren.
 
 ## Schritt-für-Schritt-Handlungsanleitung
 
@@ -157,9 +158,10 @@ Inti schneidet aus festerem Karton (300 bis 400 g/m2) den Deckel exakt in der Fo
 **Schritt 3: Aussensicht des Deckels gestalten.**
 Auf dem Deckel von oben nach unten:
 1. Titel *2. ENTLASTEN — Schrift-Schach-Brücke*
-2. Defizitbild der verkrampften Hand mit dem Schild *17 WPM*
-3. Leitsatz *Wenn Schreiben alles bindet, bleibt Denken unsichtbar.*
-4. Couvert in Pfirsich-Tonpapier, oben rechts oder oben links angebracht
+2. Lehrkrafturteil-Banner: *eher auffällig, sehr weinerlich, etwas störend*
+3. Doppel-Defizitfeld: oben graphomotorisch (Hand mit Stift, inkonsistente Buchstaben, Beschriftung *nicht automatisierte Abläufe*); unten leseflüssigkeitsbezogen (Buch-Symbol, Beschriftung *Leseflüssigkeit 17 W/min*)
+4. Leitsatz *Wenn Schreiben alles bindet, bleibt Denken unsichtbar.*
+5. Couvert in Pfirsich-Tonpapier, oben rechts oder oben links angebracht
 
 Inti verwendet für die Defizitsicht gedämpfte Farben (Grau, Anthrazit, leichtes Pfirsich nur als Akzent). Der Leitsatz wird in einer ruhigen Druckschrift gesetzt, gross genug, um aus drei Metern Entfernung lesbar zu sein.
 
@@ -182,13 +184,13 @@ Inti schreibt unter jeden der drei Pfeiler den Pfeilernamen (*Graphomotorik*, *L
 Inti zeichnet den Springer (oder eine andere Schachfigur), die Sprechblase mit *Sf3!*, eine oder zwei Peer-Figuren als Andeutung. Farbgebung warm in Pfirsich, Goldocker, Hellbraun.
 
 **Schritt 10: Banner und Vermeidungsspirale.**
-Über der Brücke das Band mit *Sicherheit vor Anforderung*. Unter der Brücke (zwischen Pfeiler 2 und 3) die kleine Vermeidungsspirale mit ihren fünf Stationen, in dünner Strichzeichnung. Wenn Inti die Spirale weglässt, ist das verteidigbar; sie ist eine Vertiefung, kein Muss.
+Über der Brücke das Band mit *Sicherheit vor Anforderung*. Unter der Brücke (zwischen Pfeiler 2 und 3) die sechsstufige Vermeidungsspirale nach Lehwald 2017, in dünner Strichzeichnung. Falls visuell zu eng: Spiralsymbol mit Beschriftung *Sechsstufige Spirale nach Lehwald 2017*. Wenn Inti die Spirale ganz weglässt, ist das verteidigbar; sie ist eine Vertiefung, kein Muss.
 
 **Schritt 11: Goldfunken-Echo.**
 Auf einem einzigen Notationsfeld setzt Inti einen winzigen Goldakzent. Das genügt, um die innere Verbindung zum Zentrum zu schaffen.
 
 **Schritt 12: Portraits-Galerie.**
-Unter der Brücke, am äusseren Bogenrand des Donutsegments, klebt Inti die fünf Portraits in einer leicht gekrümmten Reihe. Reihenfolge von links nach rechts: Sägesser, Nottbusch, Hurschler, Gold, Lehwald. Unter jedem Portrait Name (etwas grösser) und Stichwort (kleiner, kursiv).
+Unter der Brücke, am äusseren Bogenrand des Donutsegments, klebt Inti die fünf Portraits in einer leicht gekrümmten Reihe. Reihenfolge von links nach rechts: Sägesser Wyss et al., Nottbusch, Hurschler Lichtsteiner, Gold, Lehwald. Unter jedem Portrait Name (etwas grösser) und Stichwort (kleiner, kursiv).
 
 **Schritt 13: Karten-Lasche und Karten.**
 Falls die Lasche nicht auf dem Deckel sitzt, sondern separat: Inti klebt sie am unteren Rand des freigelegten Bereichs an, beschriftet mit *Q2 Brücken-Karten*. Wenn die Lasche auf dem Deckel sitzt (was ich empfehle, weil dann die Karten beim geschlossenen Plakat sofort sichtbar sind), ist sie schon in Schritt 3 mit angebracht worden. In jedem Fall: Karten beidseitig beschriften, ausschneiden, in die Lasche einlegen.
@@ -207,7 +209,7 @@ Inti spielt die Aufdeckungs-Geste mehrmals durch. Sie öffnet den Deckel, findet
 
 ## Layout-Skizze## Drei Hinweise zum Schluss
 
-**Erstens, die didaktische Sorgfalt liegt im Wort *Nahtransfer*.** Wenn die Examinatorin nachfragt, ob Inti hier nicht die populäre Schach-macht-schlau-These reproduziert, hat sie eine fertige Antwort: Die Schachnotation wirkt nur in der Anforderungssituation, die sie stützt. Sie macht S. nicht intelligenter, sondern senkt die Schwelle zum Schreiben in einem Setting, das er affektiv tragen kann. Das ist im Dossier sauber argumentiert (Frage 2, Abschnitt *Schach als Fördermedium*), und das Plakat darf diese Sauberkeit nicht durch Übertreibung gefährden. Die Formulierung *Schach heilt nicht* auf der letzten Karte ist Intis Schutzschild gegen den naheliegenden Einwand.
+**Erstens, die didaktische Sorgfalt liegt im Wort *Nahtransfer* und in der Verteidigungslinie auf Karte 2.5.** Die Schrift-Schach-Brücke ist Intis didaktische Übersetzung, kein evidenzbasiertes Standardverfahren. Wenn die Examinatorin nachfragt, hat Inti eine fertige Antwort: Die Schachnotation wirkt nur in der Anforderungssituation, die sie stützt. Sie macht S. nicht intelligenter, sondern senkt die Schwelle zum Schreiben in einem Setting, das er affektiv tragen kann. Die Formulierung *Schach heilt nicht* auf der letzten Karte ist Intis Schutzschild gegen den naheliegenden Einwand. Der Merksatz *Sicherheit vor Anforderung* operationalisiert Lehwalds Passungsbedingung (S. 84–89) in einer didaktischen Handlungsmaxime: Sicherheit ist die affektive Voraussetzung, die anspruchsvolle Aufgaben tragbar macht.
 
 **Zweitens, die drei Pfeiler dürfen nicht gleich gross wirken.** Inhaltlich tragen sie unterschiedlich. Graphomotorik und Leseflüssigkeit sind die strukturellen Pfeiler, Motivation ist der affektive. Wenn Inti möchte, kann sie den dritten Pfeiler optisch leicht anders gestalten, etwa mit einer warmen Aquarell-Schraffur oder einer leicht abweichenden Farbe. Das macht visuell sichtbar, dass die Brücke nicht nur auf zwei mechanischen Voraussetzungen, sondern auf einer affektiven dazu ruht. Im Vortrag kann Inti diese visuelle Differenz aufgreifen: *Die ersten beiden Pfeiler sind didaktisch, der dritte ist relational. Ohne ihn trägt die Brücke nicht.*
 
