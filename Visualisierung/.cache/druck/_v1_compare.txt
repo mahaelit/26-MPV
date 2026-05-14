@@ -1,0 +1,20 @@
+STATUS    NEW   OLD  BIBKEY  ->  AUDIT-STATUS  ->  EFFECT
+====================================================================================================
+MISSING    12     -  stamm2021fehlenderblick  ->  +++ FÜLLT KOMPLETT-LÜCKE
+MISSING     3     -  kellerkoller2025hellekoepfe  ->  +++ FÜLLT KOMPLETT-LÜCKE
+TEILWEIS   24     9  preckel2013hochbegabung_part1  ->  + erweitert/präziser
+TEILWEIS    9     9  preckel2013hochbegabung_part2  ->  + erweitert/präziser
+OK 13/15   14   402  haag2018_part1  ->  (bereits abgedeckt)
+OK 13/15    2   402  haag2018_part2  ->  (bereits abgedeckt)
+MISSING   doc     -  stern2025intelligenz  ->  +++ FÜLLT KOMPLETT-LÜCKE
+OK         12    12  baumschader2021twice  ->  (bereits abgedeckt)
+OK         11    11  gauckreimann2021  ->  (bereits abgedeckt)
+OK 9/9      9    14  kappus2010  ->  (bereits abgedeckt)
+OK          4     4  kellerkoller2013  ->  (bereits abgedeckt)
+OK         16    16  muelleroppliger2021bm  ->  (bereits abgedeckt)
+OK         12    12  muelleroppliger2021pd  ->  (bereits abgedeckt)
+OK          2    17  stamm2025_part1  ->  (bereits abgedeckt)
+OK          5    21  stamm2025_part2  ->  (bereits abgedeckt)
+OK          8     8  webb2020  ->  (bereits abgedeckt)
+OK          5    73  koop2025  ->  (bereits abgedeckt)
+OK         12   419  warneckehauke2020  ->  (bereits abgedeckt)

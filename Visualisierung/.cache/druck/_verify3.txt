@@ -1,0 +1,23 @@
+=== PDF Status ===
+Seiten: 559  |  Groesse: 683.8 MB
+
+=== V1 Build-Log ===
+## V1 (14 Quellen, Soll 137 S.)
+
+  - 1. `stamm2021fehlenderblick` (576--585) -> 12 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan, 12 S. inkl. Kapitelanfang/-ende)
+  - 2. `stamm2025vonuntennachoben` (36--37, 58--62) -> 7 Seiten extrahiert
+  - 3. `preckel2013hochbegabung` (15--47) -> 33 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan); zwei Teil-PDFs S.15-38 + S.39-47
+  - 4. `gauckreimann2021psychdiagnostik` (239--245) -> 7 Seiten extrahiert
+  - 5. `haag2018leistungsstanddiagnostik` (153--165, 187--188) -> 15 Seiten extrahiert
+  - 6. `kellerkoller2025hellekoepfe` (76--78) -> 3 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan)
+  - 7. `baumschader2021twice` (588--598) -> 11 Seiten extrahiert
+  - 8. `koop2025herkunft` (64--67) -> 4 Seiten extrahiert
+  - 9. `stern2025intelligenz` -> MISSING (nur als docx vorhanden)
+  - 9. `stern2025intelligenz` (15--18) -> 0 Seiten extrahiert  HINWEIS: nur als docx vorhanden
+  - 10. `webb2020doppeldiagnosen` (87--94) -> 8 Seiten extrahiert
+  - 11. `warneckehauke2020bildungsgerechtigkeit` (242--253) -> 12 Seiten extrahiert
+  - 12. `kellerkoller2013erkennen` (1--2) -> 2 Seiten extrahiert  HINWEIS: ist 2011er Auflage
+  - 13. `muelleroppliger2021paeddiagnostik` (224--235) -> 12 Seiten extrahiert
+  - 14. `kappus2010migration` (63--70, 74) -> 9 Seiten extrahiert  HINWEIS: Bildscan, idx-Annahme: idx 0 = S.63
+
+## V2 (6 Quellen, Soll 85 S.)

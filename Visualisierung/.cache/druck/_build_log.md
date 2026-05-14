@@ -3,18 +3,15 @@
 
 ## V1 (14 Quellen, Soll 137 S.)
 
-  - 1. `stamm2021fehlenderblick` -> MISSING ()
-  - 1. `stamm2021fehlenderblick` (576--585) -> 0 Seiten extrahiert
+  - 1. `stamm2021fehlenderblick` (576--585) -> 12 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan, 12 S. inkl. Kapitelanfang/-ende)
   - 2. `stamm2025vonuntennachoben` (36--37, 58--62) -> 7 Seiten extrahiert
-  - 3. `preckel2013hochbegabung` (15--47) -> 6 Seiten extrahiert  HINWEIS: PDF nur S.42-50 (9 S.); Vortrag fordert 15-47 - GROSSE LUECKE
+  - 3. `preckel2013hochbegabung` (15--47) -> 33 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan); zwei Teil-PDFs S.15-38 + S.39-47
   - 4. `gauckreimann2021psychdiagnostik` (239--245) -> 7 Seiten extrahiert
   - 5. `haag2018leistungsstanddiagnostik` (153--165, 187--188) -> 15 Seiten extrahiert
-  - 6. `kellerkoller2025hellekoepfe` -> MISSING ()
-  - 6. `kellerkoller2025hellekoepfe` (76--78) -> 0 Seiten extrahiert
+  - 6. `kellerkoller2025hellekoepfe` (76--78) -> 3 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan)
   - 7. `baumschader2021twice` (588--598) -> 11 Seiten extrahiert
   - 8. `koop2025herkunft` (64--67) -> 4 Seiten extrahiert
-  - 9. `stern2025intelligenz` -> MISSING (nur als docx vorhanden)
-  - 9. `stern2025intelligenz` (15--18) -> 0 Seiten extrahiert  HINWEIS: nur als docx vorhanden
+  - 9. `stern2025intelligenz` (15--18) -> 5 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Interview-PDF, 5 S.)
   - 10. `webb2020doppeldiagnosen` (87--94) -> 8 Seiten extrahiert
   - 11. `warneckehauke2020bildungsgerechtigkeit` (242--253) -> 12 Seiten extrahiert
   - 12. `kellerkoller2013erkennen` (1--2) -> 2 Seiten extrahiert  HINWEIS: ist 2011er Auflage
@@ -54,14 +51,12 @@
   - 3. `muelleroppliger2021begabungsmodelle` (204--219) -> 16 Seiten extrahiert
   - 4. `reisrenzullimueller2021sem` (333--345) -> 13 Seiten extrahiert
   - 5. `muelleroppliger2021paeddiagnostik` -> skip (bereits in V1 #13)
-  - 6. `weigand2021separativ` -> MISSING (im Handbuch Begabung 2021, kein Einzel-PDF)
-  - 6. `weigand2021separativ` (290--298) -> 0 Seiten extrahiert  HINWEIS: im Handbuch Begabung 2021, kein Einzel-PDF
+  - 6. `weigand2021separativ` (290--298) -> 9 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)
   - 7. `muelleroppliger2021adaptive` (374--385) -> 12 Seiten extrahiert  HINWEIS: Dateiname S.274-385 - tatsaechlich 374-385
   - 8. `schulteterhardt2020potenzialentwicklung` (264--267) -> 4 Seiten extrahiert  HINWEIS: PDF S.253-272 (Sammelband-Auszug 20 S.); Target S.264-267
   - 9. `lehwald2017motivation` -> skip (bereits in V2 #5)
   - 10. `hoyer2013begabung` (94--99) -> 6 Seiten extrahiert
-  - 11. `sedmak2021bildungsgerechtigkeit` -> MISSING (im Handbuch Begabung 2021, kein Einzel-PDF)
-  - 11. `sedmak2021bildungsgerechtigkeit` (65--75) -> 0 Seiten extrahiert  HINWEIS: im Handbuch Begabung 2021, kein Einzel-PDF
+  - 11. `sedmak2021bildungsgerechtigkeit` (65--75) -> 11 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)
   - 12. `grossenbacher2014integrative` (317--325) -> 9 Seiten extrahiert
 
 ## V5 (9 Quellen, Soll 95 S.)

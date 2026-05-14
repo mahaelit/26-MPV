@@ -1,0 +1,6 @@
+Seiten: 5
+idx 0: 'Intelligenzforscherin Elsbeth Stern  | «Die Intelligenz kann sich im Schulalter  | noch verändern»   | Nicht alle Lehrpersonen'
+idx 1: 'Mehr als die Hälfte der Menschen denkt, dass sie überdurchschnittlich intelligent ist. Analog  | dazu denkt auch die Hälft'
+idx 2: 'Nur jene Jugendlichen, welche die nötige  | Intelligenz mitbringen, gehören ans Gymnasium, findet Elsbeth Stern.   | Würden '
+idx 3: 'gemeldet und diejenige ist die Tochter einer Professorin. Die werden schon intelligent sein.  | Als Vorbeugung könnte man '
+idx 4: 'Kindern, die mit Smartphones aufwachsen, mangelt es oftmals an haptischen  | Erfahrungen. Hat dies eine Auswirkung auf die'

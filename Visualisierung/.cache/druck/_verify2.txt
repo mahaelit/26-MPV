@@ -1,0 +1,20 @@
+=== PDF Status ===
+Seiten: 517  |  Groesse: 584.2 MB
+
+=== V4 Build-Log ===
+## V4 (12 Quellen, Soll 107 S.)
+
+  - 1. `buholzerkummerwyss2010reaktionen` (78--85) -> 8 Seiten extrahiert
+  - 2. `muelleroppliger2021plurale` (32--42) -> 11 Seiten extrahiert
+  - 3. `muelleroppliger2021begabungsmodelle` (204--219) -> 16 Seiten extrahiert
+  - 4. `reisrenzullimueller2021sem` (333--345) -> 13 Seiten extrahiert
+  - 5. `muelleroppliger2021paeddiagnostik` -> skip (bereits in V1 #13)
+  - 6. `weigand2021separativ` (290--298) -> 9 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)
+  - 7. `muelleroppliger2021adaptive` (374--385) -> 12 Seiten extrahiert  HINWEIS: Dateiname S.274-385 - tatsaechlich 374-385
+  - 8. `schulteterhardt2020potenzialentwicklung` (264--267) -> 4 Seiten extrahiert  HINWEIS: PDF S.253-272 (Sammelband-Auszug 20 S.); Target S.264-267
+  - 9. `lehwald2017motivation` -> skip (bereits in V2 #5)
+  - 10. `hoyer2013begabung` (94--99) -> 6 Seiten extrahiert
+  - 11. `sedmak2021bildungsgerechtigkeit` (65--75) -> 11 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)
+  - 12. `grossenbacher2014integrative` (317--325) -> 9 Seiten extrahiert
+
+## V5 (9 Quellen, Soll 95 S.)

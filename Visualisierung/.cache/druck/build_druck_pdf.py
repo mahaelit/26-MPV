@@ -16,6 +16,8 @@ import os, json, re, fitz
 
 BASE = "/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV"
 PARENT = os.path.dirname(BASE)  # /MPV
+FEHLEND_V1 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 1")
+FEHLEND_V4 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 4")
 OUT_PDF = os.path.join(PARENT, "Druckdokument_Kernliteratur_2026.pdf")
 OUT_AUDIT = os.path.join(BASE, "Visualisierung", "Druckdokument_Audit.md")
 LOG = os.path.join(BASE, "Visualisierung/.cache/druck/_build_log.md")
@@ -30,7 +32,10 @@ MAP = {
         ("Literatur/stamm2025vonuntennachoben/s035-057.pdf", 35, [36, 37]),
         ("Literatur/stamm2025vonuntennachoben/s058-079.pdf", 58, [58, 59, 60, 61, 62]),
     ]},
-    "preckel2013hochbegabung":                {"offset": 42, "note": "PDF nur S.42-50 (9 S.); Vortrag fordert 15-47 - GROSSE LUECKE"},
+    "preckel2013hochbegabung":                {"multi_pdf_map": [
+        (os.path.join(FEHLEND_V1, "Preckelbaudson2013hbS.15-38.pdf"), 15, list(range(15, 39))),  # S.15-38
+        (os.path.join(FEHLEND_V1, "Preckelbaudson2013hb S.39-47.pdf"), 39, list(range(39, 48))), # S.39-47
+    ], "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan); zwei Teil-PDFs S.15-38 + S.39-47"},
     "gauckreimann2021psychdiagnostik":        {"offset": 239},  # 11 S., target 239-245
     "haag2018leistungsstanddiagnostik":       {"offset": -1},   # eBook
     "baumschader2021twice":                   {"offset": 588},
@@ -91,12 +96,12 @@ MAP = {
                                                "note": "eigene Buch-Pagination, Mapping aus Header-Detection"},
     "baudson2025besserfinden":                {"offset": 1, "container": "pauly2025"},
     # Missing entirely
-    "stamm2021fehlenderblick":                {"missing": True},
-    "kellerkoller2025hellekoepfe":            {"missing": True},
-    "stern2025intelligenz":                   {"missing": True, "note": "nur als docx vorhanden"},
+    "stamm2021fehlenderblick":                {"abs_pdf": os.path.join(FEHLEND_V1, "stamm2021fehlenderblick aufbegabteminoritäten 576-585.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan, 12 S. inkl. Kapitelanfang/-ende)"},
+    "kellerkoller2025hellekoepfe":            {"abs_pdf": os.path.join(FEHLEND_V1, "kellerkoller2025Helle köpfe mit migrationshintergrund S. 76-78.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan)"},
+    "stern2025intelligenz":                   {"abs_pdf": os.path.join(FEHLEND_V1, "Stern2025InterviewIntelligenzforscherin.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Interview-PDF, 5 S.)"},
     "greiten2021underachievement":            {"missing": True, "note": "im Handbuch Begabung 2021, kein Einzel-PDF"},
-    "weigand2021separativ":                   {"missing": True, "note": "im Handbuch Begabung 2021, kein Einzel-PDF"},
-    "sedmak2021bildungsgerechtigkeit":        {"missing": True, "note": "im Handbuch Begabung 2021, kein Einzel-PDF"},
+    "weigand2021separativ":                 {"abs_pdf": os.path.join(FEHLEND_V4, "Weigandkaiser2021separstiv oderintegrativ handbuchbegabungmülleropp S. 290298.pdf"), "offset": 290, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)"},
+    "sedmak2021bildungsgerechtigkeit":      {"abs_pdf": os.path.join(FEHLEND_V4, "Sedmakkapferer2021begabtenförderungalsgerechtigkeitsfragehandbuchbegabunginmüllrroplliger S. 65-75.pdf"), "offset": 65, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)"},
 }
 
 
@@ -229,9 +234,9 @@ for v_num, v_key in enumerate(["V1", "V2", "V3", "V4", "V5"], 1):
                 + "- **Auftrag:** Original-Buchseiten fotografieren / als Verlags-PDF beschaffen.\n"
             )
         elif "multi_pdf_map" in cfg:
-            # list of (rel_path, offset, [target_pages])
+            # list of (rel_path_or_abs, offset, [target_pages])
             for rel, off, tgts in cfg["multi_pdf_map"]:
-                full = os.path.join(BASE, rel)
+                full = rel if os.path.isabs(rel) else os.path.join(BASE, rel)
                 if not os.path.exists(full):
                     log_lines.append(f"  - {pos}. `{bk}` -> multi file missing: {rel}")
                     continue
@@ -242,6 +247,35 @@ for v_num, v_key in enumerate(["V1", "V2", "V3", "V4", "V5"], 1):
                         extracted_pages.append((full, idx))
                 d.close()
             primary_path = cfg["multi_pdf_map"][0][0]
+        elif "abs_pdf" in cfg:
+            # absolute path supplied directly (e.g. supplementary photo scans)
+            full = cfg["abs_pdf"]
+            primary_path = os.path.relpath(full, BASE) if full.startswith(BASE) else full
+            if not os.path.exists(full):
+                log_lines.append(f"  - {pos}. `{bk}` -> abs_pdf MISSING: {full}")
+                make_separator_page(out_doc, v_num, pos, n, bk, spec, 0,
+                                    primary_path, missing=True, note=f"abs_pdf missing: {note}")
+                seen.add(bk)
+                continue
+            d = fitz.open(full)
+            if "manual_map" in cfg:
+                for p in target_pages:
+                    if p in cfg["manual_map"]:
+                        idx = cfg["manual_map"][p]
+                        if 0 <= idx < d.page_count:
+                            extracted_pages.append((full, idx))
+            elif cfg.get("take_all_abs"):
+                for i in range(d.page_count):
+                    extracted_pages.append((full, i))
+            elif "offset" in cfg:
+                for p in target_pages:
+                    idx = p - cfg["offset"]
+                    if 0 <= idx < d.page_count:
+                        extracted_pages.append((full, idx))
+            else:
+                for i in range(d.page_count):
+                    extracted_pages.append((full, i))
+            d.close()
         else:
             # Determine primary path from MAP or inventory
             inv_match = None

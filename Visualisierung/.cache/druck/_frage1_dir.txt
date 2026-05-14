@@ -1,0 +1,23 @@
+=== Frage 1 ===
+total 650616
+drwx------  21 i  staff       672 May 14 18:49 .
+drwxr-xr-x@  5 i  staff       160 May 14 18:49 ..
+-rwx------@  1 i  staff  37890428 Apr 25 16:05 Baum:schader twice exceptionality 588-600.pdf
+-rwx------@  1 i  staff  35216513 Apr 29 15:02 Gauckreimann2021psychologischeagnostik s.239-249.pdf
+-rwx------@  1 i  staff  26279376 May 14 18:15 Kappus2010Umgangmitmigrationsbedingterheteroinkummerwyssbuholzer S.63-70.pdf
+-rwx------@  1 i  staff    482572 Mar  1 15:02 Kellerkoller2013BegabtemitMigration_Infoblatt.pdf
+-rwx------@  1 i  staff  46634492 Apr 29 14:42 Mülleroppliger2021begabungsmodelle S.204-219.pdf
+-rwx------@  1 i  staff  20802978 May 14 17:41 Preckelbaudson2013hb S.39-47.pdf
+-rwx------@  1 i  staff  50893130 May 14 17:39 Preckelbaudson2013hbS.15-38.pdf
+-rwx------@  1 i  staff  36826462 Apr 29 14:56 Smülleroppliger2021paedagogischediagnostik S.224-238.pdf
+-rwx------@  1 i  staff   4994690 May 14 15:36 Stamm2025vonuntennachoben S.37-38.pdf
+-rwx------@  1 i  staff  13577364 May 14 15:38 Stamm2025vonuntennachoben58-62.pdf
+-rwx------@  1 i  staff    362115 Apr 19 14:57 Stern2025InterviewIntelligenzforscherin.docx
+drwx------  11 i  staff       352 May 14 18:49 Stützliteratur
+-rwx------@  1 i  staff  22549855 Apr 22 17:46 Webb2020doppeldiagnosenkap2. S.87-94.pdf
+-rwx------@  1 i  staff    539714 May 14 17:52 haag2013diagnostik_bei_migrantinnen_und_migranten-187-188.pdf
+-rwx------@  1 i  staff    604833 May 14 17:50 haag2018diagnostik_bei_migrantinnen_und_migranten 153-165.pdf
+-rwx------@  1 i  staff   6860162 Apr 20 14:56 kellerkoller2025Helle köpfe mit migrationshintergrund S. 76-78.pdf
+-rwx------@  1 i  staff     63781 May 14 18:01 koop2025_Pauly_Was_ist_fair S.64-67.pdf
+-rwx------@  1 i  staff  28281572 May 14 15:27 stamm2021fehlenderblick aufbegabteminoritäten 576-585.pdf
+-rwx------@  1 i  staff    226907 May 14 18:06 warnekehauke2020inFischer_et_al_2020_Begabungsfoerderung242-253.pdf
