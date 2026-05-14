@@ -13,49 +13,49 @@ LIT = os.path.join(BASE, "Literatur")
 # first_book_page_at_idx_0 = die Buchseite, die in idx 0 des PDF steht (None = unbekannt/Bildscan)
 MANUAL = {
     # V1
-    "stamm2021fehlenderblick":              ("muelleroppliger2021handbuch/excerpts/_pdf_placeholder.txt", None),
-    "stamm2025vonuntennachoben":            (None, None),  # Foto-PDFs ohne OCR
+    "stamm2021fehlenderblick":              (None, None),  # nicht im Workspace; nur _outline + verified_quotes
+    "stamm2025vonuntennachoben":            ("stamm2025vonuntennachoben/s035-057.pdf", 35),  # zusätzl. s058-079.pdf
     "preckel2013hochbegabung":              ("preckel2013hochbegabung/Preckel_Baudson 2013hochbegabung,kap2.2 S.42-50.pdf", 42),
-    "gauckreimann2021psychdiagnostik":      ("gauckreimann2021psychdiagnostik/source.pdf", None),
-    "haag2018leistungsstanddiagnostik":     ("maehler2018diagnostik/source.pdf", None),
-    "kellerkoller2025hellekoepfe":          ("kellerkoller2025hellekoepfe/source.pdf", None),
-    "baumschader2021twice":                 ("muelleroppliger2021handbuch/excerpts/_pdf_placeholder.txt", None),
-    "koop2025herkunft":                     ("koop2025herkunft/source.pdf", None),
-    "stern2025intelligenz":                 (None, None),  # docx nur
-    "webb2020doppeldiagnosen":              ("webb2020doppeldiagnosen/source.pdf", None),
-    "warneckehauke2020bildungsgerechtigkeit": ("warneckehauke2020bildungsgerechtigkeit/source.pdf", None),
-    "kellerkoller2013erkennen":             (None, None),  # online-Merkblatt
+    "gauckreimann2021psychdiagnostik":      ("gauckreimann2021psychdiagnostik/Gauckreimann2021päddiagnostik s.239-249.pdf", 239),
+    "haag2018leistungsstanddiagnostik":     ("maehler2018diagnostik/source.pdf", None),  # eBook, Buchseite muss aus Inhalt erkannt werden
+    "kellerkoller2025hellekoepfe":          (None, None),  # nicht im Workspace
+    "baumschader2021twice":                 ("baumschader2021twice/Baum:schader twice exceptionality 588-600.pdf", 588),
+    "koop2025herkunft":                     ("pauly2025wasistfair/2025_Pauly_Was_ist_fair.pdf", None),  # idx-mapping nötig (Sammelband)
+    "stern2025intelligenz":                 (None, None),  # nur docx
+    "webb2020doppeldiagnosen":              ("webb2020doppeldiagnosen/kap02_fehldiagnosen_doppeldiagnosen_s087-094.pdf", 87),
+    "warneckehauke2020bildungsgerechtigkeit": ("fischer2020begabungsfoerderung/source.pdf", None),  # Sammelband
+    "kellerkoller2013erkennen":             ("kellerkoller2011erkennen/source.pdf", None),  # andere Auflage
     "muelleroppliger2021paeddiagnostik":    ("muelleroppliger2021paeddiagnostik/Smülleroppliger2021paedagogischediagnostik S.224-238.pdf", 224),
     "kappus2010migration":                  ("kappus2010migration/source.pdf", None),
     # V2
-    "saegesserwyss2021grafinkrahmenmodell": (None, None),
-    "nottbusch2017graphomotorik":           (None, None),
-    "hurschler2020handschriftbeurteilung":  (None, None),
-    "gold2018lesenkannmanlernen":           (None, None),
+    "saegesserwyss2021grafinkrahmenmodell": ("sägesserwyssetal2022grafomotorikschulischeinklusion", None),  # Verzeichnis prüfen
+    "nottbusch2017graphomotorik":           ("nottbusch2017graphomotorik/source.pdf", None),
+    "hurschler2020handschriftbeurteilung":  ("hurschler2020handschriftbeurteilung/source.pdf", None),
+    "gold2018lesenkannmanlernen":           ("gold2018lesenkannmanlernen/Gold2018lesenkannmanlernen S67-88.pdf", 67),
     "lehwald2017motivation":                ("lehwald2017motivation/Lehwald2017 motbeg S.141-165.pdf", 141),
-    "greiten2021underachievement":          (None, None),
+    "greiten2021underachievement":          (None, None),  # Handbuch S.546-553, kein Einzel-PDF
     # V3
-    "grossrieder2010anerkennung":           (None, None),
-    "baudson2021wasdenken":                 (None, None),
+    "grossrieder2010anerkennung":           ("grossrieder2010anerkennung/Grossrieder2010Nerkennung in buholzer kummerwyss.pdf", None),
+    "baudson2021wasdenken":                 ("baudson2021wasdenken/source.pdf", None),
     "kuhl2021begabungbildungbeziehung":     ("Kuhl2021bildungbegabung/Kuhl2021begabildungbeziehungsusbperspsychsicht S.185-202.pdf", 185),
-    "wagener2021bfhemmendfoerdernd":        (None, None),
-    "behrensen2019inklusive":               (None, None),
-    "kuhl2019diversitaet":                  (None, None),
-    "boosnuenning2022interethnisch":        (None, None),
-    "kesselshannover2015gleichaltrige":     (None, None),
-    "tschoppbuholzergruetter2022intergruppenkontakt": (None, None),
-    "baumert2022freundschaftwerte":         (None, None),
-    "evers2025stress":                      (None, None),
+    "wagener2021bfhemmendfoerdernd":        ("wagener2021bfförderndhemmend/Wagener2021bfhemmendförderndimklassenklntext S418-424.pdf", 418),
+    "behrensen2019inklusive":               ("behrensen2019inklusive/source.pdf", None),
+    "kuhl2019diversitaet":                  ("kuhl2019diversitaet/source.pdf", None),
+    "boosnuenning2022interethnisch":        ("boosnuenning2022interethnisch/source.pdf", None),
+    "kesselshannover2015gleichaltrige":     ("kesselshannover2015gleichaltrige/source.pdf", None),
+    "tschoppbuholzergruetter2022intergruppenkontakt": ("tschoppgruetterbuholzer2022intergruppenkontakt/source.pdf", None),
+    "baumert2022freundschaftwerte":         ("baumert2022freundschaftwerte/source.pdf", None),
+    "evers2025stress":                      ("evers2025stress/source.pdf", None),
     # V4
     "buholzerkummerwyss2010reaktionen":     ("buholzer2010allegleich/source_s078-085.pdf", 78),
     "muelleroppliger2021plurale":           ("muelleroppliger2021plurale/Vmüller2021pluralrgsinklusionbildungsgerechtigkeit.pdf", 32),
     "muelleroppliger2021begabungsmodelle":  ("muelleroppliger2021handbuch/Mülleroppliger2021begabungsmpdeöle S.204-219.pdf", 204),
     "reisrenzullimueller2021sem":           ("reisrenzullimüller2021SEM/Reisrenzullimüller2021SEM S.333-345.pdf", 333),
-    "weigand2021separativ":                 (None, None),
+    "weigand2021separativ":                 (None, None),  # nur Outline + Notes
     "muelleroppliger2021adaptive":          ("mülleroppliger2021adaptivelernarchitektur/Mülleroppliger2021adaptivelernarchizektur S.274-385.pdf", 374),
     "schulteterhardt2020potenzialentwicklung": ("fischer2020begabungsfoerderung/excerpts/022_individuelle_potenzialentwicklung_durch_staerkenor.pdf", None),
     "hoyer2013begabung":                    ("hoyer2013begabung/source.pdf", None),
-    "sedmak2021bildungsgerechtigkeit":      (None, None),
+    "sedmak2021bildungsgerechtigkeit":      (None, None),  # nur Outline + Notes
     "grossenbacher2014integrative":         ("stamm2014handbuch/Grossenbacher tettenborn 2014 in stamm Talent und Begabung in der VS der deutschsprachigen Schweiz 317-325.pdf", 317),
     # V5
     "weigand2021person":                    ("weigand2021person/Weigand2021begabungbildungperson S.59.pdf", 46),

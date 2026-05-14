@@ -1,0 +1,29 @@
+=== fischer2020 ===
+excerpts
+source.pdf
+verified_quotes.md
+
+=== pauly2025 ===
+2025_Pauly_Was_ist_fair.pdf
+
+=== stamm2021 ===
+_outline.md
+verified_quotes.md
+
+=== kellerkoller2025 ===
+_outline.md
+verified_quotes.md
+
+=== muelleroppliger2021handbuch ===
+Baudson Was Menschen über Hochbegabung und Hochbegabte denken s.115-132.pdf
+Mülleroppliger2021begabungsmpdeöle S.204-219.pdf
+excerpts
+verified_quotes.md
+
+=== weigand2021separativ ===
+_outline.md
+verified_quotes.md
+
+=== sedmak2021 ===
+_outline.md
+verified_quotes.md

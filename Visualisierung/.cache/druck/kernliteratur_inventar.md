@@ -5,18 +5,18 @@
 
 | # | bibkey | Seiten | n | first | PDF | Status | Text? |
 |--|--|--|--|--|--|--|--|
-| 1 | `stamm2021fehlenderblick` | 576--585 | 10 | None | `muelleroppliger2021handbuch/excerpts/_pdf_placeholder.txt` | MISSING |   |
-| 2 | `stamm2025vonuntennachoben` | 36--37, 58--62 | 7 | None | `—` | NO_LOCAL |   |
+| 1 | `stamm2021fehlenderblick` | 576--585 | 10 | None | `—` | NO_LOCAL |   |
+| 2 | `stamm2025vonuntennachoben` | 36--37, 58--62 | 7 | 35 | `stamm2025vonuntennachoben/s035-057.pdf` | OK | 0/2  |
 | 3 | `preckel2013hochbegabung` | 15--47 | 33 | 42 | `preckel2013hochbegabung/Preckel_Baudson 2013hochbegabung,kap2.2 S.42-50.pdf` | OK | 0/6  |
-| 4 | `gauckreimann2021psychdiagnostik` | 239--245 | 7 | None | `gauckreimann2021psychdiagnostik/source.pdf` | MISSING |   |
+| 4 | `gauckreimann2021psychdiagnostik` | 239--245 | 7 | 239 | `gauckreimann2021psychdiagnostik/Gauckreimann2021päddiagnostik s.239-249.pdf` | OK | 0/7  |
 | 5 | `haag2018leistungsstanddiagnostik` | 153--165, 187--188 | 15 | None | `maehler2018diagnostik/source.pdf` | OK | 402/402  |
-| 6 | `kellerkoller2025hellekoepfe` | 76--78 | 3 | None | `kellerkoller2025hellekoepfe/source.pdf` | MISSING |   |
-| 7 | `baumschader2021twice` | 588--598 | 11 | None | `muelleroppliger2021handbuch/excerpts/_pdf_placeholder.txt` | MISSING |   |
-| 8 | `koop2025herkunft` | 64--67 | 4 | None | `koop2025herkunft/source.pdf` | MISSING |   |
+| 6 | `kellerkoller2025hellekoepfe` | 76--78 | 3 | None | `—` | NO_LOCAL |   |
+| 7 | `baumschader2021twice` | 588--598 | 11 | 588 | `baumschader2021twice/Baum:schader twice exceptionality 588-600.pdf` | OK | 0/11  |
+| 8 | `koop2025herkunft` | 64--67 | 4 | None | `pauly2025wasistfair/2025_Pauly_Was_ist_fair.pdf` | OK | 73/73  |
 | 9 | `stern2025intelligenz` | 15--18 | 4 | None | `—` | NO_LOCAL |   |
-| 10 | `webb2020doppeldiagnosen` | 87--94 | 8 | None | `webb2020doppeldiagnosen/source.pdf` | MISSING |   |
-| 11 | `warneckehauke2020bildungsgerechtigkeit` | 242--253 | 12 | None | `warneckehauke2020bildungsgerechtigkeit/source.pdf` | MISSING |   |
-| 12 | `kellerkoller2013erkennen` | 1--2 | 2 | None | `—` | NO_LOCAL |   |
+| 10 | `webb2020doppeldiagnosen` | 87--94 | 8 | 87 | `webb2020doppeldiagnosen/kap02_fehldiagnosen_doppeldiagnosen_s087-094.pdf` | OK | 0/8  |
+| 11 | `warneckehauke2020bildungsgerechtigkeit` | 242--253 | 12 | None | `fischer2020begabungsfoerderung/source.pdf` | OK | 12/12  |
+| 12 | `kellerkoller2013erkennen` | 1--2 | 2 | None | `kellerkoller2011erkennen/source.pdf` | OK | 4/4  |
 | 13 | `muelleroppliger2021paeddiagnostik` | 224--235 | 12 | 224 | `muelleroppliger2021paeddiagnostik/Smülleroppliger2021paedagogischediagnostik S.224-238.pdf` | OK | 0/12  |
 | 14 | `kappus2010migration` | 63--70, 74 | 9 | None | `kappus2010migration/source.pdf` | OK | 0/14  |
 
@@ -24,10 +24,10 @@
 
 | # | bibkey | Seiten | n | first | PDF | Status | Text? |
 |--|--|--|--|--|--|--|--|
-| 1 | `saegesserwyss2021grafinkrahmenmodell` | 2--3, 6--11 | 8 | None | `—` | NO_LOCAL |   |
-| 2 | `nottbusch2017graphomotorik` | 128--136 | 9 | None | `—` | NO_LOCAL |   |
-| 3 | `hurschler2020handschriftbeurteilung` | 1--24 | 24 | None | `—` | NO_LOCAL |   |
-| 4 | `gold2018lesenkannmanlernen` | 50--53, 62, 67--88 | 27 | None | `—` | NO_LOCAL |   |
+| 1 | `saegesserwyss2021grafinkrahmenmodell` | 2--3, 6--11 | 8 | None | `sägesserwyssetal2022grafomotorikschulischeinklusion` | OK |   |
+| 2 | `nottbusch2017graphomotorik` | 128--136 | 9 | None | `nottbusch2017graphomotorik/source.pdf` | OK | 0/18  |
+| 3 | `hurschler2020handschriftbeurteilung` | 1--24 | 24 | None | `hurschler2020handschriftbeurteilung/source.pdf` | OK | 26/26  |
+| 4 | `gold2018lesenkannmanlernen` | 50--53, 62, 67--88 | 27 | 67 | `gold2018lesenkannmanlernen/Gold2018lesenkannmanlernen S67-88.pdf` | OK | 0/22  |
 | 5 | `lehwald2017motivation` | 70--72, 84--89 | 9 | 141 | `lehwald2017motivation/Lehwald2017 motbeg S.141-165.pdf` | OK |   |
 | 6 | `greiten2021underachievement` | 546--553 | 8 | None | `—` | NO_LOCAL |   |
 
@@ -35,17 +35,17 @@
 
 | # | bibkey | Seiten | n | first | PDF | Status | Text? |
 |--|--|--|--|--|--|--|--|
-| 1 | `grossrieder2010anerkennung` | 88--94 | 7 | None | `—` | NO_LOCAL |   |
-| 2 | `baudson2021wasdenken` | 115--129 | 15 | None | `—` | NO_LOCAL |   |
+| 1 | `grossrieder2010anerkennung` | 88--94 | 7 | None | `grossrieder2010anerkennung/Grossrieder2010Nerkennung in buholzer kummerwyss.pdf` | OK | 0/9  |
+| 2 | `baudson2021wasdenken` | 115--129 | 15 | None | `baudson2021wasdenken/source.pdf` | OK | 0/14  |
 | 3 | `kuhl2021begabungbildungbeziehung` | 185--201 | 17 | 185 | `Kuhl2021bildungbegabung/Kuhl2021begabildungbeziehungsusbperspsychsicht S.185-202.pdf` | OK | 0/17  |
-| 4 | `wagener2021bfhemmendfoerdernd` | 418--424 | 7 | None | `—` | NO_LOCAL |   |
-| 5 | `behrensen2019inklusive` | 86--98 | 13 | None | `—` | NO_LOCAL |   |
-| 6 | `kuhl2019diversitaet` | 35--54 | 20 | None | `—` | NO_LOCAL |   |
-| 7 | `boosnuenning2022interethnisch` | 51--65 | 15 | None | `—` | NO_LOCAL |   |
-| 8 | `kesselshannover2015gleichaltrige` | 288 | 1 | None | `—` | NO_LOCAL |   |
-| 9 | `tschoppbuholzergruetter2022intergruppenkontakt` | 35--40 | 6 | None | `—` | NO_LOCAL |   |
-| 10 | `baumert2022freundschaftwerte` | 40--49 | 10 | None | `—` | NO_LOCAL |   |
-| 11 | `evers2025stress` | 21--27 | 7 | None | `—` | NO_LOCAL |   |
+| 4 | `wagener2021bfhemmendfoerdernd` | 418--424 | 7 | 418 | `wagener2021bfförderndhemmend/Wagener2021bfhemmendförderndimklassenklntext S418-424.pdf` | OK | 0/7  |
+| 5 | `behrensen2019inklusive` | 86--98 | 13 | None | `behrensen2019inklusive/source.pdf` | OK | 13/13  |
+| 6 | `kuhl2019diversitaet` | 35--54 | 20 | None | `kuhl2019diversitaet/source.pdf` | OK | 24/24  |
+| 7 | `boosnuenning2022interethnisch` | 51--65 | 15 | None | `boosnuenning2022interethnisch/source.pdf` | OK | 15/15  |
+| 8 | `kesselshannover2015gleichaltrige` | 288 | 1 | None | `kesselshannover2015gleichaltrige/source.pdf` | OK | 20/20  |
+| 9 | `tschoppbuholzergruetter2022intergruppenkontakt` | 35--40 | 6 | None | `tschoppgruetterbuholzer2022intergruppenkontakt/source.pdf` | OK | 6/6  |
+| 10 | `baumert2022freundschaftwerte` | 40--49 | 10 | None | `baumert2022freundschaftwerte/source.pdf` | OK | 10/10  |
+| 11 | `evers2025stress` | 21--27 | 7 | None | `evers2025stress/source.pdf` | OK | 7/7  |
 | 12 | `lehwald2017motivation` | 57--63 | 7 | 141 | `lehwald2017motivation/Lehwald2017 motbeg S.141-165.pdf` | OK |  (2. Auftreten – Doppelzählung) |
 
 ## V4
@@ -79,4 +79,4 @@
 | 8 | `kosoroklabhart2021voneltern` | 14--15, 38--39 | 4 | None | `kosoroklabhart2021voneltern/source.pdf` | OK | 31/31  |
 | 9 | `baudson2025besserfinden` | 35--40 | 6 | None | `pauly2025wasistfair/2025_Pauly_Was_ist_fair.pdf` | OK | 73/73  |
 
-**Bilanz Erstauftreten:** 23 OK, 27 fehlend/online.
+**Bilanz Erstauftreten:** 44 OK, 6 fehlend/online.

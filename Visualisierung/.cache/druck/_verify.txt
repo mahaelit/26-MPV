@@ -1,0 +1,13 @@
+=== PDF Verifikation ===
+Pfad:    /Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/Druckdokument_Kernliteratur_2026.pdf
+Groesse: 513.9 MB
+Seiten:  497
+Erwartet: 50 Trennblätter (53 Eintraege - 3 Doppelzaehlungen) + 447 Inhalt = 497
+
+=== stamm2025 verify (jetzt 7 statt 38 Seiten?) ===
+  - 2. `stamm2025vonuntennachoben` (36--37, 58--62) -> 7 Seiten extrahiert
+  - 3. `preckel2013hochbegabung` (15--47) -> 6 Seiten extrahiert  HINWEIS: PDF nur S.42-50 (9 S.); Vortrag fordert 15-47 - GROSSE LUECKE
+
+=== schulteterhardt (jetzt 4 statt 20?) ===
+  - 8. `schulteterhardt2020potenzialentwicklung` (264--267) -> 4 Seiten extrahiert  HINWEIS: PDF S.253-272 (Sammelband-Auszug 20 S.); Target S.264-267
+  - 9. `lehwald2017motivation` -> skip (bereits in V2 #5)
