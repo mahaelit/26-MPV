@@ -18,20 +18,7 @@ _Keine Beschaffungsluecken._
 
 ## V2 – Vortrag 2
 
-### 1. `saegesserwyss2021grafinkrahmenmodell` (V2 #1)
-- **Pflichtseiten:** S. 2--3, 6--11 (8 S.)
-- **Status:** PDF nicht im Workspace
-- **Hinweis:** Verzeichnis ohne PDF
-- **Auftrag:** Original-Buchseiten fotografieren / als Verlags-PDF beschaffen.
-
-### 2. `lehwald2017motivation` (V2 #5) – TEILWEISE
-- **Pflichtseiten:** S. 70--72, 84--89 (9 S.)
-- **Im Druck-PDF:** 0 Seiten extrahiert
-- **Lücke:** 9 Seiten fehlen
-- **Quelle (lokal):** `lehwald2017motivation/Lehwald2017 motbeg S.141-165.pdf`
-- **Auftrag:** Fehlende Buchseiten fotografieren und nachreichen.
-
-### 3. `greiten2021underachievement` (V2 #6)
+### 1. `greiten2021underachievement` (V2 #6)
 - **Pflichtseiten:** S. 546--553 (8 S.)
 - **Status:** PDF nicht im Workspace
 - **Hinweis:** im Handbuch Begabung 2021, kein Einzel-PDF
@@ -40,20 +27,12 @@ _Keine Beschaffungsluecken._
 
 ## V3 – Vortrag 3
 
-### 4. `baudson2021wasdenken` (V3 #2) – TEILWEISE
+### 2. `baudson2021wasdenken` (V3 #2) – TEILWEISE
 - **Pflichtseiten:** S. 115--129 (15 S.)
 - **Im Druck-PDF:** 14 Seiten extrahiert
 - **Lücke:** 1 Seiten fehlen
-- **Hinweis:** Kapitel-PDF (14 S., target 15)
-- **Quelle (lokal):** `baudson2021wasdenken/source.pdf`
-- **Auftrag:** Fehlende Buchseiten fotografieren und nachreichen.
-
-### 5. `kuhl2019diversitaet` (V3 #6) – TEILWEISE
-- **Pflichtseiten:** S. 35--54 (20 S.)
-- **Im Druck-PDF:** 19 Seiten extrahiert
-- **Lücke:** 1 Seiten fehlen
-- **Hinweis:** Header zeigt 36 fuer idx 0; S.35 evtl. nicht im PDF
-- **Quelle (lokal):** `kuhl2019diversitaet/source.pdf`
+- **Hinweis:** Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (vollst. Kapitel S.115-132)
+- **Quelle (lokal):** `/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/Literatur/FehlendeSeiten MPV/Definitiv MPV Literatur Frage 3/Baudson Was Menschen über Hochbegabung und Hochbegabte denken s.115-132.pdf`
 - **Auftrag:** Fehlende Buchseiten fotografieren und nachreichen.
 
 
@@ -64,7 +43,7 @@ _Keine Beschaffungsluecken._
 
 ## V5 – Vortrag 5
 
-### 6. `horvath2021elite` (V5 #2) – TEILWEISE
+### 3. `horvath2021elite` (V5 #2) – TEILWEISE
 - **Pflichtseiten:** S. 77--87 (11 S.)
 - **Im Druck-PDF:** 9 Seiten extrahiert
 - **Lücke:** 2 Seiten fehlen
@@ -74,8 +53,8 @@ _Keine Beschaffungsluecken._
 
 ---
 
-**Bilanz:** 6 Quelle(n) muessen beschafft werden.
+**Bilanz:** 3 Quelle(n) muessen beschafft werden.
 
-**Erfolgreich extrahiert:** 514 Seiten in `/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/Druckdokument_Kernliteratur_2026.pdf`.
+**Erfolgreich extrahiert:** 536 Seiten in `/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/Druckdokument_Kernliteratur_2026.pdf`.
 
 **Soll laut Vortraegen:** 549 Seiten Kernliteratur.

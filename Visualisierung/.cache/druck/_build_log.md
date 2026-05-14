@@ -20,23 +20,22 @@
 
 ## V2 (6 Quellen, Soll 85 S.)
 
-  - 1. `saegesserwyss2021grafinkrahmenmodell` -> MISSING (Verzeichnis ohne PDF)
-  - 1. `saegesserwyss2021grafinkrahmenmodell` (2--3, 6--11) -> 0 Seiten extrahiert  HINWEIS: Verzeichnis ohne PDF
+  - 1. `saegesserwyss2021grafinkrahmenmodell` (2--3, 6--11) -> 8 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 2' (Foto-Scans S.2-3 + S.6-11)
   - 2. `nottbusch2017graphomotorik` (128--136) -> 9 Seiten extrahiert  HINWEIS: PDF enthaelt vermutlich gesamtes Kapitel
   - 3. `hurschler2020handschriftbeurteilung` (1--24) -> 24 Seiten extrahiert
   - 4. `gold2018lesenkannmanlernen` (50--53, 62, 67--88) -> 31 Seiten extrahiert  HINWEIS: 3 PDFs - hier nur S67-88; S50-53 + S62 separat
-  - 5. `lehwald2017motivation` (70--72, 84--89) -> 0 Seiten extrahiert
+  - 5. `lehwald2017motivation` (70--72, 84--89) -> 9 Seiten extrahiert  HINWEIS: Workspace-PDFs: S.47-75 (offset 51, validiert via Rendering idx0=S.51, idx23=S.75) + S.77-92 (offset 77, linear)
   - 6. `greiten2021underachievement` -> MISSING (im Handbuch Begabung 2021, kein Einzel-PDF)
   - 6. `greiten2021underachievement` (546--553) -> 0 Seiten extrahiert  HINWEIS: im Handbuch Begabung 2021, kein Einzel-PDF
 
 ## V3 (12 Quellen, Soll 125 S.)
 
   - 1. `grossrieder2010anerkennung` (88--94) -> 9 Seiten extrahiert  HINWEIS: Kapitel-PDF, Bildscan
-  - 2. `baudson2021wasdenken` (115--129) -> 14 Seiten extrahiert  HINWEIS: Kapitel-PDF (14 S., target 15)
+  - 2. `baudson2021wasdenken` (115--129) -> 14 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (vollst. Kapitel S.115-132)
   - 3. `kuhl2021begabungbildungbeziehung` (185--201) -> 17 Seiten extrahiert
   - 4. `wagener2021bfhemmendfoerdernd` (418--424) -> 7 Seiten extrahiert
   - 5. `behrensen2019inklusive` (86--98) -> 13 Seiten extrahiert
-  - 6. `kuhl2019diversitaet` (35--54) -> 19 Seiten extrahiert  HINWEIS: Header zeigt 36 fuer idx 0; S.35 evtl. nicht im PDF
+  - 6. `kuhl2019diversitaet` (35--54) -> 24 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (S.35-59, 24 S.)
   - 7. `boosnuenning2022interethnisch` (51--65) -> 15 Seiten extrahiert
   - 8. `kesselshannover2015gleichaltrige` (288) -> 1 Seiten extrahiert
   - 9. `tschoppbuholzergruetter2022intergruppenkontakt` (35--40) -> 6 Seiten extrahiert

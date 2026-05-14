@@ -17,6 +17,8 @@ import os, json, re, fitz
 BASE = "/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV"
 PARENT = os.path.dirname(BASE)  # /MPV
 FEHLEND_V1 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 1")
+FEHLEND_V2 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 2")
+FEHLEND_V3 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 3")
 FEHLEND_V4 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 4")
 OUT_PDF = os.path.join(PARENT, "Druckdokument_Kernliteratur_2026.pdf")
 OUT_AUDIT = os.path.join(BASE, "Visualisierung", "Druckdokument_Audit.md")
@@ -47,7 +49,10 @@ MAP = {
     "kappus2010migration":                    {"manual_map": {63:0, 64:1, 65:2, 66:3, 67:4, 68:5, 69:6, 70:7, 74:11},
                                                "note": "Bildscan, idx-Annahme: idx 0 = S.63"},
     # V2
-    "saegesserwyss2021grafinkrahmenmodell":   {"missing": True, "note": "Verzeichnis ohne PDF"},
+    "saegesserwyss2021grafinkrahmenmodell":   {"multi_pdf_map": [
+        (os.path.join(FEHLEND_V2, "sägesser_grafomotorik-und-schulische-inklusion S.2-3.pdf"), None, None),
+        (os.path.join(FEHLEND_V2, "sägesser2021_grafomotorik-und-schulische-inklusion_S.6-11.pdf"), None, None),
+    ], "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 2' (Foto-Scans S.2-3 + S.6-11)"},
     "nottbusch2017graphomotorik":             {"manual_map": {128:0, 129:1, 130:2, 131:3, 132:4, 133:5, 134:6, 135:7, 136:8},
                                                "note": "PDF enthaelt vermutlich gesamtes Kapitel"},
     "hurschler2020handschriftbeurteilung":    {"offset": 1},
@@ -56,14 +61,17 @@ MAP = {
                                                   "Literatur/gold2018lesenkannmanlernen/Gold2018 Migrationsprache S.50-53.pdf",
                                                   "Literatur/gold2018lesenkannmanlernen/Gold2018 schwacheleser S62-66.pdf",
                                                ]},
-    "lehwald2017motivation":                  {"offset": 141},
+    "lehwald2017motivation":                  {"multi_pdf_map": [
+        ("Literatur/lehwald2017motivation/Lehwald 2017 motivation trifft begabung S. 47-75.pdf", 52, [70, 71, 72]),
+        ("Literatur/lehwald2017motivation/Lehwald 2017 motivation trifft begabung S.77-92.pdf", 77, [84, 85, 86, 87, 88, 89]),
+    ], "note": "Workspace-PDFs: S.47-75 (offset 51, validiert via Rendering idx0=S.51, idx23=S.75) + S.77-92 (offset 77, linear)"},
     # V3
     "grossrieder2010anerkennung":             {"take_all": True, "note": "Kapitel-PDF, Bildscan"},
-    "baudson2021wasdenken":                   {"take_all": True, "note": "Kapitel-PDF (14 S., target 15)"},
+    "baudson2021wasdenken":                   {"abs_pdf": os.path.join(FEHLEND_V3, "Baudson Was Menschen über Hochbegabung und Hochbegabte denken s.115-132.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (vollst. Kapitel S.115-132)"},
     "kuhl2021begabungbildungbeziehung":       {"offset": 185},
     "wagener2021bfhemmendfoerdernd":          {"offset": 418},
     "behrensen2019inklusive":                 {"offset": 86},
-    "kuhl2019diversitaet":                    {"offset": 36, "note": "Header zeigt 36 fuer idx 0; S.35 evtl. nicht im PDF"},
+    "kuhl2019diversitaet":                    {"abs_pdf": os.path.join(FEHLEND_V3, "kuhlhofmann2019 S.35-59pdf.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (S.35-59, 24 S.)"},
     "boosnuenning2022interethnisch":          {"offset": 51},
     "kesselshannover2015gleichaltrige":       {"manual_map": {288: 5}},
     "tschoppbuholzergruetter2022intergruppenkontakt": {"offset": 35},
@@ -234,17 +242,22 @@ for v_num, v_key in enumerate(["V1", "V2", "V3", "V4", "V5"], 1):
                 + "- **Auftrag:** Original-Buchseiten fotografieren / als Verlags-PDF beschaffen.\n"
             )
         elif "multi_pdf_map" in cfg:
-            # list of (rel_path_or_abs, offset, [target_pages])
+            # list of (rel_path_or_abs, offset_or_None, [target_pages]_or_None)
+            # If offset is None and tgts is None -> take_all of that PDF
             for rel, off, tgts in cfg["multi_pdf_map"]:
                 full = rel if os.path.isabs(rel) else os.path.join(BASE, rel)
                 if not os.path.exists(full):
                     log_lines.append(f"  - {pos}. `{bk}` -> multi file missing: {rel}")
                     continue
                 d = fitz.open(full)
-                for p in tgts:
-                    idx = p - off
-                    if 0 <= idx < d.page_count:
-                        extracted_pages.append((full, idx))
+                if off is None or tgts is None:
+                    for i in range(d.page_count):
+                        extracted_pages.append((full, i))
+                else:
+                    for p in tgts:
+                        idx = p - off
+                        if 0 <= idx < d.page_count:
+                            extracted_pages.append((full, idx))
                 d.close()
             primary_path = cfg["multi_pdf_map"][0][0]
         elif "abs_pdf" in cfg:
