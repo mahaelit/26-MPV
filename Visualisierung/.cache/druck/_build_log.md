@@ -25,13 +25,12 @@
   - 3. `hurschler2020handschriftbeurteilung` (1--24) -> 24 Seiten extrahiert
   - 4. `gold2018lesenkannmanlernen` (50--53, 62, 67--88) -> 31 Seiten extrahiert  HINWEIS: 3 PDFs - hier nur S67-88; S50-53 + S62 separat
   - 5. `lehwald2017motivation` (70--72, 84--89) -> 9 Seiten extrahiert  HINWEIS: Workspace-PDFs: S.47-75 (offset 51, validiert via Rendering idx0=S.51, idx23=S.75) + S.77-92 (offset 77, linear)
-  - 6. `greiten2021underachievement` -> MISSING (im Handbuch Begabung 2021, kein Einzel-PDF)
-  - 6. `greiten2021underachievement` (546--553) -> 0 Seiten extrahiert  HINWEIS: im Handbuch Begabung 2021, kein Einzel-PDF
+  - 6. `greiten2021underachievement` (546--553) -> 8 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 2' (8 S., S.546-553 linear)
 
 ## V3 (12 Quellen, Soll 125 S.)
 
   - 1. `grossrieder2010anerkennung` (88--94) -> 9 Seiten extrahiert  HINWEIS: Kapitel-PDF, Bildscan
-  - 2. `baudson2021wasdenken` (115--129) -> 14 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (vollst. Kapitel S.115-132)
+  - 2. `baudson2021wasdenken` (115--129) -> 14 Seiten extrahiert  HINWEIS: Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (S.115-128, S.129 nicht beschafft - akzeptiert)
   - 3. `kuhl2021begabungbildungbeziehung` (185--201) -> 17 Seiten extrahiert
   - 4. `wagener2021bfhemmendfoerdernd` (418--424) -> 7 Seiten extrahiert
   - 5. `behrensen2019inklusive` (86--98) -> 13 Seiten extrahiert
@@ -61,7 +60,7 @@
 ## V5 (9 Quellen, Soll 95 S.)
 
   - 1. `weigand2021person` (46--59) -> 14 Seiten extrahiert
-  - 2. `horvath2021elite` (77--87) -> 9 Seiten extrahiert
+  - 2. `horvath2021elite` (77--87) -> 9 Seiten extrahiert  HINWEIS: Bildscan S.77-85; S.86-87 akzeptiert nicht beschafft
   - 3. `muellerboeschschaffnermenn2021udl` (94--116) -> 23 Seiten extrahiert
   - 4. `macha2019gender` (160--171) -> 12 Seiten extrahiert
   - 5. `groschefussangelgraesel2020kokonstruktion` (463--467, 469--472) -> 9 Seiten extrahiert  HINWEIS: Bildscan, idx-Mapping geschaetzt: idx 0 = S.461

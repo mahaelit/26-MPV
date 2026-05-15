@@ -67,7 +67,7 @@ MAP = {
     ], "note": "Workspace-PDFs: S.47-75 (offset 51, validiert via Rendering idx0=S.51, idx23=S.75) + S.77-92 (offset 77, linear)"},
     # V3
     "grossrieder2010anerkennung":             {"take_all": True, "note": "Kapitel-PDF, Bildscan"},
-    "baudson2021wasdenken":                   {"abs_pdf": os.path.join(FEHLEND_V3, "Baudson Was Menschen über Hochbegabung und Hochbegabte denken s.115-132.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (vollst. Kapitel S.115-132)"},
+    "baudson2021wasdenken":                   {"abs_pdf": os.path.join(FEHLEND_V3, "Baudson Was Menschen über Hochbegabung und Hochbegabte denken s.115-132.pdf"), "take_all_abs": True, "accepted_partial": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 3' (S.115-128, S.129 nicht beschafft - akzeptiert)"},
     "kuhl2021begabungbildungbeziehung":       {"offset": 185},
     "wagener2021bfhemmendfoerdernd":          {"offset": 418},
     "behrensen2019inklusive":                 {"offset": 86},
@@ -88,7 +88,7 @@ MAP = {
     "grossenbacher2014integrative":           {"offset": 317},
     # V5
     "weigand2021person":                      {"offset": 46},   # PDF heisst 'S.59' aber enthaelt S.46-59
-    "horvath2021elite":                       {"offset": 77},
+    "horvath2021elite":                       {"offset": 77, "accepted_partial": True, "note": "Bildscan S.77-85; S.86-87 akzeptiert nicht beschafft"},
     "muellerboeschschaffnermenn2021udl":      {"offset": 93},
     "macha2019gender":                        {"offset": 160},
     "groschefussangelgraesel2020kokonstruktion": {"manual_map": {
@@ -107,7 +107,7 @@ MAP = {
     "stamm2021fehlenderblick":                {"abs_pdf": os.path.join(FEHLEND_V1, "stamm2021fehlenderblick aufbegabteminoritäten 576-585.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan, 12 S. inkl. Kapitelanfang/-ende)"},
     "kellerkoller2025hellekoepfe":            {"abs_pdf": os.path.join(FEHLEND_V1, "kellerkoller2025Helle köpfe mit migrationshintergrund S. 76-78.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Foto-Scan)"},
     "stern2025intelligenz":                   {"abs_pdf": os.path.join(FEHLEND_V1, "Stern2025InterviewIntelligenzforscherin.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 1' (Interview-PDF, 5 S.)"},
-    "greiten2021underachievement":            {"missing": True, "note": "im Handbuch Begabung 2021, kein Einzel-PDF"},
+    "greiten2021underachievement":            {"abs_pdf": os.path.join(FEHLEND_V2, "Greiten2021underachievement S.546-553.pdf"), "take_all_abs": True, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 2' (8 S., S.546-553 linear)"},
     "weigand2021separativ":                 {"abs_pdf": os.path.join(FEHLEND_V4, "Weigandkaiser2021separstiv oderintegrativ handbuchbegabungmülleropp S. 290298.pdf"), "offset": 290, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)"},
     "sedmak2021bildungsgerechtigkeit":      {"abs_pdf": os.path.join(FEHLEND_V4, "Sedmakkapferer2021begabtenförderungalsgerechtigkeitsfragehandbuchbegabunginmüllrroplliger S. 65-75.pdf"), "offset": 65, "note": "Nachgereicht via 'FehlendeSeiten MPV/Frage 4' (Foto-Scan)"},
 }
@@ -386,8 +386,8 @@ for v_num, v_key in enumerate(["V1", "V2", "V3", "V4", "V5"], 1):
         if not missing:
             total_extracted += len(extracted_pages)
 
-        # Detect partial coverage -> also list in audit
-        if not missing and len(extracted_pages) < r["count"] and r["count"] > 0:
+        # Detect partial coverage -> also list in audit (unless accepted_partial)
+        if not missing and len(extracted_pages) < r["count"] and r["count"] > 0 and not cfg.get("accepted_partial"):
             audit_count += 1
             audit_v_count += 1
             audit_lines.append(

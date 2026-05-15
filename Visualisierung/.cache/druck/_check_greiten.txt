@@ -1,0 +1,20 @@
+=== Frage 2 (sortiert nach Datum) ===
+total 287712
+drwx------  12 i  staff        384 May 14 20:55 .
+drwx------   6 i  staff        192 May 14 20:55 Stützliteratur
+-rwx------@  1 i  staff   19323873 May 14 19:19 Lehwald 2017 motivation trifft begabung S.84-89.pdf
+-rwx------@  1 i  staff    2643492 May 14 19:17 lehwald2017motivation S.70-72.pdf
+-rwx------@  1 i  staff    3880599 May 14 19:13 Gold2018 schwacheleser S.62.pdf
+-rwx------@  1 i  staff     936427 May 14 19:09 hurschler_2020_differenzierende_Beurteilung_der_Handschrift S.1-24.pdf
+-rwx------@  1 i  staff    1840071 May 14 19:06 Nottbusch_2017_kap-Graphomotorik_S.128-136.pdf
+-rwx------@  1 i  staff     344989 May 14 19:02 sägesser2021_grafomotorik-und-schulische-inklusion_S.6-11.pdf
+-rwx------@  1 i  staff     248756 May 14 19:01 sägesser_grafomotorik-und-schulische-inklusion S.2-3.pdf
+drwxr-xr-x@  9 i  staff        288 May 14 18:49 ..
+-rwx------@  1 i  staff   14280200 Apr 27 16:44 Gold2018 Migrationsprache S.50-53.pdf
+-rwx------@  1 i  staff  103792357 Apr 26 21:39 Gold2018lesenkannmanlernen S67-88.pdf
+
+=== Frage 2 / Stützliteratur ===
+Baum:schader twice exceptionality 588-600.pdf
+Sturmspeckfetal2016in Sturm .pdf
+hoyer2020lernpsychologischegrundlagen S.111-113.pdf
+warnekehauke2020inFischer_et_al_2020_Begabungsfoerderung242-253.pdf
