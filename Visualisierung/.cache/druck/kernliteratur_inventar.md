@@ -5,7 +5,7 @@
 
 | # | bibkey | Seiten | n | first | PDF | Status | Text? |
 |--|--|--|--|--|--|--|--|
-| 1 | `stamm2021fehlenderblick` | 576--585 | 10 | None | `—` | NO_LOCAL |   |
+| 1 | `stamm2021fehlenderblick` | 576--585 | 10 | 576 | `stamm2021fehlenderblick/source.pdf` | OK | 0/12 (Bildscan, Vision-Audit Status 5) |
 | 2 | `stamm2025vonuntennachoben` | 36--37, 58--62 | 7 | 35 | `stamm2025vonuntennachoben/s035-057.pdf` | OK | 0/2  |
 | 3 | `preckel2013hochbegabung` | 15--47 | 33 | 42 | `preckel2013hochbegabung/Preckel_Baudson 2013hochbegabung,kap2.2 S.42-50.pdf` | OK | 0/6  |
 | 4 | `gauckreimann2021psychdiagnostik` | 239--245 | 7 | 239 | `gauckreimann2021psychdiagnostik/Gauckreimann2021päddiagnostik s.239-249.pdf` | OK | 0/7  |

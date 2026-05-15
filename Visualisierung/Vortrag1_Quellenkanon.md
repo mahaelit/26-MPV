@@ -17,55 +17,71 @@ einzelnen `verified_quotes.md` der Literatur-Ordner.
 
 ## A. Mosaik-These / Übergreifend / Hauptanker Schweizer Forschung
 
-### A.1 stamm2021fehlenderblick — ◑ Sammelband (Hauptanker)
+### A.1 stamm2021fehlenderblick — ★ Volltext (Schweizer Hauptanker)
 
-- **Lokal:**
-  - Sammelband-Transkript: `@/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/Literatur/muelleroppliger2021handbuch/excerpts/teil8_dysfunktionale_begabungsentwicklung.md`
-    (Block „Margrith Stamm: Der fehlende Blick auf begabte Minoritäten",
-    S. 576–585, ca. 28 700 Zeichen)
-  - `verified_quotes.md`: `@/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/Literatur/stamm2021fehlenderblick/verified_quotes.md`
-    (Status 4: Sammelband-Volltext-Transkript geprüft, Kapitelspanne
-    verifiziert)
+- **Lokal (PDF, komprimiert):** `@/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/Literatur/stamm2021fehlenderblick/source.pdf`
+  (Bildscan, 12 PDF-Seiten = 10 Buchseiten 576–585; via
+  `archiv/compress_pdfs.py` 27 MB → 4 MB)
+- **Vision-gerenderte Seitenbilder:** `@/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/Literatur/stamm2021fehlenderblick/pages/p01.jpg` … `p12.jpg`
+- **Wortgetreue Zitate:** `@/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV/Literatur/stamm2021fehlenderblick/verified_quotes.md`
+  (Status 5: Volltext-Audit am 2026-05-15, 13 Zitate Z01–Z13)
 - **Pflichtseiten Frage 1:** S. 576–585 (10 S.)
 - **Funktion:** **Schweizer Hauptanker** für Frage 1. Stamm hat das Konzept
   „begabte Minoritäten" als blinden Fleck der Begabtenförderung in der
-  deutschsprachigen Forschung etabliert. Ohne Stamm fehlt V1 die fachliche
-  Verankerung in der Schweizer Begabungsforschung.
-- **Status der Belege:** ◑ — paraphrasieren (Diktat-Transkript ist
-  sprachlich nicht buchgenau; OCR-Tippfehler wie „Standardschneider" für
-  „Stamm/Schneider 2004" sind dokumentiert).
-- **Belegte Konzepte (paraphrasierbar, S. 576–585):**
-  > **Risikogruppe 15–20 %** (nach Stamm/Schneider 2004): Kinder aus
-  > kulturell und sozioökonomisch benachteiligten Familien gelten als
-  > „problembehaftet, bildungsfern und defizitär", weshalb angenommen wird,
-  > es könne in dieser Population keine überdurchschnittlich begabten
-  > Kinder geben.
-  >
-  > **Empirischer Gegenbefund (eigene Schweizer Längsschnittstudien):**
-  > Stamm & Stutz 2007 zeigen erfolgreiche Leistungsentwicklung
-  > überdurchschnittlich begabter Frühleser:innen und Frührechner:innen aus
-  > bildungssystem-fernen Familien über die gesamte Schulzeit.
-  > Niederhauser 2017 / Stamm 2018: **8 % überdurchschnittlich begabter
-  > Jugendlicher absolvierten eine Berufslehre, obwohl sie aufgrund ihres
-  > intellektuellen Profils auch eine gymnasiale Laufbahn hätten einschlagen
-  > können.**
-  >
-  > **Kritik an weichen Auswahlverfahren:** Checklisten und
-  > Lehrerinnen-Einschätzungen lassen „zu viel Raum für subjektive und
-  > unbewusste oder ethnozentrische Einschätzungen". Auswahlverfahren mit
-  > Gruppendiskussionen prüfen letztlich Weltwissen, „das
-  > Minoritätsangehörigen häufig wenig geläufig ist".
-  >
-  > **Lehrkraft-Effekt nach PISA:** Lehrpersonen tendieren dazu, „gerade
-  > die Leistungen von Kindern und Jugendlichen aus intakten und schulisch
-  > interessierten Familien besonders positiv zu bewerten" — eine
-  > Wahrnehmung, die Minoritätsfamilien kaum zugesprochen wird.
-  >
-  > **Pointe (Anspielung auf Heydorn 1969):** „Begabung ist nicht die
-  > Grenze der Erziehung, sondern die gesellschaftlich geleitete Erziehung
-  > markiert die Grenze der Begabung."
-- **Verwendung in V1:** **Mosaik-Einleitung** (Begriff „begabte Minoritäten"),
-  **Stein 2** (Kritik an weichen Verfahren), **Stein 5** (8 %-Schweizer-Befund).
+  deutschsprachigen Forschung etabliert.
+- **Status der Belege:** ★ Volltext, **wortgetreu zitierfähig** mit
+  exakter Seitenangabe.
+
+#### Zitatanker S. 576 (Risikogruppe 15–20 %, Z01)
+> „Solche unangenehmen Befunde haben dazu geführt, dass sich die Forschung
+> zunehmend mit der 15 bis 20 Prozent umfassenden »Risikogruppe«
+> (Stanat/Schneider 2004) befasst […]. Sie gilt als problembehaftet,
+> bildungsfern und defizitär."
+
+#### Zitatanker S. 577 (Schweizer 8-%-Befund, Z03) ★ Stein 5
+> „Genauso fand sich in unserer Studie *Begabung und Leistungsexzellenz in
+> der Berufsbildung* ein Anteil von 8 Prozent überdurchschnittlich begabter
+> Jugendlicher, die eine Berufslehre absolvierten, obwohl sie aufgrund ihres
+> intellektuellen Profils eigentlich eine gymnasiale Laufbahn hätten
+> einschlagen können (Niederhauser 2017; Stamm 2018)."
+
+#### Zitatanker S. 580 (Lehrerurteil-Kritik, Z07) ★ Stein 2
+> „Dabei erweist sich das Lehrerurteil als kritisches Instrument. […]
+> Callahan et al. (1995) belegen, dass diese Kombination dazu führt, dass
+> Lehrkräfte die sehr gute Begabung von Kindern und Jugendlichen in **zwei
+> Dritteln der Fälle nicht erkennen**. Folgedessen verstärken sie die
+> bestehenden Ungleichheiten mit ihrem Urteil zwar ungewollt, aber
+> deutlich."
+
+#### Zitatanker S. 584 (Weiche Verfahren, Z11) ★ Stein 2
+> „Die aktuell angewendeten Auswahlverfahren sind zu überdenken, weil sie
+> auf unseren Kulturraum und das akademische Denken ausgerichtet sind und
+> deshalb Individuen anderer kultureller und sozioökonomischer Zugehörigkeit
+> benachteiligen. **Weiche Verfahren wie Checklisten oder
+> Lehrereinschätzungen lassen zudem zu viel Raum für subjektive und
+> unbewusste oder ethnozentrische Einschätzungen.**"
+
+#### Zitatanker S. 584 (PISA-Lehrkraft-Effekt, Z12) ★ Stein 2
+> „Da die PISA-Studien den Blick jedoch auf die leistungsschwachen
+> Schüler/innen mit Migrationshintergrund […] eingeengt haben, **tendieren
+> viele Lehrpersonen dazu, gerade die Leistungen von Kindern und
+> Jugendlichen aus intakten und schulinteressierten Familien besonders
+> positiv zu bewerten.** Solche Verhältnisse werden Minoritätsfamilien
+> jedoch kaum zugesprochen."
+
+#### Zitatanker S. 585 (Heid-Pointe, Z13) ★ Schluss
+> „Herzstück wird damit die Besinnung auf das, was **Heid schon 1969**
+> angemahnt hat: dass Begabung nicht die Grenze der Erziehung ist, sondern
+> die gesellschaftlich geleistete Erziehung die Grenze der Begabung
+> markiert."
+
+**WICHTIGE KORREKTUR:** Stamm zitiert hier **Heid 1969** (Helmut Heid,
+Bildungssoziologe), **nicht Heydorn**. Frühere Vortragsfassungen mit
+„Heydorn 1969" sind sachlich falsch — überall korrigiert.
+
+- **Verwendung in V1:** **Mosaik-Einleitung** (Z01, Z02 Risikogruppe und
+  Gegenbefund), **Stein 2** (Z07, Z11, Z12 Lehrkrafturteil), **Stein 5**
+  (Z03 Schweizer 8-%-Befund), **Schluss** (Z13 Heid-Pointe).
 
 ### A.2 koop2025herkunft — ★ Volltext
 

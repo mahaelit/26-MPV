@@ -106,3 +106,157 @@ Der Locator `\parencite[S.\,576--585]{stamm2021fehlenderblick}` ist bibliographi
 - Die früheren Teil-Locator `S.\,576`, `S.\,576--580` und `S.\,579\psqq` wurden in `mpv.tex` auf die vollständige Kapitelspanne `S.\,576--585` vereinheitlicht.
 
 **Audit-Status:** 4 (Sammelband-Volltexttranskript geprüft, Kapitelspanne verifiziert)
+
+---
+
+## Nachprüfung 2026-05-15 — VOLLTEXT-AUDIT (Status 5)
+
+**Quelle:** Inti hat den Bildscan im Ordner
+`/Users/.../MPV/Literatur/FehlendeSeiten MPV/Definitiv MPV Literatur Frage 1/`
+zur Verfügung gestellt: `stamm2021fehlenderblick aufbegabteminoritäten 576-585.pdf`.
+Das PDF wurde gemäss Repo-Konvention (`archiv/compress_pdfs.py`, 1400 px,
+JPEG-Q70) komprimiert (27 MB → 4 MB) und als `source.pdf` abgelegt.
+Bildseiten in `pages/` (130 DPI, JPEG-Q70).
+
+**Vision-Transkription:** Die zwölf gerenderten PDF-Seiten wurden direkt
+sichtgelesen. Mapping PDF-Seite → Buchseite:
+
+| PDF | Buchseite(n) | Inhalt |
+|---|---|---|
+| p01 | 576 | Titel, Einleitung „Blackbox der begabten Minoritäten" |
+| p02 | 577 | Stamm/Stutz 2007 + 8-%-Befund (Niederhauser 2017; Stamm 2018) |
+| p03 | 577 (Duplikat) | alternative Aufnahme |
+| p04 | 576+577 (Doppelseite) | Doppelseiten-Aufnahme |
+| p05 | 578 | Roth 1969, Mollenhauer 1969 |
+| p06 | 579 | Kap. 3 Begabung und soziale Herkunft, 4–9 % |
+| p07 | 580 | **Lehrerurteil-Kritik (Callahan 1995: zwei Drittel nicht erkannt)** |
+| p08 | 581 | Bildungssystemferne/-nahe Familien |
+| p09 | 582 | Migrationsstatus, El-Mafaalani, „Versagensmüssen" |
+| p10 | 583 | Bourdieu/Passeron 1971 — „Illusion der Chancengleichheit" |
+| p11 | 584+585 (Doppelseite) | Erhöhung soz. Gerechtigkeit, PISA-Lehrkraft-Bias |
+| p12 | 585 | **Heid-1969-Pointe + Literaturverzeichnis-Beginn** |
+
+**Audit-Status:** 5 (Volltext sichtgelesen, wortgetreue Zitate verifiziert)
+**Verifiziert am:** 2026-05-15
+**Bearbeitet durch:** Cascade-Vision-Audit
+
+---
+
+### Wortgetreue Zitate (zitierfähig)
+
+#### Z01 — Risikogruppe 15–20 Prozent (S. 576)
+> „Solche unangenehmen Befunde haben dazu geführt, dass sich die Forschung
+> zunehmend mit der 15 bis 20 Prozent umfassenden »Risikogruppe«
+> (Stanat/Schneider 2004) befasst, die große mediale Beachtung gefunden hat
+> und auch in der Wissenschaft ausführlich diskutiert wird (Becker 2016).
+> Sie gilt als problembehaftet, bildungsfern und defizitär."
+
+#### Z02 — Gegenbefund: erfolgreiche Frühleser/Frührechner (S. 577)
+> „Auch die Befunde eigener Längsschnittstudien belegen, dass
+> überdurchschnittliche Begabung nicht zwingend an ein bildungsorientiertes
+> Elternhaus gebunden ist. So konnten wir aufzeigen, dass erfolgreiche
+> Leistungsentwicklung von überdurchschnittlich begabten Frühleser/innen
+> und Frührechner/innen aus bildungssystemfernen Familien über die gesamte
+> Schulzeit hinweg möglich ist (Stamm/Stutz 2007)."
+
+#### Z03 — Schweizer 8-%-Befund (S. 577)
+> „Genauso fand sich in unserer Studie *Begabung und Leistungsexzellenz in
+> der Berufsbildung* ein Anteil von 8 Prozent überdurchschnittlich begabter
+> Jugendlicher, die eine Berufslehre absolvierten, obwohl sie aufgrund ihres
+> intellektuellen Profils eigentlich eine gymnasiale Laufbahn hätten
+> einschlagen können (Niederhauser 2017; Stamm 2018)."
+
+#### Z04 — Stamms Begriff Minoritätshintergrund (S. 577)
+> „Den Begriff *Minoritätshintergrund* verwende ich dabei in einem breiten
+> Sinne und beziehe ihn auf alle jungen Menschen, die von sozialer oder
+> kultureller Benachteiligung betroffen sind, über geringe
+> Ressourcenausstattung verfügen und/oder durch Lebensbedingungen und
+> Lebensführung Distanz zur anerkannten schulischen Wissens- und
+> Lernkultur aufweisen."
+
+#### Z05 — Leitthese (S. 577)
+> „Geleitet werden meine Ausführungen von der These, dass sich die Forschung
+> gezielter der Frage der Förderung begabter Minoritäten annehmen muss, weil
+> sie sonst Gefahr läuft, zur Verstärkung bestehender Bildungsungleichheiten
+> und zur Zementierung der sozialen Vererbungspraxis beizutragen."
+
+#### Z06 — Anteil 4–9 % in Begabtenförderprogrammen (S. 579)
+> „Trotzdem beträgt der Anteil von Kindern mit Minoritätshintergrund in
+> Begabtenförderungsprogrammen sowohl in angelsächsischen als auch in
+> deutschsprachigen Ländern nur zwischen 4 und 9 Prozent (zusammenfassend:
+> Stamm 2009)."
+
+#### Z07 — **Lehrerurteil als kritisches Instrument (S. 580)** ★ Stein 2
+> „Dabei erweist sich das Lehrerurteil als kritisches Instrument. Zwar gilt
+> es als grundsätzlich geeignet zur Identifikation hochbegabter Minoritäten,
+> aber nur, wenn vorab ein gezieltes Training erfolgt ist und hochbegabte
+> Schüler/innen auch überdurchschnittlich gute Leistungen zeigen.
+> Lehrpersonen sind jedoch selten spezifisch trainiert, und hochbegabte
+> Schüler/innen mit Minoritätshintergrund fallen selten durch sehr gute
+> Leistungen auf. Callahan et al. (1995) belegen, dass diese Kombination
+> dazu führt, dass Lehrkräfte die sehr gute Begabung von Kindern und
+> Jugendlichen in zwei Dritteln der Fälle nicht erkennen. Folgedessen
+> verstärken sie die bestehenden Ungleichheiten mit ihrem Urteil zwar
+> ungewollt, aber deutlich."
+
+#### Z08 — Mittel-/Oberschicht-Bias (S. 580)
+> „Überdurchschnittliche intellektuelle Begabung wird bei uns
+> traditionellerweise als der Mittel- und Oberschicht zugehörig betrachtet,
+> während Werte und Stärken anderer Kulturen kaum beachtet werden und
+> folgedessen stark unterbelichtet sind."
+
+#### Z09 — „Versagensmüssen" bei Minoritäten-Begabten (S. 582)
+> „Derartige Erkenntnisse verweisen auf die vielen Nachteile, die begabten
+> Kindern und Jugendlichen aus Minoritätsfamilien erwachsen. Dies
+> beeinflusst ihre Fähigkeiten, ihren Wissensstand und ihre Motivation
+> nachhaltig und lässt sie häufig zu unauffälligen Minderleister/innen mit
+> mangelndem Zutrauen in die eigene Leistungsfähigkeit werden und führt zu
+> einem »vorprogrammierten Gefühl des Versagensmüssens«
+> (Uhlig/Solga/Schupp 2009)."
+
+#### Z10 — Bourdieu/Passeron: Illusion der Chancengleichheit (S. 583)
+> „Im Wesentlichen bilden solche Mechanismen das ab, was Bourdieu und
+> Passeron bereits 1971 in ihrer *Illusion der Chancengleichheit*
+> beschrieben haben: Begabtenförderung wird zu einem Meisterwerk sozialer
+> Mechanik, das diejenigen fördert und »oben« hält, die dort bereits sind,
+> aber diejenigen, die »unten« sind und diese Form der Unterstützung
+> eigentlich am nötigsten hätten, durch ein fragwürdiges
+> Identifikationssystem fernhält."
+
+#### Z11 — **Weiche Verfahren / ethnozentrische Einschätzungen (S. 584)** ★ Stein 2
+> „Die Identifikation begabter Minoritäten muss so angelegt werden, dass
+> sie die soziale Gerechtigkeit in den Zugangschancen erhöht. Die aktuell
+> angewendeten Auswahlverfahren sind zu überdenken, weil sie auf unseren
+> Kulturraum und das akademische Denken ausgerichtet sind und deshalb
+> Individuen anderer kultureller und sozioökonomischer Zugehörigkeit
+> benachteiligen. Weiche Verfahren wie Checklisten oder Lehrereinschätzungen
+> lassen zudem zu viel Raum für subjektive und unbewusste oder
+> ethnozentrische Einschätzungen."
+
+#### Z12 — **PISA-Lehrkraft-Effekt (S. 584)** ★ Stein 2
+> „Da die PISA-Studien den Blick jedoch auf die leistungsschwachen
+> Schüler/innen mit Migrationshintergrund und auf solche mit problematischer
+> familiärer Sozialisation eingeengt haben, tendieren viele Lehrpersonen
+> dazu, gerade die Leistungen von Kindern und Jugendlichen aus intakten und
+> schulinteressierten Familien besonders positiv zu bewerten. Solche
+> Verhältnisse werden Minoritätsfamilien jedoch kaum zugesprochen."
+
+#### Z13 — **Heid-1969-Pointe (S. 585)** ★ Schluss
+> „Weder Hochbegabungsforschung noch Begabtenförderung haben bisher
+> Randgruppen berücksichtigt und deren ökonomische und subkulturelle
+> Einbindung beachtet. Solche Minderheiten sind jedoch eine wichtige,
+> bisher nicht »angezapfte« Quelle des Humankapitals. Es ist an der Zeit,
+> ihnen Aufmerksamkeit zu schenken, ihr Potenzial zu entdecken und zu
+> entwickeln. Aber der Weg dahin scheint noch weit, so dass zuvor ein
+> fundamentaler Wandel nötig ist: eine Schärfung der Wahrnehmungspraxis
+> und eine Änderung der Alltagsvorstellung, der zufolge Talent ein
+> Prärogativ einer bestimmten Kultur oder einer bestimmten sozialen Schicht
+> ist. Herzstück wird damit die Besinnung auf das, was Heid schon 1969
+> angemahnt hat: dass Begabung nicht die Grenze der Erziehung ist, sondern
+> die gesellschaftlich geleistete Erziehung die Grenze der Begabung
+> markiert."
+
+**WICHTIGE KORREKTUR:** Stamm zitiert hier **Heid (1969)**, nicht **Heydorn**.
+Bisherige Fassungen in Vortrag1_geschaerft.md und Quellenkanon enthielten
+fälschlich „Heydorn 1969" — das ist sachlich falsch. Korrektur in allen
+abgeleiteten Dokumenten erforderlich.
