@@ -43,3 +43,5 @@ _Keine Beschaffungsluecken._
 **Erfolgreich extrahiert:** 544 Seiten in `/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/Druckdokument_Kernliteratur_2026.pdf`.
 
 **Soll laut Vortraegen:** 549 Seiten Kernliteratur.
+
+**Druckformat:** A4 (alle 594 Seiten normalisiert, 5 mm Rand).

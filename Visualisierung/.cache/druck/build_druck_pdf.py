@@ -12,10 +12,15 @@ Rules:
   - For each source: separator page (cover) + extracted pages.
   - Sources without local PDF -> separator page only ("FEHLT - bitte beschaffen").
 """
-import os, json, re, fitz
+import os, json, re, sys, fitz
 
 BASE = "/Users/i/Library/CloudStorage/OneDrive-dxy/Kunden/fxyz/SHP/Masterarbeit Vertiefung OneDrive/MPV/26-MPV"
 PARENT = os.path.dirname(BASE)  # /MPV
+
+# Damit normalize_to_a4 aus normalize_a4.py importiert werden kann
+sys.path.insert(0, os.path.join(BASE, "Visualisierung/.cache/druck"))
+from normalize_a4 import normalize_to_a4  # noqa: E402
+
 FEHLEND_V1 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 1")
 FEHLEND_V2 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 2")
 FEHLEND_V3 = os.path.join(PARENT, "Literatur", "FehlendeSeiten MPV", "Definitiv MPV Literatur Frage 3")
@@ -411,12 +416,25 @@ for v_num, v_key in enumerate(["V1", "V2", "V3", "V4", "V5"], 1):
         audit_lines.append("_Keine Beschaffungsluecken._\n")
 
 # Save outputs
-out_doc.save(OUT_PDF, deflate=True, garbage=4)
+# Schritt 1: Build-Resultat zuerst in temporaere Datei (raw, gemischte Seitengroessen)
+TMP_RAW = os.path.join(BASE, "Visualisierung/.cache/druck/_druck_raw.pdf")
+out_doc.save(TMP_RAW, deflate=True, garbage=4)
 out_doc.close()
+
+# Schritt 2: A4-Normalisierung -> finales OUT_PDF
+# Hintergrund: insert_pdf() uebernimmt die MediaBox der Quellseiten. Foto-Scans
+# sind oft 2-4x A4 -> beim Druck wird beschnitten. normalize_to_a4 packt jede
+# Nicht-A4-Seite skaliert (Aspect erhalten, 5 mm Rand, zentriert) auf eine A4-Seite.
+# Bilder werden vektorbasiert via show_pdf_page eingebettet -> keine DPI-Verluste.
+print(f"A4-Normalisierung: {TMP_RAW} -> {OUT_PDF}")
+norm_stats = normalize_to_a4(TMP_RAW, OUT_PDF, margin_mm=5.0)
+os.remove(TMP_RAW)
+print(f"  {norm_stats['total']} Seiten | A4 1:1: {norm_stats['passthrough_a4']} | skaliert: {norm_stats['scaled_to_a4']}")
 
 audit_lines.append(f"\n---\n\n**Bilanz:** {audit_count} Quelle(n) muessen beschafft werden.\n")
 audit_lines.append(f"**Erfolgreich extrahiert:** {total_extracted} Seiten in `{OUT_PDF}`.\n")
 audit_lines.append(f"**Soll laut Vortraegen:** 549 Seiten Kernliteratur.\n")
+audit_lines.append(f"**Druckformat:** A4 (alle {norm_stats['total']} Seiten normalisiert, 5 mm Rand).\n")
 
 with open(OUT_AUDIT, "w") as f:
     f.write("\n".join(audit_lines))
