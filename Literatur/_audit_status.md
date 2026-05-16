@@ -64,7 +64,7 @@
 | `kesselshannover2015gleichaltrige` | 288 | ✓ | (text-PDF) | — | 3 | — |
 | `tschoppbuholzergruetter2022intergruppenkontakt` | 35–40 | ✓ | (text-PDF) | — | 3 | — |
 | `baumert2022freundschaftwerte` | 40–49 | ✓ | (text-PDF) | — | 3 | — |
-| `evers2025stress` | 21–27 | ✓ | (text-PDF) | — | 3 | — |
+| `evers2025stress` | 21–27 | ✓ (text-PDF, OA Karg) | (text-PDF) | ✓ Z01–Z08 + Hippocampus→Amygdala-Korr. | **5** | 2026-05-16 |
 | `lehwald2017motivation` (V3-Auftreten) | 57–63 | ✓ | — | — | 2 | — |
 
 ## Vortrag 4 — Begabungsmodelle / Förderung / Bildungsgerechtigkeit
@@ -99,13 +99,13 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-16, nach Wagner-2021-Audit)
+## Aktuelle Bilanz (Stand 2026-05-16, nach Evers-2025-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **10** | 20 % |
+| **5** (wortgetreu, zitierfähig) | **11** | 22 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
-| 3 (Sammelband/Text-PDF) | ca. 11 | 22 % |
+| 3 (Sammelband/Text-PDF) | ca. 10 | 20 % |
 | 2 (bibliographisch verortet) | ca. 24 | 48 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
@@ -121,8 +121,11 @@
 - `baudson2021wasdenken` (V1 Diagnostik, V3 Inklusion, V5 Stereotype) — Belege A–P (16 wortgetreue Zitate, S. 115–128) — **2026-05-16**
 - `behrensen2019inklusive` (V3 fluchtspezifische Belastungen, traumasensible Pädagogik, Konzept des guten Grundes) — Z01–Z08 wortgetreu + Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase) — **2026-05-16**
 - `wagener2021bfhemmendfoerdernd` (V4 Lehrkraftrolle/Schulleitung/Bildungspolitik, V5 SHP-Beratungshaltung) — Z01–Z08 wortgetreu + 4 mpv.tex-Locator-Korrekturen (S.\,425 → S.\,424; S.\,424\psq → S.\,424) + Bib-Author-Korrektur (Wagener → Wagner) — **2026-05-16**
+- `evers2025stress` (V3 Stressforschung, Sichtbarkeitsformel) — Z01–Z08 wortgetreu + Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781 (faktischer Fehler: Evers nennt nicht den Hippocampus, sondern Amygdala + präfrontaler Cortex) — **2026-05-16**
 
-**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat vier Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen). **Vortrag 4 hat einen Status-5-Anker** (Wagner 2021).
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat einen Status-5-Anker** (Wagner 2021).
+
+**Wichtiger Audit-Befund Evers:** mpv.tex Z. 4775–4777 enthielt einen faktischen Fehler — zugeschrieben an Evers, war aber außer-Quellenbezug: „Funktionsfähigkeit des **Hippocampus** (Gedächtnis)“. Evers nennt im gesamten Beitrag (S. 21–27) nicht ein einziges Mal den Hippocampus, sondern Amygdala (S. 22, vergrößert sich bei chronischem Stress) und präfrontaler Cortex (S. 23, Selbstregulation). Korrektur am 2026-05-16 umgesetzt. Eine frühere Audit-Notiz vom 2026-04-28 hatte falsch behauptet, der Verweis sei bereits entfernt.
 
 **Wichtiger Audit-Befund Wagner:** PDF-Beitrag endet inhaltlich auf S.\,424; S.\,425–426 enthalten nur das Literaturverzeichnis. Alle 4 mpv.tex-Locator waren systematisch +1 verschoben (`S.\,425` und `S.\,424\psq` statt `S.\,424`/`S.\,423\psq`). Korrekturen umgesetzt. Zusatzbefund: Im PDF steht der Author als „Gundula Wagner“ (nicht „Wagener“) — Bib-Author korrigiert, Bibkey aus Konsistenzgründen beibehalten.
 
@@ -144,10 +147,10 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 6. ~~**`baudson2021wasdenken`** (V1+V3+V5)~~ ✅ **abgeschlossen 2026-05-16** — Belege A–P (16 wortgetreue Zitate); Pass 2 Vision-Verifikation der Schlüsselseiten S. 117, 118, 119, 120; alle mpv.tex-Locator korrekt.
 7. ~~**`behrensen2019inklusive`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate, S. 86–98); kritischer Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase, von Behrensen nicht wörtlich verwendet); alle 5 mpv.tex-Locator funktional korrekt.
 8. ~~**`wagener2021bfhemmendfoerdernd`** (V4+V5)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); 4 mpv.tex-Locator-Korrekturen (Z. 3200, 3368, 3504, 3508); Bib-Author korrigiert (Wagner statt Wagener).
-9. **`evers2025stress`** (V3) — 3 inline-Cites in mpv.tex (S. 21–27), text-PDF.
-10. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
-11. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4.
-12. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF.
+9. ~~**`evers2025stress`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); kritischer Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781; alle 3 Locator korrekt.
+10. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4.
+11. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF.
+12. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
 
 Quellen mit Status 1 (NO_LOCAL) müssen separat beschafft werden — nicht im normalen Audit-Workflow.
 
