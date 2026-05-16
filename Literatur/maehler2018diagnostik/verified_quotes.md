@@ -146,3 +146,73 @@ In der Buchgliederung (Kap. 1.3) formulieren die Herausgeber die Leitfrage des g
 - Die früheren Locator `S.\,320,\,325,\,338` waren für dynamische/prozessorientierte Diagnostik falsch; diese Seiten betreffen berufsbezogene Kompetenzen. Die Seitenangabe wurde in `mpv.tex` entfernt und die LemaS-Stelle als `% OFFEN` markiert.
 
 **Audit-Status:** 4 (Volltext geprüft; falscher Locator entfernt)
+
+---
+
+## Nachprüfung 2026-05-16 — Erweiterung auf Status 5
+
+**Quelle:** `source.pdf` (Text-PDF, 402 S., Hogrefe DRM-Print). Mapping Buchseite → PDF-Index: PDF[N+1] = Buchseite N (verifiziert anhand der gedruckten Seitenzahlen auf PDF-Seiten 13/15/19/31/32).
+
+**Methodik:** PyMuPDF-Extraktion der zitatkritischen Buchseiten, parallel-Lesung gegen alle Zitatstellen in `mpv.tex` und `VISUALISIERUNG/Vortrag1_geschaerft.md`. Extrahierte Buchseiten in `pages_text/buchseite_NNN.txt` (Reproduzierbarkeits-Artefakt).
+
+**Verifizierte Stellen (zusätzlich zu Z01–Z04 aus dem 2026-04-25-Audit):**
+
+| Z | Buchseite | Kapitel | Status |
+|---|---|---|---|
+| Z01 | 14 | Maehler/Brinkmann/Shajek (Kap. 1.2) | ✓ wortgetreu (Vor-Audit 2026-04-25) |
+| Z02 | 30 | Shajek/Maehler/Brinkmann (Kap. 2.2.2.7) | ✓ wortgetreu (Vor-Audit) |
+| Z03 | 31 | dito | ✓ wortgetreu (Vor-Audit) |
+| Z04 | 18 | Hrsg., Kap. 1.3 | ✓ wortgetreu (Vor-Audit) |
+| **Z05** | **153** | **Haag/Heppt/Schipolowski, Kap. 7 Leistungsstanddiagnostik** | **✓ NEU 2026-05-16** |
+| **Z06** | **159** | **dito (Kap. 7.3, „kulturfaire" Tests)** | **✓ NEU 2026-05-16** |
+| **Z07** | **165** | **dito (Kap. 7.4, Empfehlung Verfahrenskombination)** | **✓ NEU 2026-05-16** |
+| **Z08** | **172** | **dito (Kap. 7.5, WNV-Eignung Schluss)** | **✓ NEU 2026-05-16** |
+| **Z09** | **171** | **dito (Kap. 7.5, WNV-Eignung bei geringen Deutschkenntnissen)** | **✓ NEU 2026-05-16** |
+
+**Befund zu `mpv.tex` `S.\,93, 169--172`:** S. 93 (Beginn Kap. 5.4 Entwicklungsdiagnostik) und S. 169–170 sind **Tabellenseiten** (Tabelle 7.3 zur WNV); die PyMuPDF-Extraktion liefert hier strukturlose Reste. **S. 171 enthält substanziellen Fließtext** zur WNV-Konzeption (untere Hälfte, oberhalb der Tabellenfortsetzung). Z08 (S. 172) und Z09 (S. 171) decken die WNV-Argumentation wortgetreu ab.
+
+**Bibliographie-Hinweis:** Die Zitate Z05–Z08 stammen aus dem Kapitel `Haag, Nicole; Heppt, Birgit; Schipolowski, Stefan (2018): Leistungsstanddiagnostik bei mehrsprachigen Schülerinnen und Schülern.` im Sammelband. In `Vortrag1_geschaerft.md` werden sie als „Haag et al. 2018, S. 153/159/165" zitiert, in `Quellen.bib` aber unter dem Sammelband-BibKey `maehler2018diagnostik` geführt. **Empfehlung:** Entweder separaten Bibkey `haag2018leistungsstand` anlegen (saubere bibliographische Trennung) ODER im Lerndokument konsistent als „Haag, Heppt & Schipolowski, in: Maehler et al. 2018, S. …" formulieren. — **Nicht Teil dieses Audits.**
+
+**Audit-Status:** **5** (selektiv für alle in `mpv.tex` und Vortrag 1 zitierten Stellen; nicht für die übrigen 390+ Seiten des Sammelbands).
+**Verifiziert am:** 2026-05-16
+**Bearbeitet durch:** Cascade / Inti
+
+---
+
+## Wortgetreue Zitate Z05–Z09 (NEU 2026-05-16)
+
+### Z05 — Grundregel sprachsensible Diagnostik (S. 153)
+
+> „Bei der Erfassung schulbezogener Kompetenzen sollten die sprachlichen Fähigkeiten der Schülerinnen und Schüler allerdings nach Möglichkeit nicht ins Gewicht fallen."
+
+**Anker:** S. 153 (Haag/Heppt/Schipolowski, Kap. 7.1 Einleitung Leistungsstanddiagnostik, Z. 11–13 der Buchseite).
+**Verwendet in:** `Vortrag1_geschaerft.md` (Stein 1 sprachsensible Diagnostik).
+
+### Z06 — Verbal-analytisch in nonverbalen Aufgaben (S. 159)
+
+> „auch die Lösung nonverbaler Aufgaben [beruht] teilweise auf verbal-analytischen Prozessen"
+
+**Anker:** S. 159, Z. 20–21 (Haag/Heppt/Schipolowski, Kap. 7.3 zu „kulturfreien"/„kulturfairen" Tests).
+**Wortlaut-Hinweis:** Das Originalzitat lautet vollständig „dass auch die Lösung nonverbaler Aufgaben teilweise auf verbal-analytischen Prozessen beruht" — die in Vortrag 1 verwendete Kurzform mit `[beruht]` markiert die Wortumstellung korrekt.
+**Verwendet in:** `Vortrag1_geschaerft.md` (Stein 1 sprachsensible Diagnostik).
+
+### Z07 — Empfehlung Verfahrenskombination (S. 165)
+
+> „Steht die Validität der Testergebnisse aufgrund mangelnder Sprachbeherrschung oder geringer Vertrautheit mit der Mehrheitskultur infrage, so sollten unterschiedliche Zugänge kombiniert werden."
+
+**Anker:** S. 165, Z. 14–17 (Haag/Heppt/Schipolowski, Kap. 7.4 Empfehlungen).
+**Verwendet in:** `Vortrag1_geschaerft.md` (Schluss: Triangulationsempfehlung).
+
+### Z08 — WNV-Eignung bei sprachlich-kulturell heterogenen Stichproben (S. 172)
+
+> „Für eine differenzierte Beurteilung der WNV wären weitere empirische Studien zur Überprüfung der kulturellen Validität wünschenswert. Auf Grundlage der bisher verfügbaren Informationen scheint die WNV für den Einsatz in sprachlich und kulturell heterogenen Stichproben aber durchaus geeignet zu sein."
+
+**Anker:** S. 172, Z. 22–25 (Haag/Heppt/Schipolowski, Schluss Kap. 7.5 zur Wechsler Nonverbal Performance Scale).
+**Verwendet in:** Beleg für `mpv.tex` `\parencite[S.\,93,\,169--172]{maehler2018diagnostik}` (Frage 1, Stein-1-Pendant). Der WNV-Befund stützt die Position, dass nonverbale Verfahren in sprachlich-kulturell heterogenen Settings sinnvoll sind, ohne sprachliche Restkonfundierung zu eliminieren.
+
+### Z09 — WNV-Konzeption für geringe Deutschkenntnisse (S. 171)
+
+> „Bei der Testentwicklung wurde ein besonderes Augenmerk darauf gelegt, dass sich das Verfahren für den Einsatz bei Personen mit unterschiedlichem sprachlichen und kulturellen Hintergrund und/oder mit geringen Deutschkenntnissen eignet. Hierzu wurden zum einen sprachfreie, bildbasierte Instruktionen erarbeitet."
+
+**Anker:** S. 171, untere Hälfte (Haag/Heppt/Schipolowski, Kap. 7.5 zur Wechsler Nonverbal Performance Scale, Konzeption).
+**Verwendet in:** Direkter Anker für den Fall S. (geringe Deutschkenntnisse, Albanisch L1) in Frage 1. Z09 ist diagnostisch prägnanter als Z08, weil es die Begründung für den Einsatz nonverbaler Verfahren bei Kindern wie S. wortgetreu liefert. Geeignet für `mpv.tex` Frage 1 (`S.\,171` ergänzen) und für `Vortrag1_geschaerft.md` Stein 1 (alternativ zu Z06 oder als Verstärker).

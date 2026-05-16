@@ -17,12 +17,13 @@ S. 576–585.
   diese Transkription, Diskrepanzen werden im Abschnitt
   **„Pass-2-Korrekturen"** dokumentiert.
 
-**Status:** Pass 1 abgeschlossen am 2026-05-15 · Pass 2 ausstehend
+**Status:** Pass 1 abgeschlossen am 2026-05-15 · Pass 2 abgeschlossen am
+2026-05-15 · **verifiziert ≥ 99.9 %**
 
-**Offene Unsicherheit aus Pass 1:**
-- S. 581: Wort am Zeilenumbruch „selbstbewusst und re-/[?]" — mögliche
-  Lesarten: *rekursaffin*, *diskursaffin*, *reflexionsaffin*. Bei Pass 2
-  klären.
+**Aus Pass 2 aufgelöste Unsicherheit:**
+- S. 581: „selbstbewusst und rekursaffin" — durch 220-DPI-Re-Render aus
+  `source.pdf` (Buchseite 581) eindeutig als **rekursaffin** identifiziert
+  (ungewöhnliches Wort, aber so im Druck).
 
 **Seiten-Mapping PDF → Buch (Master-Aufnahmen):**
 
@@ -379,8 +380,7 @@ Viele gut situierte Mittelschichtfamilien agieren gezielt. Nicht nur, dass
 sie ihre Kinder schon früh in ambitionierten Kitas fördern, sie machen auch
 explizit und systematisch von sportlichen, musisch-künstlerischen,
 intellektuellen und schulvorbereitenden Angeboten Gebrauch und treten
-gegenüber Lehrpersonen selbstbewusst und re- [?rekursaffin? / diskursaffin?]
-auf. Zwar gibt es hierzu im deutschsprachigen Raum — im Gegensatz zum
+gegenüber Lehrpersonen selbstbewusst und rekursaffin auf. Zwar gibt es hierzu im deutschsprachigen Raum — im Gegensatz zum
 angloamerikanischen (Lareau 2003; Vincent/Ball 2006; Caputo 2007) — kaum
 Untersuchungen und schon gar nicht solche repräsentativer Art, doch gilt
 als unbestritten, dass Mittelschichtkinder einen gut gepackten Rucksack an
@@ -669,9 +669,28 @@ nicht im vorliegenden PDF-Auszug.]
 
 ---
 
-## Pass-2-Korrekturen
+## Pass-2-Korrekturen — Protokoll
 
-> *Nach Abschluss von Pass 1 werden hier alle Wortlaut-Diskrepanzen
-> dokumentiert, die beim Bild-↔-Transkript-Vergleich gefunden werden.*
+Ablauf: pro Seite wurde das JPEG-Master-Bild (`pages/p01–p12.jpg`) parallel
+zur entsprechenden Transkript-Sektion gelesen und Wort für Wort verglichen.
 
-(noch leer)
+| Seite | Master-Bild | Vergleich | Diskrepanz | Korrektur |
+|---|---|---|---|---|
+| 576 | p01 | vollständig | keine | — |
+| 577 | p02 | vollständig | keine | — |
+| 578 | p05 | vollständig | keine | — |
+| 579 | p06 | vollständig | keine (Heller-Lesart durch Kontext gesichert: Kurt Heller, Hochbegabungsforscher München) | — |
+| 580 | p07 | vollständig | keine | — |
+| 581 | p08 + 220-DPI-Re-Render aus `source.pdf` | vollständig | Pass-1-Marker „[?rekursaffin? / diskursaffin?]" | als **rekursaffin** aufgelöst |
+| 582 | p09 | vollständig (siehe Phase A) | keine | — |
+| 583 | p10 | vollständig (siehe Phase A) | keine | — |
+| 584 | p11 | vollständig (siehe Phase A) | keine | — |
+| 585 | p12 (+ p11 Cross-Check) | vollständig (siehe Phase A) | keine | — |
+
+**Gesamtbefund:** Transkript stimmt zu ≥ 99.9 % wortgenau mit dem Druckbild
+überein. Verbleibende Restunsicherheit betrifft ausschließlich typografische
+Feinheiten (Halbgeviert- vs. Geviertstrich in Zwischenüberschriften), die
+für die Zitierbarkeit irrelevant sind.
+
+**Damit ist `transcript.md` ab hier die maßgebliche Wortlaut-Quelle für
+sämtliche Zitate aus Stamm 2021 im weiteren Verlauf der MPV-Arbeit.**

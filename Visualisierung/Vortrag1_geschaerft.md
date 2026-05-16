@@ -35,14 +35,15 @@ mehrsprachigen Schüler:innen mit geringen Deutschkenntnissen
 multiperspektivisch erfasst werden?
 
 **Meine Pointe:** Margrit Stamm hat im *Handbuch Begabung* das Konzept der
-**„begabten Minoritäten"** als blinden Fleck der Begabtenförderung in der
-deutschsprachigen Forschung etabliert (Stamm 2021, S. 576–585). Kinder aus
-kulturell und sozioökonomisch benachteiligten Familien — eine
-Risikogruppe von rund 15 bis 20 Prozent — gelten in der schulischen
-Wahrnehmung pauschal als „bildungsfern und defizitär". Stamms eigene
-Schweizer Längsschnittstudien zeigen das Gegenteil: überdurchschnittlich
-begabte Frühleser:innen und Frührechner:innen entwickeln sich auch in
-bildungsfernen Familien erfolgreich (Stamm & Stutz 2007). Bei
+**„begabten Minoritäten"** als blinden Fleck der Begabtenförderung
+etabliert (Stamm 2021, S. 576–585). Die als bildungsfern geltende
+Risikogruppe von 15 bis 20 Prozent (Stanat/Schneider 2004) gilt nach Stamm
+pauschal *„als problembehaftet, bildungsfern und defizitär"* (Stamm 2021,
+S. 576). Stamms eigene Schweizer Längsschnittstudien zeigen jedoch das
+Gegenteil: *„erfolgreiche Leistungsentwicklung von überdurchschnittlich
+begabten Frühleser/innen und Frührechner/innen aus bildungssystemfernen
+Familien"* sei *„über die gesamte Schulzeit hinweg möglich"* (Stamm 2021,
+S. 577, unter Verweis auf Stamm/Stutz 2007). Bei
 sprachschwacher Migration kommt erschwerend dazu, dass jedes einzelne
 diagnostische Verfahren — Test, Lehrkrafturteil, Beobachtung, Abklärung —
 Sprache, Vorerfahrung oder Performanz mit abbildet. Triangulation ist
@@ -80,12 +81,16 @@ Performanzkriterium. Baudson nennt den empirischen Befund: das Marburger
 Hochbegabtenprojekt zeigte, dass *„Lehrkräfte Hochbegabte nur dann erkennen,
 wenn ihre Leistungen erwartungsgemäß ausfallen — hochbegabte Underachiever
 haben faktisch kaum Chancen, dass ihre Begabung erkannt wird"* (Baudson
-2025, S. 36–37). Stamm verschärft diese Diagnose: weiche Auswahlverfahren
-wie Checklisten und Lehrkrafteinschätzungen liessen *„zu viel Raum für
-subjektive und unbewusste oder ethnozentrische Einschätzungen"*; zudem
-tendieren Lehrpersonen seit PISA dazu, *„gerade die Leistungen von Kindern
-und Jugendlichen aus intakten und schulisch interessierten Familien
-besonders positiv zu bewerten"* (Stamm 2021, S. 576–585). Das ist kein
+2025, S. 36–37). Müller-Oppliger nennt die konkrete Zahl: *„40 bis 50 Prozent der
+begabten Kinder [werden] übersehen"* (Müller-Oppliger 2021, S. 228);
+der Mechanismus sei Defizitorientierung — *„oft [wird] vor allem das
+wahrgenommen, was noch nicht vorhanden ist"* (S. 228). Stamm verschärft
+diese Diagnose: *„Weiche Verfahren wie Checklisten oder
+Lehrereinschätzungen lassen [...] zu viel Raum für subjektive und
+unbewusste oder ethnozentrische Einschätzungen"* (Stamm 2021, S. 584).
+Lehrpersonen tendierten zudem seit PISA dazu, *„gerade die Leistungen
+von Kindern und Jugendlichen aus intakten und schulinteressierten
+Familien besonders positiv zu bewerten"* (S. 584). Das ist kein
 moralisches Versagen, sondern ein **strukturelles** Wahrnehmungsproblem —
 weshalb das Lehrkrafturteil eingebettet werden muss.
 
@@ -122,32 +127,36 @@ sich gegenseitig verdecken, so dass weder die Beeinträchtigung noch die
 Fähigkeit erkannt oder angesprochen wird"* (Baum/Schader 2021). Empirisch
 zeigen sie, dass bis zu 33 Prozent der Kinder in sonderpädagogischer
 Förderung in Wechsler-Subskalen IQ-Werte im oberen Segment haben. Stamm
-liefert dazu den Schweizer Datenpunkt: in ihrer Studie *Begabung und
-Leistungsexzellenz in der Berufsbildung* absolvierten **8 Prozent
-überdurchschnittlich begabter Jugendlicher eine Berufslehre, obwohl ihr
-intellektuelles Profil eine gymnasiale Laufbahn nahegelegt hätte**
-(Niederhauser 2017; Stamm 2018, zit. in Stamm 2021, S. 576–585). Ich
-verwende 2e hier **nicht als Etikett**, sondern als **Suchperspektive**
-gegen Under-Identification.
+liefert dazu den Schweizer Datenpunkt: In ihrer Studie *Begabung und
+Leistungsexzellenz in der Berufsbildung* fand sich *„ein Anteil von
+8 Prozent überdurchschnittlich begabter Jugendlicher, die eine Berufslehre
+absolvierten, obwohl sie aufgrund ihres intellektuellen Profils eigentlich
+eine gymnasiale Laufbahn hätten einschlagen können"* (Stamm 2021, S. 577,
+unter Verweis auf Niederhauser 2017; Stamm 2018). Ich verwende 2e hier
+**nicht als Etikett**, sondern als **Suchperspektive** gegen
+Under-Identification.
 
 ### Schluss
 
 Die fünf Steine zusammen ergeben kein Addieren von Befunden, sondern eine
-**Triangulation**: Übereinstimmungen stützen, Widersprüche werden
-diagnostisch produktiv. Haag, Heppt und Schipolowski formulieren das in
-der migrations-diagnostischen Standardreferenz wörtlich: *„Steht die
-Validität der Testergebnisse aufgrund mangelnder Sprachbeherrschung oder
-geringer Vertrautheit mit der Mehrheitskultur infrage, so sollten
-unterschiedliche Zugänge kombiniert werden"* (Haag et al. 2018, S. 165).
+**Triangulation**. Methodologisch fasst Müller-Oppliger das als
+Mehraugenprinzip — es gehe darum, *„Beobachtungsfehler, blinde Flecken
+und Personenabhängigkeit zu vermeiden"* (Müller-Oppliger 2021, S. 228).
+Haag, Heppt und Schipolowski formulieren das migrationsdiagnostisch:
+*„Steht die Validität der Testergebnisse aufgrund mangelnder
+Sprachbeherrschung oder geringer Vertrautheit mit der Mehrheitskultur
+infrage, so sollten unterschiedliche Zugänge kombiniert werden"*
+(Haag et al. 2018, S. 165).
 Bei S. bedeutet das: aus *„auffällig, weinerlich, störend"* wird nicht das
 Gegenteil, sondern ein vollständigeres Bild.
 
 **Mein Merksatz für Frage 1 lautet daher:** *Kein Einzelbefund hat das
 letzte Wort.* Diagnostisch tragfähig wird die Einschätzung erst, wenn
 unterschiedliche Perspektiven methodisch sauber miteinander verbunden
-werden. Was Stamm mit Heydorn pointiert formuliert: *„Begabung ist nicht
-die Grenze der Erziehung; die gesellschaftlich geleitete Erziehung markiert
-die Grenze der Begabung."*
+werden. Stamm schliesst mit der Besinnung auf das, was *„Heid schon 1969
+angemahnt hat: dass Begabung nicht die Grenze der Erziehung ist, sondern
+die gesellschaftlich geleistete Erziehung die Grenze der Begabung
+markiert"* (Stamm 2021, S. 585).
 
 ---
 
@@ -155,31 +164,35 @@ die Grenze der Begabung."*
 
 | Abschnitt | Wörter (ca.) | Belegte Quellen |
 |---|---|---|
-| Pointe + Mosaik-Einleitung (Stamm) | 160 | **Stamm 2021** (◑) |
+| Pointe + Mosaik-Einleitung (Stamm) | 160 | **Stamm 2021** (★ Z01/Z02) |
 | Fall S. (knapp) | 50 | — |
 | Stein 1 sprachsensibel | 120 | Haag/Maehler 2018 (★), Koop 2025 (★) |
-| Stein 2 Lehrkrafturteil | 140 | Preckel 2013 (◑), Baudson 2025 (★), **Stamm 2021** (◑) |
-| Stein 3 Beobachtung | 70 | Müller-Oppliger 2021 (◑) |
+| Stein 2 Lehrkrafturteil | 175 | Preckel 2013 (◑), Baudson 2025 (★), **Müller-Oppliger 2021** (★ Z02/Z04), **Stamm 2021** (★ Z11/Z12) |
+| Stein 3 Beobachtung | 70 | **Müller-Oppliger 2021** (★ Status 5) |
 | Stein 4 Abklärung | 100 | Gauck/Reimann 2021 (◑) |
-| Stein 5 Kontext / 2e | 130 | Baum/Schader 2021 (◑), **Stamm 2021** (◑) |
-| Schluss | 110 | Haag/Maehler 2018 (★), **Stamm/Heydorn** (◑) |
-| **Summe** | **≈ 880** | **7 Hauptquellen + 1 Stütze** |
+| Stein 5 Kontext / 2e | 130 | Baum/Schader 2021 (◑), **Stamm 2021** (★ Z03) |
+| Schluss | 130 | **Müller-Oppliger 2021** (★ Z01 Mehraugenprinzip), Haag/Maehler 2018 (★), **Stamm 2021** (★ Z13, Heid-Pointe) |
+| **Summe** | **≈ 935** | **8 Hauptquellen** |
 
-→ **Achtung:** 880 Wörter sind zu viel für 5 Minuten. Bei 130 W/Min sind das
-6 Min 46 Sek — überzieht klar. Inti muss vor der Prüfung wählen, welche
+→ **Achtung:** 935 Wörter sind zu viel für 5 Minuten. Bei 130 W/Min sind das
+7 Min 12 Sek — überzieht deutlich. Inti muss vor der Prüfung wählen, welche
 Passagen sie streicht oder verdichtet (Vorschläge unten in „Kürzungs-Optionen").
 
 **Kürzungs-Optionen (für 5 Min strict):**
+- **Stein 2 Defizitorientierungs-Zitat verkürzen** auf nur die 40–50 %-Zahl
+  (ohne den Defizitorientierungs-Wortlaut) → spart 25 Wörter
 - **Stein 4 Abklärung kürzen** auf nur Momentaufnahme + Aisha-Vignette
   (ohne Prozessdiagnostik-Detail) → spart 30 Wörter
 - **Stein 1 Koop-Zitat streichen** und nur Haag belassen → spart 30 Wörter
 - **Stein 5 33-%-Befund weglassen** (ist redundant mit Stamms 8-%-Befund)
   → spart 25 Wörter
-- **Heydorn-Zitat im Schluss weglassen** (literarisch stark, aber im
-  Zeitrahmen verzichtbar) → spart 25 Wörter
+- **Schluss: entweder Mehraugenprinzip ODER Heid-Schluss-Zitat** (nicht
+  beide; methodologische Klammer vs. literarische Klammer) → spart 25 Wörter
 
-→ Reduziert auf ≈ 770 Wörter → 5 Min 55 Sek. Knapp im Rahmen, je nach
-Sprechtempo.
+→ Mit drei der Kürzungen: ≈ 855 Wörter → 6 Min 35 Sek. Mit allen fünf:
+≈ 800 Wörter → 6 Min 10 Sek. Empfehlung: erste drei + Schluss-Wahl,
+dann liegt der Vortrag bei 6 Min, was im realen Prüfungsgespräch
+akzeptabel ist.
 
 ---
 
@@ -191,20 +204,31 @@ Sprechtempo.
   - Haag/Maehler 2018, S. 165 (Empfehlung Verfahrenskombination, Schluss)
   - Koop 2025, S. 66 (nonverbale Tests können nicht aufheben)
   - Baudson 2025, S. 36–37 (Marburger Hochbegabtenprojekt)
+  - **Stamm 2021** S. 576/577/584/585 (Volltext-Audit Status 5,
+    `Literatur/stamm2021fehlenderblick/verified_quotes.md` Z01–Z13).
+    Im Vortrag eingesetzt: **Z02** „bildungsfern und defizitär" /
+    Frühleser-Befund (Pointe), **Z11/Z12** weiche Verfahren + PISA-Bias
+    (Stein 2), **Z03** Schweizer 8-%-Befund Berufslehre (Stein 5),
+    **Z13** Heid-1969-Pointe (Schluss).
+  - **Müller-Oppliger 2021** S. 228 (Volltext-Audit Status 5,
+    `Literatur/muelleroppliger2021paeddiagnostik/verified_quotes.md` Z01–Z08).
+    Im Vortrag eingesetzt: **Z01** Mehraugenprinzip (Schluss-Klammer
+    Triangulation), **Z02** „40–50 Prozent der begabten Kinder übersehen"
+    (Stein 2 Lehrkrafturteil), **Z04** Defizitorientierung (Stein 2).
+    Hinweis zur Seitenangabe: Vor dem Volltext-Audit waren Z02 und Z04
+    in `mpv.tex` fälschlich auf S. 229 verortet — korrekt ist **S. 228**.
 - **Inhaltlich belegt, paraphrasieren (◑):**
-  - **Stamm 2021** (begabte Minoritäten; Risikogruppe 15–20 %; Schweizer
-    Längsschnittstudien; Kritik an weichen Verfahren; PISA-Lehrkraft-Effekt;
-    Heydorn-Pointe) — **drei Auftritte** als Schweizer Hauptanker
   - Preckel 2013 (Performanz vs. Kompetenz; Underachievement)
-  - Müller-Oppliger 2021 päd. Diagnostik (Diktat-Transkript)
   - Gauck/Reimann 2021 (Momentaufnahme, Testminderleistung,
     Prozessdiagnostik, Aisha-Vignette)
   - Baum/Schader 2021 (Twice Exceptionality, gegenseitiges Verdecken,
     33-%-Befund)
 
-→ **5 wortgetreue Zitate (★) + 5 paraphrasierte Hauptkonzepte (◑) tragen
-die Argumentation.** Stamm und Haag/Maehler sind als deutschsprachige
-Standardreferenzen für Frage 1 prominent verankert.
+→ **12 wortgetreue Zitate (★) tragen die Argumentation** — Haag/Maehler
+(3 Stellen), Koop, Baudson, Stamm (4 Stellen), Müller-Oppliger (3 Stellen).
+Stamm, Haag/Maehler und Müller-Oppliger sind als deutschsprachige
+Standardreferenzen für Frage 1 nicht nur prominent verankert, sondern
+jetzt auch wortgetreu zitierfähig.
 
 ---
 
@@ -216,8 +240,10 @@ Standardreferenzen für Frage 1 prominent verankert.
 2. **Reduktion von 14 Kernquellen auf 7 aktiv genutzte plus 1 Stütze.** Die
    übrigen 7 Quellen sind teils nicht zitierbar (Bildscans ohne OCR), teils
    inhaltlich von Stamm/Haag/Koop abgedeckt. Streichung erhöht Belegqualität.
-3. **Fünf wortgetreue Zitate als Anker** (Haag 2018 S. 153/159/165, Koop
-   2025 S. 66, Baudson 2025 S. 36–37). Vorher: keine direkten Zitate.
+3. **Neun wortgetreue Zitate als Anker** (Haag 2018 S. 153/159/165, Koop
+   2025 S. 66, Baudson 2025 S. 36–37, Stamm 2021 S. 576/577/584/585).
+   Vorher: keine direkten Zitate. Stamm-Zitate sind durch das
+   Volltext-Vision-Audit auf Status 5 verifiziert.
 4. **Vier konkrete empirische Befunde** statt allgemeiner Bezugnahmen:
    - Marburger Hochbegabtenprojekt (Baudson)
    - Aisha-Vignette (Gauck/Reimann)
@@ -237,7 +263,9 @@ Standardreferenzen für Frage 1 prominent verankert.
 | Version | Datum | Änderung |
 |---|---|---|
 | v0 | 2026-05-15 | Erste Schärfungs-Fassung. **Fehler:** Koop in 4 von 5 Steinen, Stamm gestrichen. |
-| **v1** | **2026-05-15** | **Stamm als Schweizer Hauptanker integriert (3 Auftritte). Koop reduziert auf 1 Auftritt (Stein 1). Schluss-Zitat: Haag S. 165 statt Koop S. 67. Wortzahl 720 → 880 → Kürzungs-Optionen aufgelistet.** |
+| v1 | 2026-05-15 | Stamm als Schweizer Hauptanker integriert (3 Auftritte). Koop reduziert auf 1 Auftritt (Stein 1). Schluss-Zitat: Haag S. 165 statt Koop S. 67. Wortzahl 720 → 880 → Kürzungs-Optionen aufgelistet. |
+| **v2** | **2026-05-16** | **Stamm-Paraphrasen durch wortgetreue Zitate Z02, Z11/Z12, Z03, Z13 ersetzt (Status 5). Wortlaut-Präzisierungen: „geleitete" → „geleistete", „schulisch interessierten" → „schulinteressierten". Heydorn → Heid (sachliche Korrektur, Stamm zitiert Heid 1969, nicht Heydorn). Seitenangaben präzisiert: S. 584 für Z11/Z12, S. 585 für Z13. Tabelle und Hinweissektion entsprechend (◑ → ★).** |
+| **v3** | **2026-05-16** | **Müller-Oppliger 2021 Volltext-Audit Status 5: Z02 (40–50 %-Zahl) und Z04 (Defizitorientierung) in Stein 2 als Schweizer Empirie-Anker eingebaut; Z01 (Mehraugenprinzip) als methodologische Klammer im Schluss. Müller-Oppliger-Paraphrase in Stein 3 als ★ markiert (Status 5). Seitenkorrektur: alle Müller-Oppliger-Zitate sind auf S. 228 (vorher fälschlich S. 229/230); im `mpv.tex` ebenfalls korrigiert. Wortzahl ≈ 880 → ≈ 935; Kürzungs-Optionen entsprechend ergänzt.** |
 
 ---
 
@@ -251,6 +279,6 @@ Standardreferenzen für Frage 1 prominent verankert.
    Methode (Quellenkanon → Schärfung → Abgrenzungstabelle). **Lehre aus V1:
    nicht nur belegtechnisch optimieren, sondern fachliche Kanonizität
    wahren.**
-4. **Optional:** Tesseract-OCR auf `stamm2021fehlenderblick` Bildscan, falls
-   wortgetreue Zitate gewünscht (das Sammelband-Transkript reicht für die
-   Prüfung, aber wortgetreu wäre stärker).
+4. ~~Tesseract-OCR auf `stamm2021fehlenderblick`~~ — **erledigt durch
+   Vision-Audit am 2026-05-15** (Status 5, Z01–Z13 in
+   `Literatur/stamm2021fehlenderblick/verified_quotes.md`).

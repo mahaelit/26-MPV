@@ -1,0 +1,41 @@
+Wie wir Begabte besser finden können
+36
+Diagnostische Kompetenzen von Lehrkräften
+Den Lernstand und lernrelevante Merkmale ihrer Schüler:innen korrekt zu identifizieren, 
+ist eine der Kompetenzen, die Lehrkräfte im Laufe ihrer Ausbildung erwerben sollen. In 
+den Standards der Kultusministerkonferenz (4) ist eines der Ziele für die theoretischen Aus­
+bildungsabschnitte, dass die angehenden Lehrkräfte „Formen von Hoch- und Sonderbega­
+bungen [kennen]“. In der Praxis „erkennen [sie] Entwicklungsstände, Lernpotenziale, Lern­
+hindernisse und Lernfortschritte“ und „erkennen Begabungen und kennen Möglichkeiten 
+der Begabungsförderung“ (4, S. 11). Und das ist nur ein kleiner Ausschnitt dessen, was Lehr­-
+kräfte alles können sollen.
+In der Praxis zeigt sich: „Die“ diagnostische Kompetenz gibt es nicht. Je nachdem, wel­
+cher inhaltliche Bereich eingeschätzt werden soll und ob es um Niveau, Rangplatz oder das 
+Ausmaß an Vielfalt geht, schneiden Lehrkräfte ganz unterschiedlich gut ab (5). Und davon 
+abgesehen ist das akkurate Urteilen auch nicht jeder Lehrkraft in die Wiege gelegt. Manche 
+können das sehr gut – aber eben nicht alle. Immerhin jedoch hängen subjektive Einschät­
+zungen und tatsächliche Merkmalsausprägungen im Mittel positiv zusammen.
+Verschiedene Faktoren beeinflussen die Akkuratheit des Urteils. Gemäß einem heuris­
+tischen Rahmenmodell, das Anna Südkamp und Kolleg:innen 2012 entwickelt haben (6), 
+ergibt sich Urteilsakkuratheit an der Schnittstelle von Lehrkrafturteil und Schüler:innen­
+leistung. Sie hängt von Faktoren ab, die in der beurteilenden Person, in der beurteilten 
+Person, im Beurteilungsformat sowie im verwendeten Testverfahren liegen können. Diese 
+Faktoren können sich teilweise auch gegenseitig beeinflussen, etwa wenn bestimmte Lehr­
+kräfte Schüler:innen mit bestimmten Merkmalen systematisch über- oder unterschätzen.
+Wie gut erkennen Lehrkräfte Begabung?
+Bei der Metaanalyse von Südkamp et al. (6) ging es um die Leistung – und die erkennen 
+Lehrkräfte recht gut: Die mittlere Korrelation ist mit .63 als hoch einzustufen. Praktisch 
+bedeutet das, dass etwa 40 % der Unterschiede in der Lehrkrafteinschätzung auf Unter­
+schiede in der tatsächlichen Leistung zurückgehen – von einer perfekten Einschätzung ist 
+das allerdings noch ein Stück weit entfernt.
+Aber wie sieht es nun aus, wenn wir uns das Potenzial anschauen – oder zumindest das, 
+was näher dran liegt als die Schulleistung, nämlich den IQ? Hier gibt eine weitere Metaana­
+lyse von Machts und Kolleg:innen (2016) Aufschluss (7): Die Korrelation zwischen objektiv 
+gemessener und von Lehrkräften eingeschätzter Intelligenz liegt mit .50 etwas niedriger 
+als die zwischen Leistung und Lehrkrafteinschätzung. Das bedeutet, dass 25 % der Leis­
+tungsunterschiede auf Unterschiede in der Intelligenz zurückgehen, also 75 % andere Ursa­
+chen haben. Und wenn es darum geht, Hochbegabung direkt einzuschätzen, liegt der Zu­
+sammenhang im Mittel sogar nur bei etwa .36; lediglich 13 % der Unterschiede in der 
+Hochbegabungseinschätzung beruhen also auf Intelligenzunterschieden2. Schon das Mar­
+2	 Diese sogenannte „Varianzaufklärung“, also der Anteil an Unterschieden in der vorhergesagten Variable, 
+der durch die vorhersagende Variable erklärt wird, berechnet sich aus dem Quadrat der Korrelation.
