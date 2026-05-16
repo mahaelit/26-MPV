@@ -54,12 +54,12 @@
 
 | Bibkey | Seiten | source.pdf | transcript.md | verified_quotes.md | Status | Datum |
 |---|---|---|---|---|---|---|
-| `grossrieder2010anerkennung` | 88–94 | ✓ | — | — | 2 | — |
+| `grossrieder2010anerkennung` | 87–94 | ✓ (Foto-Scan, kein Text-Layer) | (Vision Pass 2) | ✓ Z01–Z07 | **5** | 2026-05-16 |
 | `baudson2021wasdenken` | 115–129 | ✓ | — | — | 2 | — |
 | `kuhl2021begabungbildungbeziehung` | 185–201 | ✓ | — | — | 2 | — |
 | `wagener2021bfhemmendfoerdernd` | 418–424 | ✓ | — | — | 2 | — |
 | `behrensen2019inklusive` | 86–98 | ✓ | (text-PDF) | — | 3 | — |
-| `kuhl2019diversitaet` | 35–54 | ✓ | (text-PDF) | — | 3 | — |
+| `kuhl2019diversitaet` | 35–59 (PDF: 36–59) | ✓ | (text-PDF) | ✓ Z01–Z06 | **5*** | 2026-05-16 |
 | `boosnuenning2022interethnisch` | 51–65 | ✓ | (text-PDF) | — | 3 | — |
 | `kesselshannover2015gleichaltrige` | 288 | ✓ | (text-PDF) | — | 3 | — |
 | `tschoppbuholzergruetter2022intergruppenkontakt` | 35–40 | ✓ | (text-PDF) | — | 3 | — |
@@ -99,14 +99,14 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-16, nach Pauly/Koop/Baudson-Audit)
+## Aktuelle Bilanz (Stand 2026-05-16, nach Grossrieder-2010-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **5** | 10 % |
+| **5** (wortgetreu, zitierfähig) | **7** | 14 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
-| 3 (Sammelband/Text-PDF) | ca. 13 | 26 % |
-| 2 (bibliographisch verortet) | ca. 27 | 54 % |
+| 3 (Sammelband/Text-PDF) | ca. 12 | 24 % |
+| 2 (bibliographisch verortet) | ca. 26 | 52 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
 
@@ -116,8 +116,12 @@
 - `maehler2018diagnostik` (V1, Stein 1 + Schluss; Haag/Heppt/Schipolowski-Kapitel) — Z01–Z09 — **2026-05-16**
 - `baudson2025besserfinden` (V1 Stein 2, V5 § Baudson) — Z01–Z04 — **2026-05-16**
 - `koop2025herkunft` (V1 Stein 1, V5 § Koop) — Z05–Z08 — **2026-05-16**
+- `kuhl2019diversitaet` (V3 § Beziehungsgeschehen + S.-Fall PSI-Theorie) — Z02–Z06 wortgetreu, Z01 mit Caveat (S. 35 fehlt im PDF) — **2026-05-16**
+- `grossrieder2010anerkennung` (V3 Anerkennungstheorie 1./2. Ordnung, S.-Fall) — Z01–Z07 wortgetreu — **2026-05-16**
 
-**Vortrag 1 ist jetzt durchgehend mit wortgetreuen Zitaten belegt.** **Vortrag 5 hat fundierte Status-5-Anker** (Baudson + Koop) für den Beratungs-/Diagnostik-Strang. Audit-Befund: Locator-Korrektur in `mpv.tex` L:796 umgesetzt (`S.\,68` → `S.\,66,\,68`).
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fundierte Status-5-Anker** (Baudson + Koop). **Vortrag 3 hat zwei Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie). Audit-Befund Grossrieder: PDF ist Foto-Scan ohne Text-Layer, Verifikation per Vision-Inspektion gerendeter JPEGs; alle 8 inline-Locator in `mpv.tex` (S. 88\psq, 89\psq, 90, 90\psq, 88+91, 89, 91) sind korrekt — keine Korrekturen nötig. PDF zu `source.pdf` umbenannt.
+
+*) Z01 (Kuhl 2019, Zusammenfassung S. 35) verbleibt mit Caveat auf Status 4, da S. 35 im aktuellen `source.pdf` fehlt; Z02–Z06 wortgetreu auf Status 5.
 
 ---
 
@@ -128,9 +132,12 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 1. ~~**`muelleroppliger2021paeddiagnostik`** (V1, V4)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 in `verified_quotes.md`, mehrere TeX-Seitenangaben korrigiert (siehe `transcript.md` § Befunde).
 2. ~~**`maehler2018diagnostik`** (V1)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z09 (selektiv, Vortrag-1-relevante Stellen). **Vortrag 1 ist damit komplett wortgetreu belegt.** Folge-Hinweis: bibliographische Trennung Haag/Heppt/Schipolowski-Kapitel vs. Sammelband-BibKey offen.
 3. ~~**`koop2025herkunft`** / **`baudson2025besserfinden`** (V1, V5)~~ ✅ **abgeschlossen 2026-05-16** — Pauly-Sammelband Open Access, Z01–Z08 (Baudson Z01–Z04, Koop Z05–Z08); Locator-Fehler `mpv.tex` L:796 korrigiert.
-4. **`kuhl2021begabungbildungbeziehung`** (V3) — Beziehungs-Argument für Vortrag 3, Stein-Quelle
-5. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4
-6. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF
+4. ~~**`kuhl2019diversitaet`** (V3, S.-Fall)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z06; 5 Locator-Korrekturen in `mpv.tex` umgesetzt; S. 35 fehlt im Repo-PDF (Z01 Caveat).
+5. ~~**`grossrieder2010anerkennung`** (V3 Anerkennung S.-Fall)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z07 (7 wortgetreue Zitate); Foto-Scan via Vision-Pass-2 verifiziert; alle mpv.tex-Locator korrekt; PDF zu `source.pdf` umbenannt.
+6. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio. Naming-Inkonsistenz: Ordner heisst `Kuhl2021bildungbegabung` (PDF 7.3 MB, unkomprimiert).
+7. **`baudson2021wasdenken`** (V3) — in mpv.tex inline zitiert? prüfen.
+8. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4
+9. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF
 
 Quellen mit Status 1 (NO_LOCAL) müssen separat beschafft werden — nicht im normalen Audit-Workflow.
 
