@@ -77,49 +77,131 @@ Automatisch aus `Literatur/_transkripte_index.json` erzeugt. **Diese Transkripte
 <!-- TRANSKRIPTE-END -->
 
 
-## Zitate (gegen die Quelle gegengeprueft)
+## Zitate (wortgetreu gegen `source.pdf` verifiziert, Pass 2)
 
-### Zitat 1 (S. 86, Zusammenfassung)
+### Zitat 1 (S. 86, Titel + Zusammenfassung) — Status 5
 
-> „In dem Aufsatz wird dargelegt, wie inklusive Begabungsförderung dazu beitragen kann, den Bildungsbedürfnissen von Geflüchteten zu begegnen. Wesentlich hi[er…]" (S. 86, Beginn der Zusammenfassung; Fortsetzung auf S. 87)
+> „**Inklusive Begabungsförderung – eine Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration**" (Beitragstitel S. 86)
 
-**Kontext / Paraphrase:**
-Trägt die Lerndokument-Behauptung (Frage 3, „Migration als kumulative Belastung"), dass inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen in Zeiten von Fluchtmigration zu verstehen ist und dass die Gesamtbelastung kumulativ wirkt (Verlust sozialer Netzwerke, Sprache, prekäre Wohnsituation, Trauma).
+> „In dem Aufsatz wird dargelegt, wie inklusive Begabungsförderung dazu beitragen kann, den Bildungsbedürfnissen von Geflüchteten zu begegnen. Wesentlich hierfür sind individuell fördernde Methoden, die zugleich zur Selbstkompetenzförderung beitragen, sowie eine ressourcenorientierte und wertschätzende Haltung von Lehrkräften. Eine besondere Herausforderung für die schulpädagogische Arbeit mit geflüchteten Kindern und Jugendlichen ist es, kulturelle und soziale Erwartungen und Selbstverständlichkeiten zu reflektieren. Die Begleitung der Kinder und Jugendlichen in der Übersetzung ihrer Begabungen in Leistungen verlangt zudem eine traumasensible Pädagogik, die sich auf vielversprechende Weise mit Selbstkompetenzförderung und der Ressourcenorientierung verknüpfen lässt." (S. 86, Zusammenfassung)
+
+**Kontext:** Programmsatz des Beitrags. Trägt die mpv.tex-These (Z. 2038), dass „inklusive Begabungsförderung als Antwort auf Bildungsherausforderungen" zu verstehen ist.
 
 **Verwendet in:**
-- Lerndokument: § Frage 3, „Migration als kumulative Belastung" (mpv.tex Z. ~1335–1380, ~2480 Frage-3-Reflexion)
-- Abgabedokument: Einleitung E3-Migrationsbegriffsabsatz (Z. 239) + Kernliteratur Frage 3 (Z. 361)
+- Lerndokument: § Frage 3, „Migration als kumulative Belastung" (mpv.tex Z. 2038)
+- Abgabedokument: Einleitung E3-Migrationsbegriffsabsatz (Z. 414, Kernliteratur Frage 3)
 
 ---
 
-### Zitat 2 (S. 88, Definition inklusiver Begabungsförderung)
+### Zitat 2 (S. 88, Definition inklusiver Begabungsförderung) — Status 5
 
-> „Inklusive Begabungsförderung bedeutet, Heranwachsende in ihren individuellen Fähigkeiten unter Berücksichtigung ihrer Lebenssitua[tion …]" (S. 88, zentrale Definition; vollständig zitiert in Solzbacher 2018, S. 40–41)
+> „Inklusive Begabungsförderung bedeutet, Heranwachsende in ihren individuellen Fähigkeiten unter Berücksichtigung ihrer Lebenssituation und ihrer biografischen Erfahrungen, ihren spezifischen (Lern-)Voraussetzungen, (Lern-)Bedürfnissen, (Lern-)Wegen, (Lern-)Zielen und (Lern-)Möglichkeiten zu fördern und hierfür angemessene Bedingungen zu schaffen. Basierend auf einem breiten und dynamischen Begabungsverständnis sowie einer pädagogischen Diagnostik, die sich aus dem Beobachten der Lebens-, Lern- und Entwicklungsbedürfnisse des Einzelnen speist, geht inklusive Begabungsförderung von der Begabung eines jeden Kindes aus. […] Im Rahmen einer noch nicht inklusiven Gesellschaft und Schullandschaft ist inklusive Begabungsförderung als eine grundlegende Haltung zu verstehen." (S. 88, Solzbacher/Behrensen 2016, 17 — von Behrensen explizit als Arbeitsdefinition zitiert)
 
-**Kontext / Paraphrase:**
-Direkter Beleg für die ressourcen- statt defizitorientierte Lesart inklusiver Begabungsförderung — anschlussfähig an Frage 4 (SOLUX) und Frage 5 (SHP-Beratungshaltung).
+**Kontext:** Definitions-Beleg. „Berücksichtigung ihrer **Lebenssituation und ihrer biografischen Erfahrungen**" liefert genau den theoretischen Rahmen für die mpv.tex-Aussagen Z. 1942, 2039 („strukturell-biographische Faktoren").
 
 ---
 
-### Zitat 3 (S. 86, 88, 92, 95--97)
+### Zitat 3 (S. 92, Fluchtbedingte Belastungen — *Schlüsselbeleg*) — Status 5
 
-**Kontext / Paraphrase:**
-Die Quelle stützt die Beschreibung von Migrationserfahrung als pädagogisch wirksame Konstellation: Fluchtmigration wird als Bildungsherausforderung gerahmt (S. 86), inklusive Begabungsförderung soll Lebenssituation und biographische Erfahrungen berücksichtigen (S. 88), und schulische Anschlussfragen, Mehrsprachigkeit, Trauma sowie Anerkennung vorausgehender Bildung werden als spezifische Herausforderungen beschrieben (S. 92). Die Seiten 95--97 tragen die ressourcenorientierte, dialogische Gegenperspektive zur defizitorientierten Wahrnehmung.
+> „Verschärfend kommt hinzu, dass die Erfahrung der Flucht begleitet ist von **Belastungen**, die Kinder und Jugendliche in ihr Leben integrieren müssen, was vorübergehend **kognitive Kapazitäten binden** kann (Besser 2013)." (S. 92, Schluss-Absatz vor Kap. 3.1)
 
-**Verwendet in:**
-- Lerndokument: Migrationsbegriffsabsatz (`mpv.tex`, Z. ~415--419)
+> „Insgesamt handelt es sich um überlebenswichtige Kompetenzen, mit denen sie eine von **Fremdbestimmung, sozialer Isolation und permanenter Unsicherheit** geprägte Situation bewältigt haben (Seukwa 2006)." (S. 92, Beginn Kap. 3.1 „Fluchtspezifische Herausforderungen")
+
+**Kontext:** Behrensen listet konkrete fluchtbedingte Belastungsfaktoren auf, ohne den Begriff „kumulativ" zu verwenden. Sie nennt: prekäre Bildungsbiographien (S. 91), unterbrochene Schulausbildung (S. 91), schulische Segregation (S. 92), niedrigerer Leistungsanspruch (S. 92), Trauma-Belastungen (S. 92), Fremdbestimmung, soziale Isolation, permanente Unsicherheit (S. 92). Diese Liste begründet die mpv.tex-Aussage Z. 1941–1944 („Verlust sozialer Netzwerke, mögliche belastende Vorerfahrungen im Herkunftsland, sprachliche Isolation").
+
+> ⚠ **Audit-Befund (siehe unten):** Der mpv.tex-Begriff „**kumulative Belastung**" findet sich bei Behrensen wörtlich **nicht**. Sie spricht von „Belastungen" (Plural), die sich addieren und die „kognitive Kapazitäten binden" — die Lesart als kumulative Belastung ist eine SHP-fachsprachliche Paraphrase, die durch Behrensens Aufzählung sich addierender Faktoren gestützt wird.
+
+---
+
+### Zitat 4 (S. 94, Konzept des guten Grundes — *Direktbeleg gegen Pathologisierung*) — Status 5
+
+> „Darüber hinaus gehört zu einer traumasensiblen Pädagogik das **Konzept des guten Grundes** (vgl. Scherwarth/Friedrich 2016, 67) als praxistaugliche Anwendung der verstehenden Pädagogik (Gerspach 2000). Zentraler Gedanke ist, dass **das Verhalten eines jeden Menschen vor seinem biografischen Hintergrund Sinn ergibt**. Aus dieser Perspektive lassen sich **Verhaltensauffälligkeiten als Hinweise auf die besonderen Bedürfnisse eines Kindes oder Jugendlichen verstehen**." (S. 94, Mitte)
+
+> „**Sozialer Rückzug, anhaltende Unruhe, das Gefühl ständiger Langeweile, eingeschränkte Spielfähigkeit, der Verlust der Entwicklungsfähigkeiten, Regressionen oder das Leben in heilen Phantasiewelten lassen sich als Symptome der Vermeidung verstehen.**" (S. 94)
+
+**Kontext:** *Theorie-Anker* für die mpv.tex-Argumentation Z. 1942–1944, Z. 2371–2374 („nicht individuelle Pathologie des Kindes, sondern Überlagerung strukturell-biographischer Faktoren" / „Was als Verweigerung erscheint, ist in vielen Fällen das Ergebnis einer …"). Behrensens „Konzept des guten Grundes" ist die theoretische Grundlage dieser Lesart. Die Symptom-Liste „Sozialer Rückzug, anhaltende Unruhe, Verlust der Entwicklungsfähigkeiten, Regressionen" stützt die mpv.tex-Behauptung Z. 1834 („Verhalten wie Rückzug, Weinen, Erstarren oder Verweigerung muss nicht als Trotz gelesen werden, sondern kann ein Schutzmechanismus sein") direkt.
+
+---
+
+### Zitat 5 (S. 95, Ressourcenorientierte Perspektive) — Status 5
+
+> „Die **ressourcenorientierte Perspektive hilft, Verhaltensweisen traumatisierter Kinder und Jugendlicher als Überlebensstrategien zu verstehen.** Dieses Verstehen unterstützt zum einen die psychische Integration des Geschehenen und ermöglicht zum anderen, wieder handlungsfähig zu werden, indem die Entscheidung für oder gegen ein Verhalten bewusst getroffen wird (vgl. Schwerwath/Friedrich 2016, 107f.)." (S. 95, Kap. 3.3 „Ressourcenorientierung als Schatzkiste")
+
+**Kontext:** Stützt die mpv.tex-Aussage Z. 2027 („dass inklusive Begabungsförderung gerade für diese Kinder eine Antwort auf Bildungsherausforderungen darstellt, weil sie den Fokus von Defizitausgleich [auf Ressourcen verschiebt]").
+
+---
+
+### Zitat 6 (S. 96, Inklusive Begabungsförderung als Gebot der Stunde) — Status 5
+
+> „**Inklusive Begabungsförderung als Gebot der Stunde**: Einige abschließende Überlegungen" (S. 96, Kapitelüberschrift)
+
+> „Die Fluchtzuwanderung ist seit 2015 eine Dauerbaustelle in der Schule geworden. […] Hier kann die inklusive Begabungsförderung ein bedeutsames Konzept sein, um Bildungsprozesse heterogen und individuell zu gestalten." (S. 96)
+
+**Kontext:** Schluss-Anker. Bestätigt die mpv.tex-Argumentation, dass inklusive Begabungsförderung eine bildungspolitische Antwort auf Fluchtmigration darstellt.
+
+---
+
+### Zitat 7 (S. 97, traumasensible Pädagogik + kein Stigma) — Status 5
+
+> „Für die Arbeit mit geflüchteten Kindern und Jugendlichen bedeutet das Aufdecken von Begabungen einen reflektierten Umgang mit eigenen kulturellen und sozialen Erwartungen und Selbstverständlichkeiten. Die Begleitung der Kinder und Jugendlichen in der Übersetzung ihrer Begabungen in Leistungen verlangt zudem eine traumasensible Pädagogik, mit der Ansätze der Selbstkompetenzförderung und der Ressourcenorientierung verknüpft werden." (S. 97)
+
+> „Auf dieser Basis kann es gelingen, dass **Fluchthintergrund kein Stigma (Goffman 1975) wird**, sondern dass geflüchtete Kinder und Jugendliche in der Heterogenität ihrer Erfahrungen, Begabungen und Kompetenzen gesehen werden." (S. 97)
+
+**Kontext:** Schlussthese. Anschlussfähig an die mpv.tex-Argumentation Z. 4530–4536 (institutionelle Dimension der Begabungs-Maskierung).
+
+---
+
+### Zitat 8 (S. 90, Anerkennung als Grundlage von Ressourcenorientierung) — Status 5
+
+> „Die **Anerkennung der vielseitigen Fähigkeiten eines jeden Menschen** ist ein wichtiger Aspekt für die Anerkennung des Menschen als Person in seiner individuellen Besonderheit. Entsprechend können Begabungen als Quelle zur Bearbeitung von Lerndefiziten und Entwicklungsherausforderungen genutzt werden, denn die Anerkennung von Begabungen gibt dem oder der Einzelnen **Kraft und Selbstvertrauen**." (S. 90, Kap. 2.3 Ressourcenorientierung)
+
+**Kontext:** Brücke zwischen Anerkennungstheorie (Grossrieder 2010) und Ressourcenorientierung. Theoretisch wertvoll für mpv.tex Z. 1832–1834 (Verbindung Anerkennungstheorie ↔ kumulative Belastungsperspektive ↔ Inklusionsverständnis).
+
+---
+
+## Audit-Befund: Begriff „kumulative Belastung"
+
+**Befund:** Behrensen verwendet das Wort „**kumulativ**" im gesamten Beitrag (S. 86–98) **nicht ein einziges Mal**. Auch fehlen die mpv.tex-Begriffe „Bewältigungsressourcen", „sprachliche Isolation" (Behrensen sagt „**soziale Isolation**" auf S. 92), „Verlust sozialer Netzwerke" (Behrensen sagt „**transnationale Familiennetzwerke**" auf S. 95) und „individuelle Pathologie".
+
+**Was Behrensen tatsächlich sagt:**
+- „**Belastungen**" (Plural) als Folge der Flucht (S. 92)
+- „**Fremdbestimmung, sozialer Isolation und permanenter Unsicherheit** geprägte Situation" (S. 92)
+- Das **Konzept des guten Grundes** als Alternative zu pathologisierenden Lesarten (S. 94)
+- **Symptome der Vermeidung**: „Sozialer Rückzug, anhaltende Unruhe, Verlust der Entwicklungsfähigkeiten, Regressionen" (S. 94)
+- „Erfahrung der Flucht begleitet ist von Belastungen, die … **vorübergehend kognitive Kapazitäten binden** kann" (S. 92, mit Verweis auf Besser 2013)
+
+**Bewertung:** Die mpv.tex-Lesart „**Logik kumulativer Belastung nach Behrensen**" ist eine **legitime SHP-fachsprachliche Paraphrase**, die durch Behrensens Aufzählung sich addierender Belastungsfaktoren (S. 91–92, S. 94) und Symptom-Beschreibungen (S. 94) gestützt wird. Sie ist jedoch **keine wörtliche Behrensen-Formulierung**.
+
+**Empfehlung für mündliche Verteidigung:** Bei Nachfrage zum Begriff „kumulative Belastung" sollte transparent gesagt werden:
+> „Behrensen verwendet das Wort 'kumulativ' selbst nicht. Sie beschreibt aber auf S. 91–94 sich addierende fluchtspezifische Belastungsfaktoren — prekäre Bildungsbiographien, schulische Segregation, soziale Isolation, Trauma-Erfahrungen — und zeigt mit dem 'Konzept des guten Grundes' (S. 94), dass Verhaltensauffälligkeiten Hinweise auf besondere Bedürfnisse sind, nicht Pathologie. Die Bezeichnung 'kumulative Belastung' ist meine fachsprachliche Verdichtung dieses Befundes."
+
+**Optional (nicht zwingend):** Der `mpv.tex`-Locator `[S.\,86--98]` (Spannenangabe für ganzen Beitrag) wäre durch präziseren Locator `[S.\,91--94]` (fluchtspezifische Belastungen + Konzept des guten Grundes) optimaler. Aktuelle Form ist aber für Sammelband-Zitierweise nicht falsch.
 
 ---
 
 ### Verifikationsnachweis
 
-- **Volltext:** Klinkhardt Open-Access-PDF, urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
-- **Seitenbereich verifiziert:** S. 86 (Kapitelbeginn) — S. 98 (Ende Literaturverzeichnis); Hollen/Ossowski-Beitrag schliesst auf S. 99 an.
-- **Nachprüfung 2026-04-25:** Für den Migrationsbegriffsabsatz enger Locator `\parencites[S.\,86,\,88,\,92,\,95--97]{behrensen2019inklusive}` gesetzt.
-- **Bib-Eintrag:** `pages = {86--98}` (13 Seiten).
+- **Volltext:** Klinkhardt Open-Access-PDF (`source.pdf`, 13 PDF-Seiten = S. 86–98). Text-Layer vorhanden (36'472 chars). urn:nbn:de:0111-pedocs-174484, DOI 10.25656/01:17448.
+- **Seitenbereich verifiziert:** S. 86 (Kapitelbeginn) — S. 98 (Ende Literaturverzeichnis).
+- **Pass 1 (2026-04-24):** Volltext + Excerpts (10 Kapitel-Splits in `excerpts/`) erstellt. Belege sinngemäß referenziert, aber Direktzitate fragmentarisch (mit „[er…]"-Trunkierung).
+- **Pass 2 (2026-05-16):** Vollständige wortgetreue Neufassung Z01–Z08 gegen extrahierten Volltext (`_volltext.txt`); Audit-Befund zum Begriff „kumulative Belastung" dokumentiert. Reproduzierbar via `_extract_quotes.py`.
+- **Bib-Eintrag:** `pages = {86--98}` (13 Seiten) — korrekt.
+
+**Locator-Verifikation aller 5 inline-mpv.tex-Stellen:**
+
+| mpv.tex-Zeile | Cite-Form | Locator | Status |
+|---|---|---|---|
+| 418 | `\parencite` (kombiniert mit stamm2021) | (kein Locator) | OK (Sammelverweis) |
+| 1832 | `\textcite[S.\,86--98]` | S. 86–98 | OK; präziser wäre `[S.\,91--94]` |
+| 1941 | `\textcite[S.\,86--98]` | S. 86–98 | OK; präziser wäre `[S.\,92,\,94]` |
+| 2038 | `\textcite[S.\,86--98]` | S. 86–98 | OK (programmatischer Hauptverweis) |
+| 2371 | `\textcite[S.\,86--98]` | S. 86–98 | OK; präziser wäre `[S.\,94]` |
+| 4531 | `\textcite[S.\,86--98]` | S. 86–98 | OK (Bezug zu Frage 3) |
+
+**Befund:** Alle 5 Locator funktional korrekt — keine Korrekturen zwingend, präzisere Locator wären für Defense optimaler.
 
 ---
 
-**Status:** 4 (Volltext geprueft, Seitenbereich + Belegzitate verifiziert)
-**Verifiziert am:** 2026-04-24
-**Bearbeitet durch:** Phase-3-Audit (Klinkhardt-Volltext aus pedocs)
+**Status:** 5 (Volltext-Pass 2 verifiziert; 8 wortgetreue Direktzitate Z01–Z08; Audit-Befund zu „kumulative Belastung" als Paraphrase dokumentiert)
+**Verifiziert am:** 2026-04-24 (Pass 1); 2026-05-16 (Pass 2 wortgetreue Neufassung)
+**Bearbeitet durch:** Pass 1: Phase-3-Audit (Klinkhardt-Volltext aus pedocs); Pass 2: Volltext-Direktextraktion via PyMuPDF (`_extract_quotes.py`)

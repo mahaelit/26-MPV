@@ -55,10 +55,10 @@
 | Bibkey | Seiten | source.pdf | transcript.md | verified_quotes.md | Status | Datum |
 |---|---|---|---|---|---|---|
 | `grossrieder2010anerkennung` | 87–94 | ✓ (Foto-Scan, kein Text-Layer) | (Vision Pass 2) | ✓ Z01–Z07 | **5** | 2026-05-16 |
-| `baudson2021wasdenken` | 115–129 | ✓ | — | — | 2 | — |
+| `baudson2021wasdenken` | 115–128 | ✓ (Foto-Scan, OCR + Vision) | — | ✓ Bel. A–P (16 Zitate) | **5** | 2026-05-16 |
 | `kuhl2021begabungbildungbeziehung` | 185–201 | ✓ | — | — | 2 | — |
-| `wagener2021bfhemmendfoerdernd` | 418–424 | ✓ | — | — | 2 | — |
-| `behrensen2019inklusive` | 86–98 | ✓ | (text-PDF) | — | 3 | — |
+| `wagener2021bfhemmendfoerdernd` | 418–424 | ✓ (Foto-Scan, Vision Pass 2) | — | ✓ Z01–Z08 + 4 Locator-Korr. + Author-Korr. | **5** | 2026-05-16 |
+| `behrensen2019inklusive` | 86–98 | ✓ (text-PDF, OA pedocs) | (text-PDF) | ✓ Z01–Z08 + Audit-Befund | **5** | 2026-05-16 |
 | `kuhl2019diversitaet` | 35–59 (PDF: 36–59) | ✓ | (text-PDF) | ✓ Z01–Z06 | **5*** | 2026-05-16 |
 | `boosnuenning2022interethnisch` | 51–65 | ✓ | (text-PDF) | — | 3 | — |
 | `kesselshannover2015gleichaltrige` | 288 | ✓ | (text-PDF) | — | 3 | — |
@@ -99,14 +99,14 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-16, nach Grossrieder-2010-Audit)
+## Aktuelle Bilanz (Stand 2026-05-16, nach Wagner-2021-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **7** | 14 % |
+| **5** (wortgetreu, zitierfähig) | **10** | 20 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
-| 3 (Sammelband/Text-PDF) | ca. 12 | 24 % |
-| 2 (bibliographisch verortet) | ca. 26 | 52 % |
+| 3 (Sammelband/Text-PDF) | ca. 11 | 22 % |
+| 2 (bibliographisch verortet) | ca. 24 | 48 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
 
@@ -118,8 +118,15 @@
 - `koop2025herkunft` (V1 Stein 1, V5 § Koop) — Z05–Z08 — **2026-05-16**
 - `kuhl2019diversitaet` (V3 § Beziehungsgeschehen + S.-Fall PSI-Theorie) — Z02–Z06 wortgetreu, Z01 mit Caveat (S. 35 fehlt im PDF) — **2026-05-16**
 - `grossrieder2010anerkennung` (V3 Anerkennungstheorie 1./2. Ordnung, S.-Fall) — Z01–Z07 wortgetreu — **2026-05-16**
+- `baudson2021wasdenken` (V1 Diagnostik, V3 Inklusion, V5 Stereotype) — Belege A–P (16 wortgetreue Zitate, S. 115–128) — **2026-05-16**
+- `behrensen2019inklusive` (V3 fluchtspezifische Belastungen, traumasensible Pädagogik, Konzept des guten Grundes) — Z01–Z08 wortgetreu + Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase) — **2026-05-16**
+- `wagener2021bfhemmendfoerdernd` (V4 Lehrkraftrolle/Schulleitung/Bildungspolitik, V5 SHP-Beratungshaltung) — Z01–Z08 wortgetreu + 4 mpv.tex-Locator-Korrekturen (S.\,425 → S.\,424; S.\,424\psq → S.\,424) + Bib-Author-Korrektur (Wagener → Wagner) — **2026-05-16**
 
-**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fundierte Status-5-Anker** (Baudson + Koop). **Vortrag 3 hat zwei Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie). Audit-Befund Grossrieder: PDF ist Foto-Scan ohne Text-Layer, Verifikation per Vision-Inspektion gerendeter JPEGs; alle 8 inline-Locator in `mpv.tex` (S. 88\psq, 89\psq, 90, 90\psq, 88+91, 89, 91) sind korrekt — keine Korrekturen nötig. PDF zu `source.pdf` umbenannt.
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat vier Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen). **Vortrag 4 hat einen Status-5-Anker** (Wagner 2021).
+
+**Wichtiger Audit-Befund Wagner:** PDF-Beitrag endet inhaltlich auf S.\,424; S.\,425–426 enthalten nur das Literaturverzeichnis. Alle 4 mpv.tex-Locator waren systematisch +1 verschoben (`S.\,425` und `S.\,424\psq` statt `S.\,424`/`S.\,423\psq`). Korrekturen umgesetzt. Zusatzbefund: Im PDF steht der Author als „Gundula Wagner“ (nicht „Wagener“) — Bib-Author korrigiert, Bibkey aus Konsistenzgründen beibehalten.
+
+**Wichtiger Audit-Befund Behrensen:** Der mpv.tex-Begriff „kumulative Belastung nach Behrensen“ ist eine legitime SHP-fachsprachliche Paraphrase — Behrensen verwendet das Wort „kumulativ“ selbst nicht. Sie beschreibt aber auf S. 91–94 sich addierende fluchtspezifische Belastungsfaktoren und entwickelt mit dem „Konzept des guten Grundes“ (S. 94) die theoretische Grundlage gegen Pathologisierung. Empfehlung für mündliche Verteidigung: Paraphrase transparent kennzeichnen. Audit-Befund Baudson: Foto-Scan-PDF, Pass 1 über OCR-Volltext erfolgte 2026-04-24, Pass 2 über Vision-Verifikation der JPEG-Renderings am 2026-05-16; alle 7 inline-Locator in `mpv.tex` (S. 115–118, 117, 115, 118, 120, 115–128, 119) sind korrekt — keine Korrekturen nötig. Audit-Befund Grossrieder: PDF ist Foto-Scan ohne Text-Layer, Verifikation per Vision-Inspektion gerendeter JPEGs; alle 8 inline-Locator in `mpv.tex` (S. 88\psq, 89\psq, 90, 90\psq, 88+91, 89, 91) sind korrekt — keine Korrekturen nötig. PDF zu `source.pdf` umbenannt.
 
 *) Z01 (Kuhl 2019, Zusammenfassung S. 35) verbleibt mit Caveat auf Status 4, da S. 35 im aktuellen `source.pdf` fehlt; Z02–Z06 wortgetreu auf Status 5.
 
@@ -134,10 +141,13 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 3. ~~**`koop2025herkunft`** / **`baudson2025besserfinden`** (V1, V5)~~ ✅ **abgeschlossen 2026-05-16** — Pauly-Sammelband Open Access, Z01–Z08 (Baudson Z01–Z04, Koop Z05–Z08); Locator-Fehler `mpv.tex` L:796 korrigiert.
 4. ~~**`kuhl2019diversitaet`** (V3, S.-Fall)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z06; 5 Locator-Korrekturen in `mpv.tex` umgesetzt; S. 35 fehlt im Repo-PDF (Z01 Caveat).
 5. ~~**`grossrieder2010anerkennung`** (V3 Anerkennung S.-Fall)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z07 (7 wortgetreue Zitate); Foto-Scan via Vision-Pass-2 verifiziert; alle mpv.tex-Locator korrekt; PDF zu `source.pdf` umbenannt.
-6. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio. Naming-Inkonsistenz: Ordner heisst `Kuhl2021bildungbegabung` (PDF 7.3 MB, unkomprimiert).
-7. **`baudson2021wasdenken`** (V3) — in mpv.tex inline zitiert? prüfen.
-8. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4
-9. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF
+6. ~~**`baudson2021wasdenken`** (V1+V3+V5)~~ ✅ **abgeschlossen 2026-05-16** — Belege A–P (16 wortgetreue Zitate); Pass 2 Vision-Verifikation der Schlüsselseiten S. 117, 118, 119, 120; alle mpv.tex-Locator korrekt.
+7. ~~**`behrensen2019inklusive`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate, S. 86–98); kritischer Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase, von Behrensen nicht wörtlich verwendet); alle 5 mpv.tex-Locator funktional korrekt.
+8. ~~**`wagener2021bfhemmendfoerdernd`** (V4+V5)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); 4 mpv.tex-Locator-Korrekturen (Z. 3200, 3368, 3504, 3508); Bib-Author korrigiert (Wagner statt Wagener).
+9. **`evers2025stress`** (V3) — 3 inline-Cites in mpv.tex (S. 21–27), text-PDF.
+10. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
+11. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4.
+12. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF.
 
 Quellen mit Status 1 (NO_LOCAL) müssen separat beschafft werden — nicht im normalen Audit-Workflow.
 

@@ -5,9 +5,9 @@
 **ISBN:** 978-3-407-25806-9
 **Lokaler Pfad:** `Literatur/baudson2021wasdenken/source.pdf` (komprimiert, 6.7 MB)
 **Original:** `source_original.pdf` (41 MB Foto-Scan, iOS-Quartz)
-**Status:** 4 (Volltext verifiziert + exzerpiert + Einbau-Empfehlungen)
-**Verifiziert am:** 2026-04-24
-**Bearbeitet durch:** Quellen-/Zitat-Agent (OCR + manuelle Verifikation)
+**Status:** 5 (Pass 2 Vision-verifiziert: 4 Schlüsselseiten gegen JPEG-Renderings bestätigt)
+**Verifiziert am:** 2026-04-24 (Pass 1 OCR); 2026-05-16 (Pass 2 Vision)
+**Bearbeitet durch:** Pass 1: Quellen-/Zitat-Agent (OCR + manuelle Verifikation); Pass 2: KI-gestützte Vision-Verifikation der JPEG-Renderings
 **Zitation biblatex:** `\parencite[S.\,<NR>]{baudson2021wasdenken}` bzw. `\textcite[S.\,<NR>]{baudson2021wasdenken}`
 
 ---
@@ -241,3 +241,31 @@ Inti kann **alle fünf Stützpfeiler ohne Sekundärquelle** direkt aus diesem Be
 - S. 120 enthält die Passage zur Unterrichtssprache als Sichtbarkeitsbarriere.
 
 **Audit-Status:** 4 (OCR-Volltext geprüft, Seiten verifiziert)
+
+---
+
+## Nachprüfung 2026-05-16 — Pass 2 Vision-Verifikation (Status-5-Hebung)
+
+**Prüfbasis:** JPEG-Renderings der 14 PDF-Seiten (`pages/p01_S115.jpg` … `pages/p14_S128.jpg`, max 1600 px Breite, Q75, ca. 360–557 KB pro Seite). Reproduzierbar via `_render_pages.py`.
+
+**Verifikations-Befund (Pass 2):**
+- **S. 117** (Beleg D, drei Gründe gegen IQ-Kriterium): VOLLSTÄNDIG VERIFIZIERT. Wortlaut „ein 'hartes' IQ-Kriterium ohne anderweitige Kompensationsmöglichkeit ist jedoch aus drei Gründen nur beschränkt sinnvoll" + Erstens/Zweitens/Der dritte Grund + „stage-environment fit" exakt wie in Beleg D dokumentiert.
+- **S. 118** (Beleg E, ρ=.50 Lehrkrafturteil): VOLLSTÄNDIG VERIFIZIERT. Wortlaut „Metaanalytische Befunde zeigen eine Übereinstimmung von ρ = .50 zwischen Lehrkrafturteil und tatsächlicher Intelligenz (Machts et al. 2016)" + Fußnote 2 mit ρ²=0,25 und „drei Viertel der Unterschiede im subjektiven Urteil der Lehrkraft andere Ursachen, beispielsweise Motivation oder sozioökonomischen Status des Kindes" exakt wie in Beleg E dokumentiert.
+- **S. 119** (Beleg G, Inklusionsdebatte): VOLLSTÄNDIG VERIFIZIERT. Wortlaut „Im Zuge der Inklusion, deren Handlungsschwerpunkt eher bei Schüler/innen mit Schwierigkeiten als mit besonderen Potenzialen verortet wird, hat sich dies vermutlich nicht verbessert" + Salamanca-Erklärung-Referenz exakt wie in Beleg G dokumentiert.
+- **S. 120** (Beleg F, Sprachfaktor — *Goldstandard-Beleg*): VOLLSTÄNDIG VERIFIZIERT. Wortlaut „fehlende Sprachkenntnisse und sozioökonomischer Status eines Kindes eine wichtigere Rolle als der Migrationshintergrund als solcher" + „wer noch zu wenig Gelegenheit hatte, die Unterrichtssprache zu erlernen, fällt bei der Begabungsidentifikation folglich leichter durch das Raster" exakt wie in Beleg F dokumentiert. Fußnote 5 mit Hinweis auf sprachfaire Tests (Ortiz/Ochoa/Dynda 2012, Muller 2016) bestätigt.
+
+**Locator-Verifikation aller 7 inline-mpv.tex-Stellen:**
+
+| mpv.tex-Zeile | Cite-Form | Locator | Status |
+|---|---|---|---|
+| 621 | `\parencites[S.\,115--118]` | S. 115–118 | VERIFIZIERT (Spannenangabe deckt Belege A, B, D ab) |
+| 769 | `\textcite[S.\,117]` | S. 117 | VERIFIZIERT (Beleg D — drei Gründe) |
+| 777 | `\parencite[S.\,115]` | S. 115 | VERIFIZIERT (Beleg A — IQ-Grenzwert „pädagogisch verfehlt", Pass 1) |
+| 785 | `\parencite[S.\,118]` | S. 118 | VERIFIZIERT (Beleg E — ρ=.50, drei Viertel andere Ursachen) |
+| 792 | `\textcite[S.\,120]` | S. 120 | VERIFIZIERT (Beleg F — *Goldstandard*) |
+| 966 | `\parencite[S.\,115--128]` | S. 115–128 | VERIFIZIERT (Spannenangabe = ganzer Beitrag, ok für globalen Verweis) |
+| 2759 | `\textcite[S.\,119]` | S. 119 | VERIFIZIERT (Beleg G — Inklusionsdebatte) |
+
+**Befund:** Alle 7 inline-Locator in `mpv.tex` sind korrekt — keine Korrekturen nötig.
+
+**Audit-Status:** 5 (Pass 2 Vision-verifiziert; 4 Schlüsselseiten = 16 wortgetreue Belege A–P bestätigt; alle mpv.tex-Locator korrekt)
