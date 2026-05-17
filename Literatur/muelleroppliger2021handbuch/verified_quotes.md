@@ -1,9 +1,26 @@
-# Verifizierte Zitate – muelleroppliger2021handbuch
+# Sammelband-Übersicht – muelleroppliger2021handbuch
 
-**Quelle:** Müller-Oppliger, Victor; Weigand, Gabriele (2021). Handbuch Begabung.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,M%C3%BCller-Oppliger,%20Victor;%20Weigand,%20Gabriele%20Handbuch%20Begabung&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
-**Identifikator:** –
-**Lokaler Pfad:** `source.pdf`
+**Quelle:** Müller-Oppliger, Victor; Weigand, Gabriele (Hrsg., 2021). *Handbuch Begabung* (608 S., 33 Beiträge). Weinheim und Basel: Beltz. ISBN 978-3-407-25806-9.
+**Bibkey-Typ:** `@book` (Sammelband-Hülse — nicht mehr in `mpv.tex` zitiert; siehe § 0)
+**Lokaler Pfad:** Sammelband-Material liegt in diesem Ordner; einzelne `@incollection`-Beiträge in eigenen Bibkey-Ordnern (siehe `excerpts/_outline.md`).
+
+---
+
+## 0. Status: Sammel-Cite-Audit abgeschlossen 2026-05-17
+
+Dieser Bibkey **wird in `mpv.tex` und `mpv_abgabedokument.tex` nicht mehr zitiert**. Alle ehemaligen Sammel-Cites wurden auf konkrete `@incollection`-Bibkeys mit Locator präzisiert:
+
+| ehemaliger Cite | präzisiert zu | Datum |
+|---|---|---|
+| `mpv.tex` L:396 — `\textcite{muelleroppliger2021handbuch}` (Begriffsklärung Begabung/Potenzial) | `\textcite[S.\,218]{muelleroppliger2021begabungsmodelle}` (Master-Direktzitat S. 218 Fazit) | 2026-05-17 |
+| `mpv.tex` L:1156 — `\parencite{muelleroppliger2021handbuch}` (Renzullis Drehtürmodell) | `\parencite[S.\,333--345]{reisrenzullimueller2021sem}` (SEM-Beitrag) | 2026-05-17 |
+| `mpv_abgabedokument.tex` L:274 — `\textcite{muelleroppliger2021handbuch}` (Begriffsklärung) | `\textcite[S.\,218]{muelleroppliger2021begabungsmodelle}` | 2026-05-17 |
+
+**Hinweis:** Frühere Audit-Notizen sprachen von „14 Cite-Stellen" — das bezog sich auf einen älteren Stand vor mehrfachen Bereinigungen; aktuell waren es nur 3 Cite-Stellen. Der `cite_context.py`-CLAIMS-Block dieser Datei wurde **nicht** aktualisiert, da der Bibkey nicht mehr aktiv zitiert wird.
+
+**Bibkey in `Quellen.bib` behalten:** Der `@book`-Eintrag bleibt für `crossref`-Verweise der `@incollection`-Beiträge potenziell nützlich und als bibliographische Vollständigkeits-Referenz dokumentiert.
+
+---
 
 ---
 
