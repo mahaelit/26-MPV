@@ -45,7 +45,7 @@
 |---|---|---|---|---|---|---|
 | `saegesserwyss2021grafinkrahmenmodell` | 2–3, 6–11 | ✓ | — | — | 2 | — |
 | `nottbusch2017graphomotorik` | 128–136 | ✓ | — | — | 2 | — |
-| `hurschler2020handschriftbeurteilung` | 1–24 | ✓ | (text-PDF) | — | 3 | — |
+| `hurschler2020handschriftbeurteilung` | 1–24 | ✓ (text-PDF) | (text-PDF, 26 S., 106 KB) | ✓ Z01–Z08 + Locator-Audit | **5** | 2026-05-17 |
 | `gold2018lesenkannmanlernen` | 50–53, 62, 67–88 | ✓ | — | — | 2 | — |
 | `lehwald2017motivation` | 70–72, 84–89 | ✓ | — | — | 2 | — |
 | `greiten2021underachievement` | 546–553 | ✗ NO_LOCAL | — | — | 1 | — |
@@ -72,7 +72,7 @@
 | Bibkey | Seiten | source.pdf | transcript.md | verified_quotes.md | Status | Datum |
 |---|---|---|---|---|---|---|
 | `buholzerkummerwyss2010reaktionen` | 78–85 | ✓ | — | — | 2 | — |
-| `muelleroppliger2021plurale` | 32–42 | ✓ | — | — | 2 | — |
+| `muelleroppliger2021plurale` | 32–42 | ✓ (Foto-Scan, 1400 px Q70) | (Vision Pass 2) | ✓ Z01–Z08 + 2 Locator-Korrekturen | **5** | 2026-05-17 |
 | `muelleroppliger2021begabungsmodelle` | 204–219 | ✓ (Foto-Scan, 1400 px Q70) | (Vision Pass 2) | ✓ Z01–Z08 + Bibkey-Disziplin-Befund | **5** | 2026-05-17 |
 | `reisrenzullimueller2021sem` | 333–345 | ✓ | — | — | 2 | — |
 | `weigand2021separativ` | 290–298 | ✗ NO_LOCAL | — | — | 1 | — |
@@ -99,14 +99,14 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-17, nach Müller-Oppliger-Begabungsmodelle-Audit)
+## Aktuelle Bilanz (Stand 2026-05-17, nach Müller-Oppliger-Plurale-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **12** | 24 % |
+| **5** (wortgetreu, zitierfähig) | **14** | 28 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
-| 3 (Sammelband/Text-PDF) | ca. 10 | 20 % |
-| 2 (bibliographisch verortet) | ca. 23 | 46 % |
+| 3 (Sammelband/Text-PDF) | ca. 9 | 18 % |
+| 2 (bibliographisch verortet) | ca. 22 | 44 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
 
@@ -123,8 +123,12 @@
 - `wagener2021bfhemmendfoerdernd` (V4 Lehrkraftrolle/Schulleitung/Bildungspolitik, V5 SHP-Beratungshaltung) — Z01–Z08 wortgetreu + 4 mpv.tex-Locator-Korrekturen (S.\,425 → S.\,424; S.\,424\psq → S.\,424) + Bib-Author-Korrektur (Wagener → Wagner) — **2026-05-16**
 - `evers2025stress` (V3 Stressforschung, Sichtbarkeitsformel) — Z01–Z08 wortgetreu + Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781 (faktischer Fehler: Evers nennt nicht den Hippocampus, sondern Amygdala + präfrontaler Cortex) — **2026-05-16**
 - `muelleroppliger2021begabungsmodelle` (V1 Stein 1, V4 Theorie-Anker, V3 Sichtbarkeitsformel) — Z01–Z08 wortgetreu (Master-Direktzitat S.\,218 Fazit; DMGT/Aktiotop/Trautmann/Münchner-Modell-Belege); 44.5 MB Original komprimiert auf 5.05 MB; alle 4 mpv.tex-Locator korrekt; Bibkey-Disziplin-Audit `@book` (`muelleroppliger2021handbuch`) vs. `@incollection` (`muelleroppliger2021begabungsmodelle`) dokumentiert — **2026-05-17**
+- `hurschler2020handschriftbeurteilung` (V2 Stein-Quelle, Frageninhaberin Hurschler Lichtsteiner) — Z01–Z08 wortgetreu (Arbeitsspeicher-Entlastung S.\,3; prozedurale Lernprozesse S.\,2; orthografische × motorische Codes S.\,2; Hauptkriterien Leserlichkeit × Geläufigkeit S.\,1 + 5; DASH/Mai-Marquardt S.\,11; Hattie d = 1{,}44 S.\,16; Null-Korrelation S.\,13); alle 5 mpv.tex-Locator funktional korrekt; bestehende Status-4-`verified_quotes.md` zu `verified_quotes.md.status4-backup` archiviert — **2026-05-17**
+- `muelleroppliger2021plurale` (V4 Theorie-Anker Bildungsgerechtigkeit + V3 Anerkennung) — Z01–Z08 wortgetreu (Salamanca-Erklärung S.\,32; Gleichheits-Gerechtigkeits-Fehlschluss S.\,37; soziale Selektivität S.\,36; Risikogruppen S.\,36; **15 %/88 %-Zahlen S.\,38**; drei Ebenen inklusiver BF S.\,40; Dewey/Reich S.\,39; Inklusion ≠ Sonderpäd.-Verengung S.\,39); 37.4 MB Original komprimiert auf 4.49 MB; **2 mpv.tex-Locator-Korrekturen** (L:3179 `S.\,41\psq` → `S.\,38` Off-by-3-Fehler; L:3326 `S.\,40--42` → `S.\,36,\,40--42` Präzisierung Diagnose+Lösung) — **2026-05-17**
 
-**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat zwei Status-5-Anker** (Wagner 2021 + Müller-Oppliger 2021 Begabungsmodelle).
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 2 hat seinen ersten Status-5-Anker** (Hurschler 2020). **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat drei Status-5-Anker** (Wagner 2021 + Müller-Oppliger 2021 Begabungsmodelle + Müller-Oppliger 2021 Plurale).
+
+**Wichtiger Audit-Befund Müller-Oppliger-Plurale (2026-05-17):** mpv.tex L:3179 enthielt einen **Off-by-3-Locator-Fehler**: Die zentralen Zahlen „15 Prozent fremdsprachiger Knaben qualifiziert / 88 Prozent deutschsprachiger Mädchen“ (Kronig 2007, n = 2104) waren mit `[S.\,41\psq]` zitiert, stehen aber exakt auf **S.\,38** ($\S$ 4.5 „Fragwürdige und ungerechte Selektionsentscheidungen“). Korrigiert. Zusätzlich Präzisierung L:3326 (`S.\,40–42` → `S.\,36,\,40–42`), da die **Diagnose** der sozialen Selektivität auf S.\,36 steht ($\S$ 4.1: Gymnasialbesuch überproportional deutschsprachig + höhere Sozialschichten), die **Lösungs-Trias** (drei Ebenen) auf S.\,40. Zentrale Goldfunde: Salamanca-Erklärung S.\,32 (Z01); Gleichheits-Gerechtigkeits-Fehlschluss S.\,37 (Z02); Risikogruppen-Systematik inkl. „Fremdsprachige (Stamm 2009)“, Twice Exceptionals, Underachiever S.\,36 (Z04); Drei Ebenen inklusiver BF S.\,40 (Z06).
 
 **Wichtiger Audit-Befund Müller-Oppliger-Begabungsmodelle (2026-05-17):** `Quellen.bib` enthält zwei verwandte Bibkeys, die strikt zu unterscheiden sind: `muelleroppliger2021handbuch` (`@book`, gesamter 608-S.-Sammelband Hrsg. Müller-Oppliger/Weigand, in `mpv.tex` 14 oft locator-lose Sammel-Cites) vs. `muelleroppliger2021begabungsmodelle` (`@incollection`, konkreter Beitrag S. 204–219, in `mpv.tex` 4 präzise Cites). **Folge-Audit:** Die 14 Sammel-Cites sollten — wo inhaltlich präzisierbar — auf konkrete `@incollection`-Bibkeys mit Seitenangabe umgestellt werden. Master-Direktzitat S. 218 (Fazit) trägt mpv.tex L:574+617 wortgetreu. Audio-Transkript in `excerpts/teil2_*.md` ist wegen Hörfehlern („Renzoli“, „Garnier“, „Stachoviak“) **nicht zitierfähig**.
 
@@ -152,8 +156,8 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 8. ~~**`wagener2021bfhemmendfoerdernd`** (V4+V5)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); 4 mpv.tex-Locator-Korrekturen (Z. 3200, 3368, 3504, 3508); Bib-Author korrigiert (Wagner statt Wagener).
 9. ~~**`evers2025stress`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); kritischer Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781; alle 3 Locator korrekt.
 10. ~~**`muelleroppliger2021begabungsmodelle`** (V1+V3+V4)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate, davon Master-Zitat S. 218 Fazit); Foto-Scan komprimiert (44.5 MB → 5.05 MB); Bibkey-Disziplin-Befund (`@book` vs. `@incollection`); alle 4 mpv.tex-Locator korrekt.
-11. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF; **V2 hat noch keinen Status-5-Anker** → hohe Prio.
-12. **`muelleroppliger2021plurale`** (V4) — V4-Stärkung, Theorie-Anker.
+11. ~~**`hurschler2020handschriftbeurteilung`** (V2)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate); alle 5 mpv.tex-Locator funktional korrekt; **erster Status-5-Anker für Vortrag 2**.
+12. ~~**`muelleroppliger2021plurale`** (V4)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate); 2 mpv.tex-Locator-Korrekturen (kritischer Off-by-3-Fehler L:3179 `S.\,41\psq` → `S.\,38`; L:3326 Präzisierung).
 13. **`muelleroppliger2021handbuch`** Sammel-Cite-Audit — 14 Cite-Stellen ohne Locator präzisieren auf `@incollection`-Bibkeys.
 14. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
 
