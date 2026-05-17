@@ -1,9 +1,128 @@
 # Verifizierte Zitate – lehwald2017motivation
 
-**Quelle:** Lehwald, Gerhard (2017). Motivation trifft Begabung: Begabte Kinder und Jugendliche verstehen und gezielt fördern.
-**Swisscovery/Verifikationslink:** https://swisscovery.slsp.ch/discovery/search?query=any,contains,Lehwald,%20Gerhard%20Motivation%20trifft%20Begabung%3A%20Begabte%20Kinder%20und%20Jugendliche%20verstehen%20und%20gezielt%20f%C3%B6rdern&tab=41SLSP_NETWORK&search_scope=DN_and_CI&vid=41SLSP_NETWORK:VU1_UNION&offset=0
-**Identifikator:** –
-**Lokaler Pfad:** `source.pdf`
+**Quelle:** Lehwald, Gerhard (2017). *Motivation trifft Begabung: Begabte Kinder und Jugendliche verstehen und gezielt fördern.* Bern: Hogrefe.
+**Lokaler Pfad:** `source.pdf` (122 Seiten konsolidiert: 13 S. Leseprobe + 24+16+24+24+21 S. Original-Scans aus den 5 Kapitel-PDFs; Buchseiten 51-74, 77-92, 107-135, 141-164, 166-187)
+**Backup:** `source.pdf.leseprobe-backup` (Original Hogrefe-Leseprobe, 13 PDF-Seiten / S. 1-11)
+
+**Status:** **5** (wortgetreu, zitierfähig — Pass 2 Vision-Verifikation am 2026-05-17 abgeschlossen)
+**Verifiziert am:** 2026-04-19 (Pass 1 Transkript) → 2026-04-25 (Vorwort S. 11) → 2026-05-17 (Pass 2 Vision-Inspektion der 24 Cite-relevanten Kapitelseiten)
+**Audit-Befund:** Alle 12 mpv.tex-Locator funktional korrekt — keine Korrekturen nötig.
+
+---
+
+## 0. Pass-2 Vision-Verifikation 2026-05-17 (NEU)
+
+Mit Verfügbarwerden der 5 Original-Kapitel-PDFs (zusammengeführt zu `source.pdf`, 122 PDF-Seiten) wurden die mpv.tex-Locator durch Vision-Inspektion gerendeter JPEGs verifiziert. **Alle wortgetreuen Belege gefunden, keine Locator-Korrektur nötig.**
+
+### Z01 — Fall Pawel Vorstellung (S. 57, §1.11)
+
+> „Wir stellen Pawel vor. An seinem Gutachten können wir zum einen Besonderheiten hochbegabter Kinder in der Grundschule festmachen. Zum anderen zeigt es auch die besondere Vulnerabilität (Verwundbarkeit) begabter Kinder. Pawel wird von seinen Eltern der Beratungsstelle vorgestellt. Gegenwärtig besucht er die dritte Klasse einer Montessorischule. [...] dass er in fast allen Fachdisziplinen der Montessori-Ausbildung, besonders aber in Deutsch, Englisch und Mathematik, einen erheblichen Entwicklungsvorsprung aufweist. [...] Sein Selbstvertrauen sei mittlerweile sehr gering und auch er selbst sich nicht mehr als klug ansehe, sei auch seine Wissbegier erloschen. Er arbeite nicht mehr selbständig, sondern nur nach Anforderung. Die gelegentlichen Auffälligkeiten im sozialen Bereich, die schon ‚sehr früh dagewesen' seien, könnten Ursache oder auch Folge der permanenten Unterforderung sein."
+> *(Lehwald 2017, S. 57)*
+
+**Trägt:** mpv.tex L:2185 / L:2206 / L:2323 (Fall Pawel als Underachiever-Beleg).
+
+### Z02 — IQ 148 + Underachiever-Diagnose (S. 58)
+
+> „Die Ergebnisse beider Intelligenztests bestätigen die hohe Intelligenz und Begabung von Pawel. Er erzielte im zeitbegrenzten **CFT 20R einen IQ von 148**. Dieses exzellente Testergebnis wird vom KFT (verbale Intelligenz) bestätigt. [...] Trotzdem erreicht er keine optimalen schulischen Ergebnisse. **Er gehört offensichtlich zu den begabten Minderleistern (Underachievern).**"
+> *(Lehwald 2017, S. 58)*
+
+**Trägt:** mpv.tex L:2185 wortgetreu — „dem hochbegabten Drittklässler Pawel mit IQ 148". ✓
+
+### Z03 — Sechsstufige Spirale ins Underachievement (S. 71-72, Abb. 2-5) ⭐
+
+> „Die individuelle Entwicklung verläuft meist nach dem gleichen Muster: erst fachbezogene, dann generelle Anstrengungsvermeidung; erst isolierte, dann übergreifende Aufmerksamkeitsstörungen; anfangs kognitive Unsicherheit, dann zunehmend lernhemmende Angst; zunächst abgrenzbare Schrullen und später allgemeine Ausweichhandlungen. Wir haben versucht, die Veränderungen als Stufenfolge darzustellen (Abbildung 2-5)."
+> *(Lehwald 2017, S. 71)*
+
+**Abbildung 2-5 (S. 72) „Stufenfolge beim Übergang ins Underachievement":**
+
+> Unterforderung → 1. **Abbau von Flow-Erleben** → 2. **Reduzierung von Wissbegier** → 3. **Verminderung der Anstrengungsbereitschaft** → 4. **Wandel der Attribuierung** → 5. **Veränderung des Selbstwertes** → 6. **Auftreten lernbezogener Angst**.
+
+**Schüler-Aussagen pro Stufe wortgetreu (S. 71-72):**
+> „Abbau des Flow-Erlebens: ‚Ich kann mich bei Themen einfach nicht mehr konzentrieren, auch wenn sie interessant erscheinen. Die Zeit will nicht vergehen.'"
+> „Reduzierung der Wissbegier und des Erkenntnisstrebens: ‚Mein Ehrgeiz, selbst etwas herauszufinden, hat in letzter Zeit sehr gelitten. Ich mache jetzt nur noch, was die in der Schule sagen.'"
+> „Verminderung der Anstrengungsbereitschaft: ‚Anstrengung zahlt sich für mich nicht mehr aus. Wenn mir eine Sache nicht auf Anhieb gelingt, gebe ich auf...'"
+> „Wandel der Attribuierung: ‚Ich erinnere mich an Zeiten, in denen ich stolz auf meine Leistung war. Jetzt habe ich nur noch Glück, wenn ich nicht abrutsche.'"
+> „Veränderung des Selbstbildes: ‚Ich tauge zu nichts mehr.'"
+> „Lernbezogene Angst: ‚Bereits nach Bekanntgabe des Zieles kann ich häufig vor Aufregung den Erklärungen der Lehrerin nicht mehr folgen. Das geschieht auch bei Aufgaben, die ich früher alle konnte.'"
+
+**MASTER-Beleg für mpv.tex L:1572 + L:2329** — die mpv.tex-Aufzählung „Abbau Flow-Erleben, Reduzierung Wissbegier, Verminderung Anstrengungsbereitschaft, Wandel der Attribuierung, Veränderung des Selbstwerts, lernbezogene Angst" ist eine **wortgetreue Übernahme** von Lehwalds Abb. 2-5. Locator `[S.\,70--72]` korrekt.
+
+### Z04 — Tätigkeitsmotivation, Flow-Erleben und Begabung (S. 84, §2.4 Beginn)
+
+> „Csikszentmihályi hatte bereits in seinen frühen Arbeiten (1985) darauf hingewiesen, dass erst die Qualität des subjektiven Erlebens eine Tätigkeit intrinsisch belohnend macht. Seine Überlegungen konzentrierten sich auf eine Erlebnisweise, die er als *Flow* bezeichnete. Dabei handelt es sich um das weitgehend reflexionsfreie gänzliche Aufgehen in einer glatt verlaufenden Tätigkeit, bei der man trotz voller Kapazitätsauslastung das Gefühl hat, den Tätigkeitsablauf noch gut unter Kontrolle zu haben."
+> *(Lehwald 2017, S. 84)*
+
+**Trägt:** mpv.tex L:1457 (Zusammenspiel von Motivation und Begabung).
+
+### Z05 — Lehwalds eigene Studie (S. 87, Abb. 2-6)
+
+> „Wir geben nun einen Einblick in eine eigene empirische Untersuchung, die wir mit 108 Gymnasialschüler/innen durchgeführt haben (Lehwald, 2006). Wir suchten mathematisch interessierte Schüler/innen aus, die im Fach Mathematik ein ‚Sehr gut' aufwiesen und schon einmal für einen regionalen oder überregionalen Mathematikwettbewerb nominiert waren."
+
+**Abbildung 2-6 (S. 87, Varianzanalyse):** Flow-Erleben als Prädiktor für Engagement im Begabungsbereich:
+- Durchschnittsnote: F = 5.7\* (n = 183)
+- Subjektive Einschätzung: F = 65.3\*\*\* (n = 210)
+- Erreichtes Kursniveau: F = 22.7\*\*\* (n = 183)
+
+> „Hier hat der Flow auch deutliche positive Leistungseffekte. [...] Die Tatsache, dass mathematisch hochbegabte Kinder und Jugendliche nicht unentwegt vorrangig abwägen, welche Folgen ihr Lernen hat oder wie wertvoll ihr Resultat in Bezug auf die eigene Karriere ist, erklärt, warum sie relativ störungsfrei und unabhängig von schulischen Benotungen lernen. An der eigenen Kompetenzentwicklung..."
+> *(Lehwald 2017, S. 87)*
+
+### Z06 — Flow als Stabilisator (S. 89) ⭐ Master-Direktzitat
+
+> „Das dabei auftretende **Flow-Erleben fungiert offensichtlich als Stabilisator der Lerntätigkeit auf hohem Niveau**. Interesse, Flow und fachgebundene Anstrengungsbereitschaft entstehen nicht durch externe (drohende) Disziplinierungsmittel, sondern eher durch sachgebundene (intrinsische) Tätigkeitsmotivierungen. Leistungsmotive sind dagegen erst dann für hochbegabte Kinder beim Lernen relevant, wenn die..."
+> *(Lehwald 2017, S. 89)*
+
+**MASTER-Beleg für mpv.tex L:1313** — Locator `[S.\,89]` wortgetreu korrekt. Die mpv.tex-Formulierung „fasst Flow-Erleben als Stabilisator der Lerntätigkeit auf hohem Niveau" ist eine **direkte Paraphrase** des Lehwald-Wortlauts.
+
+### Z07 — §4.3 Förderung von Wissbegier und Erkenntnisstreben (S. 151, Vorbemerkungen)
+
+> „Bei der schulischen Förderung begabter Schülerinnen und Schüler geht es nicht darum, fehlendes Wissen durch schulische Förderung zuzuführen, sondern darum, die Lernmotivation so zu gestalten, dass selbstreguliertes Lernen auf hohem Niveau möglich wird. Im Prinzip ist Hochbegabtenförderung vor allem Förderung der Tätigkeitsmotivation und der Interessen (Hany, 2004)."
+> *(Lehwald 2017, S. 151)*
+
+**Trägt:** mpv.tex L:2717 (Förderlogik systematisiert).
+
+### Z08 — 6-Ebenen-Pyramide der Begabtenförderung (S. 156, Abb. 4-3) ⭐
+
+> „Auf der untersten Ebene finden wir die Basis jedweder Förderung: die **Individualisierung und Differenzierung im Unterricht**."
+> *(Lehwald 2017, S. 156)*
+
+**Abbildung 4-3 (S. 156) „Ebenen und Methoden der Begabtenförderung" — Pyramide mit 6 Ebenen:**
+
+| Ebene | Methoden (Beispiele) |
+|---|---|
+| **Akzeleration** | Springen, Hospitieren in oberen Klassen |
+| **Separierung** | Themenbezogene Unterrichtung in Spezialklassen (z.B. Mathe), Achtung Selbstkonzept |
+| **Compacting** | Individuelle Anpassung des Lehrplans, exemplarisches Lernen |
+| **Enrichment** | Ferienkurse, Pull out, Talent portfolio, Projektarbeit, Außerschulische Experten |
+| **Individualisierung** | Freiheiten im Unterricht, Begabte als Tutoren, Vorgreifen Lernstoffs |
+| **Differenzierung** | Tiefgründige Beschäftigung, spezielle Enrichment Schulräume nutzen, Drehtürmodell als permanentes Prinzip |
+
+**Audit-Klärung mpv.tex L:2717:** Die mpv.tex-Behauptung „Lehwald ordnet **Differenzierung, Compacting, Enrichment und Akzeleration** als Massnahmen" ist eine **legitime Auswahl von 4 aus 6 Ebenen** Lehwalds (zusätzlich nennt Lehwald Separierung und Individualisierung). Inhaltlich vollständig korrekt; **kein Locator-Fehler**. Locator `[S.\,151--158]` deckt §§4.3-4.3.3 inkl. Abb. 4-3 ab.
+
+### Z09 — Drehtürmodell als permanentes Prinzip (S. 157)
+
+> „[...] umfassende Realisierung des Drehtürmodells als permanentes Unterrichtsprinzip; Einrichtung von Enrichment-Räumen zur intensiven Projektarbeit (sensu Renzulli)."
+> *(Lehwald 2017, S. 157)*
+
+**Hinweis:** Diese Stelle bestätigt Lehwald als Stützautor für Renzullis Drehtürmodell — der ehemalige Sammel-Cite zu `muelleroppliger2021handbuch` (Drehtürmodell) wurde gestern auf `reisrenzullimueller2021sem` umgestellt; Lehwald 2017 könnte als ergänzender Beleg dienen, ist aber kein Primärautor des Drehtürmodells.
+
+---
+
+## 1. Zusammenfassung wortgetreuer Belege pro mpv.tex-Cite
+
+| mpv.tex-Stelle | Locator | Wortgetreuer Beleg |
+|---|---|---|
+| L:1171 (sechsstufige Spirale) | `S.\,70--72` | **Z03** Abb. 2-5 + Schüler-Aussagen ✓ |
+| L:1313 (Flow-Stabilisator) | `S.\,89` | **Z06** wortgetreu ✓ |
+| L:1457 (Motivation+Begabung) | `S.\,84--89` | **Z04 + Z05 + Z06** §2.4 komplett ✓ |
+| L:1468 (zwei Motivationskomponenten) | `lehwald2017motivation` (ohne Locator) | **Z04** + Inti-Erweiterung um Anschlussmotivation transparent gekennzeichnet |
+| L:1477 (Flow + Passung empirisch) | `S.\,84--89` | **Z05** Abb. 2-6 ✓ |
+| L:1572 (Spirale komplett) | `S.\,70--72` | **Z03** ✓ |
+| L:2185 (Pawel IQ 148) | `S.\,57--63` | **Z01 + Z02** ✓ |
+| L:2323 (Pawel-Wahrnehmungsdynamik) | `S.\,57--63` | **Z01** ✓ |
+| L:2329 (Spirale-Folgen) | `S.\,70--72` | **Z03** ✓ |
+| L:2717 (Förderlogik 4 Massnahmen) | `S.\,151--158` | **Z07 + Z08** Auswahl aus 6-Ebenen-Pyramide ✓ |
+
+**Alle 12 mpv.tex-Cites wortgetreu und/oder strukturell durch Z01-Z09 belegt. Keine Locator-Korrektur erforderlich.**
 
 ---
 

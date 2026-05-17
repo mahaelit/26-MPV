@@ -65,7 +65,7 @@
 | `tschoppbuholzergruetter2022intergruppenkontakt` | 35–40 | ✓ | (text-PDF) | — | 3 | — |
 | `baumert2022freundschaftwerte` | 40–49 | ✓ | (text-PDF) | — | 3 | — |
 | `evers2025stress` | 21–27 | ✓ (text-PDF, OA Karg) | (text-PDF) | ✓ Z01–Z08 + Hippocampus→Amygdala-Korr. | **5** | 2026-05-16 |
-| `lehwald2017motivation` (V3-Auftreten) | 57–63 | ✓ | — | — | 2 | — |
+| `lehwald2017motivation` (V3-Auftreten) | 57–63 | ✓ (5 Original-PDFs konsolidiert, 122 S.) | (Vision Pass 2) | ✓ Z01–Z09 (Pawel IQ 148 S. 58, Spirale Abb. 2-5 S. 72) | **5** | 2026-05-17 |
 
 ## Vortrag 4 — Begabungsmodelle / Förderung / Bildungsgerechtigkeit
 
@@ -78,7 +78,7 @@
 | `weigand2021separativ` | 290–298 | ✗ NO_LOCAL | — | — | 1 | — |
 | `muelleroppliger2021adaptive` | 374–385 | ✓ | — | — | 2 | — |
 | `schulteterhardt2020potenzialentwicklung` | 264–267 | ✓ | (text-PDF) | — | 3 | — |
-| `lehwald2017motivation` (V4-Auftreten) | 151–158 | ✓ | — | — | 2 | — |
+| `lehwald2017motivation` (V4-Auftreten) | 151–158 | ✓ (über V3-Audit konsolidiert) | (Vision Pass 2) | ✓ Z07–Z09 (6-Ebenen-Pyramide Abb. 4-3 S. 156) | **5** | 2026-05-17 |
 | `hoyer2013begabung` | 94–99 | ✓ | (text-PDF) | — | 3 | — |
 | `sedmak2021bildungsgerechtigkeit` | 65–75 | ✗ NO_LOCAL | — | — | 1 | — |
 | `grossenbacher2014integrative` | 317–325 | ✓ | — | — | 2 | — |
@@ -99,14 +99,14 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-17, nach Müller-Oppliger-Plurale-Audit)
+## Aktuelle Bilanz (Stand 2026-05-17, nach Lehwald-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **14** | 28 % |
+| **5** (wortgetreu, zitierfähig) | **15** | 30 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
 | 3 (Sammelband/Text-PDF) | ca. 9 | 18 % |
-| 2 (bibliographisch verortet) | ca. 22 | 44 % |
+| 2 (bibliographisch verortet) | ca. 21 | 42 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
 
@@ -125,8 +125,11 @@
 - `muelleroppliger2021begabungsmodelle` (V1 Stein 1, V4 Theorie-Anker, V3 Sichtbarkeitsformel) — Z01–Z08 wortgetreu (Master-Direktzitat S.\,218 Fazit; DMGT/Aktiotop/Trautmann/Münchner-Modell-Belege); 44.5 MB Original komprimiert auf 5.05 MB; alle 4 mpv.tex-Locator korrekt; Bibkey-Disziplin-Audit `@book` (`muelleroppliger2021handbuch`) vs. `@incollection` (`muelleroppliger2021begabungsmodelle`) dokumentiert — **2026-05-17**
 - `hurschler2020handschriftbeurteilung` (V2 Stein-Quelle, Frageninhaberin Hurschler Lichtsteiner) — Z01–Z08 wortgetreu (Arbeitsspeicher-Entlastung S.\,3; prozedurale Lernprozesse S.\,2; orthografische × motorische Codes S.\,2; Hauptkriterien Leserlichkeit × Geläufigkeit S.\,1 + 5; DASH/Mai-Marquardt S.\,11; Hattie d = 1{,}44 S.\,16; Null-Korrelation S.\,13); alle 5 mpv.tex-Locator funktional korrekt; bestehende Status-4-`verified_quotes.md` zu `verified_quotes.md.status4-backup` archiviert — **2026-05-17**
 - `muelleroppliger2021plurale` (V4 Theorie-Anker Bildungsgerechtigkeit + V3 Anerkennung) — Z01–Z08 wortgetreu (Salamanca-Erklärung S.\,32; Gleichheits-Gerechtigkeits-Fehlschluss S.\,37; soziale Selektivität S.\,36; Risikogruppen S.\,36; **15 %/88 %-Zahlen S.\,38**; drei Ebenen inklusiver BF S.\,40; Dewey/Reich S.\,39; Inklusion ≠ Sonderpäd.-Verengung S.\,39); 37.4 MB Original komprimiert auf 4.49 MB; **2 mpv.tex-Locator-Korrekturen** (L:3179 `S.\,41\psq` → `S.\,38` Off-by-3-Fehler; L:3326 `S.\,40--42` → `S.\,36,\,40--42` Präzisierung Diagnose+Lösung) — **2026-05-17**
+- `lehwald2017motivation` (V2 Schreibförderung-Motivation + V3 Pawel/Underachievement + V4 Förderlogik) — Z01–Z09 wortgetreu (Pawel-Vorstellung S.\,57; **IQ 148 + Underachiever-Diagnose S.\,58**; **sechsstufige Spirale Abb.\,2-5 S.\,72** mit allen Schüler-Zitaten; Flow-Konzept §2.4 S.\,84; eigene Studie 108 Schüler:innen + Abb.\,2-6 S.\,87; **Flow als Stabilisator S.\,89** Master-Direktzitat; Förderlogik §4.3 S.\,151; **6-Ebenen-Pyramide Abb.\,4-3 S.\,156**; Drehtürmodell S.\,157); 5 Original-Kapitel-PDFs (47-187) zu `source.pdf` (122 S., 40 MB) konsolidiert; alle 12 mpv.tex-Locator funktional korrekt (keine Korrekturen nötig); **gleichzeitiger Status-5-Aufstieg für V2, V3 und V4** (größter Multi-Vortrag-Hebel des Audits) — **2026-05-17**
 
-**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 2 hat seinen ersten Status-5-Anker** (Hurschler 2020). **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat drei Status-5-Anker** (Wagner 2021 + Müller-Oppliger 2021 Begabungsmodelle + Müller-Oppliger 2021 Plurale).
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 2 hat zwei Status-5-Anker** (Hurschler 2020 + Lehwald 2017). **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat sechs Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung + Lehwald 2017 Pawel/Underachievement). **Vortrag 4 hat vier Status-5-Anker** (Wagner 2021 + Müller-Oppliger 2021 Begabungsmodelle + Müller-Oppliger 2021 Plurale + Lehwald 2017 Förderlogik).
+
+**Wichtiger Audit-Befund Lehwald (2026-05-17):** Lehwald 2017 wurde im Repo durch 5 separate Original-Kapitel-PDFs (Smartphone-Foto-Scans der Buchseiten 47-187, jeweils 6-9 MB) repräsentiert; `source.pdf` enthielt nur die Hogrefe-Leseprobe (S. 1-11). Für das Audit wurden alle 5 Kapitel-PDFs + Leseprobe zu einer einzigen `source.pdf` (122 PDF-Seiten) konsolidiert; Kompression auf 1400 px/Q70 brachte keinen Effekt, da die Foto-Scans bereits bei 992×1404 bzw. 1400×2200 px vorlagen — finale Größe 40 MB (entsprechend der Summe der Originale). Vision-Verifikation der 24 Cite-relevanten Seiten (S.\,57-58, 71-72, 84-89, 151-158) bestätigt **alle 12 mpv.tex-Locator funktional korrekt**. Master-Belege: Sechsstufige Spirale Abb.\,2-5 (S.\,72) wortgetreu mit Schüler-Aussagen pro Stufe; Flow-Stabilisator-Direktzitat (S.\,89); Pawel-IQ 148 (S.\,58); 6-Ebenen-Pyramide der Begabtenförderung Abb.\,4-3 (S.\,156). Audit-Klärung mpv.tex L:2717: Die Aufzählung „Differenzierung, Compacting, Enrichment, Akzeleration“ ist eine **legitime Auswahl von 4 aus 6 Lehwald-Ebenen** (zusätzliche Ebenen Separierung + Individualisierung); kein Locator-Fehler. **Gleichzeitiger Status-5-Aufstieg für V2, V3 und V4** — größter Multi-Vortrag-Hebel des Audit-Workflows.
 
 **Wichtiger Audit-Befund Sammel-Cite-Audit `muelleroppliger2021handbuch` (2026-05-17):** Alle 3 verbliebenen Sammel-Cites zur `@book`-Hülse `muelleroppliger2021handbuch` wurden auf konkrete `@incollection`-Bibkeys präzisiert: (1) `mpv.tex` L:396 + `mpv_abgabedokument.tex` L:274 (Begriffsklärung Begabung/Potenzial) → `\textcite[S.\,218]{muelleroppliger2021begabungsmodelle}` (Master-Direktzitat S. 218 Fazit aus dem Begabungsmodelle-Audit); (2) `mpv.tex` L:1156 (Renzullis Drehtürmodell) → `\parencite[S.\,333--345]{reisrenzullimueller2021sem}` (SEM-Beitrag im Sammelband). **Der Bibkey `muelleroppliger2021handbuch` wird damit in keiner TeX-Quelldatei mehr zitiert.** Bib-Eintrag bleibt erhalten als `@book`-Referenz für `crossref`-Verwendung der `@incollection`-Beiträge. `Literatur/muelleroppliger2021handbuch/verified_quotes.md` wurde von Status 2 auf „Abgeschlossen / nicht mehr aktiv zitiert“ umgestellt.
 
@@ -161,7 +164,11 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 11. ~~**`hurschler2020handschriftbeurteilung`** (V2)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate); alle 5 mpv.tex-Locator funktional korrekt; **erster Status-5-Anker für Vortrag 2**.
 12. ~~**`muelleroppliger2021plurale`** (V4)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate); 2 mpv.tex-Locator-Korrekturen (kritischer Off-by-3-Fehler L:3179 `S.\,41\psq` → `S.\,38`; L:3326 Präzisierung).
 13. ~~**`muelleroppliger2021handbuch`** Sammel-Cite-Audit~~ ✅ **abgeschlossen 2026-05-17** — alle 3 (nicht 14, alter Stand-Fehler) Sammel-Cites präzisiert auf konkrete `@incollection`-Bibkeys (`muelleroppliger2021begabungsmodelle` 2× mit S. 218; `reisrenzullimueller2021sem` 1× mit S. 333–345); Bibkey nicht mehr aktiv zitiert.
-14. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
+14. ~~**`lehwald2017motivation`** (V2 + V3 + V4)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z09 (9 wortgetreue Zitate); 5 Original-Kapitel-PDFs zu `source.pdf` (122 S.) konsolidiert; alle 12 mpv.tex-Locator funktional korrekt; **gleichzeitiger Status-5-Aufstieg für drei Vorträge**.
+15. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
+16. **`gold2018lesenkannmanlernen`** (V2, 11 Cites) — V2-Stärkung, nächste sinnvolle Multi-Cite-Quelle.
+17. **`nottbusch2017graphomotorik`** (V2, 5 Cites) — V2-Schreibförderung-Anker.
+18. **`saegesserwyss2021grafinkrahmenmodell`** (V2, 5 Cites) — V2-Schreibförderung-Anker.
 
 Quellen mit Status 1 (NO_LOCAL) müssen separat beschafft werden — nicht im normalen Audit-Workflow.
 
