@@ -73,7 +73,7 @@
 |---|---|---|---|---|---|---|
 | `buholzerkummerwyss2010reaktionen` | 78–85 | ✓ | — | — | 2 | — |
 | `muelleroppliger2021plurale` | 32–42 | ✓ | — | — | 2 | — |
-| `muelleroppliger2021begabungsmodelle` | 204–219 | ✓ | — | — | 2 | — |
+| `muelleroppliger2021begabungsmodelle` | 204–219 | ✓ (Foto-Scan, 1400 px Q70) | (Vision Pass 2) | ✓ Z01–Z08 + Bibkey-Disziplin-Befund | **5** | 2026-05-17 |
 | `reisrenzullimueller2021sem` | 333–345 | ✓ | — | — | 2 | — |
 | `weigand2021separativ` | 290–298 | ✗ NO_LOCAL | — | — | 1 | — |
 | `muelleroppliger2021adaptive` | 374–385 | ✓ | — | — | 2 | — |
@@ -99,14 +99,14 @@
 
 ---
 
-## Aktuelle Bilanz (Stand 2026-05-16, nach Evers-2025-Audit)
+## Aktuelle Bilanz (Stand 2026-05-17, nach Müller-Oppliger-Begabungsmodelle-Audit)
 
 | Status | Anzahl Bibkeys | Anteil |
 |---|---|---|
-| **5** (wortgetreu, zitierfähig) | **11** | 22 % |
+| **5** (wortgetreu, zitierfähig) | **12** | 24 % |
 | 4 (Volltext Pass 1) | 0 | 0 % |
 | 3 (Sammelband/Text-PDF) | ca. 10 | 20 % |
-| 2 (bibliographisch verortet) | ca. 24 | 48 % |
+| 2 (bibliographisch verortet) | ca. 23 | 46 % |
 | 1 (NO_LOCAL) | 5 | 10 % |
 | **Gesamt** | **ca. 50** | 100 % |
 
@@ -122,8 +122,11 @@
 - `behrensen2019inklusive` (V3 fluchtspezifische Belastungen, traumasensible Pädagogik, Konzept des guten Grundes) — Z01–Z08 wortgetreu + Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase) — **2026-05-16**
 - `wagener2021bfhemmendfoerdernd` (V4 Lehrkraftrolle/Schulleitung/Bildungspolitik, V5 SHP-Beratungshaltung) — Z01–Z08 wortgetreu + 4 mpv.tex-Locator-Korrekturen (S.\,425 → S.\,424; S.\,424\psq → S.\,424) + Bib-Author-Korrektur (Wagener → Wagner) — **2026-05-16**
 - `evers2025stress` (V3 Stressforschung, Sichtbarkeitsformel) — Z01–Z08 wortgetreu + Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781 (faktischer Fehler: Evers nennt nicht den Hippocampus, sondern Amygdala + präfrontaler Cortex) — **2026-05-16**
+- `muelleroppliger2021begabungsmodelle` (V1 Stein 1, V4 Theorie-Anker, V3 Sichtbarkeitsformel) — Z01–Z08 wortgetreu (Master-Direktzitat S.\,218 Fazit; DMGT/Aktiotop/Trautmann/Münchner-Modell-Belege); 44.5 MB Original komprimiert auf 5.05 MB; alle 4 mpv.tex-Locator korrekt; Bibkey-Disziplin-Audit `@book` (`muelleroppliger2021handbuch`) vs. `@incollection` (`muelleroppliger2021begabungsmodelle`) dokumentiert — **2026-05-17**
 
-**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat einen Status-5-Anker** (Wagner 2021).
+**Vortrag 1 ist durchgehend wortgetreu belegt.** **Vortrag 5 hat fünf Status-5-Anker** (Baudson 2025 + Koop + Baudson 2021 + Wagner 2021 + Kuhl 2019). **Vortrag 3 hat fünf Status-5-Anker** (Kuhl/Hofmann 2019 PSI-Theorie + Grossrieder 2010 Anerkennungstheorie + Baudson 2021 Inklusionsdebatte + Behrensen 2019 fluchtspezifische Belastungen + Evers 2025 Stressforschung). **Vortrag 4 hat zwei Status-5-Anker** (Wagner 2021 + Müller-Oppliger 2021 Begabungsmodelle).
+
+**Wichtiger Audit-Befund Müller-Oppliger-Begabungsmodelle (2026-05-17):** `Quellen.bib` enthält zwei verwandte Bibkeys, die strikt zu unterscheiden sind: `muelleroppliger2021handbuch` (`@book`, gesamter 608-S.-Sammelband Hrsg. Müller-Oppliger/Weigand, in `mpv.tex` 14 oft locator-lose Sammel-Cites) vs. `muelleroppliger2021begabungsmodelle` (`@incollection`, konkreter Beitrag S. 204–219, in `mpv.tex` 4 präzise Cites). **Folge-Audit:** Die 14 Sammel-Cites sollten — wo inhaltlich präzisierbar — auf konkrete `@incollection`-Bibkeys mit Seitenangabe umgestellt werden. Master-Direktzitat S. 218 (Fazit) trägt mpv.tex L:574+617 wortgetreu. Audio-Transkript in `excerpts/teil2_*.md` ist wegen Hörfehlern („Renzoli“, „Garnier“, „Stachoviak“) **nicht zitierfähig**.
 
 **Wichtiger Audit-Befund Evers:** mpv.tex Z. 4775–4777 enthielt einen faktischen Fehler — zugeschrieben an Evers, war aber außer-Quellenbezug: „Funktionsfähigkeit des **Hippocampus** (Gedächtnis)“. Evers nennt im gesamten Beitrag (S. 21–27) nicht ein einziges Mal den Hippocampus, sondern Amygdala (S. 22, vergrößert sich bei chronischem Stress) und präfrontaler Cortex (S. 23, Selbstregulation). Korrektur am 2026-05-16 umgesetzt. Eine frühere Audit-Notiz vom 2026-04-28 hatte falsch behauptet, der Verweis sei bereits entfernt.
 
@@ -148,9 +151,11 @@ Reihenfolge orientiert sich am Bedarf der Vorträge an wörtlichen Zitaten:
 7. ~~**`behrensen2019inklusive`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate, S. 86–98); kritischer Audit-Befund zum Begriff „kumulative Belastung“ (Paraphrase, von Behrensen nicht wörtlich verwendet); alle 5 mpv.tex-Locator funktional korrekt.
 8. ~~**`wagener2021bfhemmendfoerdernd`** (V4+V5)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); 4 mpv.tex-Locator-Korrekturen (Z. 3200, 3368, 3504, 3508); Bib-Author korrigiert (Wagner statt Wagener).
 9. ~~**`evers2025stress`** (V3)~~ ✅ **abgeschlossen 2026-05-16** — Z01–Z08 (8 wortgetreue Zitate); kritischer Hippocampus→Amygdala-Korrektur in mpv.tex Z. 4775–4781; alle 3 Locator korrekt.
-10. **`muelleroppliger2021begabungsmodelle`** (V4) — Theorie-Anker für Vortrag 4.
-11. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF.
-12. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
+10. ~~**`muelleroppliger2021begabungsmodelle`** (V1+V3+V4)~~ ✅ **abgeschlossen 2026-05-17** — Z01–Z08 (8 wortgetreue Zitate, davon Master-Zitat S. 218 Fazit); Foto-Scan komprimiert (44.5 MB → 5.05 MB); Bibkey-Disziplin-Befund (`@book` vs. `@incollection`); alle 4 mpv.tex-Locator korrekt.
+11. **`hurschler2020handschriftbeurteilung`** (V2) — Stein-Quelle Vortrag 2, text-PDF; **V2 hat noch keinen Status-5-Anker** → hohe Prio.
+12. **`muelleroppliger2021plurale`** (V4) — V4-Stärkung, Theorie-Anker.
+13. **`muelleroppliger2021handbuch`** Sammel-Cite-Audit — 14 Cite-Stellen ohne Locator präzisieren auf `@incollection`-Bibkeys.
+14. **`kuhl2021begabungbildungbeziehung`** (V3) — nur in Kernliteratur-Tabelle zitiert (kein inline-Cite), niedrige Audit-Prio.
 
 Quellen mit Status 1 (NO_LOCAL) müssen separat beschafft werden — nicht im normalen Audit-Workflow.
 
