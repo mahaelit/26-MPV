@@ -1,0 +1,422 @@
+\documentclass[ngerman, a4paper, landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Aptos}[
+  Path           = ../aptos-font/,
+  Extension      = .ttf,
+  UprightFont    = aptos,
+  BoldFont       = aptos-bold,
+  ItalicFont     = aptos-italic,
+  BoldItalicFont = aptos-black-italic
+]
+\usepackage{babel}
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage[margin=0mm]{geometry}
+\usepackage{calc}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tabularx}
+
+% Colors matching the main document for Frage 5
+\definecolor{preussischblau}{RGB}{0,49,83}
+\definecolor{fragefuenfbg}{RGB}{215,225,245}
+\definecolor{fragefuenfframe}{RGB}{60,90,160}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\topskip=0pt
+
+\pagestyle{empty}
+
+% Define the card front layout box
+\newtcolorbox{cardfrontbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\large\bfseries,
+  title={Karte #1 \hfill \normalfont\small\sffamily Frage 5},
+  left=10mm, right=10mm, top=10mm, bottom=10mm,
+  valign=center,
+  halign=center,
+  nobeforeafter
+}
+
+% Define the card back layout box
+\newtcolorbox{cardbackbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\bfseries,
+  title={Karte #1 (Rückseite) \hfill \normalfont\small\sffamily Frage 5},
+  left=8mm, right=8mm, top=6mm, bottom=6mm,
+  nobeforeafter
+}
+
+% Define macro for Front card rendering
+\newcommand{\CardFront}[3]{%
+  % #1: ID
+  % #2: Title
+  % #3: Description
+  \begin{cardfrontbox}{#1}
+    \begin{spacing}{1.1}
+      {\fontsize{15pt}{19pt}\selectfont\bfseries\textcolor{preussischblau}{#2}\par}
+      \vskip 4mm
+      \textcolor{fragefuenfframe}{\rule{60mm}{2pt}}\par
+      \vskip 4mm
+      {\fontsize{11pt}{15pt}\selectfont\itshape #3\par}
+    \end{spacing}
+  \end{cardfrontbox}%
+}
+
+% Define macro for Back card rendering
+\newcommand{\CardBack}[5]{%
+  % #1: ID
+  % #2: Theorie
+  % #3: Hauptquellen
+  % #4: Fallbezug S.
+  % #5: Vortragspointe
+  \begin{cardbackbox}{#1}
+    \begin{spacing}{1.0}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Theorie:}}
+        \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, parsep=0pt, partopsep=0pt]
+          #2
+        \end{itemize}
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Hauptquellen:}} #3 \\
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Fallbezug S.:}} #4 \\
+        \vskip 4pt
+        \begin{tcolorbox}[
+          colback=fragefuenfbg!40,
+          colframe=fragefuenfframe,
+          arc=1mm,
+          boxrule=0.3mm,
+          left=3mm, right=3mm, top=2mm, bottom=2mm,
+          nobeforeafter
+        ]
+          {\fontsize{8.5pt}{10.5pt}\selectfont\textbf{Vortragspointe:} \textit{#5}}
+        \end{tcolorbox}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% Layout macro for page of 4 cards
+\newcommand{\renderfour}[4]{%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #1%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #2%
+  \end{minipage}\par\nointerlineskip%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #3%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #4%
+  \end{minipage}\newpage
+}
+
+% =========================================================================
+% CARD DATA DEFINITIONS
+% =========================================================================
+
+% --- Karte 5.1 ---
+\newcommand{\CardFrontFiveOne}{%
+  \CardFront{5.1}{Personenprinzip und anti-essentialistischer Begabungsbegriff}{Das Kind primär als Person begreifen statt als Summe von Diagnosen}%
+}
+\newcommand{\CardBackFiveOne}{%
+  \CardBack{5.1}{%
+    \item \textbf{Personenprinzip}: Das Konzept von Weigand (2021) versteht das Kind grundlegend als Person. Die Person ist Selbstzweck und darf nicht auf ihre schulische Funktionalität, Defizite oder statistische Eigenschaften reduziert werden.
+    \item \textbf{Anti-Essentialismus}: Begabung ist keine fixe, im Kind ruhende Substanz (Anlage-Essenz), sondern eine entwicklungsoffene Möglichkeit. Sie konstituiert sich erst in der konkreten pädagogischen Bildungssituation.
+    \item \textbf{Konsequenz für Beratung}: Die sonderpädagogische Haltung der SHP orientiert sich an Potenzialen und Rechten der Person, nicht an institutionellen Defizitlisten. Es begründet die fachliche Unabhängigkeit der SHP im Team.
+  }{%
+    Weigand 2021 (Begabung, Bildung und Person; werkspezifisch generisch gehalten)%
+  }{%
+    Wenn S. anfangs nur als „auffällig, weinerlich und störend“ beschrieben wird, droht die Person hinter den Eigenschaftszuschreibungen zu verschwinden. Die SHP stützt sich auf das Personenprinzip, um diese Defizitreduktion im Team zu durchbrechen.%
+  }{%
+    Wer das Kind nicht reduzieren will, muss bei der Person anfangen.%
+  }%
+}
+
+% --- Karte 5.2 ---
+\newcommand{\CardFrontFiveTwo}{%
+  \CardFront{5.2}{Institutionelle Diskriminierung}{Die Verwebung sozialer Kategorien und strukturelle Barrieren}%
+}
+\newcommand{\CardBackFiveTwo}{%
+  \CardBack{5.2}{%
+    \item \textbf{Definition}: Benachteiligungen, die nicht auf individuellen Vorurteilen von Lehrpersonen beruhen, sondern sich systematisch aus den Routinen, Erwartungen und Selektionskriterien der Bildungsinstitution ergeben (Horváth 2021).
+    \item \textbf{Schnittstellen-Effekt}: Begabtenförderung reproduziert Diskriminierung, wenn sie nur die Schüler:innen fördert, die bereits gängigen Sprach- und Verhaltensnormen entsprechen.
+    \item \textbf{Intersektionalität}: Soziale Herkunft, Migrationshintergrund, Schulsprache und Verhaltensprofile sind eng \textbf{verwoben} (intersektional) und verstärken sich gegenseitig in ihrer Selektionswirkung.
+    \item \textbf{Heilpädagogische Haltung}: SHPs beraten nicht nur das Kind, sondern auch das System bezüglich dieser strukturellen Barrieren.
+  }{%
+    Horváth 2021 (Elite, Begabung und soziale Ungleichheit; werkspezifisch generisch gehalten)%
+  }{%
+    S.s Situation vereint Migration, DaZ-Status, graphomotorische Schwächen und Verhaltensauffälligkeit. Eine rein defizitäre Einzelfallperspektive übersieht, dass seine Risikokonstellation durch die institutionellen Anforderungen mitproduziert wird.%
+  }{%
+    Die Strukturen sind nicht neutral. Beratung muss das wissen.%
+  }%
+}
+
+% --- Karte 5.3 ---
+\newcommand{\CardFrontFiveThree}{%
+  \CardFront{5.3}{Universal Design for Learning (UDL)}{Didaktische Barrierefreiheit von Anfang an statt nachträglichem Ausgleich}%
+}
+\newcommand{\CardBackFiveThree}{%
+  \CardBack{5.3}{%
+    \item \textbf{Definition}: Ein didaktischer Ansatz, der Lernumgebungen von Beginn an so gestaltet, dass sie für alle Lernenden ohne nachträgliche Anpassungen zugänglich sind.
+    \item \textbf{Drei UDL-Säulen}:
+      \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt]
+        \item \textit{Repräsentation}: Vielfältige Darbietung von Informationen (auditiv, visuell, haptisch).
+        \textit{Ausdruck}: Vielfältige Handlungs- und Dokumentationswege (Sprechen, Schreiben, Zeichnen, Bauen).
+        \item \textit{Engagement}: Vielfältige Motivationshilfen (Interessenwahl, Kooperation, Selbstregulation).
+      \end{itemize}
+    \item \textbf{Gemeinsamer Gegenstand (Feuser)}: Alle Kinder lernen am selben Thema auf ihrem jeweiligen Entwicklungsniveau. Barrieren liegen im Design, nicht im Kind.
+  }{%
+    Müller-Bösch \& Schaffner Menn 2021 (Inklusiver Unterricht; werkspezifisch generisch gehalten)%
+  }{%
+    Der schriftsprachlastige Regelunterricht blockiert S. SOLUX wendet UDL-Prinzipien an: Es entlastet die Schriftsprache (Schachbrett als Repräsentation und Ausdruck) und fördert über das forschende Schachprojekt ein hohes kognitives Engagement.%
+  }{%
+    Bevor ich das Kind frage, frage ich das Design.%
+  }%
+}
+
+% --- Karte 5.4 ---
+\newcommand{\CardFrontFiveFour}{%
+  \CardFront{5.4}{Diversitätssensible Professionalisierung}{Die reflexive Haltung gegenüber eigenen Begabungs- und Stereotypenbildern}%
+}
+\newcommand{\CardBackFiveFour}{%
+  \CardBack{5.4}{%
+    \item \textbf{Reflexivität}: Professionelles Handeln verlangt die bewusste Auseinandersetzung der Lehrpersonen und SHPs mit ihren eigenen Wertehaltungen, Begabungsbegriffen und impliziten Erwartungsmustern (Macha 2019).
+    \item \textbf{Stereotypen-Hürde}: Unreflektierte Vorstellungen über „Begabte“ (z. B. nur sprachlich gewandte, ruhige Kinder aus bildungsnahen Familien) führen zur Übersehung von Minoritäten und Underachievern.
+    \item \textbf{Beratungsaufgabe}: Diversitätssensible Beratung der SHP stützt die Reflexionsfähigkeit des Teams, ohne moralisierend zu urteilen. Sie legt Deutungen offen.
+  }{%
+    Macha 2019 (Gender- und diversitätssensible Begabungsförderung; werkspezifisch generisch gehalten)%
+  }{%
+    Die Erstbeschreibung von S. als unkonzentriert und emotional labil ist ein Produkt unreflektierter Erwartungsmuster. Die SHP bringt durch diversitätssensible Beratung S.s Ressourcen (Schach-Expertise, Logik) ins Blickfeld der Lehrpersonen.%
+  }{%
+    Die SHP fragt nicht nur, was das Team sieht. Sondern auch, warum es das sieht.%
+  }%
+}
+
+% --- Karte 5.5 ---
+\newcommand{\CardFrontFiveFive}{%
+  \CardFront{5.5}{Kokonstruktive Kooperation}{Qualitätsstufen der Zusammenarbeit nach Gräsel und Fussangel}%
+}
+\newcommand{\CardBackFiveFive}{%
+  \CardBack{5.5}{%
+    \item \textbf{Drei Kooperationsstufen}:
+      \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt]
+        \item \textit{Austausch}: Weitergabe von Informationen (Termine, Materialien, Notizen).
+        \item \textit{Arbeitsteilung}: Verteilung von Aufgaben (wer bereitet welches Arbeitsblatt vor).
+        \item \textit{Kokonstruktion}: Gemeinsames Problemlösen, Diskutieren von Diagnosen und kooperative Unterrichtsentwicklung.
+      \end{itemize}
+    \item \textbf{Veränderungswirkung}: Nur Kokonstruktion erzeugt neues professionelles Wissen und verändert starre Deutungsmuster nachhaltig.
+    \item \textbf{Bedingungen}: Benötigt gemeinsame Reflexionszeiten, gegenseitige Wertschätzung und das Aushandeln zwischen Kooperationsanspruch und Autonomie der Lehrkraft.
+  }{%
+    Grosche, Fussangel \& Gräsel 2020 (Kokonstruktive Kooperation; werkspezifisch generisch gehalten)%
+  }{%
+    Reiner Informationsaustausch hätte die defizitorientierte Haltung gegenüber S. zementiert. Durch Kokonstruktion (gemeinsame Fallberatung von Klassenlehrperson, DaZ-Lehrperson und SHP) wurde ein geteiltes, ressourcenorientiertes Bild entwickelt.%
+  }{%
+    Austausch erhält das Bild, Kokonstruktion verändert es.%
+  }%
+}
+
+% --- Karte 5.6 ---
+\newcommand{\CardFrontFiveSix}{%
+  \CardFront{5.6}{Multiprofessionelle Teams an inklusiven Schulen}{Strukturen, Rollenklarheit und fachliche Kooperation}%
+}
+\newcommand{\CardBackFiveSix}{%
+  \CardBack{5.6}{%
+    \item \textbf{Multiprofessionalität}: Das Gelingen inklusiver Begabungsförderung hängt vom koordinierten Zusammenwirken von Regellehrpersonen, SHPs, DaZ-Kräften, Schulpsychologie (SPD) und Therapeuten (PMT) ab (Widmer-Wolf 2018).
+    \item \textbf{Gelingensbedingungen}: Kooperation erfordert feste zeitliche Gefässe, klare Rollenverteilung, das Überwinden beruflicher Hierarchien und Unterstützung durch die Schulleitung.
+    \item \textbf{Rolle der SHP}: Die SHP fungiert als kooperative Schnittstelle und Übersetzerin zwischen den unterschiedlichen Fachsprachen und Diagnosen, ohne ein Monopol zu beanspruchen.
+  }{%
+    Widmer-Wolf 2018 (Kooperation in multiprofessionellen Teams; werkspezifisch generisch gehalten)%
+  }{%
+    S.s Unterstützung erfordert das Ineinandergreifen von SHP, Klassenlehrerin, DaZ, Psychomotoriktherapie (PMT) und SPD. Die SHP steuert diese multiprofessionelle Kooperation strukturell, um Zersplitterung der Massnahmen zu verhindern.%
+  }{%
+    Multiprofessionelle Kooperation ist Struktur, nicht Sympathie.%
+  }%
+}
+
+% --- Karte 5.7 ---
+\newcommand{\CardFrontFiveSeven}{%
+  \CardFront{5.7}{Schulische Massnahmen und Lehrkompetenzen}{Systemisches Zusammenwirken von Schulstrukturen und Lehrerprofessionalität}%
+}
+\newcommand{\CardBackFiveSeven}{%
+  \CardBack{5.7}{%
+    \item \textbf{Zwei Säulen}: Wirkungsvolle Begabungsförderung erfordert sowohl strukturelle Rahmenbedingungen (schulische Massnahmen) als auch pädagogische Fachkompetenzen der Akteure (Nguyen \& Sliwka 2021).
+    \item \textbf{Strukturelle Massnahmen}: Bereitstellung flexibler Förderformate (Enrichment, Akzeleration, Drehtürmodell, offene Lernwerkstätten).
+    \item \textbf{Kompetenzen}: Diagnostische Sensibilität für unerkannte Begabungen, Beratungskompetenz für Team und Eltern, differenzierende Didaktik.
+    \item \textbf{Systemischer Charakter}: Begabtenförderung ist eine Aufgabe der Schulentwicklung, nicht das isolierte Projekt einer einzelnen Lehrperson.
+  }{%
+    Nguyen \& Sliwka 2021 (Massnahmen und Kompetenzen; werkspezifisch generisch gehalten)%
+  }{%
+    S.s Erfolg beruht auf der Verknüpfung von Struktur (SOLUX-Angebot als schulisches Enrichment) und Kompetenz (die differenzierende, stärkenfokussierte Begleitung durch die SHP und die wachsende Offenheit der Klassenlehrerin).%
+  }{%
+    Begabungsförderung ist Schulentwicklung. Sie steht und fällt mit System und Profession zugleich.%
+  }%
+}
+
+% --- Karte 5.8 ---
+\newcommand{\CardFrontFiveEight}{%
+  \CardFront{5.8}{Eltern als Wissensquelle (Perspektivumkehr)}{Biografische Ressourcen und barrierefreie Elternzusammenarbeit}%
+}
+\newcommand{\CardBackFiveEight}{%
+  \CardBack{5.8}{%
+    \item \textbf{Perspektivumkehr}: Eltern werden in der Beratung nicht primär als Empfänger schulischer Berichte (Einweg-Information) oder als Problemursache verstanden, sondern als wertvolle Wissensquelle (Kosorok Labhart 2021).
+    \item \textbf{Elternwissen}: Eltern verfügen über unverzichtbares Wissen zur Biografie, zu ausserschulischen Stärken, Interessen und zum familiären Migrationskontext.
+    \item \textbf{Barrierefreie Kommunikation}: Bei Sprachbarrieren ist der systematische Einbezug qualifizierter Dolmetschdienste eine fachliche und ethische Notwendigkeit für eine faire, partnerschaftliche Beratung auf Augenhöhe.
+  }{%
+    Kosorok Labhart 2021 (Von Eltern mit Migrationshintergrund lernen; werkspezifisch generisch gehalten)%
+  }{%
+    S.s krisenhafte Biografie (Mobbingerfahrungen im Ausland) wurde der Schule erst im Januar 2026 durch ein strukturiertes Dolmetschgespräch mit den Eltern vollumfänglich bekannt. Elternwissen war hier der Schlüssel zur adäquaten Förderung.%
+  }{%
+    Eltern sind nicht Empfänger von Information. Sie sind Quelle.%
+  }%
+}
+
+% --- Karte 5.9 ---
+\newcommand{\CardFrontFiveNine}{%
+  \CardFront{5.9}{Diagnostische Fairness}{Mehrperspektivische und sprachreduzierte Verfahren zur Potenzialerkennung}%
+}
+\newcommand{\CardBackFiveNine}{%
+  \CardBack{5.9}{%
+    \item \textbf{Begrenztheit des Lehrerurteils}: Lehrkrafturteile sind anfällig für Stereotype und erkennen Begabte oft nur bei erwartungsgemässen Schulleistungen (Baudson 2025, S.\,36).
+    \item \textbf{Faire Diagnostik}: Verlangt den Einsatz mehrperspektivischer Verfahren. Bei sprachlichen Barrieren müssen sprachfreie/kulturfaire Tests (z. B. Matrizentests) eingesetzt werden, wobei auch diese keine absolute Fairness garantieren (Koop 2025, S.\,66).
+    \item \textbf{Förderung als Diagnostik}: Großzügige Einlasskriterien zu Förderangeboten (Schwellenwert 15--20\,\% aller Kinder) ermöglichen es, Förderung als Beobachtungsfenster für verborgene Fähigkeiten zu nutzen (Koop 2025, S.\,68).
+  }{%
+    Baudson 2025, Koop 2025 (Status 5, verifizierte Zitate aus `pauly2025wasistfair`)%
+  }{%
+    Erst das Zusammenführen von SOLUX-Beobachtungen (Schach), dem sprachfreien SPD-Test, PMT-Diagnostik und dem Elternwissen verhinderte, dass S. im System übersehen wurde. Förderung ging hier der abschliessenden Diagnose voraus.%
+  }{%
+    Wer Begabte besser finden will, darf nicht dort suchen, wo es immer leicht war.%
+  }%
+}
+
+% --- Karte 5.10 (Overview 1) ---
+\newcommand{\CardFrontFiveTen}{%
+  \CardFront{5.10}{Übersicht Karten 5.1 -- 5.5}{Übersicht der Karten 5.1 bis 5.5}%
+}
+\newcommand{\CardBackFiveTen}{%
+  \begin{cardbackbox}{5.10}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 5 -- Theoriebereiche (Teil 1):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{5.1} & \textbf{Personenprinzip \& anti-essentialistischer Begabungsbegriff} \\
+                       & Kind als Person vor Diagnosen; Begabung als entwicklungsoffener Prozess. (Weigand 2021) \\
+          \textbf{5.2} & \textbf{Institutionelle Diskriminierung} \\
+                       & Systemische Barrieren durch schulische Routinen; Intersektionalität der Kategorien. (Horváth 2021) \\
+          \textbf{5.3} & \textbf{Universal Design for Learning (UDL)} \\
+                       & Barrierefreie Didaktik von Anfang an: Repräsentation, Ausdruck \& Engagement. (Müller-Bösch) \\
+          \textbf{5.4} & \textbf{Diversitätssensible Professionalisierung} \\
+                       & Reflexion impliziter Stereotype und eigener Begabungsbilder im Team. (Macha 2019) \\
+          \textbf{5.5} & \textbf{Kokonstruktive Kooperation} \\
+                       & Wissens- und Lösungsentwicklung auf Augenhöhe statt reinem Austausch. (Fussangel/Gräsel) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 5.11 (Overview 2) ---
+\newcommand{\CardFrontFiveEleven}{%
+  \CardFront{5.11}{Übersicht Karten 5.6 -- 5.9 \& SHP-Trias}{Übersicht der Karten 5.6 bis 5.9 und die tragenden Säulen der SHP-Trias}%
+}
+\newcommand{\CardBackFiveEleven}{%
+  \begin{cardbackbox}{5.11}
+    \begin{spacing}{0.95}
+      {\fontsize{8pt}{9.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 5 -- Theoriebereiche (Teil 2):}}
+        \vskip 1pt
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{5.6} & \textbf{Multiprofessionelle Teams an inklusiven Schulen} \\
+                       & Koop-Strukturen, Rollenklarheit und Schulleitungssupport. (Widmer-Wolf 2018) \\
+          \textbf{5.7} & \textbf{Schulische Massnahmen und Lehrkompetenzen} \\
+                       & Systemische Begabungsförderung als Schulentwicklungsaufgabe. (Nguyen \& Sliwka 2021) \\
+          \textbf{5.8} & \textbf{Eltern als Wissensquelle (Perspektivumkehr)} \\
+                       & Eltern als biografische Ressourcen; Bedeutung qualifizierter Dolmetscher. (Kosorok Labhart 2021) \\
+          \textbf{5.9} & \textbf{Diagnostische Fairness} \\
+                       & Mehrperspektivität; sprachfreie Diagnostik; 15--20\,\%-Schwellenwert. (Baudson 2025, Koop 2025) \\
+        \end{tabularx}
+        \vskip 2pt
+        \textbf{\textcolor{preussischblau}{SHP-Trias-Achsen \& tragende Karten:}}
+        \vskip 1pt
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{Fachliche Unabhängigkeit} & $\rightarrow$ Karten 5.1 (Personenprinzip) \& 5.9 (Diagnostische Fairness) \\
+          \textbf{Reflexive Partnerschaftlichkeit} & $\rightarrow$ Karten 5.4 (Reflexion), 5.5 (Kokonstruktion), 5.6 (Team) \& 5.8 (Eltern) \\
+          \textbf{Institutionelle Wachsamkeit} & $\rightarrow$ Karten 5.2 (Diskriminierung), 5.3 (UDL) \& 5.7 (Massnahmen/System) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 5.12 (Einsatzlogik) ---
+\newcommand{\CardFrontFiveTwelve}{%
+  \CardFront{5.12}{Einsatzlogik}{Einsatzlogik im Prüfungsgespräch}%
+}
+\newcommand{\CardBackFiveTwelve}{%
+  \begin{cardbackbox}{5.12}
+    \begin{spacing}{0.9}
+      {\fontsize{7.5pt}{9.2pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Einsatzlogik im Prüfungsgespräch (Mögliche Fragen \& Karten):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.15}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{„Was ist Ihre heilpädagogische Grundhaltung?“} & $\rightarrow$ \textbf{Karte 5.1} (Personenprinzip, Weigand, fachliche Unabhängigkeit) \\
+          \textbf{„Sind das nicht strukturelle Probleme?“} & $\rightarrow$ \textbf{Karten 5.2 \& 5.3} (Institutionelle Diskriminierung, UDL, Systemberatung) \\
+          \textbf{„Wie reflektieren Sie Ihre eigene Wahrnehmung?“} & $\rightarrow$ \textbf{Karte 5.4} (Diversitätssensible Professionalität, Reflexion im Team) \\
+          \textbf{„Wie sieht Ihre Teamarbeit konkret aus?“} & $\rightarrow$ \textbf{Karten 5.5 \& 5.6} (Kokonstruktion statt Austausch, multiprofessioneller Koop-Struktur) \\
+          \textbf{„Welche Rolle spielen Lehrkompetenzen und Schulstrukturen?“} & $\rightarrow$ \textbf{Karte 5.7} (Nguyen \& Sliwka, systemische Schulentwicklungsaufgabe) \\
+          \textbf{„Wie arbeiten Sie mit Eltern zusammen?“} & $\rightarrow$ \textbf{Karte 5.8} (Perspektivumkehr, Elternwissen als Ressource, Dolmetsch-Gespräche) \\
+          \textbf{„Ist das Lehrkrafturteil nicht genug?“} & $\rightarrow$ \textbf{Karte 5.9} (Baudson 2025, Koop 2025, Mehrperspektivität, Förderung vor Diagnose) \\
+          \textbf{„Wie stützt sich Ihre SHP-Trias theoretisch ab?“} & $\rightarrow$ \textbf{Karte 5.11} (Zuordnung Trias-Achsen zu Weigand, Horváth, Baudson, Fussangel etc.) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% =========================================================================
+% DOCUMENT START
+% =========================================================================
+\begin{document}
+
+% SHEET 1 - FRONT
+\renderfour{\CardFrontFiveOne}{\CardFrontFiveTwo}{\CardFrontFiveThree}{\CardFrontFiveFour}
+
+% SHEET 1 - BACK (Horizontally flipped)
+\renderfour{\CardBackFiveTwo}{\CardBackFiveOne}{\CardBackFiveFour}{\CardBackFiveThree}
+
+% SHEET 2 - FRONT
+\renderfour{\CardFrontFiveFive}{\CardFrontFiveSix}{\CardFrontFiveSeven}{\CardFrontFiveEight}
+
+% SHEET 2 - BACK (Horizontally flipped)
+\renderfour{\CardBackFiveSix}{\CardBackFiveFive}{\CardBackFiveEight}{\CardBackFiveSeven}
+
+% SHEET 3 - FRONT
+\renderfour{\CardFrontFiveNine}{\CardFrontFiveTen}{\CardFrontFiveEleven}{\CardFrontFiveTwelve}
+
+% SHEET 3 - BACK (Horizontally flipped)
+\renderfour{\CardBackFiveTen}{\CardBackFiveNine}{\CardBackFiveTwelve}{\CardBackFiveEleven}
+
+\end{document}

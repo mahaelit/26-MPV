@@ -1,0 +1,414 @@
+\documentclass[ngerman, a4paper, landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Aptos}[
+  Path           = ../aptos-font/,
+  Extension      = .ttf,
+  UprightFont    = aptos,
+  BoldFont       = aptos-bold,
+  ItalicFont     = aptos-italic,
+  BoldItalicFont = aptos-black-italic
+]
+\usepackage{babel}
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage[margin=0mm]{geometry}
+\usepackage{calc}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tabularx}
+
+% Colors matching the main document for Frage 4
+\definecolor{preussischblau}{RGB}{0,49,83}
+\definecolor{fragevierbg}{RGB}{205,225,240}
+\definecolor{fragevierframe}{RGB}{90,140,200}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\topskip=0pt
+
+\pagestyle{empty}
+
+% Define the card front layout box
+\newtcolorbox{cardfrontbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\large\bfseries,
+  title={Karte #1 \hfill \normalfont\small\sffamily Frage 4},
+  left=10mm, right=10mm, top=10mm, bottom=10mm,
+  valign=center,
+  halign=center,
+  nobeforeafter
+}
+
+% Define the card back layout box
+\newtcolorbox{cardbackbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\bfseries,
+  title={Karte #1 (Rückseite) \hfill \normalfont\small\sffamily Frage 4},
+  left=8mm, right=8mm, top=6mm, bottom=6mm,
+  nobeforeafter
+}
+
+% Define macro for Front card rendering
+\newcommand{\CardFront}[3]{%
+  % #1: ID
+  % #2: Title
+  % #3: Description
+  \begin{cardfrontbox}{#1}
+    \begin{spacing}{1.1}
+      {\fontsize{15pt}{19pt}\selectfont\bfseries\textcolor{preussischblau}{#2}\par}
+      \vskip 4mm
+      \textcolor{fragevierframe}{\rule{60mm}{2pt}}\par
+      \vskip 4mm
+      {\fontsize{11pt}{15pt}\selectfont\itshape #3\par}
+    \end{spacing}
+  \end{cardfrontbox}%
+}
+
+% Define macro for Back card rendering
+\newcommand{\CardBack}[5]{%
+  % #1: ID
+  % #2: Theorie
+  % #3: Hauptquellen
+  % #4: Fallbezug S.
+  % #5: Vortragspointe
+  \begin{cardbackbox}{#1}
+    \begin{spacing}{1.0}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Theorie:}}
+        \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, parsep=0pt, partopsep=0pt]
+          #2
+        \end{itemize}
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Hauptquellen:}} #3 \\
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Fallbezug S.:}} #4 \\
+        \vskip 4pt
+        \begin{tcolorbox}[
+          colback=fragevierbg!40,
+          colframe=fragevierframe,
+          arc=1mm,
+          boxrule=0.3mm,
+          left=3mm, right=3mm, top=2mm, bottom=2mm,
+          nobeforeafter
+        ]
+          {\fontsize{8.5pt}{10.5pt}\selectfont\textbf{Vortragspointe:} \textit{#5}}
+        \end{tcolorbox}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% Layout macro for page of 4 cards
+\newcommand{\renderfour}[4]{%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #1%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #2%
+  \end{minipage}\par\nointerlineskip%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #3%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #4%
+  \end{minipage}\newpage
+}
+
+% =========================================================================
+% CARD DATA DEFINITIONS
+% =========================================================================
+
+% --- Karte 4.1 ---
+\newcommand{\CardFrontFourOne}{%
+  \CardFront{4.1}{Begabungsmodelle: statisch vs. dynamisch}{Der Paradigmenwechsel vom anlagenzentrierten zum systemisch-interaktiven Begabungsbegriff}%
+}
+\newcommand{\CardBackFourOne}{%
+  \CardBack{4.1}{%
+    \item \textbf{Klassisch vs. Modern}: Statische, IQ-zentrierte Modelle begreifen Begabung als stabile, angeborene Eigenschaft. Moderne Modelle verstehen sie als veränderbares, dynamisches System.
+    \item \textbf{Drei-Wege-Präzisierung}:
+      \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt]
+        \item \textit{DMGT (Gagné)}: Begabung als hohes \textbf{Potenzial} ($\neq$ Talent als \textbf{Performanz}). Intrapersonale \& Umweltkatalysatoren steuern die Transformation (S.\,209).
+        \textit{Aktiotop-Modell (Ziegler)}: Begabung definiert sich nicht über Eigenschaften, sondern als identifizierbarer \textbf{Lernpfad} zu Leistungsexzellenz (S.\,214).
+        \item \textit{Mikadomodell (Trautmann)}: Rahmenfaktoren können Potenziale freilegen oder wie blockierende Mikadostäbe \textbf{hemmen/verschütten} (S.\,217).
+      \end{itemize}
+    \item \textbf{Fazit-Konsens (Müller-Oppliger)}: Subjektive Potenziale, Umweltbedingungen und eigene Entscheidungen wechselwirken dynamisch im Bildungsprozess (S.\,218).
+    \item \textbf{Anti-Essentialismus}: Begabung als sozial-konstruierte Kategorie (Hoyer 2013).
+  }{%
+    Müller-Oppliger 2021 (begabungsmodelle), Hoyer 2013%
+  }{%
+    Ein statisches Modell hätte S. anhand sprachlicher Defizite (Deutsch A1) und Erstverhalten übersehen. Ein dynamisch-kontextuelles Modell fragt, unter welchen Umweltbedingungen sein numerisch-logisches Potenzial (Schach) sichtbar wird.%
+  }{%
+    Begabung ist nicht, was ein Kind ist. Sie ist, was unter den richtigen Bedingungen sichtbar wird.%
+  }%
+}
+
+% --- Karte 4.2 ---
+\newcommand{\CardFrontFourTwo}{%
+  \CardFront{4.2}{Schoolwide Enrichment Model (SEM)}{Das theoretische Fundament von SOLUX nach Renzulli \& Reis}%
+}
+\newcommand{\CardBackFourTwo}{%
+  \CardBack{4.2}{%
+    \item \textbf{Schulweites Konzept}: Das SEM (Renzulli/Reis, dt. Müller-Oppliger) versteht Enrichment nicht als Sonderangebot für wenige Hochbegabte, sondern als systemisches Modell zur Stärkenförderung aller Lernenden.
+    \item \textbf{Drei Enrichment-Trias}:
+      \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt]
+        \item \textit{Typ I}: Allgemeine Erkundungsaktivitäten (Anregungen, Vorträge, Spiele zur Interessenfindung).
+        \item \textit{Typ II}: Gruppentraining von Methoden, Denk-, Lern- und Forschungsstrategien.
+        \item \textit{Typ III}: Vertiefte Untersuchung realer Probleme in Einzel- oder Kleingruppen.
+      \end{itemize}
+    \item \textbf{Diagnostisches Fenster}: Offene Enrichment-Settings bieten ein \textbf{Beobachtungsfenster} für Interessen, Arbeitshaltungen und Begabungsindikatoren, die im geschlossenen Regelunterricht verborgen bleiben (Reis et al. 2021).
+  }{%
+    Reis, Renzulli \& Müller-Oppliger 2021 (deutschsprachige SEM-Rezeption; werkspezifisch generisch gehalten)%
+  }{%
+    SOLUX setzt die SEM-Logik praktisch um: Das Schachprojekt dient als Typ-I-Anregung (Interesse wecken), Typ-II-Training (strategisches Denken) und führt S. in Typ-III-ähnliche Vertiefung. Es dient der SHP als diagnostisches Beobachtungsfenster.%
+  }{%
+    Enrichment ist Förderung. Und nebenbei das beste Diagnoseinstrument, das wir haben.%
+  }%
+}
+
+% --- Karte 4.3 ---
+\newcommand{\CardFrontFourThree}{%
+  \CardFront{4.3}{Separativ, integrativ, inklusiv}{Die drei Modi der Begabungsförderung und ihre Menschenbilder}%
+}
+\newcommand{\CardBackFourThree}{%
+  \CardBack{4.3}{%
+    \item \textbf{Separativ}: Förderung in Sonderklassen oder Spezialschulen. Vorteil: Homogenität. Risiken: Soziale Segregation, Stigmatisierung/Labeling, ungleiche Verteilung von Chancen (Weigand 2021).
+    \item \textbf{Integrativ}: Verbleib in der Regelklasse, aber Förderung über Sonder-Angebote (Pull-Out, Drehtürmodell). Risiko: Begabung wird als Ausnahmekategorie zementiert.
+    \item \textbf{Inklusiv}: Begabungsförderung als integraler Bestandteil der Regelpädagogik (Müller-Oppliger 2021, S.\,32). Begabung wird als entwicklungsoffenes Potenzial aller verstanden.
+    \item \textbf{Bildungsrecht}: UNESCO-Salamanca-Erklärung (1994) verankert das Recht auf individuelle Begabungsentfaltung als demokratisches Grundrecht (S.\,32). Inklusion darf nicht auf Defizitausgleich verengt werden (S.\,39).
+  }{%
+    Weigand 2021 (separativ), Müller-Oppliger 2021 (plurale)%
+  }{%
+    S. profitiert existenziell von SOLUX' inklusiver Ausrichtung. In einem separativen System (Zuweisung nur nach standardisierter Vorab-Diagnostik) wäre er aufgrund seiner Sprach- und Lesebarrieren von der Förderung ausgeschlossen geblieben.%
+  }{%
+    Inklusiv heisst nicht: alle gleich. Inklusiv heisst: alle haben Anspruch auf Anregung.%
+  }%
+}
+
+% --- Karte 4.4 ---
+\newcommand{\CardFrontFourFour}{%
+  \CardFront{4.4}{Adaptive Lernarchitekturen}{Vom Kinderausgleich zur Barrierefreiheit im didaktischen Design}%
+}
+\newcommand{\CardBackFourFour}{%
+  \CardBack{4.4}{%
+    \item \textbf{Lernarchitektur}: Die strukturelle und didaktische Gestaltung einer Lernumgebung (Lernziele, Aufgabenformate, Zugangswege, Dokumentationsmedien und die Rolle der Lehrperson).
+    \item \textbf{Adaptivität}: Gestattet flexible Anpassung an unterschiedliche Lernbedürfnisse. Das Design ermöglicht Differenzierung nach Interesse, Lerntempo, Vorwissen und Darstellungsform (Müller-Oppliger 2021).
+    \item \textbf{Strukturelle Differenzierung}: Paradigmenwechsel von der individuellen Passung (das Kind wird didaktisch passend gemacht) zur strukturellen Offenheit (die Lernumgebung ist von vornherein barrierefrei und adaptiv konzipiert).
+  }{%
+    Müller-Oppliger 2021 (adaptive Lernarchitekturen; werkspezifisch generisch gehalten)%
+  }{%
+    Der Regelunterricht scheitert an mangelnder Adaptivität (Schreib- und Sprachfokus blockiert S.). SOLUX als adaptive Lernarchitektur bietet S. über das Schachbrett einen sprachfreien, kognitiv hochkomplexen Zugang zur Potenzialentfaltung.%
+  }{%
+    Wenn die Architektur stimmt, muss man das Kind nicht zurechtbiegen.%
+  }%
+}
+
+% --- Karte 4.5 ---
+\newcommand{\CardFrontFourFive}{%
+  \CardFront{4.5}{Stärkenorientierte Potenzialentwicklung}{Erst Anschluss an das Können, dann Bearbeitung der Schwierigkeit}%
+}
+\newcommand{\CardBackFourFive}{%
+  \CardBack{4.5}{%
+    \item \textbf{Ressourcenfokus}: Setzt didaktisch konsequent an den Stärken, Interessen und funktionierenden Arbeitsweisen an statt an Defiziten (Schulte ter Hardt 2020).
+    \item \textbf{Methodischer Anschluss}: Stärkenorientierung schafft die notwendige motivationale und emotionale Basis (Selbstkonzept, Selbstwirksamkeit). Erst nach diesem Beziehungs- und Vertrauensaufbau folgt die Bearbeitung von Lernbarrieren.
+    \item \textbf{Forder-Förder-Konzept (Fischer-Tradition)}: Individuelle Potenzialentfaltung durch forschendes Lernen, gezieltes Mentoring und das Präsentieren eigener, stolzbereitender Produkte.
+  }{%
+    Schulte ter Hardt 2020 (stärkenorientierte Lernarchitekturen; werkspezifisch generisch gehalten)%
+  }{%
+    Die Stärken von S. (mathematisch-logisches Verständnis, Schach) dienten als Brücke zur Beziehungsarbeit. Über die in SOLUX erfahrene Selbstwirksamkeit konnte die SHP mit S. die graphomotorischen Blockaden im Regelunterricht angehen.%
+  }{%
+    Wer beim Defizit anfängt, kommt selten beim Potenzial an.%
+  }%
+}
+
+% --- Karte 4.6 ---
+\newcommand{\CardFrontFourSix}{%
+  \CardFront{4.6}{Heterogenität und plurale Gesellschaft}{Heterogenität als Normalität und didaktische Ressource}%
+}
+\newcommand{\CardBackFourSix}{%
+  \CardBack{4.6}{%
+    \item \textbf{Normalität}: Plurale Heterogenität (biografisch, sprachlich, sozial, kognitiv) ist der Normalfall moderner Schule (Buholzer \& Kummer Wyss 2010).
+    \item \textbf{Gefährlicher Fehlschluss}: Die Verwechslung von Gleichheit und Gerechtigkeit („Gleichbehandlung ungleicher Voraussetzungen“) erzeugt in uniformen Schulstrukturen paradoxerweise soziale Selektion und verstärkte Benachteiligung (Müller-Oppliger 2021, S.\,37).
+    \item \textbf{Inklusionshorizont}: Begabungsförderung muss in pluralen Gesellschaften inklusiv gerahmt werden, um Bildungsbarrieren abzubauen und Benachteiligungen entgegenzuwirken.
+  }{%
+    Buholzer \& Kummer Wyss 2010, Müller-Oppliger 2021 (plurale)%
+  }{%
+    S.s Erstbeurteilung im Regelunterricht basiert auf dem Gleichbehandlungs-Fehlschluss: Gleiche Schriftsprach-Anforderungen benachteiligen ihn systematisch. SOLUX nutzt seine Heterogenität als Ressource und schafft Gerechtigkeit durch adaptive Angebote.%
+  }{%
+    Wer Heterogenität als Problem rahmt, hat schon verloren.%
+  }%
+}
+
+% --- Karte 4.7 ---
+\newcommand{\CardFrontFourSeven}{%
+  \CardFront{4.7}{Begabtenförderung als Gerechtigkeitsfrage}{Verdeckte Potenziale, Capability Approach und soziale Ungleichheit}%
+}
+\newcommand{\CardBackFourSeven}{%
+  \CardBack{4.7}{%
+    \item \textbf{Soziale Selektivität}: Schulsysteme vergeben Gymnasialplätze überproportional an bildungsnahe, deutschsprachige Schichten (Müller-Oppliger 2021, S.\,36).
+    \item \textbf{Grauzone (Kronig 2007)}: Männliche Fremdsprachige haben bei gleichen Leistungen nur eine 15\%-Zuweisungschance auf höhere Schulstufen, während deutschsprachige Mädchen eine 88\%-Chance erhalten (S.\,38).
+    \item \textbf{Risikogruppen}: Fremdsprachige, Underachiever und Twice Exceptionals werden im Selektionsprozess leicht übersehen (S.\,36).
+    \item \textbf{Capability Approach (Sen)}: Bildungsgerechtigkeit verlangt die Erweiterung echter Verwirklichungschancen durch aktive Suche nach verdeckten Potenzialen.
+  }{%
+    Sedmak 2021 (Gerechtigkeit), Müller-Oppliger 2021 (plurale), Horváth 2021%
+  }{%
+    S. (männlich, fremdsprachig, Underachiever, Twice-Exceptional-Verdacht) fällt statistisch in die meritokratische 15\%-Grauzone. SOLUX wirkt als gerechtes, diskriminierungsfreies Förderangebot, das sein Potenzial aktiv sucht und sichtbar macht.%
+  }{%
+    Wer Begabung fördert, ohne Gerechtigkeit zu denken, fördert die Sichtbaren noch sichtbarer.%
+  }%
+}
+
+% --- Karte 4.8 ---
+\newcommand{\CardFrontFourEight}{%
+  \CardFront{4.8}{Motivation und Flow im Enrichment}{Die Entlastung von Notendruck und die 6-Ebenen-Pyramide}%
+}
+\newcommand{\CardBackFourEight}{%
+  \CardBack{4.8}{%
+    \item \textbf{Flow-Bedingungen}: Das Flow-Erleben (Csikszentmihalyi) entsteht durch die Balance von Anforderung und Fähigkeiten in offenen Settings. Flow wirkt als „Stabilisator der Lerntätigkeit auf hohem Niveau“ (Lehwald 2017, S.\,89).
+    \item \textbf{Förderpyramide (Abb. 4-3, S. 156)}: Systematische Begabtenförderung auf 6 Ebenen: Differenzierung, Individualisierung, Enrichment, Compacting, Separierung, Akzeleration.
+    \item \textbf{Drehtürmodell (S. 157)}: Ermöglicht flexibles Verlassen des Klassenunterrichts für selbstgesteuertes Forschen bei hoher intrinsischer Motivation.
+  }{%
+    Lehwald 2017 (Motivation trifft Begabung, S.\,89, 151--158)%
+  }{%
+    Im Regelunterricht blockiert S. (Schreibangst). SOLUX bietet ein klassisches Flow-Setting: Die hohe kognitive Herausforderung des Schachs motiviert ihn intrinsisch und stabilisiert sein Lernen. Das Drehtürmodell legitimiert seine SOLUX-Teilnahme.%
+  }{%
+    Enrichment macht Flow nicht zufällig, sondern systematisch.%
+  }%
+}
+
+% --- Karte 4.9 ---
+\newcommand{\CardFrontFourNine}{%
+  \CardFront{4.9}{Schweizer Kontext: IBBF und Volksschule}{Der rechtliche Auftrag der integrativen Begabungsförderung}%
+}
+\newcommand{\CardBackFourNine}{%
+  \CardBack{4.9}{%
+    \item \textbf{Integrativer Auftrag}: Die IBBF (Integrative Begabungs- und Begabtenförderung) ist in Schweizer Volksschulen (z.B. Kanton Luzern, DVS 2025) gesetzlicher Regelauftrag. Integration und Begabungsförderung sind gekoppelt.
+    \item \textbf{Umsetzungs-Diskrepanz}: Schweizer Schulforschung (Grossenbacher 2014) dokumentiert erhebliche Unterschiede in der Praxis. Die Qualität der Begabungsförderung hängt stark von Schulkulturen und individuellem SHP-Engagement ab.
+    \item \textbf{Rolle der SHP}: SHPs sind für die Gestaltung inklusiver Förderarchitekturen und die fachliche Beratung der Regellehrpersonen zuständig.
+  }{%
+    Grossenbacher 2014, DVS 2025 (Stützliteratur; werkspezifisch generisch gehalten)%
+  }{%
+    Das Projekt SOLUX ist keine rein informelle, nette Zusatzaktivität, sondern die Erfüllung des gesetzlichen IBBF-Förderauftrags im Kanton Luzern. Die SHP stützt sich bei der Realisierung auf die kantonalen Leitlinien der DVS.%
+  }{%
+    SOLUX ist nicht ein Extra. Es ist die Umsetzung des kantonalen Auftrags vor Ort.%
+  }%
+}
+
+% --- Karte 4.10 (Overview 1) ---
+\newcommand{\CardFrontFourTen}{%
+  \CardFront{4.10}{Übersicht Karten 4.1 -- 4.5}{Übersicht der Karten 4.1 bis 4.5}%
+}
+\newcommand{\CardBackFourTen}{%
+  \begin{cardbackbox}{4.10}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 4 -- Theoriebereiche (Teil 1):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{4.1} & \textbf{Begabungsmodelle: statisch vs. dynamisch} \\
+                       & Begabung als dynamisches Zusammenspiel von Potenzial, Umwelt \& Person. (Müller-Oppliger 2021) \\
+          \textbf{4.2} & \textbf{Schoolwide Enrichment Model (SEM)} \\
+                       & Drei Enrichment-Typen dienen als Förderung und Diagnosefenster. (Renzulli/Reis 2021) \\
+          \textbf{4.3} & \textbf{Separativ, integrativ, inklusiv} \\
+                       & Inklusion als demokratisches Grundrecht aller auf schulische Anregung. (UNESCO, Weigand 2021) \\
+          \textbf{4.4} & \textbf{Adaptive Lernarchitekturen} \\
+                       & Strukturelle Differenzierung durch flexible, barrierefreie Didaktik. (Müller-Oppliger 2021) \\
+          \textbf{4.5} & \textbf{Stärkenorientierte Potenzialentwicklung} \\
+                       & Selbstwert-Stabilisierung durch Stärkenanschluss vor Defizitbearbeitung. (Schulte ter Hardt 2020) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 4.11 (Overview 2) ---
+\newcommand{\CardFrontFourEleven}{%
+  \CardFront{4.11}{Übersicht Karten 4.6 -- 4.9}{Übersicht der Karten 4.6 bis 4.9}%
+}
+\newcommand{\CardBackFourEleven}{%
+  \begin{cardbackbox}{4.11}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 4 -- Theoriebereiche (Teil 2):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{4.6} & \textbf{Heterogenität und plurale Gesellschaft} \\
+                       & Gleichbehandlung ungleicher Voraussetzungen erzeugt soziale Selektion. (Müller-Oppliger 2021) \\
+          \textbf{4.7} & \textbf{Begabtenförderung als Gerechtigkeitsfrage} \\
+                       & Capability Approach; Gegensteuerung des 15\,\%-Grauzonen-Bias für Migranten. (Kronig, Sedmak) \\
+          \textbf{4.8} & \textbf{Motivation und Flow im Enrichment} \\
+                       & Flow als Lernstabilisator; 6-Ebenen-Förderpyramide \& Drehtürmodell. (Lehwald 2017) \\
+          \textbf{4.9} & \textbf{Schweizer Kontext: IBBF und Volksschule} \\
+                       & Umsetzung des gesetzlichen integrativen IBBF-Auftrags vor Ort. (Grossenbacher, DVS 2025) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 4.12 (Einsatzlogik) ---
+\newcommand{\CardFrontFourTwelve}{%
+  \CardFront{4.12}{Einsatzlogik}{Einsatzlogik im Prüfungsgespräch}%
+}
+\newcommand{\CardBackFourTwelve}{%
+  \begin{cardbackbox}{4.12}
+    \begin{spacing}{0.9}
+      {\fontsize{7.5pt}{9.2pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Einsatzlogik im Prüfungsgespräch (Mögliche Fragen \& Karten):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.15}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{„Was verstehen Sie unter Begabung?“} & $\rightarrow$ \textbf{Karte 4.1} (Gagné DMGT, Ziegler Aktiotop, Müller-Oppliger 2021) \\
+          \textbf{„Welches Konzept liegt SOLUX zugrunde?“} & $\rightarrow$ \textbf{Karte 4.2} (Schoolwide Enrichment Model, Renzulli, Trias-Typen) \\
+          \textbf{„Sollte Begabtenförderung separativ sein?“} & $\rightarrow$ \textbf{Karte 4.3 \& 4.7} (UNESCO, Salamanca-Erklärung, Selektionsrisiko, Weigand) \\
+          \textbf{„Wie gestalten Sie Ihr Setting barrierefrei?“} & $\rightarrow$ \textbf{Karte 4.4} (Adaptive Lernarchitektur, strukturelle Differenzierung) \\
+          \textbf{„Wie fangen Sie bei einem Underachiever an?“} & $\rightarrow$ \textbf{Karte 4.5} (Stärkenorientierung vor Defizitbearbeitung, Schulte ter Hardt) \\
+          \textbf{„Verbindung Inklusion und Begabungsförderung?“} & $\rightarrow$ \textbf{Karte 4.3, 4.6 \& 4.7} (Gleichheits-Gerechtigkeits-Fehlschluss, Capability) \\
+          \textbf{„Wie sichern Sie die Motivation des Kindes?“} & $\rightarrow$ \textbf{Karte 4.8} (Flow als Lernstabilisator, Lehwald, Drehtürmodell) \\
+          \textbf{„Ist SOLUX mit kantonalem Recht konform?“} & $\rightarrow$ \textbf{Karte 4.9} (Integrativer IBBF-Auftrag der Volksschule, DVS, Grossenbacher) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% =========================================================================
+% DOCUMENT START
+% =========================================================================
+\begin{document}
+
+% SHEET 1 - FRONT
+\renderfour{\CardFrontFourOne}{\CardFrontFourTwo}{\CardFrontFourThree}{\CardFrontFourFour}
+
+% SHEET 1 - BACK (Horizontally flipped)
+\renderfour{\CardBackFourTwo}{\CardBackFourOne}{\CardBackFourFour}{\CardBackFourThree}
+
+% SHEET 2 - FRONT
+\renderfour{\CardFrontFourFive}{\CardFrontFourSix}{\CardFrontFourSeven}{\CardFrontFourEight}
+
+% SHEET 2 - BACK (Horizontally flipped)
+\renderfour{\CardBackFourSix}{\CardBackFourFive}{\CardBackFourEight}{\CardBackFourSeven}
+
+% SHEET 3 - FRONT
+\renderfour{\CardFrontFourNine}{\CardFrontFourTen}{\CardFrontFourEleven}{\CardFrontFourTwelve}
+
+% SHEET 3 - BACK (Horizontally flipped)
+\renderfour{\CardBackFourTen}{\CardBackFourNine}{\CardBackFourTwelve}{\CardBackFourEleven}
+
+\end{document}
