@@ -1,0 +1,795 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/364343848
+Grafomotorik und schulische Inklusion Entwicklung und Anwendung eines
+Rahmenmodells
+Chapter · October 2022
+CITATIONS
+0
+READS
+725
+3 authors:
+Judith Sägesser Wyss
+Bern University of Teacher Education
+25 PUBLICATIONS   23 CITATIONS   
+SEE PROFILE
+Caroline Sahli Lozano
+Bern University of Teacher Education
+73 PUBLICATIONS   307 CITATIONS   
+SEE PROFILE
+Michael Eckhart
+Bern University of Teacher Education
+34 PUBLICATIONS   208 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Judith Sägesser Wyss on 17 October 2022.
+The user has requested enhancement of the downloaded file.1 
+Grafomotorik und schulische Inklusion 
+Entwicklung und Anwendung eines Rahmenmodells 
+Judith Sägesser Wyss, Caroline Sahli Lozano, Michael Eckhart 
+Preprintversion 
+Erschienen in: 
+Martin Vetter, Bettina Wuttig, Lea Spahn und Henrik Göhle (2021). Gesellschaft und Diversität– Beiträge aus Sicht von 
+Motologie und Psychomotorik  zu  bewegungs-  und  wahrnehmungsbezogener  Forschung,  Profession  und 
+Praxis 
+1 Einleitung 
+Bedeutung der Grafomotorik für den Schul- und Bildungserfolg 
+Für einen gelingenden Schulstart spielen psychomotorische Fähigkeiten, insbesondere in den Bereichen Grafomotorik, 
+visuomotorische Koordination und Feinmotorik eine grosse Rolle (Fischer, 2018; McClelland & Cameron, 2019; Michel, 
+Roethlisberger, Neuenschwander, & Roebers, 2011) . Die Visuo- und Feinmotorik  sind zentrale Prädiktoren für die 
+Entwicklung grafomotorischer Kompetenzen  und stehen in einer engen Wechselwirkung mit den Exekutiven 
+Funktionen (EF) und der Sp rache. Sie bilden damit eine wichtige Grundlage für das schulische Lernen (Abbott, 
+Berninger, & Michel, 2010; Cadoret et al., 2018; Grissmer, Grimm, Aiyer, Murrah, & Steele, 2010; McClelland & 
+Cameron, 2019; Michel et a l., 2011; Oberer, Gashaj, & Roebers, 2018)  sowie für die Teilhabe an Bildung, Gesellschaft 
+und Kultur (Vetter et al., 2010) . Eine automatisierte Hand - oder Tastaturschrift ermöglicht es, Gedanken und Wissen 
+schriftlich auszudrücken (Berninger & Winn, 2008; Puranik & AlOtaiba, 2012; Weintraub et al., 2009)  In den Grund- 
+und Sekundarschulen werden trotz technischer Möglichkeiten sehr viele Arbeiten und Prüfungen von Hand geschrieben 
+(Mueller & Oppenheimer, 2014) . Der ‚Präsentations -Effekt‘ (Les erlichkeit und orthografische Richtigkeit des 
+Geschriebenen) hat nachweislich eine Auswirkung auf die  Beurteilung eines Textes und das Tempo der Handschrift 
+beeinflusst die Textmenge und die inhaltliche Qualität (Graham, Berninger, Abbott, Abbott, & Whitaker, 1997; Graham, 
+Harris, & Hebert, 2011; Hayes, 2012; Santangelo & Graham, 2016).  
+Die Bedeutung der ‚Grafomotorik‘ bzw. ‚Grafomotorische n Förderung‘ für den Schul - und Bildungserfolg ist 
+entsprechend gross. Dabei wird unter Grafomotorik die Arbeit an Vorläuferfertigkeiten zum Schreiben von Hand und 
+der, teilweise als ‚Schreibmotorik‘ bezeichnete, Transfer grafomotorischer Kompetenzen in die Schriftsprache bzw. in 
+das Schreiben von Buchstaben, Worten und Sätzen verstanden (Diaz Meyer, Schneider, Marquardt, Knopf, & 
+Luptowicz, 2017)  
+Der Aufbau grafomotorischer Prozesse bezieht sich nicht ‚nur‘ auf motorisches Lernen, sondern auf einen multimodalen 
+Prozess, der auf verschiedenen Ebenen abläuft  (Berninger et al., 2015)  und auch neurologisch hoch  komplex ist  
+(Planton, Juckla, Roux, & Démonet, 2013). Das Arbeitsgedächtnis ist dabei besonders wichtig und wird aufgrund seiner 
+limitierten Kapazität für den komplexen Schreibvorgang oftmals als ‚Flaschenhals‘ bezeichnet  (Olive, 2012). Solange 2 
+ 
+das Schreiben von Hand nicht automatisiert ist, kann nur sequenziell geschrieben werden, d.h. die Aufmerksamkeit ist 
+entweder auf Subprozesse, wie die Grafomotorik, oder auf den Inhalt des Textes gelenkt. Schreibende mit einer 
+automatisierten Handschrift haben folglich eine grössere k ognitive Kapazität für die inhaltliche und grammatikalische 
+Gestaltung von Texten (Schneider et al., 2013) . Schreibanfänger*innen müssen der Herausforderung gerecht werden, 
+einerseits auf der sprachlichen Ebene Texte verfassen zu lernen und andererseits gleichzeitig die Subprozesse 
+Transkription (Schreiben von Hand oder mit der Tastatur und Rechtschreibung) und exekutive Funktio nen zu 
+entwickeln (Labrecque, Morin, & Montésinons -Gelet, 2013; Speck-Hamdam, Falmann, Hess, Odersky, & Rüb, 2016) . 
+Da im Schreibunterricht der Unterstufen der Fokus erfahrungsgemäss häufig auf sprachlichen Aspekten liegt, werden 
+grafomotorische Schwierigkeiten oft nicht erkannt, obwohl ein frühes Erkennen die Gefa hr von sekundären 
+Schwierigkeiten vermindern könnte  (Sägesser & Eckhart, 2016) . Dies wiederum kann bei den betroffenen Kindern 
+negative Auswirklungen auf die Motivation, das Selbstvertrauen und die weitere schulische Laufbahn haben 
+(Christensen, 2005; Connelly, Dockrell, & Barnett, 2005; Eckhart & Sägesser, 2016). 
+ Psychomotoriktherapie im Kontext inklusiver Bildung  
+An Schweizer Schulen sind es die Psychomoto riktherapeut*innen, die Schüler*innen mit grafomotorischen 
+Schwierigkeiten diagnostizieren und fördern. Grafomotorische Schwierigkeiten gehören auch hier zu den wichtigsten 
+Gründen, weshalb Kinder für die Psychomotoriktherapie angemeldet werden  (Feder, Majnemer, & Synnes, 2000; 
+Woodward, & Swinth, 2002).  
+Die Psychomotoriktherapie ist an der Schweizer Volksschule sehr gut verankert (Sägesser Wyss & Gasser-Haas, in press) 
+und gehört zusammen mit der Schulischen Heilpädagogik (Sonderpädagogik) und der Logo pädie zum 
+sonderpädagogischen Grundangebot der Schulen  (EDK, 2007).  Die Bereiche Heilpädagogik, Psychomotorik und 
+Logopädie haben, wie die gesamte Volkschule, in den letzten Jahren den Wandel hin zu zunehmend integrativen 
+Schulformen stark zu spüren bekommen. Bereits seit der international ratifizierten Salamanca-Erklärung zur Förderung 
+integrativer Pädagogik für Lernende mit besonderen Bedürfnissen  (UNESCO, 1994 ) sind die Nationen dazu 
+aufgefordert, Kinder und Jugendliche mit Lernschwierigkeiten, geistigen oder körperlichen Beeinträchtigungen oder 
+anderweitigem sonderpädagogischem Förderbedarf nicht mehr zu separieren, sondern in die Regelklassen zu integrieren. 
+Auch die von der Schweiz im April 2014 ratifizierte UN -Behindertenrechtskonvention (UN -BRK, 2006) fordert ein 
+inklusives Bildungssystem auf allen Ebenen und verpfli chtet die Kantone dazu, alle nötigen Anstrengungen zu 
+unternehmen, um Kindern und Jugendlichen mit Behinderungen und Benachteiligungen in inklusiven Settings zu 
+fördern. In der interkantonalen Vereinbarung über die Zusammenarbeit im Bereich der Sonderpädagogik (EDK, 2007) 
+steht in Bezug auf die Beschulung von Kindern mit besonderem Bildungsbedarf folgendes: «Integrative Lösungen sind 
+separierenden Lösungen vorzuziehen, unter Beachtung des Wohles und den Entwicklungsmöglichkeiten des Kindes 
+oder des Jugendlichen sowie unter Berücksichtigung des schulischen Umfeldes und der Schulorganisation» (EDK, 2007 
+Art. 2, Abs. b). Die Entwicklung des Bildungssystems in Richtung Integration bzw. Inklusion wird deutlich. Dieser 
+Prozess ist weltweit zu beobachten. Während für die Schulische Heilpädagogik der Einbezug in vielfältige Prozesse der 
+integrativen und inklusiven Schulentwicklung bereits gut etabliert ist, hat sich die Arbeitsweise in der Psychomotorik 
+und in der Logopädie in den letzten Jahren verhältnismässig weni g verändert. Die klassische Form der Unterstützung 
+in der Psychomotorik ist mehrheitlich das therapeutische Einzel- und Kleingruppensetting (Vetter, Amft, & Sammann, 
+2009), während Präventions -, Integrations - oder Inklusionsprojekte mit ganzen Klassen lokal und abhängig von 
+Haltungen und Schwerpunktsetzungen nur in einzelnen Schulen umgesetzt werden. Nur in wenigen Studien wurde 
+versucht, grafomotorische In terventionen in den Unterricht der Grundstufe  einzubauen und die Zusammenarbeit 
+zwischen Psychomotoriktherapeut*in und Lehrkraft gezielt zu fördern (Case-Smith, Holland, & Bishop, 2011; Vetter et 3 
+ 
+al., 2009) . Entsprechend bestehen nur wenige Konzepte und Modelle in der Psychomot orik für eine erfolgreiche 
+Integration bzw. Inklusion.  
+Die beiden Begriffe ,Integration’ und ‘Inklusion’ werden facettenreich und unscharf verwendet. Inklusion grenzt sich 
+ab von der Praxis der schulischen Separation oder Integration und führt darüber hinaus. Konzepte der schulischen 
+Integration werden in den Anliegen der  Inklusion aufgenommen und weiterentwickelt. Im Kern bezieht sich die 
+Inklusion in der Schule auf einen veränderten Umgang mit Verschiedenheit der Schüler*innen und hat eine «gute Schule 
+für alle» zum Ziel, in welcher der Unterricht auf die heterogenen Bedürfnisse aller Schüler*innen ausgerichtet wird (Sahli 
+Lozano et al., 2017). Für die Psychomotorik bedeutet dies einen Perspektivenwechsel. Während die traditionelle 
+Psychomotoriktherapie stark kindorientiert agiert, kommen nun unterrichtliche, didaktische,  kooperationsbezogene 
+Fragestellungen hinzu.  
+Für den Bereich der Sonderpädagogi k werden in der Schweiz den einzelnen Schulen Ressourcen in Form eines 
+Lektionenpools zur Verfügung gestellt, welche jede Schule für die Förderung von Lernenden mit  ,besonderem 
+Bildungsbedarf’ in der Form einsetzen kann, wie es Schulleitung und Team für sinnvoll befinden. Für die Integration 
+von Kindern mit ‘ verstärkten Massnahmen’ werden kindbezogen finanzielle Mittel zur Verfügung gestellt, wobei pro 
+Kind in den meisten Kantonen  maximal sechs Lektionen Unterstützung durch eine sonderpädagogische Fachkräfte 
+(Schulische Heilpädagog*in, Psychomotoriktherapeut*in und/oder Logopäd*in ) finanziert w erden (Sahli Lozano, 
+Crameri, & Gosteli, 2021). In dieser Ressourcenzuteilung wird ein Grundproblem der Sonderpädagogik, welches auch 
+die Psychomotorik im Kontext inklusiver Bildung betrifft, deutlich: Je häufiger eine Diagnose mit verstärkten 
+Massnahmen gestellt wird, umso mehr Ressourcen erhält eine Schule. Die psychomotorische Förderung wird verknüpft 
+mit der Diagnose stellung, obwohl in der inklusiven Pädagogik solche Etikettierungen vermieden werden sollen. Die 
+Inklusion fordert, dass sich Schulen so weiterentwickeln, dass sie der Heterogenität der Schüler*innen gerecht werden 
+können. Um dies zu erreichen , müssen jedo ch spezifische Förderbedarfe benannt werden. Die Entwicklung der 
+grafomotorischen Kompetenzen bildet auch im Kontext inklusiver Bildung die Ausgangslage für eine wirkungsvolle 
+Förderung. Im Unterschied zur traditionellen Psychomotoriktherapie in Einzel - oder Gruppensettings fliessen diese 
+spezifischen Fördermassnahmen in Lernumgebungen ein, in welchen die verschiedenen Entwicklungsniveaus 
+aufgenommen werden. 
+ Das Projekt GRAFINK (Grafomotorik und Inklusion) im Überblick 
+Die Diskrepanz zwischen der Forderung nach einer inklusiven Bildung und der weit verbreiteten separativen Praxis in 
+der Psychomotorik bilden den Ausgangspunkt für das Entwicklungsprojekt ,GRAFINK – Grafomotorik und 
+Inklusion’, das an der Pädagogischen Hochschule Bern durchgeführt wurde. Das Projekt erstreckte sich über zwei Jahre 
+(2017 bis 2019 ) und verfolgte als  übergeordnetes Ziel die Entwicklung eines inklusiven Präventions- und 
+Interventionskonzepts zur Grafomotorikförderung . In die Entwicklungsarbeiten flossen sowohl theoretische 
+Grundlagen wie aktuelle  Forschungsergebnisse ein.  Die Hauptfragestellung en des Projekts bezogen sich auf drei 
+Schwerpunkte: 
+• Mit welchen Materialien können alle Kinder einer heterogenen Lerngruppe der Schuleingangsphase im Hinblick 
+auf den Handschrifterwerb grafomotorisch optimal gefördert werden? 
+• Welches didaktische Konzept eignet sich für die Vermittlung unterschiedlicher grafomotorischer Lerninhalte im 
+inklusiven Handschriftunterricht? Wie können möglichst viele Kinder eine geläufige und leserliche Handschrift (in 
+der Schweiz die Basisschrift) erlangen und die Kompetenzen des Lehrplans erreichen? 
+• Wie kann die multiprofessionelle Zusammenarbeit zwischen Psychomotoriktherapeut*in und Lehrkraft (weiter-) 
+entwickelt und gefördert werden? 4 
+ 
+Das Entwicklungsprojekt GRAFINK war in drei zeitlich aufeinander folgende Phasen gegliedert (vgl. Kp 3). Parallel zu 
+diesen Phasen wurde ein Rahmenmodell entwickelt, überarbeitet und angepasst. Dieses wird nachfolgend beschrieben. 
+  
+2 Das Rahmenmodell GRAFINK 
+ Entstehung 
+Bereits bei der Konzeption des Projektes GRAFINK entwickelte das Projektteam ein Rahmenmodell, welches wichtige 
+Kernelemente eines inklusiven Grafomotorikunterrichts  umfasst. Ziel des Modells war es, verschiedene zentrale 
+Aspekte, die in GRAFINK zusammenfliessen, aufzugreifen, verständl ich und möglichst prägnant zu visualisieren und 
+in einen Bezug zueinander zu stellen. Hierfür wurden aktuelle gesetzliche Grundlagen und Konzepte der schulischen 
+Inklusion, fachspezifisches und fachdidaktisches Wissen aus dem Bereich der Psychomotorik und des 
+Handschrifterwerbs, didaktische Grundlagen für den Umgang mit heterogenen Lerngruppen sowie Modelle der 
+multiprofessionellen Zusammenarbeit einbezogen. Zu Beginn der Modellentwicklung wurden wichtige Grundlagen zu 
+den genannten Themen gesammelt und ein  erster Modellentwurf erstellt, welcher während des gesamten Projektes als 
+Orientierungshilfe diente  und im Prozessverlauf weiterentwickelt wurde. Bei der Erarbeitung der Materialien in 
+Projektphase 1 , wurde auf die einzelnen Aspekte des  Modells Bezug geno mmen. Durch den  Austausch mit 
+Expert*innen aus Forschung und Schulpraxis (Projektphase 2), welche die Materialien begutachteten, wurden nicht nur 
+die Materialen weiterentwickelt, sondern auch Anpassungen am Modell vorgenommen . Dabei wurde ein stark 
+prozessorientiertes Vorgehen gewählt, indem mit den Expert*innen aus Forschung und Schulpraxis regelmässig 
+diskutiert wurde. Dadurch hat sich das ursprüngliche Rahmenmodell im Laufe des Projektes weiterentwickelt, so dass 
+nun mit dess en Hilfe die konzipierten Bausteine theoretisch verortet und die konzeptionellen Hintergründe einer 
+inklusiven Grafomotorikförderung in konzentrierter Form gebündelt werden können.  
+ Überblick Rahmenmodell 
+Das Rahmenmodell berücksichtigt verschiedene Ebenen. Im äusseren Rahmen des Modells sind die rechtlichen 
+Grundlagen und Konzepte verortet, welche die Basis für die Implementierung eines inklusiven Konzepts bi lden. Im 
+Kern werden vier zentrale Bereiche  benannt, welche bei der konkreten Konzeption inklusiver Unterrichtsinhalte 
+aufbereitet, gewichtet und in Beziehung zueinander gesetzt werden.  5 
+ 
+ 
+Rahmenmodell GRAFINK (Sägesser Wyss, Sahli Lozano & Simovic, 2021) 
+ 
+ Äusserer Rahmen 
+Im äusseren Rahmen werden vier Grundlagen für die Implementation inklusiver Schulentwicklungs - und 
+Unterrichtskonzepte genannt. Dabei wird auf die UNO Behindertenrechtskonvention (UN-BRK, 2006) Bezug genommen, 
+welche sowohl von der Schweiz als auch von Deutschland ratifiziert wurde und welche auf gesetzlicher Ebene die 
+Stossrichtung der Unterrichtsentwicklung  in Richtung Inklusion vorgibt . Ebenfalls wird  die ICF -CY genannt, die 
+Kinderversion der internationalen Klassifikation der Funktion sfähigkeit, Behinderung und Gesundheit (WHO, 2011). Sie ist mit 
+ihrem bio-psycho-sozialen Bezugssystem in der Schweiz ein wichtiges Instrument für die Zuweisung von Kindern zu 
+besonderen Massnahmen, wie beispielsweise der Psychomotoriktherapie (Sägesser Wyss et al., 2021 ; WHO, 2011 ). 
+Dabei steht  nicht die Beeinträchtigung eines Individuums im Zentrum , s ondern das Begünstigen der Aktivität und 
+Partizipation eines Menschen an gesellschaftlichen Situationen unter Berücksichtigung des komplexen Zusammenspiels 
+zwischen biologischen, psychologischen und sozialen Aspekten  (Meyer, Bühler, & Eckhart, 2015) . In Bezug auf die 
+grafomotorische Förderung im Schulalltag stellt sich aus dieser Perspektive die Frage, wie der Unterricht verändert 
+werden muss, damit alle Kinder einer Klasse aktiv handelnd und motiviert am Handschriftunt erricht teilhaben und 
+Freude am schriftlichen Ausdruck entwickeln können (Sägesser Wyss et al., 2021) . Die inklusive Schule ist bis heute 
+vielerorts eine Vision, an welche man sich in kleinen Schritten annähern kann (Sahli Lozano, Vetterli, & Wyss, 2017) . 
+Dabei bietet der Index für Inklusion  (Boban & Hinz, 2003)  einen sehr hilfreichen  Orientierungsrahmen, um den Ist -
+Zustand zu analysieren und darauf aufbauend Ziele und Bereiche für die Weiterentwicklung zu definieren. Im Index für 
+Inklusion werden drei Dimensionen beschrieben, welche in Entwicklungsprozesse einbezogen werden müssen. Nämlich 
+A: inklusive Kulturen (z.B. Haltungen), B: inklusive Strukturen (z.B. Rahmenbedingungen, Konzepte) und C: inklusive 
+Praktiken (z.B. Unterricht, (multi -)professionelle Zusammenarbeit).  Bei der Entwicklung und Umsetzung von 
+GRAFINK stehen die inklusiven Praktiken im Vordergrund, wobei auch die Haltung der Beteiligten für das Gelingen 
+eines inklusiven Grafomotorikunterrichts bedeutsam sind. Möglicherweise könnte sich der Kompetenzzuwachs durch 
+das Anwenden von GRAFINK bei beteiligten Lehrkräften und Psychomotoriktherapeut*innen auch die Einstellungen 
+in Bezug auf Inklusion positiv weiterentwickeln . Auf dem Weg zum Aufbau inklusiver Strukturen  könnten positive 
+Erfahrungen mit der Anwendung eines inklusiven Unterrichtskonzepts ebenfalls einen indirekten Beitrag leisten.  
+6 
+ 
+In der «Pädagogik der Vielfalt » wird die Heterogenität der Lernenden in Bezug auf  unterschiedliche Dimensionen (z.B. 
+Herkunft, Geschlecht, Intelligenz, Schulleistung, Motivation, Motorik, Alter) als Chance betrachtet und betont, dass die 
+Kraft der Vielfalt positiv  genutzt werden kann (Prengel, 2019) . Diese Grundhaltung ist zentral für die (We iter-) 
+Entwicklung und die Realisierung inklusiver Schulen . Gefordert wird ein Perspektivenwechsel: Es steht nicht die 
+Integrationsfähigkeit eines Kindes im Zentrum, sondern es wird die Integrationsfähigkeit einer Schule angestrebt (Sahli 
+Lozano, 2012). Eine Öffnung der Schule für die Vielfalt der Kinder wird gefordert, wobei der Begriff «Vielfalt» auch die 
+Differenz hervorhebt. Der «Pädagogik der Vielfalt» liegt die Annahme zu Grunde, dass alle Menschen dieselben Rechte 
+haben und entsprechend gleichberechtigt sind. Gleichzeitig ist jeder Mensch auch individuell und damit einzigartig. 
+«Dabei bildet die Anerkennung der Verschiedenheit die Voraussetzung für eine möglichst weitgehende Gleichheit im 
+Sinne von Gleichwertigkeit in einer Schulklasse» (Eckhart, 2005, 36). Verschiedenheit wird als ,Norm’ betrachtet und 
+die Integration ,anderer’ fällt weg. Eine «gute Schule für alle» hat entsprechend zum Ziel, dass der Unterricht auf die 
+heterogenen Bedürfnisse aller Schüler*innen ausgerichtet wird (Sahli Lozano et al., 2017). Dies bedeutet beispielsweise, 
+dass alle Kinder einer Klasse angepasst und mit unterschiedlichen Lernzielen und Methoden am selben Lerngegenstand 
+arbeiten können (Feuser, 1994) . Entsprechende Entwicklungen sind notwendigerweise an  die multiprofessionelle 
+Kooperation unterschiedlicher Lehr- und Fachkräfte gebunden.(Sahli Lozano et al., 2017).  
+ Kern des Modells 
+Im inneren Kreis des Modells werden verschiedene Aspekte, die im inklusiven Unterricht direkt zusammenwirken,  
+theoretisch begründet . 
+2.4.1  Fachdidaktische Grundlagen Handschrifterwerb 
+Die Orientierung an aktuellen fachdidaktischen Grundlagen ist ein wichtiger Ausgangspunkt für die Entwicklung des 
+Fachunterrichts. Lehrkräfte sind Spezialist*innen für die fachdidaktische Gestaltung des Unterrichts. Sie orientieren 
+sich am aktuellen Lehrpl an und streben das Erreichen von definierten Grundanforderungen mit mögli chst vielen 
+Schüler*innen an.  Bei dieser Aufgabe stütz en sie sich auf aktuelle Lehrmittel, welche konkrete 
+Handlungsmöglichkeiten  auf dem Weg zur Erreichung diese s Ziels aufzeigen. 
+Um der grossen Heterogenität der Schüler*innen  beim Erlernen der Handschrift auf fachdidaktischer Ebene 
+begegnen zu können, lohnt es sich, durch sorgfältige Recherche vielfältige Möglichkeiten für den Aufbau des 
+Handschreibens zusammenzutragen. Die Grafomoto rik gehört in Bezug auf den Schriftspracherwerb zu den 
+hierarchieniedrigen Prozessen (Berninger & Chanquoi, 2012; Berninger & Winn, 2008; Torrance & Galbraith, 2006) . 
+Der Fokus des Handschriftunterrichts  liegt aber oft auf den hierarchisch höheren, sprachlichen Aspekten (Lesen und 
+Texte verfassen) und Kindern mit grafomotorischen Schwierigkeiten kommt kaum eine angepasste Förderung zu 
+(Graham, Harris, & Mason, 2005; Graham et al., 2008) . Häufig wird davon ausgegangen, dass Kinder das Schreiben 
+von Hand von selbst lernen, was grundsätzlich falsch ist (Case-Smith et al., 2011) . Die Automatisierung der Schrift 
+vollzieht sich bedeutend besser, wenn Handschrift spezifisch unterrichtet wird  (Santangelo & Graham, 2016) . Durch 
+die Analyse zahlreicher Studien, konnten in der Metaanalyse von Santangelo und Graham (2016) wirksame Formen 
+der Vermittlung herausgearbeitet  werden. Dies  sind beispielsweise die individuelle Instruktion, der Einsatz von 
+Technologie, das Kopieren von Modellen aus dem Gedächtnis, die Selbstevaluation und das Lernen von bewegten 
+Modellen (Sägesser Wyss et al., 2021) . Solche wichtigen  Instruktionsformen wurden i n GRAFINK  aufgenommen. 
+Auch die Erkenntnis von Vetter et al. (2009), welche die wichtige Bedeutung der motorischen Koordination und der 
+Körperwahrnehmung für die grafomotorische Entwicklung aufzeigt, fand Eingang in die Erarbeitung der konkreten 
+Unterrichtsvorschlä ge. Das Lehrmittel «unterwegs zur persönlichen Handschrift»  (Jurt, Hurschler Lichtsteiner, & 
+Henseler Lüthi, 2013)  wird in vielen Deutschschweizer Schulen zum Erlernen der Handschrift eingesetzt . Da dieses 7 
+ 
+Lehrmittel einen klaren Bezug zum Bewegungslernen im Rahmen des Handschrifterwerbs herstellt , wurde es 
+ebenfalls auf fachdidaktischer Ebene in die Entwicklung von GRAFINK einbezogen.  
+Santangelo & Graham (2016) zeigen im Weiteren wie wichtig es ist, grafomotorische Lernanlässe mit dem 
+schriftlichen Ausdruck zu verbinden, da das isolierte Training motorischer Fähigkeiten kaum Effekte zeigte (ebd.).  
+Diese Feststellung auf fa chdidaktischer Ebene eröffnet aus der Perspektive der Psychomotorik einen grossen 
+Spielraum für den Einbezug der Persönlichkeit eines Kindes in die inhaltliche Gestaltung von Lernanlässen. Die 
+Schreibanlässe können sehr gut individualisiert und mit persönl ichen Interessen eines Kindes verbunden werden. Im 
+Konzept GRAFINK wird der Begriff «Schreibanlass» bewusst weit gefasst, damit für Kinder mit und ohne 
+Beeinträchtigungen Wege gefunden werden können, wie sie sich eigenaktiv handelnd dem schriftlichen Ausdr uck 
+annähern bzw. schriftsprachlich ausdrücken können.  
+2.4.2 Fachwissen Psychomotorik 
+Die Psychomotoriktherapeut*in bringt Kompetenzen in  Bezug auf Diagnostik und Förder planung in die 
+gemeinsame, ko -konstruktive Vorbereitung und Durchführung des Unterrichts ein  und verfügt über ein fundiertes 
+entwicklungspsychologisches Fachwissen. Da es im inklusiven Setting nicht darum geht, durch die Anwendung eines 
+diagnostischen Instruments eine Indikation für Psychomotoriktherapie zu rechtfertigen, fokussier t die 
+Psychomotoriktherapeut*in nicht auf die Schwierigkeiten eines Kindes, sondern fragt nach den Ressourcen und 
+notwendigen Anpassungen , damit für betroffene Kinder  die Teilhabe am gemeinsamen Unterricht und individuelle 
+Fortschritte möglich werden  (Wendler & Reichenbach, 2020) . Diagnostische Prozesse werden im Projekt GRAFINK 
+im Sinne einer «Erkenntnistätigkeit, um Entwicklung und Lernen zu unterstützen und zu begleiten», verstanden 
+(Ziemen, 2016 , 39 ). Dabei kann ergänzend z u situativen Beobachtungen aus dem Schulalltag das 
+entwicklungsorientierte Diagnostikinstrument GRAFOS eingesetzt werden.  Dieses Diagnostikinstrument bildet auf 
+der theoretischen Ebene eine Grundlage für GRAFINK.  Damit kann der  aktuelle Entwicklungsstand e ines Kindes 
+in unterschiedlichen, mit der Grafomotorik eng verbundenen, Bereichen erfasst werden. Die 
+Psychomotoriktherapeu t*in setzt bei Bedarf auch weitere diagnostische Instrumente ein, die entwicklungs - und 
+förderorientierte Hinweise ermöglichen.  
+Da Kinder mit Schwierigkeiten in der Grafomotorik häufiger Misserfolge erleben, ist zudem der Fokus auf die 
+Entwicklung und Stärkung des (Fähigkeits -)Selbstkonzepts wichtig. Die in der Psychomotoriktherapie übliche 
+Reflexion einer Handlungsseq uenz in Bezug auf individuelle Bezugsnormen ermöglicht es Kindern persönliche 
+Fortschritte zu erkennen und die Motivation , den eigenen grafischen oder handschriftlichen Ausdruck zu verbessern, 
+aufrechtzuerhalten. Dieses Erkennen eigener Fortschritte und Fä higkeiten ist eine wichtige Voraussetzung, damit 
+Kinder sich neuen Lernanforderungen in einem Bereich zuversichtlich stellen  (Zimmer, 2019) .  
+Durch die genannten Aspekte und eine angepasste, individualisierte Förderplanung, kann die 
+Psychomotoriktherapeut*in ihr Fachwissen direkt in den Unterricht einbringen und einen wichtigen Beitrag zur 
+Entwicklung des inklusiven Handschriftunterrichts leisten.  
+2.4.3 Unterricht in heterogenen Lerngruppen 
+Mit einer reflektierten didaktischen Gestaltung ermöglicht das multiprofessionelle Team allen Kindern die Teilhabe am 
+gemeinsamen Handschriftunterricht. Für diesen Unterricht besteht aber kein einfaches Rezept. Vielmehr ist davon 
+auszugehen, dass die Verschiedenheit der Kinder in einer Lerngruppe verschiedene didaktische Ansätze verlangt. Eine 
+solche Didaktik der Vielfalt kann entlang mehrerer Spannungsfelder dargestellt werden. Mit diesen Spannungsfeldern 
+werden drei zentrale Dimensionen aufgenommen, die f ür den Unterricht in einer heterogen zusammengesetzten 8 
+ 
+Lerngruppe bedeutsam sind.  Die Berücksichtigung von Spannungsfeldern ist wichtig, weil gerade die Verschiedenheit 
+der Schülerinnen und Schüler nicht ein Entweder -Oder (z.B. Offener oder direktiver Unterricht), sondern ein Sowohl-
+als-Auch (Offener und direktiver Unterricht) verlangt. «Die Schlüsselkompetenz für den Unterricht in heterogenen 
+Schulklassen besteht in der notwendigen Beweglichkeit für eine vielfältige Didaktik» (Eckhart, 2013 , 25). Lehrkräfte 
+stehen im Handschriftunterricht damit vor der Herausforderung, den Unterricht hinsichtlich verschiedener relevanter 
+Dimensionen zu planen, durchzuführen und zu reflektieren. Die drei Dimensionen zielen auf drei wichtige di daktische 
+Fragen, die grundsätzlich, aber besonders für heterogene Lerngruppen, bedeutsam sind. So wird mit der ersten 
+Dimension die Differenzierung aufgenommen. Jede Lehr kraft in einer heterogenen Lerngruppe steht vor der 
+Herausforderung, den Unterricht sowohl auf die Lernbedürfnisse der einzelnen Kinder wie auch auf jene der gesamten 
+Klasse auszurichten. Damit wird insbesondere die Methodik berücksichtigt. Aus der Perspektive der 
+Unterrichtsmethodik werden im Rahmenmodell kooperative Lernformen hervorgehoben, die sowohl für die Leistungen 
+wie auch für das Selbstwertgefühl und weitere soziale Kompetenzen positive Wirkungen entfalten können (Bochmann, 
+Kirchmann, Green, &  Green, 2012). Die zweite Dimension widmet sich der Steuerung. Die Lehr kraft muss hier eine 
+Balance zwischen selbst gesteuerten, entdeckenden und fremdgesteuerten, direktiven Unterrichtssettings finden. Das so 
+entstehende Spannungsfeld nimmt den Aspekt der Vermittlung auf. Schliesslich treten mit der dritten Dimension die 
+Lerninhalte in den Fokus. Die Lehr kraft steht auch hier vor der Aufgabe, sowohl entwicklungs - wie auch 
+lerngegenstandsbezogene Überlegungen gemeinsam in den Unterricht zu integrieren.   
+Umgesetzt auf den inklusiven Handschriftunterricht bedeutet dies, dass im Rahme nmodell die verschiedenen 
+Dimensionen Berücksichtigung finden. So bewegen sich die didaktischen Vorschläge im Projekt GRAFINK in den von 
+Eckhart (2010) vorgeschlagenen Spannungsfeldern. Ziel ist dabei, dass für alle Kinder auf ihrer Entwicklungsstufe 
+anregende Lernumgebungen entstehen. Diese Lernumgebungen ermöglichen sowohl ein fachliches Lernen, indem 
+individuelle Lernfortschritte erreicht werden, wie auch soziale Lernprozesse, indem das Miteinander der verschiedenen 
+Kinder als Ressource genutzt wird. 
+ 
+ 
+Abb. Eckhart 2010 
+2.4.4 Multiprofessionelle Zusammenarbeit  
+Um den unterschiedlichen Leistungsvoraussetzung en in den Lerngruppen professionell begegnen zu können, werden 
+vielfältige Kompetenzen benötigt, was die Zusammenarbeit  unterschiedlicher Fachkräfte erfordert  (Sahli Lozano & 
+9 
+ 
+Simovic, 2018). Nur durch entsprechende, multiprofessionelle Kooperation wird es möglich  alle Schüler*innen ihren 
+Bedürfnissen entsprechend zu fördern und zu unterstützen (Sahli Lozano et al., 2017). Im Rahmenmodell GRAFINK 
+ist die einzubeziehende Fachkraft die Psychomotoriktherapeut*in, da mit der Grafomotorik ein Fachbereich der 
+Psychomotorik fokussiert wird. Die multiprofessionelle Zusammenarbeit  stellt eine wichtige Gelingens bedingung für 
+die erfolgreiche Implementierung integrativer bzw. inklusiver Schulsettings dar . Dabei erfordert sie je nach gewählter 
+Zusammenarbeitsform einen unterschiedlich hohen zeitlichen Aufwand. (Sahli Lozano et al., 2017) . In einer Phase 
+intensiver Unterrichtsentwicklung ist die relativ aufwändige ko-konstruktive Zusammenarbeit zu favorisieren (Sägesser 
+Wyss et al., 2021) . Damit ist eine enge Kooperation gemeint, bei der die Beteiligten hinsichtlich ausgewählter Inhalte 
+intensiv zusammen arbeiten, indem sie ihr Verhalten eng und zielgerichtet aufeinander beziehen. Nach Gräsel  et al.  
+(2006) ist die Ko-Konstruktion die anspruchsvollste Kooperationsform, die sich beispielsweise durch eine gemeinsamen 
+Unterrichtsplanung, der Diskussion pädagogischer Fragen und der gemeinsam getragenen Verantwortung für das Lehr- 
+Lerngeschehen auszeichnet.  
+Für eine erfolgreiche Umsetzung multiprofessioneller Kooperation werden mit Bezug auf Wocken (1988) vier Ebenen 
+der Zusammenarbeit unterschieden.  
+1. Die Persönlichkeitsebene bezieht sich auf die Bewältigung von Offenheit. Um eine erfolgreiche 
+Zusammenarbeit zu gewährleisten, sind bei Lehr kräften und Psychomotoriktherapeut*innen entsprechende 
+persönliche Haltungen zur Kooperation und zum inklusiven Unterrichten  erforderlich. Dazu gehören die 
+Bereitschaft zur Offenheit, Flexibilität und die Fähigkeit zur Beziehungsgestaltung. Es geht hier um die Ebene 
+der Sozial- und Selbstkompetenz der beteiligten Individuen (vgl. Kummer Wyss, 2010; Wo cken, 1988). Die 
+Einstellung zur Kooperation des einzelnen Teammitglieds hängt u.a. davon ab, welche Erwartung (z.B. 
+gewinnbringend oder belastend) die jeweilige Person mit der Zusammenarbeit verknüpft . Eine unabdingbare 
+Voraussetzung für eine erfolgreiche Zusammenarbeit ist die konstruktive Kommunikation. Auch in 
+schwierigen Situationen soll es möglich sein, sachlich und ehrlich zu bleiben, differenzierte Rückmeldungen zu 
+geben und konstruktive Kritik anzunehmen. Wichtig auf der  Ebene der Persönlichkeit ist letztlich auch die 
+Bereitschaft, einen Teil der eigenen Autonomie abzugeben, von anderen lernen zu wollen und sich für 
+Veränderungen zu öffnen (Wocken, 1988).  
+2. Die Beziehungsebene betrifft die wichtige Frage nach der Beziehungsgestaltung innerhalb eines Teams. Das 
+bedeutet, dass sich die Lehr kräfte und/oder Psychomotoriktherapeut*innen darüber einigen müssen, wie die 
+gemeinsame Arbeit im Team gelingen soll, welche Ziele sie verfolgen und wie die Autonomie der jeweiligen 
+Parteien gestaltet wird (vgl. Kummer Wyss, 2010).  Die Kooperation sieht sich, besonders in Bezug auf die 
+Beziehungsgestaltung, mit vielen Herausforderungen konfrontiert. So können nicht nur unterschi edliche 
+Vorstellungen, Haltungen, Erwartungen und Ziele, sondern auch verschiedene Ausbildungsvoraussetzungen 
+oder Arbeitszeitenregelungen für eine erfolgreiche Teamarbeit hinderlich sein (ebd.). Für eine gewinnbringende 
+und damit auch auf der Beziehungseb ene erfolgreiche Zusammenarbeit ist es wichtig, gegenseitige 
+Vorstellungen zu akzeptieren und als Chance wahrzunehmen. Um sich gegenseitig vertrauen und sich 
+wertschätzen zu können, sollen Erwartungen offengelegt und eine professionelle Feedbackkultur gepf legt 
+werden. Wichtig dabei ist, dass stets eine Annäherung von beiden Seiten stattfindet und alle Beteiligten an der 
+Beziehung arbeiten (Kummer Wyss, 2010). 
+3. Auf der Sachebene stellt sich die Frage nach der Bewältigung von Interdependenz. Das heisst, dass Lehrkräfte 
+und Psychomotoriktherapeut*innen zwar unterschiedliche Rollen mit eigenen Verantwortungsbereichen 
+haben, jedoch gleichzeitig auch in gegenseitiger Abhängigkeit stehen.  Abhängig von den fachlichen 
+Kompetenzen und Verantwortungsbereichen können sowohl individuelle Arbeiten verteilt als auch 10 
+ 
+gemeinsame Aufgaben definiert werden. Kompetente Lehrkräfte verfügen über ein fundiertes fachdidaktisches 
+Wissen, pädagogisch-psychologisches Wissen, sowie Organisations- und Beratungswissen (Baumert & Kunter, 
+2006). Die Klassenlehr kräfte tragen zudem die Hauptverantwortung für den Unterricht, die Leitung des 
+Unterrichtsteams und der pädagogischen sowie administrative n Zusammenarbeit aller Beteiligten. Auch 
+übernehmen die Klassenlehrkräfte eine Vermittlungsfunktion bei der Lösung von Konflikten und sind dafür 
+zuständig, Regeln in der Klassenführung (z.B. Umgangsformen, Beurteilungsregeln) im Unterrichtsteam zu 
+kommunizieren (Sahli Lozano et al., 2017).  
+4. Die Organisationsebene formt den äusseren bedeutsamen Rahme n und schafft wichtige Voraussetzungen für 
+die Zusammenarbeit, z.B. anhand eines definierten Konzeptes und/oder verbindliche Zeitgefässe. Sind diese 
+Rahmenbedingungen verbindlich gegeben, können die Persönlichkeits-, die Beziehungs - und die Sachebene 
+dadurch entlastet werden.  
+Die enge Verknüpfung der verschiedenen Ebenen birgt auch Nachteile, indem Schwierigkeiten auf einer Ebene 
+das Gelingen auf einer anderen Ebene negativ beeinflussen können. So stellt beispielsweise eine mangelnde 
+Kommunikationsfähigkeit (Persönlichkeitsebene) sowohl für die Beziehungsgestaltung als auch für die 
+gemeinsame Förderung von Kindern mit besonderem Förderbedarf (Sachebene) ein Hindernis dar. Die auf 
+den vier Ebenen  liegenden Herausforderungen und Chancen, die bei kooperativen Prozessen entstehen 
+können, müssen ungeachtet der engen Verknüpfung voneinander getrennt beschrieben und analysiert werden  
+(Wocken 1988). 
+3 Anwendung des Rahmenmodells für die Entwicklung von drei Bausteinen für den inklusiven 
+ Handschriftunterricht 
+Das beschriebene Rahmenmodell bildete die Grundlage für die Entwicklung von drei Bausteinen für eine inklusive 
+Grafomotorik bzw. einen inklusiven Handschriftunterricht. Im Zuge des Prozesses der Entwic klung, der Erprobung, 
+der Evaluation, der Weiterentwicklung und schlussendlich der Finalisierung der Bausteine wurde auch das 
+Rahmenmodell fortlaufend angepasst (vgl. Kap. 2). 
+Unter 3.1 wird aufgezeigt, wie eine erste Fassung der Bausteine, die unter Einbezug des Rahmenmodells entwickelt 
+wurden, erprobt und evaluiert wurde. Im Besonderen wird erläutert, wie die Erprobung durchgeführt wurde, wie die 
+unterschiedlichen Zielgruppen befragt wurden und wie die Ergebniss e in die Weiterentwicklung der Materialien 
+einflossen. Da der Fokus in diesem Beitrag  auf dem Prozess der (Weiter-)Entwicklung der drei Bausteine und des 
+Rahmenmodells liegt, würde es den Rahmen dieses Beitrags sprengen, sehr differenziert auf die Ergebnis se aus der 
+Evaluation einzugehen.  Anschliessend wird  in 3.2 Einblick in ausgewählte Inhalte und Kernelemente der Bausteine 
+gegeben. Dabei werden zentrale theoretische Bezüge offengelegt, welche die Auswahl , die Ausgestaltung und den 
+Einsatz der Bausteine begründen. 
+ Entwicklung, Erprobung, Evaluation und Weiterentwicklung der Bausteine  
+Um die Qualität neuer Unterrichtsmaterialien zu garantieren, ist eine gründliche und sorgfältige Erprobung in der Praxis 
+notwendig (Bollmann-Zuberbühler, Totter, & Keller, 2012) . Die Qualität von Unterrichtsmaterialien wird einerseits 
+‚top-down‘ formuliert (Lehrplan, F achwissenschaften und Fachdidaktiken vgl. Rahmenmodell), andererseits bestehen 
+Ansprüche der Nutzenden (‚bottom-up‘; ebd.). Deshalb wird in Anlehnung an Bollmann-Zuberbühler et al. (2012) eine 
+Evaluation auf verschiedenen Ebenen geplant. Die Evaluation verfolgt als Hauptziel die Modifizierung und 
+Weiterentwicklung der drei Bausteine A-C. Von den ersten Entwürfen der drei Bausteine bis zum Endprodukt, welches 11 
+ 
+im Sommer 2021 veröffentlicht w urde (Sägesser Wyss et al., 2021) , können drei Entwicklu ngsphasen unterschieden 
+werden: 
+ 
+Phase 1: Konzeption der Bausteine in Anlehnung an das Rahmenmodell 
+Ein erster theoriegeleiteter Entwurf der  drei Bausteine durch das Projektteam wurde erstellt. In Anlehnung an das im 
+Vorfeld entwickelte  Rahmenkonzept stand bereits relativ früh fest, dass nebst Unterrichts - und Fördermaterialien 
+(Baustein A) auch ein didaktisches Konzept für den inklusiven Handschriftunterricht (Baustein B) sowie Empfehlungen 
+für den Bereich Zusammenarbeit (Baustein C) er arbeitet werden müssen. Aufgrund der Auseinandersetzung mit den 
+theoretischen Grundlagen des Modells, wurde eine erste Arbeitsversion der Bausteine erstellt.  
+ 
+Phase 2: Begutachtung durch Expert*innen  
+Fünf Expert*innen aus Psychomotorik, Didaktik und Inkl usion begutachteten alle drei Bausteine und gaben mündlich 
+und/oder schriftlich kritisches Feedback. Dabei wurden je nach fachlichem Schwerpunkt der Exp ert*in beispielsweise 
+Fragen zur Auswahl und Begründung der Materialien, zum Aufbau der Unterrichtsvorschläge, den konkreten Inhalten 
+der Unterrichtsvorschläge, der Rolle der Psychomotoriktherpeut*in bzw. Lehrkraft in der multiprofessionellen 
+Zusammenarbeit oder zur Auswahl des  inklusiven, didaktischen Vorgehens gestellt und diskutiert. Aufgrund dieser 
+differenzierten und wertvollen Rückmeldungen , die im Projektteam ausgewertet wurden, erfolgte eine erste 
+Weiterentwicklung der Bausteine.  
+ 
+Phase 3: Erprobung an 16 Schulklassen und mehrperspektivische Befragung aller beteiligten Akteur*innen  
+An der Erprobung der entwickelten Bausteine nahmen 16 Klassen teil. 291 Erstklasskinder, 16 Lehrkräfte und 14 
+Psychomotoriktherapeut*innen arbeiteten während einer Dauer von 12 Wochen mit den  Bausteinen (März  bis Juli 
+2018). Bei der Erprobung unterrichteten stets Tandems, bestehend aus Lehr kraft und Psychomotoriktherapeut*in, die 
+vorbereiteten Unterrichtseinheiten  gemeinsam. Vorgängig nahmen alle Lehr kräfte und die 
+Psychomotoriktherapuet*innen gemeinsam an einer ganztägigen Weiterbildung teil,  in welcher die theoretischen 
+Hintergründe (Rahmenmodell) vermittelt wurden, und sie sorgfältig und verbunden mit praktischen Übungssequenzen 
+in die drei Bausteine eingeführt wu rden. Am Weiterbildungstag wurden auch die Unterrichtsmaterialien für die 
+Erprobung verteilt. Jeder Klasse konnten umfassende Unterlagen und Materialien für die inklusive 
+Grafomotorikförderung zur Verfügung gestellt werden. Zudem wurden sie über die verschiedenen 
+Evaluationsinstrumente informiert und entsprechend instruiert. Während und nach der Erprobung in den Schulklassen 
+wurden von den unterschiedlichen Zielgruppen Informationen gesammelt, die der Prüfung der Durchführbar keit, 
+Attraktivität und schliesslich der Weiterentwicklung der Materialen dienten.  
+Informationen aus Sicht der Schüler*innen:  
+Um den Entwicklungsstand der Kinder in Bezug auf die Grafomotorik zu erheben, wurde vor der Erprobung das 
+GRAFOS Screening (Sägesser & Eckhart, 2016) mit allen Kindern durchgeführt, während die zuständigen 
+Psychomotoriktherapeut*innen mit Kindern mit einem  grafomotorischen Förderbedarf zusätzlich die GRAFOS 
+Differentialdiagnostik (ebd.) durchführten. Dieses Vorgehen ermöglichte die individuellen Förderbedürfnisse einzelner 
+Kinder genau zu kennen und diese in die gemeinsame Planung der Handschriftlektionen e infliessen zu lassen. Zudem 
+konnte durch die Prä- und Postmessungen eingeschätzt und dokumentiert werden, inwiefern die Lernenden Fortschritte 
+erzielten. Weiter führten alle Lernende n Reflexionshefte  mit geschlossenen und offenen Fragen  zu Lernmotivation, 
+persönlichen Zielsetzungen und Schwierigkeitsgrad der Unterrichtseinheiten. Die Auswertung der geschlossenen Fragen 
+erfolgte deskriptiv. Die offenen Aussagen der Lernenden wurden mit MAXQDA (VERBI Software, 2019) kodiert und 12 
+ 
+quantifiziert. Diese Analysen gaben wichtige Hinweise zur Schwierigkeit und zur Attraktivität der Unterrichtseinheiten 
+und -materialien, welche zu deren Weiterentwicklung dienten.  
+Informationen aus Sicht der Lehrkräfte und Psychomotoriktherapeut*innen:  
+Alle Lehrkräfte und die Psychomotoriktherapeut*innen füllten zunächst einen Onlinebogen aus, in welchem sie unter 
+anderem Fragen der Durchf ührbarkeit (zeitlicher Umfang, Realisierbarkeit), zur Attraktivität (Rahmengschichte 
+Materialien) und offene Fragen mit Verbesserungsvorschlägen beantworteten. 
+Nach der Auswertung der Fragebogen wurden mit den Psychomotoriktherapeut*innen und Lehrkräften, welche an der 
+Evaluation teilgenommen hatten , vier Fokusgruppeninterviews (Morgan, 1997, 6) durchgeführt. In jede Fokusgruppe 
+nahmen sechs Personen an der Diskussion teil. Hierbei bestimmte das Forschungsinteresse den Fokus (im vorliegenden 
+Fall die Bewertung der einzelnen Bausteine ). Die Fokusgruppen boten sich für die geplante Evaluation an, da diese 
+Methode sich eignet, um möglichst viele verschiedene Aspekte und Facetten zu einem Thema zur Sprache zu bringen 
+(Littig & Wallace, 1997) . Um die Diskussionen zu strukturieren, die Vergleichbarkeit zu sichern sowie sicherzustellen, 
+dass alle interessierenden Aspekte angesprochen werden konnten, wurde ein Leitfaden verwendet (Schulz, 2012, 9). Zu 
+den Bausteinen ‚Unterrichts - und Fördermaterialien‘, ‚Didaktische Hinweise‘ und ‚Empfehlungen für die 
+Zusammenarbeit‘ wurde je ein Fokusgruppengespräch mit unterschiedlichen, heterogen z usammengesetzten Gruppen 
+geführt. Ein eigenes Fokusgruppeninterview wurde zudem  im Anschluss an die Weiterbildung mit den 
+Psychomotoriktherapeut*innen durchgeführt. Die Gespräche wurden aufgezeichnet und anschliessend teil-transkribiert. 
+Das Auswertungsverfahren orientierte sich an der qualitativen Inhaltsanalyse nach Mayring (2007). Anhand der 
+Leitfragen wurde deduktiv ein Kategoriensystem entwickelt, welchem die Aussagen der Teilnehmenden zugeordnet 
+wurden. Dieses wurde induktiv durch neu entstehende Kategorien erweitert.  Die Auswertung der Interviews erfolgte 
+mit MAXQDA. 
+Zusätzlich wurde wä hrend der Erprobungsphase die Zusammenarbeit zwischen Lehrkraft und 
+Psychomotoriktherapeut*in in strukturierten Dossiers dokumentiert. Diese Dossiers geben Auskunft über die 
+Kooperationsformen sowie Dauer und Zeitpunkt der Zusammenarbeit. 
+Die Unterrichtsmaterialien und didaktischen Zugänge  zum Schreiben sowie die Geschichte als roter Faden durch die 
+Handschriftlektionen wurden von den Lehr kräften und den Psychomotoriktherapeut *innen allgemein sehr positiv 
+bewertet. Als negativer Punkt wurde der grosse Aufwand für die Organisation der Materialien  genannt. Dies, obwohl im 
+Rahmen der Erprobung die Materialien grösstenteils zur Verfügung gestellt wurden. Dies könnte damit zu erklären sein, 
+dass die zur Verfügung gestellten Materialien für grosse Klassen oftmals noch ergänzt werden mussten. Aus didaktischer 
+Sicht wurde erwähnt, dass in Zeitnot bei mehreren Teilnehmenden eine Tendenz bestand, die kooperativen Lernformen 
+wegzulassen. Dies war vor allem in Klassen der Fall, in welchen diese Lernformen noch nicht aus dem Unterricht in 
+anderen Fächern bekannt waren. In zahlreichen Klassen wurde zudem die Selbstreflexion am Schluss der Lektionen 
+weggelassen. Es wurde berichtet, dass das Erlernen dieser Selbstreflexion aufwändig sei und im Rahmen der Lektionen 
+zu viel Zeit beansprucht hätte. Nur in einzelnen Klassen gelang es, die Selbstreflexion mit den Kindern aufzubauen und 
+über die 12 Wochen immer wieder durchzuführen. Die Lehrkräfte und Psychomotoriktherapeut*innen dieser Klassen 
+erlebten das Instrument sehr positiv. Im Bereich der  multiprofessionellen Zusammenarbeit wurde der offensichtlich erlebte 
+Wissenstransfer in beide Richtungen sowie das Teilen der Verantwortung für den Unterricht positiv erlebt. In der 
+Zusammenarbeit zwischen den Erwachsenen wurde zudem eine Vorbildfunktion  für die geforderte Kooperation 
+zwischen den Kindern  erkannt. Als negativer Punkt bei der Zusammenarbeit wurde die grosse zeitliche Belastung 
+genannt.  
+ 
+Phase 4: Überarbeitung und Veröffentlichung der Bausteine  13 
+ 
+Die Unterrichtsmaterialien und der Leitfaden für die Zusammenarbeit wurden auf der Basis der in der Evaluation 
+gesammelten Daten weiterentwickelt. Aufgrund der grossen Bedeutung der Evaluation wurden der präzise Inhalt und 
+die Form des Endproduktes erst gegen Ende des Projekts festgelegt. Vor der Fertigstellung der Bausteine wurden diese 
+ein letztes Mal mit den Expertinnen und Experten besprochen . Die Ergebnisse der Evaluation wurden bei der 
+Fertigstellung der Produkte berücksichtigt. 
+ Einblick in die drei Bausteine  
+In diesem Kapitel wird ein Einblick in ausgewählte Elemente der entwickelten Bausteine gegeben. Hierbei wird 
+insbesondere aufgezeigt, wie diese mit Aspekten des Rahmenmodells GRAFINK zusammenhängen.  
+3.2.1 Baustein A: Unterrichtsmaterialien für die inklusive Grafomotorikförderung  
+Mit dem Baustein  A wurden theoretisch fundierte Unterrichtsmaterialien für die inklusive Grafomotorikfö rderung 
+entwickelt. Diese Materialien sollen situatives Lernen ermöglichen und der Verschiedenheit der Schüler*innen Rechnung 
+tragen sowie deren Lebensrealitäten berücksichtigen.  
+Als Grundlage für die Entwicklung des Unterrichtsmaterials wurden in Anlehnung an das Rahmenmodell die beiden 
+Aspekte, Fachdidaktische Grundlagen Handschrifterwerb’ (2.4.1.) und, Fachwissen Psychomotorik’ (2.4.2) miteinander 
+verbunden. Zudem wurde der Bezug zur, Didaktik für den Unterricht mit heterogenen Klassen’ (2.4.3) hergestellt. 
+Es wurden Unterrichtvorschläge für die Durchführung im multiprofessionellen Team (Psychomotoriktherapeut*in und 
+Lehrkraft) entwickelt, welche Varianten beinhalten, um Spiele u nd Übungsformen zu vereinfachen und/oder 
+anzureichern. Dabei wurden ausschliesslich Instruktionsformen aufgenommen, welche evidenzbasiert sind und das Ziel 
+verfolgen, alle Kinder zu einer leserlichen und geläufigen Handschrift zu führen  (vgl. Kap. 2.4.1, z.B. Santangelo & 
+Graham, 2016) . Aufgrund der grossen Verschiedenheit der Kinder in Bezug auf die  Voraussetzungen in den 
+Entwicklungsbereichen, die für das Erlangen der Handschrift eine grosse Rolle spielen , wurden zudem 14 Posten 
+entwickelt, die von Lehrkraft und Psychomotoriktherapeut*in flexibel in Lernumgebungen eingesetzt werden können  
+(vgl. Kap. 2.4.2., Sägesser & Eckhart, 2016). Diese Posten sprechen die zentralen Vorläuferfertigkeiten Feinmotorik und 
+Visuomotorische Integration an, ermöglichen aber auch einen Zugang zum Schreiben über unterschiedliche 
+Sinnessysteme (Sägesser & Eckhart, 2016). Für die Posten wurden zahlreiche Varianten entwickelt, so dass Kinder auf 
+ihrer aktuellen Entwicklungsstufe spielen und lernen können. Braucht es für einzelne Kinder noch weiterführende 
+Variationen, bringt die Psychomotoriktherapeut*in das not wendige Fachwissen in die multiprofessionelle 
+Zusammenarbeit ein.  
+Um die Kinder altersentsprechend emotional abzuholen führt die Rahmengeschichte von Maxi durch die Lektionen  
+Das Kind Maxi ist weder ein Junge noch ein Mädchen , damit sich möglichst viele S chüler*innen damit identifizieren 
+können. Exemplarisch wird in einer Unterrichtseinheit durch die Geschichte eine Grundform der Schrift eingeführt, 
+welche in der Folge beispielsweise in der Bewegung erlebt (Vetter et al., 2009), durch Bewegungslernen vom Modell in 
+Bezug zu ausgewählten Buchstaben gestellt (Santangelo & Graham, 2016)  und mit kooperativen Lernformen oder in 
+Einzelarbeit an ausgewählten Posten vertief t wird. Als Abschluss der Unterrichtseinheit wird eine Selbstreflexion 
+vorgeschlagen (Kap. 2.4.2; Zimmer, 2019) sowie ein angepasster Zeichen- oder Schreibanlass empfohlen (Santangelo & 
+Graham, 2016).  
+3.2.2 Baustein B: Didaktisches Konzept für die Anwendung der Unterrichts - und Fördermaterialien  14 
+ 
+Um die entwickelten Materialen aus Baustein A in inklusiven Klassen gewinnbringend einzusetzen, lag ein weiteres Ziel 
+darin, ein didaktisches Konzept für die Anwendung der Unterrichts- und Fördermaterialien im inklusiven Unterricht zu 
+entwickeln. Vielfältige didaktische Zugänge sollen es allen Kindern ermöglichen, ihre grafomotorischen Kompetenzen 
+gezielt weiterzuentwickeln. 
+Das didaktische Konzept wird konsequent entlang der drei Spannungsfelder (vgl. Kap.2.4.3, Eckhart, 2010) aufgebaut. 
+Das hat zur Folge, dass in den Unterrichtsvorschläge m öglichst vielfältige Arbeitsweisen integriert wurde n, die durch 
+Lehrkräfte, Psychomotoriktherapeut*innen und Kinder flexibel und passend zur entsprechenden Klasse variiert werden 
+können.  
+Dimension der Differenzierung – der Aspekt der Methodik (Gruppenorientierung vs. Einzelorientierung): 
+Der einleitende Bewegungsteil und die Rahmengeschichte sprechen in GRAFINK das gemeinsame Erlebnis in der 
+Lerngruppe an. Durch den gezielten Einsatz kooperativer Lernformen lernen die Kinder sich gegenseitig zu unterstützen 
+und zusammenzuarbeiten, was ebenfalls zu einem Gefühl der Gemeinsamkeit führt (Sägesser Wyss et al., 2021) . Auf 
+der anderen Seite bildet der hohe Grad an innerer Differenzierung der Lerninhalte ein Kerne lement von GRAFINK. 
+Für die meisten Aufgaben und Posten werden vielfältige Varianten in Bezug auf Materialien und Zugangsweisen 
+angeboten, damit möglichst vielfältig auf die unterschiedlichen Voraussetzungen einzelner Kinder eingegangen werden 
+kann.  
+Dimension Steuerung – Aspekt der Vermittlung (Steuerung durch Schüler*in versus Steuerung durch die Lehrkraft) 
+Im Konzept GRAFINK liegen viele Hinweise und Materialien vor, die sich für einen offenen, schüler*innenzentrierten 
+Unterricht eignen. Durch das Entwickeln zahlreicher Varianten und unterschiedlicher Anforderungsniveaus bei Posten 
+und Aufgaben soll es für Schüler*innen möglich sein, auf unterschiedlichen Entwicklungsniveaus im Rahmen des 
+Unterrichts eigenständig und selbstgesteuert zu lernen. Die offene Lernform hat zudem den Vorteil, dass die Lehrkraft 
+und die Psychomotoriktherapeut*in direkt während des Lernprozesses individuelle Feedbacks geben können (Sägesser 
+Wyss et al., 2021) . Da allerding s ein einseitiger, ausschliesslich schüler*innenzentrierter Unterricht insbesondere für 
+Kinder mit besonderem Bildungsbedarf auch negative Auswirkungen haben kann (vgl. Eckhart, 2010; Grünke, 2006) , 
+beinhaltet das Konzept ebenfalls direktive, durch die Lehrkraft oder die Psychomotoriktherapeut*in geführte, 
+Sequenzen. Beispielsweise beginnen die Unterrichtsvorschläge immer mit einem direkt instruierten Einstieg.  
+Dimension Entwicklung – Aspekt der Lerninhalte (Entwicklungsorientierung vs. Curriculumorientierung) 
+Alle Kinder einer Klasse sollen unabhängig von ihrem aktuellen Entwicklungsstand am Handschriftunterricht teilhaben 
+können. Dies erfordert auf der einen Seite die Orientierung am Lehrplan, welcher die anzustrebenden Kompetenzen 
+vorgibt, andererseits die sorgfältige, individuelle Förderplanung und Ausrichtung der Aufgabenstellungen an der 
+aktuellen Entwicklung einzelner Kinder. Dabei ist es im Handschriftunterricht üblich, dass einige Kinder die 
+Anforderungen des Lehrplans längst erreicht haben und erweiternde Aufgaben brauchen. Andere Kinder haben bis zur 
+Erreichung der Grundanforderungen noch einen weiten Weg vor sich und sind auf die Unterstützung der 
+Psychomotoriktherapeut*in (Diagnostik und Förderplanung) angewiesen.  
+3.2.3 Baustein C: Gelingensbedingungen und Leitfaden für die Multiprofessionelle Zusammenarbeit  
+Für die Umsetzung des inklusive n Grafomotorikunterrichts ist die Zusammenarbeit zwischen der 
+Psychomotoriktherapeut*in und der Lehrkraft entscheidend. Deshalb lag ein weiteres Ziel darin, Empfehlungen zur 
+Organisation und Strukturierung der Zusammenarbeit zwischen Psychomotoriktherapeut*in und Lehrkraft zu 
+entwickeln. 15 
+ 
+In Baustein C wurden solche Gelingensbedingungen für die multiprofessionelle Zusammenarbeit formuliert. (Sägesser 
+Wyss et al., 2021). Dabei wird das Ineinandergreifen der Organisationsebene, der Beziehungsebene, der Sachebene und 
+der Persönlichkeitsebene dargestellt und für Analyse und Weiterentwicklung von Kooperationsprozessen nutzbar 
+gemacht (vgl. Kap. 3.4.4 , Wocken, 1 988). Anhand der vier Ebenen nach Wocken (1988) werden zentrale 
+Orientierungspunkte definiert, welche eine umfassende Reflexion und Weiterentwicklung der Zusammenarbeit 
+unterstützen. Es ist gemäss (Wocken, 1988) sinnvoll, die organisatorische Ebene zu klären, damit der zeitliche und örtliche 
+Rahmen für die Zusammenarbeit für alle Kooperationspartner*innen verbindlich und transparent ist. Weiter wichtig ist 
+auf der Persönlichkeitsebene die positive Haltung aller Beteiligten gegenüber der mulitprofessionellen Zusammenarbeit und 
+gegenüber inklusiven Unterrichtsformen  zu klären . Auf  der Beziehungsebene ist es  gewinnbringend, Erwartungen 
+offenzulegen und eine professionelle Feedbackkultur zu pflegen, um sich gegenseitig vertrauen und wertschätzen zu 
+können (Kummer Wyss, 2010). Wichtig dabei ist, dass eine Annäherung von beiden Seiten stattfindet und alle Beteiligten 
+an der Beziehung arbeiten. Auf der Sachebene ist es wichtig, Kompetenzbereiche, Rollen und Aufgaben zu klären und 
+Zielsetzungen und Grundsätze der Zusamm enarbeit sowie fachliche Zuständigkeiten und Verantwortlichkeiten im 
+Hinblick auf die Zusammenarbeit zu klären. Nicht das Abhaken einer Checkliste wird dabei angestrebt, sondern das 
+gemeinsame Nachdenken im Team (Sahli Lozano et al., 2017). 
+Neben der Reflexion der Zusammenarbeit anhand der Orientierungspunkte zu den  vier Ebenen nach Wocken (1988), 
+steht bei den regelmässigen Planungs- und Reflexionstreffen der gemeinsame Unterricht im Zentrum (Sägesser Wyss et 
+al., 2021) . Auch wenn die Unterrichtsvorschläge, welche im Rahmen von GRAFINK entwickelt wurden, die 
+Unterrichtsplanung für  den Unterricht mit heterogenen Klassen unterstützen, liegt die Feinplanung bei den 
+Kooperationsteams. Dabei ist es sinnvoll, sich an einem Planungs- und Reflexionskreislauf (Sägesser Wyss et al., 2021) 
+zu orientieren , der in Anlehn ung an  (Staub & Kreis, 2016)  entwickelt wurde . Dieser unterstützt die Teams in 
+kooperativen Prozessen und treibt die Unterrichtsentwicklung gezielt voran (Sägesser Wyss et al., 2021).  
+Hier werden in der Planungsphase die Unterrichtsinhalte für die ganze Klasse sowie individuelle Förderziele für einzelne 
+Lernende definiert. Auf die Phase der Planung folgen während der Durchführung der Lektion , die gezielten 
+Beobachtungen, welche in der Reflexion nach der Lektion ausgetauscht werden . Dabei spielen die unterschiedlichen 
+fachlichen Hintergründe der Teammitglieder eine grosse Rolle und ermöglichen es, Unterrichtsinhalte auf die eigene 
+Klasse anzupassen und bei Bedarf weiterzuentwickeln sowie einzelne Kinder gezielt zu unterstützen.  
+4 Fazit und Ausblick 
+Das zu Beginn und während des Prozesses (weiter)entwickelte Rahmenmodell GRAFINK wurde zu einem wic htigen 
+Arbeitsinstrument. Die intensive Auseinandersetzung und Diskussion von theoretischen und rechtlichen Aspekten einer 
+inklusiven Grafomotorikförderung  und wie diese zusammenhängen, lieferte eine wichtige Grundlage für die 
+Ausarbeitung von Unterrichtsmaterialien, eines didaktischen Konzeptes sowie für die Erarbeitung  von Hinweisen für 
+die Zusammenarbeit zwischen Lehrkraft und Psychomotoriktherapeut*in. Durch die Anwendung und Reflexion des 
+Rahmenmodells hat sich dieses im Projektverlauf weiterentwickelt. Im Projekt GRAFINK war der Kern des Modells, 
+dem Fokus auf die Handschriftförderung entsprechend, im Bereich des fachdidaktischen und fachspezifischen Wissens 
+stark auf dieses Themengebiet ausgerichtet. Dieser inhaltliche Kern kann jedoch je nach Fach- oder Förderschwerpunkt 
+angepasst werden. Damit könnte das Rahmenmodell eine Grundlage bieten, um das Anliegen der schulischen Inklusion 
+voranzutreiben. So kann das Modell in Weiterbildungen von Lehrkräften, Psychomotoriktherapeut*innen und anderen 
+Fachkräften als Orientierung dienen, um inklusive Schulentwicklungsprozesse einzuordnen und zu begründen.  
+Das Rahmenmodell GRAFINK hat sich für die konkrete Erarbeitung der Bausteine A-C als hilfreich erwiesen, und es 
+konnten Unterrichtsvorschläge und Materialien erarbeitet werden, welche Lehrkräfte und 16 
+ 
+Psychomotoriktherapeut*innen grundsätzlich bei der Gestaltung  eines inklusiven, gemeinsamen Unterrichts 
+unterstützen. Allerdings hat sich gezeigt, dass die Implem entierung beispielsweise kooperative r Lernformen vielen 
+Teilnehmenden nicht leichtgefallen ist und in der Konsequenz weggelassen wurde, wenn die Zeit etwas knapp war.  
+Der Aufwand und die Sorgfalt, welche für das Einführen der Selbstreflexion im Unterricht notwendig ist, wurde n eher 
+unterschätzt. Hier stellt sich die Frage, inwiefern diese Kompetenzen mit den Kindern nicht fachübergreifend geschult 
+werden müssten, um der Vielfalt und Heterogenität der Kinder im Unterricht ganz allgemein besser begegnen zu 
+können. Eine Einführung einzig im Rahmen des Handschriftunterrichts sch eint sehr anspruchsvoll zu sein. Trotzdem 
+wird auch dieses Element bei der Fertigstellung des Konzepts GRAFINK grundsätzlich beibehalten.  
+Sehr positiv zu bewerten sind die Ergebnisse zur multiprofessionellen Zusammenarbeit.  Der erlebte gegenseitige 
+Lernzuwachs, das Gefühl, die Verantwortung gemeinsam zu tragen  sowie die gelingende kooperative Zusammenarbeit 
+werden im Rahmen der Evaluation hervorgehoben . Kritischer muss hingegen die grosse zeitliche Belastung für die 
+Zusammenarbeit und für das konkrete Bere itstellen und Organis ieren der Materialien beleuchtet werden. Für 
+Entwicklungen in die Richtung der inklusiven Bildung wäre es förderlich , wenn zusätzliche Zeitgefässe für die 
+Zusammenarbeit zwischen Lehr- und Fachkräfte n und zur Entwicklung angepasster Unterrichtsmaterialien zur 
+Verfügung gestellt würden. Dies ist derzeit in der Psychomotoriktherapie noch nicht etabliert , weil in der Regel von 
+traditionellen Therapie -Settings ausgegangen wird. Der inklusive Unter richt bedingt viel  Eigeninitiative und 
+Engagement. Trotzdem konnte mit  der Erprobung von GRAFINK aufgezeigt werden, dass die multiprofessionelle 
+Zusammenarbeit zwischen Psychomotoriktherapeut*in und Lehrkraft im Rahmen des inklusiven 
+Handschriftunterrichts grundsätzliche möglich ist und viele Vorteile für alle Beteiligten bringt.   
+Das im Rahmen des Projekts GRAFINK  entwickelte Rahmenmodell mit den zugehörigen Bausteinen leistet 
+zusammenfassend einen Beitrag fü r einen inklusiven Handschriftunterricht . Ob und welche Wirkungen jedoch mit 
+einem integrativen oder inklusiven Handschriftunterricht erzielt werden können, ist Gegenstand einer weiteren 
+Untersuchung. In diesem vom Schweizerischen Nationalfonds (Laufzeit 2 020 - 2023) unterstützten Forschungsprojekt 
+werden verschiedene Settings der grafomotorischen Förderung miteinander verglichen. Von Interesse sind dabei 
+insbesondere die Wirkungen der Settings auf Schüler*innen mit grafomotorischen Förderbedarf, auf ihren 
+Klassenkameraden*innen sowie auf die Lehr- und Fachkräfte. Es wird sich dabei auch zeigen, ob und inwiefern sich das 
+hier entwickelte Rahmenmodell und die damit verbundenen Bausteine empirisch bewähren. 
+5 Literatur 
+Abbott, R., Berninger, V. W., & Michel, F. (2010). Longitudinal Relationships of Levels of Language in Writing and 
+Between Writing and Reading in Grades 1 to 7. Journal of Educational Psychology , 102, 281 –298. 
+https://doi.org/10.1037/a0019318 
+Baumert, K., & Kunter, M. (2006). Stichwort: Professionelle Kompetenz von Lehrkräften. Erziehungswissenschaft, 9(4), 
+469–520. 
+Berninger, V. W., & Chanquoi, L. (2012). What Writing Is and How It Changes Across Early and Midd le Childhood 
+Development. In E. L. Grigorenko, E. Mambrino, & D. D. Preiss (Hrsg.), Writing: A Mosaic of New Perspectives  
+(S. 65–84). New York, London: Psychology Press. 
+Berninger, V. W., Nagy, W., Tanimoto, S., & Abbott, R. D. (2015). Computer instruction  in handwriting, spelling, and 
+composing for students with specific learning disabilities in grades 4 –9. Computers & Education , 81, 154–168. 
+https://doi.org/10.1016/j.compedu.2014.10.005 
+Berninger, V. W., & Winn, W. D. (2008). Implications and Advancements in Brain Research and Technology for Writing 
+Development, Writing Instruction and Educational Evolution. In S. Graham & J. Fitzgerald (Hrsg.), Handbook 
+of Writing Research (S. 96 – 114). New York / London: Guilford Press. 
+Boban, I., & Hinz, A. (2003). Index für Inklusion. Lernen und Teilhabe in der Schule der Vielfalt entwickeln.  Halle-Wittenberg: 
+Martin-Luther-Universität. 17 
+ 
+Bochmann, R., Kirchmann, R., Green, K., & Green, N. (2012). Kooperatives Lernen in der Grundschule: Zusammen arbeiten – 
+aktive Kinder lernen mehr (2. Aufl.). Essen: Neue Deutsche Schule. 
+Bollmann-Zuberbühler, B., Totter, A., & Keller, F. (2012). Begleitforschung als ein Instrument zur inhaltlichen 
+Qualitätssicherung in der Lehrmittelentwicklung ‚Mathematik 1 bis 3, Sekundarstufe I’’‘. In J. Doll, K. Frank, 
+D. Frickmann, & K. Schwippert (Hrsg.), Schulbücher im Fokus: Nutzungen, Wirkungen und Evaluation (S. 181–200). 
+Münster: Waxmann. 
+Cadoret, G., Bigras, N., Duval, S., Lemay, L., Tremblay, T., & Lemire, J. (2018). The mediating role of cognitive ability 
+on the relationship between motor proficiency and early academic achievement in children. Human Movement 
+Science, 57(1), 149–157. https://doi.org/10.1016/j.humov.2017.12.002 
+Case-Smith, J., Holland, T., & Bishop, B. (2011). Effectiveness of an Integrated Handwriting Program for First -Grade 
+Students: A Pilot Study. American Journal of Occupational Therapy , (65), 670 –678. 
+https://doi.org/doi:10.5014/ajot.2011.000984 
+Christensen, C. A. (2005). The Role of Orthographic –Motor Integration in the Production of Creative and Well ‐
+Structured Written Text for Students in Secondary School. Educational Psychology , 25(5), 441 –453. 
+https://doi.org/10.1080/01443410500042076 
+Connelly, V., Dockrell, J. E., & Barnett, J. (2005). The slow handwriting of undergraduate students constrains overall 
+performance in exam essays. Educational Psychology , 25(1), 99 –107. 
+https://doi.org/10.1080/0144341042000294912 
+Diaz Meyer, M., Schneider, M., Marquardt, C ., Knopf, J., & Luptowicz, C. (2017). Schreibmotoische Förderung bei 
+Erstklässlern: Ergebnisse einer Interventionsstudie. Didaktik Deutsch, 22(43), 33–56. 
+Eckhart, M. (2005). Anerkennung und Ablehnung in Schulklassen. Einstellungen und Beziehungen von Schweizer Kindern und 
+Immigrantenkindern. Bern: Haupt. 
+Eckhart, M. (2010). Umgang mit Heterogenität – Notwendigkeit einer mehrdimensionalen Didaktik. In H. U. Grunder 
+& A. Gut (Hrsg.), Zum Umgang mit Heterogenität in Schule und Gesellschaft  (Bd. 2, S. 33 –150). Baltmannsweiler: 
+Schneider Verlag. 
+Eckhart, M. (2013). Verschiedenheit und Unterricht. In B. Deuter Friedli (Hrsg.), Lernräume. Kinder lernen und lehren in 
+heterogenen Gruppen (S. 15–25). Bern: Haupt Verlag. 
+Eckhart, M., & Sägesser, J.  (2016). Förderplanung im Unterricht —Expemplarische Umsetzung am Beispiel der 
+Grafomotorik. Schweizerische Zeitschrift für Heilpädagogik, 2, 13–19. 
+EDK - Schweizerische Konferenz der kantonalen Erziehungsdirektoren (2007). Interkantonale Vereinbarung über die 
+Zusammenarbeit in der Sonderpädagogik. http://www.edk.ch/dyn/12917.php. 
+Feder, K., Majnemer, A., & Synnes, A. (2000). Handwriting: Current Trends in Occupational Therapy Practice. Canadian 
+Journal of Occupational Therapy, 67(3), 197–204. https://doi.org/10.1177/000841740006700313 
+Feuser, G. (1994). Aspekte einer integrativen Didaktik unter Berücksichtigung tätigkeitstheoretischer und 
+entwicklungspsychologischer Erkenntnisse. In H. Eberwein (Hrsg.), Behinderte und nichtbehinderte lernen gemeinsam. 
+Handbuch der Integrationspädagogik (3. Aufl.). Weinheim: Beltz. 
+Fischer, K. (2018). Hand und Kopf: Die Bedeutung von Körperlichkeit und Handeln für Schriftspracherwerb und 
+Lesekompetenz. motorik, 41(4), 164–170. https://doi.org/10.2378/mot2018.art25d 
+Graham, S., Berninger, V. W., Abbott, R. D., Abbott, S. P., & Whitaker, D. (1997). Role of mechanics in composing of 
+elementary school students: A new methodological approach. Journal of Educational Psychology , 89(1), 170–182. 
+https://doi.org/10.1037/0022-0663.89.1.170 
+Graham, S., Harris, K., & Hebert, M. (2011). Informing Writing: The Benefits of Formative Assessment. A Carnegie Corporation 
+Time Act report. Alliance for Excellent Education. 
+Graham, S., Harris, K. R., & Mason, L. (2005). Improving the writing performance, knowledge, and self -efficacy of 
+struggling young writers: The effects of self-regulated strategy development. Contemporary Educational Psychology, 
+30(2), 207–241. https://doi.org/10.1016/j.cedpsych.2004.08.001 
+Graham, S., Harris, K. R., Mason, L., Fink -Chorzempa, B., Moran, S., & Saddler, B. (2008). How do primary grade 
+teachers teach handwriting? A national survey. Reading and Writing, 21, 49–69. https://doi.org/10.1007/s11145-
+007-9064-z 
+Grissmer, D., Grimm, K., Aiyer, S., Murrah, W., & Steele, J. (2010). Fine Motor Skills and Early Comprehension of the 
+World: Two New School Readiness Indicators. Developmental psychology , 46(5), 1008 –1017. 
+https://doi.org/10.1037/a0020104 18 
+ 
+Grünke, M. (2006). Zur Effektivit ät von Fördermethoden von Kindern und Jugendlichen mit Lernstörungen. Eine 
+Synopse vorliegender Metaanalysen. Kindheit und Entwicklung, 15, 238–253. 
+Hayes, J. R. (2012). My past and present as writing researcher and thoughts about the future of writing res earch. In V. 
+W. Berninger (Hrsg.), Past, Present, and Future Contributions of Cognitive Writing Research to Cognitive Psychology (S. 3–
+26). New York: Psychology press. 
+Jurt, J., Hurschler Lichtsteiner, S., & Henseler Lüthi, L. (2013). Unterwegs zur persönlichen Handschrift. Lernprozesse gestalten 
+mit der Luzerner Basisschrift (2. Aufl.). Luzern: Kantonaler Lehrmittelverlag. 
+Kummer Wyss, A. (2010). Teamorientierung im Sch ulbereich. Wie Lehrpersonen ihre gemeinsame Verantwortung zur 
+Er-füllung des Erziehungsauftrags in der Schule tragen (können). Beiträge zur Lehrerbildung, 28(3), 428–439. 
+Labrecque, A. -M., Morin, M. -F., & Montésinons -Gelet, I. (2013). Quelle place est accordée à la composante 
+graphomotrice de l’écriture dans les classes au début du primaire? Enquête auprès d’enseignants québécois. 
+Nouveaux cahiers de la recherche en éducation, 16(1), 104–133. 
+Littig, B., & Wallace, C. (1997). Möglichkeiten und Grenzen von Fokus -Gruppendiskussionen für die 
+sozialwissenschaftliche Forschung. Abgerufen von http://nbn-resolving.de/urn:nbn:de:0168-ssoar-222022 
+Mayring, P. (2007). Qualitative Inhaltsanalyse; Grundlagen und Techniken. Weinheim: Beltz. 
+McClelland, M. M., & Cameron, C. E. (2019). Developing together: The role of executive function and motor skills in 
+children’s early academic lives. Early Childhood Research Quarterly , 46, 142 –151. 
+https://doi.org/10.1016/j.ecresq.2018.03.014 
+Meyer, F., Bühler, G., & Eckhart, M. (2015). Prinzip Vielfalt. Unterrichtsbausteine zum Thema Anderssein und Gleichsein . St. 
+Gallen: Lehrmittelverlag St. Gallen. 
+Michel, E., Roethlisberger, M., Neuenschwander, R., & Roebers, C. M. (2011). Development of Cognitive Skills in 
+Children with Motor Coordination Impairments at 12-Month Follow-up. Child Neuropsychology, 17(2), 151–172. 
+https://doi.org/10.1080/09297049.2010.525501 
+Morgan, D. L. (1997). Focus groups as qualitative research. California: Sage Publications. 
+Mueller, P. A., & Oppenheimer, D. M. (2014). The Pen Is Mightier Than the Keyboard Advantages of Longhand Over 
+Laptop Note Taking. Psychological Science, 1–10. https://doi.org/10.1177/0956797614524581 
+Oberer, N., Gashaj, V., & Roebers, C. M. (2018). Executive functions, visual -motor coordination, physical fitness and 
+academic achievement: Longitudinal relations in typically developing children. Human Movement Science, 58, 69–
+79. https://doi.org/10.1016/j.humov.2018.01.003 
+Olive, T. (2012). Working memory in Writing. In V. W. Berninger (Hrsg.), Past, present, and future contributions of cognitive 
+writing research to cognitive psychology (S. 485–503). New York: Psychology press. 
+Planton, S., Juckla, M., Roux, F.-E., & Démonet, J.-F. (2013). The „handwriting brain“: A meta-analysis of neuroimaging 
+studies of motor versus orthographic processes. Cortex, (49), 2772 –2787. 
+https://doi.org/doi.org/10.1016/j.cortex.2013.05.011 
+Prengel, A. (2019). Pädagogische Beziehungen zwischen Anerkennung, Verletzung und Ambivalenz . Opladen, Berlin & Toronto: 
+Verlag Barbara Budrich. 
+Puranik, C. S., & AlOtaiba, S. (2012). Examining the Contribution of Handwriting and Spelling to Written Expression 
+in Kindergarten Children. Reading and Writing: An Interdisciplinary Journal, 25(7), 1523–1546. 
+Sägesser, J., & Eckhart, M. (2016). GRAFOS. Screening und Differentialdiagnostik der Grafomotorik im schulischen Kontext. Bern: 
+Hogrefe. 
+Sägesser Wyss, J., & Gasser-Haas, O. (in press). Entwicklungen in der Schweizer Psychomotoriktherapie. motorik. 
+Sägesser Wyss, J., Sahli Lozano, C., & Simovic, L. (2021). GRAFINK - Grafomotorik und Inklusion. Grundlagen und 
+Materialien für das Erstschreiben. Bern & Göttingen: Hogrefe. 
+Sahli Lozano, C. (2012). Schulische Selektion und berufliche Integration: Theorien, Positionen und Ergebnisse einer Längsschnittstudie 
+zu den Wirkungen integrativer und separativer Schulformen auf Ausbildungszugänge und -wege. 
+Sahli Lozano, C., Crameri, S., & Gosteli, D. A. (2021). Integrative und separative schulische Massnahmen in der Schweiz (InSeMa). 
+Kantonale Gemeinsamkeiten und Unterschiede bei deren Vergabe und Umsetzung. Bern: Edition SZH. 
+Sahli Lozano, C., & Simovic, L. J. (2018). Multiprofessionelle Teams für starke Le rnbeziehungen. Vier Thesen zum 
+Thema Reduktion der Anzahl Fach- und Lehrpersonen an Schulklassen. Schweizerische Zeitschrift für Heilpädagogik, 
+24(2), 30–37. 
+Sahli Lozano, C., Vetterli, R., & Wyss, A. (2017). Wegleitung für Schulen unterwegs zu einer „gute n Schule für alle“ . Bern: 
+schulverlag plus AG. 19 
+ 
+Santangelo, T., & Graham, S. (2016). A Comprehensive Meta-analysis of Handwriting Instruction. Educational Psychology 
+Review, 28, 225–265. https://doi.org/10.1007/s10648-015-9335-1 
+Schneider, H., Becker - Mrotzek, M., Sturm, A., Jambor - Fahlen, S., Neugebauer, U., Efing, C., & Kernen, N. (2013). 
+Expertise—Wirksamkeit von Sprachförderung . Zürich: Bildungsdirektion des Kantons Zürich. Abgerufen von 
+Bildungsdirektion des Kantons Zürich website: http://issuu.com/m ercator-
+institut/docs/expertise_sprachfo__rderung_web_fin 
+Schulz, M. (2012). Fokusgruppen in der Empirischen Sozialwissenschaft: Von der Konzeption bis zur Auswertung . Wiesbaden: VS 
+Verlag für Sozialwissenschaften. 
+Speck-Hamdam, A., Falmann, P., Hess, S., Odersky, E., & Rüb, A. (2016). Zur Bedeutung der graphomotorischen 
+Prozesse beim Schreiben(lernen). In K. Liebers, B. Landwehr, S. Reinhold, S. Riegler, & R. Schmidt (Hrsg.), 
+Facetten grundschulpädagogischer und -didaktischer Forschung (S. 183–198). Heidelberg: Springer. 
+Staub, F., & Kreis, A. (2016). Leitfragen zur Planung und Reflexion von Unterricht. Universität Zürich, Institut für 
+Erziehungswissenschaften. Abgerufen von https://www.ife.uzh.ch/dam/jcr:42628672 -6d2b-4f23-8a91-
+2891164e5b3d/leitfragen-planung+reflexion_2016.pdf 
+Torrance, M., & Galbraith, D. (2006). The processing demands of writing. In C. A. MacArthur, S. Graham, & J. 
+Fitzgerald (Hrsg.), Handbook of writing research (S. 67–80). New York: Guilford Press. 
+UNESCO. (1994). The Salamanca Statement and Framework for action on special needs education: Adopted by the 
+World Conference on Special Needs Education; Access and Quality. Salamanca, Spain, 7 -10 June 1994. 
+UNESCO. 
+United Nations (2006). A convention on th e Rights of Persons with Disabilities. 
+https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-
+disabilities.html 
+VERBI Software. (2019). MAXQDA 2019 [computer software]. Berlin: VERBI Software.  
+Vetter, M., Amft, S., & Sammann, K. (2009). G-FIPPS. Zur Wirksamkeit grafomotorischer Förderung in integrativ und präventiv 
+ausgerichteter Psychomotorik. Zürich: HfH. 
+Vetter, M., Amft, S., Sammann, K., Krantz, I., Hättich, A., & Venetz, M. (2010). G-Fipps: Grafomotorische Förderung.  
+Dortmund: Borgmann Media. 
+Weintraub, N., Yinon, M., Hirsch,  I. B. -E., & Paursh, S. (2009). Effectiveness of sensorimotor and task -oriented 
+handwriting intervention in elementary school -aged students with handwriting difficulties. OTJR: Occupation, 
+Participation & Health, 29(3), 125–134. 
+Wendler, M., & Reichenbach,  C. (2020). Paradigmenwechsel in der heilpädagogischen Diagnostik. Möglichkeiten und 
+Grenzen im Kontext von Inklusion. In H. Greving, C. Reichenbach, & M. Wendler (Hrsg.), Inklusion in der 
+Heilpädagogik. Diskurse, Leitideen, Handlungskonzepte (S. 97–108). Stuttgart: Kohlhammer. 
+Wocken, H. (1988). Kooperation von Pädagogen an integrativen Grundschulen. In H. Wocken, G. Antor, & A. Hinz 
+(Hrsg.), Integrationsklassen in Hamburger Grundschulen (S. 199–274). Hamburg: Curio Verlag. 
+Woodward, S., & Swinth, Y. (2002). Multisensory approach to Handwriting Remediation: Perceptions of School—Based 
+Occupational Therapists. American Journal of Occupational Therapy, (56), 305–312. 
+Ziemen, K. (2016). Inklusion und Diagnostisches Handeln. In B. Amrhein (Hrsg.), Diagnostik im Kontext inklusiver Bildung. 
+Theorien, Ambivalenzen, Akteure, Konzepte. Kempten: Klinkhardt. 
+Zimmer, R. (2019). Handbuch der Psychomotorik: Theorie und Praxis der psychomotorischen Förderung (14. Aufl.). Freiburg, Basel, 
+Wien: Herder. 
+ 
+View publication stats

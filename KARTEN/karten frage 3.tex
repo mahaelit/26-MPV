@@ -1,0 +1,410 @@
+\documentclass[ngerman, a4paper, landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Aptos}[
+  Path           = ../aptos-font/,
+  Extension      = .ttf,
+  UprightFont    = aptos,
+  BoldFont       = aptos-bold,
+  ItalicFont     = aptos-italic,
+  BoldItalicFont = aptos-black-italic
+]
+\usepackage{babel}
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage[margin=0mm]{geometry}
+\usepackage{calc}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tabularx}
+
+% Colors matching the main document for Frage 3
+\definecolor{preussischblau}{RGB}{0,49,83}
+\definecolor{fragedreibg}{RGB}{200,232,210}
+\definecolor{fragedreiframe}{RGB}{90,170,130}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\topskip=0pt
+
+\pagestyle{empty}
+
+% Define the card front layout box
+\newtcolorbox{cardfrontbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\large\bfseries,
+  title={Karte #1 \hfill \normalfont\small\sffamily Frage 3},
+  left=10mm, right=10mm, top=10mm, bottom=10mm,
+  valign=center,
+  halign=center,
+  nobeforeafter
+}
+
+% Define the card back layout box
+\newtcolorbox{cardbackbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\bfseries,
+  title={Karte #1 (Rückseite) \hfill \normalfont\small\sffamily Frage 3},
+  left=8mm, right=8mm, top=6mm, bottom=6mm,
+  nobeforeafter
+}
+
+% Define macro for Front card rendering
+\newcommand{\CardFront}[3]{%
+  % #1: ID
+  % #2: Title
+  % #3: Description
+  \begin{cardfrontbox}{#1}
+    \begin{spacing}{1.1}
+      {\fontsize{15pt}{19pt}\selectfont\bfseries\textcolor{preussischblau}{#2}\par}
+      \vskip 4mm
+      \textcolor{fragedreiframe}{\rule{60mm}{2pt}}\par
+      \vskip 4mm
+      {\fontsize{11pt}{15pt}\selectfont\itshape #3\par}
+    \end{spacing}
+  \end{cardfrontbox}%
+}
+
+% Define macro for Back card rendering
+\newcommand{\CardBack}[5]{%
+  % #1: ID
+  % #2: Theorie
+  % #3: Hauptquellen
+  % #4: Fallbezug S.
+  % #5: Vortragspointe
+  \begin{cardbackbox}{#1}
+    \begin{spacing}{1.0}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Theorie:}}
+        \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, parsep=0pt, partopsep=0pt]
+          #2
+        \end{itemize}
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Hauptquellen:}} #3 \\
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Fallbezug S.:}} #4 \\
+        \vskip 4pt
+        \begin{tcolorbox}[
+          colback=fragedreibg!40,
+          colframe=fragedreiframe,
+          arc=1mm,
+          boxrule=0.3mm,
+          left=3mm, right=3mm, top=2mm, bottom=2mm,
+          nobeforeafter
+        ]
+          {\fontsize{8.5pt}{10.5pt}\selectfont\textbf{Vortragspointe:} \textit{#5}}
+        \end{tcolorbox}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% Layout macro for page of 4 cards
+\newcommand{\renderfour}[4]{%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #1%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #2%
+  \end{minipage}\par\nointerlineskip%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #3%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #4%
+  \end{minipage}\newpage
+}
+
+% =========================================================================
+% CARD DATA DEFINITIONS
+% =========================================================================
+
+% --- Karte 3.1 ---
+\newcommand{\CardFrontThreeOne}{%
+  \CardFront{3.1}{Anerkennung als pädagogische Grundkategorie}{Anerkennung erster und zweiter Ordnung in der schulischen Interaktion}%
+}
+\newcommand{\CardBackThreeOne}{%
+  \CardBack{3.1}{%
+    \item \textbf{Anerkennung erster Ordnung}: Direkt beobachtbar in der Interaktion durch verbale, nonverbale, materielle oder symbolische Verstärker (Lob, Nicken, Komplimente). Zielt auf personale Ebene und persönliche Motivation (S.\,90).
+    \item \textbf{Anerkennung zweiter Ordnung}: Grundhaltung des voraussetzungslosen Respekts vor Wünschen, Bedürfnissen und Interessen der Person -- unabhängig von Leistung oder Nutzen. Ist direkter Beobachtung entzogen (S.\,90).
+    \item \textbf{Interaktionsgeschehen}: Setzt voraus, dass sich Beteiligte in ihrer Besonderheit zeigen können, ohne unter Handlungserwartungen oder Bilder des Gegenübers subsumiert zu werden (S.\,90\,f.).
+    \item \textbf{Klimaforschung}: Positives Schulklima korreliert mit Schulleistung und Selbstkonzept; negatives Klima führt zu Hilflosigkeit, Angst und geringer Erfolgszuversicht (S.\,88\,f.).
+  }{%
+    Grossrieder 2010%
+  }{%
+    Im Regelunterricht fehlt Anerkennung 2. Ordnung. S. wird primär defizitorientiert über Abweichungen sanktioniert (Verweis, Strafarbeiten = Anerkennung an Anpassung geknüpft). Seine soziale Öffnung und Begabungsentfaltung in SOLUX basieren auf bedingungsfreier Anerkennung 2. Ordnung.%
+  }{%
+    Anerkennung ist keine Belohnung für Leistung, sondern eine existenzielle pädagogische Haltung (2. Ordnung), die Teilhabe erst ermöglicht.%
+  }%
+}
+
+% --- Karte 3.2 ---
+\newcommand{\CardFrontThreeTwo}{%
+  \CardFront{3.2}{Affektregulation in pädagogischer Beziehung (PSI)}{Die PSI-Theorie und die Internalisierung von Selbstkompetenzen}%
+}
+\newcommand{\CardBackThreeTwo}{%
+  \CardBack{3.2}{%
+    \item \textbf{Beziehung als Schlüssel}: Die Qualität der pädagogischen Beziehung entscheidet darüber, ob Begabungen in konkrete Bildung und Leistung umgesetzt werden können (S.\,35).
+    \item \textbf{Selbstkompetenzen}: Fähigkeiten wie Selbstmotivierung, Selbstberuhigung, Vorsatzumsetzung (Handlungskompetenz) und Selbstwachstum werden in Beziehungen erlernt (S.\,35, 38).
+    \item \textbf{Internalisierung}: Ermutigung und Beruhigung können nur bei stabiler Beziehung internalisiert werden. Verschliesst sich ein Kind bei negativer Beziehung, bleiben Fördermassnahmen wirkungslos (S.\,38).
+    \item \textbf{Unterrichtsklima}: In angstbesetzten, straffen Settings hängt die Begabungsentwicklung fast vollständig von der individuellen Selbstberuhigungskompetenz des Kindes ab (S.\,47).
+  }{%
+    Kuhl 2019 (PSI-Theorie), Kuhl 2021%
+  }{%
+    S.s Reaktionen im Regelunterricht (Weinen, Weigern, Erstarrung) sind Überflutungen durch negativen Affekt bei mangelnder Selbstberuhigung. Das sichere SOLUX-Setting entlastet ihn affektiv und öffnet sein Extensionsgedächtnis für Problemlöseprozesse.%
+  }{%
+    Ohne tragfähige Beziehung gibt es keine Internalisierung von Selbstkompetenzen. Die Beziehung ist die neurobiologische Bedingung für die Öffnung des Extensionsgedächtnisses.%
+  }%
+}
+
+% --- Karte 3.3 ---
+\newcommand{\CardFrontThreeThree}{%
+  \CardFront{3.3}{Stress als Dämpfer von Begabung}{Neurobiologische und psychosoziale Blockaden unter Stress}%
+}
+\newcommand{\CardBackThreeThree}{%
+  \CardBack{3.3}{%
+    \item \textbf{Kognitive Dämpfung}: Chronischer und akuter Stress führen zur Ausschüttung von Stresshormonen (Cortisol), was Gedächtnis, Lernen und Selbstregulation beeinträchtigt (S.\,22).
+    \item \textbf{Amygdala \& präfrontaler Cortex}: Dauerstress vergrössert die Amygdala (Angstreaktion) und dämpft den präfrontalen Cortex (Exekutivfunktionen wie Selbstregulation und Gefühlskontrolle brechen ein; S.\,22, 23).
+    \item \textbf{Nominierungs-Bias}: Lehrkräfte schlagen bevorzugt gut selbstregulierte Kinder für Begabtenförderung vor; gestresste Kinder fallen durch dieses Wahrnehmungsraster (S.\,23).
+    \item \textbf{Stressoren}: Schulischer Stress umfasst neben akademischem Druck auch soziale Faktoren wie Mobbing und migrationsbedingte Diskriminierungs- und Stigmatisierungserfahrungen (S.\,24).
+  }{%
+    Evers 2025%
+  }{%
+    S.s Migrations- und Sprachstress dämpft exekutive Funktionen des präfrontalen Cortex. Seine Blockaden wurden fälschlicherweise als Verweigerung statt als Stressfolge gedeutet. SOLUX wirkt als stressfreie, sprachentlastete Lernumgebung deeskalierend.%
+  }{%
+    Chronischer Stress blockiert kognitive Ressourcen über Amygdala und präfrontalen Cortex. Da Lehrkräfte bevorzugt gut regulierte Kinder nominieren, führt Stress zum systematischen Übersehen von Begabungen.%
+  }%
+}
+
+% --- Karte 3.4 ---
+\newcommand{\CardFrontThreeFour}{%
+  \CardFront{3.4}{Klassenkontext: systemische Mechanismen}{Systemische Begabungsförderung und lehrkraftbezogene Effekte}%
+}
+\newcommand{\CardBackThreeFour}{%
+  \CardBack{3.4}{%
+    \item \textbf{Systemische Perspektive}: Begabungsförderung erfordert ein ganzheitliches Modell systemischer didaktischer und pädagogischer Bedingungsfaktoren in Klasse und Schule (S.\,418).
+    \item \textbf{Pygmalion-Effekt}: Lehrkräfte passen ihre Erwartungen und ihren Unterricht an das vermutete Niveau der Klasse an. Soziale/ethnische Zusammensetzungen beeinflussen diese Wahrnehmung (S.\,422).
+    \item \textbf{Systemische Steuerung}: Die Handlungsoptionen der Einzellehrperson im Klassenzimmer sind begrenzt; Schulleitung (Schulkultur, Diversität als Ressource) und Bildungspolitik (Vermeidung von Segregation) tragen Hauptverantwortung (S.\,423\,f.).
+    \item \textbf{Professionalität}: Von Lehrkräften muss verlangt werden, sich der Wechselwirkungen zwischen ihren Erwartungen und Handlungen bewusst zu sein und gezielt gegenzusteuern (S.\,424).
+  }{%
+    Wagner 2021 (wagener2021bfhemmendfoerdernd)%
+  }{%
+    S.s Maskierung ist ein systemischer Effekt: Der sprachanfordernde Regelunterricht bietet keine Passung für ein Kind im frühen Zweitspracherwerb. Die SHP muss die Lehrkraft beraten, stereotype Erwartungen (Pygmalion) zu reflektieren und passendere didaktische Settings anzubieten.%
+  }{%
+    Begabungsförderung ist ein systemischer Effekt. Lehrkräfte müssen stereotype Erwartungseffekte (Pygmalion) reflektieren; die strukturelle Verantwortung liegt bei Schulleitung und Politik.%
+  }%
+}
+
+% --- Karte 3.5 ---
+\newcommand{\CardFrontThreeFive}{%
+  \CardFront{3.5}{Die Rolle der Peers}{Peerbeziehungen, Freundschaftsnormen und kognitive Ressourcen}%
+}
+\newcommand{\CardBackThreeFive}{%
+  \CardBack{3.5}{%
+    \item \textbf{Bedeutung der Peers}: Peerbeziehungen und soziale Akzeptanz sind in der mittleren Kindheit und frühen Adoleszenz von zentraler Bedeutung für Wohlbefinden, Selbstkonzept und schulische Leistung (S.\,288).
+    \item \textbf{Freundschaftsnormen}: Jugendliche mit Fluchterfahrung weisen eine hohe, kulturübergreifende Stabilität von Freundschaftsnormen auf und bewerten Freundschaft als zentralen persönlichen Wert (S.\,40--46).
+    \item \textbf{Fluchtkontext}: Der Einfluss von Flucht/Migration auf die Freundschaftsbildung ist primär situativ und kontextuell (mangelnde Gelegenheiten, Sprachbarrieren) statt ethnisch-kulturell determiniert (S.\,40).
+    \item \textbf{Pufferfunktion}: Tragfähige Peerbeziehungen wirken als Puffer gegenüber sozialem Stress, Ausgrenzung und Diskriminierungserfahrungen.
+  }{%
+    Kessels \& Hannover 2015, Baumert 2022%
+  }{%
+    Im Regelunterricht ist S. sozial und sprachlich isoliert (hohes Risiko der Ausgrenzung bei Verweisungen). SOLUX schafft einen strukturierten Kontaktraum über das Schachspiel, in dem Peers ihn als kompetenten Partner anerkennen und soziale Teilhabe gelingt.%
+  }{%
+    Peers sind Mitgestalter des akademischen Selbstkonzepts. Freundschaft ist bei geflüchteten Kindern ein zentraler Puffer, dessen Aktivierung von der Gestaltung des schulischen Kontexts abhängt.%
+  }%
+}
+
+% --- Karte 3.6 ---
+\newcommand{\CardFrontThreeSix}{%
+  \CardFront{3.6}{Soziale Teilhabe und Intergruppenkontakt}{Didaktische Gestaltung sozialer Teilhabe in heterogenen Gruppen}%
+}
+\newcommand{\CardBackThreeSix}{%
+  \CardBack{3.6}{%
+    \item \textbf{Kein Selbstläufer}: Soziale Teilhabe in heterogenen Lerngruppen entsteht nicht spontan durch physische Ko-Präsenz, sondern bedarf aktiver didaktischer Strukturierung (S.\,35).
+    \item \textbf{Gestaltungsmittel}: Strukturierter Intergruppenkontakt, gezielte Gruppenzusammensetzungen, Modellgeschichten und reflexive Prozesse über Anderssein fördern soziale Teilhabe nachhaltig (S.\,35--40).
+    \item \textbf{Freundschaften fördern}: Das Programm „Freundschaften fördern in heterogenen Lerngruppen“ (PH Luzern) operationalisiert diese Erkenntnisse.
+    \item \textbf{Integration}: Interethnische Freundschaften sind wesentliche Brücken in segregierten Kontexten, werden jedoch durch räumliche/institutionelle Segregation behindert (S.\,51--65).
+  }{%
+    Tschopp, Buholzer \& Grütter 2022, Boos-Nünning 2022%
+  }{%
+    Ohne didaktische Struktur bliebe S. isoliert. SOLUX bietet den strukturierten Kontaktraum nach Tschopp et al.: Das sprachentlastete Brettspiel Schach fungiert als Brückenmedium, an dem S. Kompetenz zeigt, Vorurteilsschranken abbaut und Intergruppenkontakt gelingt.%
+  }{%
+    Soziale Teilhabe geflüchteter Kinder muss didaktisch inszeniert werden. Strukturierter Intergruppenkontakt und nonverbale Medien bauen sprachlich-kulturelle Segregationslinien ab.%
+  }%
+}
+
+% --- Karte 3.7 ---
+\newcommand{\CardFrontThreeSeven}{%
+  \CardFront{3.7}{Migration und Flucht als kumulative Belastung}{Die traumasensible Haltung und das Konzept des guten Grundes}%
+}
+\newcommand{\CardBackThreeSeven}{%
+  \CardBack{3.7}{%
+    \item \textbf{Kumulative Belastung}: Fluchterfahrungen addieren sich zu einer biografisch-strukturellen Gesamtbelastung (Unterbrüche, Isolation, Statusunsicherheit), die kognitive Kapazitäten binden (S.\,91\,f.).
+    \item \textbf{Inklusive Begabungsförderung}: Verschiebt den Fokus von defizitorientierter Kompensation hin zu ressourcenorientierter Aktivierung der Potenziale aller Kinder (S.\,88, 95).
+    \item \textbf{Konzept des guten Grundes}: Traumasensible Haltung der verstehenden Pädagogik: Jedes Verhalten ergibt vor dem biografischen Hintergrund Sinn. Verhaltensauffälligkeiten (Rückzug, Unruhe, Verweigerung) sind Schutz- und Bewältigungsversuche (S.\,94).
+    \item \textbf{Puffer \& Hürden}: Freundschaften puffern Stress (S.\,8--12); institutionelle Schulroutinen neigen zur Pathologisierung und sonderpädagogischen Segregation von Migrantenkindern (S.\,63--70).
+  }{%
+    Behrensen 2019 (mit Stützlit. Gysin \& Scherzinger 2022, Kappus 2010)%
+  }{%
+    S.s Weinen und Schreibblockaden sind keine mutwillige Verweigerung, sondern traumasensible Bewältigungsstrategien unter kumulativer Belastung (Neuzugang, Migration, Schreibblockade). In SOLUX wird diese Dynamik durch Ressourcenfokus und peergestützte Pufferung umgekehrt.%
+  }{%
+    Geflüchtete Kinder stehen unter einer Kumulation von Belastungen, die kognitive Ressourcen bindet. Das „Konzept des guten Grundes“ verbietet die Pathologisierung auffälligen Verhaltens.%
+  }%
+}
+
+% --- Karte 3.8 ---
+\newcommand{\CardFrontThreeEight}{%
+  \CardFront{3.8}{Stereotype und Etikettierung}{Disharmonie-Vorurteil, Intersektionalität und Sprachbarrieren}%
+}
+\newcommand{\CardBackThreeEight}{%
+  \CardBack{3.8}{%
+    \item \textbf{Kategorisierung}: Die Unterteilung der Schulwelt in „Hochbegabte“ und „Nicht-Hochbegabte“ suggeriert eine problematische Zweiteilung und ruft Zuschreibungen hervor (S.\,115).
+    \item \textbf{Disharmonie-Stereotyp}: Die weitverbreitete Annahme, hohe Intelligenz gehe mit Defiziten im sozial-emotionalen Bereich einher (hohe Kompetenz, geringe Wärme), ist bei Lehrkräften nachgewiesen (S.\,122).
+    \item \textbf{Sprachfaktor}: Sprachliche Fähigkeiten sind für Lehrkräfte ein wichtiges Indiz für Kognition. Kinder im Zweitspracherwerb fallen bei Nominierungsprozessen leicht durch das Raster (S.\,120).
+    \item \textbf{Kultursensible Diagnostik}: Ein erweiterter Begabungsbegriff ist in heterogenen Gesellschaften Voraussetzung, damit Potenziale nicht selektiv übersehen werden (S.\,125, 128). Minoritätenstress belastet Identitätsentwicklung (S.\,126\,f.).
+  }{%
+    Baudson 2021%
+  }{%
+    Die Lehrkraft unterlag dem Stereotypen-Raster: S.s sprachliche Schwäche (Deutsch A1) wurde fälschlicherweise mit kognitiver Schwäche gleichgesetzt, während seine Blockaden als Verweigerung pathologisiert wurden. Ein kultursensibler Blick auf seine nonverbalen Stärken im Schach durchbricht diese Zuschreibungen.%
+  }{%
+    Lehrkräfte verwechseln sprachliche Performanz mit kognitivem Potenzial und unterliegen dem Disharmonie-Stereotyp. Begabungsgerechtigkeit erfordert einen erweiterten, kultursensiblen Begabungsbegriff.%
+  }%
+}
+
+% --- Karte 3.9 ---
+\newcommand{\CardFrontThreeNine}{%
+  \CardFront{3.9}{Underachievement und Motivationstheorie}{Die Underachievement-Spirale und die Kraft des Flow-Erlebens}%
+}
+\newcommand{\CardBackThreeNine}{%
+  \CardBack{3.9}{%
+    \item \textbf{Passungsproblem}: Underachievement ist kein stabiles Persönlichkeitsmerkmal, sondern das Ergebnis eines chronischen Passungsproblems zwischen Lernumgebung und Potenzial (S.\,11).
+    \item \textbf{Underachievement-Spirale}: 6-stufige Sequenz der Enttäuschung bei Unterforderung: Unterforderung $\rightarrow$ 1. Abbau Flow-Erleben $\rightarrow$ 2. Reduzierung Wissbegier $\rightarrow$ 3. Verminderung Anstrengungsbereitschaft $\rightarrow$ 4. Wandel der Attribuierung $\rightarrow$ 5. Veränderung des Selbstwertes $\rightarrow$ 6. Lernbezogene Angst (S.\,71\,f., Abb. 2-5).
+    \item \textbf{Flow-Erleben}: Wirkt als Stabilisator der Lerntätigkeit auf hohem Niveau. Entsteht durch intrinsische Tätigkeitsmotivation statt externer Disziplinierung (S.\,89).
+    \item \textbf{Förderlogik}: Begabtenförderung ist Förderung der Interessen/Motivation (S.\,151) via 6 Ebenen: Differenzierung, Individualisierung, Enrichment, Compacting, Separierung, Akzeleration (S.\,156), wozu das Drehtürmodell gehört (S.\,157).
+  }{%
+    Lehwald 2017%
+  }{%
+    S. befand sich im Regelunterricht bereits auf Stufe 5 (Selbstwertverlust) und 6 (Schreibangst/-blockade) der Underachievement-Spirale durch chronische Unterforderung (Pawel-Vergleich, IQ 148). SOLUX unterbrach diese Spirale durch Aktivierung von Flow-Erleben beim Schachspielen und baute sein Selbstkonzept wieder auf.%
+  }{%
+    Underachievement ist das Ergebnis eines chronischen Passungsproblems, das sich in einer 6-stufigen Spirale der Enttäuschung manifestiert. Intrinsisches Flow-Erleben wirkt als stärkster Stabilisator.%
+  }%
+}
+
+% --- Karte 3.10 (Overview 1) ---
+\newcommand{\CardFrontThreeTen}{%
+  \CardFront{3.10}{Übersicht Karten 3.1 -- 3.5}{Übersicht der Karten 3.1 bis 3.5}%
+}
+\newcommand{\CardBackThreeTen}{%
+  \begin{cardbackbox}{3.10}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 3 -- Theoriebereiche (Teil 1):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{3.1} & \textbf{Anerkennung als pädagogische Grundkategorie} \\
+                       & Anerkennung zweiter Ordnung ist voraussetzungsloser Respekt der Person. (Grossrieder 2010) \\
+          \textbf{3.2} & \textbf{Affektregulation in pädagogischer Beziehung (PSI)} \\
+                       & Beziehungserfahrung ist Voraussetzung für Internalisierung von Selbstkompetenz. (Kuhl 2019) \\
+          \textbf{3.3} & \textbf{Stress als Dämpfer von Begabung} \\
+                       & Dauerstress beeinträchtigt präfrontalen Cortex und maskiert Begabung. (Evers 2025) \\
+          \textbf{3.4} & \textbf{Klassenkontext: systemische Mechanismen} \\
+                       & Lehrkräfte müssen Erwartungseffekte (Pygmalion) reflektieren. (Wagner 2021) \\
+          \textbf{3.5} & \textbf{Die Rolle der Peers} \\
+                       & Freundschaft ist existenzielle Ressource und Puffer gegen Stress. (Kessels, Baumert 2022) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 3.11 (Overview 2) ---
+\newcommand{\CardFrontThreeEleven}{%
+  \CardFront{3.11}{Übersicht Karten 3.6 -- 3.9}{Übersicht der Karten 3.6 bis 3.9}%
+}
+\newcommand{\CardBackThreeEleven}{%
+  \begin{cardbackbox}{3.11}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 3 -- Theoriebereiche (Teil 2):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{3.6} & \textbf{Soziale Teilhabe und Intergruppenkontakt} \\
+                       & Soziale Teilhabe entsteht durch strukturierte Begegnungen und Medien. (Tschopp, Boos-Nünning) \\
+          \textbf{3.7} & \textbf{Migration und Flucht als kumulative Belastung} \\
+                       & Das Konzept des guten Grundes deutet Verhalten traumasensibel. (Behrensen 2019) \\
+          \textbf{3.8} & \textbf{Stereotype und Etikettierung} \\
+                       & Disharmonie-Stereotyp und Sprachbarrieren erzeugen Selektionseffekte. (Baudson 2021) \\
+          \textbf{3.9} & \textbf{Underachievement und Motivationstheorie} \\
+                       & Die Underachievement-Spirale wird durch intrinsisches Flow-Erleben gebrochen. (Lehwald 2017) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 3.12 (Einsatzlogik) ---
+\newcommand{\CardFrontThreeTwelve}{%
+  \CardFront{3.12}{Einsatzlogik}{Einsatzlogik im Prüfungsgespräch}%
+}
+\newcommand{\CardBackThreeTwelve}{%
+  \begin{cardbackbox}{3.12}
+    \begin{spacing}{0.9}
+      {\fontsize{7.5pt}{9.2pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Einsatzlogik im Prüfungsgespräch (Mögliche Fragen \& Karten):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.15}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{„Wie hängen Beziehung und Begabung zusammen?“} & $\rightarrow$ \textbf{Karte 3.1 \& 3.2} (Anerkennung, PSI-Theorie, Kuhl) \\
+          \textbf{„Welche Rolle spielt Stress bei Migration?“} & $\rightarrow$ \textbf{Karte 3.3 \& 3.7} (Evers, Amygdala, kumulative Belastung) \\
+          \textbf{„Wie deuten Sie Verweigerung traumasensibel?“} & $\rightarrow$ \textbf{Karte 3.7} (Konzept des guten Grundes, Behrensen) \\
+          \textbf{„Was bewirkt der Verweis aus dem Unterricht?“} & $\rightarrow$ \textbf{Karte 3.1, 3.2 \& 3.3} (Beziehungsentzug, Angst, Stress) \\
+          \textbf{„Wie kann man soziale Teilhabe gezielt fördern?“} & $\rightarrow$ \textbf{Karte 3.5 \& 3.6} (Intergruppenkontakt, Peer-Puffer, Tschopp) \\
+          \textbf{„Rolle von Sprachbarrieren bei Lehrkräften?“} & $\rightarrow$ \textbf{Karte 3.8} (Sprache als Kognitions-Indiz, Nominierung, Baudson) \\
+          \textbf{„Warum zeigt S. im Schachprojekt Potenzial?“} & $\rightarrow$ \textbf{Karte 3.9} (Flow-Erleben als Stabilisator, Lehwald) \\
+          \textbf{„Was kann die Einzellehrperson bewirken?“} & $\rightarrow$ \textbf{Karte 3.4} (Erwartungseffekte, Pygmalion, Wagner 2021) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% =========================================================================
+% DOCUMENT START
+% =========================================================================
+\begin{document}
+
+% SHEET 1 - FRONT
+\renderfour{\CardFrontThreeOne}{\CardFrontThreeTwo}{\CardFrontThreeThree}{\CardFrontThreeFour}
+
+% SHEET 1 - BACK (Horizontally flipped)
+\renderfour{\CardBackThreeTwo}{\CardBackThreeOne}{\CardBackThreeFour}{\CardBackThreeThree}
+
+% SHEET 2 - FRONT
+\renderfour{\CardFrontThreeFive}{\CardFrontThreeSix}{\CardFrontThreeSeven}{\CardFrontThreeEight}
+
+% SHEET 2 - BACK (Horizontally flipped)
+\renderfour{\CardBackThreeSix}{\CardBackThreeFive}{\CardBackThreeEight}{\CardBackThreeSeven}
+
+% SHEET 3 - FRONT
+\renderfour{\CardFrontThreeNine}{\CardFrontThreeTen}{\CardFrontThreeEleven}{\CardFrontThreeTwelve}
+
+% SHEET 3 - BACK (Horizontally flipped)
+\renderfour{\CardBackThreeTen}{\CardBackThreeNine}{\CardBackThreeTwelve}{\CardBackThreeEleven}
+
+\end{document}

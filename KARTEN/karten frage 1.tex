@@ -1,0 +1,410 @@
+\documentclass[ngerman, a4paper, landscape]{article}
+\usepackage{fontspec}
+\setmainfont{Aptos}[
+  Path           = ../aptos-font/,
+  Extension      = .ttf,
+  UprightFont    = aptos,
+  BoldFont       = aptos-bold,
+  ItalicFont     = aptos-italic,
+  BoldItalicFont = aptos-black-italic
+]
+\usepackage{babel}
+\usepackage{unicode-math}
+\setmathfont{latinmodern-math.otf}
+\usepackage[margin=0mm]{geometry}
+\usepackage{calc}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{tabularx}
+
+% Colors matching the main document
+\definecolor{preussischblau}{RGB}{0,49,83}
+\definecolor{frageeinsbg}{RGB}{255,242,179}
+\definecolor{frageeinsframe}{RGB}{230,200,80}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\topskip=0pt
+
+\pagestyle{empty}
+
+% Define the card front layout box
+\newtcolorbox{cardfrontbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\large\bfseries,
+  title={Karte #1 \hfill \normalfont\small\sffamily Frage 1},
+  left=10mm, right=10mm, top=10mm, bottom=10mm,
+  valign=center,
+  halign=center,
+  nobeforeafter
+}
+
+% Define the card back layout box
+\newtcolorbox{cardbackbox}[1]{%
+  width=148.5mm,
+  height=105mm,
+  arc=0mm,
+  boxrule=0.5pt,
+  colframe=preussischblau,
+  colback=white,
+  coltitle=white,
+  colbacktitle=preussischblau,
+  fonttitle=\sffamily\bfseries,
+  title={Karte #1 (Rückseite) \hfill \normalfont\small\sffamily Frage 1},
+  left=8mm, right=8mm, top=6mm, bottom=6mm,
+  nobeforeafter
+}
+
+% Define macro for Front card rendering
+\newcommand{\CardFront}[3]{%
+  % #1: ID
+  % #2: Title
+  % #3: Description
+  \begin{cardfrontbox}{#1}
+    \begin{spacing}{1.1}
+      {\fontsize{15pt}{19pt}\selectfont\bfseries\textcolor{preussischblau}{#2}\par}
+      \vskip 4mm
+      \textcolor{frageeinsframe}{\rule{60mm}{2pt}}\par
+      \vskip 4mm
+      {\fontsize{11pt}{15pt}\selectfont\itshape #3\par}
+    \end{spacing}
+  \end{cardfrontbox}%
+}
+
+% Define macro for Back card rendering
+\newcommand{\CardBack}[5]{%
+  % #1: ID
+  % #2: Theorie
+  % #3: Hauptquellen
+  % #4: Fallbezug S.
+  % #5: Vortragspointe
+  \begin{cardbackbox}{#1}
+    \begin{spacing}{1.0}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Theorie:}}
+        \begin{itemize}[leftmargin=*, noitemsep, topsep=1pt, parsep=0pt, partopsep=0pt]
+          #2
+        \end{itemize}
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Hauptquellen:}} #3 \\
+        \vskip 3pt
+        \textbf{\textcolor{preussischblau}{Fallbezug S.:}} #4 \\
+        \vskip 4pt
+        \begin{tcolorbox}[
+          colback=frageeinsbg!40,
+          colframe=frageeinsframe,
+          arc=1mm,
+          boxrule=0.3mm,
+          left=3mm, right=3mm, top=2mm, bottom=2mm,
+          nobeforeafter
+        ]
+          {\fontsize{8.5pt}{10.5pt}\selectfont\textbf{Vortragspointe:} \textit{#5}}
+        \end{tcolorbox}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% Layout macro for page of 4 cards
+\newcommand{\renderfour}[4]{%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #1%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #2%
+  \end{minipage}\par\nointerlineskip%
+  \noindent\begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #3%
+  \end{minipage}%
+  \begin{minipage}[t][105mm][t]{148.5mm}\setlength{\parindent}{0pt}%
+    #4%
+  \end{minipage}\newpage
+}
+
+% =========================================================================
+% CARD DATA DEFINITIONS
+% =========================================================================
+
+% --- Karte 1.1 ---
+\newcommand{\CardFrontOneOne}{%
+  \CardFront{1.1}{Begabung als Potenzial}{Begabung als entwicklungsfähiges Potenzial}%
+}
+\newcommand{\CardBackOneOne}{%
+  \CardBack{1.1}{%
+    \item Begabung ist keine statische Eigenschaft, sondern entwicklungsoffene Möglichkeit zur Leistung.
+    \item Intelligenz kann sich noch im Schulalter verändern (Stern).
+    \item Begabung wird zur beobachtbaren Performanz nur unter günstigen Bedingungen.
+    \item Anti-essentialistisches Verständnis: Begabung lebt im Person-Kontext-Verhältnis, nicht in der Person allein.%
+  }{%
+    Stern 2025; Müller-Oppliger 2021 (Begabungsmodelle); Trautmann 2016 (Einführung)%
+  }{%
+    Sein überdurchschnittliches Potenzial war im Regelunterricht nicht sichtbar. Erst in SOLUX wurde es zur Performanz. Das bestätigt das dynamische Verständnis: Sein „Können“ hing am Setting.%
+  }{%
+    Begabung ist keine Eigenschaft, die man hat oder nicht hat. Sie wird unter passenden Bedingungen sichtbar.%
+  }%
+}
+
+% --- Karte 1.2 ---
+\newcommand{\CardFrontOneTwo}{%
+  \CardFront{1.2}{Der fehlende Blick}{Verdeckungsmechanismen bei Migration}%
+}
+\newcommand{\CardBackOneTwo}{%
+  \CardBack{1.2}{%
+    \item Begabte Kinder mit Migrationshintergrund sind in Förderprogrammen systematisch untervertreten (Stamm).
+    \item Sprachliche Unsicherheit, kulturelle Codes und Verhaltensauffälligkeiten überlagern die Wahrnehmung von Potenzial.
+    \item Schulische Erstdiagnostik bevorzugt strukturell anpassungskonforme, sprachlich passende Kinder.
+    \item Defizitorientierung wirkt schon vor der Diagnostik, nämlich in der Wahrnehmung.%
+  }{%
+    Stamm 2021; Keller-Koller 2025 und 2013; Kappus 2010%
+  }{%
+    S. trägt das typische Muster: A1, auffälliges Verhalten, kein automatischer Blick auf kognitive Stärken. Ohne die SOLUX-Beobachtungen wäre sein Potenzial wahrscheinlich nicht ins Blickfeld gerückt.%
+  }{%
+    Wer nicht passend hinsieht, sieht Begabung nicht.%
+  }%
+}
+
+% --- Karte 1.3 ---
+\newcommand{\CardFrontOneThree}{%
+  \CardFront{1.3}{Twice Exceptionality (2e)}{Doppelte Ausnahme, doppeltes Übersehen}%
+}
+\newcommand{\CardBackOneThree}{%
+  \CardBack{1.3}{%
+    \item 2e bezeichnet die Konstellation von überdurchschnittlichem Potenzial und gleichzeitigen Belastungs- oder Beeinträchtigungsfaktoren.
+    \item Drei typische Wahrnehmungsfallen: Begabung wird vom Defizit überlagert, Defizit wird durch Kompensation maskiert, oder beides hebt sich gegenseitig auf („durchschnittliches“ Bild).
+    \item Hohes Risiko von Under-Identification, Fehl- und Doppeldiagnosen.
+    \item 2e als Konstellation verstehen, nicht als diagnostisches Etikett.%
+  }{%
+    Baum \& Schader 2021; Webb 2020%
+  }{%
+    2e im erweiterten Sinn: kognitives Potenzial plus Schriftspracherwerb plus sensomotorische Auffälligkeiten plus biografische Belastungsfolgen. Keine Diagnose, sondern eine Konstellation, die diagnostische Sorgfalt verlangt.%
+  }{%
+    Defizite verstecken Potenzial. Diagnostik muss beides sehen können.%
+  }%
+}
+
+% --- Karte 1.4 ---
+\newcommand{\CardFrontOneFour}{%
+  \CardFront{1.4}{Sprachsensible Diagnostik}{Sprache ist Validitätsfrage}%
+}
+\newcommand{\CardBackOneFour}{%
+  \CardBack{1.4}{%
+    \item Sprachstand ist Bedingung jeder schulischen Diagnostik, nicht Diagnosegegenstand.
+    \item Tests sollten möglichst in der stärksten Sprache des Kindes erfolgen oder sprachreduzierte Verfahren nutzen (z.B. nonverbale Intelligenztests).
+    \item Übersetzung allein genügt nicht: Konstrukt-Äquivalenz und kulturelle Validität müssen mitgedacht werden.
+    \item Mehrsprachige Profile sind keine Defizite, sondern Datenquelle.%
+  }{%
+    Haag 2018; Maehler 2018%
+  }{%
+    Drei Sprachsysteme mit ungleicher Stärke (Albanisch L1, Englisch als Brücke aus dem Fernsehen, Deutsch A1). Diagnostik muss diese Schichtung anerkennen und nicht das schwächste System als Mass nehmen.%
+  }{%
+    Was ein Kind nicht ausdrücken kann, weiss es trotzdem.%
+  }%
+}
+
+% --- Karte 1.5 ---
+\newcommand{\CardFrontOneFive}{%
+  \CardFront{1.5}{Mehrperspektivische Diagnostik}{Kein Einzelbefund hat das letzte Wort}%
+}
+\newcommand{\CardBackOneFive}{%
+  \CardBack{1.5}{%
+    \item Diagnostik ist Prozess, nicht Momentaufnahme.
+    \item Mehraugenprinzip: SHP, Klassenlehrperson, DaZ, SPD, PMT, Eltern.
+    \item Methodenkombination: standardisierter Test, Verhaltensbeobachtung, Lernprodukte, Selbstauskunft, Elterngespräch.
+    \item Triangulation bedeutet nicht Addition, sondern Verbindung. Erst die Verschränkung der Perspektiven trägt.%
+  }{%
+    Gauck \& Reimann 2021; Müller-Oppliger 2021 (Päd. Diagnostik); Preckel 2013%
+  }{%
+    Sein Profil entstand erst durch Zusammenführung von SHP-Beobachtung, SOLUX-Daten, SPD-Test, PMT-Rückmeldung, Eltern- und biografischen Hinweisen. Keine einzige Quelle hätte das ganze Bild ergeben.%
+  }{%
+    Kein Einzelbefund hat das letzte Wort. Erst die Verbindung trägt.%
+  }%
+}
+
+% --- Karte 1.6 ---
+\newcommand{\CardFrontOneSix}{%
+  \CardFront{1.6}{Förderdiagnostik statt Selektion}{Diagnostik öffnet Förderung}%
+}
+\newcommand{\CardBackOneSix}{%
+  \CardBack{1.6}{%
+    \item Selektionsdiagnostik etikettiert (begabt oder nicht), Förderdiagnostik versteht und plant.
+    \item Stärkenorientiert, prozessorientiert, kontinuierlich.
+    \item Zirkulärer Prozess: Beobachten, Hypothese, Intervention, Evaluation.
+    \item Diagnostik ist heilpädagogisch nur sinnvoll, wenn sie Konsequenzen für die Förderung hat.%
+  }{%
+    Müller-Oppliger 2021 (Päd. Diagnostik)%
+  }{%
+    Die Frage war nie „ist S. begabt?“, sondern „was braucht S., damit sein Potenzial zugänglich wird?“. Diagnostik hat bei ihm Förderung initiiert (PMT, SOLUX-Vertiefung), nicht ein Etikett festgeschrieben.%
+  }{%
+    Diagnostik ist kein Urteil, sondern ein Werkzeug für die Förderung.%
+  }%
+}
+
+% --- Karte 1.7 ---
+\newcommand{\CardFrontOneSeven}{%
+  \CardFront{1.7}{Lehrkrafturteil \& Begabungsbilder}{Wahrnehmung kritisch einordnen}%
+}
+\newcommand{\CardBackOneSeven}{%
+  \CardBack{1.7}{%
+    \item Lehrkrafturteile sind unverzichtbar (alltagsnah, kontinuierlich, ressourcenreich), aber subjektiv und stereotypanfällig.
+    \item Implizite Begabungsbilder wirken: begabte Kinder werden häufig als leise, brav, leistungsstark erwartet.
+    \item Migration und auffälliges Verhalten verschieben das Urteil oft systematisch in Richtung Defizit.
+    \item Reflexion der eigenen Begabungsbilder ist Professionspflicht, nicht Zusatzleistung.%
+  }{%
+    Baudson 2025/2021; Stamm 2021%
+  }{%
+    Erstwahrnehmung „auffällig, weinerlich, störend“ aktiviert genau das Defizit-Stereotyp und verdeckt das Potenzial. Die SHP-Aufgabe ist, dieses Urteil sichtbar zu machen, nicht zu übernehmen.%
+  }{%
+    Das Lehrkrafturteil ist wichtig, aber es ist nicht das letzte Wort.%
+  }%
+}
+
+% --- Karte 1.8 ---
+\newcommand{\CardFrontOneEight}{%
+  \CardFront{1.8}{Underachievement \& Gerechtigkeit}{Die strukturelle Ebene der Verdeckung}%
+}
+\newcommand{\CardBackOneEight}{%
+  \CardBack{1.8}{%
+    \item Bildungserfolg in der Schweiz ist statistisch stark herkunftsabhängig (PISA).
+    \item Soziale Herkunft, Sprache und Migrationsgeschichte sind zentrale Prädiktoren für Schulerfolg und Förderzugang.
+    \item Underachievement ist nicht Persönlichkeitsmerkmal, sondern Folge fehlender Passung zwischen Kind und Lernumgebung.
+    \item Begabungsförderung ist deshalb auch Frage der Bildungsgerechtigkeit, nicht nur der individuellen Diagnostik.%
+  }{%
+    Warnecke-Hauke 2020; Stamm 2025; Koop 2025; Lehwald 2017; Erzinger 2023%
+  }{%
+    S. ist nicht isolierter Einzelfall, sondern individueller Ausdruck eines strukturellen Musters. Das macht die heilpädagogische Verantwortung doppelt: Förderung des Kindes UND Sensibilisierung des Systems.%
+  }{%
+    Wer Begabung fair erkennen will, muss Bildungsgerechtigkeit mitdenken.%
+  }%
+}
+
+% --- Karte 1.9 ---
+\newcommand{\CardFrontOneNine}{%
+  \CardFront{1.9}{Biopsychosozialer Kontext (ICF)}{Kontextfaktoren als Barrieren oder Förderer}%
+}
+\newcommand{\CardBackOneNine}{%
+  \CardBack{1.9}{%
+    \item ICF-Logik: Funktionsfähigkeit ist Resultat aus Person, Aktivität, Partizipation und Kontextfaktoren (Umwelt und persönlich).
+    \item Sprachanforderungen des Regelunterrichts wirken bei Mehrsprachigen als Umweltbarriere.
+    \item Enrichment-Settings wie SOLUX wirken als Förderfaktor und ermöglichen Partizipation.
+    \item Biografische und soziale Belastungen sind nicht diagnostisch zu interpretieren, sondern als Kontextfaktoren mitzudenken.%
+  }{%
+    ICF; Kappus 2010; Grossenbacher 2014%
+  }{%
+    Mobbingbiografie plus A1 plus sensomotorische Auffälligkeiten plus institutionelle Routinen wirken als überlagerte Kontextfaktoren. SOLUX is der erste systematische Förderfaktor, der Partizipation ermöglicht.%
+  }{%
+    Begabung zeigt sich in Person und Umwelt zugleich.%
+  }%
+}
+
+% --- Karte 1.10 (Overview 1) ---
+\newcommand{\CardFrontOneTen}{%
+  \CardFront{1.10}{Übersicht Karten 1.1 -- 1.5}{Übersicht der Karten 1.1 bis 1.5}%
+}
+\newcommand{\CardBackOneTen}{%
+  \begin{cardbackbox}{1.10}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 1 -- Theoriebereiche (Teil 1):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{1.1} & \textbf{Begabung als Potenzial} \\
+                       & Begabung ist entwicklungsfähig, nicht statisch. (Stern, Müller-Oppliger) \\
+          \textbf{1.2} & \textbf{Der fehlende Blick} \\
+                       & Begabte Minoritäten werden systematisch übersehen. (Stamm, Keller-Koller) \\
+          \textbf{1.3} & \textbf{Twice Exceptionality (2e)} \\
+                       & Defizite maskieren kognitives Potenzial. (Baum \& Schader, Webb) \\
+          \textbf{1.4} & \textbf{Sprachsensible Diagnostik} \\
+                       & Sprachstand ist Validitätsfrage, nicht Befund. (Haag, Maehler) \\
+          \textbf{1.5} & \textbf{Mehrperspektivische Diagnostik} \\
+                       & Kein Einzelbefund hat das letzte Wort (Triangulation). (Gauck, Preckel) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 1.11 (Overview 2) ---
+\newcommand{\CardFrontOneEleven}{%
+  \CardFront{1.11}{Übersicht Karten 1.6 -- 1.9}{Übersicht der Karten 1.6 bis 1.9}%
+}
+\newcommand{\CardBackOneEleven}{%
+  \begin{cardbackbox}{1.11}
+    \begin{spacing}{0.95}
+      {\fontsize{8.5pt}{10.5pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Übersicht Frage 1 -- Theoriebereiche (Teil 2):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.25}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{1.6} & \textbf{Förderdiagnostik statt Selektion} \\
+                       & Diagnostik öffnet Förderung, sie schliesst nicht. (Müller-Oppliger) \\
+          \textbf{1.7} & \textbf{Lehrkrafturteil \& Begabungsbilder} \\
+                       & Wahrnehmung ist nie unschuldig. (Baudson, Stamm) \\
+          \textbf{1.8} & \textbf{Underachievement \& Gerechtigkeit} \\
+                       & Underachievement ist Passungs-, nicht Persönlichkeitsproblem. (Warnecke-Hauke, Stamm) \\
+          \textbf{1.9} & \textbf{Biopsychosozialer Kontext (ICF)} \\
+                       & Begabung zeigt sich in Person und Umwelt zugleich. (ICF, Kappus) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% --- Karte 1.12 (Einsatzlogik) ---
+\newcommand{\CardFrontOneTwelve}{%
+  \CardFront{1.12}{Einsatzlogik}{Einsatzlogik im Prüfungsgespräch}%
+}
+\newcommand{\CardBackOneTwelve}{%
+  \begin{cardbackbox}{1.12}
+    \begin{spacing}{0.9}
+      {\fontsize{7.5pt}{9.2pt}\selectfont
+        \textbf{\textcolor{preussischblau}{Einsatzlogik im Prüfungsgespräch (Mögliche Fragen \& Karten):}}
+        \vskip 3pt
+        \renewcommand{\arraystretch}{1.15}
+        \begin{tabularx}{\linewidth}{@{}l X @{}}
+          \textbf{„Was ist Begabung?“} & $\rightarrow$ \textbf{Karte 1.1} (Potenzialbegriff, Stern, Müller-Oppliger) \\
+          \textbf{„Warum übersieht man Migration?“} & $\rightarrow$ \textbf{Karte 1.2 \& 1.7} (Minoritäten, Stereotype, Stamm) \\
+          \textbf{„Was meinen Sie mit 2e?“} & $\rightarrow$ \textbf{Karte 1.3} (Verdeckungsfallen, Baum \& Schader, Webb) \\
+          \textbf{„Diagnostik bei A1-Deutsch?“} & $\rightarrow$ \textbf{Karte 1.4 \& 1.5} (Sprachsensibilität, Triangulation) \\
+          \textbf{„Wozu überhaupt diagnostizieren?“} & $\rightarrow$ \textbf{Karte 1.6} (Förderdiagnostik vs. Selektion) \\
+          \textbf{„Rolle der Wahrnehmung des Teams?“} & $\rightarrow$ \textbf{Karte 1.7} (Lehrkrafturteil, implizite Bilder) \\
+          \textbf{„Strukturelles Problem?“} & $\rightarrow$ \textbf{Karte 1.8} (Bildungsgerechtigkeit, Herkunftseffekt) \\
+          \textbf{„Heilpädagogische Verortung?“} & $\rightarrow$ \textbf{Karte 1.9} (ICF, Kontextfaktoren, Partizipation) \\
+        \end{tabularx}
+      }
+    \end{spacing}
+  \end{cardbackbox}%
+}
+
+% =========================================================================
+% DOCUMENT START
+% =========================================================================
+\begin{document}
+
+% SHEET 1 - FRONT
+\renderfour{\CardFrontOneOne}{\CardFrontOneTwo}{\CardFrontOneThree}{\CardFrontOneFour}
+
+% SHEET 1 - BACK (Horizontally flipped)
+\renderfour{\CardBackOneTwo}{\CardBackOneOne}{\CardBackOneFour}{\CardBackOneThree}
+
+% SHEET 2 - FRONT
+\renderfour{\CardFrontOneFive}{\CardFrontOneSix}{\CardFrontOneSeven}{\CardFrontOneEight}
+
+% SHEET 2 - BACK (Horizontally flipped)
+\renderfour{\CardBackOneSix}{\CardBackOneFive}{\CardBackOneEight}{\CardBackOneSeven}
+
+% SHEET 3 - FRONT
+\renderfour{\CardFrontOneNine}{\CardFrontOneTen}{\CardFrontOneEleven}{\CardFrontOneTwelve}
+
+% SHEET 3 - BACK (Horizontally flipped)
+\renderfour{\CardBackOneTen}{\CardBackOneNine}{\CardBackOneTwelve}{\CardBackOneEleven}
+
+\end{document}

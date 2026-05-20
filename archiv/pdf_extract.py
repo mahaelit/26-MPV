@@ -56,7 +56,7 @@ except Exception:
 
 
 HERE      = Path(__file__).resolve().parent
-LITERATUR = HERE / "Literatur"
+LITERATUR = HERE.parent / "Literatur"
 PAGE_SEP  = "\x0c"   # Form Feed - Standard-Seitentrenner fuer pdftotext
 
 
