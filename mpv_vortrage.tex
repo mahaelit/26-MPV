@@ -1,0 +1,573 @@
+\documentclass[ngerman, a4paper]{article}
+
+% !TeX program = xelatex
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\IfFileExists{aptos-font/aptos.ttf}{%
+  \setmainfont{Aptos}[
+    Path           = ./aptos-font/,
+    Extension      = .ttf,
+    UprightFont    = aptos,
+    BoldFont       = aptos-bold,
+    ItalicFont     = aptos-italic,
+    BoldItalicFont = aptos-black-italic
+  ]%
+}{%
+  \setmainfont{lmroman10-regular.otf}[
+    BoldFont       = lmroman10-bold.otf,
+    ItalicFont     = lmroman10-italic.otf,
+    BoldItalicFont = lmroman10-bolditalic.otf
+  ]% Fallback, falls Aptos nicht im Projektordner liegt.
+}
+
+\usepackage{babel}
+\usepackage[top=2.5cm, right=2.5cm, bottom=2.5cm, left=2.5cm, head=15pt]{geometry}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\DeclareQuoteAlias{french}{ngerman}
+\usepackage[style=apa, backend=biber, sortcites=true, sorting=nyt]{biblatex}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\addbibresource{Quellen.bib}
+\AtEveryBibitem{\clearfield{annotation}}
+
+% ----- APA-7-Anpassungen für TeX Live 2024 -----
+\DefineBibliographyStrings{ngerman}{
+  nodate    = {o\adddot\addabbrvspace J\adddot},
+  retrieved = {Abgerufen am},
+  from      = {von},
+}
+
+\DefineBibliographyExtras{ngerman}{%
+  \def\urldatecomma{\addcomma\space}%
+}
+
+% ------------- Zeilenabstand
+\usepackage{setspace}
+\onehalfspacing
+
+% ------------- Keine Einrückung, dafür Absatzabstand
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip plus 2pt minus 1pt}
+
+% ------------- Kopfzeile
+\usepackage[automark]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearmainofpairofpagestyles
+\ihead{}
+\chead{}
+\ohead{\pagemark}
+
+\usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  pdfborderstyle={/S/U/W 0},
+  citebordercolor=1 1 0.8,
+  linkbordercolor=1 1 0.8,
+  urlbordercolor=1 1 0.8,
+  pdfauthor={Inti Merolli},
+pdftitle={Fünf Sprechfassungen zur Masterprüfung Vertiefung: Verdeckte
+Begabungen bei frühem Zweitspracherwerb}
+}
+
+%-------------- Ende allgemeine Angaben -----------------------------
+
+\begin{document}
+
+%-------------- Beginn Titelseite -----------------------------------
+\hypersetup{pageanchor=false}
+\thispagestyle{empty}
+
+\IfFileExists{PH_Luzern_Logo.png}{%
+  \includegraphics[height=2cm]{PH_Luzern_Logo.png}
+}{%
+  \vspace*{2cm}
+}
+
+\vspace{1cm}
+\begin{center}
+Masterstudiengang Schulische Heilpädagogik \\
+
+\vspace{2.5cm}
+{\huge Masterprüfung Vertiefung} \\
+
+\vspace{1.5cm}
+{\fontsize{25}{28}\selectfont
+\textit{Verdeckte Begabungen bei frühem\\
+Zweitspracherwerb}\par}
+\vspace{0.5cm}
+{\fontsize{16}{20}\selectfont
+Fünf wissenschaftlich fundierte Sprechfassungen\\
+zu Erkennung, Förderung und Sicherung im Projekt SOLUX\par}
+
+\vspace{1.5cm}
+{\large Vortragsmanuskript zum Plakat mit Ringstruktur\par}
+
+\vspace{1.5cm}
+Examinatorin: Sabine Tanner Merlo \\
+\end{center}
+
+\vfill
+\begin{flushright}
+Abgelegt von: \\
+Inti Merolli \\
+
+\vspace{1cm}
+Prüfungstermin: \\
+11. Juni 2026
+\end{flushright}
+%-------------- Ende Titelseite -------------------------------------
+
+\newpage
+\hypersetup{pageanchor=true}
+\pagenumbering{Roman}
+\renewcommand{\thepage}{\Roman{page}}
+\cleardoublepage\phantomsection
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\section*{Abkürzungsverzeichnis}
+
+\begin{tabular}{@{}ll@{}}
+2e      & Twice Exceptionality, doppelte Ausnahme \\
+DaZ     & Deutsch als Zweitsprache \\
+ICF     & International Classification of Functioning, Disability and Health \\
+ICF-CY  & ICF -- Children and Youth Version \\
+KJPD    & Kinder- und Jugendpsychiatrischer Dienst \\
+PMT     & Psychomotorik-Therapie \\
+SEM     & Schoolwide Enrichment Model \\
+SHP     & Schulische Heilpädagogin / Schulischer Heilpädagoge \\
+SPD     & Schulpsychologischer Dienst \\
+UDL     & Universal Design for Learning \\
+\end{tabular}
+
+\newpage
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+\renewcommand{\thepage}{\arabic{page}}
+
+% ════════════════════════════════════════════════════════
+\section*{Vortragslogik des Plakats}
+\addcontentsline{toc}{section}{Vortragslogik des Plakats}
+% ════════════════════════════════════════════════════════
+
+Die fünf Sprechfassungen beantworten je eine Fragestellung eigenständig. Das
+Plakat dient dabei als prägnante Visualisierung: Vier Ringsegmente zeigen
+zunächst eine defizitorientierte Oberfläche und öffnen darunter die fachliche
+Antwort; im Zentrum steht SOLUX als diagnostisches Fenster, in dem Begabung
+nicht erzeugt, sondern unter veränderten Bedingungen erkennbar wird. Die
+äusseren Stationen heissen \textit{Erkennen}, \textit{Entlasten},
+\textit{Anerkennen} und \textit{Sichern}; die Mitte heisst \textit{Sichtbar
+machen}.
+
+Die Sprechfassungen sind als wissenschaftlich gerahmte Vortragsmanuskripte
+formuliert. Die Literaturverweise bleiben im Text stehen, damit die Quellentreue
+im schriftlichen Dokument nachvollziehbar ist. Für die mündliche Prüfung können
+die Zitationsklammern situativ verdichtet oder ausgelassen werden.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section{Vortrag 1: Erkennen}
+\label{sec:vortrag1}
+% Prüfungsformel: Diagnostik = Sprachsensibilität + Triangulation + Kontext + Förderhypothese.
+% ════════════════════════════════════════════════════════
+
+\begin{quote}\itshape
+Wie können verdeckte Begabungen bei neu zugewanderten, mehrsprachigen
+Schüler:innen mit geringen Deutschkenntnissen multiperspektivisch erfasst
+werden?
+\end{quote}
+
+Meine Kernthese lautet: Bei S. darf kein Einzelbefund das letzte Wort haben.
+Verdeckte Begabung erkenne ich nur, wenn ich Sprache, Verhalten, Biografie,
+Unterricht und SOLUX-Beobachtungen zusammenlese.
+
+Die Lupe auf dem Plakat verdichtet diese diagnostische Aufgabe: Sie steht für
+genaues Hinschauen, aber auch für die Gefahr, einen Teilbefund zu übergewichten.
+Der erste schulische Blick sieht Sprachstand, Verhalten und
+Anpassungsschwierigkeiten -- er sieht aber noch nicht zwingend das kognitive
+Potenzial. Erkennen heisst darum nicht, den ersten Eindruck zu bestätigen.
+Erkennen heisst, den ersten Blick fachlich zu überschreiten.
+
+S. ist elf Jahre alt, seit Januar 2025 in der Schweiz, Erstsprache Albanisch, im
+Alltag oft Englisch, Deutsch auf A1-Niveau. In der Übergabe wurde er als
+\enquote{eher auffällig, sehr weinerlich und etwas störend} beschrieben.
+Gleichzeitig zeigte er im offenen SOLUX-Setting mathematisches Verständnis,
+strategisches Schachdenken, Mustererkennung und ausdauernde Konzentration. Diese
+Diskrepanz ist kein Widerspruch. Sie ist der zentrale diagnostische Befund: Was
+ein Kind zeigt, hängt davon ab, unter welchen Bedingungen es gesehen wird.
+
+Wenn ich den Deckel öffne, erscheint deshalb die fachliche Antwort:
+sprachsensibel, mehrperspektivisch, stärkenoffen, multiprofessionell und
+kontextbewusst erfassen. Das nenne ich mein diagnostisches Mosaik. Mosaik
+bedeutet aber nicht, beliebig viele Informationen zu sammeln. Es bedeutet,
+Befunde in Beziehung zu setzen.
+
+Der erste Mosaikstein ist die sprachsensible Diagnostik. Bei neu zugewanderten
+Kindern ist Sprache keine Randbedingung, sondern eine Validitätsbedingung.
+Leistungsdiagnostische Verfahren können Ergebnisse verfälschen, wenn sie
+sprachliche Anforderungen nicht mitdenken; Mehrsprachigkeit ist zugleich Teil
+der Kompetenzbiografie und darf nicht defizitär verkürzt werden
+\parencites{haag2018leistungsstanddiagnostik}{maehler2018diagnostik}. Für S.
+heisst das: Albanisch, Englisch und Deutsch A1 bilden ein Sprachprofil.
+Diagnostisch muss ich fragen: In welcher Sprache, mit welchen Aufgaben und über
+welche nonverbalen oder handlungsorientierten Zugänge kann S. zeigen, was er
+denkt?
+
+Der zweite Mosaikstein ist das kritisch eingeordnete Lehrkrafturteil. Das
+Übergabeurteil ist nicht wertlos, aber es ist situationsgebunden. Begabte Kinder
+mit Migrationserfahrung werden in Förderkontexten leicht übersehen, wenn
+Leistung, Sprache und Anpassung als Hauptindikatoren gelten
+\parencites{stamm2021fehlenderblick}{koop2025herkunft}{kellerkoller2025hellekoepfe}.
+Zusätzlich wirken implizite Begabungsbilder: Begabte Kinder werden häufig als
+sprachlich stark, angepasst und leistungsfähig erwartet
+\parencite{baudson2021wasdenken}. Wer diesem Bild nicht entspricht, fällt aus
+dem Raster. Darum sage ich zur Lupe: Die Wörter auf dem Deckel sind relevant,
+aber sie sind noch keine Diagnose. Sie zeigen, was sichtbar wurde, nicht, was
+möglich ist.
+
+Der dritte Mosaikstein ist die stärkenoffene Beobachtung. SOLUX ist in Frage~1
+noch nicht das Zentrum der Theorie, sondern ein wichtiger Kontrastbefund. Im
+Regelunterricht erscheint S. über Sprache, Schrift und Verhalten. In SOLUX wird
+strategisches Denken sichtbar. Das beweist für sich allein keine Hochbegabung,
+aber es zeigt: Der Defizitblick ist unvollständig.
+
+Der vierte Mosaikstein ist die multiprofessionelle Prozessdiagnostik. Diagnostik
+ist nicht ein einzelner Testmoment, sondern ein Prozess aus Beobachtung,
+Hypothese, Intervention und Evaluation
+\parencites{gauckreimann2021psychdiagnostik}{muelleroppliger2021paeddiagnostik}.
+Bei S. müssen deshalb SHP, Klassenlehrperson, DaZ, SPD, PMT, Elternwissen und
+SOLUX-Beobachtungen zusammengeführt werden.
+
+Der fünfte Mosaikstein ist die Kontextperspektive. Mobbingerfahrungen,
+unterbrochener Schriftspracherwerb, Migration und soziale Isolation erklären
+nicht alles, aber sie verändern die Lesart. Mit der ICF-CY denke ich Person,
+Aktivität, Partizipation und Umwelt zusammen \parencite{who2007icfcy}. Mit dem
+2e-Konzept nutze ich \enquote{doppelte Ausnahme} nicht als Etikett, sondern als
+diagnostische Suchperspektive: Schwierigkeiten dürfen Potenzial nicht verdecken
+\parencites{kappus2010migration}{baumschader2021twice}{webb2020doppeldiagnosen}.
+
+Damit komme ich zum Merksatz unter der Klappe: Kein Einzelbefund hat das letzte
+Wort. Multiperspektivische Diagnostik ist Triangulation, nicht Addition. Ich
+frage: Welche Beobachtung stammt aus welchem Setting? Welche Barriere könnte
+Leistung verdecken? Welche nächste Förderung prüft unsere Hypothese?
+
+Gleichzeitig muss ich aufpassen, dass SOLUX nicht zum neuen Bestätigungsfehler
+wird. Auch die stärkenorientierte Beobachtung braucht Kriterien,
+Vergleichsdaten und multiprofessionelle Einordnung.
+
+Je nach Ergänzungsfrage würde ich unterscheiden: Bei einfachen Massnahmen
+stehen Unterrichtsbeobachtung und DaZ/SHP-Absprachen im Vordergrund; bei
+verstärkten Massnahmen wird Triangulation mit SPD, PMT, Elternwissen und
+Förderplanung zentral.
+
+\textbf{Schlusssatz:} Der Kern ist nicht die Ja-nein-Frage, ob S. begabt ist.
+Entscheidend ist, wie ich verhindere, dass sein Potenzial durch eine
+eindimensionale Sicht verdeckt bleibt.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section{Vortrag 2: Entlasten}
+\label{sec:vortrag2}
+% Prüfungsformel: Entlastung = Barriere reduzieren, Anspruch halten, Transfer prüfen.
+% ════════════════════════════════════════════════════════
+
+\begin{quote}\itshape
+Welche sensomotorischen und schriftsprachlichen Faktoren können dazu beitragen,
+dass kognitive Potenziale verdeckt bleiben, und wie lassen sie sich
+ressourcenorientiert bearbeiten?
+\end{quote}
+
+Meine Kernthese: S.s Problem liegt nicht im Denken, sondern im Zugang.
+Graphomotorik und Leseflüssigkeit binden Kapazität, die dann für das Verstehen
+fehlt -- das lese ich nicht als Denkgrenze, sondern als Zugangsbarriere.
+
+Die Visualisierung zeigt zunächst die Oberfläche: inkonsistente Buchstaben,
+nicht automatisierte Abläufe und geringe Leseflüssigkeit.
+
+Auf dem Plakat wird diese Logik als Brücke dargestellt: Auf dem einen Ufer liegt
+die Verdeckung durch Schrift und Planung. Auf dem anderen liegt das Potenzial.
+S. zeigt im SOLUX strategisches Denken, aber sobald Schreiben oder Lesen
+verlangt werden, wird diese Dynamik deutlich erschwert. Die Brücke zwischen
+Denken und Ausdruck ist noch nicht tragfähig.
+
+Der erste Faktor ist die Graphomotorik. Schreiben ist ein hierarchischer
+Prozess \parencite{nottbusch2017graphomotorik}. Wenn Bewegungen nicht
+automatisiert sind, binden sie das Arbeitsgedächtnis; die Handschrift wird
+diagnostisch relevant \parencite{hurschler2020handschriftbeurteilung}. Bei S.
+ist der Ausdruckskanal durch motorische Mühe eng, nicht das Denken schwach.
+
+Der zweite Faktor ist die Leseflüssigkeit. \textcite{gold2018lesenkannmanlernen}
+zufolge liegt unter 40 Wörtern pro Minute ein Frustrationsniveau vor. Wenn S.
+fast alle Ressourcen für das Dekodieren braucht, kann er kaum Sinn entnehmen.
+Das Verständnis wird blockiert.
+
+Der dritte Faktor ist die affektiv-motivationale Dynamik. Underachievement ist
+kein Persönlichkeitsmerkmal, sondern eine Diskrepanz \parencite{greiten2021underachievement}.
+\textcite{lehwald2017motivation} zeigt, wie fehlende Passung zu
+Anstrengungsvermeidung führen kann. Darum gilt: Sicherheit vor Anforderung, aber
+nicht statt Anforderung.
+
+Wenn ich den Deckel öffne, erscheint die fachliche Antwort: die
+Schrift-Schach-Brücke mit drei Pfeilern:
+
+Der erste Pfeiler ist graphomotorisch: Ich nutze kurze Schachnotationen wie
+e2-e4 oder Sf3-e5, um Buchstaben und Zahlen mit Bedeutung zu üben.
+
+Der zweite Pfeiler ist schriftsprachlich: Ich arbeite mit wiederholtem Lautlesen
+von Schachwörtern, was den Aufbau von Leseflüssigkeit unterstützt
+\parencite{gold2018lesenkannmanlernen}.
+
+Der dritte Pfeiler ist heilpädagogisch: Das GRAFINK-Rahmenmodell legitimiert
+Graphomotorik als inklusiven Förderbereich \parencite{saegesserwyss2021grafinkrahmenmodell}.
+
+Die Schrift-Schach-Brücke darf nicht beim Spezialinteresse stehen bleiben.
+Förderdiagnostisch relevant wird sie erst, wenn sich Automatisierung und
+Leseflüssigkeit auf andere schulische Situationen übertragen.
+
+Je nach Ergänzungsfrage würde ich unterscheiden, ob die Entlastung primär
+graphomotorisch, lesedidaktisch oder motivational ansetzt. Entscheidend bleibt:
+Der Anspruch wird nicht gesenkt, sondern der Zugang zum Anspruch aufgebaut.
+
+\textbf{Schlusssatz:} Der Kern liegt nicht in der Frage, ob S. genug übt.
+Entscheidend ist, welche Barrieren sein Denken verdecken -- und wie ich sie
+abbaue, ohne den kognitiven Anspruch zu senken.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section{Vortrag 3: Anerkennen}
+\label{sec:vortrag3}
+% Prüfungsformel: Anerkennung = Sicherheit + Personachtung + Peer-Status.
+% ════════════════════════════════════════════════════════
+
+\begin{quote}\itshape
+Unter welchen relationalen Bedingungen werden die Potenziale von S. sichtbar,
+und welche Rolle spielt soziale Teilhabe dabei?
+\end{quote}
+
+Meine Kernthese: Bei S. wird Potenzial nicht nur in Aufgaben sichtbar, sondern
+unter Bedingungen von Sicherheit, Anerkennung und sozialer Teilhabe. Das Plakat
+zeigt deshalb zuerst Rückzug und Verweigerung, darunter aber die
+Beziehungsbedingungen des Sichtbarwerdens.
+
+In der Klassenübergabe erschien S. als \enquote{auffällig und störend}. Im
+SOLUX zeigt er Schachkompetenz und Konzentration. Nicht ein anderes Kind wird
+sichtbar, sondern ein anderes Zusammenspiel von Aufgabe, Beziehung und
+Umweltbedingungen.
+
+Der erste Filter ist emotionale Sicherheit. Stress bindet Ressourcen
+\parencites{evers2025stress}{kuhl2019diversitaet}. \textcite{behrensen2019inklusive}
+fragt nach dem \enquote{guten Grund} für Verhalten: Migration oder
+Schulbeschämung wirken sich kumulativ aus.
+
+Der zweite Filter ist Anerkennung. \textcite{grossrieder2010anerkennung}
+unterscheidet zwischen Lob und dem respektvollen Blick auf die Person. Ich
+trenne das Verhalten (auffällig) von der Person (S. als Kompetenzträger).
+
+Der dritte Filter ist soziale Teilhabe. Teilhabe bedeutet, als
+Lernpartner wahrgenommen zu werden \parencites{kesselshannover2015gleichaltrige}{baumert2022freundschaftwerte}.
+\textcite{tschoppbuholzergruetter2022intergruppenkontakt} zeigen, dass
+strukturiertes kooperatives Lernen den Status anhebt.
+
+Begabungsbilder sind hier zentral: \textcite{baudson2021wasdenken} warnt vor
+stereotypen Erwartungen, während \textcite{wagener2021bfhemmendfoerdernd}
+aufzeigt, wie soziale Anerkennungsprozesse Begabung erst ermöglichen können.
+
+Ein konkretes Peer-Arrangement bei S.: Schach bietet eine natürliche
+Statusressource. Im SOLUX kann S. als kompetenter Mitspieler wahrgenommen werden
+-- unabhängig von Sprachstand oder Schulleistung. Das verändert die soziale
+Dynamik in der Gruppe messbar
+\parencite{tschoppbuholzergruetter2022intergruppenkontakt}.
+
+Beziehung vor Anforderung heisst nicht Anforderungsverzicht. Ich schaffe
+Bedingungen, unter denen Anforderung wieder erreichbar wird: verlässliche
+Beziehung, nonverbale Beteiligung und strukturierte Peer-Arrangements.
+
+Je nach Ergänzungsfrage würde ich vertiefen, ob Sicherheit eher über
+individuelle Beziehungsgestaltung oder über strukturierte Peer-Arrangements
+aufgebaut wird. Beides ist bei S. nicht alternativ, sondern komplementär.
+
+\textbf{Schlusssatz:} Der professionelle Kern liegt nicht in der Frage, ob S.
+schwierig ist. Er liegt darin, unter welchen relationalen Bedingungen sein
+Potenzial sichtbar wird -- und wie ich diese Bedingungen aktiv mitgestalte.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section{Vortrag 4: Sichtbar machen}
+\label{sec:vortrag4}
+% Prüfungsformel: SOLUX = Enrichment + Beobachtungsfenster + Dokumentation + Transfer.
+% ════════════════════════════════════════════════════════
+
+\begin{quote}\itshape
+Inwiefern können offene, enrichment-orientierte Begabungsförderungssettings wie
+SOLUX Potenziale sichtbar machen, die im Regelunterricht systematisch übersehen
+werden?
+\end{quote}
+
+Im Zentrum meiner Argumentation steht SOLUX als diagnostisches Fenster. Dieses
+Zentrum ist auf dem Plakat bewusst nicht zugedeckt, weil hier die Grundthese
+gilt: Begabung wird nicht erzeugt, sie wird unter passenden Bedingungen
+sichtbar.
+
+Im Regelunterricht erscheint S. durch Schwierigkeiten, im SOLUX durch
+strategisches Denken und Konzentration. Das Setting verändert, was sichtbar
+wird. SOLUX erzeugt keine Begabung im Sinne einer neuen Eigenschaft; es
+verändert die Performanzbedingungen so, dass vorhandenes Potenzial beobachtbar
+wird.
+
+Theoretisch stütze ich mich auf ein systemisches Begabungsverständnis
+\parencites{hoyer2013begabung}{muelleroppliger2021begabungsmodelle}. Das
+Schoolwide Enrichment Model schafft Räume, in denen Potenziale erst beobachtbar
+werden \parencite{reisrenzullimueller2021sem}.
+
+Das Fenster zeigt vier Merkmale, die im Regelunterricht oft fehlen:
+1. Interessenorientierung: Schach koppelt Motivation und strategisches Denken
+so, dass S. nicht über Sprache oder Schrift, sondern über Problemlösen
+zugänglich wird.
+2. Notenfreiheit: Beobachtbar werden Strategie und Prozessqualität statt
+Ziffern. Das entlastet und öffnet zugleich den diagnostischen Blick.
+3. Adaptivität: Sprachliche Entlastung ermöglicht kognitive Teilhabe
+\parencite{muelleroppliger2021adaptive}. S. kann zeigen, was er denkt, weil er
+nicht zuerst beweisen muss, was er schreiben kann.
+4. Dokumentation: Beobachtung muss in den Förderprozess fliessen, sonst bleibt
+SOLUX eine Insel \parencite{muelleroppliger2021paeddiagnostik}. Ich halte
+fest: welche Aufgaben, welche Interaktionen, welche Denkwege.
+
+Die Chimäre auf dem Plakat symbolisiert die mehrperspektivische Begabung
+jenseits eindimensionaler Lesarten. Sie steht für die Spannung zwischen dem,
+was der Regelunterricht sieht, und dem, was unter anderen Bedingungen sichtbar
+wird. Das ist keine romantisierende Figur, sondern ein Schutz vor
+vorschneller Kategorisierung. Bildungsgerechtigkeit verlangt, dass diese Spannung
+ausgehalten und diagnostisch genutzt wird
+\parencites{sedmak2021bildungsgerechtigkeit}{muelleroppliger2021plurale}.
+
+SOLUX ist kein standardisierter Intelligenztest. Seine Stärke liegt in der
+Beobachtung von Denkwegen; deshalb müssen die Beobachtungen kriteriengestützt
+dokumentiert und mit anderen Daten trianguliert werden.
+
+Je nach Ergänzungsfrage würde ich zeigen, wie SOLUX-Beobachtungen
+kriteriengestützt dokumentiert und in Förderplanung oder Übertrittsgespräche
+überführt werden -- damit das Fenster kein Momentbefund bleibt.
+
+\textbf{Schlusssatz:} Der Kern liegt nicht in der Frage, ob SOLUX ein schönes
+Projekt ist. Entscheidend ist, wie wir Bedingungen schaffen, unter denen das
+kognitive Potenzial von S. beobachtbar und förderdiagnostisch nutzbar wird.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section{Vortrag 5: Sichern}
+\label{sec:vortrag5}
+% Prüfungsformel: Sichern = Daten kollektivieren + Deutungen reflektieren + gemeinsam handeln.
+% ════════════════════════════════════════════════════════
+
+\begin{quote}\itshape
+Wie gestalte ich als SHP Beratung und Zusammenarbeit so, dass defizitorientierte
+Wahrnehmungen von Schüler:innen mit verdeckten Begabungen gemeinsam reflektiert
+und ressourcenorientiert erweitert werden?
+\end{quote}
+
+Meine Kernfrage: Wie wird das in SOLUX sichtbar gewordene Potenzial im System
+gesichert? Ich arbeite als SHP nicht gegen das Team, sondern gegen eine
+verengte Datenbasis.
+
+Der Deckel zeigt die Gefahr: Abwarten, Defizitblick, verengte Wahrnehmung. Bei
+S. war das konkret: In der Übergabe erschien er als auffällig, weinerlich,
+störend. Die Empfehlung zum Abwarten war als Momentaufnahme nachvollziehbar.
+Förderdiagnostisch wird sie aber problematisch, wenn dadurch keine weiteren
+Beobachtungen gesichert werden. Meine Aufgabe als SHP ist deshalb nicht
+Widerspruch um des Widerspruchs willen, sondern Erweiterung der Datenbasis.
+
+Der Leuchtturm auf dem Plakat steht für die professionelle Orientierungsfunktion.
+Die SHP beleuchtet: Welche Beobachtungen liegen vor? Welche Deutungsmuster
+strukturieren unseren Blick? Und welche blinden Flecken entstehen dabei? Begabte
+Underachiever und Kinder aus unterrepräsentierten Gruppen werden leicht
+übersehen, wenn Schulleistung, Sprache und Anpassung dominieren
+\parencite{baudson2025besserfinden}. Der Leuchtturm bringt Orientierung durch
+strukturierte Reflexion, nicht durch Behauptung.
+
+Wenn ich den Deckel öffne, erscheint die SHP-Trias.
+
+Der erste Pfeiler ist fachliche Unabhängigkeit. Das Personenprinzip nach
+\textcite{weigand2021person} hält S. vor jeder Kategorisierung zunächst als
+Person: weder auf Migration oder Verhalten reduziert noch vorschnell auf
+Hochbegabung festgelegt. Ich übernehme die dominante Teamdeutung nicht
+ungeprüft, sondern irritiere sie begründet durch weitere Beobachtungen.
+
+Der zweite Pfeiler ist institutionelle Wachsamkeit.
+\textcite{horvath2021elite} hilft, Defizitorientierung nicht zu moralisieren,
+sondern als mögliche Folge institutioneller Routinen und sozialer Ungleichheit
+zu verstehen. Gerade bei S. bündeln sich Merkmale, die Schule oft schlecht
+sieht: Migration, Deutsch als Zweitsprache, graphomotorische Schwierigkeiten,
+soziale Unsicherheit und auffälliges Verhalten.
+\textcite{macha2019gender} zeigt, dass implizite Bilder von Begabung und
+Normalität professionell reflektiert werden müssen. Deshalb frage ich im Team
+nicht: \enquote{Ihr seht S. falsch.} Ich frage: \enquote{Was wird nicht
+sichtbar, wenn wir nur auf das Störende schauen?}
+
+Der dritte Pfeiler ist reflexive Partnerschaftlichkeit. Beratung darf nicht als
+Belehrung auftreten. Zusammenarbeit wird tragfähig, wenn Fachpersonen gemeinsam
+ein differenzierteres Fallverständnis entwickeln; Kokonstruktion geht über reine
+Arbeitsteilung hinaus \parencite{groschefussangelgraesel2020kokonstruktion}. Die
+Kontrastfrage lautet: Was ist an SOLUX anders, dass S. dort Stärken zeigt? Diese
+Frage verbindet Frage~5 direkt mit dem Zentrum des Plakats.
+SOLUX-Beobachtungen ergänzen das Bild.
+
+Unter der Trias zeigt das Plakat vier Handlungsschritte. Erstens: Beobachtungen
+sichern -- aus SOLUX, Regelunterricht, DaZ, SPD, PMT, Eltern und biografischen
+Gesprächen. Zweitens: die genannte Kontrastfrage einbringen, nicht als
+Gegenbeweis, sondern als Öffnung. Drittens: Barrieren analysieren mit Universal
+Design for Learning: Welche Zugänge, Ausdrucksformen und Beteiligungsmöglichkeiten
+bietet der Unterricht, welche versperrt er? UDL hilft, didaktische
+Zugänglichkeit systematisch zu prüfen
+\parencite{muellerboeschschaffnermenn2021udl}. Viertens: Förderplanung gemeinsam
+entwickeln, mit Klassenlehrperson, SHP, DaZ, Fachstellen, Schulleitung und
+Eltern. Multiprofessionelle Kooperation braucht Rollenklarheit, verbindliche
+Strukturen und eine gemeinsame Zielorientierung
+\parencites{widmerwolf2018multiprofessionell}{nguyensliwka2021massnahmen}.
+
+Gerade die Eltern gehören ins Netzwerk. Sie sind nicht nur Adressat:innen,
+sondern Wissensquelle. Bei S. wurden Mobbingerfahrungen und der möglicherweise
+unterbrochene Schriftspracherwerb erst durch ein strukturiertes, sprachlich
+gesichertes Gespräch verständlich. Elternwissen ist damit kein Zusatz, sondern
+Teil einer vollständigen Förderdiagnostik
+\parencite{kosoroklabhart2021voneltern}.
+
+Als SHP darf ich nicht zur Einzelanwältin gegen das Team werden. Meine Aufgabe
+ist, die Datenbasis zu erweitern und ein gemeinsames Fallverständnis zu
+ermöglichen.
+
+Je nach Ergänzungsfrage würde ich vertiefen, wie Beratung ohne Konfrontation
+gelingt: Die Kontrastfrage -- Was ist an SOLUX anders? -- öffnet Gespräche,
+ohne Kolleg:innen zu korrigieren.
+
+\textbf{Schlusssatz:} Der professionelle Kern liegt nicht darin, das Team zu
+überreden. Es geht darum, Sichtbarkeit zu sichern: Was nur eine Person sieht,
+bleibt fragil; was ein Team gemeinsam versteht, kann Bildungswege verändern.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\section*{Schlussüberleitung für die mündliche Prüfung}
+\addcontentsline{toc}{section}{Schlussüberleitung für die mündliche Prüfung}
+% ════════════════════════════════════════════════════════
+
+Das Plakat führt damit von der verdeckten Oberfläche zur professionellen
+Sichtbarkeit: Erkennen überschreitet den ersten Blick. Entlasten baut Zugänge,
+ohne den Anspruch zu senken. Anerkennen schafft relationale Bedingungen, unter
+denen Potenzial zeigbar wird. SOLUX macht im Zentrum sichtbar, was im
+Regelunterricht systematisch verdeckt bleiben kann. Sichern sorgt dafür, dass
+diese Sichtbarkeit nicht an eine einzelne Person oder ein einzelnes Projekt
+gebunden bleibt, sondern in Beratung, Kooperation und Förderplanung übergeht.
+
+\newpage
+
+% ════════════════════════════════════════════════════════
+\printbibliography[title={Literaturverzeichnis}, heading=bibintoc]
+% ════════════════════════════════════════════════════════
+
+\end{document}
